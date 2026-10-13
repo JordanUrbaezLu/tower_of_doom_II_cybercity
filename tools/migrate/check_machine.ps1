@@ -15,6 +15,8 @@ param(
     [switch]$FullHash
 )
 $ErrorActionPreference = 'Continue'
+# a shell opened before an install can carry a stale PATH (no python / node): check against the current one
+$env:Path = [Environment]::GetEnvironmentVariable('Path', 'Machine') + ';' + [Environment]::GetEnvironmentVariable('Path', 'User')
 $script:fails = 0; $script:warns = 0
 function Pass($m) { Write-Host "  PASS  $m" -ForegroundColor Green }
 function Warn($m) { Write-Host "  WARN  $m" -ForegroundColor Yellow; $script:warns++ }
@@ -72,10 +74,12 @@ Check ([bool][Environment]::GetEnvironmentVariable('ELEVENLABS_API_KEY', 'User')
 Write-Host "== Steam / BO3"
 Check (Test-Path (Join-Path $Game 'BlackOps3.exe')) "BO3 at $Game" "BO3 not found at $Game"
 Check (Test-Path (Join-Path $Tools 'bin\modlauncher.exe')) "Mod Tools at $Tools" "Mod Tools not at $Tools - the private root's 123 junctions point into this exact folder (finish Map One's migration first)"
+# Tower II runs cod2map64 / linker / Radiant from the PRIVATE bin (also the working directory): a DLL that
+# sits only in the Steam tools bin is NOT found by them (2026-10-13 review), so only these two places count.
 foreach ($dll in 'msvcr110.dll', 'msvcp110.dll', 'vcomp110.dll', 'd3dx9_43.dll') {
-    $found = (Test-Path "$env:WINDIR\System32\$dll") -or (Test-Path (Join-Path $Tools "bin\$dll")) -or (Test-Path (Join-Path $Tod2Root "bin\$dll"))
+    $where = if (Test-Path "$env:WINDIR\System32\$dll") { 'System32' } elseif (Test-Path (Join-Path $Tod2Root "bin\$dll")) { 'the private bin' } else { '' }
     $which = if ($dll -like 'd3dx*') { 'DirectX End-User Runtime (June 2010)' } else { 'Visual C++ 2012 Redistributable (x64)' }
-    Check $found "runtime $dll" "runtime $dll missing - install the $which (Steam > Mod Tools > Play once and accept the admin prompt)"
+    Check ([bool]$where) "runtime $dll ($where)" "runtime $dll is in neither System32 nor $Tod2Root\bin - the private tools cannot load it (a copy in the Steam tools bin does not count). Install the $which, or re-run import_bundle.ps1 (it copies the DLL into the private bin)"
 }
 $gu = Get-Item (Join-Path $Game 'usermaps') -Force -ErrorAction SilentlyContinue
 Check ([bool]$gu) 'game\usermaps exists (Map One import: junction to the tools usermaps)' 'game\usermaps missing - finish Map One''s migration (its import makes the usermaps junction)'
@@ -108,8 +112,15 @@ if (Test-Path $marker) {
     Check (Test-Path (Join-Path $Tod2Root 'sw4\textures\tv_lookup.tif')) 'private sw4 texture library present' 'sw4\textures\tv_lookup.tif missing from the private root'
     Check (Test-Path (Join-Path $Tod2Root 'bin\linker_modtools.exe')) 'private linker present' 'bin\linker_modtools.exe missing from the private root'
 }
+$stamp = $null
+try { $stamp = Get-Content (Join-Path $Tod2Root '.tod2-import.json') -Raw -ErrorAction Stop | ConvertFrom-Json } catch {}
+if ($stamp) {
+    Check ($stamp.state -eq 'complete') "private root import complete ($($stamp.finished))" "private root import NOT finished (state '$($stamp.state)') - re-run import_bundle.ps1"
+}
 if ($RootManifest -eq '') { $RootManifest = Join-Path $RepoRoot 'tmp\migration\root_manifest.json' }
-if (Test-Path $RootManifest) {
+if ((-not (Test-Path $RootManifest)) -and $stamp) {
+    Fail "the private root was imported but $RootManifest is missing - re-run import_bundle.ps1 (it copies the manifest there after a complete root import)"
+} elseif (Test-Path $RootManifest) {
     $a = @((Join-Path $PSScriptRoot 'bundle_tool.py'), 'root-verify', '--manifest', $RootManifest, '--root', $Tod2Root)
     if (-not $FullHash) { $a += '--quick' }
     & python @a | Where-Object { "$_" -notmatch '^\s+verify:' } | ForEach-Object { Write-Host "        $_" }
@@ -141,6 +152,13 @@ if (Test-Path (Join-Path $RepoRoot '.git')) {
     Check $tfOk 'canary build gate typeface.py --check (pinned file bytes intact)' "typeface.py --check failed ($(@($tf)[-1])) - converted line endings, or fonttools missing"
     foreach ($d in 'tmp', 'source_library', 'art', 'model_export') {
         Check (Test-Path (Join-Path $RepoRoot $d)) "repo\$d present" "repo\$d missing (tmp + source_library come from the bundle's repo_extras)" -WarnOnly
+    }
+    $xman = Join-Path $RepoRoot 'tmp\migration\repo_extras_manifest.json'
+    if (Test-Path $xman) {
+        & python (Join-Path $PSScriptRoot 'bundle_tool.py') extras-verify --manifest $xman --root $RepoRoot | ForEach-Object { Write-Host "        $_" }
+        Check ($LASTEXITCODE -eq 0) 'every untracked repo file (tmp, source_library ...) present at its exported size' 'untracked repo files missing or short (listed above) - re-run import_bundle.ps1 (it re-copies short files)'
+    } elseif ($stamp) {
+        Warn "no $xman - the untracked repo files cannot be size-checked (re-run import_bundle.ps1)"
     }
 }
 Check (Test-Path (Join-Path $ReposDir 'tower_of_doom_cybercity\.git')) 'Map One repo present (READ ONLY reference; a few Tower II tools read it)' 'Map One repo missing - finish Map One''s migration' -WarnOnly

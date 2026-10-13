@@ -1,4 +1,4 @@
-"""Machine-migration helper for TOWER II (2026-10-12, docs/220). Stdlib only, Python 3.10+.
+"""Machine-migration helper for TOWER II (2026-10-12, docs/220). Stdlib only, Python 3.12+ (isjunction).
 
 Adapted from Map One's tools/migrate/bundle_tool.py (docs/174 there), which moved the SHARED Steam
 Mod Tools root by diffing it against Steam's depot manifest. Tower II never writes that root (CLAUDE.md
@@ -15,13 +15,21 @@ root itself:
 
   root-export  --dest <bundle>/tod2_root [--dry-run] [--skip-build-output]
                Resumable: re-running skips finished files.
-  root-import  --src <bundle>/tod2_root [--root C:\\BO3Tools\\TOD2Cybercity] [--force]
-               copy every file in (sha1 checked on the way; a mismatch is refused), recreate the
-               directories and junctions. Never replaces a file that is newer here unless --force.
+  root-import  --src <bundle>/tod2_root [--root C:\\BO3Tools\\TOD2Cybercity] [--force] [--adopt-existing]
+               copy every file in (sha1 checked on the way; a mismatch is refused and the bundle copy set
+               aside as .bad so a re-run of the export re-sends it), recreate the directories and
+               junctions, write the workspace marker LAST. Refuses a root it did not create (stamp
+               .tod2-import.json); never writes through a junction; keeps a file changed here only
+               between runs of this same import, unless --force.
   root-verify  --manifest <root_manifest.json> [--quick]
-               re-check a root against the manifest (size, sha1 unless --quick, junction targets).
-  copylist     --src <root> --dest <dir> --list <file> | --git-untracked
-               copy a NUL/newline list of relative paths (git ls-files --others -z).
+               re-check a root against the manifest (size, sha1 unless --quick, junction targets,
+               the import stamp and the marker).
+  copylist     --src <root> --dest <dir> --list <file> | --git-untracked [--save-list f] [--manifest m]
+               copy a NUL/newline list of relative paths (git ls-files --others -z). The export writes
+               <list>_manifest.json (size + mtime per file); the import copies through .part and checks
+               every file against it.
+  extras-verify --manifest <repo_extras_manifest.json> --root <repo>
+               re-check the untracked repo files against the export manifest (sizes).
   du <path>... sizes, for dry runs.
 
 Left out on purpose (they regenerate on the first build): share/assetconvert EXCEPT its shaders,
@@ -328,6 +336,36 @@ def root_export(a):
             raise
         ex.shutdown(wait=True)
     records = [finished[rel] for rel, _, _ in sel]
+    # The source must not have changed while the hours-long copy ran (2026-10-13 review): a build or sync
+    # writing the root mid-copy would put torn files in the bundle under matching sha1s. Re-stat every
+    # selected file; re-copy (with a fresh record) any whose size or date moved. Up to 3 passes.
+    for attempt in range(3):
+        moved = []
+        for i, r in enumerate(records):
+            try:
+                st = os.stat(lp(os.path.join(root, r['p'])))
+            except OSError:
+                moved.append((i, None))
+                continue
+            if st.st_size != r['size'] or abs(st.st_mtime - r['mtime']) >= 2:
+                moved.append((i, st))
+        if not moved:
+            print('  source check: no file in the root changed during the copy')
+            break
+        print('  source check: %d file(s) changed in the root during the copy - re-copying (pass %d)' % (len(moved), attempt + 1))
+        with open(prog_path, 'a', encoding='utf-8') as prog:
+            for i, st in moved:
+                r = records[i]
+                if st is None:
+                    print('ROOT EXPORT FAIL: %s disappeared from the root during the export - re-run it' % r['p'])
+                    return 1
+                sha = copy_direct(os.path.join(root, r['p']), os.path.join(a.dest, 'files', r['p']))
+                records[i] = {'p': r['p'], 'size': st.st_size, 'mtime': st.st_mtime, 'sha1': sha}
+                prog.write(json.dumps(records[i]) + '\n')
+    else:
+        print('ROOT EXPORT FAIL: files keep changing in the root (a build or sync is running?): %s'
+              % ', '.join(r['p'] for r in [records[i] for i, _ in moved[:10]]))
+        return 1
     # Final safety net (Map One 2026-10-09): a run stopped mid-copy truncates the file it was rewriting;
     # if that file's earlier record survives, a resume trusts it. List the bundle once and re-copy any
     # file whose size disagrees with its record. Up to 3 passes, then fail loudly.
@@ -368,17 +406,79 @@ def make_junction(link, target):
     _winapi.CreateJunction(target, link)
 
 
+MARKER = '.tod2-workspace.json'
+STAMP = '.tod2-import.json'
+
+
+def read_json(path):
+    try:
+        return json.load(open(lp(path), encoding='utf-8'))
+    except (OSError, ValueError):
+        return None
+
+
+def write_json(path, obj):
+    tmp = path + '.new'
+    with open(lp(tmp), 'w', encoding='utf-8') as f:
+        json.dump(obj, f, indent=1)
+    os.replace(lp(tmp), lp(path))
+
+
 def root_import(a):
     man = json.load(open(lp(os.path.join(a.src, 'root_manifest.json')), encoding='utf-8'))
+    tok = os.path.join(a.src, 'bundle_id.txt')
+    bundle_id = open(lp(tok), encoding='utf-8').read().strip() if os.path.isfile(lp(tok)) else man['created']
     root = a.root
+    stamp_path = os.path.join(root, STAMP)
+    stamp = read_json(stamp_path)
+    resuming = bool(stamp and stamp.get('bundle_id') == bundle_id)
+    # An existing root this import did not make is NOT Tower II's (2026-10-13 review): a root made by
+    # setup_tod2_workspace.ps1 on this machine holds today's Steam / Map One files with NEWER dates, and
+    # the "newer local file wins" rule would keep every one of them over Tower II's versions.
+    if os.path.isdir(lp(root)) and os.listdir(lp(root)) and not resuming and not a.adopt_existing:
+        print('ROOT IMPORT REFUSED: %s already exists and was not created by an import of this bundle%s.'
+              % (root, ' (it has the workspace marker - was tools/setup_tod2_workspace.ps1 run here?)'
+                 if os.path.isfile(lp(os.path.join(root, MARKER))) else ''))
+        print('   Rename it aside (e.g. %s.before_import) and run again. Never run setup_tod2_workspace.ps1 on a'
+              ' migrated machine. --adopt-existing imports over it with EVERY differing file replaced by the bundle copy.' % root)
+        return 1
     os.makedirs(lp(root), exist_ok=True)
+    write_json(stamp_path, {'bundle_id': bundle_id, 'state': 'in-progress',
+                            'started': (stamp or {}).get('started') or datetime.datetime.now().isoformat(timespec='seconds'),
+                            'manifest_created': man['created']})
+    # the newer-local rule only protects edits made HERE after an earlier run of this same import
+    keep_newer = resuming and not a.force
     files = man['files']
     present = copied = 0
-    bad, missing, newer = [], [], []
+    bad, missing, newer, through_link = [], [], [], []
+    safe_dirs = set()
+
+    def crosses_link(rel):
+        """True when any folder between the root and this file is a junction/symlink: writing there would
+        go THROUGH it into the shared Steam root (2026-10-13 review)."""
+        parts = rel.split('/')[:-1]
+        cur = ''
+        for part in parts:
+            cur = cur + '/' + part if cur else part
+            if cur in safe_dirs:
+                continue
+            if is_link(os.path.join(root, cur)):
+                return True
+            safe_dirs.add(cur)
+        return False
     pr = Progress(len(files), man['total_bytes'], 'import')
+    marker_rec = None
     for r in files:
+        if r['p'] == MARKER:
+            marker_rec = r          # written LAST, after every file, folder and junction (review fix)
+            pr.step(r['size'])
+            continue
         src = os.path.join(a.src, 'files', r['p'])
         dst = os.path.join(root, r['p'])
+        if crosses_link(r['p']):
+            through_link.append(r['p'])
+            pr.step(r['size'])
+            continue
         if os.path.isfile(lp(dst)):
             st = os.stat(lp(dst))
             if st.st_size == r['size'] and abs(st.st_mtime - r['mtime']) < 2:
@@ -390,19 +490,25 @@ def root_import(a):
                 present += 1
                 pr.step(r['size'])
                 continue
-            if st.st_mtime > r['mtime'] + 2 and not a.force:
-                newer.append(r['p'])            # changed on this machine (a build, a sync, an edit)
+            if keep_newer and st.st_mtime > r['mtime'] + 2:
+                newer.append(r['p'])            # changed here since the earlier import run (a build, an edit)
                 pr.step(r['size'])
                 continue
         if not os.path.isfile(lp(src)):
             missing.append(r['p'])
         elif copy_hash(src, dst, r['mtime'], expect=r['sha1']) != r['sha1']:
+            # set the bad bundle copy aside: the old laptop's export then sees it missing and re-copies it
+            try:
+                os.replace(lp(src), lp(src + '.bad'))
+            except OSError:
+                pass
             bad.append(r['p'])
         else:
             copied += 1
         pr.step(r['size'])
     for d in man.get('dirs', []):
-        os.makedirs(lp(os.path.join(root, d)), exist_ok=True)
+        if not crosses_link(d + '/x'):
+            os.makedirs(lp(os.path.join(root, d)), exist_ok=True)
     made = had = 0
     link_probs = []
     for l in man.get('links', []):
@@ -423,21 +529,41 @@ def root_import(a):
         os.makedirs(lp(os.path.dirname(p)), exist_ok=True)
         make_junction(p, tgt)
         made += 1
+    marker_ok = False
+    if marker_rec is None:
+        missing.append(MARKER + ' (not in the manifest)')
+    elif not (missing or bad or link_probs or through_link):
+        src = os.path.join(a.src, 'files', MARKER)
+        if not os.path.isfile(lp(src)):
+            missing.append(MARKER)
+        elif copy_hash(src, os.path.join(root, MARKER), marker_rec['mtime'], expect=marker_rec['sha1']) != marker_rec['sha1']:
+            bad.append(MARKER)
+        else:
+            marker_ok = True
     print('root import: %d copied, %d already present, %d kept (newer on this machine), %d missing from bundle, %d failed sha1'
           % (copied, present, len(newer), len(missing), len(bad)))
     print('junctions: %d created, %d already right, %d problem(s); %d folders ensured'
           % (made, had, len(link_probs), len(man.get('dirs', []))))
     if newer:
-        print('   kept because the local copy is newer than the bundle (use --force to take the bundle copy):')
+        print('   kept because the local copy changed here since the earlier import run (use --force to take the bundle copy):')
         for p in newer[:10]:
             print('     ', p)
-    for p in (missing + bad)[:25]:
-        print('   PROBLEM:', p)
+    for p in missing[:25]:
+        print('   MISSING FROM BUNDLE:', p)
+    for p in bad[:25]:
+        print('   FAILED SHA1 (bundle copy set aside as .bad - re-run the export on the old laptop to re-send it):', p)
+    for p in through_link[:25]:
+        print('   REFUSED (a folder on its path is a junction - writing would go into the shared Steam root):', p)
     for p in link_probs[:25]:
         print('   JUNCTION PROBLEM:', p)
-    if missing or bad or link_probs:
-        print('ROOT IMPORT INCOMPLETE - fix the problems above (re-copy the bundle from the old laptop / restore the Mod Tools folders) and run again')
+    if not marker_ok:
+        print('ROOT IMPORT INCOMPLETE - the workspace marker is NOT written, so no build can use this root yet. '
+              'Fix the problems above and run again.')
         return 1
+    write_json(stamp_path, {'bundle_id': bundle_id, 'state': 'complete',
+                            'started': read_json(stamp_path).get('started'),
+                            'finished': datetime.datetime.now().isoformat(timespec='seconds'),
+                            'manifest_created': man['created']})
     print('ROOT IMPORT OK -> %s' % root)
     return 0
 
@@ -476,15 +602,21 @@ def root_verify(a):
             probs['junction points elsewhere'].append(l['p'])
         elif not os.path.isdir(lp(p)):
             probs['junction target missing'].append('%s -> %s' % (l['p'], l['target']))
+    stamp = read_json(os.path.join(root, STAMP))
+    if stamp is not None and stamp.get('state') != 'complete':
+        probs['import not finished (%s says %s) - re-run import_bundle.ps1' % (STAMP, stamp.get('state'))].append(root)
+    if not os.path.isfile(lp(os.path.join(root, MARKER))):
+        probs['workspace marker missing - the import did not finish'].append(MARKER)
     note = ''
     if changed:
-        note = ' (%d changed on this machine since the import - normal after builds or edits)' % len(changed)
+        note = ' (%d changed on this machine since the import - normal after builds or edits; not compared)' % len(changed)
     if not probs:
         print('ROOT VERIFY OK: %d files present%s, %d junctions resolve, in %s%s'
-              % (len(files), '' if a.quick else ' and sha1-identical', len(man.get('links', [])), root, note))
+              % (len(files), '' if a.quick else (' and sha1-identical' if not changed else ', the unchanged ones sha1-identical'),
+                 len(man.get('links', [])), root, note))
         return 0
     for k, v in probs.items():
-        print('ROOT VERIFY FAIL: %d %s' % (len(v), k if k.startswith('junction') or k == 'missing' else 'differ from the bundle (' + k + ')'))
+        print('ROOT VERIFY FAIL: %d %s' % (len(v), k if k not in ('size', 'sha1') else 'differ from the bundle (' + k + ')'))
         for p in v[:15]:
             print('   ', p)
     if note:
@@ -506,7 +638,7 @@ def copylist(a):
         raw = open(a.list, 'rb').read().decode('utf-8')
     items = [x.rstrip('\r') for x in re.split('[\0\n]', raw) if x.strip()]
     n = b = skipped = kept = 0
-    errors, links, absent, jobs = [], [], [], []
+    errors, links, absent, jobs, records = [], [], [], [], []
     onerr = lambda e: errors.append('%s: %s' % (e.filename, e.strerror))
     existing = {} if a.dry_run else tree_sizes(a.dest)
     for rel in items:
@@ -538,14 +670,17 @@ def copylist(a):
                 n += 1
                 b += st.st_size
                 continue
+            records.append([r.replace(chr(92), '/'), st.st_size, st.st_mtime])
             cur = existing.get(fold(r.replace(chr(92), '/')))
             if cur is not None:
-                if a.no_overwrite:
-                    kept += 1          # import: a file the clone (or the user) already has wins
-                    continue
                 if cur[0] == st.st_size and abs(cur[1] - st.st_mtime) < 2:
                     skipped += 1
                     continue
+                if a.no_overwrite and cur[1] > st.st_mtime + 2:
+                    kept += 1          # import: changed on this machine after the bundle was made - keep it
+                    continue
+                # otherwise the destination copy is older or a different size (e.g. a partial copy from an
+                # interrupted run): replace it (2026-10-13 review - the old rule kept ANY existing file)
             jobs.append((r, s, d, st.st_size))
     lock = threading.Lock()
 
@@ -553,7 +688,14 @@ def copylist(a):
         r, s, d, size = job
         try:
             os.makedirs(lp(os.path.dirname(d)), exist_ok=True)
-            shutil.copy2(lp(s), lp(d))
+            if a.no_overwrite:
+                # import: through a .part file, so an interrupted run never leaves a partial file under
+                # the real name (the export keeps the direct copy: a rename per file is a round trip on SMB)
+                shutil.copyfile(lp(s), lp(d + '.part'))
+                shutil.copystat(lp(s), lp(d + '.part'))
+                os.replace(lp(d + '.part'), lp(d))
+            else:
+                shutil.copy2(lp(s), lp(d))
             return size
         except OSError as e:
             with lock:
@@ -573,7 +715,7 @@ def copylist(a):
     if a.dry_run:
         print('copylist (dry run): %d files, %s from %d list entries' % (n, gb(b), len(items)))
     else:
-        print('copylist: %d copied (%s), %d already current, %d kept (already at the destination), from %d list entries'
+        print('copylist: %d copied (%s), %d already current, %d kept (changed here since the bundle), from %d list entries'
               % (n, gb(b), skipped, kept, len(items)))
     print('BYTES=%d FILES=%d' % (b, n))
     if errors:
@@ -581,8 +723,56 @@ def copylist(a):
         for e in errors[:25]:
             print('   ', e)
         return 1
-    if not a.dry_run:
-        print('COPYLIST OK')
+    if a.dry_run:
+        return 0
+    if a.git_untracked and a.save_list:
+        # export: record every file's size + mtime so the import and check_machine can prove each one
+        # arrived whole (2026-10-13 review: nothing checked repo_extras after the copy)
+        write_json(extras_manifest_path(a.save_list), {'created': datetime.datetime.now().isoformat(timespec='seconds'),
+                                                       'src': a.src, 'files': records})
+    if a.manifest:
+        bad = extras_check(a.manifest, a.dest)
+        if bad:
+            print('COPYLIST FAIL: %d file(s) at the destination do not match the bundle manifest (size), e.g.:' % len(bad))
+            for p in bad[:25]:
+                print('   ', p)
+            return 1
+        print('  every file in %s present at the destination with its exported size (or changed here since)'
+              % os.path.basename(a.manifest))
+    print('COPYLIST OK')
+    return 0
+
+
+def extras_manifest_path(list_path):
+    return os.path.splitext(list_path)[0] + '_manifest.json'
+
+
+def extras_check(manifest, root):
+    """Files of a copylist export manifest that are missing at root or differ in size, unless the
+    local copy is newer (changed on this machine after the import)."""
+    man = read_json(manifest)
+    if man is None:
+        return ['(manifest unreadable: %s)' % manifest]
+    have = tree_sizes(root)
+    bad = []
+    for rel, size, mtime in man['files']:
+        cur = have.get(fold(rel))
+        if cur is None:
+            bad.append('missing: ' + rel)
+        elif cur[0] != size and not cur[1] > mtime + 2:
+            bad.append('size %d, expected %d: %s' % (cur[0], size, rel))
+    return bad
+
+
+def extras_verify(a):
+    bad = extras_check(a.manifest, a.root)
+    n = len((read_json(a.manifest) or {}).get('files', []))
+    if bad:
+        print('EXTRAS VERIFY FAIL: %d of %d untracked repo files missing or short, e.g.:' % (len(bad), n))
+        for p in bad[:15]:
+            print('   ', p)
+        return 1
+    print('EXTRAS VERIFY OK: %d untracked repo files present at their exported size in %s' % (n, a.root))
     return 0
 
 
@@ -605,6 +795,13 @@ def du(a):
 
 
 def main():
+    # junction detection needs os.path.isjunction (Python 3.12+): without it every junction would be
+    # walked and copied as a real folder (2026-10-13 review)
+    if not hasattr(os.path, 'isjunction'):
+        sys.exit('bundle_tool.py needs Python 3.12+ (os.path.isjunction); this is %s' % sys.version.split()[0])
+    # one file name in the private root is not cp1252 ('... - 副本.efx'): a failure list printed into a
+    # PowerShell pipe must not crash on it
+    sys.stdout.reconfigure(errors='backslashreplace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest='cmd', required=True)
     e = sub.add_parser('root-export')
@@ -616,7 +813,9 @@ def main():
     i = sub.add_parser('root-import')
     i.add_argument('--src', required=True)
     i.add_argument('--root', default=DEFAULT_ROOT)
-    i.add_argument('--force', action='store_true', help='also replace files that are newer on this machine')
+    i.add_argument('--force', action='store_true', help='also replace files changed here since an earlier run of this import')
+    i.add_argument('--adopt-existing', action='store_true',
+                   help='import over a root this import did not create (every differing file is replaced by the bundle copy)')
     v = sub.add_parser('root-verify')
     v.add_argument('--manifest', required=True)
     v.add_argument('--root', default=DEFAULT_ROOT)
@@ -628,15 +827,20 @@ def main():
     g.add_argument('--list', help='NUL- or newline-separated relative paths')
     g.add_argument('--git-untracked', action='store_true', help='copy every path git does not track in --src')
     c.add_argument('--save-list', help='with --git-untracked: also write the list here')
-    c.add_argument('--no-overwrite', action='store_true', help='never replace a file already at the destination')
+    c.add_argument('--no-overwrite', action='store_true',
+                   help='import mode: keep a destination file changed after the bundle was made; copy through .part')
+    c.add_argument('--manifest', help='import: verify every file of this export manifest arrived at its size')
     c.add_argument('--workers', type=int, default=32, help='files copied at once (default 32)')
     c.add_argument('--dry-run', action='store_true')
+    x = sub.add_parser('extras-verify')
+    x.add_argument('--manifest', required=True)
+    x.add_argument('--root', required=True)
     d = sub.add_parser('du')
     d.add_argument('paths', nargs='+')
     d.add_argument('--json', action='store_true')
     a = ap.parse_args()
     fn = {'root-export': root_export, 'root-import': root_import, 'root-verify': root_verify,
-          'copylist': copylist, 'du': du}[a.cmd]
+          'copylist': copylist, 'extras-verify': extras_verify, 'du': du}[a.cmd]
     return fn(a)
 
 

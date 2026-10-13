@@ -1,14 +1,15 @@
 # import_bundle.ps1 - NEW LAPTOP: clone Tower II from GitHub and put every file of the transfer bundle
 # where it belongs (docs/220 step B3). Run it from the bundle's own copy:
 #
-#   powershell -ExecutionPolicy Bypass -File C:\tod2_transfer\migrate_scripts\import_bundle.ps1
+#   powershell -ExecutionPolicy Bypass -File C:\tod_transfer\round2\migrate_scripts\import_bundle.ps1
 #
 # Before running: Map One's migration is done on this laptop (docs/174 there: Steam BO3 + Mod Tools at
 # ...\Call of Duty Black Ops III 455130, the usermaps junction, Git + LFS, Python 3.14, Node 24,
 # Blender 4.2), BO3 is closed and no build is running.
 #
-# Safe to re-run: nothing newer on this machine is ever replaced (the root import keeps files changed
-# here, the repo-extras copy never overwrites, robocopy /XO). It ends by running check_machine.ps1.
+# Safe to re-run: the root import resumes its own earlier run (and refuses a root it did not create);
+# the repo-extras copy goes through .part files, repairs short copies and keeps only files changed here
+# after the bundle was made; robocopy /XO never takes an older file. It ends by running check_machine.ps1.
 param(
     [string]$Source = (Split-Path $PSScriptRoot -Parent),   # the bundle folder (parent of migrate_scripts)
     [string]$ReposDir = (Join-Path $env:USERPROFILE 'Repositories'),
@@ -44,6 +45,8 @@ function Robo([string]$label, [string]$src, [string]$dst, [switch]$NoOverwrite) 
 }
 
 # ---------------------------------------------------------------- preflight
+# a shell opened before an install can carry a stale PATH (no python / node): take the current one
+$env:Path = [Environment]::GetEnvironmentVariable('Path', 'Machine') + ';' + [Environment]::GetEnvironmentVariable('Path', 'User')
 if (-not (Test-Path (Join-Path $Source 'bundle_manifest.json'))) { Die "no bundle_manifest.json in $Source - pass -Source <bundle folder>" }
 foreach ($c in 'git', 'python', 'node', 'robocopy') {
     if (-not (Get-Command $c -ErrorAction SilentlyContinue)) { Die "$c is not installed / not on PATH (Map One's docs/174 step B2), then open a NEW terminal" }
@@ -56,6 +59,18 @@ if (-not (Test-Path (Join-Path $Tools 'bin\modlauncher.exe'))) {
     Die "BO3 Mod Tools not found at $Tools. Finish Map One's migration first (its import_bundle.ps1 makes this folder or a junction to it)."
 }
 if (-not (Test-Path (Join-Path $Game 'BlackOps3.exe'))) { Die "BO3 not found at $Game" }
+$stampPath = Join-Path $Tod2Root '.tod2-import.json'
+if ((Test-Path -LiteralPath (Join-Path $Tod2Root '.tod2-workspace.json')) -and -not (Test-Path -LiteralPath $stampPath) -and -not $SkipRoot) {
+    Die "$Tod2Root already exists and was NOT made by this import (was tools\setup_tod2_workspace.ps1 run here?). It holds today's Steam / Map One files, not Tower II's. Rename it aside (e.g. $Tod2Root.before_import), then re-run. Never run setup_tod2_workspace.ps1 on a migrated machine."
+}
+# free space: the bundle's contents are copied once more onto this disk (plus the clone, ~13 GB)
+$bm0 = Get-Content (Join-Path $Source 'bundle_manifest.json') -Raw | ConvertFrom-Json
+if (-not (Test-Path -LiteralPath $stampPath)) {
+    $need = [int64]$bm0.total_bytes + 25e9
+    $free = (Get-PSDrive C).Free
+    if ($free -lt $need) { Die ("C: has {0:N0} GB free; the import needs about {1:N0} GB (bundle contents + clone + headroom). Free space, then re-run." -f ($free / 1e9), ($need / 1e9)) }
+    Info ("C: free {0:N0} GB, import needs about {1:N0} GB" -f ($free / 1e9), ($need / 1e9))
+}
 git config --global core.longpaths true
 
 # ---------------------------------------------------------------- 1. the repo from GitHub (LFS checked)
@@ -85,9 +100,14 @@ if ($LASTEXITCODE -ne 0) { Warn "the clone does not contain the export's commit 
 
 # untracked repo files: only the paths the export listed, never over a file the clone already has
 $lst = Join-Path $Source 'repo_extras.lst'
+$xman = Join-Path $Source 'repo_extras_manifest.json'
 if (Test-Path $lst) {
-    & python $Py copylist --src (Join-Path $Source 'repo_extras') --dest $RepoRoot --list $lst --no-overwrite
-    if ($LASTEXITCODE -ne 0) { Die 'repo extras copy failed (see above)' }
+    # copies through .part files; replaces a partial copy from an interrupted run; keeps only a file
+    # changed here after the bundle was made; then checks every file's size against the export manifest
+    $ca = @($Py, 'copylist', '--src', (Join-Path $Source 'repo_extras'), '--dest', $RepoRoot, '--list', $lst, '--no-overwrite')
+    if (Test-Path $xman) { $ca += @('--manifest', $xman) } else { Warn 'repo_extras_manifest.json missing from the bundle - the untracked files cannot be size-checked' }
+    & python @ca
+    if ($LASTEXITCODE -ne 0) { Die 'repo extras copy failed or a file arrived short (see above) - re-run the import' }
 } else { Warn 'repo_extras.lst missing from the bundle - tmp\ and source_library\ were not restored' }
 
 # ---------------------------------------------------------------- 2. the private Mod Tools root (sha1-checked)
@@ -97,9 +117,19 @@ if (-not $SkipRoot) {
     & python @ra
     if ($LASTEXITCODE -ne 0) { Die 'private root import failed (see above)' }
 }
+# Runtimes: Tower II runs cod2map64 / linker / Radiant from the PRIVATE bin (that folder is the working
+# directory), so a DLL that exists only in the Steam tools bin is not found (2026-10-13 review). When
+# System32 lacks one, copy it into the private bin.
+foreach ($dll in 'msvcr110.dll', 'msvcp110.dll', 'vcomp110.dll', 'd3dx9_43.dll') {
+    $priv = Join-Path $Tod2Root "bin\$dll"
+    if ((Test-Path "$env:WINDIR\System32\$dll") -or (Test-Path $priv)) { continue }
+    $steamCopy = Join-Path $Tools "bin\$dll"
+    if (Test-Path $steamCopy) { Copy-Item -LiteralPath $steamCopy -Destination $priv; Info "runtime $dll copied into $Tod2Root\bin (System32 has none)" }
+    else { Warn "runtime $dll is in neither System32 nor any tools bin - install the VC++ 2012 x64 / DirectX June 2010 runtimes (Steam > Mod Tools > Play once, accept the admin prompt)" }
+}
 $mig = Join-Path $RepoRoot 'tmp\migration'
 New-Item -ItemType Directory -Force -Path $mig | Out-Null
-foreach ($f in 'tod2_root\root_manifest.json', 'bundle_manifest.json', 'machine_facts.txt') {
+foreach ($f in 'tod2_root\root_manifest.json', 'repo_extras_manifest.json', 'bundle_manifest.json', 'machine_facts.txt') {
     $p = Join-Path $Source $f
     if (Test-Path $p) { Copy-Item $p $mig -Force }
 }

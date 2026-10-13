@@ -1,8 +1,8 @@
 # export_bundle.ps1 - OLD LAPTOP: pack everything GitHub does not carry for TOWER II into ONE folder
 # (docs/220; adapted from Map One's docs/174 export, which already moved the shared toolchain).
 #
-#   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod2_transfer -DryRun
-#   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod2_transfer
+#   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod_transfer\round2 -DryRun
+#   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod_transfer\round2
 #
 # -Dest can be an external drive or a network share. Re-running RESUMES: the root copy and the
 # repo-extras copy both skip files that are already there and current.
@@ -50,15 +50,16 @@ $ClaudeKey = $Repo -replace '[^A-Za-z0-9]', '-'
 $ClaudeProj = Join-Path $H ".claude\projects\$ClaudeKey"
 
 # ---------------------------------------------------------------- preflight
-foreach ($p in 'BlackOps3', 'linker_modtools', 'cod2map64', 'radiant_modtools', 'converter', 'modlauncher', 'gdtdb', 'export2bin') {
+foreach ($p in 'BlackOps3', 'linker_modtools', 'cod2map64', 'radiant_modtools', 'converter', 'modlauncher', 'gdtdb', 'export2bin', 'GdtDBTray', 'asseteditor_modtools', 'blender') {
     if (Get-Process -Name $p -ErrorAction SilentlyContinue) {
-        if ($DryRun) { Warn "$p is running - close it before the real export" } else { Die "$p is running. Close BO3 / the mod tools / any build first, so nothing changes mid-copy." }
+        if ($DryRun) { Warn "$p is running - close it before the real export" } else { Die "$p is running. Close BO3 / the mod tools / Blender / any build first, so nothing changes mid-copy." }
     }
 }
-# a build is a powershell hosting build_map.ps1 (CLAUDE.md "Builds, gates, peers"): refuse mid-build
-$builds = @(Get-CimInstance Win32_Process -Filter "Name='powershell.exe' OR Name='pwsh.exe'" -ErrorAction SilentlyContinue | Where-Object { "$($_.CommandLine)" -match 'build_map\.ps1|build_when_idle|sync_to_modtools' })
+# a build is a powershell hosting build_map.ps1 (CLAUDE.md "Builds, gates, peers") - or its Start-Job host
+# ('-s -NoLogo'), which is all a build started from a Claude shell tool shows (2026-10-13 review)
+$builds = @(Get-CimInstance Win32_Process -Filter "Name='powershell.exe' OR Name='pwsh.exe'" -ErrorAction SilentlyContinue | Where-Object { "$($_.CommandLine)" -match 'build_map\.ps1|build_when_idle|sync_to_modtools|\s-s\s+-NoLogo' })
 if ($builds.Count -gt 0) {
-    if ($DryRun) { Warn 'a Tower II build/sync is running - wait for it before the real export' } else { Die 'a Tower II build/sync is running (build_map / sync_to_modtools). Wait for it, then re-run.' }
+    if ($DryRun) { Warn 'a Tower II build/sync (or a PowerShell job host) is running - wait for it before the real export' } else { Die 'a Tower II build/sync (or a PowerShell Start-Job host, which is how a build looks from a Claude shell) is running. Wait for it, then re-run.' }
 }
 foreach ($c in 'git', 'python', 'robocopy') { if (-not (Get-Command $c -ErrorAction SilentlyContinue)) { Die "$c not found on PATH" } }
 if (-not (Test-Path -LiteralPath (Join-Path $Tod2Root '.tod2-workspace.json'))) { Die "Tower II private root not found: $Tod2Root (pass -Tod2Root)" }
@@ -67,6 +68,7 @@ Push-Location $Repo
 $dirty = @(git status --porcelain --untracked-files=no)
 $ahead = NoErr { git rev-list --count '@{u}..HEAD' }
 $branch = (git rev-parse --abbrev-ref HEAD)
+$headAtStart = (git rev-parse HEAD)
 Pop-Location
 if ($dirty.Count -gt 0 -or "$ahead" -ne '0') {
     $msg = "the repo has $($dirty.Count) uncommitted tracked change(s) and '$ahead' unpushed commit(s) on $branch. GitHub + this bundle must together equal this folder: commit and push first (docs/220 step A2)."
@@ -181,6 +183,20 @@ if (-not $DryRun) {
     $facts | Set-Content -Encoding utf8 (PJ $Dest 'machine_facts.txt')
     Robo 'migrate_scripts (run import_bundle.ps1 from here)' $PSScriptRoot (PJ $Dest 'migrate_scripts') @('/E', '/XD', '__pycache__')
     Copy-Item (Join-Path $Repo 'docs\220_new_laptop_migration.md') (PJ $Dest 'SETUP_GUIDE.md') -Force
+}
+
+# ---------------------------------------------------------------- the repo must not have moved during the copy
+# (2026-10-13 review): a tracked edit or a new commit after the start gate is neither on GitHub nor in
+# repo_extras (which carries only untracked files) - BUNDLE OK would then be a lie.
+if (-not $DryRun -and -not $AllowUnpushed) {
+    Push-Location $Repo
+    $dirty2 = @(git status --porcelain --untracked-files=no)
+    $ahead2 = NoErr { git rev-list --count '@{u}..HEAD' }
+    $head2 = (git rev-parse HEAD)
+    Pop-Location
+    if ($dirty2.Count -gt 0 -or "$ahead2" -ne '0' -or $head2 -ne $headAtStart) {
+        Die "the repo changed while the bundle was being made ($($dirty2.Count) uncommitted tracked change(s), '$ahead2' unpushed, HEAD $headAtStart -> $head2). Commit + push, then re-run this export: it resumes and only refreshes what changed."
+    }
 }
 
 # ---------------------------------------------------------------- summary

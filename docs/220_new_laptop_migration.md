@@ -47,7 +47,16 @@ on the new laptop before the import** — it would make a different root.
   never pushed; `main` was rebuilt on GitHub's commit in six size-capped batches (each push < 2 GB)
   and the old commits are kept locally on `backup/local-main-pre-migration`.
 - **Private root:** sha1 per file; the import refuses a mismatch; junction targets are checked;
-  `check_machine.ps1 -FullHash` re-hashes everything.
+  `check_machine.ps1 -FullHash` re-hashes everything. The export re-stats every source file after the
+  copy and re-copies any that changed mid-copy (a build or sync would otherwise tear files).
+- **Untracked repo files:** `repo_extras_manifest.json` records every file's size and date; the import
+  and `check_machine.ps1` prove each one arrived whole.
+- **Reviewed (2026-10-13):** two independent reviewers found 3 blockers + 6 bugs in the first draft
+  (an existing root silently kept over Tower II's files, partial untracked copies kept forever, the
+  runtime check counting DLLs the private tools cannot load, the marker written first, unrepairable
+  same-size corruption, a non-cp1252 file name crashing failure lists, Python 3.11 missing junctions,
+  peer builds invisible to the preflight, no free-space check). All fixed; a 34-case round-trip test
+  plus a mid-copy-change test pass, and the old tool fails the new cases.
 
 ## A. Old laptop (this one)
 
@@ -57,8 +66,8 @@ on the new laptop before the import** — it would make a different root.
 3. **Close BO3, Radiant, the mod launcher, Blender studios and any build.**
 4. **Build the bundle** (dry run first):
    ```powershell
-   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod2_transfer -DryRun
-   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod2_transfer
+   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod_transfer\round2 -DryRun
+   powershell -ExecutionPolicy Bypass -File tools\migrate\export_bundle.ps1 -Dest \\10.0.0.149\tod_transfer\round2
    ```
    It ends `BUNDLE OK` or FAILs. Options: `-SkipBuildOutput` (leave the last build behind, -17 GB),
    `-IncludeAgentHistory` (this project's Claude transcripts).
@@ -69,17 +78,25 @@ on the new laptop before the import** — it would make a different root.
 
 1. **Prerequisite: Map One's migration is complete** (its docs/174 B1–B6: same `C:\Users\jorda`
    profile, long paths, Steam BO3 + Mod Tools at `...\Call of Duty Black Ops III 455130`, the usermaps
-   junction, the VC++ 2012 x64 + DirectX June 2010 runtimes, Git + LFS, Python 3.14, Node 24,
-   Blender 4.2.23, FFmpeg 8.1.2). Close BO3 and any build. **Do not run `setup_tod2_workspace.ps1`.**
+   junction, Git + LFS, Python 3.14, Node 24, Blender 4.2.23, FFmpeg 8.1.2). Close BO3 and any build.
+   **Do not run `setup_tod2_workspace.ps1`** — the import refuses a root it did not make.
+   **Runtimes:** Tower II runs cod2map64 / linker / Radiant from `C:\BO3Tools\TOD2Cybercity\bin` (that
+   folder is also the working directory), so the VC++ 2012 x64 + DirectX June 2010 DLLs must be in
+   System32 or in that private bin — a copy in the Steam tools bin does NOT count. On the new laptop all
+   four are in System32 (checked 2026-10-13); if one is not, the import copies it into the private bin.
 2. **Import:**
    ```powershell
-   powershell -ExecutionPolicy Bypass -File C:\tod2_transfer\migrate_scripts\import_bundle.ps1
+   powershell -ExecutionPolicy Bypass -File C:\tod_transfer\round2\migrate_scripts\import_bundle.ps1
    ```
-   It: clones this repo (`main`, then a checked `git lfs pull`) → restores the untracked repo files
-   (never over a file the clone has) → imports the private root with sha1 checks and recreates its
-   folders and 123 junctions → creates the game's `usermaps\zm_tod2_cybercity` junction (only our own
-   child junction) → Downloads → Claude memory (into `~\.claude\projects\<repo key>\memory`) → pip
-   packages → runs B3. Safe to re-run.
+   It: refreshes PATH in-process (a stale shell lacks python / node) → checks free space → clones this
+   repo (`main`, then a checked `git lfs pull`) → restores the untracked repo files through `.part`
+   files and checks every one against `repo_extras_manifest.json` (repairs short copies; keeps only a
+   file changed here after the bundle was made) → imports the private root with sha1 checks (refuses a
+   root it did not create, never writes through a junction, sets a corrupt bundle file aside as `.bad`
+   so the export re-sends it), recreates its folders and 123 junctions, and writes the workspace marker
+   LAST with a `.tod2-import.json` stamp → copies a runtime DLL into the private bin only if System32
+   lacks it → creates the game's `usermaps\zm_tod2_cybercity` junction (only our own child junction) →
+   Downloads (then the T7 pack's SHA1) → Claude memory → pip packages → runs B3. Safe to re-run.
 3. **Check:** `powershell -ExecutionPolicy Bypass -File tools\migrate\check_machine.ps1 -FullHash`
    → must end `READY TO BUILD: 0 FAIL`.
 4. **Gates, then the first full build** (Claude runs it): `python tools\run_build_gates.py` (check its
