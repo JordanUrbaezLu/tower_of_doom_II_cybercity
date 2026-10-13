@@ -142,12 +142,14 @@ foreach ($d in @(Get-ChildItem -LiteralPath $DL -Directory -Filter 'TOD2_*' -Err
 }
 # T7 Assets V2.8.rar IS A BUILD INPUT (2026-10-12 audit): keeper/install_keeper.py --check and
 # dealer_boss/install.py --check re-extract their members from it with 7-Zip on EVERY build, -GscOnly
-# included, and build_map.ps1 dies without it. 58 GB, one file: /Z restartable (a Wi-Fi drop resumes it),
-# and its SHA1 rides along so the import can prove the copy. -SkipT7Pack only when the new laptop already
-# holds a byte-identical copy (compare the SHA1 below).
+# included, and build_map.ps1 dies without it. 58 GB, one file, copied with /J (unbuffered I/O, made for
+# large files). NOT /Z: restartable mode ran at ~1.3 MB/s over Wi-Fi SMB where normal mode ran ~6 MB/s
+# (2026-10-13); a drop restarts this one file, and a re-run of the export redoes only it. Its SHA1 rides
+# along so the import can prove the copy. -SkipT7Pack only when the new laptop already holds a
+# byte-identical copy (compare the SHA1 below).
 $T7 = Join-Path $DL 'T7 Assets V2.8.rar'
 if (-not $SkipT7Pack) {
-    Robo 'downloads\T7 Assets V2.8.rar (build input)' $DL (PJ $Dest 'downloads') @('T7 Assets V2.8.rar', '/Z') -Required
+    Robo 'downloads\T7 Assets V2.8.rar (build input)' $DL (PJ $Dest 'downloads') @('T7 Assets V2.8.rar', '/J') -Required
     if (-not $DryRun -and (Test-Path -LiteralPath $T7)) {
         $shaFile = PJ $Dest 'downloads\T7 Assets V2.8.rar.sha1'
         $len = (Get-Item -LiteralPath $T7).Length
