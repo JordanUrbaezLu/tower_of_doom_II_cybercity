@@ -1,14 +1,14 @@
 {
-  "verified_at": "2026-10-08T15:22:15.668863-04:00",
+  "verified_at": "2026-10-13T16:20:00.781034-04:00",
   "source_root": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity",
   "source_image": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
   "source_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
   "deployed_source_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
   "dependencies": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps",
-  "dependencies_sha256": "00cec026a51ba43fa9471ed40d959807d3a1b4ba87cce7bd03500d9db55bac22",
+  "dependencies_sha256": "9faffc32e45718dd859abc0c2d446b92211f3ba22e814ed1f5ad0206b0b748a9",
   "selected_cache": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_tod_alarm_lens_c_KWXGWYG3O537E7VHAYNE5H7N7C.iwi",
-  "selected_cache_sha256": "1a4a4a7e18825dbacbc10f5f414a43612dd1f1ad9ad57d149aa6b310b94e0beb",
-  "cache_modified_at": "2026-10-01T12:49:16.279625-04:00",
+  "selected_cache_sha256": "4ffb272439fa19ade2568f89bdd5c312c196021fe8ffdf7a233b1787b9c4c1ac",
+  "cache_modified_at": "2026-10-13T15:52:33.461874-04:00",
   "format": "BC7_SRGB",
   "source_alpha_histogram": {
     "11": 573440,
@@ -17,9 +17,9 @@
   },
   "compiled_alpha_histogram": {
     "11": 573440,
-    "12": 13280,
-    "13": 191228,
-    "14": 8484,
+    "12": 13136,
+    "13": 191224,
+    "14": 8632,
     "26": 262144
   },
   "maximum_alpha_error_bytes": 1,
@@ -33,9 +33,9 @@
       "payload_end": 1398224,
       "alpha_histogram": {
         "11": 573440,
-        "12": 13280,
-        "13": 191228,
-        "14": 8484,
+        "12": 13136,
+        "13": 191224,
+        "14": 8632,
         "26": 262144
       }
     },
@@ -47,9 +47,9 @@
       "payload_end": 349648,
       "alpha_histogram": {
         "11": 143360,
-        "12": 976,
+        "12": 880,
         "13": 47664,
-        "14": 4608,
+        "14": 4704,
         "26": 65536
       }
     },
@@ -61,9 +61,9 @@
       "payload_end": 87504,
       "alpha_histogram": {
         "11": 35840,
-        "12": 320,
+        "12": 336,
         "13": 11248,
-        "14": 1744,
+        "14": 1728,
         "26": 16384
       }
     },
