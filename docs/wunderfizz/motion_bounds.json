@@ -1,0 +1,387 @@
+{
+  "method": "Weighted animation_world * inverse(bind_world) using original binary world axes transposed to column transforms.",
+  "animation_frames": 121,
+  "animation_fps": 30,
+  "models": [
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD0.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.76506600201792
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD1.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.76506600201792
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD2.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.70975964583516
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD3.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.372423529624939,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.75397255448826
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD4.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.372423529624939,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          96.98515236933164
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD5.XMODEL_BIN",
+      "bounds": [
+        [
+          0.1765281856060028,
+          51.0572395324707
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          94.20383817442976
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 83
+      },
+      "first_frame_max_position_difference_from_bind": 1.9073486328125e-06
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_LOD6.XMODEL_BIN",
+      "bounds": [
+        [
+          1.3964601755142212,
+          51.24048614501953
+        ],
+        [
+          -27.691320419311523,
+          27.683269500732422
+        ],
+        [
+          -0.0014846182893961668,
+          92.88100984514398
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 83
+      },
+      "first_frame_max_position_difference_from_bind": 1.9073486328125e-06
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD0.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.76506600201792
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD1.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.76506600201792
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD2.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.3171391487121582,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.70975964583516
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD3.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.372423529624939,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          97.75397255448826
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD4.XMODEL_BIN",
+      "bounds": [
+        [
+          -1.372423529624939,
+          51.03843688964844
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          96.98515236933164
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 50
+      },
+      "first_frame_max_position_difference_from_bind": 0.00213623046875
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD5.XMODEL_BIN",
+      "bounds": [
+        [
+          0.1765281856060028,
+          51.0572395324707
+        ],
+        [
+          -27.691320419311523,
+          27.69118881225586
+        ],
+        [
+          -0.0014846182893961668,
+          94.20383817442976
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 83
+      },
+      "first_frame_max_position_difference_from_bind": 1.9073486328125e-06
+    },
+    {
+      "file": "t10_zm_machine_wunderfizz_fxanim_on_LOD6.XMODEL_BIN",
+      "bounds": [
+        [
+          1.3964601755142212,
+          51.24048614501953
+        ],
+        [
+          -27.691320419311523,
+          27.683269500732422
+        ],
+        [
+          -0.0014846182893961668,
+          92.88100984514398
+        ]
+      ],
+      "extreme_frames": {
+        "min_0": 0,
+        "max_0": 0,
+        "min_1": 0,
+        "max_1": 0,
+        "min_2": 0,
+        "max_2": 83
+      },
+      "first_frame_max_position_difference_from_bind": 1.9073486328125e-06
+    }
+  ],
+  "all_lod_animation_bounds": [
+    [
+      -1.372423529624939,
+      51.24048614501953
+    ],
+    [
+      -27.691320419311523,
+      27.69118881225586
+    ],
+    [
+      -0.0014846182893961668,
+      97.76506600201792
+    ]
+  ],
+  "native_playtested": false,
+  "source_unchanged": true
+}

@@ -1,0 +1,21 @@
+{
+  "source": "https://github.com/shiversoftdev/t7-source/blob/07cbfcd113fb5031dc717296f73b371478d4eb77/scripts/zm/_zm_ai_mechz_claw.csc",
+  "recovered_script_sha256": "5b28b9f843c883226f74cea8ea852101441dd349255beb99ace00f09f632686f",
+  "reason": "DLC stock functions absent from the older installed SDK source and API HTML. Exact unchanged calls from the native BO3 Panzer claw callback.",
+  "calls": [
+    {
+      "vm": "csc",
+      "name": "hideviewlegs",
+      "args": 0,
+      "line": 137,
+      "code": "self hideviewlegs();"
+    },
+    {
+      "vm": "csc",
+      "name": "showviewlegs",
+      "args": 0,
+      "line": 141,
+      "code": "self showviewlegs();"
+    }
+  ]
+}

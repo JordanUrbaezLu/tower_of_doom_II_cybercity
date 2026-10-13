@@ -1,0 +1,29 @@
+{
+  "full_build_transcript": "tmp/sky3d_build/full_build_v4.log",
+  "full_build_ff_local_time": "2026-09-25T02:57:04.208714",
+  "full_build_ff_sha256": "f9222abec46feafa162e4c6e805fac6adf9e0c16fc09e5ae3a1e7e56637adfe1",
+  "assets": {
+    "map_source/zm/zm_tod2_cybercity.map": {
+      "bytes": 12173902,
+      "sha256": "552cb2502be6bd8f5a86891b370edddee6ddcfdc0e58351f2c8d2d2bd96fab23"
+    },
+    "share/raw/maps/zm/zm_tod2_cybercity.d3dbsp": {
+      "bytes": 20365152,
+      "sha256": "d2ffe7311770d0693372778be27ef30b013660f79dade6607c800c97d2ca12e1"
+    },
+    "share/raw/maps/zm/zm_tod2_cybercity.led": {
+      "bytes": 100176498,
+      "sha256": "2e1c98781fdeb7a08cb228e00f8358a3de11779ca6952e51210567498e22214d"
+    },
+    "share/raw/maps/zm/zm_tod2_cybercity_navmesh.hkt": {
+      "bytes": 132044,
+      "sha256": "305e1810edb73f3d30980883d822f1f9a514504ae96696b8dc9e13f562be0392"
+    }
+  },
+  "map_sha256": "552cb2502be6bd8f5a86891b370edddee6ddcfdc0e58351f2c8d2d2bd96fab23",
+  "final_ff_sha256": "a161b014b55d5f767ad39e2021bf5661fb8cb0f1b1bdc77d4d78208f4c88157d",
+  "final_ff_local_time": "2026-09-25T03:26:57.926904",
+  "geometry_unchanged_in_script_rebuild": true,
+  "script_build_transcript": "tmp/archer_assets/startup_review_build.log",
+  "guarded_build_passed": true
+}

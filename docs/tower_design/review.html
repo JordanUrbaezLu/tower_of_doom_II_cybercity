@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cybercity — tower material and lighting pass</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0b1020;color:#edf2ff;font:16px/1.6 system-ui,sans-serif}main{max-width:1450px;margin:auto;padding:36px 24px}h1{font-size:clamp(32px,5vw,58px);line-height:1.12}p{max-width:1000px;color:#bac8dd}a{color:#92d8ff}.status{border-left:3px solid #af88ff;background:#19233a;padding:14px 20px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:18px 0;background:#172237;border:1px solid #3a4965;border-radius:8px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:14px 18px}small{color:#adbed5}footer{border-top:1px solid #3a4965;margin-top:32px;padding:20px 0}@media(max-width:800px){.grid{grid-template-columns:1fr}}
+</style>
+<main>
+<p><a href="../art_cohesion/review.html">Crown material review</a> / Tower pass</p>
+<h1>The crown's detail,<br>throughout the climb.</h1>
+<p><a href="transit/review.html">Latest layout pass: the top transit bay and bottom-to-crown return.</a> · <a href="broken/review.html">The broken descent</a></p>
+<p class="status">Combined full build and fresh lighting bake passed; ready for your playtest. These are material and sky previews; final in-game brightness is pending your playtest.</p>
+<p>Detailed treads, metal service panels, seams and fasteners now extend across both towers and the surrounding architecture. The existing district colors carry through the crown's material family.</p>
+<div class="grid">
+<figure><a href="tower_materials.png"><img src="tower_materials.png" alt="Lower tower with detailed blue metal panels, stairs and colored side rooms"></a><figcaption>Actual lower-tower geometry.<br><small>431 solids, exported texture maps, neutral Blender studio lighting.</small></figcaption></figure>
+<figure><a href="stair_materials.png"><img src="stair_materials.png" alt="Closer view of the tower's tread and service-panel materials"></a><figcaption>The same construction as the crown.<br><small>Material review only. Native lights, probes and gameplay props are omitted.</small></figcaption></figure>
+</div>
+<h2>Light along the route.</h2>
+<p>240 new neutral light pools follow the stair flights: two per lap on the main tower and spire. Another 293 existing lights are tuned for the new surfaces, with colored landing accents and softer room fills. They follow the existing power-on sequence.</p>
+<h2>Bring the city into view.</h2>
+<p>The same sky image now has twice its previous intensity. Its contribution to ambient world lighting is compensated separately, keeping local lights in control of the tower's readability.</p>
+<figure><a href="../sky_preview/sky3d_ingame_city.png"><img src="../sky_preview/sky3d_ingame_city.png" alt="Brighter projected sky preview showing detailed neon towers, overhead rails and the nebula"></a><figcaption>Brighter sky asset — projected preview.<br><small>This is not a game screenshot. BO3's final exposure and bloom still need the native test.</small></figcaption></figure>
+<footer><a href="README.md">Implementation and tuning</a> · <a href="source_validation.json">Source checks</a> · <a href="BUILD_HANDOFF.md">Build handoff</a></footer>
+</main></html>

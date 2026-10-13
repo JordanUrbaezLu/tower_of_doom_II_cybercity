@@ -1,0 +1,8 @@
+Voice Cloning & Use License
+Nolan North and Activision grant Glide Gladiator non-exclusive, non-transferable, royalty-free permission to clone Nolans’s voice from supplied recordings and create, edit, use, and distribute resulting voice lines solely within free, noncommercial custom Zombies maps.
+Selling, monetizing, or otherwise earning money from the recordings, voice models, generated voice lines, or maps containing them is prohibited. Recordings and voice models may not be shared outside Glide Gladiator’s development team or sublicensed. Any other use requires prior written permission from both Nolan North and Activision.
+All rights not expressly granted are reserved. Permission terminates upon violation of these terms.
+Electronic signature: /s/ Nolan North, individually and on behalf of Activision
+Date: October 1, 2026
+
+Okay please addd to license and go ahead.

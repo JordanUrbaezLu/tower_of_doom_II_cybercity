@@ -1,0 +1,78 @@
+{
+ "ff_bytes": 209707072,
+ "images": {
+  "i_tod_bra_moz_ao": {
+   "resident": 699097,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_ilm": {
+   "resident": 5578,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_nml": {
+   "resident": 1398290,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_gls": {
+   "resident": 699226,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_col": {
+   "resident": 1398218,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_spc": {
+   "resident": 699226,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_ao": {
+   "resident": 699293,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_ilm": {
+   "resident": 5582,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_nml": {
+   "resident": 1398294,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_gls": {
+   "resident": 699230,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_col": {
+   "resident": 1398222,
+   "streamed": 0
+  },
+  "i_tod_bra_moz_pap_spc": {
+   "resident": 699230,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_ao": {
+   "resident": 2796248,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_ilm": {
+   "resident": 5592521,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_nml": {
+   "resident": 5592593,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_gls": {
+   "resident": 2796377,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_col": {
+   "resident": 5592521,
+   "streamed": 0
+  },
+  "i_tod_bra_pk_spc": {
+   "resident": 2796377,
+   "streamed": 0
+  }
+ },
+ "total_resident_bytes": 34966123
+}

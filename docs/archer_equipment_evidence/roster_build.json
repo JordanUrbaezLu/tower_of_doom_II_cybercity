@@ -1,0 +1,32 @@
+{
+  "ff_bytes": 199670080,
+  "ff_time": "2026-09-24T22:48:46.004779",
+  "input_count": 346,
+  "source_or_deployed_differences": [],
+  "deployed_inputs_newer_than_ff": [],
+  "expected_weapon_and_model_assets": 240,
+  "missing_assets": [],
+  "expected_audio_aliases": 174,
+  "missing_audio": [],
+  "inherited_common_audio_not_verified": [
+    "wpn_generic_dryfire_npc",
+    "wpn_generic_dryfire_plr"
+  ],
+  "sound_banks": {
+    "snd\\all\\zm_tod2_cybercity.all.sabl": 106904704,
+    "snd\\all\\zm_tod2_cybercity.all.sabs": 207523840,
+    "snd\\en\\zm_tod2_cybercity.en.sabl": 2048,
+    "snd\\en\\zm_tod2_cybercity.en.sabs": 2048
+  },
+  "dev": true,
+  "god": true,
+  "game_launched": false,
+  "native_playtest_verified": false,
+  "ff_sha256": "0a64b28309bbd4154289b5cba56caaa1a5372c2ef7e7b8e79c0a5054f2f89cdd",
+  "full_guarded_build_passed": true,
+  "unchanged_retained_generated_blocks": 105,
+  "generated_weapons": 207,
+  "fixed_weapons": 24,
+  "weapon_cost_entries": 234,
+  "native_appearance_limit": "Donor bow hidden attachment materials log four stock material diagnostics on Bow and two on Fire Bow. Actual visibility is untested."
+}

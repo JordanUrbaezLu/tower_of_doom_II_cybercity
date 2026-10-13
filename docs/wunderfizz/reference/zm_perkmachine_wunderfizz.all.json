@@ -1,0 +1,653 @@
+[
+  {
+    "snd": "sound_74641c6305557445",
+    "alias": "f47c56836d0065b1",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5160b0301d876802",
+    "alias": "f47c56836d0065b1",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_4fb6c90431f422e7",
+    "alias": "f47c56836d0065b1",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_73ae7ff551081ad4",
+    "alias": "dfc95b6097276202",
+    "alias2": "f47c56836d0065b1",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5ad3af8c59b406f0",
+    "alias": "amb_perk_deadshot_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_fd606787f2f63dc",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2d4a77a93a0ac2fb",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_56685621d339baa6",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5de00a7c2b8ee52d",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5a8045c4946dc070",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5f0d0eaf93d7cb6f",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_1951db277b9377ca",
+    "alias": "amb_perk_deathperception_drip",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7b128f08e02ecbad",
+    "alias": "1d3b55db3a69cfb",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_6b1e4526bcfd8887",
+    "alias": "amb_perk_doubletap_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_69c74f58591bb699",
+    "alias": "amb_perk_elementalpop_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_18d4329c1f9f4363",
+    "alias": "fbd93595e68dc6b2",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_50baa7cc28fa087c",
+    "alias": "amb_perk_juggernog_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_73f823f18e9968ef",
+    "alias": "amb_perk_melee_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_10437da93084baa7",
+    "alias": "amb_perk_mulekick_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_46864bde8a1bab8",
+    "alias": "amb_perk_phd_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2c60189f483863d3",
+    "alias": "amb_perk_revive_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_6b1e4526bcfd8887",
+    "alias": "amb_perk_speed_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2392a35bb0991295",
+    "alias": "amb_perk_staminup_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_73f823f18e9968ef",
+    "alias": "amb_perk_tombstone_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7d40e27897c51b35",
+    "alias": "862f2e72495a35b4",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_381b064641f64de2",
+    "alias": "cc6beda6f1f93d3b",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_369ea93cf3cc724a",
+    "alias": "amb_perk_wunderfizz_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5b79b19c0a48d819",
+    "alias": "f32bc0f267ebcc72",
+    "alias2": "5db5926c3568208f",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_1c6a20162a58927b",
+    "alias": "5db5926c3568208f",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5267732cfdd71d3",
+    "alias": "amb_perk_wunderfizz_spark",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_13c7e5b994c6fc94",
+    "alias": "amb_perk_wunderfizz_spark",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3da1e6a1145d5a21",
+    "alias": "amb_perk_wunderfizz_spark",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_6a6565d0167835e2",
+    "alias": "amb_perk_wunderfizz_spark",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_28bce4d6ee02d800",
+    "alias": "amb_perk_wunderfizz_spark_lp",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_6fbf61626bade051",
+    "alias": "b3671af0cd17164c",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_57c13f13959bfdc2",
+    "alias": "c017e2c8f457df5",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_155339caf75f06b4",
+    "alias": "b37212f0cd211039",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_357ee90578d7b033",
+    "alias": "evt_doubletap_purchase_intro",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3dece82250a72ae3",
+    "alias": "evt_doubletap_purchase_loop",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5ade0dcb4d79f3d3",
+    "alias": "evt_doubletap_purchase_outro",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_4ddfde3cf62fb02c",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3f26b4dc9c90bd59",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_65ab2d264fa45af6",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_430556a2f18d920b",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_10b1f28d169fba80",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_1086a29e95494a7d",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_4d4f3604e469be9a",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_61abea5bba35d33f",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7fbf6df4da142694",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_29996edc59aa8421",
+    "alias": "evt_doubletap_purchase_shots",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3ff161bc0c9abe96",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_263c20d319b58a79",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_fdb4c2f574ed7cc",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_26850f58ff7619df",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2d04ad4073dc46ba",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_22d1c7fe0c86f41d",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5cb884d7e304bca0",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_77fec07979c7de73",
+    "alias": "evt_melee_macchiato_punch",
+    "alias2": "evt_melee_macchiato_punch_mech",
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_32eade8b42834e8a",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_75fd45ccda8351ed",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_492181105b61cf30",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3c871050f4573abb",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7e7f89acec208566",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_50423d9d25393f89",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_cf771eb981dcc9c",
+    "alias": "evt_melee_macchiato_punch_mech",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_386bc99d9305639c",
+    "alias": "evt_melee_macchiato_start_bell",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2051772b2ac59df5",
+    "alias": "evt_melee_macchiato_start_end_bell",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2c1fdb4e74924c26",
+    "alias": "39f1c47ff46ff905",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_8d79acd3e119b25",
+    "alias": "49321f99a1a8a6f3",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_78b3f70e6e33c5c",
+    "alias": "mus_perk_deadshot_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_66600e803d06d106",
+    "alias": "mus_perk_deadshot_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_25dfe0056d8a41ee",
+    "alias": "8816cee9ca5f31f9",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2cea6fddcbf1a204",
+    "alias": "714645a3596455ae",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5ddcfcf45da2d684",
+    "alias": "mus_perk_doubletap_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2476ecc30704f8fe",
+    "alias": "mus_perk_doubletap_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_735ba4ee4010bad7",
+    "alias": "88617fc4930003be",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_42e7934c754dec0b",
+    "alias": "e987845c4bce867f",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_79c6d90c5cc1f7f0",
+    "alias": "mus_perk_juggernog_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_59417a62b5e5e52a",
+    "alias": "mus_perk_juggernog_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_56c342e76b1d942a",
+    "alias": "mus_perk_macchiato_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_280cc1bdfe988570",
+    "alias": "mus_perk_macchiato_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_3ca3d6f876d9e169",
+    "alias": "mus_perk_mulekick_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_4b200992d4d383a",
+    "alias": "mus_perk_mulekick_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_4bb8feb4a346944e",
+    "alias": "mus_perk_phd_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_5c976d1c875b6464",
+    "alias": "mus_perk_phd_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2e508a5c39a687ec",
+    "alias": "mus_perk_revive_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_b906f7a2d70f43a",
+    "alias": "mus_perk_revive_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7c8ca5f17d122a75",
+    "alias": "mus_perk_speed_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_2c48f029d05eb20d",
+    "alias": "mus_perk_speed_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_78fe8f684aee55a4",
+    "alias": "mus_perk_staminup_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_7e790f84399f109e",
+    "alias": "mus_perk_staminup_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_8b7b329ba33a551",
+    "alias": "mus_perk_tombstone_jingle",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  },
+  {
+    "snd": "sound_43ee11b042837879",
+    "alias": "mus_perk_tombstone_stinger",
+    "alias2": null,
+    "speaker": null,
+    "content": null
+  }
+]

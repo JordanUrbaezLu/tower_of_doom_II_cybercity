@@ -1,0 +1,90 @@
+{
+ "gdt": "source_data\\tod_breacher_apex.gdt",
+ "gdt_sha256": "9b861b0e9f381c7ee664b7844c8dfe01b0efb1ab83dfa128b21d7ba2139ac371",
+ "donor_gdt": "C:\\BO3Tools\\TOD2Cybercity\\source_data\\zeroy\\APEX_BO3.gdt",
+ "recipe": {
+  "filter": "aniso8x (mip linear)",
+  "glossRangeMax": "13",
+  "emissionScale": "4",
+  "images": {
+   "noPicMip": "1",
+   "doNotResize": "1",
+   "streamable": "0"
+  }
+ },
+ "skins": {
+  "pk": {
+   "material": "mtl_tod_bra_pk",
+   "images": {
+    "col": "i_tod_bra_pk_col",
+    "nml": "i_tod_bra_pk_nml",
+    "gls": "i_tod_bra_pk_gls",
+    "spc": "i_tod_bra_pk_spc",
+    "ao": "i_tod_bra_pk_ao",
+    "ilm": "i_tod_bra_pk_ilm"
+   },
+   "models": {
+    "view": "tod_bra_pk_view",
+    "world": "tod_bra_pk_world"
+   },
+   "donor_images": "i_apex_peacekeeper_skin32",
+   "donor_models": {
+    "view": "vm_apex_peacekeeper",
+    "world": "npc_apex_peacekeeper"
+   },
+   "skinOverride": [
+    "mtl_apex_peacekeeper",
+    "mtl_apex_peacekeeper_skin32",
+    "mtl_apex_peacekeeper_skin32_camo"
+   ]
+  },
+  "moz": {
+   "material": "mtl_tod_bra_moz",
+   "images": {
+    "col": "i_tod_bra_moz_col",
+    "nml": "i_tod_bra_moz_nml",
+    "gls": "i_tod_bra_moz_gls",
+    "spc": "i_tod_bra_moz_spc",
+    "ao": "i_tod_bra_moz_ao",
+    "ilm": "i_tod_bra_moz_ilm"
+   },
+   "models": {
+    "view": "tod_bra_moz_view",
+    "world": "tod_bra_moz_world"
+   },
+   "donor_images": "i_apex_mozambique",
+   "donor_models": {
+    "view": "vm_apex_mozambique",
+    "world": "npc_apex_mozambique"
+   },
+   "skinOverride": [
+    "mtl_apex_mozambique",
+    "mtl_apex_mozambique_camo"
+   ]
+  },
+  "moz_pap": {
+   "material": "mtl_tod_bra_moz_pap",
+   "images": {
+    "col": "i_tod_bra_moz_pap_col",
+    "nml": "i_tod_bra_moz_pap_nml",
+    "gls": "i_tod_bra_moz_pap_gls",
+    "spc": "i_tod_bra_moz_pap_spc",
+    "ao": "i_tod_bra_moz_pap_ao",
+    "ilm": "i_tod_bra_moz_pap_ilm"
+   },
+   "models": {
+    "view": "tod_bra_moz_pap_view",
+    "world": "tod_bra_moz_pap_world"
+   },
+   "donor_images": "i_apex_mozambique_legendary_02",
+   "donor_models": {
+    "view": "vm_apex_mozambique_legendary_02",
+    "world": "npc_apex_mozambique_legendary_02"
+   },
+   "skinOverride": [
+    "mtl_apex_mozambique_legendary_02",
+    "mtl_apex_mozambique_legendary_02_camo"
+   ]
+  }
+ }
+}

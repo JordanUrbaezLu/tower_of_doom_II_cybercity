@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Departure Hall Review</title>
+<style>
+  :root { --bg:#0e0c16; --panel:#18152a; --ink:#ece8f6; --dim:#a79fc0; --gold:#e8b547; --line:#2c2645; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f4f1fa; --panel:#ffffff; --ink:#1b1730; --dim:#5b5474; --gold:#9a6b00; --line:#ddd6ee; } }
+  :root[data-theme="light"] { --bg:#f4f1fa; --panel:#ffffff; --ink:#1b1730; --dim:#5b5474; --gold:#9a6b00; --line:#ddd6ee; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:1180px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:26px; margin:0 0 4px; } h2 { font-size:19px; margin:36px 0 10px; color:var(--gold); }
+  p, li { color:var(--dim); } strong { color:var(--ink); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:14px; }
+  figure { margin:0; background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  figure img { display:block; width:100%; height:auto; }
+  figcaption { padding:8px 12px 12px; font-size:13.5px; color:var(--dim); }
+  .wide { grid-column:1 / -1; }
+  table { border-collapse:collapse; width:100%; background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow:hidden; font-size:14px; }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--gold); font-weight:600; } td { color:var(--dim); }
+  .note { font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Departure Hall + the first jump's opening scene</h1>
+  <p>Session 61, 2026-09-29 (docs/196). Renders are Blender previews of the <strong>actual emitted map brushes</strong>, the shipped
+  teleporter mesh and the map's own lights as stand-ins, under the game's sky — previews, not native bakes. The sky shown is session 22's
+  new title sign after the −90° roll. <strong>Built</strong> in one combined full build (2026-09-29 11:49).</p>
+  <p><strong>First play (13:00):</strong> the scene works, but in game the sign was not in the shot. The engine's own sky shader
+  shows the image's centre faces east, not north, so the −90° roll put the sign behind the crown. The fix (session 22's new
+  render at roll 0, plus the sky material turned 180°) puts it due west, exactly as these previews show. It rides the next full
+  build (docs/196 §3).</p>
+
+  <h2>Before → after</h2>
+  <div class="grid">
+    <figure><img src="before_top_bay.png" alt="The old teleporter bay: a plain box with three pads on coloured mats"><figcaption><strong>Before.</strong> The 2026-09-27 bay: a flat-roofed box, three pads on coloured mats.</figcaption></figure>
+    <figure><img src="hall_entrance.png" alt="The new hall from the door: nave, piers, oculus, and the window with the sign"><figcaption><strong>After, from the door.</strong> Down the axis: the nave, the crossing's ruby piers and gold arches, the oculus and lantern, the apse window with the sign beyond.</figcaption></figure>
+  </div>
+
+  <h2>The hall</h2>
+  <div class="grid">
+    <figure><img src="hall_facade.png" alt="The front door from the terrace"><figcaption>The front door from the terrace: ruby pilasters, gold plate, keystone, a warm entrance light.</figcaption></figure>
+    <figure><img src="hall_apse.png" alt="Gate 20 and the window"><figcaption>Gate 20 (green): the pad in front of THE WINDOW, the sign due west.</figcaption></figure>
+    <figure><img src="hall_crossing_n.png" alt="Gate 10"><figcaption>Gate 10 (cyan floor, blue panel, gold "10").</figcaption></figure>
+    <figure><img src="hall_crossing_s.png" alt="Gate 30"><figcaption>Gate 30 (orange floor, bronze panel, gold "30").</figcaption></figure>
+    <figure><img src="hall_up.png" alt="Looking up through the open roof"><figcaption>Looking up: the open roof, the oculus ring, its cross and ruby lantern.</figcaption></figure>
+    <figure><img src="hall_plan.png" alt="Plan view"><figcaption>Plan: the colour-coded cross, pad rings, floor numbers, the medallion.</figcaption></figure>
+    <figure><img src="hall_landing.png" alt="The hall from the jump pad landing"><figcaption>Stepping off the jump pad's landing deck.</figcaption></figure>
+    <figure><img src="hall_aerial.png" alt="Aerial view"><figcaption>From the air (the jump's approach): ribs crest every arm.</figcaption></figure>
+    <figure><img src="hall_under.png" alt="The hall's keel from below"><figcaption>From below (the view up from the spiral). The keel reads dark here because this preview only lights the hall's own lamps; the game's bake lights it from the sky. Worth a look up from the top floors in the playtest.</figcaption></figure>
+  </div>
+
+  <h2>The opening scene (each player's first jump)</h2>
+  <div class="grid">
+    <figure class="wide"><img src="crash_storyboard.png" alt="Storyboard of the first jump's crash: the dimmed sign, two gunships warping in, the charge, the white-out, the sign ablaze"><figcaption><strong>THE CRASH, storyboarded</strong> (<code>python tools/jump_title/render_storyboard.py</code>). The sky is the finished panorama seen through the engine's decoded sky mapping. The camera and the ships come from the live scene: the gunship is session 9c's own render, laid on each ship's projected path. The blaze is painted from the effect's own table. The warp, the burn, the white-out, the fireball and the wreckage are painted stand-ins. It shows where everything is and when; how the effects look is the playtest's.</figcaption></figure>
+    <figure class="wide"><img src="reveal.png" alt="The letterboxed reveal frame: the TOWER OF DOOM II sign due west"><figcaption>The first reveal preview (before the crash): letterbox 2.35:1, the camera turned right to due west, in-game field of view. Since the first play the camera looks 13° up, and the sky is turned so the sign really stands there (docs/196 §3).</figcaption></figure>
+  </div>
+  <table>
+    <tr><th>time</th><th>what happens</th></tr>
+    <tr><td>0.0 s</td><td>Launch. The letterbox closes, the HUD hides, the gun goes down, the wind rushes in. Dark smoke gathers over the sky sign (out of view).</td></tr>
+    <tr><td>0.7 s</td><td>The camera turns right, smoothly, to the sign (stock view-clamp lerp, never a snap).</td></tr>
+    <tr><td>1.5 s</td><td>The magenta gunship WARPS IN beside the dimmed sign: a portal flash, a deep bamf.</td></tr>
+    <tr><td>2.25 s</td><td>The green gunship warps in on the other side, bow to bow.</td></tr>
+    <tr><td>2.7 s</td><td>Engines flare white-hot; they ram each other.</td></tr>
+    <tr><td>3.9 s</td><td>THE CRASH: the screen burns white, the fireball fills the frame, the shot shakes, the boom and its rumble.</td></tr>
+    <tr><td>4.1 s</td><td>Behind the white, the sign ignites: a power surge, the title ablaze.</td></tr>
+    <tr><td>~5.5 s</td><td>The white clears through fire: TOWER OF DOOM II blazing, reactor blasts, wreckage falling to the city, 9c's fighter salute.</td></tr>
+    <tr><td>7.3 s</td><td>The swing back down to the tower; the blaze fades as the sign leaves the frame.</td></tr>
+    <tr><td>9.1 s</td><td>Control returns: free look, bars open, HUD back, the gun comes up.</td></tr>
+    <tr><td>11.0 s</td><td>A soft landing on the terrace.</td></tr>
+  </table>
+  <p class="note">Every later jump: 7 s with the same float and soft landing, free look throughout. A card deal mid-scene ends it at once (the ships and the effects go with it).</p>
+</main>
+</body>
+</html>

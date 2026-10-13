@@ -1,0 +1,739 @@
+{
+  "date": "2026-10-07",
+  "revision": 3,
+  "status": "FOUR_HAVEN_DOME_FULL_BUILD_VERIFIED_USER_PLAYTEST_PENDING",
+  "machine_request": "Four original BO6 Wunderfizz counters inside existing haven domes on floors 10, 20, 30 and 40; original assets and pricing preserved.",
+  "integration": {
+    "counter_count": 4,
+    "floors": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "retired_individual_vendors": 9,
+    "sellable_roster_count": 9,
+    "next_perk_price": "2000 + 500 * current buyer owned-or-paused roster perk count",
+    "free_grants_count": true,
+    "lost_perks_reduce_price": true,
+    "price_and_session_scope": "per-player; never shared between co-op buyers",
+    "solo_quick_revive": "Pre-power offer; three paid uses; existing free-grant exemption; counter remains after exhaustion",
+    "native_hint_origin": "spawned model GetTagOrigin(\"tag_hint\")",
+    "standing_range_nav_anchor_local": [
+      83.240486,
+      0,
+      53.877693
+    ],
+    "native_hint_tag_local": [
+      50.19290542602539,
+      0,
+      53.87769317626953
+    ],
+    "native_model_scale": 1,
+    "hum_policy": "existing nearby arbitration within the original 600-unit wet radius and original six-voice alias cap; four physical counters total",
+    "idle_fx_policy": "up to four powered per-client handles; untouched original EFX native distance culling",
+    "activation_policy": "original threaded clip and authored sound/FX notetracks; same-counter art queues without gating purchases",
+    "placement": "inside existing haven domes only",
+    "ordinary_floor_counters": 0,
+    "floor_50_counter": false
+  },
+  "source_provenance": {
+    "archive": "tmp/wunderfizz/audio/downloads/BO6_Overhaul_Assets_v1.0.rar",
+    "archive_bytes": 804084202,
+    "archive_sha256": "3c6a12b993e32b667bdb10defc2b9392801dc1d7fd9462812b288a974088a0fa",
+    "credits": "BO6 machine port by WetEgg; archive published by KingslayerKyle BO6Overhaul v1.0",
+    "urls": [
+      "https://github.com/KingslayerKyle/BO6Overhaul",
+      "https://assets.gscode.net/assets/black-ops-6-overhaul",
+      "https://drive.google.com/drive/folders/1eictKdWp20j5v7jT9h3p4Ck8F_id2KsH"
+    ],
+    "acquisition_kind": "Primary author's existing native BO3 port of BO6 assets; not a fresh extraction from the absent former local installation",
+    "asset_manifest": "art/wunderfizz/asset_manifest.json",
+    "asset_manifest_sha256": "994390e2f4f76763e0a17a38d7739b574460c2262d688208d97dcee5e5ebff5c",
+    "source_gdt_sha256": "6c25cb61db0fe80d82bcd065926e0ffd24cd8cfe342a73b5cad23c42cdebeedc",
+    "installed_native_source_file_count": 40,
+    "model_names": {
+      "off": "t10_zm_machine_wunderfizz_fxanim",
+      "on": "t10_zm_machine_wunderfizz_fxanim_on"
+    },
+    "original_lods": 14,
+    "original_4096_pngs": 20,
+    "original_materials": 6,
+    "animation": "t10_zm_machine_wunderfizz_fxanim_activate",
+    "animation_frames": 121,
+    "animation_fps": 30,
+    "original_geometry_texture_labels_colors_uvs_rig_lods_animation_fx_preserved": true,
+    "measured_lod_bounds": [
+      [
+        -1.372423529624939,
+        51.24048614501953
+      ],
+      [
+        -27.691320419311523,
+        27.69118881225586
+      ],
+      [
+        -0.0014846182893961668,
+        96.93904876708984
+      ]
+    ],
+    "animated_bounds": [
+      [
+        -1.372423529624939,
+        51.24048614501953
+      ],
+      [
+        -27.691320419311523,
+        27.69118881225586
+      ],
+      [
+        -0.0014846182893961668,
+        97.76506600201792
+      ]
+    ],
+    "collision": {
+      "file": "share/raw/collmaps/t10_zm_machine_wunderfizz_fxanim.map",
+      "source_sha256": "7138e3ac80a47017b2fa9f81bed2ac77c4523880107fe982b15feccad377ba15",
+      "hulls": [
+        {
+          "brush": 0,
+          "planes": 6,
+          "corners": [
+            [
+              39.5,
+              -22.5,
+              0.0
+            ],
+            [
+              1.5,
+              -22.5,
+              0.0
+            ],
+            [
+              39.5,
+              22.0,
+              0.0
+            ],
+            [
+              1.5,
+              22.0,
+              0.0
+            ],
+            [
+              39.5,
+              -22.5,
+              64.0
+            ],
+            [
+              1.5,
+              -22.5,
+              64.0
+            ],
+            [
+              39.5,
+              22.0,
+              64.0
+            ],
+            [
+              1.5,
+              22.0,
+              64.0
+            ]
+          ],
+          "bounds": [
+            [
+              1.5,
+              39.5
+            ],
+            [
+              -22.5,
+              22.0
+            ],
+            [
+              0.0,
+              64.0
+            ]
+          ],
+          "materials": [
+            "clip"
+          ]
+        },
+        {
+          "brush": 1,
+          "planes": 5,
+          "corners": [
+            [
+              1.5,
+              -22.5,
+              64.0
+            ],
+            [
+              39.50000000000001,
+              -22.5,
+              64.0
+            ],
+            [
+              1.5,
+              22.0,
+              64.0
+            ],
+            [
+              39.50000000000001,
+              22.0,
+              64.0
+            ],
+            [
+              1.5,
+              -22.5,
+              101.47222222222223
+            ],
+            [
+              1.5,
+              22.0,
+              101.47222222222223
+            ]
+          ],
+          "bounds": [
+            [
+              1.5,
+              39.50000000000001
+            ],
+            [
+              -22.5,
+              22.0
+            ],
+            [
+              64.0,
+              101.47222222222223
+            ]
+          ],
+          "materials": [
+            "clip_slick"
+          ]
+        }
+      ],
+      "native_map_unchanged": true
+    }
+  },
+  "image_conversion": {
+    "all_source_pngs_unchanged": true,
+    "mip_base": "1/1; original 4096 top mip",
+    "glass_diffuse": "i_t10_zm_machine_wunderfizz_glass_c",
+    "glass_source_semantic": "sRGB3chAlpha",
+    "glass_compression": "uncompressed",
+    "glass_native_iwi_format": 14,
+    "glass_native_channel_order": "RGBA8",
+    "glass_mip_count": 13,
+    "interim_bc7_rejected": "Native coarse glass alpha mips failed fidelity gate; original PNG and shaders were preserved",
+    "additional_glass_memory_over_bc7_mib": 64,
+    "memory_scope": "one shared texture/mip chain referenced by all four counters; not four copies",
+    "final_native_alpha_gate": "Historical 15:04 conversion PASS: format14 RGBA8, all13mips, byte-exact full base RGBA, maximum sourceBOX alpha error1 byte; current four-haven FF must rerun the gate"
+  },
+  "audio": {
+    "manifest": "art/wunderfizz/audio_manifest.json",
+    "manifest_sha256": "7d624f4562c6a6f59a135eb499192788aeab4d87d8e49ecb59ad590755975237",
+    "original_wav_count": 7,
+    "original_pcm_unchanged": true,
+    "native_alias_rows": 7,
+    "native_alias_names": [
+      "evt_wunderfizz_activate",
+      "evt_wunderfizz_activate_electricity",
+      "evt_wunderfizz_humming_loop",
+      "evt_wunderfizz_spark_fx"
+    ],
+    "alias_subset_sha256": "5b63473259f7eb25f779c1562b30c33408df0a0b44ba91a5054a38d06b81ade6",
+    "files": [
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_activate.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_activate.wav",
+        "bytes": 1132844,
+        "sha256": "969d69fd203066fbcfe6e46ca968e2184edc7259b0d81aa340b4103eb5432cf2",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 283200,
+        "seconds": 5.9,
+        "peak_pcm": 29205,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 1132800
+          }
+        ],
+        "first_frame": [
+          0,
+          0
+        ],
+        "last_frame": [
+          0,
+          0
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_activate_electricity.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_activate_electricity.wav",
+        "bytes": 637484,
+        "sha256": "d9d48c77c88c75dc9d29a735f3b1cb8070a255450a3c629b7d055a1a31d72100",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 159360,
+        "seconds": 3.32,
+        "peak_pcm": 30602,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 637440
+          }
+        ],
+        "first_frame": [
+          0,
+          0
+        ],
+        "last_frame": [
+          0,
+          0
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_humming.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_humming.wav",
+        "bytes": 11698168,
+        "sha256": "635e8892fcd3e0b6eb70779042bd7b3c9616e39bbe1ae201edc698c5168fb369",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 2924521,
+        "seconds": 60.92752083333333,
+        "peak_pcm": 12038,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 11698084
+          },
+          {
+            "name": "LIST",
+            "bytes": 32
+          }
+        ],
+        "first_frame": [
+          0,
+          0
+        ],
+        "last_frame": [
+          0,
+          0
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_01.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_01.wav",
+        "bytes": 44204,
+        "sha256": "2fb2385f8499ccfcc153b8e2fd807be68fcf0dce120188659ab7ebeebe0ebde6",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 22080,
+        "seconds": 0.46,
+        "peak_pcm": 31201,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 44160
+          }
+        ],
+        "first_frame": [
+          0
+        ],
+        "last_frame": [
+          -6
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_02.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_02.wav",
+        "bytes": 32684,
+        "sha256": "1d17286f507ae77b5e1cd0a187e898c74496310af080e32aa3b5aa74dbdc6344",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 16320,
+        "seconds": 0.34,
+        "peak_pcm": 32768,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 32640
+          }
+        ],
+        "first_frame": [
+          0
+        ],
+        "last_frame": [
+          -31
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_03.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_03.wav",
+        "bytes": 36524,
+        "sha256": "ea09b2be624d18c7338aff2ba445a0e713cc954b94576b2232097b9e61bb3669",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 18240,
+        "seconds": 0.38,
+        "peak_pcm": 28880,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 36480
+          }
+        ],
+        "first_frame": [
+          0
+        ],
+        "last_frame": [
+          -7
+        ]
+      },
+      {
+        "path": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_04.wav",
+        "original_archive_member": "sound_assets/_wetegg/t10/wunderfizz/evt_wunderfizz_spark_04.wav",
+        "bytes": 48044,
+        "sha256": "5af6c206ee34694088307d3095249572c0474dabb12053ad4b8e9d95f4339a76",
+        "format": "PCM16",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 24000,
+        "seconds": 0.5,
+        "peak_pcm": 28135,
+        "riff_chunks": [
+          {
+            "name": "fmt ",
+            "bytes": 16
+          },
+          {
+            "name": "data",
+            "bytes": 48000
+          }
+        ],
+        "first_frame": [
+          0
+        ],
+        "last_frame": [
+          -1
+        ]
+      }
+    ],
+    "native_audible_playback_verified": false
+  },
+  "verification": {
+    "source_and_runtime_landed": true,
+    "final_delivery_snapshot_captured_at": "2026-10-08T15:11:23.844853-04:00",
+    "inclusive_full_build_receipt": "art/dealer_combat/build.json",
+    "final_guarded_build_status": "BUILD_OK",
+    "final_ff_path": "C:/BO3Tools/TOD2Cybercity/usermaps/zm_tod2_cybercity/zone/zm_tod2_cybercity.ff",
+    "final_ff_timestamp": "2026-10-08T15:20:49.643704-04:00",
+    "final_ff_bytes": 220396416,
+    "final_ff_sha256": "6adf2e8fdc9d0a86493f2a0ea8c9e822b568f3f0e8232c1e251c450af52cf554",
+    "final_delivery_receipt_links": [
+      "art/wunderfizz/build.json",
+      "art/wunderfizz/compiled_assets.json",
+      "art/wunderfizz/native_audio.json",
+      "art/wunderfizz/milestones_delivery.json",
+      "tmp/wunderfizz/milestones/full_build.log"
+    ],
+    "native_visual_verified": false,
+    "native_audio_heard": false,
+    "native_animation_observed": false,
+    "native_gameplay_playtested": false,
+    "agent_launched_game": false,
+    "blender_review_scope": "Original source art approximate shading; no native quality claim",
+    "static_harness_scope": "GSC policy/native doubles and Lua input harness; not engine execution",
+    "final_source_deployment_inputs_verified": 291,
+    "final_navigation": {
+      "purchaser_probes_required": 12,
+      "own_landing_connections_required": 4,
+      "purchaser_probes_passed": 12,
+      "own_landing_connections_passed": 4,
+      "floors": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "fresh_corrected_native_mesh_required": true,
+      "fresh_corrected_native_mesh_verified": true
+    },
+    "placement_contract": {
+      "counter_count": 4,
+      "floors": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "inside_existing_haven_domes": true
+    },
+    "final_delivery_receipts_pending_update": false
+  },
+  "delivery_pending": [
+    "User native input/gameplay, visual, animation/FX, audible playback and performance playtest."
+  ],
+  "missing_source_delivery": [],
+  "historical_search": {
+    "scope": "Superseded discovery history only; old model candidates and six metadata-only amb_perk_* bank rows are not the delivered author-package assets/audio",
+    "discarded_modern_candidate_names": [
+      "p9_sur_machine_perk",
+      "p9_sur_machine_perk_off"
+    ],
+    "discarded_modern_candidate_reference": "https://raw.githubusercontent.com/kelson8/bo3-Zombies-Test-Map/main/scripts/zm/_t9_wonderfizz.gsc",
+    "initial_local_search_history": {
+      "status": "EXACT_MODERN_MACHINE_AND_ACTUAL_MACHINE_AUDIO_MISSING",
+      "machine_request": "modern choose-perk Wunderfizz counter; edition awaiting user clarification",
+      "modern_model_present": false,
+      "missing_delivery": [
+        "original modern model/rig and all LODs",
+        "complete materials and original source textures including opacity/emission",
+        "powered/unpowered and dispense-state definitions",
+        "original animation clips and notetracks",
+        "actual machine WAVs plus alias settings/timing",
+        "original collision, bounds, pivot, unit scale, front axis and interaction tags",
+        "source-game identification and matched source/port preview proof"
+      ]
+    },
+    "old_machine_available": {
+      "acceptable_substitute": false,
+      "asset": "p7_zm_vending_wonder",
+      "reason": "Older BO3/Der Eisendrache random-bottle machine differs from requested new exact model",
+      "model_source": "C:\\Users\\jorda\\Downloads\\_t7stage\\T7 Assets V2.7\\T7 Assets\\model_export\\_midgetblaster\\props\\p7_zm_castle\\p7_zm_vending_wonder",
+      "lods": 8,
+      "other_complete_old_package": "C:\\Users\\jorda\\Downloads\\[West] Community Perk Collection v2.7.zip",
+      "package_has": [
+        "old machine body/ball xmodels",
+        "old animation clips",
+        "old texture maps",
+        "old Wunderfizz WAVs",
+        "old prefabs and effects"
+      ]
+    },
+    "metadata": [
+      {
+        "path": "C:\\Users\\jorda\\Downloads\\BO6_Pilot_Export\\bo6\\sndbanks\\csv\\zm_perkmachine_wunderfizz.all.csv",
+        "sha256": "eabac64444e3bcca8cb71670a43662eef61ff013c462070f978631d94b1123d2"
+      },
+      {
+        "path": "C:\\Users\\jorda\\Downloads\\BO6_Pilot_Export\\bo6\\sndbanks\\json\\zm_perkmachine_wunderfizz.all.json",
+        "sha256": "9e7a31a26fbd1637fba38b9a8194b5280a9797ccb5a31dcf12a295d90b8d8cdd"
+      }
+    ],
+    "machine_audio_rows": [
+      {
+        "alias": "amb_perk_wunderfizz_lp",
+        "sound_stem": "sound_369ea93cf3cc724a",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      },
+      {
+        "alias": "amb_perk_wunderfizz_spark",
+        "sound_stem": "sound_5267732cfdd71d3",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      },
+      {
+        "alias": "amb_perk_wunderfizz_spark",
+        "sound_stem": "sound_13c7e5b994c6fc94",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      },
+      {
+        "alias": "amb_perk_wunderfizz_spark",
+        "sound_stem": "sound_3da1e6a1145d5a21",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      },
+      {
+        "alias": "amb_perk_wunderfizz_spark",
+        "sound_stem": "sound_6a6565d0167835e2",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      },
+      {
+        "alias": "amb_perk_wunderfizz_spark_lp",
+        "sound_stem": "sound_28bce4d6ee02d800",
+        "actual_wav_paths": [],
+        "actual_wav_present": false
+      }
+    ],
+    "sound_tree_searched": "C:\\Users\\jorda\\Downloads\\BO6_Pilot_Export\\bo6\\sounds",
+    "trees_searched_read_only": [
+      "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity",
+      "C:\\BO3Tools\\TOD2Cybercity\\source_data",
+      "C:\\BO3Tools\\TOD2Cybercity\\model_export",
+      "C:\\Users\\jorda\\Downloads",
+      "C:\\Users\\jorda\\Documents\\BO3_tools",
+      "C:\\Users\\jorda\\AppData\\Local\\Temp",
+      "C:\\Users\\jorda\\OneDrive",
+      "C:\\tmp",
+      "C:\\kx_tmp",
+      "C:\\t8drop_tmp",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops III 455130\\source_data",
+      "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops III 455130\\model_export"
+    ],
+    "archives_header_scanned_read_only": [
+      "SATPerksAssets (1).7z",
+      "SATPerksAssets.7z",
+      "SATPerksCode.7z",
+      "_mg_bo6_libfall_props.rar",
+      "T7 Assets V2.8.rar",
+      "[West] Community Perk Collection v2.7.zip",
+      "acc_external_assets.zip",
+      "3D Models-20260930T132111Z-1-001.zip",
+      "3D Models-20260930T132111Z-1-002.zip",
+      "3D Models-20260930T132111Z-1-003.zip",
+      "3D Models-20261002T134705Z-1-001.zip",
+      "3D Models-20261002T134705Z-1-002.zip"
+    ],
+    "exact_name_archive_scans": [
+      "T7 Assets V2.8.rar",
+      "SATPerksAssets (1).7z",
+      "SATPerksAssets.7z",
+      "[West] Community Perk Collection v2.7.zip",
+      "_mg_bo6_libfall_props.rar",
+      "acc_external_assets.zip"
+    ],
+    "patterns": [
+      "fizz",
+      "wonder",
+      "wunder",
+      "random",
+      "machine",
+      "perk",
+      "vending",
+      "sur_machine_perk",
+      "p9_sur"
+    ],
+    "false_positive": "p9_sur_machine_weapon_* textures in ALXS CW/BO6 PaP belong to Pack-a-Punch, not Wunderfizz",
+    "request_doc": "docs/wunderfizz_asset_request.md",
+    "request_zip": "C:\\Users\\jorda\\Downloads\\tod_wunderfizz_exact_import_art_pack.zip"
+  },
+  "historical_deliveries": [
+    {
+      "scope": "Actual completed mistaken 50-counter placement; corrected by the user, not the current four-haven contract",
+      "counter_count": 50,
+      "floors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "verification": {
+        "source_and_runtime_landed": true,
+        "final_guarded_build_started_local": "2026-10-07 14:48:35 America/Indianapolis",
+        "final_guarded_build_status": "BUILD_OK",
+        "first_native_navigation": {
+          "build_time_local": "2026-10-07 14:16 America/Indianapolis",
+          "purchaser_probes_passed": 150,
+          "own_landing_connections_passed": 50,
+          "scope": "Historical first native build; final guarded build rechecks; first attempt rejected for glass alpha"
+        },
+        "final_ff_path": "C:/BO3Tools/TOD2Cybercity/usermaps/zm_tod2_cybercity/zone/zm_tod2_cybercity.ff",
+        "final_ff_timestamp": "2026-10-07T15:04:17.437771-04:00",
+        "final_ff_bytes": 220532160,
+        "final_ff_sha256": "1f4f36b8028fdc1ced11f8d81e9e8fb0d502b3536f7257a00578942aad267ad4",
+        "final_delivery_receipt_links": [
+          "art/wunderfizz/build.json",
+          "art/wunderfizz/compiled_assets.json",
+          "art/wunderfizz/native_audio.json",
+          "tmp/wunderfizz/final_build.log"
+        ],
+        "native_visual_verified": false,
+        "native_audio_heard": false,
+        "native_animation_observed": false,
+        "native_gameplay_playtested": false,
+        "agent_launched_game": false,
+        "blender_review_scope": "Original source art approximate shading; no native quality claim",
+        "static_harness_scope": "GSC policy/native doubles and Lua input harness; not engine execution",
+        "final_source_deployment_inputs_verified": 290,
+        "final_navigation": {
+          "purchaser_probes_passed": 150,
+          "own_landing_connections_passed": 50,
+          "native_mesh_reused_with_identical_geometry_and_lighting_inputs": true
+        }
+      },
+      "archived_receipt": "art/wunderfizz/deliveries/20261007_150417_fifty_stops_superseded/art/wunderfizz/build.json",
+      "archived_asset_receipt": "art/wunderfizz/deliveries/20261007_150417_fifty_stops_superseded/art/wunderfizz/compiled_assets.json"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source_hashes_verified": 84,
+  "resolved_audio_alias_rows": 22,
+  "models": [
+    {
+      "lod": 0,
+      "triangles": 1361,
+      "geometry_equal": true
+    },
+    {
+      "lod": 1,
+      "triangles": 250,
+      "geometry_equal": true
+    },
+    {
+      "lod": 2,
+      "triangles": 23,
+      "geometry_equal": true
+    }
+  ],
+  "native_texture_dimensions_preserved": true,
+  "native_playtest": false
+}

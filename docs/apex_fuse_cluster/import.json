@@ -1,0 +1,471 @@
+{
+  "scope": "Apex Knuckle Cluster models/textures/sounds; effects composed from BO3 emitters (Apex efct does not convert)",
+  "apex_build": "R5pc_r5-301_J28_CL11570498_FSv30_1_2026_09_16_17_18",
+  "models": [
+    {
+      "name": "tod_fuse_cluster_view",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\ptpov_fuse_tactical_grenade_held\\ptpov_fuse_tactical_grenade_held_LOD0.cast",
+      "sha256": "fb758e98ff30f991fd14223e76e1d9e9ef4ee2c4a937abe853479488d2f53bb1",
+      "template": "hb_thermite_view",
+      "scale": 2.5,
+      "vertices": 1419,
+      "bones": [
+        "tag_weapon",
+        "tag_clip",
+        "tag_activate_clip_animate"
+      ],
+      "bounds": [
+        [
+          -2.17,
+          -2.17,
+          -4.57
+        ],
+        [
+          2.17,
+          2.17,
+          4.07
+        ]
+      ]
+    },
+    {
+      "name": "tod_fuse_cluster_world",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade_projectile_large\\w_fuse_tactical_grenade_projectile_large_LOD0.cast",
+      "sha256": "6b585f867bb92fbd0ff96290d26c15b925032d5f132c853ab9351e7493b0b7c9",
+      "template": "hb_thermite_world",
+      "scale": 1.25,
+      "vertices": 546,
+      "bones": [
+        "tag_weapon",
+        "tag_fx"
+      ],
+      "bounds": [
+        [
+          -2.4,
+          -2.4,
+          -2.4
+        ],
+        [
+          2.4,
+          2.4,
+          2.4
+        ]
+      ]
+    },
+    {
+      "name": "tod_fuse_bomblet",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade_projectile\\w_fuse_tactical_grenade_projectile_LOD0.cast",
+      "sha256": "39ed80d439c4385597765967e3fe7a0887dff181dc969c28c2bc9f8ed8de3011",
+      "template": "hb_thermite_world",
+      "scale": 2.0,
+      "vertices": 546,
+      "bones": [
+        "tag_weapon",
+        "tag_fx"
+      ],
+      "bounds": [
+        [
+          -1.54,
+          -1.54,
+          -1.54
+        ],
+        [
+          1.54,
+          1.54,
+          1.54
+        ]
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "i_tod_fuse_cluster_col",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade\\w_fuse_tactical_grenade\\fuse_tactical_grenade_col.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "i_tod_fuse_cluster_nml",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade\\w_fuse_tactical_grenade\\fuse_tactical_grenade_nml.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "i_tod_fuse_cluster_gls",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade\\w_fuse_tactical_grenade\\fuse_tactical_grenade_gls.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "i_tod_fuse_cluster_spc",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade\\w_fuse_tactical_grenade\\fuse_tactical_grenade_spc.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "i_tod_fuse_cluster_ao",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\apex_r99_peacekeeper\\assets\\mdl\\w_fuse_tactical_grenade\\w_fuse_tactical_grenade\\fuse_tactical_grenade_ao.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "i_tod_fuse_cluster_ilm",
+      "source": "default",
+      "size": [
+        4,
+        4
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_01.wav",
+      "sha256": "322c400e6ff5611827dfaa5066863a2d462577f8f1746378ce4933547b00d360",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_1.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_02.wav",
+      "sha256": "d1ab45a399bf9472c377f11eb6e009c37927042e9d302d1c6d181a3bd7d67c79",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_2.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_03.wav",
+      "sha256": "15c6d4c12ed2299191fbae9c7a86be2a9f4235955599b95411e5f2f141547abc",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_04.wav",
+      "sha256": "55329d9fe273ad013dc38f21395d2ece3f04cdc6f49554ef4ad1e2ca10c129c3",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_4.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_05.wav",
+      "sha256": "7a3cde4621cd11da9bba1dc019f4f1ac159ca7f28188a6d31fb1f8bed5cb0508",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_5.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_06.wav",
+      "sha256": "c9ed7a632a0df79ad91624bcecfe1d4cdc8c5a839b3d833431fbe345903a4739",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_6.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_07.wav",
+      "sha256": "17e17b1cb1c37b636f891cd815b121e3613e6976248f21be76a9474d9c04a2f6",
+      "seconds": 2.834,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_7.wav"
+    },
+    {
+      "alias": "tod_fuse_throw",
+      "source": "Fuse_Tac_Fire_1p_Merge_2ch_08.wav",
+      "sha256": "18298f5630a1af02b2e9aafafe937688e5ec2dede4171827b1945cd34bac5c24",
+      "seconds": 2.684,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_8.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_01.wav",
+      "sha256": "8666308ff08f6ec2f0b51efed0f3988d1bd045b09b8c504405ed8eee9ca078d8",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_1.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_02.wav",
+      "sha256": "2bfc1d9e53f7e7c2bda84ae346e7b6bfdad70f48ee0d26c7e329650a51157464",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_2.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_03.wav",
+      "sha256": "e5e53a425857b38d4dc671cd98599658102d3ec67ea9a8e39ecbc1cdef1f1c7d",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_3.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_04.wav",
+      "sha256": "a8b55805530e0e661d996777285aa9a0ff88232aff97401735a8ce1afdc00195",
+      "seconds": 0.48,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_4.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_05.wav",
+      "sha256": "d831e2164b6907902d437a6f33a1939454b61d1195ffd5920ccb2a0450b4928f",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_5.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_06.wav",
+      "sha256": "34324312c534abf5d1ff711546dccdae7f2eec855e3c57d53d03410c71ef168e",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_6.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_07.wav",
+      "sha256": "8a66f20599c97abdab96363e0be4ccaa16ecc9e45b04c863770a5168019a3eec",
+      "seconds": 0.478,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_7.wav"
+    },
+    {
+      "alias": "tod_fuse_throw_3p",
+      "source": "Fuse_Tac_Fire_3p_1000_Merge_2ch_08.wav",
+      "sha256": "3def212adcb7ded9f6b7ba479d7cbd093fa2608bddf4d84cda4f8a227b53d4f3",
+      "seconds": 0.48,
+      "output": "sound_assets\\tod\\fuse_cluster\\throw_3p_8.wav"
+    },
+    {
+      "alias": "tod_fuse_draw",
+      "source": "Fuse_Tac_Deploy_2ch_Shortened_01.wav",
+      "sha256": "3b3e64dd8468526e933d69a996cc3d82b8bdae4e88c4e2e93bef366c2233c0f2",
+      "seconds": 0.573,
+      "output": "sound_assets\\tod\\fuse_cluster\\draw_1.wav"
+    },
+    {
+      "alias": "tod_fuse_draw",
+      "source": "Fuse_Tac_Deploy_2ch_Shortened_02.wav",
+      "sha256": "0060cc67e21ff6fb7b8f1b521b0fa7df6d3ee2b1ec5e06e8528f40ca223ddddb",
+      "seconds": 0.651,
+      "output": "sound_assets\\tod\\fuse_cluster\\draw_2.wav"
+    },
+    {
+      "alias": "tod_fuse_draw",
+      "source": "Fuse_Tac_Deploy_2ch_Shortened_03.wav",
+      "sha256": "eed825dff0924d5e4b4c4042bee041bd4257cb352063b2a3e79086cd686de1af",
+      "seconds": 0.632,
+      "output": "sound_assets\\tod\\fuse_cluster\\draw_3.wav"
+    },
+    {
+      "alias": "tod_fuse_draw",
+      "source": "Fuse_Tac_Deploy_2ch_Shortened_04.wav",
+      "sha256": "b117f0def50554974a847d13a71e9ac16d560a8de810402737dd193030046905",
+      "seconds": 0.6,
+      "output": "sound_assets\\tod\\fuse_cluster\\draw_4.wav"
+    },
+    {
+      "alias": "tod_fuse_draw",
+      "source": "Fuse_Tac_Deploy_2ch_Shortened_05.wav",
+      "sha256": "b3679bb282bebad37c587e8a22ebdb693397d477d6aaf6f846cf6da5bdcc24b9",
+      "seconds": 0.628,
+      "output": "sound_assets\\tod\\fuse_cluster\\draw_5.wav"
+    },
+    {
+      "alias": "tod_fuse_impact",
+      "source": "Fuse_Tac_Bomb_Impact_Base_3P_Merge_2ch_01.wav",
+      "sha256": "babed2427b5a707bb66e0702b0eeb37e541d9d0d8fa698de9a7708aa6cb44bb5",
+      "seconds": 2.058,
+      "output": "sound_assets\\tod\\fuse_cluster\\impact_1.wav"
+    },
+    {
+      "alias": "tod_fuse_impact",
+      "source": "Fuse_Tac_Bomb_Impact_Base_3P_Merge_2ch_02.wav",
+      "sha256": "c18aa921b19c58c3956e0265a98005f904232f5f78d411eb5d1af05dbcb0c5cd",
+      "seconds": 2.252,
+      "output": "sound_assets\\tod\\fuse_cluster\\impact_2.wav"
+    },
+    {
+      "alias": "tod_fuse_impact",
+      "source": "Fuse_Tac_Bomb_Impact_Base_3P_Merge_2ch_03.wav",
+      "sha256": "1319cce6a1c665c24c3994132940195f8ce54685b9d971bdac8968d05d5b75cb",
+      "seconds": 3.08,
+      "output": "sound_assets\\tod\\fuse_cluster\\impact_3.wav"
+    },
+    {
+      "alias": "tod_fuse_impact",
+      "source": "Fuse_Tac_Bomb_Impact_Base_3P_Merge_2ch_04.wav",
+      "sha256": "24dc116e07dac24add22ded8f4bab099a82804502e60b1c474eb6b4dd8d38f72",
+      "seconds": 3.08,
+      "output": "sound_assets\\tod\\fuse_cluster\\impact_4.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_01.wav",
+      "sha256": "eece7f0364cef8c03422c61f9aeb86695243dd8daf0b6bf220567a30f73433a1",
+      "seconds": 0.92,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_1.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_02.wav",
+      "sha256": "ced3c804ad56d67689d0cb3e8b548a76e8ea4b8b7a9f03cbb17c67535f13da38",
+      "seconds": 1.107,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_2.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_03.wav",
+      "sha256": "5d077efc16551905f8672ce14094207b4881335b19ccbe8811975f5ec6d8719a",
+      "seconds": 0.92,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_3.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_04.wav",
+      "sha256": "2c9eb62e73b6e8f19b0a00bc94cb3b8816f45e7211f85c2a0a9a422cda2ae364",
+      "seconds": 0.923,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_4.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_05.wav",
+      "sha256": "7b68c16415a457e071d8a24d1a658ac1bbb8a8b3d4c46f9a344acdde0ed08cb6",
+      "seconds": 0.898,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_5.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_06.wav",
+      "sha256": "6b9702109e203cc663a12f12006092931c111127febeca6ae2e87bedd8b221a8",
+      "seconds": 0.923,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_6.wav"
+    },
+    {
+      "alias": "tod_fuse_bomb",
+      "source": "Fuse_Tac_Bomb_Explode_Merge_2ch_07.wav",
+      "sha256": "8c4f5bce165c6c59d3f242b4185b2c05e196db1356abef5756f364dc0c5c76df",
+      "seconds": 0.923,
+      "output": "sound_assets\\tod\\fuse_cluster\\bomb_7.wav"
+    },
+    {
+      "alias": "tod_fuse_sizzle",
+      "source": "Fuse_Tac_Bomb_Fuse_SizzleClose_2ch_v01_01.wav",
+      "sha256": "22d2de62be63f8a1bd1f01c52975a44151f7dce2d570a613b09df5cbfe952060",
+      "seconds": 2.969,
+      "output": "sound_assets\\tod\\fuse_cluster\\sizzle_1.wav"
+    },
+    {
+      "alias": "tod_fuse_sizzle",
+      "source": "Fuse_Tac_Bomb_Fuse_SizzleClose_2ch_v01_02.wav",
+      "sha256": "dabee3483c713e0679c66225163eb56191097c715565332289392fbce4279394",
+      "seconds": 2.883,
+      "output": "sound_assets\\tod\\fuse_cluster\\sizzle_2.wav"
+    },
+    {
+      "alias": "tod_fuse_sizzle",
+      "source": "Fuse_Tac_Bomb_Fuse_SizzleClose_2ch_v01_03.wav",
+      "sha256": "f8c8d0d6a61b1095266df7ab7ce4a23cc11c4cbedb4e1cd1c6ce18f753b760f4",
+      "seconds": 2.811,
+      "output": "sound_assets\\tod\\fuse_cluster\\sizzle_3.wav"
+    },
+    {
+      "alias": "tod_fuse_sizzle",
+      "source": "Fuse_Tac_Bomb_Fuse_SizzleClose_2ch_v01_04.wav",
+      "sha256": "993fafe7ef6cc6b80ac06793366e941c08e9b3f33b0420d73ef44280cf3968e9",
+      "seconds": 3.231,
+      "output": "sound_assets\\tod\\fuse_cluster\\sizzle_4.wav"
+    }
+  ],
+  "effects": {
+    "fx_tod_fuse_bomblet_exp": [
+      {
+        "source": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\fx\\weapon\\fx_hero_bow_lnchr_exp_bot.efx",
+        "blocks": [
+          "wraith_oneshot_def0",
+          "wraith_oneshot_def1",
+          "wraith_oneshot_def14",
+          "wraith_oneshot_def2",
+          "wraith_oneshot_def3",
+          "wraith_oneshot_def4",
+          "wraith_oneshot_def5",
+          "wraith_oneshot_def6",
+          "wraith_oneshot_def7"
+        ],
+        "edits": {
+          "scale": 1.15
+        }
+      }
+    ],
+    "fx_tod_fuse_sizzle": [
+      {
+        "source": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\fx\\weapon\\fx_hero_bow_lnchr_impact_sm.efx",
+        "blocks": [
+          "wraith_looping_def0",
+          "wraith_looping_def2",
+          "wraith_looping_def3",
+          "wraith_looping_def4",
+          "wraith_looping_def5"
+        ],
+        "edits": {
+          "scale": 0.7
+        }
+      }
+    ]
+  },
+  "native_verified": false,
+  "outputs": {
+    "source_data/tod_fuse_cluster.gdt": "737ba2957a21123f624354645ea91125393c4a88db4fa75c61fb54e7a80ab217",
+    "sound/aliases/tod_fuse_cluster.csv": "b1b276fe846b2c529574e1296f01d01d0feca1ba62af321964ee85789791f133",
+    "model_export/tod_fuse_cluster/tod_fuse_bomblet.XMODEL_BIN": "bd4d175521de2001f374ec2c1ac7b0fabee66ba3142d5ba2a3ab8738f21d6909",
+    "model_export/tod_fuse_cluster/tod_fuse_cluster_view.XMODEL_BIN": "40d993e8257078dae9aa410f11bed71ea1f3326cfdecae6ed1b4cfcd7a8a02f8",
+    "model_export/tod_fuse_cluster/tod_fuse_cluster_world.XMODEL_BIN": "3cb8be4d511e74ee291a1ead812ccd636abdd3d7a818a69542171430e7a6684d",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_ao.png": "339ab263a9b123317a607a0fcb515bbfe79456c2d2848be6578da6c20d65064e",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_col.png": "c9e3dd5d4e7419201ade0bd7e6c55eb3db3ea682e1362aa3d2ddf100639f1147",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_gls.png": "07e09cf935e16f7c816b78c6e13e7b6977cbb4c2e466f36ccf2beb65971c1912",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_ilm.png": "d6325bd24a66141e9be518d303852fab10d39cbbf9ed21765cd7e771d51fc5c3",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_nml.png": "0f4ef62a5220949f9d878fab5e2a3ff4463c99d9ac578134e727a669c32288fa",
+    "model_export/tod_fuse_cluster/fuse_tactical_grenade_spc.png": "d24bbe03f836ee7e5fb1e62cdac1ae720fb2664cb39bd8de91e1ca3b9b25e6fe",
+    "sound_assets/tod/fuse_cluster/bomb_1.wav": "fe1e1b8aa9496a699391fa4888c5b2adec32624c3d8a2be4c8df778c49d3dcd2",
+    "sound_assets/tod/fuse_cluster/bomb_2.wav": "b33021e9accccd1be0c058bb7d2db38d7cb624a4ac4243a1cbf7860c5cadd218",
+    "sound_assets/tod/fuse_cluster/bomb_3.wav": "54c1ee1bd0bfa8dd34c36319cdd225d58f393e072f804bf3fc56139ead28c70d",
+    "sound_assets/tod/fuse_cluster/bomb_4.wav": "99486e7573130122ea610c5332641a75be916d7eedefb08d5fbb3f62b4c5e8df",
+    "sound_assets/tod/fuse_cluster/bomb_5.wav": "8372abe0f0c99bb461e1b3a803051f9ce10349299647c6f742ca7f1aba1f98af",
+    "sound_assets/tod/fuse_cluster/bomb_6.wav": "d28eb9f70231bae4767a19d4079894dcc5511af5b65c39dd3c179fa2523a53db",
+    "sound_assets/tod/fuse_cluster/bomb_7.wav": "23d883834b7510b29deaba02a0e7f72d87dbec43a928ee8ce1f6caf67593365e",
+    "sound_assets/tod/fuse_cluster/draw_1.wav": "8441b450e758baddc9d3ad27cfeb80b511933e034ad0408621c39485f96e9273",
+    "sound_assets/tod/fuse_cluster/draw_2.wav": "8b152a398d8958ec29fb47ffb02b31d65ff14ca1253acbf363119b9613bb7142",
+    "sound_assets/tod/fuse_cluster/draw_3.wav": "cbb57dbef57ae38323f13e3a5a66fd6407d05c6f02b3d22f2ead6fe0f7bcf6ea",
+    "sound_assets/tod/fuse_cluster/draw_4.wav": "e5290701445ff22de66b9c22b33a18a8d6d54971aed3065a07f0aa05a4d065b3",
+    "sound_assets/tod/fuse_cluster/draw_5.wav": "0c01d10cb80c1f455de23de7902d68126704b5fc0efb7a745f801e0af5b52c70",
+    "sound_assets/tod/fuse_cluster/impact_1.wav": "d974fa2bb03569f5dea89b3573e224e79779b96d10aec1307c3f684be32a2500",
+    "sound_assets/tod/fuse_cluster/impact_2.wav": "a10ba181a80d1494a37235e19055992c528f1efe3da3bf20022a122fb4ee2b59",
+    "sound_assets/tod/fuse_cluster/impact_3.wav": "35d5f884f79042971ad24a683b63902e71366b14b7b4b8b4210cabd648e30200",
+    "sound_assets/tod/fuse_cluster/impact_4.wav": "0264e6a39b7e4318c3f3b00a0f43f9e180ffa10d6b97551f0d3bf718cf565c8f",
+    "sound_assets/tod/fuse_cluster/sizzle_1.wav": "37f873dc1e3dcbaf1cd3ad49d4591a283e0ec1ab01a13f9abd4515f9b4694ebd",
+    "sound_assets/tod/fuse_cluster/sizzle_2.wav": "1c6cc7a6a34729f88b303dbfb0d4d878c432592e30632d16a21807e99efe2e4c",
+    "sound_assets/tod/fuse_cluster/sizzle_3.wav": "2af84de8d05b0a7bb62ea90df737c3e427c4ff2f470233861bcfd3f2f4b13033",
+    "sound_assets/tod/fuse_cluster/sizzle_4.wav": "4c52431eaa720a3104ed7c1165660967b1993ff66436f3880fd31ad93e92f17b",
+    "sound_assets/tod/fuse_cluster/throw_1.wav": "998702c4cee3a6bd49b9c1471e7ea1267de70a4c1ba123b6c3350cc04644da48",
+    "sound_assets/tod/fuse_cluster/throw_2.wav": "7c81c37c737ebe41fab4caaea0307dadff47ac7b991ebe1e5abcd2541011c0b5",
+    "sound_assets/tod/fuse_cluster/throw_3.wav": "af2c02f636c0f0d3074e1c2c0fe8125f9968aa872203c6d02ce864b31cab49f4",
+    "sound_assets/tod/fuse_cluster/throw_3p_1.wav": "c4e641959a7ab396d8ff8ba8935d2fa8c8468edb4f421c3a9efa45269d9ab8fd",
+    "sound_assets/tod/fuse_cluster/throw_3p_2.wav": "9106301ee32ed8a5234093f23de79829163bc35d8569de7f851456f7fd658b06",
+    "sound_assets/tod/fuse_cluster/throw_3p_3.wav": "943f0709e9133a66d42ac87895df1c229443b51ea2c52472b4aa7351d733599a",
+    "sound_assets/tod/fuse_cluster/throw_3p_4.wav": "2e50d3fa862ed275d83306b1a91e8a5917a9e2da3f6479844a283b48aa80e37a",
+    "sound_assets/tod/fuse_cluster/throw_3p_5.wav": "75f17e79262ae1eee861f63c0149ce8989cb3110740555bc247fdea30fb15053",
+    "sound_assets/tod/fuse_cluster/throw_3p_6.wav": "ccdaf6c66748c05e834406ea6572afeac398da04ba2dada167ef84d49adde6c0",
+    "sound_assets/tod/fuse_cluster/throw_3p_7.wav": "c003dccbe707e57514aee826883392f4e63bbdb6dcb672cdfc55457e5c557843",
+    "sound_assets/tod/fuse_cluster/throw_3p_8.wav": "b9ec47d503abce683107d3cd56d3703705c9e5d434a31784233d7ec0706719b8",
+    "sound_assets/tod/fuse_cluster/throw_4.wav": "bce42d65ad733ea650b25f5359099d77a6e53778d032d64c6a80b78e21d29512",
+    "sound_assets/tod/fuse_cluster/throw_5.wav": "243afbe1f5f71c921041bb76ce88e606a6c0365a4becebbe29d786798f394d23",
+    "sound_assets/tod/fuse_cluster/throw_6.wav": "f0260b50d1a6a65a3d5682497b15d0676e08e5fa9553bdf82b1b4e5bddcbb377",
+    "sound_assets/tod/fuse_cluster/throw_7.wav": "bf0b030e4f53e4c64d83f95f43a9a6049eb40c1acd183b79a82429985d630794",
+    "sound_assets/tod/fuse_cluster/throw_8.wav": "973cde3ddfd626be3257481255cc36aacb3a9f95689d4ead4f1e930ff032b2ee",
+    "share/raw/fx/tod/fuse/fx_tod_fuse_bomblet_exp.efx": "4554fe401f24376536839b2f65035dd9f9726c51ec91a9c2a70b384b9bbb599e",
+    "share/raw/fx/tod/fuse/fx_tod_fuse_sizzle.efx": "eeeecd5e93b6f048f385aa5b2b84a7f33fea1e0765e96eb689d65c39a87c5354"
+  }
+}

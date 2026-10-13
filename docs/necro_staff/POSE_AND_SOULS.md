@@ -1,0 +1,17 @@
+# Staff pose and outgoing souls correction
+
+FULL build and exact-source deployment verified at 23:07 Eastern. FF 232,614,720 bytes; 449 deployed inputs matched. User playtest pending; no game launched.
+
+The September 27 user playtest rejected the holding pose, not merely the size of the hands. The prior generator applied a -100-degree Y rotation, -12-degree Z rotation and (28, 0, -14) translation to every non-camera hand/weapon track. This rigid transformation preserved bone lengths, so the old grip-length checks passed while the actual camera pose was wrong. Removed it. `verify.py` now compares every original handling bone/frame position AND orientation against the approved ice-staff donor. The 34 clips, custom skull FX tags, channel cadence and pulse thrust remain; mesh geometry, textures and straight shaft are unchanged.
+
+MCP generated a direct ice-staff donor comparison using the exact same viewarms, camera and animation as the custom staff. Neither image is a game screenshot. `tier3_vm_ice_donor.png` uses neutral material to check the silhouette. Handling poses now match the donor without a whole-rig framing adjustment.
+
+The earlier pulse cleanup threw away all soul/smoke layers, leaving two hollow ring sprites. The archived user log (`tmp/elite_tracking/runs/20260927_222757_946_4126e972/console_mp.log`) confirms `PULSE rev=native_ring_2` allocation with band 3; this was not a missing activation. Restored native BO3 white smoke wisps and Keeper soul symbols around the outgoing wave, not on the caster. Each band now has 24 wisps, 12 symbols and two existing hollow rings. Souls start at radius 88 and reach the selected 360/440/520/600 edge at 140 ms, then fade over 750 ms. No dynamic lights, center flash, distortion, looping emitters or new hosts. Existing sprite art is reused; it is not newly authored texture art. Peak bounded count is 38 particles per cast, compared with two before; native visual quality and co-op rendering cost need the user's test.
+
+The same log repeatedly reports `STAFF_PULSE_POSE selected=0` at the first 50 ms check. The cast proxy was configured as inventory `item`; changed it to the existing selectable `primary` convention used by the Warrior cast proxies. This is a source correction to test, not proof of the engine's refusal reason. `STAFF_PULSE_RESULT` now records actual weapon name, ownership and final selection as well as the earlier selection check. Damage, meter, radius and gameplay timing are unchanged.
+
+Source checks: exact donor tracks, meshes/materials/rig, channel/pulse continuity, lifecycle cleanup, outgoing particle positions/velocities/counts for all four bands, reproducible effects and script arity. Motion and player-height FX previews are authored through actual Blender MCP. Native appearance remains pending user playtest.
+
+## Completed build
+
+FULL build and exact-source deployment verified at 23:07 Eastern. FF 232,614,720 bytes; 449 deployed inputs matched. User playtest pending; no game launched. The first 22:49 link was superseded after a peer changed Warrior sources; its evidence remains in `tmp/necro_staff_build/pose_first_full`. The combined 22:53 build passed both the guarded build and the strict deployment audit. Receipt: `art/necro_staff/deployment.json`; build/audit logs: `tmp/necro_staff_build/full_build.log` and `deployment.log`. No runtime files changed after this successful build.

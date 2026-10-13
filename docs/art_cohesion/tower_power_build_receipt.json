@@ -1,0 +1,102 @@
+{
+  "status": "FULL_BUILD_VERIFIED",
+  "verified_utc": "2026-09-27T16:03:26.553087+00:00",
+  "started_utc": "2026-09-27T15:36:47.185377+00:00",
+  "build_log": "tmp/tower_power_build/full4.log",
+  "game_launched": false,
+  "native_playtested": false,
+  "script_followup_log": "tmp/tower_power_build/full4d.log",
+  "artifacts": {
+    "fastfile": {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone\\zm_tod2_cybercity.ff",
+      "bytes": 193176704,
+      "written_utc": "2026-09-27T16:01:18.309508+00:00",
+      "sha256": "19a0f5885da89926a35cd9ab2fae008dfb968d3bb4bace9d4c209253f5c0a73e"
+    },
+    "bsp": {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\maps\\zm\\zm_tod2_cybercity.d3dbsp",
+      "bytes": 19849096,
+      "written_utc": "2026-09-27T15:40:19.647247+00:00",
+      "sha256": "13df664534b78519450a4f09bff31c04c4aa1c53647b758ff174150cf2545c57"
+    },
+    "navmesh": {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\maps\\zm\\zm_tod2_cybercity_navmesh.hkt",
+      "bytes": 139118,
+      "written_utc": "2026-09-27T15:40:19.619247+00:00",
+      "sha256": "5a4a3aee374bc6ac8cae47ede9b6b66b404f08c377dfdf5983203010a5e904bf"
+    },
+    "lighting": {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\maps\\zm\\zm_tod2_cybercity.led",
+      "bytes": 166776956,
+      "written_utc": "2026-09-27T15:43:02.357367+00:00",
+      "sha256": "2544491c7d038b022ddd35cbcdbb2755dfa9a884a483a100e12cd2c2ce1dcec4"
+    }
+  },
+  "source_tree_counts": {
+    "scripts": {
+      "repo": 123,
+      "deployed": 123
+    },
+    "zone_source": {
+      "repo": 11,
+      "deployed": 11
+    },
+    "ui": {
+      "repo": 51,
+      "deployed": 51
+    }
+  },
+  "source_differences": [],
+  "sound_bank": {
+    "path": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\sound\\zone\\CachedBanks\\all\\zm_tod2_cybercity.all.sabs",
+    "bytes": 209338496,
+    "written_utc": "2026-09-27T16:01:04.997704+00:00",
+    "sha256": "d638548a793d517272c271965dcf98cfd60efcc9532cefa06ac2766602a936a9"
+  },
+  "source_files_newer_than_fastfile": [],
+  "map_and_asset_source_sha256": {
+    "map_source/zm/zm_tod2_cybercity.map": "0b292c041de1a76d352182a755d92bba91c1840f0e8f65ca6df33b97e805e736",
+    "source_data/tod_surface.gdt": "8b9b9921bef6aa1cc89a7d1d53d969c1d79a2927ed7d6102568eb4a3bae12ce8",
+    "source_data/tod_skybox.gdt": "c371cd5924adf4c4ed972782ad597fb59f06e899a5758eeaf77e701ea27548e2",
+    "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr": "21cf69cb314abe79cd7d61ba2041fe9a2312874a8f1fff7f0b04b174ecb3df5c"
+  },
+  "packed_surface_materials": [
+    "tod_cc_brass",
+    "tod_cc_bronze_wall",
+    "tod_cc_ceiling",
+    "tod_cc_ceramic",
+    "tod_cc_cyan",
+    "tod_cc_door",
+    "tod_cc_emerald",
+    "tod_cc_exfil",
+    "tod_cc_floor",
+    "tod_cc_gold",
+    "tod_cc_gold_deck",
+    "tod_cc_gold_line",
+    "tod_cc_gold_panel",
+    "tod_cc_graphite",
+    "tod_cc_oxblood",
+    "tod_cc_ruby",
+    "tod_cc_sapphire",
+    "tod_cc_tower_blue_wall",
+    "tod_cc_tower_cyan_floor",
+    "tod_cc_tower_dark_wall",
+    "tod_cc_tower_gold_wall",
+    "tod_cc_tower_green_floor",
+    "tod_cc_tower_green_wall",
+    "tod_cc_tower_orange_floor",
+    "tod_cc_tower_purple_floor",
+    "tod_cc_tower_red_floor",
+    "tod_cc_trim",
+    "tod_cc_velvet",
+    "tod_cc_wall"
+  ],
+  "packed_sky_images": [
+    "i_skybox_tod_cybercity#d438aef5"
+  ],
+  "map_counts": {
+    "world_brushes": 10624,
+    "entities": 2756,
+    "lights": 584
+  }
+}
