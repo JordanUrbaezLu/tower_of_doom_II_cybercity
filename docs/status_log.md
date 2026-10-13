@@ -1,5 +1,7 @@
 # Status log — dated notes moved out of CLAUDE.md
 
+**2026-10-13 13:50 - MIGRATION BUNDLE OK (docs/220).** `\\10.0.0.149\tod_transfer\round2`: 152.76 GB / 320,190 files, 0 warnings, 0 missing, for commit `bdfcacb9` (private root 34.14 GB, repo extras 60.24 GB with a size manifest, the T7 pack as 217 sha1-checked pieces, Claude memory, migrate scripts identical to the commit). Two reviews found 3 blockers + 6 bugs in the first scripts, all fixed (test 34/34 + split/join 12/12). NOT DONE YET: the new laptop's import, check_machine -FullHash, run_build_gates.py, first FULL build, user playtest.
+
 **2026-10-12 - MIGRATION TO THE NEW LAPTOP (docs/220): REPO ON GITHUB, BUNDLE PENDING.** User: move Tower II to the new laptop by Map One's process (its docs/174); only Cybercity, nothing of Hellbound.
 
 - GITHUB: `main` rebuilt on the initial commit in six size-capped batches (the three never-pushed local commits stay on `backup/local-main-pre-migration`); `.gitattributes` is now `* -text` (byte-for-byte); LFS for `*.blend`, `*.fbx`, `tod_boss_music.wav`; `*.blend1` ignored.

@@ -95,7 +95,9 @@ on the new laptop before the import** — it would make a different root.
    root it did not create, never writes through a junction, sets a corrupt bundle file aside as `.bad`
    so the export re-sends it), recreates its folders and 123 junctions, and writes the workspace marker
    LAST with a `.tod2-import.json` stamp → copies a runtime DLL into the private bin only if System32
-   lacks it → creates the game's `usermaps\zm_tod2_cybercity` junction (only our own child junction) →
+   lacks it → creates the game's `usermaps\zm_tod2_cybercity` junction (only our own child junction;
+   the game's `usermaps` is itself a junction into the shared tools root, so this one junction is the
+   import's only write there — the same layout as the old laptop) →
    Downloads (then the T7 pack's SHA1) → Claude memory → pip packages → runs B3. Safe to re-run.
 3. **Check:** `powershell -ExecutionPolicy Bypass -File tools\migrate\check_machine.ps1 -FullHash`
    → must end `READY TO BUILD: 0 FAIL`.
@@ -159,8 +161,12 @@ shared pack folders on the new laptop can turn a Tower II gate red.
 
 ## Status
 
-**2026-10-13 00:30:** repo pushed to `main` (six batches + this tools commit). Dry run: ~152.7 GB
-(tod2_root 34.14 GB, repo_extras 60.24 GB, T7 pack 58.08 GB, TOD2 Downloads 0.20 GB). Target
-`\\10.0.0.149\tod_transfer\round2` (the round-one share, a fresh subfolder; account `todcopy`). The two
-sessions coordinate through `OneDrive\Documents\claude-bridge\NNN-from-{old,new}-laptop.md` (Remote
-Control messages between them were held by a permission-mode difference and dropped). Export next.
+**2026-10-13 13:50: BUNDLE OK** into `\\10.0.0.149\tod_transfer\round2` (= `C:\tod_transfer\round2` on
+the new laptop): **152.76 GB / 320,190 files, 0 warnings, 0 missing**, for commit `bdfcacb9` —
+tod2_root 34.14 GB (204,412 files, 123 junctions; no root file changed during the copy), repo_extras
+60.24 GB (115,103 files + `repo_extras_manifest.json`), t7_parts 58.08 GB (217 pieces, whole-file sha1
+`b8c6f6cd6cf9e5ffcc61e5f1e69e478e82245979`), TOD2 Downloads 0.20 GB, Claude memory, migrate_scripts
+(identical to `bdfcacb9`). The export took ~13 h over Wi-Fi at 37–57% signal (~4–6 MB/s; robocopy /Z
+crawled at 1.3 MB/s, hence the pieces). The two sessions talk over Remote Control once BOTH have
+`crossSessionInbound: "accept"`; `OneDrive\Documents\claude-bridge` is the fallback.
+Next: the new laptop runs B2–B5.
