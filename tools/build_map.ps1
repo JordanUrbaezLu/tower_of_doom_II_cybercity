@@ -74,6 +74,12 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+# Byte-exact gates regenerate PNG / mesh output through numpy + OpenBLAS, and OpenBLAS picks its kernel per
+# CPU, which moves the last bits (2026-10-13 migration: the new laptop's AMD Zen 5 picked SkylakeX and
+# haven/make_dome + companion_maps/compose went red). Pin the kernel the outputs were authored with - for
+# this process and every gate it starts, never machine-wide. LOCKSTEP: tools/run_build_gates.py.
+$env:OPENBLAS_CORETYPE = 'Haswell'
+$env:OPENBLAS_NUM_THREADS = '24'
 $MapName  = 'zm_tod2_cybercity'
 $RepoRoot = Split-Path $PSScriptRoot -Parent
 

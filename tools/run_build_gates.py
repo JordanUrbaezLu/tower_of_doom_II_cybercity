@@ -24,6 +24,10 @@ import time
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(REPO)
+# The same OpenBLAS kernel pin build_map.ps1 sets (2026-10-13): byte-exact gates regenerate output through
+# numpy + OpenBLAS, whose per-CPU kernel moves the last bits. Inherited by every gate this starts. LOCKSTEP.
+os.environ["OPENBLAS_CORETYPE"] = "Haswell"
+os.environ["OPENBLAS_NUM_THREADS"] = "24"
 src = open(os.path.join("tools", "build_map.ps1"), encoding="utf-8", errors="replace").read()
 
 cmds = []

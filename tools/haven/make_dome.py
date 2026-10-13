@@ -58,6 +58,10 @@ Re-run it; never hand-edit the outputs.
 """
 import argparse, hashlib, io, json, math, os, pathlib, subprocess, sys
 
+# the OpenBLAS kernel the dome was authored with (2026-10-13): numpy's per-CPU kernel moves the last bits;
+# build_map.ps1 / run_build_gates.py pin the same, this covers a hand-run --check too
+os.environ.setdefault('OPENBLAS_CORETYPE', 'Haswell')
+os.environ.setdefault('OPENBLAS_NUM_THREADS', '24')
 import numpy as np
 from PIL import Image, ImageFilter
 

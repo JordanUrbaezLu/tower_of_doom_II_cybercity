@@ -36,7 +36,11 @@ from ~/Downloads/T7 Assets V2.8.rar on demand) and stock maps under C:/BO3Tools/
 Deterministic: fixed seeds, no clocks; the same inputs give the same bytes.
 """
 from pathlib import Path
-import argparse, hashlib, json, sys, zlib, io
+import argparse, hashlib, json, os, sys, zlib, io
+# the OpenBLAS kernel the maps were authored with (2026-10-13): numpy's per-CPU kernel moves the last bits of
+# the fits; build_map.ps1 / run_build_gates.py pin the same, this covers a hand-run --check too
+os.environ.setdefault('OPENBLAS_CORETYPE', 'Haswell')
+os.environ.setdefault('OPENBLAS_NUM_THREADS', '24')
 import numpy as np
 from PIL import Image
 from scipy.ndimage import gaussian_filter, median_filter, zoom, sobel
@@ -256,14 +260,16 @@ class Models:
         F = features(ao_body, n_body)[m_body]
         self.w_o, *_ = np.linalg.lstsq(F, o_real[m_body], rcond=None)
         o_pred = np.clip(features(ao_body, n_body) @ self.w_o, 0, 1)
-        self.info['occlusion_fit_r'] = float(np.corrcoef(o_pred[m_body], o_real[m_body])[0, 1])
+        # recorded at 10 decimals: the raw value moves in its 16th digit between CPUs (2026-10-13 migration;
+        # only the %.2f "how" text reads it, so no pixel depends on the dropped digits)
+        self.info['occlusion_fit_r'] = round(float(np.corrcoef(o_pred[m_body], o_real[m_body])[0, 1]), 10)
         # reveal: from the PREDICTED occlusion (what every other part will have) + the same geometry terms
         F2 = np.concatenate([features(o_pred, n_body), (o_pred ** 3)[..., None]], -1)[m_body]
         self.w_r, *_ = np.linalg.lstsq(F2, r_real[m_body], rcond=None)
         r_pred = np.clip(np.concatenate([features(o_pred, n_body), (o_pred ** 3)[..., None]], -1) @ self.w_r, 0, 1)
         res = (r_real - r_pred)[m_body]
         self.r_mottle = float(res.std())
-        self.info['reveal_fit_r'] = float(np.corrcoef(r_pred[m_body], r_real[m_body])[0, 1])
+        self.info['reveal_fit_r'] = round(float(np.corrcoef(r_pred[m_body], r_real[m_body])[0, 1]), 10)
         self.info['reveal_residual_std'] = self.r_mottle
         # real reveal contrast: the target histogram the authored masks are matched to (levels, not shape)
         self.r_quant = np.quantile(r_real[m_body], np.linspace(0, 1, 101))
