@@ -1,0 +1,58 @@
+{
+"tod_war_conductor_a_off" ( "xmodel.gdf" )
+{
+    "filename" "tod_war_damage/tod_war_conductor_a_off_lod0.xmodel_bin"
+    "highLodDist" "700"
+    "mediumLod" "tod_war_damage/tod_war_conductor_a_off_lod1.xmodel_bin"
+    "mediumLodDist" "0"
+    "type" "rigid"
+    "scale" "1"
+    "CollisionMap" ""
+    "BulletCollisionLOD" "None"
+    "physicsPreset" ""
+    "cullOutDiameter" "0"
+    "materials" ""
+}
+"tod_war_conductor_a_on" ( "xmodel.gdf" )
+{
+    "filename" "tod_war_damage/tod_war_conductor_a_on_lod0.xmodel_bin"
+    "highLodDist" "700"
+    "mediumLod" "tod_war_damage/tod_war_conductor_a_on_lod1.xmodel_bin"
+    "mediumLodDist" "0"
+    "type" "rigid"
+    "scale" "1"
+    "CollisionMap" ""
+    "BulletCollisionLOD" "None"
+    "physicsPreset" ""
+    "cullOutDiameter" "0"
+    "materials" ""
+}
+"tod_war_conductor_b_off" ( "xmodel.gdf" )
+{
+    "filename" "tod_war_damage/tod_war_conductor_b_off_lod0.xmodel_bin"
+    "highLodDist" "700"
+    "mediumLod" "tod_war_damage/tod_war_conductor_b_off_lod1.xmodel_bin"
+    "mediumLodDist" "0"
+    "type" "rigid"
+    "scale" "1"
+    "CollisionMap" ""
+    "BulletCollisionLOD" "None"
+    "physicsPreset" ""
+    "cullOutDiameter" "0"
+    "materials" ""
+}
+"tod_war_conductor_b_on" ( "xmodel.gdf" )
+{
+    "filename" "tod_war_damage/tod_war_conductor_b_on_lod0.xmodel_bin"
+    "highLodDist" "700"
+    "mediumLod" "tod_war_damage/tod_war_conductor_b_on_lod1.xmodel_bin"
+    "mediumLodDist" "0"
+    "type" "rigid"
+    "scale" "1"
+    "CollisionMap" ""
+    "BulletCollisionLOD" "None"
+    "physicsPreset" ""
+    "cullOutDiameter" "0"
+    "materials" ""
+}
+}

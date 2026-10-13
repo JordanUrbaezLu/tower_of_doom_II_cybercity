@@ -1,0 +1,25 @@
+{
+ "dlc1/zmb_weapon/fx_wpn_spike_grnd_hit": {
+  "elements": {
+   "shock_flat": 1
+  },
+  "source_sha256": "40a9434a5e83ec81f62f1adbc25b45381f16400848264a2f0ab57b166f3eaf8b",
+  "vendored_sha256": "ea2181c86ff9c2edbc63acadcedc9973f09deb4429c3757246b3540b6092ca1b"
+ },
+ "dlc3/stalingrad/fx_raz_cage_steam": {
+  "elements": {
+   "steam": 1
+  },
+  "source_sha256": "1f18a6c982f29702b67475250c29230bcf5850b834bae1b792797dd52f67e1c8",
+  "vendored_sha256": "34c530740109ecfbff3dfe8096080a2a8957409e5c87a1888b1095b7ff53d33f"
+ },
+ "dlc3/stalingrad/fx_raz_dest_weak_point_exp": {
+  "elements": {
+   "debris": 0,
+   "flame": 8,
+   "spark_tail": 1
+  },
+  "source_sha256": "f82c59fb15265cf167c2873c647b0adfc1f3d50bd6786f51dae69690e6214866",
+  "vendored_sha256": "8c598590f45b90012b64ab840bb3fd72acdcfc8127426695ecc26572d7280340"
+ }
+}

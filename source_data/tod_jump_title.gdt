@@ -1,0 +1,48 @@
+{
+	"i_tod_jt_sign_lit" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_jump_title/_images/i_tod_jt_sign_lit.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"noMipMaps" "1"
+		"noPicMip" "1"
+	}
+	"mtl_tod_jt_sign_lit" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry"
+		"materialType" "lit_emissive_transparent"
+		"colorMap" "i_tod_jt_sign_lit"
+		"colorTint" "0 0 0 1"
+		"normalMap" "$identitynormalmap"
+		"colorMap00" "i_tod_jt_sign_lit"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "16"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0"
+		"reflectionProbeAmount" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"tod_jt_sign_lit" ( "xmodel.gdf" )
+	{
+		"filename" "tod_jump_title/tod_jt_sign_lit.xmodel_bin"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"noCastShadow" "1"
+		"materials" ""
+	}
+}

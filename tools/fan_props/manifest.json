@@ -1,0 +1,239 @@
+{
+ "about": "TOD II copy of Nikolai's fan props (docs/208). Built outputs of map 1's tools/fan_props pipeline; the sources (his Oct 2 Meshy pack) stay in map 1 art/fan_props/source.",
+ "revision": "tod2_fan_props_1",
+ "gdt": "source_data/tod_fan_props.gdt",
+ "gdt_sha256": "4335f0b7d8e98208dbac6a70357b174ada5d33ac2412b41fed0bf8d3dcead9d2",
+ "models": {
+  "tod_ammo_chest": {
+   "tris": 26492
+  },
+  "tod_cybercity_sign2": {
+   "tris": 59994
+  },
+  "tod_cybercity_sign2_dim": {
+   "tris": 59994
+  },
+  "tod_cybercity_sign2_off": {
+   "tris": 59994
+  },
+  "tod_power_terminal": {
+   "tris": 24118
+  },
+  "tod_power_screen": {
+   "tris": 30
+  },
+  "tod_power_screen_dark": {
+   "tris": 30
+  },
+  "tod_power_screen_f1": {
+   "tris": 30
+  },
+  "tod_power_screen_f2": {
+   "tris": 30
+  },
+  "tod_power_screen_f3": {
+   "tris": 30
+  },
+  "tod_power_dial": {
+   "tris": 144
+  },
+  "tod_power_dial_on": {
+   "tris": 144
+  }
+ },
+ "materials": [
+  "mtl_tod_ammo_chest",
+  "mtl_tod_cybercity_sign2",
+  "mtl_tod_cybercity_sign2_dim",
+  "mtl_tod_cybercity_sign2_off",
+  "mtl_tod_pdial",
+  "mtl_tod_pdial_on",
+  "mtl_tod_power_terminal",
+  "mtl_tod_pscr_dark",
+  "mtl_tod_pscr_f1",
+  "mtl_tod_pscr_f2",
+  "mtl_tod_pscr_f3",
+  "mtl_tod_pscr_on"
+ ],
+ "images": [
+  "i_tod_achest_c",
+  "i_tod_achest_e",
+  "i_tod_achest_g",
+  "i_tod_achest_n",
+  "i_tod_achest_s",
+  "i_tod_csign2_c",
+  "i_tod_csign2_coff",
+  "i_tod_csign2_e",
+  "i_tod_csign2_eoff",
+  "i_tod_csign2_g",
+  "i_tod_csign2_s",
+  "i_tod_pdial_c",
+  "i_tod_pdial_e",
+  "i_tod_pscr_dark",
+  "i_tod_pscr_f1",
+  "i_tod_pscr_f2",
+  "i_tod_pscr_f3",
+  "i_tod_pscr_on",
+  "i_tod_pterm_c",
+  "i_tod_pterm_e",
+  "i_tod_pterm_n"
+ ],
+ "files": {
+  "model_export/tod_fan_props/_images/i_tod_achest_c.png": {
+   "set": "chest",
+   "sha256": "5484843c79619581c364bcd3b329809169c4920f304e57b8c3f9a03fee5e2fd2",
+   "bytes": 3721991,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_achest_c.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_achest_e.png": {
+   "set": "chest",
+   "sha256": "11157f2841ee7c4dd4bf757db349233480d8e53991819d594ecda08894dc24cb",
+   "bytes": 249256,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_achest_e.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_achest_g.png": {
+   "set": "chest",
+   "sha256": "65f1bb7ba900997fc6009e84957706a54eecee65ebd55ba742a02ce132f0643c",
+   "bytes": 589232,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_achest_g.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_achest_n.png": {
+   "set": "chest",
+   "sha256": "09c4b52efaea1a83d313a2f2813185448a4490539898bf91d4d06e5909532301",
+   "bytes": 3420880,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_achest_n.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_achest_s.png": {
+   "set": "chest",
+   "sha256": "04045310251dd1e9fc6b784c8b3617b1bea1ce8b99d1ac791a7f60501a62cf13",
+   "bytes": 914973,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_achest_s.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_c.png": {
+   "set": "sign",
+   "sha256": "67cd7fbe5fb19ac72e07637423962c395f8ca5093700d0952e02fc87c4fdfd20",
+   "bytes": 8559324,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_c.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_coff.png": {
+   "set": "sign",
+   "sha256": "46353b0476b0390008720a86f397effdd94c6b60d97902d4966e5163be8177da",
+   "bytes": 2713050,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_coff.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_e.png": {
+   "set": "sign",
+   "sha256": "19fcdd059f2aec6ff4ed8f1a8eb43ec4c43123efa7da077de9c7e8b253073248",
+   "bytes": 964776,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_e.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_eoff.png": {
+   "set": "sign",
+   "sha256": "d4270cb3908ae3f796665c14721e6d14728d75ba314b01b5094ee8988359c537",
+   "bytes": 91,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_eoff.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_g.png": {
+   "set": "sign",
+   "sha256": "e6e4b5b5ebdba41819f87e7b5163de652f267c543a7d5392b71b59085fe4bc4e",
+   "bytes": 254011,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_g.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_csign2_s.png": {
+   "set": "sign",
+   "sha256": "dc29432eb3de001c97de4b2ea0d7dd03504dbab988bd048af2bf08144d513e6e",
+   "bytes": 69931,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_csign2_s.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pdial_c.png": {
+   "set": "power_anim",
+   "sha256": "a4418896602de3fd9628a8e011985d232b81a3233e5bd7429c2509a061ee0328",
+   "bytes": 171014,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pdial_c.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pdial_e.png": {
+   "set": "power_anim",
+   "sha256": "c8d64c0d323ccba2a2ea1bcb4dfcd51d0317a75e020a1a3daba5b1aa52160de4",
+   "bytes": 152135,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pdial_e.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pscr_dark.png": {
+   "set": "power_anim",
+   "sha256": "ff434a858baa31016c84024ecf8ff6946dd3bed61545a2df5ac7014634107a32",
+   "bytes": 58674,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pscr_dark.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pscr_f1.png": {
+   "set": "power_anim",
+   "sha256": "e08a7d48c691b05513120ce3fcaa07d6b00dc070bb6dba98a746a23c9a86a900",
+   "bytes": 710624,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pscr_f1.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pscr_f2.png": {
+   "set": "power_anim",
+   "sha256": "4fed8b4f0cdec9f02fbd784a6734ebf60e5bd399155fe19f6357654c955151b9",
+   "bytes": 712143,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pscr_f2.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pscr_f3.png": {
+   "set": "power_anim",
+   "sha256": "eef7fbec37d31fb97aafbebacf06934780ab4655db6b7d615b58c51c37e3c6c4",
+   "bytes": 713090,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pscr_f3.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pscr_on.png": {
+   "set": "power_anim",
+   "sha256": "c171e8ecb7cb5b7c4ee1d721d028ecab1cb1cc48253fbe7fcc2bfdfe0fcdbce5",
+   "bytes": 2485775,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pscr_on.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pterm_c.png": {
+   "set": "terminal",
+   "sha256": "f5e9271189e4ae24aa3446b04618605de6e83ebfa0de8e195a63ef223b9509a4",
+   "bytes": 4242294,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pterm_c.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pterm_e.png": {
+   "set": "terminal",
+   "sha256": "3dac7a4637de28a2612c1223a3c276a9b405bd3d7199631f8e29ed6a99fec3cb",
+   "bytes": 1435732,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pterm_e.png"
+  },
+  "model_export/tod_fan_props/_images/i_tod_pterm_n.png": {
+   "set": "terminal",
+   "sha256": "02861121048057441be72f53ac83e19a5a7416b4724cb7d9dd24ee473d54bc8f",
+   "bytes": 2437688,
+   "from": "map 1 model_export/tod_fan_props/_images/i_tod_pterm_n.png"
+  },
+  "model_export/tod_fan_props/tod_ammo_chest.xmodel_bin": {
+   "set": "chest",
+   "sha256": "5675a66586c79b18ba222d3b551a260b4d5619e87324594319d459b2904208af",
+   "bytes": 2011706,
+   "from": "map 1 model_export/tod_fan_props/tod_ammo_chest.xmodel_bin"
+  },
+  "model_export/tod_fan_props/tod_cybercity_sign2.xmodel_bin": {
+   "set": "sign",
+   "sha256": "96a38ab66fe14385f22a44e1c068bf0d29b2d51002be3bbbd6b6b102c81a758a",
+   "bytes": 2653629,
+   "from": "map 1 model_export/tod_fan_props/tod_cybercity_sign2.xmodel_bin"
+  },
+  "model_export/tod_fan_props/tod_power_dial.xmodel_bin": {
+   "set": "power_anim",
+   "sha256": "c9a8d04812c4df946e7cbb0596a38bb105adfa099f1b1e44c06902ffa456dafb",
+   "bytes": 8686,
+   "from": "map 1 model_export/tod_fan_props/tod_power_dial.xmodel_bin"
+  },
+  "model_export/tod_fan_props/tod_power_screen.xmodel_bin": {
+   "set": "power_anim",
+   "sha256": "d0dd6df3fdc2aba4095be6e6efb1de1731ab16c9d2ceca4a8cbe88768d479214",
+   "bytes": 2174,
+   "from": "map 1 model_export/tod_fan_props/tod_power_screen.xmodel_bin"
+  },
+  "model_export/tod_fan_props/tod_power_terminal.xmodel_bin": {
+   "set": "terminal",
+   "sha256": "899032550fe62b324c74626afdf11b1ff3c8a6d21af9e6bc83e2df56b1e84409",
+   "bytes": 929242,
+   "from": "map 1 model_export/tod_fan_props/tod_power_terminal.xmodel_bin"
+  }
+ }
+}

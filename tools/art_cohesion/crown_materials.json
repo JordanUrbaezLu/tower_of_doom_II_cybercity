@@ -1,0 +1,297 @@
+{
+  "description": "Crown color restoration: cobalt tread, violet wall panels, warm gold and distinct jewel accents; authored surface detail retained; zero world emission. | THE WAR DAMAGE PASS phase 2 (docs/205 s7b): <role>_scorched twins wear the burned tiles (tools/war_damage/make_scorch.py) on the breaks (art/war_damage/scorch.json).",
+  "materials": {
+    "tower_blue_wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".32 .56 1 1"
+    },
+    "tower_dark_wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".22 .30 .48 1"
+    },
+    "tower_cyan_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".16 .90 1 1"
+    },
+    "tower_green_wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".20 .72 .40 1"
+    },
+    "tower_green_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".20 .72 .40 1"
+    },
+    "tower_orange_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".94 .42 .16 1"
+    },
+    "tower_red_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".78 .18 .27 1"
+    },
+    "tower_pink_wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".84 .28 .62 1"
+    },
+    "tower_pink_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".84 .28 .62 1"
+    },
+    "tower_purple_floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".68 .32 .96 1"
+    },
+    "tower_gold_wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".96 .74 .23 1"
+    },
+    "floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".32 .56 1 1"
+    },
+    "wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".68 .32 .96 1"
+    },
+    "ceiling": {
+      "tile": "ceiling",
+      "class": "block",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "trim": {
+      "tile": "trim",
+      "class": "block",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "gold": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".96 .74 .23 1"
+    },
+    "gold_panel": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".84 .54 .15 1"
+    },
+    "brass": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".74 .34 .12 1"
+    },
+    "bronze_wall": {
+      "tile": "armor",
+      "class": "block",
+      "size": 128,
+      "color": ".70 .36 .18 1"
+    },
+    "velvet": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".40 .18 .68 1"
+    },
+    "oxblood": {
+      "tile": "armor",
+      "class": "block",
+      "size": 128,
+      "color": ".70 .15 .24 1"
+    },
+    "ceramic": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".56 .74 .94 1"
+    },
+    "graphite": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".14 .20 .30 1"
+    },
+    "gold_deck": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".86 .67 .26 1"
+    },
+    "gold_line": {
+      "tile": "trim",
+      "class": "deck",
+      "size": 128,
+      "color": "1 .77 .16 1"
+    },
+    "cyan": {
+      "tile": "trim",
+      "class": "block",
+      "size": 128,
+      "color": ".16 .90 1 1"
+    },
+    "sapphire": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".15 .44 1 1"
+    },
+    "ruby": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".92 .10 .23 1"
+    },
+    "emerald": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".12 .82 .39 1"
+    },
+    "exfil": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".22 .85 .50 1"
+    },
+    "door": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".27 .75 .44 1"
+    },
+    "floor_scorched": {
+      "tile": "floor_scorch",
+      "class": "deck",
+      "size": 128,
+      "color": ".32 .56 1 1"
+    },
+    "gold_deck_scorched": {
+      "tile": "floor_scorch",
+      "class": "deck",
+      "size": 128,
+      "color": ".86 .67 .26 1"
+    },
+    "tower_green_floor_scorched": {
+      "tile": "floor_scorch",
+      "class": "deck",
+      "size": 128,
+      "color": ".20 .72 .40 1"
+    },
+    "tower_orange_floor_scorched": {
+      "tile": "floor_scorch",
+      "class": "deck",
+      "size": 128,
+      "color": ".94 .42 .16 1"
+    },
+    "tower_red_floor_scorched": {
+      "tile": "floor_scorch",
+      "class": "deck",
+      "size": 128,
+      "color": ".78 .18 .27 1"
+    },
+    "bronze_wall_scorched": {
+      "tile": "armor_scorch",
+      "class": "block",
+      "size": 128,
+      "color": ".70 .36 .18 1"
+    },
+    "oxblood_scorched": {
+      "tile": "armor_scorch",
+      "class": "block",
+      "size": 128,
+      "color": ".70 .15 .24 1"
+    },
+    "tower_blue_wall_scorched": {
+      "tile": "wall_scorch",
+      "class": "block",
+      "size": 128,
+      "color": ".32 .56 1 1"
+    },
+    "tower_gold_wall_scorched": {
+      "tile": "wall_scorch",
+      "class": "block",
+      "size": 128,
+      "color": ".96 .74 .23 1"
+    },
+    "tower_green_wall_scorched": {
+      "tile": "wall_scorch",
+      "class": "block",
+      "size": 128,
+      "color": ".20 .72 .40 1"
+    }
+  },
+  "tower_suffixes": {
+    "blue": "tower_blue_wall",
+    "blue_tinted": "floor",
+    "blue_tinted_edge": "floor",
+    "cyan": "cyan",
+    "cyan_tinted": "tower_cyan_floor",
+    "dark_blue": "tower_dark_wall",
+    "dark_blue_tinted": "floor",
+    "dark_white": "graphite",
+    "green": "tower_green_wall",
+    "green_tinted": "tower_green_floor",
+    "green_tinted_edge": "tower_green_floor",
+    "orange": "bronze_wall",
+    "orange_tinted": "tower_orange_floor",
+    "orange_tinted_edge": "tower_orange_floor",
+    "red": "oxblood",
+    "red_tinted": "tower_red_floor",
+    "red_tinted_edge": "tower_red_floor",
+    "pink": "tower_pink_wall",
+    "light_pink": "tower_pink_wall",
+    "pink_tinted": "tower_pink_floor",
+    "purple": "wall",
+    "purple_tinted": "tower_purple_floor",
+    "yellow": "tower_gold_wall",
+    "yellow_tinted": "gold_deck",
+    "yellow_tinted_edge": "gold_deck",
+    "white": "trim",
+    "pap": "gold"
+  },
+  "suffixes": {
+    "yellow": "gold",
+    "yellow_tinted": "gold_panel",
+    "yellow_tinted_edge": "gold_line",
+    "cyan": "cyan",
+    "blue_tinted_edge": "sapphire",
+    "orange_tinted": "brass",
+    "dark_blue_tinted": "floor",
+    "purple_tinted": "velvet",
+    "purple": "wall",
+    "red": "oxblood",
+    "green_tinted_edge": "emerald",
+    "orange": "bronze_wall",
+    "red_tinted_edge": "ruby",
+    "white": "ceramic",
+    "dark_white": "graphite"
+  }
+}

@@ -1,0 +1,206 @@
+{
+	"i_tod_luck_flat_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_flat_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_luck_rock_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rock_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_luck_rock_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rock_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_luck_rock_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rock_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod_luck_rock" ( "material.gdf" )
+	{
+		"surfaceType" "rock"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_luck_rock_c"
+		"normalMap" "i_tod_luck_flat_n"
+		"cosinePowerMap" "i_tod_luck_rock_g"
+		"specColorMap" "i_tod_luck_rock_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_luck_rock_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0.8"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "6"
+		"specAmount" "0.35"
+		"reflectionProbeAmount" "0.15"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_luck_rockvein_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rockvein_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_luck_rockvein_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rockvein_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_luck_rockvein_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_rockvein_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod_luck_rockvein" ( "material.gdf" )
+	{
+		"surfaceType" "plastic"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_luck_rockvein_c"
+		"normalMap" "i_tod_luck_flat_n"
+		"cosinePowerMap" "i_tod_luck_rockvein_g"
+		"specColorMap" "i_tod_luck_rockvein_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_luck_rockvein_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "72"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "6"
+		"specAmount" "0.35"
+		"reflectionProbeAmount" "0.15"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_luck_crystal_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_crystal_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_luck_crystal_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_crystal_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_luck_crystal_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_lucky/_images/i_tod_luck_crystal_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod_luck_crystal" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_luck_crystal_c"
+		"normalMap" "i_tod_luck_flat_n"
+		"cosinePowerMap" "i_tod_luck_crystal_g"
+		"specColorMap" "i_tod_luck_crystal_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_luck_crystal_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "36"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "6"
+		"specAmount" "0.35"
+		"reflectionProbeAmount" "0.15"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"tod_luck_clover" ( "xmodel.gdf" )
+	{
+		"filename" "tod_lucky/tod_luck_clover_lod0.xmodel_bin"
+		"mediumLod" "tod_lucky/tod_luck_clover_lod1.xmodel_bin"
+		"mediumLodDist" "380"
+		"lowLod" "tod_lucky/tod_luck_clover_lod2.xmodel_bin"
+		"lowLodDist" "1000"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"tod_luck_meteor" ( "xmodel.gdf" )
+	{
+		"filename" "tod_lucky/tod_luck_meteor.xmodel_bin"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+		"noCastShadow" "1"
+	}
+}

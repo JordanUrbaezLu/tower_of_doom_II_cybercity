@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "mode": "fixed_baseline_gain",
+  "fixed_gain": 0.016525428679573573,
+  "nominal_target_score": 0.64,
+  "baseline_stats": "art/sky3d/consistency_review/before/middle_ground_stats.json",
+  "baseline_stats_sha256": "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+  "reason": "Keep the accepted radiance scale during the depth and distant-detail pass. Do not normalize local architectural changes into a global exposure shift. City and whole-sky scores are measured results."
+}

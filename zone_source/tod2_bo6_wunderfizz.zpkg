@@ -1,0 +1,7 @@
+// Exact BO6/WetEgg machine, original state geometry/materials/clip/FX.
+xmodel,t10_zm_machine_wunderfizz_fxanim
+xmodel,t10_zm_machine_wunderfizz_fxanim_on
+xanim,t10_zm_machine_wunderfizz_fxanim_activate
+scriptbundle,t10_zm_machine_wunderfizz_fxanim_activate
+fx,_t10/vending/fizz_idle
+fx,_t10/vending/fizz_activated

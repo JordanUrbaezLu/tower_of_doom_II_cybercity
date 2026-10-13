@@ -1,0 +1,148 @@
+{
+	"tod_archer_retriever_view" ( "xmodel.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_retriever_view.xmodel_bin"
+		"type" "animated"
+		"scale" "1"
+		"BulletCollisionLOD" "None"
+		"CollisionMap" ""
+	}
+	"i_tod_archer_hands_0_col" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_0_col.png"
+		"imageType" "Texture"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_archer_hands_0_nml" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_0_nml.png"
+		"imageType" "Texture"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_archer_hands_0_spc" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_0_spc.png"
+		"imageType" "Texture"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod_archer_hands_0" ( "material.gdf" )
+	{
+		"materialCategory" "Geometry"
+		"materialType" "lit"
+		"surfaceType" "cloth"
+		"template" "material.template"
+		"colorTint" "1 1 1 1"
+		"specMapEnable" "1"
+		"normalHeightScale" "1"
+		"usage" "<not in editor>"
+		"colorMap" "i_tod_archer_hands_0_col"
+		"normalMap" "i_tod_archer_hands_0_nml"
+		"specColorMap" "i_tod_archer_hands_0_spc"
+	}
+	"i_tod_archer_hands_1_col" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_1_col.png"
+		"imageType" "Texture"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_archer_hands_1_nml" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_1_nml.png"
+		"imageType" "Texture"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_archer_hands_1_spc" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_hands_1_spc.png"
+		"imageType" "Texture"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod_archer_hands_1" ( "material.gdf" )
+	{
+		"materialCategory" "Geometry"
+		"materialType" "lit_alphatest"
+		"surfaceType" "cloth"
+		"template" "material.template"
+		"colorTint" "1 1 1 1"
+		"specMapEnable" "1"
+		"normalHeightScale" "1"
+		"usage" "<not in editor>"
+		"colorMap" "i_tod_archer_hands_1_col"
+		"normalMap" "i_tod_archer_hands_1_nml"
+		"specColorMap" "i_tod_archer_hands_1_spc"
+		"alphaTest" "GE128"
+	}
+	"tod_archer_bo2_hands" ( "xmodel.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_bo2_hands.xmodel_bin"
+		"type" "animated"
+		"scale" "1"
+		"BulletCollisionLOD" "None"
+		"CollisionMap" ""
+	}
+	"tod_archer_hold" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_hold.xanim_bin"
+		"model" "tod_archer/tod_archer_hold_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "1"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+	}
+	"tod_archer_throw" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_throw.xanim_bin"
+		"model" "tod_archer/tod_archer_throw_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "0"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+	}
+	"tod_archer_flourish" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_flourish.xanim_bin"
+		"model" "tod_archer/tod_archer_flourish_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "0"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_archer_axe_first_raise"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod_archer_flourish_idle" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_flourish_idle.xanim_bin"
+		"model" "tod_archer/tod_archer_flourish_idle_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "1"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+	}
+}

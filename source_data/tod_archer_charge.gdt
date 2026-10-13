@@ -1,0 +1,25 @@
+{
+	"i_tod_archer_charge_ring" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_archer/_images/i_tod_archer_charge_ring.tiff"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+	}
+	"mtl_tod_archer_charge_ring" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_add"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_archer_charge_ring"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "1"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+}

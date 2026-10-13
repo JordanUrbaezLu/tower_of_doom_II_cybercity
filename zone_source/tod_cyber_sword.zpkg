@@ -1,0 +1,9 @@
+// Map-owned Cyber Sword; original Citadel swing and Gravity Smash animations.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.csc
+xmodel,tod_cyber_sword_view
+xmodel,tod_cyber_sword_world
+xmodel,tod_cyber_sword_cast_view
+xmodel,tod_cyber_sword_cast_world
+weapon,tod_cyber_sword_cast_zm
+weapon,tod_cyber_sword_bash_zm

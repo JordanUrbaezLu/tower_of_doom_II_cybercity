@@ -1,0 +1,8 @@
+{
+  "revision": "green_ready_yellow_pending_v1",
+  "ready_linear": [0.018, 1.0, 0.075],
+  "pending_linear": [1.0, 0.82, 0.018],
+  "off_emission": 0,
+  "revolution_seconds": 3,
+  "pending_reasons": ["recharge", "destination", "paused", "pending"]
+}

@@ -1,0 +1,29 @@
+{
+	"i_tod_necro_pulse" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_necro/i_tod_necro_pulse.png"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+	}
+	"mtl_tod_necro_pulse" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_blend"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_necro_pulse"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "64"
+		"useOldHDRScale" "0"
+		"alphaRevealMap" "$white_reveal"
+		"falloff" "0"
+		"distFalloff" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+}

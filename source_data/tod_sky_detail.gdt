@@ -1,0 +1,122 @@
+{
+	"i_tod_sky_rift_fibre" ( "image.gdf" )
+	{
+		"baseImage" "source_data/tod_sky_detail/_images/i_tod_sky_rift_fibre.png"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"premulAlpha" "1"
+		"clampU" "1"
+		"clampV" "1"
+	}
+	"mtl_tod_sky_detail_fibre" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_blend"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_sky_rift_fibre"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "128"
+		"useOldHDRScale" "0"
+		"alphaRevealMap" "$white_reveal"
+		"falloff" "0"
+		"distFalloff" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+	"i_tod_sky_rift_dust" ( "image.gdf" )
+	{
+		"baseImage" "source_data/tod_sky_detail/_images/i_tod_sky_rift_dust.png"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"premulAlpha" "1"
+		"clampU" "1"
+		"clampV" "1"
+	}
+	"mtl_tod_sky_detail_dust" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_blend"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_sky_rift_dust"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "64"
+		"useOldHDRScale" "0"
+		"alphaRevealMap" "$white_reveal"
+		"falloff" "0"
+		"distFalloff" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+	"i_tod_sky_rift_void" ( "image.gdf" )
+	{
+		"baseImage" "source_data/tod_sky_detail/_images/i_tod_sky_rift_void.png"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"premulAlpha" "1"
+		"clampU" "1"
+		"clampV" "1"
+	}
+	"mtl_tod_sky_detail_void" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_blend"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_sky_rift_void"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "0"
+		"useOldHDRScale" "0"
+		"alphaRevealMap" "$white_reveal"
+		"falloff" "0"
+		"distFalloff" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+	"i_tod_sky_meteor_wake" ( "image.gdf" )
+	{
+		"baseImage" "source_data/tod_sky_detail/_images/i_tod_sky_meteor_wake.png"
+		"imageType" "Texture"
+		"semantic" "effectMap"
+		"coreSemantic" "sRGB3chAlpha"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"premulAlpha" "1"
+		"clampU" "0"
+		"clampV" "1"
+	}
+	"mtl_tod_sky_detail_wake" ( "material.gdf" )
+	{
+		"materialCategory" "Effect"
+		"materialType" "effect_lit_emissive_blend"
+		"template" "material.template"
+		"surfaceType" "<none>"
+		"colorMap" "i_tod_sky_meteor_wake"
+		"colorTint" "1 1 1 1"
+		"scaleRGB" "16"
+		"useOldHDRScale" "0"
+		"alphaRevealMap" "$white_reveal"
+		"falloff" "0"
+		"distFalloff" "0"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"cullFace" "None"
+		"usage" "<not in editor>"
+	}
+}

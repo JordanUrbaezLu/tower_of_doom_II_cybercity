@@ -1,0 +1,416 @@
+{
+ "dash": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/dash/take_1.mp3",
+    "dur": 0.605,
+    "lufs": -16.0,
+    "peak_db": -4.36,
+    "file": "tod_abfx_dash.wav",
+    "sha256": "4d83947a2b8c31d3c4761431e52f2b24161375f72a663b0ec9488d3d549d246c"
+   },
+   {
+    "source": "take:tmp/ability_sfx/takes/dash/take_2.mp3",
+    "dur": 0.625,
+    "lufs": -16.0,
+    "peak_db": -1.23,
+    "file": "tod_abfx_dash_2.wav",
+    "sha256": "c5582fcf1723bf3f4c01c02bda1e6c195b51f6ddd29bf6eafdb0a4b0a6cd5ae4"
+   },
+   {
+    "source": "take:tmp/ability_sfx/takes/dash/take_3.mp3",
+    "dur": 0.68025,
+    "lufs": -14.66,
+    "peak_db": -1.0,
+    "file": "tod_abfx_dash_3.wav",
+    "sha256": "5f48061ffecc1271c2bef9878aae939990a2cef48a90aad34b47934cb8a626e7"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "impact": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/impact/take_1.mp3",
+    "dur": 0.88,
+    "lufs": -14.77,
+    "peak_db": -1.0,
+    "file": "tod_abfx_impact.wav",
+    "sha256": "af514de7a2ee95eef7a68887595a67ab22d11c83735705adb74df9f6e8d445a9"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "pulse": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/pulse/take_2.mp3",
+    "dur": 1.05,
+    "lufs": -14.63,
+    "peak_db": -1.0,
+    "file": "tod_abfx_pulse.wav",
+    "sha256": "6f73a39dbf04bc8d7742d0e65c3ccb90de5e98b0e828416a36e9fa1b0f32e388"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "launch": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/launch/take_1.mp3",
+    "dur": 0.88,
+    "lufs": -14.0,
+    "peak_db": -2.61,
+    "file": "tod_abfx_launch.wav",
+    "sha256": "08610366d3a49c3901f61e496fce9b8f17181b30453f21eed39ee724af9785fe"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "land": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/land/take_1.mp3",
+    "dur": 0.8,
+    "lufs": -17.49,
+    "peak_db": -1.0,
+    "file": "tod_abfx_land.wav",
+    "sha256": "66b49833704e031d4802016ffee0b323a346c2d495ae2377979ac1d592bb97d0"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "heal": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/heal/take_1.mp3",
+    "dur": 0.88,
+    "lufs": -17.0,
+    "peak_db": -4.88,
+    "file": "tod_abfx_heal.wav",
+    "sha256": "425ea2f16f238722b73b5b7ac8fee40302e2aa3966ba084a0438f9ea5d74ee33"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "demon_on": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/demon_on/take_1.mp3",
+    "dur": 1.2,
+    "lufs": -14.0,
+    "peak_db": -2.82,
+    "file": "tod_abfx_demon_on.wav",
+    "sha256": "ccd5d403ec771e996b1a259d62823bb9ec24db03507a12d3f9882cb443bcf2f2"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "demon_off": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/demon_off/take_3.mp3",
+    "dur": 1.0,
+    "lufs": -18.0,
+    "peak_db": -3.4,
+    "file": "tod_abfx_demon_off.wav",
+    "sha256": "78b1e757f678147157f7e4bf13a05a3a7fbc9347590b77a3112a95c223a18775"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "dive": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/dive/take_7.mp3",
+    "dur": 1.08,
+    "lufs": -22.76,
+    "peak_db": -3.69,
+    "file": "tod_abfx_dive.wav",
+    "sha256": "1d9f48e3013a0134fc2099123d67ca42ab97789918a5999bed7c3d2d2a188c0e"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "charged": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/charged/take_3.mp3",
+    "dur": 1.0,
+    "lufs": -17.0,
+    "peak_db": -4.81,
+    "file": "tod_abfx_charged.wav",
+    "sha256": "b9920f78e133cb7777126d422d3829a05af857bd802db3940dc13e8ac417297c"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "cloak_on": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/cloak_on/take_1.mp3",
+    "dur": 0.815,
+    "lufs": -16.0,
+    "peak_db": -3.15,
+    "file": "tod_abfx_cloak_on.wav",
+    "sha256": "cc838ec6a3e68c92b383b9a55bd6c6331fca51e48157b2a09cfc82cee4bc4016"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "cloak_off": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/cloak_off/take_1.mp3",
+    "dur": 0.75,
+    "lufs": -14.77,
+    "peak_db": -1.0,
+    "file": "tod_abfx_cloak_off.wav",
+    "sha256": "2492d4a06a51c42e5a0440fbed672063c3d8cae62c4eded71b6396dce8c601eb"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "shield_break": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/shield_break/take_3.mp3",
+    "dur": 1.08,
+    "lufs": -11.62,
+    "peak_db": -1.0,
+    "file": "tod_abfx_shield_break.wav",
+    "sha256": "c82e77f4be028e644f30fa98421fca6bb92335f41152a3dec4f17be94ba86f30"
+   }
+  ],
+  "rows": [
+   "plr",
+   "3d"
+  ]
+ },
+ "shield_back": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/shield_back/take_1.mp3",
+    "dur": 1.08,
+    "lufs": -16.0,
+    "peak_db": -1.69,
+    "file": "tod_abfx_shield_back.wav",
+    "sha256": "1d0d1bac9944d25966a9fbc28199a1ddea793e0d47c8dc02cb91d36449730e2e"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "card_1": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/card_1/take_1.mp3",
+    "dur": 0.88,
+    "lufs": -17.0,
+    "peak_db": -1.16,
+    "file": "tod_abfx_card_1.wav",
+    "sha256": "a1fed24fa4c614cff019840c516ab2df90d0677c2fe966af58dd21f01ef9ddda"
+   }
+  ],
+  "rows": [
+   "3d"
+  ]
+ },
+ "card_2": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/card_2/take_3.mp3",
+    "dur": 1.0,
+    "lufs": -16.5,
+    "peak_db": -3.04,
+    "file": "tod_abfx_card_2.wav",
+    "sha256": "bf29a3c5cbf5e03e4adbfb338035084ae183fe7167f21db8ee7ece40840c122e"
+   }
+  ],
+  "rows": [
+   "3d"
+  ]
+ },
+ "card_3": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/card_3/take_5.mp3",
+    "dur": 1.08,
+    "lufs": -16.0,
+    "peak_db": -4.49,
+    "file": "tod_abfx_card_3.wav",
+    "sha256": "ce5980caa4dd72c99248d88488ccd00259037daffd6df469a258f276febb7a7b"
+   }
+  ],
+  "rows": [
+   "3d"
+  ]
+ },
+ "card_4": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/card_4/take_3.mp3",
+    "dur": 1.36,
+    "lufs": -13.59,
+    "peak_db": -1.0,
+    "file": "tod_abfx_card_4.wav",
+    "sha256": "d2dc4bc281cdde993f8e1b981876c46d139c30d4bc5d6af4c92be436a558dee2"
+   }
+  ],
+  "rows": [
+   "3d"
+  ]
+ },
+ "pierce": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/pierce/take_1.mp3",
+    "dur": 0.48,
+    "lufs": -16.42,
+    "peak_db": -1.0,
+    "file": "tod_abfx_pierce.wav",
+    "sha256": "be24eb3001f344a3c62a72283ff20db41f82d19cd51a5044cf97509437fad984"
+   }
+  ],
+  "rows": [
+   "3d"
+  ]
+ },
+ "draw": {
+  "files": [
+   {
+    "source": "take:tmp/ability_sfx/takes/draw/take_2.mp3",
+    "dur": 0.6,
+    "lufs": -17.85,
+    "peak_db": -1.0,
+    "file": "tod_abfx_draw.wav",
+    "sha256": "a07aa4604eeb43b90578904c9faa4dc7e5cd6d999869d14e8d791e9157060bd2"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "c4_loop": {
+  "files": [
+   {
+    "source": "synth",
+    "dur": 1.0,
+    "file": "tod_abfx_c4_loop.wav",
+    "sha256": "c9c847d7be23a48e2e6cb83d2a8c56235307e37eb60079f1e151fc3daa8f4412"
+   }
+  ],
+  "rows": [
+   "loop"
+  ]
+ },
+ "pulse_charged": {
+  "files": [
+   {
+    "source": "take:tmp/asset_prod/PK18-class-kit-cues/takes/takes/pulse_charged/take_6.mp3",
+    "dur": 0.795,
+    "lufs": -17.0,
+    "peak_db": -2.0,
+    "file": "tod_abfx_pulse_charged.wav",
+    "sha256": "7c7b8c55c6c04264275bf6e5d49d4858d6c6fb3427a9c43a1506f438a0f727fe"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "bash_ready": {
+  "files": [
+   {
+    "source": "take:tmp/asset_prod/PK18-class-kit-cues/takes/takes/bash_ready/take_1.mp3",
+    "dur": 0.48,
+    "lufs": -17.0,
+    "peak_db": -2.36,
+    "file": "tod_abfx_bash_ready.wav",
+    "sha256": "fc2a41aba5226ed88beede897ad2592a4b7a67fa5e69049f3ab419f5fc75dac1"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "cloak_ready": {
+  "files": [
+   {
+    "source": "take:tmp/asset_prod/PK18-class-kit-cues/takes/takes/cloak_ready/take_1.mp3",
+    "dur": 0.6,
+    "lufs": -17.5,
+    "peak_db": -1.68,
+    "file": "tod_abfx_cloak_ready.wav",
+    "sha256": "b50bde0c70ae144cfb69be6a1c564faca4d5521f0212f35a0da18c8a985aea8c"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "refill": {
+  "files": [
+   {
+    "source": "take:tmp/asset_prod/PK18-class-kit-cues/takes/takes/refill/take_1.mp3",
+    "dur": 0.6,
+    "lufs": -18.41,
+    "peak_db": -1.0,
+    "file": "tod_abfx_refill.wav",
+    "sha256": "7dc9710a58c96f5219fa6feaccf2a00ffff7487e53223396c17e576acad52d8a"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ },
+ "deny": {
+  "files": [
+   {
+    "source": "synth",
+    "dur": 0.25,
+    "lufs": -19.0,
+    "peak_db": -9.79,
+    "file": "tod_abfx_deny.wav",
+    "sha256": "eb83e3f58fa5209472439cda8a7a7c3a14f3c3412497d0f30a8b66be5c78cb31"
+   }
+  ],
+  "rows": [
+   "plr"
+  ]
+ }
+}

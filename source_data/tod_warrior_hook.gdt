@@ -1,0 +1,10 @@
+{
+	"vm_tod_gauntlet_left_hook" ( "xanim.gdf" )
+	{
+		"filename" "tod_warrior\\vm_tod_gauntlet_left_hook.XANIM_BIN"
+		"model" "tod_warrior\\gauntlet_hook_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+}

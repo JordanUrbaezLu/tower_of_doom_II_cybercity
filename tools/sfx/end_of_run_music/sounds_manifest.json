@@ -1,0 +1,40 @@
+{
+ "gameover": {
+  "file": "tod_music_gameover.wav",
+  "sha256": "565b8ddc52d7829763cf0ce788bdb6f07043c6ecccb44ddb9f96ccd866d9650a",
+  "secs": 13.105,
+  "lufs": -11.7,
+  "lra": 8.4,
+  "true_peak_db": -1.0,
+  "gain_db": 3.1,
+  "limiter_db": 4.0,
+  "abrupt_end": false,
+  "fade_out": 0.4,
+  "vol": 100,
+  "looping": false,
+  "source": "take:tmp/asset_prod/PK03-end-of-run-music/takes/gameover/take_2.mp3",
+  "why": "the defeat cadence: G minor braam, a cluster hit, Eb (bVI) -> D (V) -> the last G minor hit, then the fall into silence. Take 1 scored higher only on its louder-first shape; its middle is a weaker F -> Ab -> F, and take 3 is one hit with no cadence (9.8 s)."
+ },
+ "victory": {
+  "file": "tod_house_victory.wav",
+  "sha256": "9da66cc592e44bd94bc5ea3f663092a188fcebae5212f4a2dff2e9c08288633a",
+  "secs": 17.68,
+  "lufs": -12.9,
+  "lra": 16.7,
+  "true_peak_db": -1.0,
+  "gain_db": 7.2,
+  "limiter_db": 4.0,
+  "abrupt_end": false,
+  "fade_out": 0.4,
+  "vol": 100,
+  "looping": false,
+  "tuck": {
+   "db": -4.0,
+   "until": 4.75,
+   "release": 6.0
+  },
+  "hold_secs": 18.2,
+  "source": "take:tmp/asset_prod/PK03-end-of-run-music/takes/victory/take_2.mp3",
+  "why": "the best score (1.000): a near-silent D drone for 4.5 s under his death line, then Bm -> G -> A -> D (vi-IV-V-I) with a climbing arpeggio, landing on D major at 14 s and ringing out."
+ }
+}

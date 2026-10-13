@@ -1,0 +1,41 @@
+{
+  "master": "art\\cyber_reference_three_mcp\\reference_three.blend",
+  "master_sha256": "7f1f187a52b5fdf9f213e55c002d29dff20c0385912ec4cd0e667584d7100b51",
+  "revision": 6,
+  "fit_pass": 3,
+  "authoring_stage": "03_completed_reference_three_armored_only",
+  "lod_method": "component_floor_v1",
+  "textures": {
+    "i_tod_roster_sprinter_c.png": "312a22834ddb8a7eb341fd0879cfb62c5aea27512020d9a335e08cc1c9720ee6",
+    "i_tod_roster_sprinter_e.png": "ecf88483e26416e85a65fb4460c4e6b2d5befcd7a677b25cf848b4b871271d57",
+    "i_tod_roster_sprinter_g.png": "30852cbbe63218f543f5f17e4f5a6b7244663dd9a32197fe426b5321ab3f8718",
+    "i_tod_roster_sprinter_n.png": "8cf98464f38d50ca96c7ec8546eaac89a5a28ecd70dc68ac659b909e9a525a2d",
+    "i_tod_roster_sprinter_s.png": "f0cf8f740ed1e6909084208fc45e4c86d92fb948927f11f9e250b49112acbae9"
+  },
+  "groups": [
+    "arm",
+    "chest",
+    "finger_index_le",
+    "finger_index_le_2",
+    "finger_index_le_3",
+    "finger_mid_le",
+    "finger_mid_le_2",
+    "finger_mid_le_3",
+    "finger_pinky_le",
+    "finger_pinky_le_2",
+    "finger_pinky_le_3",
+    "finger_ring_le",
+    "finger_ring_le_2",
+    "finger_ring_le_3",
+    "finger_thumb_le",
+    "finger_thumb_le_2",
+    "finger_thumb_le_3",
+    "hand_le",
+    "head",
+    "hip_ri",
+    "shin_le",
+    "shoulder_le"
+  ],
+  "atlas_size": 4096,
+  "reference_assignment": "armored sprinter only"
+}

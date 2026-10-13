@@ -1,0 +1,8 @@
+#
+anim_zombie_brutus_idle,hb_mangler_idle
+anim_zombie_brutus_sprint,hb_mangler_run
+anim_zombie_brutus_melee,hb_mangler_melee
+anim_zombie_brutus_death,hb_mangler_death
+anim_zombie_mangler_cannon,hb_mangler_cannon
+anim_zombie_taunt,hb_mangler_run
+void,void

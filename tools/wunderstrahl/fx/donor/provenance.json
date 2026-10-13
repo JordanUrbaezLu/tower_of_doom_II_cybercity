@@ -1,0 +1,48 @@
+{
+ "blocks": {
+  "beam": {
+   "asset": "flamethrower_beam",
+   "source": "source_data/t7_beams.gdt",
+   "source_sha256": "029dae06d91fba71485faef48750bddcc011e7d9ec1426244626655a5677e4e4",
+   "vendored_sha256": "f4d797a1a9b2a9a33b6c634fae19c9319982d5336dc641a6d883fca2ccac304b"
+  },
+  "flametable": {
+   "asset": "flame_firstperson",
+   "source": "source_data/zeroy/waw_flamethrower.gdt",
+   "source_sha256": "102cc8e41dacf69bddae6b94b33c6b548facc19bac3231d64986e0c53ad1713f",
+   "vendored_sha256": "116cd2045437b86b9b1121da2f64059c964f4ec6439d0d7afc5df973467f5d28"
+  }
+ },
+ "efx": {
+  "dlc3/stalingrad/fx_raz_dest_weak_point_exp": {
+   "elements": {
+    "flame": 8,
+    "spark_tail": 1
+   },
+   "source_sha256": "f82c59fb15265cf167c2873c647b0adfc1f3d50bd6786f51dae69690e6214866",
+   "vendored_sha256": "42b01967c6316ac0009241413507826c4002e5d40cd8024b2e28206fb92b4af7"
+  }
+ },
+ "files": {
+  "beam.awi": {
+   "source": "deffiles/beam.awi",
+   "source_sha256": "03fb87656ce62719892d2190ef4aafebd1fde69eaa9dd42b60cebae0c7f5b62a",
+   "vendored_sha256": "03fb87656ce62719892d2190ef4aafebd1fde69eaa9dd42b60cebae0c7f5b62a"
+  },
+  "flametable.awi": {
+   "source": "deffiles/flametable.awi",
+   "source_sha256": "3c5e4937365db4e08f2b07bed503db79c3c6162ae52115212a308ff0c2a44b4d",
+   "vendored_sha256": "3c5e4937365db4e08f2b07bed503db79c3c6162ae52115212a308ff0c2a44b4d"
+  }
+ },
+ "techsets": {
+  "effect_lit_emissive_add": {
+   "source": "share/raw/techsetdefs_stable/effect/effect_lit_emissive_add.techsetdef",
+   "source_sha256": "099701da7a7016da4fcf12234ac0f7945caf2784f9ce49bc84f74b678188df0d"
+  },
+  "effect_lit_scroll_emissive_blend_nocull": {
+   "source": "share/raw/techsetdefs_stable/effect/effect_lit_scroll_emissive_blend_nocull.techsetdef",
+   "source_sha256": "1a589720d37e9afa6f423fec34bf4b14bb6522d8b7b2f50f1d35fbd860568542"
+  }
+ }
+}

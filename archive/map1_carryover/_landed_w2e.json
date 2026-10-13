@@ -1,0 +1,297 @@
+{
+ "package": "W2E retire parked",
+ "at": "2026-10-05 11:24:33",
+ "written": [
+  "art/cyber_zombie_roster/engine_kit/install_manifest.json",
+  "docs/armory.html",
+  "docs/tod2_armory.html",
+  "localizedstrings/zm_aetherium.str",
+  "scripts/zm/_zm_perk_wisp_tea.gsc",
+  "scripts/zm/_zm_perk_wisp_tea.gsh",
+  "scripts/zm/zm_tod2_cybercity.csc",
+  "scripts/zm/zm_tod2_cybercity.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_ambush.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_archer.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_archer_rune.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_arena.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_atmosphere.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_class_cards.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_crown_props.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_cyber_elites.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_cyber_zombies.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_doors.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_doppelghast.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_elite_hp.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_endless_rounds.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_gauge.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_golden_zombie.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_keeper.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_killconfirm.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_luck.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_main.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_mangler.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_necro_skull.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_necro_summon.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_perk_scatter.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_perk_widows.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_power_scale.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_powerups.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_stray.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.csc",
+  "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_upgrades.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_warrior_melee.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_zombie_speed.gsc",
+  "scripts/zm/zm_zod_robot.gsc",
+  "sound/aliases/tod_ui.csv",
+  "sound/aliases/zm_ai_zod_companion.csv",
+  "source_data/tod_cyber_roster.gdt",
+  "source_data/tod_ui_images.gdt",
+  "tools/artgen/packs/pk07_prompt_icons.py",
+  "tools/artgen/packs/pk09_loss_banner.py",
+  "tools/artgen/packs/r4_synthwave_hud.py",
+  "tools/haven/test_haven.js",
+  "tools/install_cyber_roster.py",
+  "tools/lint_tod_hints.js",
+  "tools/music_master.py",
+  "tools/partner/verify_deployment.py",
+  "tools/set_image_compression.manifest.json",
+  "tools/sfx/end_of_run_music/make_sounds.py",
+  "tools/sfx/silent_sounds/check_wiring.py",
+  "tools/test_ambush.js",
+  "tools/test_archer_equipment.js",
+  "tools/test_arena_hud.lua",
+  "tools/test_battle_arena.js",
+  "tools/test_broken_tower.js",
+  "tools/test_cyber_zombie_spawns.js",
+  "tools/test_dealer_house.js",
+  "tools/test_doppelghast.js",
+  "tools/test_elite_hp.js",
+  "tools/test_jumppad.js",
+  "tools/test_landing_immunity.js",
+  "tools/test_perk_anims.js",
+  "tools/test_power_scale.js",
+  "tools/test_rampage_levers.js",
+  "tools/test_retired_systems.js",
+  "tools/test_upgrade_damage_guard.js",
+  "tools/test_v1896_secret_killconfirm_bottle.js",
+  "tools/verify_armory_constants.js",
+  "tools/verify_cyber_reference_sources.py",
+  "tools/verify_cyber_roster.py",
+  "ui/uieditor/menus/StartMenu/AetheriumStartMenu.lua",
+  "ui/uieditor/menus/hud/tod_upgrade.lua",
+  "ui/uieditor/widgets/HUD/AetheriumWidgets/TodArena.lua",
+  "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodPromptCard.lua",
+  "ui/uieditor/widgets/HUD/ZM_CursorHint/ZMCursorHintNew.lua",
+  "zone_source/zm_tod2_cybercity.zone",
+  "sound/zoneconfig/zm_tod2_cybercity.szc",
+  "tools/build_map.ps1"
+ ],
+ "created": [
+  "scripts/zm/zm_tod2_cybercity/_tod_crown_props.gsc",
+  "tools/test_retired_systems.js"
+ ],
+ "moved": [
+  "scripts/zm/zm_tod2_cybercity/_tod_finale.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_reaver.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_hellhounds.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_sprinter.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_runandgun.gsc",
+  "scripts/zm/zm_tod2_cybercity/_tod_keeper.csc",
+  "scripts/zm/mechz_spiki.gsc",
+  "scripts/zm/mechz_spiki.csc",
+  "scripts/zm/zm_genesis_apothicon_fury.gsc",
+  "scripts/zm/zm_genesis_apothicon_fury.csc",
+  "scripts/zm/zm_genesis_apothicon_fury.gsh",
+  "scripts/shared/ai/archetype_apothicon_fury.gsc",
+  "scripts/shared/ai/archetype_apothicon_fury.csc",
+  "scripts/shared/ai/archetype_apothicon_fury.gsh",
+  "scripts/shared/ai/archetype_apothicon_fury_interface.gsc",
+  "sound_assets/tod/music/tod_music_finale.wav",
+  "sound_assets/tod/sfx/wpn_tod_sprint_rico1.wav",
+  "sound_assets/tod/sfx/wpn_tod_sprint_rico2.wav",
+  "sound_assets/tod/sfx/wpn_tod_sprint_rico3.wav",
+  "sound_assets/tod/sfx/tod_scavenger.wav",
+  "sound_assets/tod/sfx/tod_trail_ignite.wav",
+  "sound_assets/tod/sfx/tod_trail_sizzle.wav",
+  "sound_assets/tod/sfx/tod_trail_loop.wav",
+  "source_data/tod_ui_images/_images/i_tod_banner_finale.png",
+  "source_data/tod_ui_images/_images/i_tod_win_banner.png",
+  "source_data/tod_ui_images/_images/i_tod_win_emblem.png",
+  "source_data/tod_ui_images/_images/i_tod_prompt_icon_extract.png",
+  "source_data/tod_ui_images/_images/i_tod_prompt_icon_crown.png",
+  "art/synthwave_hud/prompt_icons_red_src/i_tod_prompt_icon_crown.png",
+  "art/synthwave_hud/prompt_icons_red_src/i_tod_prompt_icon_extract.png",
+  "art/generated/R4-synthwave-hud/i_tod_prompt_icon_crown.png",
+  "art/generated/R4-synthwave-hud/i_tod_prompt_icon_extract.png",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_lod0.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod0.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod1.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod2.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod3.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod4.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod5.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head1_lod6.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod0.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod1.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod2.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod3.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod4.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod5.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head2_lod6.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod0.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod1.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod2.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod3.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod4.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod5.xmodel_bin",
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_head3_lod6.xmodel_bin",
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_c.png",
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_e.png",
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_g.png",
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_n.png",
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_s.png",
+  "art/cyber_zombie_roster/engine_kit/sprinter",
+  "tools/keeper/test_keeper.js",
+  "tools/test_panzer_flame_fx.js"
+ ],
+ "not_moved_named_again": {},
+ "missing": [],
+ "pins_not_references": {
+  "scripts/zm/zm_tod2_cybercity/_tod_finale.gsc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_tod2_cybercity/_tod_reaver.gsc": [
+   "absence pin: !fs.existsSync of the three retired director modules",
+   "absence pin: !fs.existsSync of the retired directors + the Panzer pack",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_tod2_cybercity/_tod_hellhounds.gsc": [
+   "absence pin: !fs.existsSync of the three retired director modules",
+   "absence pin: !fs.existsSync of the retired directors + the Panzer pack",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_tod2_cybercity/_tod_sprinter.gsc": [
+   "absence pin: !existsSync of _tod_sprinter.gsc",
+   "absence pin: !fs.existsSync of the three retired director modules",
+   "absence pin: !fs.existsSync of the retired directors + the Panzer pack",
+   "absence pin: !existsSync of _tod_sprinter.gsc",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_tod2_cybercity/_tod_runandgun.gsc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path",
+   "DEAD_OK reason strings (history text naming the archived module); reads no file of it"
+  ],
+  "scripts/zm/zm_tod2_cybercity/_tod_keeper.csc": [
+   "docstring history (line 30); its --check reads the Keeper SOURCES, which stay",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/mechz_spiki.gsc": [
+   "absence pin: !fs.existsSync of the retired directors + the Panzer pack",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/mechz_spiki.csc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_genesis_apothicon_fury.gsc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_genesis_apothicon_fury.csc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/zm/zm_genesis_apothicon_fury.gsh": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/shared/ai/archetype_apothicon_fury.gsc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/shared/ai/archetype_apothicon_fury.csc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/shared/ai/archetype_apothicon_fury.gsh": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "scripts/shared/ai/archetype_apothicon_fury_interface.gsc": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "sound_assets/tod/music/tod_music_finale.wav": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "sound_assets/tod/sfx/tod_scavenger.wav": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "sound_assets/tod/sfx/tod_trail_ignite.wav": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "sound_assets/tod/sfx/tod_trail_sizzle.wav": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "sound_assets/tod/sfx/tod_trail_loop.wav": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "source_data/tod_ui_images/_images/i_tod_banner_finale.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "source_data/tod_ui_images/_images/i_tod_win_banner.png": [
+   "review() only + docstring, reads the archive copy; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "source_data/tod_ui_images/_images/i_tod_win_emblem.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "source_data/tod_ui_images/_images/i_tod_prompt_icon_extract.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "source_data/tod_ui_images/_images/i_tod_prompt_icon_crown.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "art/synthwave_hud/prompt_icons_red_src/i_tod_prompt_icon_crown.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "art/synthwave_hud/prompt_icons_red_src/i_tod_prompt_icon_extract.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "art/generated/R4-synthwave-hud/i_tod_prompt_icon_crown.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "art/generated/R4-synthwave-hud/i_tod_prompt_icon_extract.png": [
+   "review() only, reads the archive copy when the live one is gone; --check never reads it",
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/tod_cyber_sprinter_lod0.xmodel_bin": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_c.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_e.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_g.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_n.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "model_export/tod_cyber_zombie/_images/i_tod_roster_sprinter_s.png": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "art/cyber_zombie_roster/engine_kit/sprinter": [
+   "absence pin: asserts the sprinter engine kit does NOT exist"
+  ],
+  "tools/keeper/test_keeper.js": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ],
+  "tools/test_panzer_flame_fx.js": [
+   "THE RETIREMENT PIN (new): asserts every moved path is absent from its live path"
+  ]
+ }
+}

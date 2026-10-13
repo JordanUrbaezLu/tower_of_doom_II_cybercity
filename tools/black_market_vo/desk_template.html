@@ -1,0 +1,116 @@
+<title>Dealer Voice Desk</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0c0e13;--panel:#151a24;--panel2:#1b2130;--line:#263044;--text:#e8ecf3;--muted:#8c96ab;--mask:#e0384a;--masked:#3fd8e8;--full:#f5c542;--actual:#9aa7c2;
+--display:"Chakra Petch","IBM Plex Sans",system-ui,sans-serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:15px;line-height:1.5;padding-block:28px 56px;padding-inline:clamp(16px,4vw,48px)}
+header{max-width:1180px;margin:0 auto 22px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mask)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,4.5vw,44px);letter-spacing:.01em;margin:4px 0 8px;text-wrap:balance}
+header p{max-width:70ch;color:var(--muted);margin:0 0 14px}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;font-family:var(--mono);font-size:12.5px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:7px;vertical-align:-1px;background:var(--c)}
+.wrap{max-width:1180px;margin:0 auto}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;margin:0 0 14px;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+.toolbar label{display:inline-flex;align-items:center;gap:8px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{background:transparent;color:var(--muted);border:0;padding:5px 11px;font:inherit;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--panel2);color:var(--text)}
+.grid{display:grid;grid-template-columns:minmax(220px,1.3fr) repeat(3,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.hd{background:var(--panel2);padding:10px 12px;font-family:var(--display);font-weight:500;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.hd.masked{color:var(--masked)}.hd.full{color:var(--full)}.hd.actual{color:var(--actual)}
+.cell{background:var(--panel);padding:12px}
+.linecell{display:flex;flex-direction:column;gap:8px}
+.linecell .num{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.linecell .txt{font-size:14px;line-height:1.45}
+.tag{color:var(--muted);font-family:var(--mono);font-size:12px}
+.takes{display:flex;flex-wrap:wrap;gap:6px}
+.play{display:inline-flex;align-items:center;gap:7px;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}
+.play:hover{border-color:var(--muted)}.play:focus-visible{outline:2px solid var(--masked);outline-offset:1px}
+.play.on{border-color:var(--c);color:var(--c)}
+.play .dot{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.bar{height:3px;background:var(--line);border-radius:2px;margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--c)}
+.drop{border:1px dashed var(--line);border-radius:6px;padding:8px 10px;font-size:12.5px;color:var(--muted)}
+.drop input{display:block;margin-top:6px;max-width:100%;font-size:12px;color:var(--muted)}
+.drop .name{font-family:var(--mono);font-size:11.5px;color:var(--text);margin-top:6px;word-break:break-all}
+.verdict{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.verdict button{font:inherit;font-size:11.5px;font-family:var(--mono);background:transparent;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:3px 9px;cursor:pointer}
+.verdict button[aria-pressed="true"]{border-color:var(--c);color:var(--c)}
+h2{font-family:var(--display);font-weight:500;font-size:18px;letter-spacing:.03em;margin:34px 0 6px}
+.sub{color:var(--muted);margin:0 0 12px;max-width:70ch}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.strip .cell{border:1px solid var(--line);border-radius:8px}
+.note{margin-top:28px;padding:14px 16px;border-left:3px solid var(--mask);background:var(--panel);color:var(--muted);font-size:13.5px;max-width:78ch}
+.note b{color:var(--text)}
+@media (max-width:860px){.grid{grid-template-columns:1fr 1fr}.linecell{grid-column:1/-1}.hd.line{display:none}}
+@media (max-width:520px){.grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+</style>
+<header>
+  <div class="eyebrow">Tower of Doom II &middot; the Black Market</div>
+  <h1>Dealer Voice Desk</h1>
+  <p>The same eight reveal lines, the moment the mask comes off, in three voices side by side. Neither generated voice is a clone: both come from written descriptions. His actual lines load from your own disk and never leave this browser.</p>
+  <div class="legend"><span style="--c:var(--masked)">Masked &middot; the dealer as he ships in the shop</span><span style="--c:var(--full)">100% &middot; the unmasked design, pushed as far as description goes</span><span style="--c:var(--actual)">Actual &middot; his real lines, from your files</span></div>
+</header>
+<div class="wrap">
+  <div class="toolbar">
+    <label>Unmasked candidate <span class="seg" id="abseg"><button type="button" id="ab-A" aria-pressed="true">A &middot; maxed 3</button><button type="button" id="ab-B" aria-pressed="false">B &middot; maxed older 2</button></span></label>
+    <span>Each cell has two takes. One clip plays at a time.</span>
+  </div>
+  <div class="grid" id="grid">
+    <div class="hd line">Line</div><div class="hd masked">Masked</div><div class="hd full">100%</div><div class="hd actual">Actual</div>
+  </div>
+  <h2>For context: how he sounds in the shop</h2>
+  <p class="sub">Six of the 47 lines that ship, in the masked voice. German words are gone; the hints are lore only.</p>
+  <div class="strip" id="strip"></div>
+  <div class="note"><b>Why the third column is a file picker.</b> His real lines are a working actor&rsquo;s recordings. Cloning a voice from them, or steering a design with them as reference audio, needs that person&rsquo;s consent, so they are not uploaded anywhere and no voice here was trained on them. What reaches an exact match legitimately: your own recorded impression as the reference for the design, your recorded performance converted through the designed voice, a consented impression clone, or a description remix loop with your ear as the judge.</div>
+</div>
+<script>
+const DATA = __DATA__;
+let AB = "A", current = null;
+function stopAll(){ if(current){ current.audio.pause(); current.audio.currentTime=0; current.btn.classList.remove("on"); current.bar.style.width="0"; current=null; } }
+function makePlay(src, label, color, bar){
+  const b=document.createElement("button"); b.type="button"; b.className="play"; b.style.setProperty("--c",color);
+  const d=document.createElement("span"); d.className="dot"; b.appendChild(d); b.appendChild(document.createTextNode(label));
+  const a=new Audio(src);
+  a.addEventListener("timeupdate",function(){ if(a.duration) bar.style.width=(a.currentTime/a.duration*100)+"%"; });
+  a.addEventListener("ended",function(){ b.classList.remove("on"); bar.style.width="0"; current=null; });
+  b.addEventListener("click",function(){ if(current&&current.audio===a){ stopAll(); return; } stopAll(); a.play().catch(function(){}); b.classList.add("on"); current={audio:a,btn:b,bar:bar}; });
+  return b;
+}
+function cellTakes(srcs, color){
+  const c=document.createElement("div"); c.className="cell";
+  const t=document.createElement("div"); t.className="takes"; const bar=document.createElement("div"); bar.className="bar"; bar.style.setProperty("--c",color); const i=document.createElement("i"); bar.appendChild(i);
+  srcs.forEach(function(s,k){ t.appendChild(makePlay(s,"take "+(k+1),color,i)); });
+  c.appendChild(t); c.appendChild(bar); return c;
+}
+const grid=document.getElementById("grid"); const fullCells=[];
+DATA.rows.forEach(function(row,idx){
+  const lc=document.createElement("div"); lc.className="cell linecell";
+  const n=document.createElement("div"); n.className="num"; n.textContent=String(idx+1).padStart(2,"0")+" · "+row.file; lc.appendChild(n);
+  const tx=document.createElement("div"); tx.className="txt"; tx.textContent=row.text; lc.appendChild(tx);
+  const v=document.createElement("div"); v.className="verdict"; const key="desk-verdict-"+row.file; let saved=null; try{saved=localStorage.getItem(key)}catch(e){}
+  [["masked","Masked wins","var(--masked)"],["full","100% wins","var(--full)"],["none","Neither yet","var(--actual)"]].forEach(function(opt){
+    const bt=document.createElement("button"); bt.type="button"; bt.textContent=opt[1]; bt.style.setProperty("--c",opt[2]); bt.setAttribute("aria-pressed", saved===opt[0]?"true":"false");
+    bt.addEventListener("click",function(){ v.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed","false")}); bt.setAttribute("aria-pressed","true"); try{localStorage.setItem(key,opt[0])}catch(e){} });
+    v.appendChild(bt);
+  });
+  lc.appendChild(v); grid.appendChild(lc);
+  grid.appendChild(cellTakes(row.M,"var(--masked)"));
+  const fc=cellTakes(row[AB],"var(--full)"); fullCells.push({row:row,el:fc}); grid.appendChild(fc);
+  const ac=document.createElement("div"); ac.className="cell";
+  const d=document.createElement("div"); d.className="drop"; d.textContent="Load his line for this row (stays on your machine)";
+  const inp=document.createElement("input"); inp.type="file"; inp.accept="audio/*"; inp.id="actual-"+row.file; d.appendChild(inp);
+  const nm=document.createElement("div"); nm.className="name"; d.appendChild(nm);
+  const holder=document.createElement("div"); holder.className="takes"; holder.style.marginTop="8px"; const bar=document.createElement("div"); bar.className="bar"; bar.style.setProperty("--c","var(--actual)"); const i=document.createElement("i"); bar.appendChild(i);
+  inp.addEventListener("change",function(){ const f=inp.files&&inp.files[0]; if(!f) return; nm.textContent=f.name; holder.innerHTML=""; holder.appendChild(makePlay(URL.createObjectURL(f),"play","var(--actual)",i)); });
+  ac.appendChild(d); ac.appendChild(holder); ac.appendChild(bar); grid.appendChild(ac);
+});
+function setAB(which){ AB=which; document.getElementById("ab-A").setAttribute("aria-pressed", which==="A"?"true":"false"); document.getElementById("ab-B").setAttribute("aria-pressed", which==="B"?"true":"false"); stopAll();
+  fullCells.forEach(function(fc){ const n=cellTakes(fc.row[which],"var(--full)"); fc.el.replaceWith(n); fc.el=n; }); }
+document.getElementById("ab-A").addEventListener("click",function(){setAB("A")}); document.getElementById("ab-B").addEventListener("click",function(){setAB("B")});
+const strip=document.getElementById("strip");
+DATA.shop.forEach(function(s){ const c=document.createElement("div"); c.className="cell"; const t=document.createElement("div"); t.className="txt"; t.style.fontSize="13.5px"; t.textContent=s.text; const tg=document.createElement("div"); tg.className="tag"; tg.textContent=s.file; const bar=document.createElement("div"); bar.className="bar"; bar.style.setProperty("--c","var(--masked)"); const i=document.createElement("i"); bar.appendChild(i); const tk=document.createElement("div"); tk.className="takes"; tk.style.marginTop="8px"; tk.appendChild(makePlay(s.src,"play","var(--masked)",i)); c.appendChild(tg); c.appendChild(t); c.appendChild(tk); c.appendChild(bar); strip.appendChild(c); });
+</script>

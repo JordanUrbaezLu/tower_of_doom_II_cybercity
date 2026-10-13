@@ -1,0 +1,21 @@
+{
+  "_about": "THE REVEAL, in his ORGANIC register (user 2026-10-01: the manic set in lines_unmasked.json is the devil Richtofen, not the man). Same file names as lines_unmasked.json so the desk rows line up. Calm, measured, dry; the mania is one crack at most; no German vocabulary; he never says the name. Generated through the consented clone (clone_voice.py) or any candidate: generate.py --lines lines_reveal_organic.json --voice <id> --out tmp/black_market_vo/unmasked/<name>.",
+  "lines": [
+    {"file": "tod_unmask_01", "group": "reveal", "text": "There. [pause] No more mask. [pause] You should see your faces. [chuckles] I did warn you.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_02", "group": "reveal", "text": "Did you really think a little stitched leather could hide me? [pause] From you? [pause] I hid from far worse.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_03", "group": "reveal", "text": "The Doctor is in. [pause] And I am afraid the Doctor is very, very disappointed in you.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_04", "group": "reveal", "text": "The voices told me you would come. [pause] They never lie. [pause] Unlike me.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_05", "group": "reveal", "text": "My children. [pause] Come. [pause] Come and meet our guests.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_06", "group": "reveal", "text": "One. One. Five. [pause] The whole tower runs on it. [pause] So do I. [pause] For now.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_07", "group": "reveal", "text": "You want to know what I did with the little girl. [pause] So does she.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}},
+    {"file": "tod_unmask_08", "group": "reveal", "text": "No. [pause] No, that is quite enough. [pause] Let us begin. [pause] Properly, this time.",
+     "settings": {"stability": 0.5, "similarity": 0.85, "style": 0.25, "speed": 0.97}}
+  ]
+}

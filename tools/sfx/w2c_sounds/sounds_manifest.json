@@ -1,0 +1,1005 @@
+{
+ "tod_tier_sting": {
+  "files": [
+   {
+    "take": "take_1",
+    "swell_at": 0.51,
+    "limiter_gr_db": 2.75,
+    "file": "sfx/tod_tier_sting.wav",
+    "sha256": "36a9ea1219e2f324d1f42b1e01121aeb8db1d4acbb87c429ab6368c817cc5402",
+    "channels": 2,
+    "frames": 105600,
+    "secs": 2.2,
+    "lufs": -8.62,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_spin_teeter": {
+  "files": [
+   {
+    "take": "take_1 + spine",
+    "limiter_gr_db": 4.6,
+    "ratio": 12.0,
+    "file": "near/tod_spin_teeter.wav",
+    "sha256": "4c4a5ff68b7a6766a1903a3b6d4d6cb651e30b5c06baae465b0cfa4f0ec3f27a",
+    "channels": 1,
+    "frames": 24000,
+    "secs": 0.5,
+    "lufs": -13.13,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_spin_near": {
+  "files": [
+   {
+    "take": "take_3 + spine",
+    "limiter_gr_db": 3.15,
+    "ratio": 1.0,
+    "file": "near/tod_spin_near.wav",
+    "sha256": "cbd24129d50f4020192a3684b6244c38765d39146739509da4b1f9033c832377",
+    "channels": 1,
+    "frames": 38400,
+    "secs": 0.8,
+    "lufs": -12.53,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_pull_reach": {
+  "files": [
+   {
+    "take": "take_2 + spine",
+    "limiter_gr_db": 3.71,
+    "ratio": 1.5,
+    "file": "near/tod_pull_reach.wav",
+    "sha256": "0fe5d7b03d451915a33aa4849e06cbefdb22479c06306c1ed5aac793d5549731",
+    "channels": 1,
+    "frames": 31680,
+    "secs": 0.66,
+    "lufs": -11.51,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_pull_reach_fail": {
+  "files": [
+   {
+    "take": "take_2 + spine",
+    "limiter_gr_db": 6.0,
+    "ratio": 11.0,
+    "file": "near/tod_pull_reach_fail.wav",
+    "sha256": "7e19f2533932e1ad996ba5b9ce6efbcb94e7ad64a53d260c1fd9f5750b677f4e",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -12.97,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_pull_break": {
+  "files": [
+   {
+    "take": "take_1 + take_2 + spine",
+    "limiter_gr_db": 3.23,
+    "ratio": 12.0,
+    "file": "near/tod_pull_break.wav",
+    "sha256": "c66fd9ee5c54048f99d23346593788ff1988dbef8798e2026de6085a946d8c37",
+    "channels": 1,
+    "frames": 43200,
+    "secs": 0.9,
+    "lufs": -10.02,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_heat_up": {
+  "files": [
+   {
+    "take": "take_1 + take_3",
+    "limiter_gr_db": 4.57,
+    "ratio": 14.5,
+    "file": "near/tod_heat_up.wav",
+    "sha256": "40c0f072b24ec8b295082b8cc250fe29b7c0bbff92aecde48d9236ae4c213612",
+    "channels": 1,
+    "frames": 38400,
+    "secs": 0.8,
+    "lufs": -11.8,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_heat_fire": {
+  "files": [
+   {
+    "take": "take_2 + stinger",
+    "limiter_gr_db": 3.48,
+    "ratio": 13.0,
+    "file": "near/tod_heat_fire.wav",
+    "sha256": "2093d5ace6b5da5455b3faea78775e64ded4afe469d3e9816a7f08321ed9a22f",
+    "channels": 1,
+    "frames": 62400,
+    "secs": 1.3,
+    "lufs": -10.03,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_heat_out": {
+  "files": [
+   {
+    "take": "take_1 + spine",
+    "limiter_gr_db": 4.03,
+    "ratio": 1.0,
+    "file": "near/tod_heat_out.wav",
+    "sha256": "d5fcf84f9e6555424459f632213f07c12ef062daf8e3f97a116f17fdf4fd0564",
+    "channels": 1,
+    "frames": 33600,
+    "secs": 0.7,
+    "lufs": -14.02,
+    "peak_db": -1.5
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_ptn_destroyed": {
+  "files": [
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_destroyed.wav",
+    "sha256": "076269088e2d3fbe34a1885b5becbe24676d61573707f4164f19bd8315a47118",
+    "channels": 1,
+    "frames": 96000,
+    "secs": 2.0,
+    "lufs": -14.0,
+    "peak_db": -1.72
+   },
+   {
+    "take": "take_6",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_destroyed_2.wav",
+    "sha256": "438984bac0fd35cb7bf98e5c329587526bf24716632d0293c6c69df549a6dbcd",
+    "channels": 1,
+    "frames": 94368,
+    "secs": 1.966,
+    "lufs": -14.0,
+    "peak_db": -3.68
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_ptn_destroyed_plr": {
+  "files": [
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_destroyed_plr.wav",
+    "sha256": "3c79cfb3ec49f6578768ae00d71bb55a740d454d15d04a24ac8b16f21d946809",
+    "channels": 1,
+    "frames": 38400,
+    "secs": 0.8,
+    "lufs": -18.0,
+    "peak_db": -7.48
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_ptn_talon_hover_lp": {
+  "files": [
+   {
+    "take": "take_1",
+    "loop_at": 2.1,
+    "seam": {
+     "step": 0.8208176643094094,
+     "jump_db": 0.0043754910792870305
+    },
+    "steady_db": 0.18,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_talon_hover_lp.wav",
+    "sha256": "bf2972fa8607be011967d376ceaed3bf3a7239a5d22a041fc369d66621bf903f",
+    "channels": 1,
+    "frames": 144000,
+    "secs": 3.0,
+    "lufs": -24.0,
+    "peak_db": -14.35
+   }
+  ],
+  "kind": "loop"
+ },
+ "tod_ptn_raps_roll_lp": {
+  "files": [
+   {
+    "take": "take_2",
+    "loop_at": 2.7,
+    "seam": {
+     "step": 0.903821242374526,
+     "jump_db": 0.18886837488052421
+    },
+    "steady_db": 0.27,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_raps_roll_lp.wav",
+    "sha256": "d14eb13ad041a50a158d68a262e348c5a08df4a44d5fac44a18c62c9d22529be",
+    "channels": 1,
+    "frames": 96000,
+    "secs": 2.0,
+    "lufs": -24.0,
+    "peak_db": -10.0
+   }
+  ],
+  "kind": "loop"
+ },
+ "tod_ptn_cerberus_servo_lp": {
+  "files": [
+   {
+    "take": "take_1",
+    "loop_at": 1.9,
+    "seam": {
+     "step": 0.16275345564957955,
+     "jump_db": 0.11724322037641954
+    },
+    "steady_db": 0.07,
+    "limiter_gr_db": -0.0,
+    "file": "partners/tod_ptn_cerberus_servo_lp.wav",
+    "sha256": "2ba0ee055e0c13632dbbd510781492ddd84b4f43b5c5b00de499b9c8f193dbb1",
+    "channels": 1,
+    "frames": 96000,
+    "secs": 2.0,
+    "lufs": -24.0,
+    "peak_db": -12.49
+   }
+  ],
+  "kind": "loop"
+ },
+ "tod_amb_tower_wind": {
+  "files": [
+   {
+    "take": "take_1+take_2",
+    "seam": {
+     "step": 0.8883600589915782,
+     "jump_db": 0.1124117905486024
+    },
+    "steady_db": 1.18,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_tower_wind.wav",
+    "sha256": "3c8073dca29a9e447f7d470ca64490f28b53eaaec95822fd6ff3e1fdbe45b03b",
+    "channels": 2,
+    "frames": 2304000,
+    "secs": 48.0,
+    "lufs": -26.0,
+    "peak_db": -13.87
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_amb_city_far": {
+  "files": [
+   {
+    "take": "take_1+take_2",
+    "seam": {
+     "step": 0.32707336343993515,
+     "jump_db": 0.09171443000210644
+    },
+    "steady_db": 3.64,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_city_far.wav",
+    "sha256": "bc70c42c848f5ec10e835c7c02778a4de0121db967ef567829c068ea0051b408",
+    "channels": 2,
+    "frames": 2160000,
+    "secs": 45.0,
+    "lufs": -27.0,
+    "peak_db": -13.33
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_amb_gust": {
+  "files": [
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_gust.wav",
+    "sha256": "1d050c8b1c3c0afe50fc9c7fba91f4870b66dbf67905339b08d95ae195f6f608",
+    "channels": 1,
+    "frames": 231216,
+    "secs": 4.817,
+    "lufs": -22.0,
+    "peak_db": -7.0
+   },
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_gust_2.wav",
+    "sha256": "628294ca9cc035d089d78bb5bd208e0a92677d6f75f1ce058ff9b50b3bb39893",
+    "channels": 1,
+    "frames": 234288,
+    "secs": 4.881,
+    "lufs": -22.0,
+    "peak_db": -6.94
+   },
+   {
+    "take": "take_4",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_gust_3.wav",
+    "sha256": "9d815c7112910a9cb509bc6f588da5efc799c4ddc98d19e0c0e2a232bbcadc30",
+    "channels": 1,
+    "frames": 230784,
+    "secs": 4.808,
+    "lufs": -22.0,
+    "peak_db": -5.5
+   },
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": 0.67,
+    "file": "amb/tod_amb_gust_4.wav",
+    "sha256": "f6702dba7f6700ca723155fd08e443a62c8df4012fa9a9f193b594f5cdefe6a5",
+    "channels": 1,
+    "frames": 224592,
+    "secs": 4.679,
+    "lufs": -22.01,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_amb_undercity_lp": {
+  "files": [
+   {
+    "take": "take_1",
+    "loop_at": 3.7,
+    "seam": {
+     "step": 0.40500580944251474,
+     "jump_db": 0.25714798479629764
+    },
+    "steady_db": 0.6,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_undercity_lp.wav",
+    "sha256": "da317b874edb72ae9f3b8edb94fe9fbf79df03129a1a17ba5c2e28def2d3ef6a",
+    "channels": 1,
+    "frames": 672000,
+    "secs": 14.0,
+    "lufs": -24.0,
+    "peak_db": -8.08
+   }
+  ],
+  "kind": "loop"
+ },
+ "tod_amb_plaza_lp": {
+  "files": [
+   {
+    "take": "take_1",
+    "loop_at": 1.5,
+    "seam": {
+     "step": 1.3996581502424614,
+     "jump_db": 0.12496938563979398
+    },
+    "steady_db": 0.35,
+    "limiter_gr_db": -0.0,
+    "file": "amb/tod_amb_plaza_lp.wav",
+    "sha256": "9ff497991db387b85478d282e636e824938bf20ad9cc276d00fb5aee056eb353",
+    "channels": 1,
+    "frames": 672000,
+    "secs": 14.0,
+    "lufs": -24.0,
+    "peak_db": -10.03
+   }
+  ],
+  "kind": "loop"
+ },
+ "tod_amb_drip": {
+  "files": [
+   {
+    "take": "take_4",
+    "ratio": 1.0,
+    "limiter_gr_db": 5.28,
+    "level_note": "set at -26.81 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_drip.wav",
+    "sha256": "9bd15ca39f9843945cea77fd03deef24fe1804e560c87bb789b1f0a916289830",
+    "channels": 1,
+    "frames": 60480,
+    "secs": 1.26,
+    "lufs": -26.91,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -26.81 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_drip_2.wav",
+    "sha256": "9b6fc3ccd1313e830b1df2e8c8500fc829af1efd3047ea183765ed20c9bd5613",
+    "channels": 1,
+    "frames": 71040,
+    "secs": 1.48,
+    "lufs": -26.81,
+    "peak_db": -1.38
+   },
+   {
+    "take": "take_3",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -26.81 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_drip_3.wav",
+    "sha256": "b242e24497abe2057b0f4ae751ba8325f2be4907710ab707cc20a6e846d09643",
+    "channels": 1,
+    "frames": 66528,
+    "secs": 1.386,
+    "lufs": -26.81,
+    "peak_db": -10.41
+   },
+   {
+    "take": "take_6",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -26.81 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_drip_4.wav",
+    "sha256": "41027b785dc12586351b90de4b2d170054ed259dd45f12f72667769780f3a30f",
+    "channels": 1,
+    "frames": 71040,
+    "secs": 1.48,
+    "lufs": -26.81,
+    "peak_db": -5.4
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_amb_pipe": {
+  "files": [
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 5.95,
+    "level_note": "set at -22.44 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_pipe.wav",
+    "sha256": "d52b0d396a2289a36ae8b2471d78afa8066869284987874d0e62749df17c5f20",
+    "channels": 1,
+    "frames": 144000,
+    "secs": 3.0,
+    "lufs": -22.46,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -22.44 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_pipe_2.wav",
+    "sha256": "93f70ae534b78e28f3e9de9bc01efae5c04f8fd9fa42a998ff9f6050e8c4f15e",
+    "channels": 1,
+    "frames": 144000,
+    "secs": 3.0,
+    "lufs": -22.44,
+    "peak_db": -3.36
+   },
+   {
+    "take": "take_3",
+    "ratio": 1.0,
+    "limiter_gr_db": 4.46,
+    "level_note": "set at -22.44 LUFS (the quietest variant's clean reach)",
+    "file": "amb/tod_amb_pipe_3.wav",
+    "sha256": "02d1515e316ee44ae7f35cc784a11bbdddc636c970c86f43dd138770f56f507e",
+    "channels": 1,
+    "frames": 144000,
+    "secs": 3.0,
+    "lufs": -22.46,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_shop_hum": {
+  "files": [
+   {
+    "take": "take_1",
+    "seam": {
+     "step": 3.3002617174632176,
+     "jump_db": 0.004909824599351964
+    },
+    "limiter_gr_db": -0.0,
+    "file": "shop/tod_shop_hum.wav",
+    "sha256": "a000458212b7484935e288994c06380bac6eb0ffbe3a119edb1f0b8543db256c",
+    "channels": 1,
+    "frames": 480000,
+    "secs": 10.0,
+    "lufs": -24.0,
+    "peak_db": -13.56
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_teleport_idle_lp": {
+  "files": [
+   {
+    "take": "take_2",
+    "seam": {
+     "step": 0.7582960630488473,
+     "jump_db": 0.051039749263392054
+    },
+    "limiter_gr_db": -0.0,
+    "file": "sfx/tod_teleport_idle_lp.wav",
+    "sha256": "a3ed90003bd82b53755dff1e9d3000e0680f99e1a4562ab2c519dcda2f41863e",
+    "channels": 1,
+    "frames": 480000,
+    "secs": 10.0,
+    "lufs": -25.0,
+    "peak_db": -10.33
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_teleport_cool_lp": {
+  "files": [
+   {
+    "take": "take_1",
+    "seam": {
+     "step": 3.9954936566782364,
+     "jump_db": 0.007133795346238259
+    },
+    "limiter_gr_db": -0.0,
+    "file": "sfx/tod_teleport_cool_lp.wav",
+    "sha256": "78eccea323942e1eb407fa70858ca7f485e46118e4badb0095fcf1a05dcb544b",
+    "channels": 1,
+    "frames": 288000,
+    "secs": 6.0,
+    "lufs": -27.0,
+    "peak_db": -18.58
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_power_wave": {
+  "files": [
+   {
+    "take": "take_1",
+    "relay": "take_1",
+    "limiter_gr_db": -0.0,
+    "file": "sfx/tod_power_wave.wav",
+    "sha256": "223a981ef1627c94ca3454df7e48071eb9858d7725d1a45f8e29172ca1b02d71",
+    "channels": 2,
+    "frames": 648000,
+    "secs": 13.5,
+    "lufs": -16.0,
+    "peak_db": -1.94
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_power_online": {
+  "files": [
+   {
+    "take": "take_2",
+    "limiter_gr_db": 3.24,
+    "file": "sfx/tod_power_online.wav",
+    "sha256": "a762892626065b4543654aa570309f457df19a824ac280ebd321cf1d5ef9ca8f",
+    "channels": 2,
+    "frames": 167040,
+    "secs": 3.48,
+    "lufs": -13.01,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_power_boot": {
+  "files": [
+   {
+    "take": "take_2",
+    "blips": [
+     0.15,
+     0.5,
+     0.85
+    ],
+    "on": 1.2,
+    "limiter_gr_db": -0.0,
+    "file": "sfx/tod_power_boot.wav",
+    "sha256": "3f4da544c515b87130cf961b43fd82a41fe0b126760e8f1fdea64f4d32c0313b",
+    "channels": 1,
+    "frames": 67200,
+    "secs": 1.4,
+    "lufs": -16.0,
+    "peak_db": -4.34
+   }
+  ],
+  "kind": "design"
+ },
+ "tod_necro_skull_lower": {
+  "files": [
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -23.19 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_skull_lower.wav",
+    "sha256": "b3fdc41d6ead0554bf57822c0b23cce0902619c85220bcb741fed4eb495d49a1",
+    "channels": 1,
+    "frames": 26400,
+    "secs": 0.55,
+    "lufs": -23.19,
+    "peak_db": -2.79
+   },
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -23.19 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_skull_lower_2.wav",
+    "sha256": "ff5ac5b156a86f9f4103bcccedc6e8d1c72c10f5057a347a4a3cffed5e640bef",
+    "channels": 1,
+    "frames": 26400,
+    "secs": 0.55,
+    "lufs": -23.19,
+    "peak_db": -1.63
+   },
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 5.83,
+    "level_note": "set at -23.19 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_skull_lower_3.wav",
+    "sha256": "e873e2f9f1544f070a284ae6c981b46654aca7dd9033e6cbad0b98fb212d01f1",
+    "channels": 1,
+    "frames": 26400,
+    "secs": 0.55,
+    "lufs": -23.24,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_necro_staff_lower": {
+  "files": [
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -20.78 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_staff_lower.wav",
+    "sha256": "76327606ba9ede348c3a798637e877bb66ef04973361207d4c6fbb613cb5af5e",
+    "channels": 1,
+    "frames": 31200,
+    "secs": 0.65,
+    "lufs": -20.78,
+    "peak_db": -2.68
+   },
+   {
+    "take": "take_3",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "level_note": "set at -20.78 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_staff_lower_2.wav",
+    "sha256": "eef105199a46e933fd9f212f8a5a32975f2e4b1662f9e4af1d222bc15c107fd5",
+    "channels": 1,
+    "frames": 31200,
+    "secs": 0.65,
+    "lufs": -21.14,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_necro_staff_whoosh": {
+  "files": [
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 0.73,
+    "level_note": "set at -18.42 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_staff_whoosh.wav",
+    "sha256": "d28a46c5aea1686fa338bffebd05f3e2046717b5d9143efc6f1063c7170b8d37",
+    "channels": 1,
+    "frames": 26400,
+    "secs": 0.55,
+    "lufs": -18.45,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_3",
+    "ratio": 1.0,
+    "limiter_gr_db": 5.84,
+    "level_note": "set at -18.42 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_staff_whoosh_2.wav",
+    "sha256": "6a905c4794fefcf16a026e466c683a2ec2d79d82250e85337560dab69978c47e",
+    "channels": 1,
+    "frames": 23952,
+    "secs": 0.499,
+    "lufs": -18.46,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": -0.0,
+    "level_note": "set at -18.42 LUFS (the quietest variant's clean reach)",
+    "file": "necro/tod_necro_staff_whoosh_3.wav",
+    "sha256": "7829a44eecf9db7062e54dc1350be1940f1c753ab21b50d39764b3273e993b9d",
+    "channels": 1,
+    "frames": 15840,
+    "secs": 0.33,
+    "lufs": -18.42,
+    "peak_db": -4.53
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_necro_staff_hit": {
+  "files": [
+   {
+    "take": "take_4",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.75,
+    "file": "necro/tod_necro_staff_hit.wav",
+    "sha256": "72215224e770469bf0601fbe2f4394dec955681e4e3cfdce3aedcc294530fe6a",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -20.11,
+    "peak_db": -3.46
+   },
+   {
+    "take": "take_3",
+    "ratio": 2.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.75,
+    "file": "necro/tod_necro_staff_hit_2.wav",
+    "sha256": "0a338bcf9ab9c949e57d79d6342ddb2c22501bec3dc670319bf75cd9af034041",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -20.71,
+    "peak_db": -1.48
+   },
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.75,
+    "file": "necro/tod_necro_staff_hit_3.wav",
+    "sha256": "f24dd367e2815f177548d1e31e396a4d817c75acffe8b68e0083de43cd84bd05",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -20.42,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_necro_staff_surface": {
+  "files": [
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.37,
+    "file": "necro/tod_necro_staff_surface.wav",
+    "sha256": "938545eb0307f2577e6aa34f83aab09b50167f3011d09eba2a16a879988d76a9",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -19.09,
+    "peak_db": -2.03
+   },
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.37,
+    "file": "necro/tod_necro_staff_surface_2.wav",
+    "sha256": "65c65b1ebd44639ca6e0c8059e7c8f9fe87ab7fb133eadac6007f307a4ee29f9",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -19.37,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_1",
+    "ratio": 2.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.37,
+    "file": "necro/tod_necro_staff_surface_3.wav",
+    "sha256": "e5d6ea3668c3d80263ba1307ab919b0f58265572a1fa85269a603902bda530ff",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -18.02,
+    "peak_db": -1.01
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_crossbow_impact_surface": {
+  "files": [
+   {
+    "take": "take_4",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -13.82,
+    "file": "archer/crossbow/tod_crossbow_impact_surface.wav",
+    "sha256": "6c4cddfec8820fccc4dd8358d0176803e99ad54a786678f504837216935d49f2",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -23.12,
+    "peak_db": -3.0
+   },
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -13.82,
+    "file": "archer/crossbow/tod_crossbow_impact_surface_2.wav",
+    "sha256": "4730518dc2cdad4747daaef2a7d7908d22b92d513fdfd9aec0dfbd9df0ec2a75",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -23.48,
+    "peak_db": -5.27
+   },
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -13.82,
+    "file": "archer/crossbow/tod_crossbow_impact_surface_3.wav",
+    "sha256": "4dddd7a88a24a8bec2d85be1813721ffe8e1e85f47e244ad0b397122e23e2b5a",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -23.53,
+    "peak_db": -1.52
+   },
+   {
+    "take": "take_8",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -13.82,
+    "file": "archer/crossbow/tod_crossbow_impact_surface_4.wav",
+    "sha256": "cca53fc3e0a39c24b4a1586cbb1fe5fd1d9a4c98d29ab7886182cec9f178d36d",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -23.35,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_crossbow_impact_flesh": {
+  "files": [
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.24,
+    "file": "archer/crossbow/tod_crossbow_impact_flesh.wav",
+    "sha256": "9ab0a7743638ab0ef50aa7f613f76da1f2627605fc82059b283ef097f50f80fd",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -19.54,
+    "peak_db": -3.68
+   },
+   {
+    "take": "take_8",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.24,
+    "file": "archer/crossbow/tod_crossbow_impact_flesh_2.wav",
+    "sha256": "8cf47af17de56ce207a0e72d36908eda5805e8f0fe64b75176d00783ba8be771",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -19.77,
+    "peak_db": -5.18
+   },
+   {
+    "take": "take_7",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.24,
+    "file": "archer/crossbow/tod_crossbow_impact_flesh_3.wav",
+    "sha256": "6f6134753027e3a655d83d9c3271870be05ef8f88c15ee0caa4b11182af43c77",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -20.56,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_5",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.24,
+    "file": "archer/crossbow/tod_crossbow_impact_flesh_4.wav",
+    "sha256": "7d6122f84b7bff17eec032cf047226fee6a14761c92eaf6b38995e030d9dc506",
+    "channels": 1,
+    "frames": 19200,
+    "secs": 0.4,
+    "lufs": -17.12,
+    "peak_db": -4.93
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_crossbow_impact_headshot": {
+  "files": [
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.13,
+    "file": "archer/crossbow/tod_crossbow_impact_headshot.wav",
+    "sha256": "81778b9157b1f53c9a808af35a9fab0c67dd1b337d1ade394fc348fb0f52ab43",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -19.0,
+    "peak_db": -3.2
+   },
+   {
+    "take": "take_1",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -11.13,
+    "file": "archer/crossbow/tod_crossbow_impact_headshot_2.wav",
+    "sha256": "1415a8e84baef21846d15470ab33f816279d3abee8d48fe934633baedff1af34",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -17.62,
+    "peak_db": -1.0
+   }
+  ],
+  "kind": "oneshot"
+ },
+ "tod_crossbow_impact_metal": {
+  "files": [
+   {
+    "take": "take_3",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -10.8,
+    "file": "archer/crossbow/tod_crossbow_impact_metal.wav",
+    "sha256": "37f95e3509d35547088a81409311d96c11b1268ca521b1b47a38d23be29d5eec",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -20.5,
+    "peak_db": -1.0
+   },
+   {
+    "take": "take_2",
+    "ratio": 1.0,
+    "limiter_gr_db": 6.0,
+    "punch_db": -10.8,
+    "file": "archer/crossbow/tod_crossbow_impact_metal_2.wav",
+    "sha256": "5797fc248715eac930b27b95e44d9acbe31c185880ef697526752c188e144b50",
+    "channels": 1,
+    "frames": 21600,
+    "secs": 0.45,
+    "lufs": -17.37,
+    "peak_db": -4.53
+   }
+  ],
+  "kind": "oneshot"
+ }
+}

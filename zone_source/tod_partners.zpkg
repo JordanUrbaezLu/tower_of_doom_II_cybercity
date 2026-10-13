@@ -1,0 +1,18 @@
+// Map-owned four-partner buildable system, including visible two-piece recipes.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_partners.gsc
+aitype,spawner_tod_partner
+character,tod_partner_protector_character
+xmodel,tod_partner_protector
+xmodel,tod_partner_talon
+xmodel,tod_partner_raps
+xmodel,tod_partner_cerberus
+xmodel,tod_partner_protector_part1
+xmodel,tod_partner_protector_part2
+xmodel,tod_partner_talon_part1
+xmodel,tod_partner_talon_part2
+xmodel,tod_partner_raps_part1
+xmodel,tod_partner_raps_part2
+xmodel,tod_partner_cerberus_part1
+xmodel,tod_partner_cerberus_part2
+xmodel,p8_zm_crafting_table
+xmodel,wm_t9_ak47_full

@@ -1,0 +1,93 @@
+{
+  "_about": "THE UNMASKED VOICE (2026-10-01): audition lines for the moment the dealer's mask comes off in the fight. German and his mannerisms in full. Generated against a separate saved voice (never the shipping dealer): generate.py --lines this --voice <id> --out tmp/black_market_vo/unmasked/<name>. Nothing here ships yet; no alias rows, no hooks.",
+  "lines": [
+    {
+      "file": "tod_unmask_01",
+      "group": "reveal",
+      "text": "[laughs maniacally] Surprised? [pause] Oooh, you should see your faces! [giggles]",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_02",
+      "group": "reveal",
+      "text": "Did you really think a MASK could hide me? [laughs] Wunderbar!",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_03",
+      "group": "reveal",
+      "text": "Ja, ja, ja... the Doctor is IN. [giggles] And the Doctor is very, very disappointed in you.",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_04",
+      "group": "reveal",
+      "text": "The voices told me you would come. [pause] They never lie. [pause][sinister] Unlike me.",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_05",
+      "group": "reveal",
+      "text": "My children! [excited] Come! Come to Papa! [laughs maniacally]",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_06",
+      "group": "reveal",
+      "text": "One. One. Five. [pause] The whole tower runs on it. [giggles] So do I.",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_07",
+      "group": "reveal",
+      "text": "You want to know what I did with the little girl? [pause][giggles] So does she.",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_unmask_08",
+      "group": "reveal",
+      "text": "[angry] NEIN! [pause][calm] ...No. No, that is quite enough. [giggles] Let us begin.",
+      "settings": {
+        "stability": 0.22,
+        "similarity": 0.7,
+        "style": 0.7,
+        "speed": 1.05
+      }
+    }
+  ]
+}

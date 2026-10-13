@@ -1,0 +1,98 @@
+{
+	"tod_archer_grapple_hands" ( "xmodel.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_grapple_hands.xmodel_bin"
+		"type" "animated"
+		"scale" "1"
+		"BulletCollisionLOD" "None"
+		"CollisionMap" ""
+	}
+	"tod_archer_grapple_view" ( "xmodel.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_grapple_view.xmodel_bin"
+		"type" "animated"
+		"scale" "1"
+		"BulletCollisionLOD" "None"
+		"CollisionMap" ""
+	}
+	"mtl_tod_archer_launcher" ( "material.gdf" )
+	{
+		"materialCategory" "Geometry"
+		"materialType" "lit"
+		"template" "material.template"
+		"colorMap" "$white_diffuse"
+		"colorTint" ".12 .18 .2 1"
+		"normalMap" "$identitynormalmap"
+		"specColorMap" "$white_specular"
+		"specMapEnable" "1"
+		"specAmount" "0.8"
+		"glossRangeMin" "5"
+		"glossRangeMax" "8"
+		"surfaceType" "metal"
+		"usage" "<not in editor>"
+	}
+	"tod_archer_grapple_raise" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_grapple_raise.xanim_bin"
+		"model" "tod_archer/tod_archer_grapple_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "0"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+	}
+	"tod_archer_grapple_idle" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_grapple_idle.xanim_bin"
+		"model" "tod_archer/tod_archer_grapple_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "1"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+	}
+	"tod_archer_grapple_lower" ( "xanim.gdf" )
+	{
+		"filename" "tod_archer/tod_archer_grapple_lower.xanim_bin"
+		"model" "tod_archer/tod_archer_grapple_rig.xmodel_bin"
+		"type" "absolute"
+		"looping" "0"
+		"useBones" "0"
+		"leftHandGripIK" "0"
+	}
+	"tod_archer_grapple_view" ( "grenadeweapon.gdf" )
+	{
+		"displayName" "Grapple"
+		"weaponType" "grenade"
+		"weaponClass" "grenade"
+		"inventoryType" "item"
+		"playerAnimType" "hatchet"
+		"offhandSlot" "None"
+		"offhandClass" "None"
+		"gunModel" "tod_archer_grapple_view"
+		"handModel" "tod_archer_grapple_hands"
+		"worldModel" "tod_archer_hook"
+		"viewmodelTag" "tag_grapple"
+		"idleAnim" "tod_archer_grapple_idle"
+		"emptyIdleAnim" "tod_archer_grapple_idle"
+		"firstRaiseAnim" "tod_archer_grapple_raise"
+		"raiseAnim" "tod_archer_grapple_raise"
+		"quickRaiseAnim" "tod_archer_grapple_raise"
+		"emptyRaiseAnim" "tod_archer_grapple_raise"
+		"dropAnim" "tod_archer_grapple_lower"
+		"quickDropAnim" "tod_archer_grapple_lower"
+		"emptyDropAnim" "tod_archer_grapple_lower"
+		"firstRaiseTime" "0.167"
+		"raiseTime" "0.167"
+		"quickRaiseTime" "0.167"
+		"emptyRaiseTime" "0.167"
+		"dropTime" "0.167"
+		"quickDropTime" "0.167"
+		"emptyDropTime" "0.167"
+		"isHoldUseGrenade" "1"
+		"clipSize" "0"
+		"startAmmo" "0"
+		"maxAmmo" "0"
+		"damage" "0"
+		"dontTakeClipOnlyWeaponIfEmpty" "1"
+		"adsSupported" "0"
+	}
+}

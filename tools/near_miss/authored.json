@@ -1,0 +1,42 @@
+{
+ "tod_spin_teeter": {
+  "sha256": "4c4a5ff68b7a6766a1903a3b6d4d6cb651e30b5c06baae465b0cfa4f0ec3f27a",
+  "frames": 24000,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_spin_near": {
+  "sha256": "cbd24129d50f4020192a3684b6244c38765d39146739509da4b1f9033c832377",
+  "frames": 38400,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_pull_reach": {
+  "sha256": "0fe5d7b03d451915a33aa4849e06cbefdb22479c06306c1ed5aac793d5549731",
+  "frames": 31680,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_pull_reach_fail": {
+  "sha256": "7e19f2533932e1ad996ba5b9ce6efbcb94e7ad64a53d260c1fd9f5750b677f4e",
+  "frames": 21600,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_pull_break": {
+  "sha256": "c66fd9ee5c54048f99d23346593788ff1988dbef8798e2026de6085a946d8c37",
+  "frames": 43200,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_heat_up": {
+  "sha256": "40c0f072b24ec8b295082b8cc250fe29b7c0bbff92aecde48d9236ae4c213612",
+  "frames": 38400,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_heat_fire": {
+  "sha256": "2093d5ace6b5da5455b3faea78775e64ded4afe469d3e9816a7f08321ed9a22f",
+  "frames": 62400,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ },
+ "tod_heat_out": {
+  "sha256": "d5fcf84f9e6555424459f632213f07c12ef062daf8e3f97a116f17fdf4fd0564",
+  "frames": 33600,
+  "by": "tools/sfx/w2c_sounds/make_sounds.py"
+ }
+}

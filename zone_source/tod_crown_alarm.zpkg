@@ -1,0 +1,18 @@
+// Blender-authored physical red alarm beacons.
+// Keep the model glass as a complete native material definition.
+material,mc/mtl_tod_alarm_lens
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_crown_alarm.gsc
+xmodel,tod_crown_alarm_housing
+xmodel,tod_crown_alarm_rotor_off
+xmodel,tod_crown_alarm_rotor_on
+xmodel,tod_crown_alarm_rotor_high_on
+xmodel,tod_crown_alarm_housing_high
+xmodel,tod_crown_alarm_rotor_high_off
+fx,tod/crown_alarm/fx_tod_alarm_sweep
+fx,tod/crown_alarm/fx_tod_alarm_high
+// Small surface wires: independent power state, shared art initialization.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_power_conduits.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_conduit_data.gsc
+xmodel,tod_power_conduit_off
+xmodel,tod_power_conduit_on
+include,tod_power_conduits

@@ -1,0 +1,16 @@
+{
+  "note": "Regression baseline for lint_tod_assets.js GATE B. Lower is better. NEVER raise a number to make the lint green - fix the art, or replace the matching 'why' entry with the reason the new number is correct. GATE A (missing art) has no baseline: it is always a hard fail. `--update-baseline` carries this block forward and names any number that went up.",
+  "updated": "2026-10-04",
+  "why": {
+    "deadSlugs": "0 - every CARD_SLUG entry maps to a live domain. v16.86 cleared the last four (11 echo_rounds, 12 regen, 30 meat_grinder, 34 momentum). Above 0 means a domain was retired without its slug: remove the slug AND its card zone lines together, the v16.80/v16.86 pattern.",
+    "deadCards": "0 - no zoned card lacks a slug that declares it.",
+    "deadPlates": "0 - the Map 1 purge (R5, 2026-10-04) archived every i_tod_pause_rNN plate with the V1 owned-upgrades lists (the pause menu and the scoreboard draw V2 i_tod_pm_* rows). Was 10 by convention (r01 damage, r11 echo, r18 knifespeed, r22 lunge, r27 killreload, r28 impact, r30 grinder, r32 sprintarmor, r34 momentum, r40 perkslots). Above 0 means a retired plate came back into the zone: nothing can draw it.",
+    "unnamed": "32 - ADVISORY bucket: zoned i_tod_* art no Lua LITERAL names. 209 -> 32 on 2026-10-04 (the Map 1 purge, R5: the V1 tower gauge, luck strips, composite card art, class glyphs, kit glyphs and V1 HUD plates left the zone). What remains is reached by a constructed or non-Lua name: the 10 luck badges (i_tod_badge_luck_ .. n), the 12 class gun cells (\"i_tod_hud_gun_\" .. category), the GSC-drawn banners / vignettes (win / lose / demon / fusion / dealer surveillance), i_hb_thermite_icon + i_tod_archer_axe_hud (weapon hudIcons), riotshield_zm_icon. One is a candidate for the next purge: i_tod_h2_ab_summon (only the retired H2_AB row named it)."
+  },
+  "counts": {
+    "deadSlugs": 0,
+    "deadCards": 0,
+    "deadPlates": 0,
+    "unnamed": 32
+  }
+}

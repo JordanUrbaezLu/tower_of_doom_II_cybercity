@@ -1,0 +1,935 @@
+{
+	"i_tod2_ws_body_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_body_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_body_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_body_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_body_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_body_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_body_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_body_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_coil_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_coil_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_coil_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_coil_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_coil_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_coil_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_coil_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_coil_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_core_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_core_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_core_e" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_core_e.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_core_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_core_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_core_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_core_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_core_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_core_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_emitter_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_emitter_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_emitter_e" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_emitter_e.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_emitter_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_emitter_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_emitter_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_emitter_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_emitter_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_emitter_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_frame_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_frame_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_frame_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_frame_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_frame_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_frame_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_frame_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_frame_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_glass_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_glass_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_glass_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_glass_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_lamp_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_lamp_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_lamp_e" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_lamp_e.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_lamp_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_lamp_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_lamp_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_lamp_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_lamp_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_lamp_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_stock_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_stock_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod2_ws_stock_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_stock_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_stock_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_stock_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod2_ws_stock_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_wunderstrahl\\_images\\i_tod2_ws_stock_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"mtl_tod2_ws_body" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_body_c"
+		"normalMap" "i_tod2_ws_body_n"
+		"specColorMap" "i_tod2_ws_body_s"
+		"cosinePowerMap" "i_tod2_ws_body_g"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.6"
+		"reflectionProbeAmount" "0.35"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_bulb" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_lamp_c"
+		"normalMap" "i_tod2_ws_lamp_n"
+		"specColorMap" "i_tod2_ws_lamp_s"
+		"cosinePowerMap" "i_tod2_ws_lamp_g"
+		"colorMap00" "i_tod2_ws_lamp_e"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "7"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "1.5"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_coil" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_coil_c"
+		"normalMap" "i_tod2_ws_coil_n"
+		"specColorMap" "i_tod2_ws_coil_s"
+		"cosinePowerMap" "i_tod2_ws_coil_g"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.6"
+		"reflectionProbeAmount" "0.35"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_core" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_core_c"
+		"normalMap" "i_tod2_ws_core_n"
+		"specColorMap" "i_tod2_ws_core_s"
+		"cosinePowerMap" "i_tod2_ws_core_g"
+		"colorMap00" "i_tod2_ws_core_e"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "12"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "2.0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_emitter" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_emitter_c"
+		"normalMap" "i_tod2_ws_emitter_n"
+		"specColorMap" "i_tod2_ws_emitter_s"
+		"cosinePowerMap" "i_tod2_ws_emitter_g"
+		"colorMap00" "i_tod2_ws_emitter_e"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "16"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0.0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.6"
+		"reflectionProbeAmount" "0.35"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_frame" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_frame_c"
+		"normalMap" "i_tod2_ws_frame_n"
+		"specColorMap" "i_tod2_ws_frame_s"
+		"cosinePowerMap" "i_tod2_ws_frame_g"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.6"
+		"reflectionProbeAmount" "0.35"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_glass" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_transparent_advanced"
+		"colorMap" "i_tod2_ws_glass_c"
+		"normalMap" "i_tod2_ws_lamp_n"
+		"specColorMap" "$black_specular"
+		"cosinePowerMap" "i_tod2_ws_glass_g"
+		"colorMap00" "i_tod2_ws_glass_c"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" ".220916 .220916 .220916 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+		"noCastShadow" "1"
+		"noReceiveDynamicShadow" "1"
+	}
+	"mtl_tod2_ws_glow" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_lamp_c"
+		"normalMap" "i_tod2_ws_lamp_n"
+		"specColorMap" "i_tod2_ws_lamp_s"
+		"cosinePowerMap" "i_tod2_ws_lamp_g"
+		"colorMap00" "i_tod2_ws_lamp_e"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "5"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "2.5"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"mtl_tod2_ws_stock" ( "material.gdf" )
+	{
+		"surfaceType" "plastic"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod2_ws_stock_c"
+		"normalMap" "i_tod2_ws_stock_n"
+		"specColorMap" "i_tod2_ws_stock_s"
+		"cosinePowerMap" "i_tod2_ws_stock_g"
+		"specMapEnable" "1"
+		"colorTint" "1 1 1 1"
+		"specColorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "12"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.25"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"tod2_ws_view" ( "xmodel.gdf" )
+	{
+		"arabicUnsafe" "0"
+		"germanUnsafe" "0"
+		"japaneseUnsafe" "0"
+		"BulletCollisionLOD" "None"
+		"BulletCollisionFile" ""
+		"CollisionMap" ""
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"cullOutOffsetCP" "1"
+		"cullOutOffsetMP" "1"
+		"dropLOD" "Auto"
+		"materials" ""
+		"scale" "1"
+		"skinOverride" ""
+		"ShadowLOD" "Auto"
+		"LodColorPriority" "0.008"
+		"lodNormalPriority" "1.54"
+		"lodPositionPriority" "12"
+		"LodUvPriority" "3.5"
+		"lodPresets" "performance"
+		"notInEditor" "0"
+		"doNotUse" "0"
+		"filename" "tod_wunderstrahl\\tod2_ws_view_LOD0.XMODEL_BIN"
+		"type" "animated"
+		"usage_view" "1"
+		"usage_weapon" "1"
+		"highLodDist" "0"
+	}
+	"tod2_ws_world" ( "xmodel.gdf" )
+	{
+		"arabicUnsafe" "0"
+		"germanUnsafe" "0"
+		"japaneseUnsafe" "0"
+		"BulletCollisionLOD" "None"
+		"BulletCollisionFile" ""
+		"CollisionMap" ""
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"cullOutOffsetCP" "1"
+		"cullOutOffsetMP" "1"
+		"dropLOD" "Auto"
+		"materials" ""
+		"scale" "1"
+		"skinOverride" ""
+		"ShadowLOD" "Auto"
+		"LodColorPriority" "0.008"
+		"lodNormalPriority" "1.54"
+		"lodPositionPriority" "12"
+		"LodUvPriority" "3.5"
+		"lodPresets" "performance"
+		"notInEditor" "0"
+		"doNotUse" "0"
+		"type" "animated"
+		"usage_view" "0"
+		"usage_weapon" "1"
+		"filename" "tod_wunderstrahl\\tod2_ws_world_LOD0.XMODEL_BIN"
+		"highLodDist" "0"
+		"mediumLod" "tod_wunderstrahl\\tod2_ws_world_LOD1.XMODEL_BIN"
+		"mediumLodDist" "180"
+		"lowLod" "tod_wunderstrahl\\tod2_ws_world_LOD2.XMODEL_BIN"
+		"lowLodDist" "350"
+		"lowestLod" "tod_wunderstrahl\\tod2_ws_world_LOD3.XMODEL_BIN"
+		"lowestLodDist" "600"
+		"lod4File" "tod_wunderstrahl\\tod2_ws_world_LOD4.XMODEL_BIN"
+		"lod4Dist" "950"
+		"lod5File" "tod_wunderstrahl\\tod2_ws_world_LOD5.XMODEL_BIN"
+		"lod5Dist" "1400"
+		"lod6File" "tod_wunderstrahl\\tod2_ws_world_LOD6.XMODEL_BIN"
+		"lod6Dist" "2100"
+	}
+	"tod2_ws_pickup" ( "xmodel.gdf" )
+	{
+		"arabicUnsafe" "0"
+		"germanUnsafe" "0"
+		"japaneseUnsafe" "0"
+		"BulletCollisionLOD" "None"
+		"BulletCollisionFile" ""
+		"CollisionMap" ""
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"cullOutOffsetCP" "1"
+		"cullOutOffsetMP" "1"
+		"dropLOD" "Auto"
+		"materials" ""
+		"scale" "1"
+		"skinOverride" ""
+		"ShadowLOD" "Auto"
+		"LodColorPriority" "0.008"
+		"lodNormalPriority" "1.54"
+		"lodPositionPriority" "12"
+		"LodUvPriority" "3.5"
+		"lodPresets" "performance"
+		"notInEditor" "0"
+		"doNotUse" "0"
+		"type" "rigid"
+		"filename" "tod_wunderstrahl\\tod2_ws_pickup_LOD0.XMODEL_BIN"
+		"mediumLod" "tod_wunderstrahl\\tod2_ws_pickup_LOD1.XMODEL_BIN"
+		"mediumLodDist" "380"
+	}
+	"tod2_ws_vm_ads_base_down" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_ads_base_down.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_ads_base_up" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_ads_base_up.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_b" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_b.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_f" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_f.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_in" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_in.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_l" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_l.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_out" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_out.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_crawl_r" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_crawl_r.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_fall" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_fall.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_fire" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_fire.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_fire_ads" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_fire_ads.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_first_raise" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_first_raise.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_ws_raise"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod2_ws_vm_idle" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_idle.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "1"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_jump" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_jump.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_jump_land" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_jump_land.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "additive"
+		"looping" "0"
+		"useBones" "0"
+		"loopsync" "0"
+		"leftHandGripIK" "0"
+		"ignoreSpineBones" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+		"useNtExportFile" "0"
+	}
+	"tod2_ws_vm_pullout" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_pullout.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_ws_raise"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod2_ws_vm_pullout_quick" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_pullout_quick.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_ws_raise"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod2_ws_vm_putaway" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_putaway.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_ws_putaway"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod2_ws_vm_putaway_quick" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_putaway_quick.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"customnote0action" "2D Sound"
+		"customnote0actionparam1" "tod_ws_putaway"
+		"customnote0actionparam2" ""
+		"customnote0frame" "0"
+		"customnote0useexistingnote" ""
+	}
+	"tod2_ws_vm_reload_empty" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_reload_empty.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"loopsync" "0"
+		"leftHandGripIK" "0"
+		"ignoreSpineBones" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+		"useNtExportFile" "0"
+	}
+	"tod2_ws_vm_slide_air_in" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_slide_air_in.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_slide_in" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_slide_in.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_slide_loop" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_slide_loop.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "1"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_slide_out" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_slide_out.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_sprint_in" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_sprint_in.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_sprint_loop" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_sprint_loop.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "1"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_sprint_out" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_sprint_out.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+	}
+	"tod2_ws_vm_walk_f" ( "xanim.gdf" )
+	{
+		"filename" "tod_wunderstrahl\\tod2_ws_vm_walk_f.xanim_bin"
+		"model" "tod_wunderstrahl\\tod2_ws_skeleton.XMODEL_BIN"
+		"type" "relative"
+		"looping" "0"
+		"useBones" "0"
+		"loopsync" "0"
+		"leftHandGripIK" "0"
+		"ignoreSpineBones" "0"
+		"translationError" "0.025"
+		"angleError" "0.05"
+		"useNtExportFile" "0"
+	}
+}

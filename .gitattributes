@@ -1,0 +1,42 @@
+# Line-ending policy (2026-10-12, the new-laptop migration; same as Map One's docs/174 fix of
+# 2026-10-08): STORE EVERY FILE BYTE-FOR-BYTE, no conversion.
+# Was `* text=auto eol=lf`. Files here are LF, CRLF or mixed (CLAUDE.md rule 9) and many build
+# gates pin their exact bytes (sha-pinned manifests, receipts, generator --check outputs), so a
+# clone that converted line endings would fail the first gate. `-text` also overrides Git for
+# Windows' system core.autocrlf=true. Cost: a tool that flips a file's line endings shows as a
+# whole-file change - commit it as written.
+* -text
+
+# Binaries - never touch.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.wav binary
+*.mp3 binary
+*.flac binary
+*.ogg binary
+*.exr binary
+*.tif binary
+*.tiff binary
+*.tga binary
+*.dds binary
+*.psd binary
+*.iwi binary
+*.xmodel_bin binary
+*.xanim_bin binary
+*.cast binary
+*.ttf binary
+*.otf binary
+*.zip binary
+*.7z binary
+*.rar binary
+
+# Blender masters and FBX sources ride Git LFS (as in Map One): GitHub refuses any file over
+# 100 MB (the sky review masters are up to 223 MB) and every re-save of a master is a full copy.
+# Free tier = 10 GiB storage + 10 GiB download / month, shared with Map One's LFS files.
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+# The one music master over GitHub's 100 MB file limit (155.7 MB on 2026-10-12).
+sound_assets/tod/music/tod_boss_music.wav filter=lfs diff=lfs merge=lfs -text

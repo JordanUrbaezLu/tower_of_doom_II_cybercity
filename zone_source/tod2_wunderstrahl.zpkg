@@ -1,0 +1,14 @@
+weapon,tod2_wunderstrahl
+xmodel,tod2_ws_pickup
+fx,tod/wunderstrahl/fx_ws_aura_1p
+fx,tod/wunderstrahl/fx_ws_aura_3p
+fx,tod/wunderstrahl/fx_ws_disintegrate
+fx,tod/wunderstrahl/fx_ws_disintegrate_nl
+fx,tod/wunderstrahl/fx_ws_impact
+fx,tod/wunderstrahl/fx_ws_lens_cool
+fx,tod/wunderstrahl/fx_ws_origin_1p
+fx,tod/wunderstrahl/fx_ws_origin_3p
+fx,tod/wunderstrahl/fx_ws_tip
+fx,tod/wunderstrahl/fx_ws_zombie_burn
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderstrahl.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderstrahl.csc

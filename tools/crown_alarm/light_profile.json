@@ -1,0 +1,20 @@
+{
+  "version": "red-sweep-2",
+  "intensity": 1800,
+  "radius": 900,
+  "fov_degrees": 78,
+  "lamp_emission": 36,
+  "high_lamp_multiplier": 16,
+  "high_fixture_scale": 2,
+  "high_rotor_height": 48,
+  "high_intensity": 14400,
+  "high_radius": 2400,
+  "high_spawn_range": 20000,
+  "high_bounds": 2600,
+  "spawn_range": 2400,
+  "bounds": 940,
+  "interval_ms": 1000,
+  "turn_seconds": 1.5,
+  "local_spots": 13,
+  "color": [1, 0, 0]
+}

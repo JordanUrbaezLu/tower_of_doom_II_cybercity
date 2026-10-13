@@ -1,0 +1,26 @@
+// MCP-authored Black Market hut (the item shop until 2026-09-29): native power states and client electrical timeline.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_shop.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_shop_vo.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_shop.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_shop_timing.csc
+fx,tod/shop/fx_tod_shop_spark
+fx,zombie/fx_wonder_fizz_lightning_all
+xmodel,tod_shop_solid
+xmodel,tod_shop_valve
+xmodel,tod_shop_needle
+xmodel,tod_shop_vendor
+xmodel,tod_shop_steady
+xmodel,tod_shop_mask
+xmodel,tod_shop_letter_t
+xmodel,tod_shop_letter_e
+xmodel,tod_shop_letter_c
+xmodel,tod_shop_core_left
+xmodel,tod_shop_core_counter
+xmodel,tod_shop_core_right
+xmodel,tod_shop_scan_0
+xmodel,tod_shop_scan_1
+xmodel,tod_shop_scan_2
+xmodel,tod_shop_scan_3
+xmodel,tod_shop_arc
+xmodel,tod_shop_spark
+xmodel,tod_shop_off

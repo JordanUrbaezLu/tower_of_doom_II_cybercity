@@ -1,0 +1,43 @@
+.DS_Store
+Thumbs.db
+
+build/
+zone_out/
+*.ff
+*.ipak
+*.xpak
+*.bak
+*-bak
+*.gscbin
+*.cscbin
+*.log
+console.log
+
+tmp/
+local_sync_cache/
+
+# Untouched Apex exports; manifests and extraction tools are tracked separately.
+source_library/
+
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# generated each publish by tools/patch_notes.js window
+docs/patch_notes_window.md
+
+__pycache__/
+*.pyc
+
+# Blender's automatic backups (as in Map One, 2026-10-08): the masters ride Git LFS; the backups
+# ride the migration bundle's repo_extras (tools/migrate), never GitHub.
+*.blend1
+
+# the rendered sky's master scene is a BUILD PRODUCT of tools/sky3d/build_city.py (250 MB; docs/166) — never commit it
+art/sky3d/tod2_sky.blend
+
+# THE DEALER boss: donor staging out of the T7 pack (reproducible: tools/dealer_boss/stage_donors.py)
+art/dealer_boss/donors/
+# THE DEALER boss: the raw pack clips his own clips are authored from (install.py extracts them; tools/dealer_boss/author_clips.py)
+art/dealer_boss/clips_src/

@@ -1,0 +1,27 @@
+{
+ "bo6": {
+  "sound_1ed664b5ab4166e9.wav": "4c057499ecc5f974d09ff2b1b1eea27c37c26454c076afe10dfcb787c9a4b102",
+  "sound_372cac844cf777bb.wav": "8e88a1c37f001545bbe6591526de8adab063aece83b087d21d82e1cc4a715268",
+  "sound_6178177565c27272.wav": "441d014371550e3f5bdb50bec984a5bb0c332d6fa983fb70eae9b2259b72f570",
+  "sound_67761e9a257d42c6.wav": "ea6e5a46e101858827cd8b3d304a81503a27f31b53b4a50fb038c46d880755d4",
+  "sound_6946e88790751157.wav": "493d740410dac8aaa9c9e5aec975e36a6c953d6e4c9147be309f94637b640c7b",
+  "sound_7205c12aa734eedc.wav": "206aa8dae4cbb0ffe18cd55f0755aa5214c60ec1844140250e7520deef4cf56f",
+  "sound_77a5b97e3c4bcabc.wav": "7d03dd3b492b7e25cbb2cdd26d0ee4b9292efe59ba5a0fa17c7da2d1e8a022bf"
+ },
+ "charge": {
+  "charge_ms": 2900,
+  "dur": 2.9,
+  "file": "tod_elite_doppel_charge.wav",
+  "lufs": -15.74,
+  "mix_db": {
+   "bed": 0.0,
+   "thump": -3.0,
+   "whine": -9.0
+  },
+  "peak_db": -1.0,
+  "prompt": "a monster body overloaded with energy discharging and powering down: loud crackling electrical arcs and a deep throbbing pulse that starts very fast and slows down, the energy draining away to silence over three seconds, dark sci-fi sound effect, no music, no voice",
+  "score": 0.941,
+  "sha256": "53d86db10aac66f1b332f4f2e202049ff6746fdd0692bca484487902a9db6aa4",
+  "take": "take_5"
+ }
+}

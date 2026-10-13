@@ -1,0 +1,33 @@
+{
+ "i_tod_dealer_surveillance" ( "image.gdf" )
+ {
+  "baseImage" "model_export\tod_dealer_presence\_images\i_tod_dealer_surveillance.png"
+  "semantic" "diffuseMap"
+  "imageType" "Texture"
+  "coreSemantic" "sRGB3chAlpha"
+  "streamable" "1"
+  "noMipMaps" "0"
+  "noPicMip" "0"
+  "compressionMethod" "compressed high color"
+  "type" "image"
+ }
+ "mtl_tod_dealer_surveillance" ( "material.gdf" )
+ {
+  "template" "material.template"
+  "materialCategory" "Geometry"
+  "materialType" "lit_emissive"
+  "surfaceType" "glass"
+  "colorMap" "i_tod_dealer_surveillance"
+  "colorTint" ".4 .4 .4 1"
+  "colorMap00" "i_tod_dealer_surveillance"
+  "colorTint1" "1 1 1 1"
+  "scaleRGB" ".65"
+  "emissiveIncompetence" "1"
+  "emissiveFalloff" "0"
+  "specAmount" ".12"
+  "reflectionProbeAmount" ".08"
+  "glossRangeMin" "0"
+  "glossRangeMax" "5"
+  "usage" "wall"
+ }
+}

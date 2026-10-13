@@ -1,0 +1,16 @@
+{
+  "note": "the user's 15:33 play (docs/196 §3): skyRotation 180, roll 0, sun 140. Eye = the log's PLAYER pos at 115 HP + 60. Points: reference painting px -> screenshot px.",
+  "shot": "tmp/jump_title/play1/screenshot_153629.png",
+  "eye": [-6.4, 632.4, 19452.1],
+  "ignore_below_y": 530,
+  "hud_masks": [[0, 0, 490, 125], [1670, 20, 1896, 110], [1820, 160, 1896, 930], [880, 560, 1010, 620]],
+  "search": { "yaw": [74, 92, 1], "pitch": [-1.6, 0, 1.5, 3], "hfov": [100, 103, 105, 108] },
+  "points": [
+    { "name": "left spire tip",  "ref": [228, 45],  "shot": [1185, 145] },
+    { "name": "left ring centre", "ref": [212, 145], "shot": [1172, 222] },
+    { "name": "T top-left",      "ref": [283, 283], "shot": [1220, 305] },
+    { "name": "T bar right",     "ref": [385, 290], "shot": [1295, 305] },
+    { "name": "W right",         "ref": [520, 300], "shot": [1400, 312] },
+    { "name": "F of FALLEN",     "ref": [470, 470], "shot": [1362, 440] }
+  ]
+}

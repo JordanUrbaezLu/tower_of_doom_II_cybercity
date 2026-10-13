@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "profile": "sky_depth_v13",
+  "width": 8192,
+  "height": 4096,
+  "samples": 160,
+  "use_adaptive_sampling": true,
+  "adaptive_threshold": 0.0125,
+  "adaptive_min_samples": 32,
+  "filter_width": 1.0,
+  "pixel_filter_type": "BLACKMAN_HARRIS",
+  "use_denoising": true,
+  "denoiser": "OPTIX",
+  "denoising_input_passes": "RGB_ALBEDO_NORMAL"
+}

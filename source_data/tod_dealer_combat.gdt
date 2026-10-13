@@ -1,0 +1,20 @@
+{
+	"tod_dealer_c_shock" ( "xanim.gdf" )
+	{
+		"model" "tod_keeper\\c_zom_dlc4_keeper_fb.XMODEL_BIN"
+		"filename" "tod_dealer\\tod_dealer_c_shock.xanim_bin"
+		"type" "delta"
+		"useBones" "1"
+		"looping" "0"
+		"loopsync" "0"
+	}
+	"tod_dealer_c_burst" ( "xanim.gdf" )
+	{
+		"model" "tod_keeper\\c_zom_dlc4_keeper_fb.XMODEL_BIN"
+		"filename" "tod_dealer\\tod_dealer_c_burst.xanim_bin"
+		"type" "delta"
+		"useBones" "1"
+		"looping" "0"
+		"loopsync" "0"
+	}
+}

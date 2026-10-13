@@ -1,0 +1,784 @@
+{
+ "gdt": "source_data\\tod_ui_images.gdt",
+ "method": "compressed high color",
+ "from": "uncompressed",
+ "count": 97,
+ "touched": [
+  {
+   "name": "i_tod_pause_r48",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 300,
+   "h": 44,
+   "bytes": 52800
+  },
+  {
+   "name": "i_tod_hud_gun_gift",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 288,
+   "h": 132,
+   "bytes": 152064
+  },
+  {
+   "name": "i_tod_hud_pap_1",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 128,
+   "bytes": 65536
+  },
+  {
+   "name": "i_tod_hud_lz",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ly",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lx",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lw",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lv",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lu",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lt",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ls",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lr",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lq",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lp",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lo",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ln",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lm",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ll",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lk",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lj",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_li",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lhyphen",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lh",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lg",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lf",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_le",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lmoney",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ldot",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_ld",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lc",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lb",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_lapos",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_la",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 80,
+   "h": 112,
+   "bytes": 35840
+  },
+  {
+   "name": "i_tod_hud_gun_shield",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 288,
+   "h": 132,
+   "bytes": 152064
+  },
+  {
+   "name": "i_tod_hud_gun_mr6",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 288,
+   "h": 132,
+   "bytes": 152064
+  },
+  {
+   "name": "i_tod_hud_gun_blade",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 288,
+   "h": 132,
+   "bytes": 152064
+  },
+  {
+   "name": "i_tod_hud_dslash",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_dplus",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_ddash",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d9",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d8",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d7",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d6",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d5",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d4",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d3",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d2",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d1",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_d0",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 160,
+   "bytes": 81920
+  },
+  {
+   "name": "i_tod_hud_health_fill",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 1016,
+   "h": 80,
+   "bytes": 325120
+  },
+  {
+   "name": "i_tod_pu2_zombie_blood",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_phd",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_deathperception",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_widows",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_wisptea",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_staminup",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_doubletap",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_speed",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_revive",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_perk_jugg",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_timewarp",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_nuke",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_max_ammo",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_insta",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_infinite_ammo",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_gift_of_death",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_free_pap",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 128,
+   "bytes": 65536
+  },
+  {
+   "name": "i_tod_pu2_fire_sale",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 128,
+   "bytes": 65536
+  },
+  {
+   "name": "i_tod_pu2_double_points",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pu2_carpenter",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 128,
+   "h": 128,
+   "bytes": 65536
+  },
+  {
+   "name": "i_tod_timer_fill",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 460,
+   "h": 24,
+   "bytes": 44160
+  },
+  {
+   "name": "i_tod_timer_track",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 460,
+   "h": 24,
+   "bytes": 44160
+  },
+  {
+   "name": "i_tod_prompt_chassis",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 924,
+   "h": 304,
+   "bytes": 1123584
+  },
+  {
+   "name": "i_tod_prompt_icon_perk",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_pap",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_rampage",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_door",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_crate",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_altar",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_teleporter",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_prompt_icon_power",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_key_blank_wide",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 384,
+   "h": 192,
+   "bytes": 294912
+  },
+  {
+   "name": "i_tod_pad_button_a",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pad_dpad_right",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_pad_dpad_left",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 256,
+   "h": 256,
+   "bytes": 262144
+  },
+  {
+   "name": "i_tod_banner_upgrade",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 900,
+   "h": 140,
+   "bytes": 504000
+  },
+  {
+   "name": "i_tod_banner_choose_class",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 900,
+   "h": 140,
+   "bytes": 504000
+  },
+  {
+   "name": "i_tod_card_luck_regular",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_card_dmg_reduction_regular",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_card_class_slasher",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_card_class_heavy",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_card_class_assault",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_card_bounty_regular",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 768,
+   "h": 1152,
+   "bytes": 3538944
+  },
+  {
+   "name": "i_tod_class_medallion_slasher",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 512,
+   "h": 512,
+   "bytes": 1048576
+  },
+  {
+   "name": "i_tod_class_medallion_heavy",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 512,
+   "h": 512,
+   "bytes": 1048576
+  },
+  {
+   "name": "i_tod_class_medallion_assault",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 512,
+   "h": 512,
+   "bytes": 1048576
+  },
+  {
+   "name": "i_tod_title_plate",
+   "from": "uncompressed",
+   "to": "compressed high color",
+   "w": 1024,
+   "h": 128,
+   "bytes": 524288
+  }
+ ]
+}

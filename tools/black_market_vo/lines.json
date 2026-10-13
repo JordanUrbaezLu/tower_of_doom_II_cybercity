@@ -1,0 +1,785 @@
+{
+  "_about": "The Black Market dealer's lines. Every entry becomes <file>_<take>.wav takes under tmp/black_market_vo/takes/ and the chosen take ships as sound_assets/tod/sfx/<file>.wav. 'wired' = the alias already exists and _tod_shop.gsc already plays it (drop-in by name). 'hook' = the trigger. Tags are ElevenLabs v3/v4 audio tags. ROUND 8 (user 2026-10-02: \"redesign the black market dealer away from Richtofen ... He will be his own entity ... soft scary dark slightly cyber with occasional manic modes\"): THE DEALER IS HIS OWN CHARACTER. No borrowed lore, no accent, no other character's cadence, no German, no name. 'egg' marks a line that hints at HIS OWN story: he was open before the city fell and will be open after; the tower takes and pays him; he keeps a ledger with every name in it; the sign in the sky is his; there is nothing under the mask but a bigger mask; he was the first customer and paid with his face; he keeps the ones who cross him; the voices in the walls are old customers; and the open account the player will settle at the bottom (the fight). 'mode': 'manic' marks the OCCASIONAL manic crack: generate.py renders those with the manic delivery (low stability, high style, faster), every other line soft and even. The sign laugh keeps its own settings. ROUND 7's class lines ('cls' = archer / breacher / warrior / necro; _tod_shop vo_cls plays them TOD_SPIN_VO_CLASS_PCT of the time) stay, re-voiced. Rounds 1-7 are history (docs/198).",
+  "lines": [
+    {
+      "file": "tod_spin_vo_buy_1",
+      "group": "buy",
+      "wired": true,
+      "text": "Let's see what your luck is worth."
+    },
+    {
+      "file": "tod_spin_vo_buy_2",
+      "group": "buy",
+      "wired": true,
+      "text": "Feeling lucky? [giggles] They all do... at first."
+    },
+    {
+      "file": "tod_spin_vo_buy_3",
+      "group": "buy",
+      "wired": true,
+      "text": "[pause] Mmm. [pause] Another name for the book. [pause][giggles] Spin.",
+      "egg": "the ledger: every player is a name in his book"
+    },
+    {
+      "file": "tod_spin_vo_common_1",
+      "group": "common",
+      "wired": true,
+      "text": "Hm. [pause] The tower keeps the rest. [pause] Pity."
+    },
+    {
+      "file": "tod_spin_vo_common_2",
+      "group": "common",
+      "wired": true,
+      "text": "[dismissive] Tch. [sighs]"
+    },
+    {
+      "file": "tod_spin_vo_epic_1",
+      "group": "epic",
+      "wired": true,
+      "text": "Ooh. [pause] Now THAT is a pretty thing. [giggles]"
+    },
+    {
+      "file": "tod_spin_vo_epic_2",
+      "group": "epic",
+      "wired": true,
+      "text": "Well, well, well. [pause] Something down there likes you. [pause] Not me. [giggles]",
+      "egg": "something below: what waits at the bottom"
+    },
+    {
+      "file": "tod_spin_vo_legendary_1",
+      "group": "legendary",
+      "wired": true,
+      "text": "[excited] JACKPOT! [laughs maniacally] [pause][calm] ...forgive me. [pause] The mask slips, sometimes.",
+      "egg": "the mask slips: the mania is what is underneath",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_legendary_2",
+      "group": "legendary",
+      "wired": true,
+      "text": "[laughs maniacally] [pause][calm] Oh, that one. [pause] I took it from the last one who stood where you stand.",
+      "egg": "he keeps what the fallen carried",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_close",
+      "group": "close",
+      "wired": true,
+      "text": "Come back soon. [pause] You will. [pause] They always do.",
+      "egg": "they always do: nobody leaves the city"
+    },
+    {
+      "file": "tod_spin_vo_approach_1",
+      "group": "approach",
+      "hook": "player enters the counter's radius",
+      "text": "Closer. [pause] I don't bite. [pause][giggles] The machine does."
+    },
+    {
+      "file": "tod_spin_vo_approach_2",
+      "group": "approach",
+      "hook": "player enters the counter's radius",
+      "text": "[pleased] Ahh. Fresh blood. [giggles] Fresh luck."
+    },
+    {
+      "file": "tod_spin_vo_approach_3",
+      "group": "approach",
+      "hook": "player enters the counter's radius",
+      "text": "No questions asked. [pause] No answers given. [pause] Especially about me.",
+      "egg": "identity: he forbids the question"
+    },
+    {
+      "file": "tod_spin_vo_approach_4",
+      "group": "approach",
+      "hook": "player enters the counter's radius",
+      "text": "You climbed all this way... [pause] and stopped at my window. [giggles] Sensible."
+    },
+    {
+      "file": "tod_spin_vo_no_points_1",
+      "group": "refuse_points",
+      "hook": "refuse reason=points",
+      "text": "Empty pockets. [pause] Empty promises."
+    },
+    {
+      "file": "tod_spin_vo_no_points_2",
+      "group": "refuse_points",
+      "hook": "refuse reason=points",
+      "text": "Two thousand five hundred. [pause] The dead don't haggle. [pause] I have a book full of them.",
+      "egg": "the ledger: the dead are in it too"
+    },
+    {
+      "file": "tod_spin_vo_gift_offer_1",
+      "group": "gift_offer",
+      "wired": true,
+      "hook": "THE DEALER'S GIFT (docs/209): a player with NO companion walks up to the lit counter (replaces the greeting; no chance roll, 20 s cooldown)",
+      "text": "Empty-handed? [pause] Down here? [pause] Come closer... [giggles] the first one is on the house."
+    },
+    {
+      "file": "tod_spin_vo_gift_offer_2",
+      "group": "gift_offer",
+      "wired": true,
+      "hook": "THE DEALER'S GIFT (docs/209): a player with NO companion walks up to the lit counter (replaces the greeting; no chance roll, 20 s cooldown)",
+      "text": "Nobody walks this tower alone. [pause] This city was full of little friends, once... [pause] I kept a few.",
+      "egg": "the city before the Fall: the companions were the city's, and he kept them"
+    },
+    {
+      "file": "tod_spin_vo_gift_spin_1",
+      "group": "gift_spin",
+      "wired": true,
+      "hook": "THE DEALER'S GIFT (docs/209): the gift reel slams in (keep it short: the landing line follows ~5 s later on the same lane)",
+      "text": "On the house. [pause] Keep your luck. [pause][giggles] You'll need it."
+    },
+    {
+      "file": "tod_spin_vo_gift_spin_2",
+      "group": "gift_spin",
+      "wired": true,
+      "hook": "THE DEALER'S GIFT (docs/209): the gift reel slams in (keep it short: the landing line follows ~5 s later on the same lane)",
+      "text": "Every customer needs a friend. [pause] Let's see which one... chooses you."
+    },
+    {
+      "file": "tod_spin_vo_gift_land_1",
+      "group": "gift_land",
+      "wired": true,
+      "hook": "THE DEALER'S GIFT (docs/209): the gift reel lands on his companion (it teaches the next visit: the spins upgrade it)",
+      "text": "There. [pause] Yours now. [pause] Feed it well... [giggles] and come back when it's hungry."
+    },
+    {
+      "file": "tod_spin_vo_gift_land_2",
+      "group": "gift_land",
+      "wired": true,
+      "mode": "manic",
+      "hook": "THE DEALER'S GIFT (docs/209): the gift reel lands on his companion (the occasional manic crack)",
+      "text": "[excited] Oh, it LIKES you! [laughs] [calm] Mm. [pause] Don't make it regret that."
+    },
+    {
+      "file": "tod_spin_vo_busy",
+      "group": "refuse_busy",
+      "hook": "another player owns the spin",
+      "text": "Wait your turn. [pause] The reel is listening to someone else. [pause] It listens to everyone. [giggles]"
+    },
+    {
+      "file": "tod_spin_vo_luck_low",
+      "group": "luck",
+      "hook": "luck pour, bar under half",
+      "text": "So little luck. [sighs] The machine barely notices. [pause] The walls do. [pause] They notice everything.",
+      "egg": "the voices in the walls: old customers"
+    },
+    {
+      "file": "tod_spin_vo_luck_full",
+      "group": "luck",
+      "hook": "luck pour, bar full",
+      "text": "Oh. [pause][excited] Oh, that is a LOT of luck! [laughs] [calm] It's practically begging.",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_rare_1",
+      "group": "rare",
+      "hook": "landing RARE, 30%",
+      "text": "Blue. [pause] Not bad. [pause] Not enough. [pause] Never enough."
+    },
+    {
+      "file": "tod_spin_vo_rare_2",
+      "group": "rare",
+      "hook": "landing RARE, 30%",
+      "text": "Mmm-hm."
+    },
+    {
+      "file": "tod_spin_vo_socket_1",
+      "group": "socket",
+      "hook": "SPIN_SOCKET code!=2",
+      "text": "There. [pause] It's part of the beast now. [giggles] Such a good little beast."
+    },
+    {
+      "file": "tod_spin_vo_socket_2",
+      "group": "socket",
+      "hook": "SPIN_SOCKET code!=2",
+      "text": "Fits like it was always there. [pause] Funny, that. [pause] So did the mask.",
+      "egg": "the mask: it fit like it was always there"
+    },
+    {
+      "file": "tod_spin_vo_upgrade_1",
+      "group": "upgrade",
+      "hook": "SPIN_SOCKET code==2",
+      "text": "Stronger. [pause] Hungrier. [pause] Good. [pause] The tower likes them hungry.",
+      "egg": "the tower feeds on them"
+    },
+    {
+      "file": "tod_spin_vo_upgrade_2",
+      "group": "upgrade",
+      "hook": "SPIN_SOCKET code==2",
+      "text": "Same poison. [pause] Bigger dose. [pause][giggles] House rules."
+    },
+    {
+      "file": "tod_spin_vo_scrap_1",
+      "group": "scrap",
+      "hook": "SPIN_SCRAP",
+      "text": "Throwing it back? [pause] The machine remembers generosity. [pause] I do not."
+    },
+    {
+      "file": "tod_spin_vo_scrap_2",
+      "group": "scrap",
+      "hook": "SPIN_SCRAP",
+      "text": "Scrap, dust, luck. [giggles] Round and round it goes. [pause] Down and down we go.",
+      "egg": "down: the descent ends at him"
+    },
+    {
+      "file": "tod_spin_vo_full_1",
+      "group": "full",
+      "hook": "slots full, choose",
+      "text": "Three slots. Three chances. [pause] Choose what dies. [pause][giggles] I never could.",
+      "egg": "he keeps everything; nothing is let go",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_item_plating",
+      "group": "item",
+      "hook": "reveal item 1 (EPIC+)",
+      "text": "Plating. [pause] It'll die a little slower now. [pause] How disappointing."
+    },
+    {
+      "file": "tod_spin_vo_item_overclock",
+      "group": "item",
+      "hook": "reveal item 2 (EPIC+)",
+      "text": "Overclock. Faster... [pause][giggles] until it burns."
+    },
+    {
+      "file": "tod_spin_vo_item_hollow_point",
+      "group": "item",
+      "hook": "reveal item 3 (EPIC+)",
+      "text": "Hollow point. [pause] Nothing walks away from those. [pause] Well. [pause] Some things walk back.",
+      "egg": "some things walk back: the dead return here"
+    },
+    {
+      "file": "tod_spin_vo_item_long_sight",
+      "group": "item",
+      "hook": "reveal item 4 (EPIC+)",
+      "text": "Long sight. [pause] It sees them before they see you. [giggles] Lovely."
+    },
+    {
+      "file": "tod_spin_vo_item_nano_repair",
+      "group": "item",
+      "hook": "reveal item 5 (EPIC+)",
+      "text": "Nano repair. [pause] Little machines mending a machine. [pause] This whole city was one, before it fell.",
+      "egg": "the city was a machine before the Fall"
+    },
+    {
+      "file": "tod_spin_vo_item_arc_chain",
+      "group": "item",
+      "hook": "reveal item 6 (EPIC+)",
+      "text": "Arc chain. One touch... [excited] and they ALL light up! [laughs] [calm] Like the sign. [pause] Did you see my sign?",
+      "egg": "the sign in the sky is his",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_item_salvage",
+      "group": "item",
+      "hook": "reveal item 7 (EPIC+)",
+      "text": "Salvage. [pause] It eats what it kills. [pause][giggles] Everything here does."
+    },
+    {
+      "file": "tod_spin_vo_item_quick_reboot",
+      "group": "item",
+      "hook": "reveal item 8 (EPIC+)",
+      "text": "Quick reboot. [pause] Death is just a pause now. [pause] I would know. [pause] I'm on my third face.",
+      "egg": "he has died before; faces are masks"
+    },
+    {
+      "file": "tod_spin_vo_item_lucky_charm",
+      "group": "item",
+      "hook": "reveal item 9 (EPIC+)",
+      "text": "Lucky charm. [pause] Careful. Luck is my business. [pause] So are debts.",
+      "egg": "debts: the open account"
+    },
+    {
+      "file": "tod_spin_vo_idle_1",
+      "group": "idle",
+      "hook": "3D at the counter, 30-60 s, player in earshot",
+      "text": "[sing-song] Spin, spin, spin... [giggles] spin.",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_idle_2",
+      "group": "idle",
+      "hook": "3D at the counter",
+      "text": "They never ask where the prizes come from. [pause] Good. [pause] The last owners don't need them anymore.",
+      "egg": "the prizes come from the fallen"
+    },
+    {
+      "file": "tod_spin_vo_idle_3",
+      "group": "idle",
+      "hook": "3D at the counter",
+      "text": "The tower takes. [pause] I only... redistribute. [pause] The tower pays me for that.",
+      "egg": "the tower pays him"
+    },
+    {
+      "file": "tod_spin_vo_idle_4",
+      "group": "idle",
+      "hook": "3D at the counter",
+      "text": "[sighs] Mmm. [pause] Quiet tonight. [pause] Too quiet. [pause] The walls are holding their breath.",
+      "egg": "the voices in the walls"
+    },
+    {
+      "file": "tod_spin_vo_idle_5",
+      "group": "idle",
+      "hook": "3D at the counter",
+      "text": "Fifty floors down and they're still coming. [pause] Good for business. [pause] Every one of them was a customer, once.",
+      "egg": "the horde: old customers"
+    },
+    {
+      "file": "tod_spin_vo_idle_6",
+      "group": "idle",
+      "hook": "3D at the counter",
+      "text": "I had a face once. [pause] I paid with it. [pause] Under this mask... [pause] is a bigger mask. [giggles]",
+      "egg": "he paid for the shop with his face; nothing under the mask but another mask"
+    },
+    {
+      "file": "tod_spin_vo_regular_1",
+      "group": "regular",
+      "hook": "buy line on a player's 4th+ spin",
+      "text": "Back again. [pause] I knew you would be. [pause] Your page is getting long.",
+      "egg": "the ledger: your page"
+    },
+    {
+      "file": "tod_spin_vo_regular_2",
+      "group": "regular",
+      "hook": "buy line on a player's 4th+ spin",
+      "text": "You and that machine... [giggles] it's becoming a relationship. [pause] I know the type. [pause] I was the first customer.",
+      "egg": "he was the first customer"
+    },
+    {
+      "file": "tod_spin_vo_sign_laugh",
+      "group": "cinematic",
+      "pan": "2d",
+      "hook": "the first jump's opening scene: THE REVEAL, as the TOWER OF DOOM II sign holds lit after the crash: an evil villain's entrance laugh, four peals non-stop (_tod_jump_title.csc, 2D on the flyer's client; not the mouth or the lane)",
+      "text": "[laughs maniacally] MWAHAHAHA! AHAHAHA! HAHAHAHA! AHAHAHAAAA!",
+      "vol": "100",
+      "settings": {
+        "stability": 0.25,
+        "similarity": 0.75,
+        "style": 0.6,
+        "speed": 1.05
+      }
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_approach_1",
+      "group": "cls_approach",
+      "cls": "archer",
+      "hook": "the archer's own approach line (_tod_shop vo_cls)",
+      "text": "Ah. [pause] The archer. [pause] Arrows, in a city of bullets. [giggles] I admire the stubbornness."
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_approach_2",
+      "group": "cls_approach",
+      "cls": "archer",
+      "hook": "the archer's own approach line (_tod_shop vo_cls)",
+      "text": "Mind that hook of yours near my window. [pause] The last one who swung in... [pause] is still in here somewhere.",
+      "egg": "he keeps the ones who cross him"
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_buy_1",
+      "group": "cls_buy",
+      "cls": "archer",
+      "hook": "the archer's own buy line (_tod_shop vo_cls)",
+      "text": "A bow against the dead. [pause] Quaint. [giggles] Let's see if your luck shoots straighter."
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_buy_2",
+      "group": "cls_buy",
+      "cls": "archer",
+      "hook": "the archer's own buy line (_tod_shop vo_cls)",
+      "text": "Spin, archer. [pause] It's quicker than your draw. [giggles] Most things are."
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_close_1",
+      "group": "cls_close",
+      "cls": "archer",
+      "hook": "the archer's own close line (_tod_shop vo_cls)",
+      "text": "Off you fly, little bird. [pause] Try not to land on anything that bites."
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_socket_1",
+      "group": "cls_socket",
+      "cls": "archer",
+      "hook": "the archer's own socket line (_tod_shop vo_cls)",
+      "text": "Fits. [pause] Now your little beast hunts as quietly as you do. [giggles] Quieter."
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_approach_1",
+      "group": "cls_approach",
+      "cls": "breacher",
+      "hook": "the breacher's own approach line (_tod_shop vo_cls)",
+      "text": "I smell plastic explosive. [pause] Nothing goes on my counter that ticks. [giggles] Please."
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_approach_2",
+      "group": "cls_approach",
+      "cls": "breacher",
+      "hook": "the breacher's own approach line (_tod_shop vo_cls)",
+      "text": "The one who walks through his own explosions. [pause] That is how the city fell, you know. [pause] Someone walked through it.",
+      "egg": "how the city fell"
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_buy_1",
+      "group": "cls_buy",
+      "cls": "breacher",
+      "hook": "the breacher's own buy line (_tod_shop vo_cls)",
+      "text": "Shotguns and bombs. [pause] Subtle as a brick. [giggles] I have always liked bricks."
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_buy_2",
+      "group": "cls_buy",
+      "cls": "breacher",
+      "hook": "the breacher's own buy line (_tod_shop vo_cls)",
+      "text": "Let's see what the machine makes of a walking crater."
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_close_1",
+      "group": "cls_close",
+      "cls": "breacher",
+      "hook": "the breacher's own close line (_tod_shop vo_cls)",
+      "text": "Off you go. [pause] Loudly, I expect."
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_socket_1",
+      "group": "cls_socket",
+      "cls": "breacher",
+      "hook": "the breacher's own socket line (_tod_shop vo_cls)",
+      "text": "Bolted on. [pause] Try not to blow it up with the rest of your friends."
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_approach_1",
+      "group": "cls_approach",
+      "cls": "warrior",
+      "hook": "the warrior's own approach line (_tod_shop vo_cls)",
+      "text": "No gun. [pause] Just fists and a blade. [giggles] You and I would have gotten along, in another life."
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_approach_2",
+      "group": "cls_approach",
+      "cls": "warrior",
+      "hook": "the warrior's own approach line (_tod_shop vo_cls)",
+      "text": "Careful with that sword near my glass. [pause] The last one who scratched it... [pause] I kept him. [giggles] Somewhere.",
+      "egg": "he keeps people"
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_buy_1",
+      "group": "cls_buy",
+      "cls": "warrior",
+      "hook": "the warrior's own buy line (_tod_shop vo_cls)",
+      "text": "A warrior, spinning a wheel. [giggles] Even steel needs a little luck."
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_buy_2",
+      "group": "cls_buy",
+      "cls": "warrior",
+      "hook": "the warrior's own buy line (_tod_shop vo_cls)",
+      "text": "Put the blade down a moment. [pause] The machine prefers empty hands."
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_close_1",
+      "group": "cls_close",
+      "cls": "warrior",
+      "hook": "the warrior's own close line (_tod_shop vo_cls)",
+      "text": "Go on. Swing. [pause] Leave some for the others. [giggles] Or don't."
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_socket_1",
+      "group": "cls_socket",
+      "cls": "warrior",
+      "hook": "the warrior's own socket line (_tod_shop vo_cls)",
+      "text": "There. [pause] Now the beast hits as hard as you do. [pause] Almost."
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_approach_1",
+      "group": "cls_approach",
+      "cls": "necro",
+      "hook": "the necro's own approach line (_tod_shop vo_cls)",
+      "text": "Ahh. [pause] You raise the dead too. [giggles] Competition. [pause] Mine are better behaved.",
+      "egg": "his own dead: the horde answers to him"
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_approach_2",
+      "group": "cls_approach",
+      "cls": "necro",
+      "hook": "the necro's own approach line (_tod_shop vo_cls)",
+      "text": "Keep your pets outside. [pause] They drool on the merchandise. [pause] And they remember me.",
+      "egg": "the dead remember him"
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_buy_1",
+      "group": "cls_buy",
+      "cls": "necro",
+      "hook": "the necro's own buy line (_tod_shop vo_cls)",
+      "text": "Souls for a spin. [pause] Now THAT is a currency I understand."
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_buy_2",
+      "group": "cls_buy",
+      "cls": "necro",
+      "hook": "the necro's own buy line (_tod_shop vo_cls)",
+      "text": "A skull that talks. [pause] Everything in this city talks, if you listen. [pause] Mostly about me.",
+      "egg": "the voices in the walls"
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_close_1",
+      "group": "cls_close",
+      "cls": "necro",
+      "hook": "the necro's own close line (_tod_shop vo_cls)",
+      "text": "Give my regards to your dead. [giggles] Some of them were mine."
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_socket_1",
+      "group": "cls_socket",
+      "cls": "necro",
+      "hook": "the necro's own socket line (_tod_shop vo_cls)",
+      "text": "In it goes. [pause] Flesh, metal, a little luck. [giggles] The house recipe."
+    },
+    {
+      "file": "tod_spin_vo_near_1",
+      "group": "near",
+      "wired": true,
+      "hook": "THE NEAR MISS (docs/201): after a STOPPED SHORT / SLIPPED PAST spin, in place of the landing line (_tod_shop spin_near_after)",
+      "text": "Ohhh! [pause] So close. [giggles] So very close.",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_near_2",
+      "group": "near",
+      "wired": true,
+      "hook": "THE NEAR MISS (docs/201): after a STOPPED SHORT / SLIPPED PAST spin, in place of the landing line (_tod_shop spin_near_after)",
+      "text": "A whisker, my friend. [pause] A whisker."
+    },
+    {
+      "file": "tod_spin_vo_near_3",
+      "group": "near",
+      "wired": true,
+      "hook": "THE NEAR MISS (docs/201): after a STOPPED SHORT / SLIPPED PAST spin, in place of the landing line (_tod_shop spin_near_after)",
+      "text": "Did you see it? [pause] It saw you, too. [giggles] Next time, hm?"
+    },
+    {
+      "file": "tod_spin_vo_near_4",
+      "group": "near",
+      "wired": true,
+      "hook": "THE NEAR MISS (docs/201): after a STOPPED SHORT / SLIPPED PAST spin, in place of the landing line (_tod_shop spin_near_after)",
+      "text": "Ah. [pause] The machine likes to tease. [chuckles] So do I."
+    },
+    {
+      "file": "tod_spin_vo_cls_archer_near_1",
+      "group": "cls_near",
+      "cls": "archer",
+      "hook": "the archer's own near-miss line (_tod_shop vo_cls)",
+      "text": "So close, archer. [pause] Like an arrow that only grazes. [giggles]"
+    },
+    {
+      "file": "tod_spin_vo_cls_breacher_near_1",
+      "group": "cls_near",
+      "cls": "breacher",
+      "hook": "the breacher's own near-miss line (_tod_shop vo_cls)",
+      "text": "Ha! [pause] You nearly blew the jackpot wide open.",
+      "mode": "manic"
+    },
+    {
+      "file": "tod_spin_vo_cls_warrior_near_1",
+      "group": "cls_near",
+      "cls": "warrior",
+      "hook": "the warrior's own near-miss line (_tod_shop vo_cls)",
+      "text": "One inch short, warrior. [pause] Swing again."
+    },
+    {
+      "file": "tod_spin_vo_cls_necro_near_1",
+      "group": "cls_near",
+      "cls": "necro",
+      "hook": "the necro's own near-miss line (_tod_shop vo_cls)",
+      "text": "Ooh, it brushed right past you. [pause] Like a soul slipping away."
+    },
+    {
+      "file": "tod_spin_vo_hot_1",
+      "group": "hot",
+      "wired": true,
+      "hook": "THE HOT STREAK (docs/201): at the pour when the player is HEATING UP or ON FIRE (_tod_shop spin)",
+      "text": "Hot hands tonight, friend. [pause] Let's see how long they burn."
+    },
+    {
+      "file": "tod_spin_vo_hot_2",
+      "group": "hot",
+      "wired": true,
+      "hook": "THE HOT STREAK (docs/201): at the pour when the player is HEATING UP or ON FIRE (_tod_shop spin)",
+      "text": "[giggles] You're on fire. [pause] Careful... fire goes out."
+    },
+    {
+      "file": "tod_spin_vo_hot_3",
+      "group": "hot",
+      "wired": true,
+      "hook": "THE HOT STREAK (docs/201): at the pour when the player is HEATING UP or ON FIRE (_tod_shop spin)",
+      "text": "Mm. [pause] The luck is running warm. [pause] Don't stop now."
+    },
+    {
+      "file": "tod_house_vo_welcome",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the scene opens",
+      "text": "[calm] Come in. [pause] Come in. [pause] You climbed a long way down... to stand in a room with nothing in it but me.",
+      "egg": "the whole descent led to his room"
+    },
+    {
+      "file": "tod_house_vo_ledger",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the ledger",
+      "text": "Every roll you ever made is in my ledger. [pause] Every card. Every spin. [pause] You thought the luck was yours. [giggles] It was mine. [pause] It was always mine.",
+      "egg": "the ledger: every roll was his"
+    },
+    {
+      "file": "tod_house_vo_reveal",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the mastermind",
+      "text": "The tower didn't fall. [pause] I folded it. [pause] The sign in the sky, the domes, the voices in the walls... [pause] all of it was the house. [pause] All of it was me.",
+      "egg": "the Fall, the sign, the domes and the voices were his"
+    },
+    {
+      "file": "tod_house_vo_offer",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the last roll is offered (the LAST ROLL prompt comes up with it)",
+      "text": "One more roll. [pause] On the house. [pause] Go on... I insist. [giggles] Everyone gets one last roll."
+    },
+    {
+      "file": "tod_house_vo_too_slow",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): nobody rolled in time, he rolls for them",
+      "text": "[sighs] Too slow. [pause] I'll roll for you."
+    },
+    {
+      "file": "tod_house_vo_cursed",
+      "group": "house",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the reel lands on CURSED",
+      "text": "[excited] CURSED! [laughs] Oh, look at that. [pause] The house wins. [pause] The house ALWAYS wins.",
+      "egg": "the house always wins"
+    },
+    {
+      "file": "tod_house_vo_laugh",
+      "group": "house",
+      "mode": "manic",
+      "vol": "100",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the laugh (user: 'he laughs like crazy'), over the cursed banner, before the teleport",
+      "text": "[laughs maniacally] AH HA HA HA HA HA! [laughs] Oh... oh, PERFECT! [laughs hysterically] HA HA HA HA HA!"
+    },
+    {
+      "file": "tod_house_vo_send",
+      "group": "house",
+      "hook": "THE DEALER'S HOUSE (docs/207): the parlour cut scene, 3D from the hut's mask to every player (_tod_house.gsc): the teleport charges on this line",
+      "text": "[calm] Now. [pause] Let me show you where the money goes.",
+      "egg": "the tower pays him: the house is where the money goes"
+    },
+    {
+      "file": "tod_house_vo_dome",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): the corrupted dome rises over the dais and the drain begins",
+      "text": "[soft] You remember my domes. [pause] Breathe it in. [pause] I'm not taking your life. [pause] Only... everything but the last of it.",
+      "egg": "the corrupted havens were his domes"
+    },
+    {
+      "file": "tod_house_vo_one",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): everyone is at one point of health",
+      "text": "[soft] One. [pause] One point of health. [pause] Hold on to it. [giggles] I would."
+    },
+    {
+      "file": "tod_house_vo_fight",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): the dome breaks, the fight starts",
+      "text": "[excited] The account is open. [pause] Let's SETTLE it!",
+      "egg": "the open account the player settles at the bottom"
+    },
+    {
+      "file": "tod_house_vo_crack",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): his mask cracks at half health (state two)",
+      "text": "[pained] My FACE! [pause][laughs] Mm. [pause] You'll pay for that one.",
+      "egg": "he paid with his face once"
+    },
+    {
+      "file": "tod_house_vo_death",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): he dies",
+      "text": "[calm] A bigger mask... [pause] under this one... [pause] always... [giggles] another.",
+      "egg": "nothing under the mask but a bigger mask"
+    },
+    {
+      "file": "tod_house_vo_down",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): a player goes down during the fight (sometimes)",
+      "text": "[giggles] One more for the ledger."
+    },
+    {
+      "file": "tod_house_vo_swipe_1",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): his scythe lands on a player in state one (sometimes; the swipe deck)",
+      "text": "[soft] A cut. [pause] Just a small cut... for the house.",
+      "egg": "the house takes a cut of everything"
+    },
+    {
+      "file": "tod_house_vo_swipe_2",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): his scythe lands on a player in state one (sometimes; the swipe deck)",
+      "text": "[calm] A little off the top. [pause] House rules."
+    },
+    {
+      "file": "tod_house_vo_swipe_3",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): his scythe lands on a player in state one (sometimes; the swipe deck)",
+      "text": "[soft] That's interest. [pause] It compounds.",
+      "egg": "the open account grows while it stays open"
+    },
+    {
+      "file": "tod_house_vo_taunt_1",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): a chase taunt in state two (timed after the crack; the taunt deck)",
+      "text": "[excited] Faster! [laughs] The house always collects faster!"
+    },
+    {
+      "file": "tod_house_vo_taunt_2",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): a chase taunt in state two (timed after the crack; the taunt deck)",
+      "text": "[laughs] Run, run, run! [pause] It all goes on the account!",
+      "egg": "the open account the player settles at the bottom"
+    },
+    {
+      "file": "tod_house_vo_taunt_3",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): a chase taunt in state two (timed after the crack; the taunt deck)",
+      "text": "[laughs maniacally] One eye is plenty! [pause] I only ever needed one for you!",
+      "egg": "the cracked mask: one eye dead, the other burning"
+    },
+    {
+      "file": "tod_house_vo_taunt_4",
+      "group": "house",
+      "pan": "2d",
+      "mode": "manic",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): a chase taunt in state two (timed after the crack; the taunt deck)",
+      "text": "[excited] No more bets! [laughs] The table is CLOSED!"
+    },
+    {
+      "file": "tod_house_vo_low",
+      "group": "house",
+      "pan": "2d",
+      "hook": "THE DEALER'S HOUSE (docs/207): the final arena, 2D on every player's client (_tod_house.gsc): he falls to a fifth of his health (once)",
+      "text": "[pained] That... [pause] was not on the price list.",
+      "egg": "the house never loses: this was not priced in"
+    }
+  ]
+}
