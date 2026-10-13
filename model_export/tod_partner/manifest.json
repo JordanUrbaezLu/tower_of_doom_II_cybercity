@@ -1,0 +1,3363 @@
+{
+  "finish": "Protector: the SoE Civil Protector GOLD finish on the native rig, every map complete. Talon/R.A.P.S./Cerberus: original T7 meshes with their original T7 material definitions and real T7 textures; maps no source holds are authored (art/companion_maps/authored, see images).",
+  "protector_finish": "gold",
+  "models": [
+    {
+      "asset": "tod_partner_protector",
+      "file": "model_export/tod_partner/tod_partner_protector.xmodel_bin",
+      "sha256": "2cae1211a05001fa6dffebe11604985bd0d1f81f17ee470cee86a99e8013f582",
+      "bounds": [
+        [
+          -10.468175888061523,
+          7.396429061889648
+        ],
+        [
+          -17.59023666381836,
+          17.59023666381836
+        ],
+        [
+          -0.1501670628786087,
+          73.70870208740234
+        ]
+      ],
+      "triangles": 47574
+    },
+    {
+      "asset": "tod_partner_protector_part1",
+      "file": "model_export/tod_partner/tod_partner_protector_part1.xmodel_bin",
+      "sha256": "4a3faaab66a2300c7aa2b361b59ecd5410e8bc0b1f2cf069bfc27f2129217bf1",
+      "bounds": [
+        [
+          -6.797587871551514,
+          6.797587871551514
+        ],
+        [
+          -12.667167663574219,
+          12.667167663574219
+        ],
+        [
+          0.0,
+          34.0
+        ]
+      ],
+      "triangles": 26644
+    },
+    {
+      "asset": "tod_partner_protector_part2",
+      "file": "model_export/tod_partner/tod_partner_protector_part2.xmodel_bin",
+      "sha256": "e60e563e69cfb2cf4b5505120a05be65d858c8e85bd7da7eec3c2c3d9818ff40",
+      "bounds": [
+        [
+          -7.478243827819824,
+          7.478243827819824
+        ],
+        [
+          -16.969064712524414,
+          16.969064712524414
+        ],
+        [
+          0.0,
+          34.0
+        ]
+      ],
+      "triangles": 20930
+    },
+    {
+      "asset": "tod_partner_talon_part1",
+      "file": "model_export/tod_partner/tod_partner_talon_part1.xmodel_bin",
+      "sha256": "65f016a27ac6315b73127955fd911396af45a3f397585322f7ebd224f4daa425",
+      "bounds": [
+        [
+          -11.780779838562012,
+          11.780779838562012
+        ],
+        [
+          -13.29456615447998,
+          13.29456615447998
+        ],
+        [
+          0.0,
+          18.12726593017578
+        ]
+      ],
+      "triangles": 5469
+    },
+    {
+      "asset": "tod_partner_talon_part2",
+      "file": "model_export/tod_partner/tod_partner_talon_part2.xmodel_bin",
+      "sha256": "c189a116456fe1508cf7578076fabee40cc92802fbc926148a5a3a9d62f3ec2d",
+      "bounds": [
+        [
+          -11.780779838562012,
+          11.780779838562012
+        ],
+        [
+          -13.298511505126953,
+          13.298511505126953
+        ],
+        [
+          0.0,
+          18.12726593017578
+        ]
+      ],
+      "triangles": 5423
+    },
+    {
+      "asset": "tod_partner_talon",
+      "file": "model_export/tod_partner/tod_partner_talon.xmodel_bin",
+      "sha256": "d12fb629f63ad339c2d497f1042840732242bdb7a0d7d1969a47e2e091ffb8f1",
+      "bounds": [
+        [
+          -12.245209693908691,
+          11.316349983215332
+        ],
+        [
+          -25.67298698425293,
+          25.67298698425293
+        ],
+        [
+          -7.628808498382568,
+          10.498456954956055
+        ]
+      ],
+      "triangles": 10892
+    },
+    {
+      "asset": "tod_partner_raps_part1",
+      "file": "model_export/tod_partner/tod_partner_raps_part1.xmodel_bin",
+      "sha256": "4c64f7125b149074b4a7d980fa5f48d36b006e26d5be83ca4d4d1856eeeeb273",
+      "bounds": [
+        [
+          -17.0,
+          17.0
+        ],
+        [
+          -15.073894500732422,
+          15.073894500732422
+        ],
+        [
+          0.0,
+          19.05219078063965
+        ]
+      ],
+      "triangles": 6190
+    },
+    {
+      "asset": "tod_partner_raps_part2",
+      "file": "model_export/tod_partner/tod_partner_raps_part2.xmodel_bin",
+      "sha256": "6e67d29092f8da39474bc5ed4c69cf2199c6c30e6246071adb2131e57cbab5b8",
+      "bounds": [
+        [
+          -17.0,
+          17.0
+        ],
+        [
+          -15.409590721130371,
+          15.409590721130371
+        ],
+        [
+          0.0,
+          18.5627384185791
+        ]
+      ],
+      "triangles": 6128
+    },
+    {
+      "asset": "tod_partner_raps",
+      "file": "model_export/tod_partner/tod_partner_raps.xmodel_bin",
+      "sha256": "6de0800b25938a83083baef1073d578aab42b28ebfaacaf4125427df2ab6e846",
+      "bounds": [
+        [
+          -18.174850463867188,
+          18.173337936401367
+        ],
+        [
+          -16.098020553588867,
+          16.098020553588867
+        ],
+        [
+          -18.17274284362793,
+          18.17274284362793
+        ]
+      ],
+      "triangles": 12318
+    },
+    {
+      "asset": "tod_partner_cerberus_part1",
+      "file": "model_export/tod_partner/tod_partner_cerberus_part1.xmodel_bin",
+      "sha256": "4c1f6cdf20018656c69ac6310faf71ab948e1d790485c429aa7d3c8d65fa4160",
+      "bounds": [
+        [
+          -17.0,
+          17.0
+        ],
+        [
+          -11.5596923828125,
+          11.5596923828125
+        ],
+        [
+          0.0,
+          12.684012413024902
+        ]
+      ],
+      "triangles": 26004
+    },
+    {
+      "asset": "tod_partner_cerberus_part2",
+      "file": "model_export/tod_partner/tod_partner_cerberus_part2.xmodel_bin",
+      "sha256": "993e48e20a8016164cffe5555fc68752a53e69c59beb052a61898dc5d579c214",
+      "bounds": [
+        [
+          -17.0,
+          17.0
+        ],
+        [
+          -15.622088432312012,
+          15.622088432312012
+        ],
+        [
+          0.0,
+          15.355770111083984
+        ]
+      ],
+      "triangles": 14698
+    },
+    {
+      "asset": "tod_partner_cerberus",
+      "file": "model_export/tod_partner/tod_partner_cerberus.xmodel_bin",
+      "sha256": "8ec75fbae262bb05b2bb179a6d7542ec1d5a685249e3aac33a73b9114773727a",
+      "bounds": [
+        [
+          -27.00416374206543,
+          30.831743240356445
+        ],
+        [
+          -22.709182739257812,
+          25.076078414916992
+        ],
+        [
+          0.40194275975227356,
+          41.11509323120117
+        ]
+      ],
+      "triangles": 40702
+    }
+  ],
+  "donors": {
+    "talon": "_midgetblaster/props/t7_veh/veh_t7_drone_attack_gun_darkcolor",
+    "raps": "_midgetblaster/props/p7_zm_stalingrad/veh_t7_dlc_drone_raps_nikolai",
+    "cerberus": "_midgetblaster/props/t7_veh/veh_t7_drone_amws_armored_mp_dark"
+  },
+  "raps_scale_to_mp_size": 0.7271179360811872,
+  "substitutions": {
+    "i_veh_t7_drone_attack_body_tile_r": "i_veh_t7_drone_attack_body_litecolor_test_m",
+    "i_veh_t7_drone_attack_body_o": "i_veh_t7_drone_attack_body_dead_o",
+    "i_veh_t7_drone_attack_body_n": "i_veh_t7_drone_attack_body_litecolor_test_n",
+    "i_t7_dirt_chunky_01_lt_c": "i_t7_dirt_chunky_01_c",
+    "i_veh_t7_drone_amws_swingarm_armored_r": "i_veh_t7_drone_amws_armored_swingarm_tile_r",
+    "i_t7_decal_damage_bullet_hits_lrg_01_s": "$spec_simple"
+  },
+  "materials": {
+    "protector": [
+      {
+        "original": "mtl_c_t7_zom_zod_robot_arm_gold",
+        "skin": "mtl_c_t7_zom_zod_robot_arm2",
+        "material": "mtl_tod_ptn_pro_00",
+        "source": "stock gdt.db",
+        "how": "stock definition, maps completed",
+        "materialType": "lit_advanced_fullspec",
+        "maps": {
+          "colorMap": "i_c_t7_zmb_zod_robot_arm_c",
+          "cosinePowerMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_n",
+          "occMap": "$white_ao",
+          "specColorMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_leg_2",
+        "skin": "mtl_c_t7_zom_zod_robot_leg_2",
+        "material": "mtl_c_t7_zom_zod_robot_leg_2",
+        "how": "stock definition, every map present",
+        "maps": {
+          "colorMap": "i_c_t7_zom_zod_robot_leg_2_c",
+          "cosinePowerMap": "i_c_t7_zom_zod_robot_leg_2_g",
+          "normalMap": "i_c_t7_zom_zod_robot_leg_2_n",
+          "occMap": "i_c_t7_zom_zod_robot_leg_2_o",
+          "specColorMap": "i_c_t7_zom_zod_robot_leg_2_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_leg_gold",
+        "skin": "mtl_c_t7_zom_zod_robot_leg_gold",
+        "material": "mtl_tod_ptn_pro_01",
+        "source": "stock gdt.db",
+        "how": "the donor gold material + its wear maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "cosinePowerMap": "i_tod_ptn_c_t7_zom_zod_robot_leg_gold_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_c_t7_zom_zod_robot_leg_n",
+          "occMap": "$occlusion",
+          "specColorMap": "i_tod_ptn_c_t7_zom_zod_robot_leg_gold_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_guts",
+        "skin": "mtl_c_t7_zom_zod_robot_guts2",
+        "material": "mtl_c_t7_zom_zod_robot_guts2",
+        "how": "stock definition, every map present",
+        "maps": {
+          "cosinePowerMap": "i_c_t7_zom_zod_robot_guts_g",
+          "normalMap": "i_c_t7_zom_zod_robot_guts_n",
+          "specColorMap": "i_c_t7_zom_zod_robot_guts_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_limbs_gold",
+        "skin": "mtl_c_t7_zom_zod_robot_limbs_gold",
+        "material": "mtl_tod_ptn_pro_02",
+        "source": "stock gdt.db",
+        "how": "the donor gold material + its wear maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "cosinePowerMap": "i_tod_ptn_c_t7_zom_zod_robot_limbs_gold_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_c_t7_zom_zod_robot_limbs_n",
+          "occMap": "$occlusion",
+          "specColorMap": "i_tod_ptn_c_t7_zom_zod_robot_limbs_gold_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_nrc_robot_grunt_chassis_pelvis",
+        "skin": "mtl_c_t7_nrc_robot_grunt_chassis_pelvis2",
+        "material": "mtl_tod_ptn_pro_03",
+        "source": "stock gdt.db",
+        "how": "stock definition, maps completed",
+        "materialType": "lit_advanced",
+        "maps": {
+          "colorMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_c",
+          "cosinePowerMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_g",
+          "heatmap": "i_c_t7_shared_gray_one_channel_2",
+          "normalMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_n",
+          "occMap": "$white_ao",
+          "specColorMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_upper_gold",
+        "skin": "mtl_c_t7_zom_zod_robot_upper_gold",
+        "material": "mtl_tod_ptn_pro_04",
+        "source": "stock gdt.db",
+        "how": "the donor gold material + its wear maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "cosinePowerMap": "i_tod_ptn_c_t7_zom_zod_robot_upper_gold_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_c_t7_zom_zod_robot_upper_n",
+          "occMap": "$occlusion",
+          "specColorMap": "i_tod_ptn_c_t7_zom_zod_robot_upper_gold_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_cloth",
+        "skin": "mtl_c_t7_zom_zod_robot_cloth2",
+        "material": "mtl_tod_ptn_pro_05",
+        "source": "stock gdt.db",
+        "how": "stock definition, maps completed",
+        "materialType": "lit_plus",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "cosinePowerMap": "i_tod_ptn_t7_micro_concrete_bare_weathered_02_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_c_t7_zom_zod_robot_cloth_n",
+          "occMap": "$white_ao"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_foot_gold",
+        "skin": "mtl_c_t7_zom_zod_robot_foot_gold",
+        "material": "mtl_tod_ptn_pro_06",
+        "source": "stock gdt.db",
+        "how": "the donor gold material + its wear maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "cosinePowerMap": "i_tod_ptn_c_t7_zom_zod_robot_foot_gold_g",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_c_t7_zom_zod_robot_foot_n",
+          "occMap": "i_c_t7_zom_zod_robot_foot_o",
+          "specColorMap": "i_tod_ptn_c_t7_zom_zod_robot_foot_gold_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_nrc_robot_grunt_chassis_torso",
+        "skin": "mtl_c_t7_nrc_robot_grunt_chassis_torso2",
+        "material": "mtl_tod_ptn_pro_07",
+        "source": "stock gdt.db",
+        "how": "stock definition, maps completed",
+        "materialType": "lit_advanced_fullspec",
+        "maps": {
+          "colorMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_c",
+          "cosinePowerMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_g",
+          "heatmap": "i_c_t7_shared_gray_one_channel_2",
+          "normalMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_n",
+          "occMap": "$white_ao",
+          "specColorMap": "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_s"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_c_t7_zom_zod_robot_lights",
+        "skin": "mtl_c_t7_zom_zod_robot_lights2",
+        "material": "mtl_tod_ptn_pro_08",
+        "source": "stock gdt.db",
+        "how": "stock definition, maps completed",
+        "materialType": "lit_emissive",
+        "maps": {
+          "colorMap": "$color_black_40",
+          "colorMap00": "i_tod_ptn_c_t7_zom_zod_robot_upper_m",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_c_t7_zom_zod_robot_upper_n"
+        },
+        "missing": []
+      }
+    ],
+    "talon": [
+      {
+        "original": "mtl_veh_t7_decal_bolt_03_titanium",
+        "material": "mtl_tod_ptn_tal_00",
+        "triangles": 100,
+        "source": "stock gdt.db",
+        "how": "bolt decal art not in pack -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_09",
+        "material": "mtl_tod_ptn_tal_01",
+        "triangles": 128,
+        "source": "pack:p7_mp_arena.gdt",
+        "how": "same decal, T7 definition mtl_veh_t7_dlc_mech_tank_decal_bolt_09",
+        "materialType": "lit_detail_decal_reveal_advanced",
+        "maps": {
+          "occMap": "i_t7_veh_decal_bolt_09_o",
+          "colorMap00": "$white_reveal",
+          "alphaRevealMap": "i_tod_ptn_t7_veh_decal_bolt_03_b_m",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_t7_veh_decal_bolt_09_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap": "$black_color",
+          "detailMap": "i_tod_ptn_detail_map_scratches_n",
+          "specColorMap": "$specular_mask"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_gun_highres_metal_dark",
+        "material": "mtl_tod_ptn_tal_02",
+        "triangles": 4246,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the gun maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_gun_mp_dark_highres",
+        "material": "mtl_tod_ptn_tal_03",
+        "triangles": 362,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "$white_reveal",
+          "occMap": "$occlusion",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "$normal",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_body_mp_dark",
+        "material": "mtl_tod_ptn_tal_04",
+        "triangles": 836,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_body_dead_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_wing_gun_mp_dark",
+        "material": "mtl_tod_ptn_tal_05",
+        "triangles": 642,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_body_dark_metal",
+        "material": "mtl_tod_ptn_tal_06",
+        "triangles": 980,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the body maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_body_dead_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_body_bare_metal_mp_dark_titanium",
+        "material": "mtl_tod_ptn_tal_07",
+        "triangles": 92,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_body_dead_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$white_specular",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "$black_color",
+          "colorMap": "i_t7_micro_dusty_01_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_wing_gun_dark_metal",
+        "material": "mtl_tod_ptn_tal_08",
+        "triangles": 1458,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the wing_gun maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_wing_gun_bare_metal_mp_dark_titanium",
+        "material": "mtl_tod_ptn_tal_09",
+        "triangles": 1692,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$white_specular",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "$black_color",
+          "colorMap": "i_t7_micro_dusty_01_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_greeble_10",
+        "material": "mtl_tod_ptn_tal_10",
+        "triangles": 8,
+        "source": "pack:p7_mp_arena.gdt",
+        "how": "same decal, T7 definition mtl_veh_t7_dlc_decal_greeble_10",
+        "materialType": "lit_decal_normal_ao",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_o",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_r",
+          "normalMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_n",
+          "colorMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_08_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_latch_03",
+        "triangles": 48,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_body_colored_metal",
+        "material": "mtl_tod_ptn_tal_11",
+        "triangles": 60,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "undefined painted metal -> sibling mtl_veh_t7_drone_attack_body_mp_dark",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_body_dead_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_body_fin_edge_mp_dark_grey",
+        "material": "mtl_tod_ptn_tal_12",
+        "triangles": 96,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_body_dead_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_wing_gun_fin_edge_top_mp_dark_grey",
+        "material": "mtl_tod_ptn_tal_13",
+        "triangles": 96,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_attack_wing_gun_fin_edge_bottom_mp_dark_grey",
+        "material": "mtl_tod_ptn_tal_14",
+        "triangles": 96,
+        "source": "pack:p7_prologue_fxanim.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_attack_wing_gun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_metal_painted_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      }
+    ],
+    "raps": [
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_metal_painted",
+        "material": "mtl_tod_ptn_rap_00",
+        "triangles": 984,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "i_t7_micro_metal_rust_02_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_metal_bare",
+        "material": "mtl_tod_ptn_rap_01",
+        "triangles": 450,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$black_specular",
+          "colorMap07": "$spec_simple",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_mtl_veh_t7_oilslick_desat_tile_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_treads_metal_dark",
+        "material": "mtl_tod_ptn_rap_02",
+        "triangles": 380,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy01_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_04_dead_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_veh_t7_detail_char05_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_body_metal_painted",
+        "material": "mtl_tod_ptn_rap_03",
+        "triangles": 1568,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "i_t7_micro_metal_rust_02_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_body_metal_colored",
+        "material": "mtl_tod_ptn_rap_04",
+        "triangles": 448,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_body_metal_dark",
+        "material": "mtl_tod_ptn_rap_05",
+        "triangles": 800,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "i_t7_micro_metal_rust_02_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_teeth_metal_bare",
+        "material": "mtl_tod_ptn_rap_06",
+        "triangles": 432,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$black_specular",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_mtl_veh_t7_oilslick_desat_tile_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_teeth_metal_colored",
+        "material": "mtl_tod_ptn_rap_07",
+        "triangles": 1848,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_n",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_detail_char03_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_glass_outer",
+        "material": "mtl_tod_ptn_rap_08",
+        "triangles": 192,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_transparent_plus",
+        "maps": {
+          "occMap": "$occlusion",
+          "colorMap00": "$white_reveal",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy03_n",
+          "cosinePowerMap": "i_veh_t7_detail_char02_g",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_sentinel_drone_pods_glass02_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_treads_metal_bare",
+        "material": "mtl_tod_ptn_rap_09",
+        "triangles": 152,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$black_specular",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_mtl_veh_t7_oilslick_desat_tile_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_emissive_treads",
+        "material": "mtl_tod_ptn_rap_10",
+        "triangles": 324,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_p7_fre_clouds_01_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_emissive_inners",
+        "material": "mtl_tod_ptn_rap_11",
+        "triangles": 28,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_emissive_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_emissive1",
+        "material": "mtl_tod_ptn_rap_12",
+        "triangles": 96,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_emissive2",
+        "material": "mtl_tod_ptn_rap_13",
+        "triangles": 288,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll_transparent",
+        "maps": {
+          "colorMap01": "$white_reveal",
+          "colorMap00": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_star",
+        "material": "mtl_tod_ptn_rap_14",
+        "triangles": 526,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_decal_diffuse_spec_gloss_reveal_advanced",
+        "maps": {
+          "colorMap00": "$white_reveal",
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_star_r",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_20_dead_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_metal_painted_red",
+        "material": "mtl_tod_ptn_rap_15",
+        "triangles": 48,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "i_t7_micro_metal_rust_02_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_10_other_gloss",
+        "material": "mtl_tod_ptn_rap_16",
+        "triangles": 112,
+        "source": "pack:t7_characters.gdt",
+        "how": "original definition",
+        "materialType": "lit_decal_normal_gloss_reveal",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_decal_bolt_10_other_r",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_t7_veh_decal_bolt_10_other_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_body_metal_painted_red",
+        "material": "mtl_tod_ptn_rap_17",
+        "triangles": 192,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "colorMap07": "$white_specular",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "i_t7_micro_metal_rust_02_n",
+          "colorMap00": "i_tod_ptn_afr_dirt_mud_01_nml",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_body_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_t7_dirt_chunky_01_c",
+          "colorMap05": "$white_diffuse",
+          "colorMap": "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_cap_metal_bare_bolt",
+        "material": "mtl_tod_ptn_rap_18",
+        "triangles": 64,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_triple_mix_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_r",
+          "occMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$black_specular",
+          "colorMap07": "$spec_simple",
+          "detailMap": "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n",
+          "colorMap04": "core_sand_med_n",
+          "colorMap00": "core_sand_med_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_tod_ptn_mtl_veh_t7_oilslick_desat_tile_c",
+          "colorMap05": "i_tod_ptn_veh_t7_detail_char03_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_emissive_treads_02",
+        "material": "mtl_tod_ptn_rap_19",
+        "triangles": 400,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_p7_fre_clouds_01_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_emissive_treads_03",
+        "material": "mtl_tod_ptn_rap_20",
+        "triangles": 400,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_p7_fre_clouds_01_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_dlc3_drone_raps_emissive_treads_04",
+        "material": "mtl_tod_ptn_rap_21",
+        "triangles": 396,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_p7_fre_clouds_01_c",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$normal",
+          "colorMap": "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "t7_metal_chain_brass_dirty_redux",
+        "material": "mtl_tod_ptn_rap_22",
+        "triangles": 80,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_alphatest_nocull_advanced",
+        "maps": {
+          "occMap": "i_t7_metal_chain_o",
+          "colorMap00": "i_tod_ptn_t7_zm_isl_dirt_fertile_r",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_t7_metal_chain_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap": "i_t7_metal_chain_c",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_t7_veh_dlc_decal_rust_spots_01",
+        "material": "mtl_tod_ptn_rap_23",
+        "triangles": 2110,
+        "source": "pack:p7_zm_stalingrad.gdt",
+        "how": "original definition",
+        "materialType": "lit_decal_reveal_plus",
+        "maps": {
+          "occMap": "$white_ao",
+          "colorMap00": "$white_reveal",
+          "alphaRevealMap": "i_tod_ptn_mtl_veh_t7_dlc_mixmap_06_r",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_detail_char02_n",
+          "cosinePowerMap": "i_tod_ptn_mtl_veh_t7_dlc_noise_g",
+          "colorMap": "i_tod_ptn_t7_decal_grunge_splatter_c"
+        },
+        "missing": []
+      }
+    ],
+    "cerberus": [
+      {
+        "original": "mtl_veh_t7_drone_amws_swingarm_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_00",
+        "triangles": 1686,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_base_emissive_darkcolor",
+        "material": "mtl_tod_ptn_cer_01",
+        "triangles": 114,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_plus",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_base_emissive_o",
+          "colorMap00": "i_tod_ptn_veh_t7_drone_amws_base_emissive_e",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_base_emissive_n",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_drone_amws_base_emissive_g",
+          "colorMap": "$black_color"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_sensor01_lens_darkcolor",
+        "material": "mtl_tod_ptn_cer_02",
+        "triangles": 92,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_advanced",
+        "maps": {
+          "occMap": "$white_ao",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "$normal",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_drone_amws_sensor01_lens_g",
+          "colorMap": "$white_diffuse",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_sensor02_lens_darkcolor",
+        "material": "mtl_tod_ptn_cer_03",
+        "triangles": 40,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tiled_advanced",
+        "maps": {
+          "occMap": "$occlusion",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "$normal",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_drone_amws_sensor02_lens_g",
+          "colorMap": "$white_diffuse",
+          "detailMap": "$identitynormalmap",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_hull_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_04",
+        "triangles": 1608,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_hull_chrome",
+        "material": "mtl_tod_ptn_cer_05",
+        "triangles": 104,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined chrome -> T7 mtl_veh_t7_dlc_forklift_modular_drone_chrome on the armored_hull maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_o",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_heavy_01_g",
+          "colorMap": "$white_diffuse",
+          "specColorMap": "$white_specular",
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_treadcovers_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_06",
+        "triangles": 488,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_launcher_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_07",
+        "triangles": 1188,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_launcher_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_launcher_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_launcher_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_08",
+        "triangles": 1188,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_base_emissive_scroll_darkcolor",
+        "material": "mtl_tod_ptn_cer_09",
+        "triangles": 8,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_emissive_scroll",
+        "maps": {
+          "colorMap00": "i_tod_ptn_veh_t7_drone_amws_base_emissive_scroll_e",
+          "heatmap": "$gray_32_one_channel",
+          "flickerLookupMap": "i_generic_lookup",
+          "normalMap": "$identitynormalmap",
+          "colorMap": "$black_color"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_minigun_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_10",
+        "triangles": 680,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_minigun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_minigun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_minigun_bare_metal_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_11",
+        "triangles": 558,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r",
+          "occMap": "$occlusion",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_minigun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_minigun_thick_metal",
+        "material": "mtl_tod_ptn_cer_12",
+        "triangles": 3163,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the minigun maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_minigun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_minigun_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_minigun_plastic",
+        "material": "mtl_tod_ptn_cer_13",
+        "triangles": 72,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined plastic -> T7 mtl_veh_t7_dlc_forklift_modular_drone_plastic on the minigun maps",
+        "materialType": "lit_micro_tile_blend_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_minigun_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "$identitynormalmap",
+          "colorMap00": "$identitynormalmap",
+          "colorMap02": "i_t7_micro_plastic_rough_heavy_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_minigun_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_02_g",
+          "colorMap01": "i_t7_micro_metal_bare_scuffed_01_c",
+          "colorMap": "i_t7_micro_metal_painted_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_minigun_ammobelt_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_14",
+        "triangles": 396,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_minigun_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_minigun_n",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_drone_amws_minigun_tile_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_09",
+        "material": "mtl_tod_ptn_cer_15",
+        "triangles": 166,
+        "source": "pack:p7_mp_arena.gdt",
+        "how": "same decal, T7 definition mtl_veh_t7_dlc_mech_tank_decal_bolt_09",
+        "materialType": "lit_detail_decal_reveal_advanced",
+        "maps": {
+          "occMap": "i_t7_veh_decal_bolt_09_o",
+          "colorMap00": "$white_reveal",
+          "alphaRevealMap": "i_tod_ptn_t7_veh_decal_bolt_03_b_m",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_t7_veh_decal_bolt_09_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap": "$black_color",
+          "detailMap": "i_tod_ptn_detail_map_scratches_n",
+          "specColorMap": "$specular_mask"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_03_titanium",
+        "material": "mtl_tod_ptn_cer_16",
+        "triangles": 242,
+        "source": "stock gdt.db",
+        "how": "bolt decal art not in pack -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_10",
+        "material": "mtl_tod_ptn_cer_17",
+        "triangles": 40,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_greeble_10",
+        "material": "mtl_tod_ptn_cer_18",
+        "triangles": 12,
+        "source": "pack:p7_mp_arena.gdt",
+        "how": "same decal, T7 definition mtl_veh_t7_dlc_decal_greeble_10",
+        "materialType": "lit_decal_normal_ao",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_o",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_r",
+          "normalMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_10_n",
+          "colorMap": "i_tod_ptn_veh_t7_dlc_decal_greeble_08_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_06_chrome",
+        "material": "mtl_tod_ptn_cer_19",
+        "triangles": 218,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_launcher_thick_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_20",
+        "triangles": 1542,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_launcher_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_launcher_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_launcher_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_launcher_bare_metal",
+        "material": "mtl_tod_ptn_cer_21",
+        "triangles": 114,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined bare metal -> T7 mtl_veh_t7_drone_amws_armored_hull_bare_metal_mp_dark on the launcher maps",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_launcher_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_launcher_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_launcher_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_launcher_chrome_02",
+        "material": "mtl_tod_ptn_cer_22",
+        "triangles": 30,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined chrome -> T7 mtl_veh_t7_dlc_forklift_modular_drone_chrome on the launcher maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_launcher_o",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_launcher_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_heavy_01_g",
+          "colorMap": "$white_diffuse",
+          "specColorMap": "$white_specular",
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_launcher_tile_r"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_greeble_03",
+        "triangles": 24,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_04",
+        "material": "mtl_tod_ptn_cer_23",
+        "triangles": 188,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_treadcovers_dark_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_24",
+        "triangles": 160,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_11",
+        "material": "mtl_tod_ptn_cer_25",
+        "triangles": 100,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_treadcovers_rubber",
+        "material": "mtl_tod_ptn_cer_26",
+        "triangles": 88,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined rubber -> T7 mtl_veh_t7_dlc_forklift_modular_drone_rubber on the armored_treadcovers maps",
+        "materialType": "lit_micro_tile_blend_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "$identitynormalmap",
+          "colorMap00": "$identitynormalmap",
+          "colorMap02": "i_t7_micro_plastic_rough_heavy_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_02_g",
+          "colorMap01": "i_t7_micro_metal_bare_scuffed_01_c",
+          "colorMap": "i_t7_micro_metal_painted_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_11b_titanium",
+        "material": "mtl_tod_ptn_cer_27",
+        "triangles": 100,
+        "source": "stock gdt.db",
+        "how": "bolt decal art not in pack -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_28",
+        "triangles": 3236,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_03b",
+        "material": "mtl_tod_ptn_cer_29",
+        "triangles": 48,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_hull_bare_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_30",
+        "triangles": 650,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_dark_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_31",
+        "triangles": 2495,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_bare_metal",
+        "material": "mtl_tod_ptn_cer_32",
+        "triangles": 464,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined bare metal -> T7 mtl_veh_t7_drone_amws_armored_hull_bare_metal_mp_dark on the armored_turret maps",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$spec_simple",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "$black_color",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_red_paint",
+        "material": "mtl_tod_ptn_cer_33",
+        "triangles": 48,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined red_paint -> T7 mtl_veh_t7_drone_rcxdh_tile_bomb_plastic_red on the armored_turret maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "$gray",
+          "colorMap01": "i_t7_micro_plaster_smooth_dirty_01_c",
+          "colorMap": "i_t7_micro_dusty_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_rubber",
+        "material": "mtl_tod_ptn_cer_34",
+        "triangles": 312,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined rubber -> T7 mtl_veh_t7_dlc_forklift_modular_drone_rubber on the armored_turret maps",
+        "materialType": "lit_micro_tile_blend_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "$identitynormalmap",
+          "colorMap00": "$identitynormalmap",
+          "colorMap02": "i_t7_micro_plastic_rough_heavy_01_g",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_02_g",
+          "colorMap01": "i_t7_micro_metal_bare_scuffed_01_c",
+          "colorMap": "i_t7_micro_metal_painted_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_t7_veh_decal_bolt_01",
+        "material": "mtl_tod_ptn_cer_35",
+        "triangles": 38,
+        "source": "stock gdt.db",
+        "how": "original definition",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_latch_04",
+        "triangles": 42,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_latch_03",
+        "triangles": 40,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_grenade",
+        "material": "mtl_tod_ptn_cer_36",
+        "triangles": 320,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined grenade -> T7 mtl_veh_t7_drone_amws_armored_turret_grenade02_mp_dark on the armored_turret maps",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$white_specular",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_swingarm_chrome",
+        "material": "mtl_tod_ptn_cer_37",
+        "triangles": 320,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined chrome -> T7 mtl_veh_t7_dlc_forklift_modular_drone_chrome on the swingarm maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_heavy_01_g",
+          "colorMap": "$white_diffuse",
+          "specColorMap": "$white_specular",
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_tile_r"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_08_chrome",
+        "material": "mtl_tod_ptn_cer_38",
+        "triangles": 8,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_swingarm_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_39",
+        "triangles": 376,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_swingarm_dark_metal_mp_dark",
+        "material": "mtl_tod_ptn_cer_40",
+        "triangles": 188,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_swingarm_chrome",
+        "material": "mtl_tod_ptn_cer_41",
+        "triangles": 48,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined chrome -> T7 mtl_veh_t7_dlc_forklift_modular_drone_chrome on the armored_swingarm maps",
+        "materialType": "lit_advanced",
+        "maps": {
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_heavy_01_g",
+          "colorMap": "$white_diffuse",
+          "specColorMap": "$white_specular",
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_tile_r"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_wheels_mp_dark_color",
+        "material": "mtl_tod_ptn_cer_42",
+        "triangles": 9480,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_wheels_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_wheels_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "i_veh_t7_detail_char_01_g",
+          "normalMap": "i_tod_ptn_t7_drone_amws_wheels_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_wheels_rubber",
+        "material": "mtl_tod_ptn_cer_43",
+        "triangles": 3552,
+        "source": "pack:p7_mp_rise.gdt",
+        "how": "undefined rubber -> T7 mtl_veh_t7_dlc_forklift_modular_drone_rubber on the wheels maps",
+        "materialType": "lit_micro_tile_blend_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_wheels_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_wheels_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "$identitynormalmap",
+          "colorMap00": "$identitynormalmap",
+          "colorMap02": "i_t7_micro_plastic_rough_heavy_01_g",
+          "normalMap": "i_tod_ptn_t7_drone_amws_wheels_n",
+          "cosinePowerMap": "i_t7_micro_plastic_rough_02_g",
+          "colorMap01": "i_t7_micro_metal_bare_scuffed_01_c",
+          "colorMap": "i_t7_micro_metal_painted_01_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_wheels_dark_metal",
+        "material": "mtl_tod_ptn_cer_44",
+        "triangles": 924,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the wheels maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_wheels_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_wheels_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_t7_drone_amws_wheels_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_08_nrc_blue",
+        "material": "mtl_tod_ptn_cer_45",
+        "triangles": 76,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_decal_bolt_08_nrc_tan",
+        "material": "mtl_tod_ptn_cer_46",
+        "triangles": 24,
+        "source": "stock gdt.db",
+        "how": "bolt decal undefined -> stock mtl_t7_veh_decal_bolt_01",
+        "materialType": "lit_decal_advanced",
+        "maps": {
+          "colorMap": "i_t7_veh_decal_bolt_01_c",
+          "normalMap": "i_t7_veh_decal_bolt_01_n"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_hull_dark_metal",
+        "material": "mtl_tod_ptn_cer_47",
+        "triangles": 1024,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "undefined dark metal -> T7 mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark on the armored_hull maps",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_hull_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_front_sensor_mp_dark",
+        "material": "mtl_tod_ptn_cer_48",
+        "triangles": 484,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_t7_micro_metal_rust_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_armored_turret_grenade02_mp_dark",
+        "material": "mtl_tod_ptn_cer_49",
+        "triangles": 200,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_blend_advanced",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_grenade_r",
+          "occMap": "$occlusion",
+          "heatmap": "$gray_32_one_channel",
+          "colorMap03": "$white_specular",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_armored_turret_grenade_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_t7_veh_decal_electrical_shock_hazard",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_greeble_03_dead",
+        "triangles": 36,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_dead_grunge",
+        "triangles": 12,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_hot",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_lift",
+        "triangles": 12,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_here",
+        "triangles": 12,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_clear",
+        "triangles": 12,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_battery",
+        "triangles": 4,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_systems",
+        "triangles": 6,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_unlatch",
+        "triangles": 4,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_danger",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_unlock",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_keep",
+        "triangles": 16,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_no_step",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_access",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_of_blast",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_beware",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_primary",
+        "triangles": 6,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_label01",
+        "triangles": 6,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_tricomb",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_arrow01",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_arrow02",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_triangle02_mp_dark_red",
+        "triangles": 50,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_plus",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_square03",
+        "triangles": 46,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_square02",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_triangle01",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_voltage",
+        "triangles": 4,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_x",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_arrow03",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_warning02",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_warning01",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_0_wht_less_white",
+        "triangles": 6,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_1_wht_less_white",
+        "triangles": 10,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_2_wht_less_white",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_3_wht_less_white",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_5_wht_less_white",
+        "triangles": 2,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_decal_number_9_wht_less_white",
+        "triangles": 8,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_swingarm_color_mp_dark_grey",
+        "material": "mtl_tod_ptn_cer_50",
+        "triangles": 996,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tile_mix_vehicle_plus",
+        "maps": {
+          "alphaRevealMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_tile_r",
+          "occMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_o",
+          "heatmap": "$gray_32_one_channel",
+          "detailMap": "i_tod_ptn_t7_micro_metal_rough_01_n",
+          "colorMap00": "i_t7_micro_metal_rust_n",
+          "colorMap02": "$white_gloss",
+          "normalMap": "i_tod_ptn_veh_t7_drone_amws_swingarm_n",
+          "cosinePowerMap": "i_veh_t7_detail_char_01_g",
+          "colorMap01": "i_t7_micro_dusty_01_c",
+          "colorMap": "i_tod_ptn_mtl_p7_microtile_plaster_c"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_sensor02_lens_darkcolor_trophy",
+        "material": "mtl_tod_ptn_cer_51",
+        "triangles": 58,
+        "source": "pack:t7_veh_props.gdt",
+        "how": "original definition",
+        "materialType": "lit_micro_tiled_advanced",
+        "maps": {
+          "occMap": "$occlusion",
+          "heatmap": "$gray_32_one_channel",
+          "normalMap": "$normal",
+          "cosinePowerMap": "i_tod_ptn_veh_t7_drone_amws_sensor02_lens_g",
+          "colorMap": "$white_diffuse",
+          "detailMap": "$identitynormalmap",
+          "specColorMap": "$white_specular"
+        },
+        "missing": []
+      },
+      {
+        "original": "mtl_veh_t7_drone_amws_lite_covers_base",
+        "triangles": 16,
+        "result": "DROPPED (no definition or art in the pack)"
+      },
+      {
+        "original": "t7_decal_blast_01",
+        "material": "mtl_tod_ptn_cer_52",
+        "triangles": 216,
+        "source": "stock gdt.db",
+        "how": "original definition",
+        "materialType": "lit_decal",
+        "maps": {
+          "colorMap": "i_t7_decal_blast_01_c",
+          "normalMap": "i_t7_decal_blast_01_n",
+          "specColorMap": "$spec_simple"
+        },
+        "missing": []
+      },
+      {
+        "original": "t7_decal_grunge_burnt_stain_01_gun_barrel_char",
+        "material": "mtl_tod_ptn_cer_53",
+        "triangles": 732,
+        "source": "stock gdt.db",
+        "how": "same decal, T7 definition t7_decal_grunge_burnt_stain_01",
+        "materialType": "lit_decal_diffuse_spec_gloss_reveal",
+        "maps": {
+          "alphaRevealMap": "i_t7_decal_grunge_burnt_stain_01_r",
+          "colorMap": "i_t7_decal_grunge_burnt_stain_01_c",
+          "cosinePowerMap": "i_t7_decal_grunge_burnt_stain_01_g"
+        },
+        "missing": []
+      }
+    ]
+  },
+  "images": {
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_g": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_arm_g.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_arm_g",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_n": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_arm_n.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_arm_n",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_s": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_arm_s.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_arm_s",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_leg_gold_g": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_leg_gold_g.png",
+      "original": "i_c_t7_zom_zod_robot_leg_gold_g",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_leg_gold_s": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_leg_gold_s.png",
+      "original": "i_c_t7_zom_zod_robot_leg_gold_s",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_limbs_gold_g": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_limbs_gold_g.png",
+      "original": "i_c_t7_zom_zod_robot_limbs_gold_g",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_limbs_gold_s": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_limbs_gold_s.png",
+      "original": "i_c_t7_zom_zod_robot_limbs_gold_s",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_c": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_pelvis_c.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_pelvis_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_g": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_pelvis_g.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_pelvis_g",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_n": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_pelvis_n.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_pelvis_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_pelvis_s": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_pelvis_s.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_pelvis_s",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_upper_gold_g": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_upper_gold_g.png",
+      "original": "i_c_t7_zom_zod_robot_upper_gold_g",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_upper_n": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_upper_n.png",
+      "original": "i_c_t7_zom_zod_robot_upper_n",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_upper_gold_s": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_upper_gold_s.png",
+      "original": "i_c_t7_zom_zod_robot_upper_gold_s",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_t7_micro_concrete_bare_weathered_02_g": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/p7_zm_zod_robot_gibs/_images/i_t7_micro_concrete_bare_weathered_02_g.tiff",
+      "original": "i_t7_micro_concrete_bare_weathered_02_g",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_foot_gold_g": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_foot_gold_g.png",
+      "original": "i_c_t7_zom_zod_robot_foot_gold_g",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_foot_gold_s": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_foot_gold_s.png",
+      "original": "i_c_t7_zom_zod_robot_foot_gold_s",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_c": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_torso_c.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_torso_c",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_g": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_torso_g.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_torso_g",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_n": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_torso_n.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_torso_n",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_torso_s": {
+      "from": "art/companion_maps/authored/i_c_t7_nrc_robot_grunt_chassis_torso_s.png",
+      "original": "i_c_t7_nrc_robot_grunt_chassis_torso_s",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_c_t7_zom_zod_robot_upper_m": {
+      "from": "art/companion_maps/authored/i_c_t7_zom_zod_robot_upper_m.png",
+      "original": "i_c_t7_zom_zod_robot_upper_m",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_t7_veh_decal_bolt_03_b_m": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_t7_veh_decal_bolt_03_b_m.png",
+      "original": "i_t7_veh_decal_bolt_03_b_m",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_detail_map_scratches_n": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/wpn_t7_zmb_zod_sword/_images/detail_map_scratches_n.png",
+      "original": "detail_map_scratches_n",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_t7_micro_metal_rough_01_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_t7_micro_metal_rough_01_n.png",
+      "original": "i_t7_micro_metal_rough_01_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_p7_microtile_plaster_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_mp_heyday/_images/i_mtl_p7_microtile_plaster_c.png",
+      "original": "i_mtl_p7_microtile_plaster_c",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_m": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_veh_t7_drone_attack_body_litecolor_test_m.png",
+      "original": "i_veh_t7_drone_attack_body_litecolor_test_m",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_body_dead_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_veh_t7_drone_attack_body_dead_o.png",
+      "original": "i_veh_t7_drone_attack_body_dead_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_body_litecolor_test_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_veh_t7_drone_attack_body_litecolor_test_n.png",
+      "original": "i_veh_t7_drone_attack_body_litecolor_test_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_wing_gun_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_attack_wing_gun_tile_r.png",
+      "original": "i_veh_t7_drone_attack_wing_gun_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_wing_gun_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_attack_wing_gun_o.png",
+      "original": "i_veh_t7_drone_attack_wing_gun_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_attack_wing_gun_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_attack_wing_gun_n.png",
+      "original": "i_veh_t7_drone_attack_wing_gun_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc_decal_greeble_10_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_mp_arena/_images/i_veh_t7_dlc_decal_greeble_10_o.png",
+      "original": "i_veh_t7_dlc_decal_greeble_10_o",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc_decal_greeble_10_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_mp_arena/_images/i_veh_t7_dlc_decal_greeble_10_r.png",
+      "original": "i_veh_t7_dlc_decal_greeble_10_r",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc_decal_greeble_10_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_mp_arena/_images/i_veh_t7_dlc_decal_greeble_10_n.png",
+      "original": "i_veh_t7_dlc_decal_greeble_10_n",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc_decal_greeble_08_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_mp_city/_images/i_veh_t7_dlc_decal_greeble_08_c.png",
+      "original": "i_veh_t7_dlc_decal_greeble_08_c",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_cap_r.png",
+      "original": "i_veh_t7_dlc3_drone_raps_cap_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_cap_o.png",
+      "original": "i_veh_t7_dlc3_drone_raps_cap_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_lumpy02_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_mtl_veh_t7_dlc_lumpy02_n.png",
+      "original": "i_mtl_veh_t7_dlc_lumpy02_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_afr_dirt_mud_01_nml": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/afr_dirt_mud_01_nml.png",
+      "original": "afr_dirt_mud_01_nml",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_cap_n.png",
+      "original": "i_veh_t7_dlc3_drone_raps_cap_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_t7_dirt_chunky_01_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_t7_dirt_chunky_01_c.png",
+      "original": "i_t7_dirt_chunky_01_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_base_paint_21_dead02_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_mtl_veh_t7_dlc_base_paint_21_dead02_c.png",
+      "original": "i_mtl_veh_t7_dlc_base_paint_21_dead02_c",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_oilslick_desat_tile_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_mtl_veh_t7_oilslick_desat_tile_c.png",
+      "original": "i_mtl_veh_t7_oilslick_desat_tile_c",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_detail_char03_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_veh_t7_detail_char03_c.png",
+      "original": "i_veh_t7_detail_char03_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_treads_r.png",
+      "original": "i_veh_t7_dlc3_drone_raps_treads_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_treads_o.png",
+      "original": "i_veh_t7_dlc3_drone_raps_treads_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_lumpy01_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_island/_images/i_mtl_veh_t7_dlc_lumpy01_n.png",
+      "original": "i_mtl_veh_t7_dlc_lumpy01_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_treads_n.png",
+      "original": "i_veh_t7_dlc3_drone_raps_treads_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_base_paint_04_dead_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_mtl_veh_t7_dlc_base_paint_04_dead_c.png",
+      "original": "i_mtl_veh_t7_dlc_base_paint_04_dead_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_body_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_body_r.png",
+      "original": "i_veh_t7_dlc3_drone_raps_body_r",
+      "size": [
+        512,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_body_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_body_o.png",
+      "original": "i_veh_t7_dlc3_drone_raps_body_o",
+      "size": [
+        256,
+        128
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_body_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_body_n.png",
+      "original": "i_veh_t7_dlc3_drone_raps_body_n",
+      "size": [
+        512,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_teeth_r.png",
+      "original": "i_veh_t7_dlc3_drone_raps_teeth_r",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_o": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_teeth_o.png",
+      "original": "i_veh_t7_dlc3_drone_raps_teeth_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_teeth_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_teeth_n.png",
+      "original": "i_veh_t7_dlc3_drone_raps_teeth_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_detail_char03_g": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_common/_images/i_veh_t7_detail_char03_g.png",
+      "original": "i_veh_t7_detail_char03_g",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_lumpy03_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_island/_images/i_mtl_veh_t7_dlc_lumpy03_n.png",
+      "original": "i_mtl_veh_t7_dlc_lumpy03_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_sentinel_drone_pods_glass02_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_sentinel_drone_pods_glass02_c.png",
+      "original": "i_veh_t7_dlc3_sentinel_drone_pods_glass02_c",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_p7_fre_clouds_01_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_p7_fre_clouds_01_c.png",
+      "original": "i_p7_fre_clouds_01_c",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_treads_emissive_c.png",
+      "original": "i_veh_t7_dlc3_drone_raps_treads_emissive_c",
+      "size": [
+        256,
+        128
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_body_emissive_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_body_emissive_c.png",
+      "original": "i_veh_t7_dlc3_drone_raps_body_emissive_c",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_cap_emissive_c.png",
+      "original": "i_veh_t7_dlc3_drone_raps_cap_emissive_c",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_dlc3_drone_raps_cap_star_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_veh_t7_dlc3_drone_raps_cap_star_r.png",
+      "original": "i_veh_t7_dlc3_drone_raps_cap_star_r",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_base_paint_20_dead_c": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_mtl_veh_t7_dlc_base_paint_20_dead_c.png",
+      "original": "i_mtl_veh_t7_dlc_base_paint_20_dead_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_decal_bolt_10_other_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_veh_t7_decal_bolt_10_other_r.png",
+      "original": "i_veh_t7_decal_bolt_10_other_r",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "i_tod_ptn_t7_veh_decal_bolt_10_other_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_t7_veh_decal_bolt_10_other_n.png",
+      "original": "i_t7_veh_decal_bolt_10_other_n",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "i_tod_ptn_t7_zm_isl_dirt_fertile_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_t7_zm_isl_dirt_fertile_r.png",
+      "original": "i_t7_zm_isl_dirt_fertile_r",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_mixmap_06_r": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_mtl_veh_t7_dlc_mixmap_06_r.png",
+      "original": "i_mtl_veh_t7_dlc_mixmap_06_r",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "i_tod_ptn_veh_t7_detail_char02_n": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/characters/t7/_images/i_veh_t7_detail_char02_n.png",
+      "original": "i_veh_t7_detail_char02_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_mtl_veh_t7_dlc_noise_g": {
+      "from": "T7 Assets V2.8/model_export/_midgetblaster/props/p7_zm_stalingrad/_images/i_mtl_veh_t7_dlc_noise_g.png",
+      "original": "i_mtl_veh_t7_dlc_noise_g",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_t7_decal_grunge_splatter_c": {
+      "from": "art/companion_maps/authored/i_t7_decal_grunge_splatter_c.png",
+      "original": "i_t7_decal_grunge_splatter_c",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_swingarm_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_swingarm_tile_r.png",
+      "original": "i_veh_t7_drone_amws_swingarm_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_swingarm_o": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/veh_t7_drone_amws/_images/i_veh_t7_drone_amws_swingarm_o.tiff",
+      "original": "i_veh_t7_drone_amws_swingarm_o",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_swingarm_n": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/veh_t7_drone_amws/_images/i_veh_t7_drone_amws_swingarm_n.tiff",
+      "original": "i_veh_t7_drone_amws_swingarm_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_base_emissive_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_base_emissive_o.png",
+      "original": "i_veh_t7_drone_amws_base_emissive_o",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_base_emissive_e": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_base_emissive_e.png",
+      "original": "i_veh_t7_drone_amws_base_emissive_e",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_base_emissive_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_base_emissive_n.png",
+      "original": "i_veh_t7_drone_amws_base_emissive_n",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_base_emissive_g": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_base_emissive_g.png",
+      "original": "i_veh_t7_drone_amws_base_emissive_g",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_sensor01_lens_g": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_sensor01_lens_g.png",
+      "original": "i_veh_t7_drone_amws_sensor01_lens_g",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_sensor02_lens_g": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_sensor02_lens_g.png",
+      "original": "i_veh_t7_drone_amws_sensor02_lens_g",
+      "size": [
+        128,
+        128
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_hull_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_hull_tile_r.png",
+      "original": "i_veh_t7_drone_amws_armored_hull_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_hull_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_hull_o.png",
+      "original": "i_veh_t7_drone_amws_armored_hull_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_hull_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_hull_n.png",
+      "original": "i_veh_t7_drone_amws_armored_hull_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_treadcovers_tile_r.png",
+      "original": "i_veh_t7_drone_amws_armored_treadcovers_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_treadcovers_o.png",
+      "original": "i_veh_t7_drone_amws_armored_treadcovers_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_treadcovers_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_treadcovers_n.png",
+      "original": "i_veh_t7_drone_amws_armored_treadcovers_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_launcher_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_launcher_tile_r.png",
+      "original": "i_veh_t7_drone_amws_launcher_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_launcher_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_launcher_o.png",
+      "original": "i_veh_t7_drone_amws_launcher_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_launcher_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_launcher_n.png",
+      "original": "i_veh_t7_drone_amws_launcher_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_turret_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_turret_tile_r.png",
+      "original": "i_veh_t7_drone_amws_armored_turret_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_turret_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_turret_o.png",
+      "original": "i_veh_t7_drone_amws_armored_turret_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_turret_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_turret_n.png",
+      "original": "i_veh_t7_drone_amws_armored_turret_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_base_emissive_scroll_e": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_base_emissive_scroll_e.png",
+      "original": "i_veh_t7_drone_amws_base_emissive_scroll_e",
+      "size": [
+        128,
+        32
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_minigun_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_minigun_tile_r.png",
+      "original": "i_veh_t7_drone_amws_minigun_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_minigun_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_minigun_o.png",
+      "original": "i_veh_t7_drone_amws_minigun_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_minigun_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_minigun_n.png",
+      "original": "i_veh_t7_drone_amws_minigun_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_minigun_tile_g": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_minigun_tile_g.png",
+      "original": "i_veh_t7_drone_amws_minigun_tile_g",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_swingarm_tile_r.png",
+      "original": "i_veh_t7_drone_amws_armored_swingarm_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_o": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_swingarm_o.png",
+      "original": "i_veh_t7_drone_amws_armored_swingarm_o",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_swingarm_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_swingarm_n.png",
+      "original": "i_veh_t7_drone_amws_armored_swingarm_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_wheels_tile_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_wheels_tile_r.png",
+      "original": "i_veh_t7_drone_amws_wheels_tile_r",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_wheels_o": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/veh_t7_drone_amws/_images/i_veh_t7_drone_amws_wheels_o.tiff",
+      "original": "i_veh_t7_drone_amws_wheels_o",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_t7_drone_amws_wheels_n": {
+      "from": "C:/BO3Tools/TOD2Cybercity/model_export/black_ops_3/veh_t7_drone_amws/_images/i_t7_drone_amws_wheels_n.tiff",
+      "original": "i_t7_drone_amws_wheels_n",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_turret_grenade_r": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_turret_grenade_r.png",
+      "original": "i_veh_t7_drone_amws_armored_turret_grenade_r",
+      "size": [
+        256,
+        256
+      ]
+    },
+    "i_tod_ptn_veh_t7_drone_amws_armored_turret_grenade_n": {
+      "from": "art/companion_maps/authored/i_veh_t7_drone_amws_armored_turret_grenade_n.png",
+      "original": "i_veh_t7_drone_amws_armored_turret_grenade_n",
+      "size": [
+        256,
+        256
+      ]
+    }
+  },
+  "stock_images_referenced": [
+    "core_sand_med_n",
+    "i_c_t7_shared_gray_one_channel_2",
+    "i_c_t7_zmb_zod_robot_arm_c",
+    "i_c_t7_zom_zod_robot_cloth_n",
+    "i_c_t7_zom_zod_robot_foot_n",
+    "i_c_t7_zom_zod_robot_foot_o",
+    "i_c_t7_zom_zod_robot_leg_n",
+    "i_c_t7_zom_zod_robot_limbs_n",
+    "i_generic_lookup",
+    "i_t7_decal_blast_01_c",
+    "i_t7_decal_blast_01_n",
+    "i_t7_decal_grunge_burnt_stain_01_c",
+    "i_t7_decal_grunge_burnt_stain_01_g",
+    "i_t7_decal_grunge_burnt_stain_01_r",
+    "i_t7_metal_chain_c",
+    "i_t7_metal_chain_n",
+    "i_t7_metal_chain_o",
+    "i_t7_micro_dusty_01_c",
+    "i_t7_micro_metal_bare_scuffed_01_c",
+    "i_t7_micro_metal_painted_01_c",
+    "i_t7_micro_metal_rust_02_n",
+    "i_t7_micro_metal_rust_n",
+    "i_t7_micro_plaster_smooth_dirty_01_c",
+    "i_t7_micro_plastic_rough_02_g",
+    "i_t7_micro_plastic_rough_heavy_01_g",
+    "i_t7_veh_decal_bolt_01_c",
+    "i_t7_veh_decal_bolt_01_n",
+    "i_t7_veh_decal_bolt_09_n",
+    "i_t7_veh_decal_bolt_09_o",
+    "i_veh_t7_detail_char02_g",
+    "i_veh_t7_detail_char05_c",
+    "i_veh_t7_detail_char_01_g"
+  ],
+  "not_in_pack": {}
+}

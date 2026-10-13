@@ -1,0 +1,1366 @@
+{
+ "files": {
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_blast_wall_concrete_decal_c.png": "9241a67c0ed941ec5379e4913ebed56563759277b7bd2bd153004e7807e4888c",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_wall_mobile_dep_decal_details_01_c.png": "417e943814fc8827afdaf529e8ae23efa165b7e2062e80fe502dedf0f8190e2c",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_wall_mobile_dep_decal_details_01_n.png": "74c87fcb19335e713b176f0910bfbb54a1f802f893848c03f09218984341cef5",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_c.png": "28cd1f4420719bd5890f2ab9fb22ab75b9aac09f1f281dfe301aa80c398001eb",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_m.png": "24137ea2b61234e161f166543a5ca0a2264b10978917164da4ef13c4f8c14d19",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_n.png": "fba00ec6831f0ada125a656a8e8219d0b3fc3ba36b4753446a8c02280c9079b0",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_generator_m.png": "795614bea0758d6e9bb9ddbdd61f3e1b2126cc7f55fd9d2ef2b5537a26ef27a3",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_metal05_m.png": "7f6f9809455679b17a4ab8ddc9c0cf6c4b6576018ae7018537c37e3c3700f131",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_metal05_n.png": "a2b30d9c5a662a4c18be61b5b786f9e7cb945babd5c036110464026aafbd19e1",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_painted_red_c.png": "192066f0606653432e15fe60a4ac5b72c15e3df1007cbba80c01547a8b172a85",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_pap_platform_set_panel_m.png": "24bacc6d8b3672f99c89d1b57b58c628ce910915cc6a6d28fbc0d7002dd96ddc",
+  "model_export/tod_jumppad/_images/i_tod_jp_mtl_p7_zm_ctl_pap_platform_set_panel_n.png": "296798e02bb981e3e2f00e89d7fe95856829385c914968be3564dc145f9d164a",
+  "model_export/tod_jumppad/_images/i_tod_jp_p7_zm_ctl_console_deathray_set_decal_caution_c.png": "e8377c154498b1c5e10a3c2c94de020ac2f7ef70210328df2b4ad881d4be59c6",
+  "model_export/tod_jumppad/_images/i_tod_jp_p7_zm_ctl_jumpsphere_set_decal_signage_c.png": "29105503a5b92287d0fce8037515fd0a6dcb4e071847e0e15926194c470a6901",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_aqu_decal_signage_wall_02_n.png": "d4997e7f9bcd40e780f2582ed366232529e6c39beb6f5514ccf4c26fc82f2e89",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_concrete_wall_damaged_01_blend_r.png": "f429d04c32c1b66ed88c801f77365860f4d2a193270193c0b29cb7b92ff7390f",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_concrete_wall_painted_peel_01_blend_m.png": "f4bc0225552bdda3f036f59a8bc952e24d979aee52ab9696aeadeacba4375a70",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_damage_metal_rust_edge_01_c.png": "9247df81de4c8d306a4e2224399f777901d7e6a5c431827a27e2158fd9eba2e8",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_damage_metal_rust_edge_01_n.png": "f32111a9886e5eefb9e0b478e13cf021b8742d13a9107567101239e135c70a3a",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_grunge_calcium_drip_01_c.png": "74d18fa44d60c41a5a57a45b00a931d8137c8185b011fb6b66d486a07b4e32ca",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_grunge_paint_discolored_01_c.png": "260655a6a1a38a663191022558d1b632f419ad1288068d82e6fb6a42b935b102",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_grunge_paint_discolored_01_g.png": "d9227123f056ce830f2e596817cc0283b9bc2dad3c54d9dffa5dadec8462b63c",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_metal_fasteners_c.png": "65e7804e10f41c5c0d1bb074196f0a0895799b6b5383915c36820ccad34b7800",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_metal_fasteners_g.png": "4cfba0f02680097facd3377278fdd932cc87e785e2bcbfdadc79f44aa586adbc",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_metal_fasteners_n.png": "0b9ac38ae906b5d24219d2b705d3d8582e6b2b705b42aecb2b8fa4e6429efa8d",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_signage_numbers_grungy_c.png": "318970a83b4c3f3f02a21a690fcb2513fe4637586c9f0ccea71860e3a3cb4185",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_tech_lines_c.png": "578b5149d6da5e6fe6c71e02a10ccf9efa5e262f64f57bfdaccb4b293e3e402d",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_decal_tech_lines_n.png": "d5e00c6173659ecc14dde64ed7cc6bb1e9b5c4b0ab510f8964ded96e04198d9e",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_micro_metal_painted_02_g.png": "e8f6baf1d881e5cb3796b20f147c78b6103427a7108e9ef0c72dda966331b660",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_micro_metal_painted_02_s.png": "cbd2ae5e67cafb84f82ab9de9cea5cf80a0aa82c3de0bc753d5e9b1d981b4fb8",
+  "model_export/tod_jumppad/_images/i_tod_jp_t7_zm_ctl_container115_glass_bubbles_c.png": "097b71c076bb6f7f8fa34deb7c1cd8418c4a5baa4c3ddeac33a5e27951b1a459",
+  "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod0.xmodel_bin": "163b0cc4809849bcb225ac6c11665816f4c68df0327f3549c840a55971f6feb8",
+  "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod1.xmodel_bin": "2f6780922ce0915abeec832a0bf2478fe9d2d00a1995fc2907cee6a729abe164",
+  "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod2.xmodel_bin": "a84a422cb0a381949a513e911a4f1950131bd454e508f6b3ec5754869603d2fd",
+  "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod3.xmodel_bin": "8a2c7c2564923a146b7d91a96e8d839b841df9af4054649f7341c16bfba626a0",
+  "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod0.xmodel_bin": "52622edb8e70967e07cd0ebead5b364864c5f48c9447703b788c31864bb49fd5",
+  "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod1.xmodel_bin": "370a66e4d166fcfc5f67ea4418aee68883318d517bb2928e3a161beddb2803cb",
+  "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod2.xmodel_bin": "cfd65bba7a4d1586040d9ed24d768cc8486d929c15c4895d072b0c58ec51fae0",
+  "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod3.xmodel_bin": "de56d74acb8e573b223f844c43892683bb0f6279872f7ebca6af61544a05f9e5",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod0.xmodel_bin": "cbe728c7ad16599b87b3264ca569205ea08026a38d498f0a127189fb02c20315",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod1.xmodel_bin": "f1de24a9ad5bebf5fd58479613d563108630d37e67e416c35eba6f9776bf2b2d",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod2.xmodel_bin": "2b074d91a311421ae58e5cac289549600af58b1439c42186f02d4b891be68b24",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod3.xmodel_bin": "37a191992bc2685995dab0b57967ad83afb36a1e6e6a29461b7970f1a0d370c1",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod4.xmodel_bin": "1a9350e2472a72cacf65ca88e20ce684d47f23166db9752887aedc0cd5fb9c5d",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod5.xmodel_bin": "dec5b842b3022811d4b21a686d3f5770206bf0cb8020f124a7d72e6d138c48e8",
+  "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod6.xmodel_bin": "1cd1080cd81c563e67761edf8bd27d9f6b7ccc34ffc458ad979b7f7583894573",
+  "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod0.xmodel_bin": "cbcd1729fb2bca48ee24b87803a0767aaa4cdd84b6ea32fe12f23f196d356ab0",
+  "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod1.xmodel_bin": "606f8e69e56fe9d003c8d951af51748a560f36755b41ce16728457d721314a5c",
+  "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod2.xmodel_bin": "54db30da5e1fb8218b7bc6e77691cfb6dd4c6ba6c7e454e32c033b9584a9d731",
+  "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod3.xmodel_bin": "1849f1a031125de5021760e0490f00881382852d477aefd2bac6fd728c0e688f",
+  "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod0.xmodel_bin": "bf9deb6aeb030c9a33231d6e11d4632775442fd3944b33b5e54f37320f7b9794",
+  "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod1.xmodel_bin": "b197e7d109e85ed0f750ad1cc89bc5f4fe5d52c5b86aa5fbffab90b890305e3c",
+  "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod2.xmodel_bin": "222a5d1a014befb3ecf297a0ba64c2d7e620879e0b7990a3c089b8dc8f76d11e",
+  "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod3.xmodel_bin": "f8216089ea6c3654f933e00566889e7a4d54903e6b658f0a1395b57618d477f4",
+  "sound_assets/tod/jumppad/tod_jumppad_charge.wav": "f0a0e2e63699903181694b8ffc682d1d97c3eba3bcf95277e39c50eb57a6e0e0",
+  "sound_assets/tod/jumppad/tod_jumppad_land.wav": "339a8a7b885cc0b80ec0dfc0c4e85b4253cd4152e189f96ce1db4283e3d833e5",
+  "sound_assets/tod/jumppad/tod_jumppad_launch.wav": "cd8c9679e10a86962300fc9a8d506bd4ff28e79f218c1eca74c9625649cbdf1c",
+  "source_data/tod_jumppad.gdt": "b2d41c8df8ba14cdebe3dc7d46b7066398041f90b0fad0d19c5e14a20f5f3dfd"
+ },
+ "images": {
+  "i_tod_jp_mtl_p7_blast_wall_concrete_decal_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_mp_waterpark/_images/i_mtl_p7_blast_wall_concrete_decal_c.png",
+   "pack_name": "i_mtl_p7_blast_wall_concrete_decal_c",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_wall_mobile_dep_decal_details_01_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_mp_waterpark/_images/i_mtl_p7_wall_mobile_dep_decal_details_01_c.png",
+   "pack_name": "i_mtl_p7_wall_mobile_dep_decal_details_01_c",
+   "shipped": [
+    256,
+    256
+   ],
+   "size": [
+    256,
+    256
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_wall_mobile_dep_decal_details_01_n": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "pack": "model_export/_midgetblaster/props/p7_mp_waterpark/_images/i_mtl_p7_wall_mobile_dep_decal_details_01_n.png",
+   "pack_name": "i_mtl_p7_wall_mobile_dep_decal_details_01_n",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_c": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_m": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "alphaRevealMap",
+    "colorMap00"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_bracket_n": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_generator_m": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_generator_m.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_generator_m",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "alphaRevealMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_metal05_m": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_metal05_m.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_metal05_m",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "alphaRevealMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_metal05_n": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_metal05_n.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_metal05_n",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_jumpsphere_set_painted_red_c": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_jumpsphere_set_painted_red_c.png",
+   "pack_name": "i_mtl_p7_zm_ctl_jumpsphere_set_painted_red_c",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_pap_platform_set_panel_m": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_pap_platform_set_panel_m.png",
+   "pack_name": "i_mtl_p7_zm_ctl_pap_platform_set_panel_m",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "cosinePowerMap"
+   ]
+  },
+  "i_tod_jp_mtl_p7_zm_ctl_pap_platform_set_panel_n": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_mtl_p7_zm_ctl_pap_platform_set_panel_n.png",
+   "pack_name": "i_mtl_p7_zm_ctl_pap_platform_set_panel_n",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_p7_zm_ctl_console_deathray_set_decal_caution_c": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_p7_zm_ctl_console_deathray_set_decal_caution_c.png",
+   "pack_name": "i_p7_zm_ctl_console_deathray_set_decal_caution_c",
+   "shipped": [
+    512,
+    256
+   ],
+   "size": [
+    512,
+    256
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_p7_zm_ctl_jumpsphere_set_decal_signage_c": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/props/p7_zm_castle/_images/i_p7_zm_ctl_jumpsphere_set_decal_signage_c.png",
+   "pack_name": "i_p7_zm_ctl_jumpsphere_set_decal_signage_c",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_aqu_decal_signage_wall_02_n": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_aqu_decal_signage_wall_02_n.png",
+   "pack_name": "i_t7_aqu_decal_signage_wall_02_n",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_t7_concrete_wall_damaged_01_blend_r": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_concrete_wall_damaged_01_blend_r.png",
+   "pack_name": "i_t7_concrete_wall_damaged_01_blend_r",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "alphaRevealMap"
+   ]
+  },
+  "i_tod_jp_t7_concrete_wall_painted_peel_01_blend_m": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_concrete_wall_painted_peel_01_blend_m.png",
+   "pack_name": "i_t7_concrete_wall_painted_peel_01_blend_m",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap00"
+   ]
+  },
+  "i_tod_jp_t7_decal_damage_metal_rust_edge_01_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_damage_metal_rust_edge_01_c.png",
+   "pack_name": "i_t7_decal_damage_metal_rust_edge_01_c",
+   "shipped": [
+    256,
+    128
+   ],
+   "size": [
+    256,
+    128
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_damage_metal_rust_edge_01_n": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_damage_metal_rust_edge_01_n.png",
+   "pack_name": "i_t7_decal_damage_metal_rust_edge_01_n",
+   "shipped": [
+    256,
+    128
+   ],
+   "size": [
+    256,
+    128
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_grunge_calcium_drip_01_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_mp_waterpark/_images/i_t7_decal_grunge_calcium_drip_01_c.png",
+   "pack_name": "i_t7_decal_grunge_calcium_drip_01_c",
+   "shipped": [
+    1024,
+    512
+   ],
+   "size": [
+    1024,
+    512
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_grunge_paint_discolored_01_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_grunge_paint_discolored_01_c.png",
+   "pack_name": "i_t7_decal_grunge_paint_discolored_01_c",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_grunge_paint_discolored_01_g": {
+   "block": "authored from i_mtl_p7_zm_ctl_box_jewelry_vintage_metal_g",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_grunge_paint_discolored_01_g.png",
+   "pack_name": "i_t7_decal_grunge_paint_discolored_01_g",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "cosinePowerMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_metal_fasteners_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_metal_fasteners_c.png",
+   "pack_name": "i_t7_decal_metal_fasteners_c",
+   "shipped": [
+    512,
+    256
+   ],
+   "size": [
+    512,
+    256
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_metal_fasteners_g": {
+   "block": "authored from i_mtl_p7_zm_ctl_box_jewelry_vintage_metal_g",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_metal_fasteners_g.png",
+   "pack_name": "i_t7_decal_metal_fasteners_g",
+   "shipped": [
+    64,
+    32
+   ],
+   "size": [
+    64,
+    32
+   ],
+   "used_as": [
+    "cosinePowerMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_metal_fasteners_n": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_metal_fasteners_n.png",
+   "pack_name": "i_t7_decal_metal_fasteners_n",
+   "shipped": [
+    64,
+    32
+   ],
+   "size": [
+    64,
+    32
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_signage_numbers_grungy_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_signage_numbers_grungy_c.png",
+   "pack_name": "i_t7_decal_signage_numbers_grungy_c",
+   "shipped": [
+    1024,
+    1024
+   ],
+   "size": [
+    1024,
+    1024
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_tech_lines_c": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_c",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_tech_lines_c.png",
+   "pack_name": "i_t7_decal_tech_lines_c",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap"
+   ]
+  },
+  "i_tod_jp_t7_decal_tech_lines_n": {
+   "block": "authored from i_mtl_p7_zm_ctl_jumpsphere_set_bracket_n",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_decal_tech_lines_n.png",
+   "pack_name": "i_t7_decal_tech_lines_n",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "normalMap"
+   ]
+  },
+  "i_tod_jp_t7_micro_metal_painted_02_g": {
+   "block": "authored from i_mtl_p7_zm_ctl_box_jewelry_vintage_metal_g",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_micro_metal_painted_02_g.png",
+   "pack_name": "i_t7_micro_metal_painted_02_g",
+   "shipped": [
+    256,
+    256
+   ],
+   "size": [
+    256,
+    256
+   ],
+   "used_as": [
+    "colorMap02",
+    "cosinePowerMap"
+   ]
+  },
+  "i_tod_jp_t7_micro_metal_painted_02_s": {
+   "block": "authored from i_mtl_p7_zm_ctl_trunk_wood_vintage_metal_s",
+   "pack": "model_export/_midgetblaster/props/p7_common/_images/i_t7_micro_metal_painted_02_s.png",
+   "pack_name": "i_t7_micro_metal_painted_02_s",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap03",
+    "specColorMap"
+   ]
+  },
+  "i_tod_jp_t7_zm_ctl_container115_glass_bubbles_c": {
+   "block": "pack block",
+   "pack": "model_export/_midgetblaster/weapons/t7/_images/i_t7_zm_ctl_container115_glass_bubbles_c.png",
+   "pack_name": "i_t7_zm_ctl_container115_glass_bubbles_c",
+   "shipped": [
+    512,
+    512
+   ],
+   "size": [
+    512,
+    512
+   ],
+   "used_as": [
+    "colorMap01",
+    "colorMap02"
+   ]
+  }
+ },
+ "materials": [
+  "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+  "mtl_p7_zm_ctl_container115_metal_glass_bubbles",
+  "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+  "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+  "mtl_p7_zm_ctl_jumpsphere_coil_wire_blue",
+  "mtl_p7_zm_ctl_jumpsphere_coil_wire_red",
+  "mtl_p7_zm_ctl_jumpsphere_set_decal01",
+  "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+  "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+  "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+  "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_06",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+  "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+  "mtl_p7_zm_ctl_jumpsphere_set_generator",
+  "mtl_p7_zm_ctl_jumpsphere_set_light",
+  "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+  "mtl_p7_zm_ctl_jumpsphere_set_line",
+  "mtl_p7_zm_ctl_jumpsphere_set_logo",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+  "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+  "mtl_p7_zm_ctl_jumpsphere_set_nail",
+  "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+  "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+  "mtl_p7_zm_ctl_jumpsphere_set_panel01",
+  "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+  "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+  "mtl_p7_zm_ctl_jumpsphere_set_screw",
+  "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+  "mtl_p7_zm_ctl_jumpsphere_set_signage",
+  "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+  "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+  "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+  "mtl_p7_zm_ctl_jumpsphere_set_snow03",
+  "mtl_p7_zm_ctl_jumpsphere_set_weld_01"
+ ],
+ "models": {
+  "tod_jumppad_deck_off": {
+   "lods": [
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod0.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 12046
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod1.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 9176
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod2.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 6124
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_off/tod_jumppad_deck_off_lod3.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 3571
+    }
+   ],
+   "pack": "p7_zm_ctl_jumpsphere_combined_snow"
+  },
+  "tod_jumppad_deck_on": {
+   "lods": [
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod0.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 12046
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod1.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 9176
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod2.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 6124
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_deck_on/tod_jumppad_deck_on_lod3.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow03"
+     ],
+     "tris": 3571
+    }
+   ],
+   "pack": "p7_zm_ctl_jumpsphere_combined_snow_blue"
+  },
+  "tod_jumppad_frame": {
+   "lods": [
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod0.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_blue",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_06",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_panel01",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_weld_01",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 79952
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod1.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_blue",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_panel01",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_weld_01",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 53920
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod2.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_blue",
+      "mtl_p7_zm_ctl_jumpsphere_coil_wire_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_panel01",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_ctl_jumpsphere_set_weld_01",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 28972
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod3.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 14982
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod4.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper01",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal08",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal09",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal10",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 8322
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod5.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04_backlit",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal06",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 4245
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_frame/tod_jumppad_frame_lod6.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_decal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_03",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_04",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_07",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_08",
+      "mtl_p7_zm_ctl_jumpsphere_set_generator",
+      "mtl_p7_zm_ctl_jumpsphere_set_logo",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal01",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal04",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal07",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02",
+      "mtl_p7_zm_der_signage_locaton"
+     ],
+     "tris": 2584
+    }
+   ],
+   "pack": "p7_zm_ctl_jumpsphere_snow"
+  },
+  "tod_jumppad_land_off": {
+   "lods": [
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod0.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 22600
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod1.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 19119
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod2.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 13333
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_off/tod_jumppad_land_off_lod3.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 7007
+    }
+   ],
+   "pack": "p7_zm_ctl_jumpsphere_landing_pad_snow"
+  },
+  "tod_jumppad_land_on": {
+   "lods": [
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod0.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_container115_metal_glass_bubbles",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail",
+      "mtl_p7_zm_ctl_jumpsphere_set_nail02",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 22600
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod1.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_container115_metal_glass_bubbles",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 19119
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod2.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_container115_metal_glass_bubbles",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 13333
+    },
+    {
+     "degenerate": 0,
+     "file": "model_export/tod_jumppad/tod_jumppad_land_on/tod_jumppad_land_on_lod3.xmodel_bin",
+     "materials": [
+      "mtl_p7_zm_ctl_console_deathray_set_decal_caution",
+      "mtl_p7_zm_ctl_container115_metal_glass_bubbles",
+      "mtl_p7_zm_ctl_jumpsphere_coil_copper",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_01",
+      "mtl_p7_zm_ctl_jumpsphere_set_dirty_02",
+      "mtl_p7_zm_ctl_jumpsphere_set_light_blue",
+      "mtl_p7_zm_ctl_jumpsphere_set_line",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal02",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal03",
+      "mtl_p7_zm_ctl_jumpsphere_set_metal05",
+      "mtl_p7_zm_ctl_jumpsphere_set_painted_red",
+      "mtl_p7_zm_ctl_jumpsphere_set_rubber",
+      "mtl_p7_zm_ctl_jumpsphere_set_rust01",
+      "mtl_p7_zm_ctl_jumpsphere_set_screw02",
+      "mtl_p7_zm_ctl_jumpsphere_set_signage_numbers",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow01",
+      "mtl_p7_zm_ctl_jumpsphere_set_snow02"
+     ],
+     "tris": 7007
+    }
+   ],
+   "pack": "p7_zm_ctl_jumpsphere_landing_pad_snow_blue"
+  }
+ },
+ "pack": "T7 Assets V2.8.rar",
+ "sounds": {
+  "tod_jumppad_charge": {
+   "gain_db": 6.0,
+   "limit": 0.84,
+   "m_max_lufs": -11.0,
+   "mono": true,
+   "pack": "sound_assets/zmb/level/zm_castle/flinger/flinger_activate.wav",
+   "true_peak_dbfs": -1.1,
+   "what": "the pad crackles awake (power on) and fires (every launch)"
+  },
+  "tod_jumppad_land": {
+   "gain_db": 7.0,
+   "limit": 0.84,
+   "m_max_lufs": -11.3,
+   "mono": true,
+   "pack": "sound_assets/zmb/level/zm_castle/flinger/flinger_land.wav",
+   "true_peak_dbfs": -1.0,
+   "what": "the touch-down thud on the landing pad"
+  },
+  "tod_jumppad_launch": {
+   "gain_db": 1.0,
+   "limit": 0.84,
+   "m_max_lufs": -8.1,
+   "mono": true,
+   "pack": "sound_assets/zmb/level/zm_castle/flinger/flinger_fly.wav",
+   "true_peak_dbfs": -0.3,
+   "what": "the fling: 3D on the rider's mover"
+  }
+ },
+ "stock_images": [
+  "i_generic_lookup",
+  "i_t7_concrete_painted_wet_white_r",
+  "i_t7_decal_damage_burned_n",
+  "i_t7_decal_grunge_rust_04_c",
+  "i_t7_decal_signage_caution_stripes_c",
+  "i_t7_micro_concrete_bare_weathered_01_c",
+  "i_t7_micro_concrete_bare_weathered_01_n",
+  "i_t7_micro_grunge_rust_02_c",
+  "i_t7_micro_grunge_rust_02_n",
+  "i_t7_micro_metal_bare_scuffed_02_g",
+  "i_t7_micro_metal_painted_01_c",
+  "i_t7_micro_metal_painted_02_c",
+  "i_t7_micro_metal_painted_02_n",
+  "i_t7_micro_metal_painted_rough_01_g",
+  "i_t7_micro_metal_painted_scuffed_01_n",
+  "i_t7_micro_metal_rust_01_c",
+  "i_t7_micro_metal_rust_01_n",
+  "i_t7_micro_metal_rust_n",
+  "i_t7_micro_plastic_rough_02_n",
+  "i_t7_snow_powder_01_n",
+  "i_t7_snow_powder_02_c",
+  "i_t7_snow_powder_02_n",
+  "i_t7_snow_powder_03_r",
+  "i_t7_zm_decal_logo_935_c",
+  "i_t7_zm_decal_logo_935_g",
+  "i_t7_zm_decal_logo_935_r"
+ ],
+ "stock_materials": [
+  "mtl_p7_zm_der_signage_locaton"
+ ],
+ "substitutes": {
+  "i_mtl_p7_cai_hav_dropship_dmg_set_ext_burned_m": "i_mtl_p7_zm_ctl_jumpsphere_set_generator_m",
+  "i_mtl_p7_zm_zod_gatestone_set_metal02_m": "i_mtl_p7_zm_ctl_jumpsphere_set_metal05_m",
+  "i_mtl_p7_zur_metro_sign_terminal_set_snow_2_c": "i_t7_snow_powder_02_c",
+  "i_mtl_p7_zur_metro_train_base_03_m": "i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m",
+  "i_mtl_p7_zur_nw_foundry_set_concrete_m": "i_mtl_p7_zm_ctl_jumpsphere_set_bracket_m",
+  "i_mtl_p7_zur_nw_foundry_set_screw_n": "$normal",
+  "i_mtl_p7_zur_nw_window_industrial_01_metal_m": "i_mtl_p7_zm_ctl_jumpsphere_set_metal05_m",
+  "i_mtl_p7_zur_train_wreckage_set_dmg_n": "$normal"
+ }
+}
