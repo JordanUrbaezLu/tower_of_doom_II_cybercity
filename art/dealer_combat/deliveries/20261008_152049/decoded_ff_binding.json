@@ -1,0 +1,743 @@
+{
+  "verified_at": "2026-10-08T15:22:13.066910-04:00",
+  "source_root": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity",
+  "source_manifest_sha256": "1ac855fe597a7fd64d92a7981310f41a1726d245f09b75619f28f8a4f8b409dc",
+  "alarm_source_deployment_parity": [
+    {
+      "path": "source_data/tod_crown_alarm.gdt",
+      "sha256": "f59c2344bafb54bb8b3e5c6259090cd4426ad4f77f65b10390989155480b219f",
+      "source_mtime": 1790874475.3914928,
+      "deployed_mtime": 1790874475.3914928
+    },
+    {
+      "path": "zone_source/tod_crown_alarm.zpkg",
+      "sha256": "302e3871ea2b6f6b29a598c5a77123747130c64cdaec66a474732e94c08de3d9",
+      "source_mtime": 1790872662.7312596,
+      "deployed_mtime": 1790872662.7312596
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin",
+      "sha256": "1214fb25c986dec0282db66b9dcddae84b2600ca04688233f56006a761cfdfb3",
+      "source_mtime": 1790719795.9281118,
+      "deployed_mtime": 1790719795.9281118
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin",
+      "sha256": "f5a7961aa525cb0e17936e6603e6225bae4716ca51a38c2f2bad01cc7478c901",
+      "source_mtime": 1790719796.0233798,
+      "deployed_mtime": 1790719796.0233798
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin",
+      "sha256": "d2631fb07d1621e4df673a98e4b3f711a5ba8de8eedee7f1dbb0ba0d3f5f936b",
+      "source_mtime": 1790719796.0673852,
+      "deployed_mtime": 1790719796.0673852
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod0.xmodel_bin",
+      "sha256": "59642b0afffd3e9573e228117c2eeadba6bb123548715ec58ef37f99daa188be",
+      "source_mtime": 1790719796.14365,
+      "deployed_mtime": 1790719796.14365
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod1.xmodel_bin",
+      "sha256": "eadeef5193a54c8dc4300ffbef07d82a1b449c4905cf69426afef1c9840770f4",
+      "source_mtime": 1790719796.1986814,
+      "deployed_mtime": 1790719796.1986814
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod2.xmodel_bin",
+      "sha256": "885b9259f4613b36b4cff98ed14e4882d89640cd8413ff85d5e394fb65bc892a",
+      "source_mtime": 1790719796.2218237,
+      "deployed_mtime": 1790719796.2218237
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod0.xmodel_bin",
+      "sha256": "ef6ed47aa9f76de243b39f0a42bd3eacedbd88cf4607236a96fa451479ee8dab",
+      "source_mtime": 1790719796.2994795,
+      "deployed_mtime": 1790719796.2994795
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod1.xmodel_bin",
+      "sha256": "c6ccb71a9d42f9494d3e60876b21adbcfd65c73581061e23908a22bfb3a5dcf3",
+      "source_mtime": 1790719796.3422346,
+      "deployed_mtime": 1790719796.3422346
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod2.xmodel_bin",
+      "sha256": "42954011c2b919b711d4604feb422418c225dccabfd94a65bf6a588ec5058fa2",
+      "source_mtime": 1790719796.3671436,
+      "deployed_mtime": 1790719796.3671436
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod0.xmodel_bin",
+      "sha256": "648d694d03c833f9c6e760a94f9beb0d88191a35ed7eb1ab20180ceb0a24cc07",
+      "source_mtime": 1790719796.6275632,
+      "deployed_mtime": 1790719796.6275632
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod1.xmodel_bin",
+      "sha256": "d52275ec9ef5457d45c36cf7eab5ead7d05b8e75897f6db027908eb75bf59283",
+      "source_mtime": 1790719796.7291963,
+      "deployed_mtime": 1790719796.7291963
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod2.xmodel_bin",
+      "sha256": "14b59d1f558e55d7e928b093b7452e083d505e6c85030c9a32efd9a2b7880ecd",
+      "source_mtime": 1790719796.7813022,
+      "deployed_mtime": 1790719796.7813022
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod0.xmodel_bin",
+      "sha256": "873be2578d9f85006f02cac493bdc621a189e417fad5535528d655ec9de0eeba",
+      "source_mtime": 1790719796.858893,
+      "deployed_mtime": 1790719796.858893
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod1.xmodel_bin",
+      "sha256": "86efceddb62641f201e049959740d71b0d46e4072d87263b64fe708b302e9226",
+      "source_mtime": 1790719796.9141147,
+      "deployed_mtime": 1790719796.9141147
+    },
+    {
+      "path": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod2.xmodel_bin",
+      "sha256": "bff63d424c4ab9f8b23a6deed2a846bfbc2767953615337fbfb15ec64b9cac92",
+      "source_mtime": 1790719796.9399574,
+      "deployed_mtime": 1790719796.9399574
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_c.png",
+      "sha256": "b0fc0bb2f21df7c50b82f64f23c95f6b6a4af44983244fbc10b0ba65519e7f3b",
+      "source_mtime": 1790719778.971397,
+      "deployed_mtime": 1790719778.971397
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_g.png",
+      "sha256": "41ce4ff8856fa33cf5a9aba6da79f7c689ff9307ac6565035ac21251f8382f4d",
+      "source_mtime": 1790719779.0390615,
+      "deployed_mtime": 1790719779.0390615
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_s.png",
+      "sha256": "ce2d53ca04b3e03a99924496d92b03be1ce340b39b21bcd37491618cd07fd5bb",
+      "source_mtime": 1790719779.0857253,
+      "deployed_mtime": 1790719779.0857253
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_n.png",
+      "sha256": "b64ea740a24061e2d8195aba74dd98033830a358f1e61524da8bdca60aa11628",
+      "source_mtime": 1790719779.1592374,
+      "deployed_mtime": 1790719779.1592374
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_c.png",
+      "sha256": "ed585a896a6da95cb1e8e033afe25ea4a37cb961204e2522acd45588151304c5",
+      "source_mtime": 1790719783.7115707,
+      "deployed_mtime": 1790719783.7115707
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_g.png",
+      "sha256": "55114e8cd4ce3fc34e547b9da6948a885c9384ea5554030a938786f5eef20c49",
+      "source_mtime": 1790719783.7651956,
+      "deployed_mtime": 1790719783.7651956
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_s.png",
+      "sha256": "1b72355e75fc8878d814596b276eacf2e9bddf1d46d39c9bd67a3cd24584e177",
+      "source_mtime": 1790719783.8122604,
+      "deployed_mtime": 1790719783.8122604
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_n.png",
+      "sha256": "e167d34a0d9cf7d414cc8905e8e8f1465c8402220ac2ae03466c8127419c6618",
+      "source_mtime": 1790719783.8831346,
+      "deployed_mtime": 1790719783.8831346
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_c.png",
+      "sha256": "6aee0a9efd3732c9bf9aaa45c59a6bc7e39d9a9fa0c678f2596d5ce973bcc2b6",
+      "source_mtime": 1790719782.3829052,
+      "deployed_mtime": 1790719782.3829052
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_g.png",
+      "sha256": "f3b54495bc98d550b089b2b07caaadd1f9332739bd97967535935759aae3348c",
+      "source_mtime": 1790719782.4407933,
+      "deployed_mtime": 1790719782.4407933
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_s.png",
+      "sha256": "1162a3a7c5e703dfa27129da1a9dc242819898c94d05cb18254bd01f483dbdf9",
+      "source_mtime": 1790719782.4830818,
+      "deployed_mtime": 1790719782.4830818
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_n.png",
+      "sha256": "1c5932fd2d55456190e73a3664bf42ca6d8b74864c36881e519ee98606bde744",
+      "source_mtime": 1790719782.5465155,
+      "deployed_mtime": 1790719782.5465155
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_c.png",
+      "sha256": "06064d19204eb5948f0f87048a759b548087358d3333094ca99b316576ce7e6a",
+      "source_mtime": 1790719780.8073156,
+      "deployed_mtime": 1790719780.8073156
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_g.png",
+      "sha256": "6f20e31ce50c3be0c677c1f7921e47964ed2a7e36000ea1ac4d7c591d5e122a4",
+      "source_mtime": 1790719780.8616824,
+      "deployed_mtime": 1790719780.8616824
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_s.png",
+      "sha256": "6d1777f7373661e1e0b0b51ab5ef857706b6a9f7cb021bbdd868a42212a597be",
+      "source_mtime": 1790719780.9060311,
+      "deployed_mtime": 1790719780.9060311
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_n.png",
+      "sha256": "ab76cef19cf5ec0ef07613923d82da192a6e1ce6da67ebff1fce06e7c65c0f84",
+      "source_mtime": 1790719780.9492629,
+      "deployed_mtime": 1790719780.9492629
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
+      "sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+      "source_mtime": 1790872230.5645094,
+      "deployed_mtime": 1790872230.5645094
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_g.png",
+      "sha256": "727798041721bee7590584f393a79c118b78ffeb5b44da1c30f29e81230071a8",
+      "source_mtime": 1790719780.1582918,
+      "deployed_mtime": 1790719780.1582918
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_s.png",
+      "sha256": "2357c7a0c79dae351c571b8132c1fc146f67d5ccd2480d1794c3c5fd92e8a4ca",
+      "source_mtime": 1790719780.2113554,
+      "deployed_mtime": 1790719780.2113554
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_n.png",
+      "sha256": "704b9bf9c42e136dee2f5755705d37849f02dfc19f3c4cb70143f91f8b321863",
+      "source_mtime": 1790719780.2674499,
+      "deployed_mtime": 1790719780.2674499
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_c.png",
+      "sha256": "77c09242819a1c5c57eb91af6418a933213387c0b9c7daa444d3707a116ac4e5",
+      "source_mtime": 1790445238.2173991,
+      "deployed_mtime": 1790445238.2173991
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_g.png",
+      "sha256": "90b046266c2a9b8644710a7a231487206d1fd78e06ccdfe4cca082bad87b1853",
+      "source_mtime": 1790445238.281067,
+      "deployed_mtime": 1790445238.281067
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+      "source_mtime": 1790445238.325655,
+      "deployed_mtime": 1790445238.325655
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+      "source_mtime": 1790445238.380347,
+      "deployed_mtime": 1790445238.380347
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_c.png",
+      "sha256": "860ffb96b6e7bbdb5da3079a778e83030a9920c0e31c8c7fc46368f241b38669",
+      "source_mtime": 1790445238.4942796,
+      "deployed_mtime": 1790445238.4942796
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_g.png",
+      "sha256": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75",
+      "source_mtime": 1790445238.5534592,
+      "deployed_mtime": 1790445238.5534592
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+      "source_mtime": 1790445238.591083,
+      "deployed_mtime": 1790445238.591083
+    },
+    {
+      "path": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+      "source_mtime": 1790445238.629197,
+      "deployed_mtime": 1790445238.629197
+    }
+  ],
+  "fastfile": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone\\zm_tod2_cybercity.ff",
+  "fastfile_sha256": "6adf2e8fdc9d0a86493f2a0ea8c9e822b568f3f0e8232c1e251c450af52cf554",
+  "fastfile_size": 220396416,
+  "decompressed_size": 427281363,
+  "dependencies": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps",
+  "dependencies_sha256": "00cec026a51ba43fa9471ed40d959807d3a1b4ba87cce7bd03500d9db55bac22",
+  "lens_dependency_block": {
+    "assets": [
+      [
+        "techset",
+        "mc/lit_emissive_transparent_advanced#e6142445"
+      ],
+      [
+        "image",
+        "i_tod_alarm_lens_c"
+      ],
+      [
+        "image",
+        "i_tod_alarm_lens_n"
+      ],
+      [
+        "image",
+        "$gray_32_one_channel"
+      ],
+      [
+        "image",
+        "$white_ao"
+      ],
+      [
+        "image",
+        "i_tod_alarm_lens_g"
+      ],
+      [
+        "image",
+        "$black_specular"
+      ],
+      [
+        "image",
+        "$camo_base_mask"
+      ],
+      [
+        "image",
+        "$camo_base_normal"
+      ],
+      [
+        "image",
+        "$camo_base_gloss"
+      ],
+      [
+        "image",
+        "$white_reveal"
+      ]
+    ],
+    "rows": [
+      "asset,techset,mc/lit_emissive_transparent_advanced#e6142445",
+      "asset,image,i_tod_alarm_lens_c",
+      "asset,image,i_tod_alarm_lens_n",
+      "asset,image,$gray_32_one_channel",
+      "asset,image,$white_ao",
+      "asset,image,i_tod_alarm_lens_g",
+      "asset,image,$black_specular",
+      "asset,image,$camo_base_mask",
+      "asset,image,$camo_base_normal",
+      "asset,image,$camo_base_gloss",
+      "asset,image,$white_reveal",
+      "gdt,material,mtl_tod_alarm_lens,9C-52-90-0D-C8-B8-D3-74-E6-DE-2C-77-08-B2-A8-5B",
+      "gdt,image,i_tod_alarm_lens_c,96-B5-D6-70-26-51-42-4F-9D-A4-5F-63-05-5A-52-5F",
+      "gdt,image,i_tod_alarm_lens_n,8C-01-E2-70-65-70-28-70-6C-2A-44-18-53-93-4F-8E",
+      "gdt,image,$gray_32_one_channel,A5-03-97-FA-0A-B5-AD-95-E9-7B-CC-97-DE-23-8A-B9",
+      "gdt,image,$white_ao,20-95-78-30-1F-76-9A-96-43-F3-CB-9B-51-B8-68-95",
+      "gdt,image,i_tod_alarm_lens_g,4E-2B-61-F0-3F-73-85-CF-80-AB-4D-67-64-3D-19-B3",
+      "gdt,image,$black_specular,B3-06-CA-1A-DD-C0-E2-9B-8D-A9-5C-9E-34-84-70-79",
+      "gdt,image,$camo_base_mask,0F-9F-FC-1E-49-BB-18-3C-29-BF-5A-A9-05-C3-03-C3",
+      "gdt,image,$camo_base_normal,AA-4D-AC-6D-0C-4C-8E-11-E5-47-E6-AF-A9-FA-91-BA",
+      "gdt,image,$camo_base_gloss,13-B1-81-3D-8C-6F-C0-BB-7D-73-28-1A-96-82-80-69",
+      "gdt,image,$white_reveal,9E-76-98-1C-0E-A3-11-C4-CC-C3-C5-CE-A5-64-94-91"
+    ]
+  },
+  "lens_material_records": [
+    {
+      "name": "mc/mtl_tod_alarm_lens",
+      "name_decompressed_offset": 353539028,
+      "header_decompressed_offset": 353538356,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 11,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x500000000002c129",
+      "header_sha256": "90f27fa05d97c9d4449a0b3c05d91570824d601f19bd797cb8efbf978c274466",
+      "header_hex": "ffffffffffffffff000000000000010100000000000000000000000000000000000000000008940010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0b0800050000000029c1020000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 353539866,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x50000000001708d9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x50000000000ae079",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x5000000000173219",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0x50000000001708f9",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 6,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000000173299",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x5000000007a102c9",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 9,
+          "image_pointer": "0x50000000001732d9",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 10,
+          "image_pointer": "0x500000000042dbe9",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 4
+        }
+      ],
+      "classification": "complete material definition"
+    }
+  ],
+  "control_material_records": [
+    {
+      "name": "mc/mtl_tod_alarm_cast",
+      "name_decompressed_offset": 353546278,
+      "header_decompressed_offset": 353545606,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 10,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000026e99",
+      "header_sha256": "395bf6af35828db9c1947a468b6c5e0aa187e68018ca3412b072693d7429a6bc",
+      "header_hex": "ffffffffffffffff400000000000010100000000000000000000000000000000000000000000d00001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0a08000400000000996e020000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 353546732,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x50000000001708d9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x5000000000173219",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x50000000001708f9",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x5000000000173299",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000007a117d9",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000001732d9",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 9,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 0
+        }
+      ],
+      "classification": "complete material definition"
+    },
+    {
+      "name": "mc/mtl_tod_alarm_steel",
+      "name_decompressed_offset": 353551684,
+      "header_decompressed_offset": 353551012,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 10,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000026e99",
+      "header_sha256": "395bf6af35828db9c1947a468b6c5e0aa187e68018ca3412b072693d7429a6bc",
+      "header_hex": "ffffffffffffffff400000000000010100000000000000000000000000000000000000000000d00001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0a08000400000000996e020000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 353552139,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x50000000001708d9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x5000000000173219",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x50000000001708f9",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x5000000000173299",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000007a11f79",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000001732d9",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 9,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 0
+        }
+      ],
+      "classification": "complete material definition"
+    },
+    {
+      "name": "mc/mtl_tod_alarm_lamp_on",
+      "name_decompressed_offset": 353563990,
+      "header_decompressed_offset": 353563318,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 10,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000026e99",
+      "header_sha256": "395bf6af35828db9c1947a468b6c5e0aa187e68018ca3412b072693d7429a6bc",
+      "header_hex": "ffffffffffffffff400000000000010100000000000000000000000000000000000000000000d00001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0a08000400000000996e020000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 353564687,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x50000000001708d9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x5000000000173219",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x50000000001708f9",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x5000000000173299",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000007a13689",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000001732d9",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 9,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 0
+        }
+      ],
+      "classification": "complete material definition"
+    }
+  ],
+  "complete_native_material_definition_verified": true,
+  "ff_image_table_structure_and_semantics_verified": true,
+  "ff_relocation_targets_resolved": false,
+  "binding_identity_evidence": "Image-table shape and semantic hashes are verified in actual FF bytes. Exact image names and transparent-techset identity are verified through the fresh completed .deps material block; relocation targets are not resolved by this bounded structural reader.",
+  "source_specColorTint": [
+    0.220916,
+    0.220916,
+    0.220916,
+    1.0
+  ],
+  "source_shader_contract_linear_tint": [
+    0.03999987385806588,
+    0.03999987385806588,
+    0.03999987385806588
+  ],
+  "source_specColorMap": "$black_specular",
+  "source_shader_contract_scalar_mask": 0.0,
+  "source_shader_contract_diffuse_factor": 1.0,
+  "source_shader_contract_effective_F0": [
+    0.04,
+    0.04,
+    0.04
+  ],
+  "compiled_constants_verified": false,
+  "compiled_constants_limit": "T7 constant buffers use serialized/deduplicated relocation pointers. This bounded reader does not resolve those pointers. Tint/F0 values above are current source plus proven shader-contract calculations, not reflected FF constants.",
+  "format_sources": [
+    "https://raw.githubusercontent.com/ate47/atian-cod-tools/main/src/core/acts/tools/bo3/bo3_ff.cpp",
+    "https://raw.githubusercontent.com/Scobalula/Greyhound/master/src/WraithXCOD/WraithXCOD/DBGameAssets.h"
+  ],
+  "header_layout_evidence": "Native imageCount +624 and imageTablePtr +640 from Greyhound; 672-byte serialized header boundary checked independently against three complete alarm materials in this same linked FF.",
+  "native_visual_verified": false,
+  "native_playtested": false,
+  "game_launched": false
+}

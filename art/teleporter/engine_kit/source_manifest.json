@@ -1,0 +1,40 @@
+{
+  "master": "art/teleporter/teleporter_cyber.blend",
+  "master_sha256": "4bb2538344ae2773cac08eff6cc0cfbc961d7bcd9470e2ddb765447c98ef1e51",
+  "atlas_size": 2048,
+  "emission_scale": 6,
+  "groups": {
+    "solid": "mtl_tod_teleporter"
+  },
+  "normal_convention": "DirectX -Y",
+  "textures": {
+    "i_tod_teleporter_c.png": "1fc2b60299621373ba2da527fd5a33f149996879bbbef1e94506ca47c03ba0a4",
+    "i_tod_teleporter_e.png": "9efa6837a8d9c13981ee619377e43af2a54adfb1087057e09c3bc2aac6b25968",
+    "i_tod_teleporter_g.png": "4cd134e5553ebc670a7dfbc2fe660228b613dabf1a2f2bbe12f302c6fdec55ec",
+    "i_tod_teleporter_n.png": "780af1638fd4e665951fbff88e5b16f3f83fae416a707c32e254608914fe4d9f",
+    "i_tod_teleporter_s.png": "135b32222c4e6002e33826b4b0dc3e4a256529323ecd56c423748417c55ebf54"
+  },
+  "lod_counts": {
+    "0": {
+      "solid": 49324
+    },
+    "1": {
+      "solid": 30727
+    },
+    "2": {
+      "solid": 16546
+    },
+    "3": {
+      "solid": 12903
+    },
+    "4": {
+      "solid": 10566
+    },
+    "5": {
+      "solid": 9008
+    },
+    "6": {
+      "solid": 5000
+    }
+  }
+}

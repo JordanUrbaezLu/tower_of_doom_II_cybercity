@@ -1,0 +1,193 @@
+{
+  "mtl_tod_necro_staff_bone": {
+    "Base Color": [
+      {
+        "node": "Image Texture",
+        "type": "TEX_IMAGE"
+      }
+    ],
+    "Normal": [
+      {
+        "node": "Normal Map",
+        "type": "NORMAL_MAP"
+      }
+    ],
+    "images": [
+      {
+        "node": "Image Texture",
+        "name": "Aged bone pigmentation",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_c.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "node": "Image Texture.001",
+        "name": "Hero skull n",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_n.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color"
+      },
+      {
+        "node": "Image Texture.002",
+        "name": "i_tod_necro_bone_g",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_g.png",
+        "source": "FILE",
+        "size": [
+          256,
+          256
+        ],
+        "colorspace": "Non-Color"
+      },
+      {
+        "node": "Image Texture.003",
+        "name": "Aged bone pigmentation",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_c.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "node": "Image Texture.004",
+        "name": "Hero skull n",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_n.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color"
+      },
+      {
+        "node": "Image Texture.005",
+        "name": "Aged bone pigmentation",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_bone_c.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB"
+      }
+    ],
+    "uv": [
+      {
+        "node": "Normal Map",
+        "map": "HeroSkullUV"
+      },
+      {
+        "node": "UV Map",
+        "map": "SourceBoneUV"
+      }
+    ]
+  },
+  "mtl_tod_necro_staff_leather": {
+    "Base Color": [
+      {
+        "node": "Image Texture",
+        "type": "TEX_IMAGE"
+      }
+    ],
+    "Normal": [
+      {
+        "node": "Normal Map",
+        "type": "NORMAL_MAP"
+      }
+    ],
+    "images": [
+      {
+        "node": "Image Texture",
+        "name": "i_tod_necro_leather_c",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_leather_c.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "node": "Image Texture.001",
+        "name": "i_tod_necro_leather_n",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_leather_n.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color"
+      }
+    ],
+    "uv": [
+      {
+        "node": "Normal Map",
+        "map": ""
+      }
+    ]
+  },
+  "mtl_tod_necro_staff_forge": {
+    "Base Color": [
+      {
+        "node": "Image Texture",
+        "type": "TEX_IMAGE"
+      }
+    ],
+    "Normal": [
+      {
+        "node": "Normal Map",
+        "type": "NORMAL_MAP"
+      }
+    ],
+    "images": [
+      {
+        "node": "Image Texture",
+        "name": "i_tod_necro_forge_c",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_forge_c.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB"
+      },
+      {
+        "node": "Image Texture.001",
+        "name": "i_tod_necro_forge_n",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_forge_n.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color"
+      },
+      {
+        "node": "Image Texture.002",
+        "name": "i_tod_necro_forge_g",
+        "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\necro_staff\\detail_pass\\models\\i_tod_necro_forge_g.png",
+        "source": "FILE",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color"
+      }
+    ],
+    "uv": [
+      {
+        "node": "Normal Map",
+        "map": ""
+      }
+    ]
+  }
+}

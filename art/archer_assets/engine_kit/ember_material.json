@@ -1,0 +1,37 @@
+{
+  "source_maps": [
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\archer_equipment\\retriever\\images\\~-gmtl_t6_wpn_zmb_tomahawk_reveal.dds",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\archer_equipment\\retriever\\images\\jun_ter_wood_burnt_e.dds",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\archer_equipment\\retriever\\images\\glowcycle_random_01_c.dds"
+  ],
+  "source_constants": {
+    "ember_direction": [
+      -0.01,
+      -0.02
+    ],
+    "heat_direction": [
+      0.02,
+      0.03
+    ],
+    "emissive": 10,
+    "flicker": [
+      0.85,
+      1.1
+    ]
+  },
+  "atlas": {
+    "file": "model_export/tod_archer/_images/i_tod_retriever_ember_atlas.png",
+    "size": [
+      4096,
+      4096
+    ],
+    "frames": 64,
+    "frame_size": [
+      512,
+      512
+    ],
+    "period_seconds": 100.0
+  },
+  "renderer_translation": "T6 custom shader to BO3 native masked flipbook; not pixel-identical shading",
+  "nonzero_fraction": 0.3724943995475769
+}

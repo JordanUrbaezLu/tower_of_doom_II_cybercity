@@ -1,0 +1,115 @@
+--- a/scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc
++++ b/scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc
+@@ -50,6 +50,7 @@
+ #using scripts\zm\_zm_utility;
+ #using scripts\zm\_zm_weap_gravityspikes;
+ #using scripts\zm\zm_tod2_cybercity\_tod_necro_summon;
++#using scripts\zm\zm_tod2_cybercity\_tod_cyber_sword;
+ #using scripts\zm\zm_tod2_cybercity\_tod_warrior_melee;
+ #insert scripts\shared\shared.gsh;
+ 
+@@ -134,14 +135,14 @@
+ // THE SWORD SMASH (user 2026-09-26: "the gravity smash for the sword is broken ...
+ // we lost that animation in the migration ... That should be in Hellbound"). With
+ // the Gold Battle Sword in hand the lethal plays Hellbound's slam: the cast proxy
+-// (hb_gold_sword_cast_zm, installed at the tools root; its raise IS the slam clip)
++// (tod_cyber_sword_cast_zm, installed at the tools root; its raise IS the slam clip)
+ // + Hellbound's leap arc, and the slam lands on the clip's impact frame. Timing =
+ // Hellbound's level-0 profile (_tod_gold_smash_timing: impact 967 ms, clip 1700 ms,
+ // arc 750 ms, 56 u high, up to 128 u forward). The hit itself is the same Gravity
+ // Smash as every other blade (stock knockdown + the elite hit), plus Hellbound's
+ // smash FX and sound. Since it became tier 3 only (2026-09-26) it is ALWAYS the sword
+ // slam; the instant stock slam is only the fallback (prone, or the proxy not linked).
+-#define TOD_GS_SWORD_PROXY        "hb_gold_sword_cast_zm"
++#define TOD_GS_SWORD_PROXY        "tod_cyber_sword_cast_zm"
+ #define TOD_GS_SWORD_IMPACT_MS    967
+ #define TOD_GS_SWORD_ANIM_MS      1700
+ #define TOD_GS_ARC_MS             750
+@@ -245,11 +246,11 @@
+ 	callback::on_spawned( &on_spawned );
+ 	c4 = real_weapon( TOD_C4_WEAPON );
+ 	th = real_weapon( TOD_CLUSTER_WEAPON );
+-	bash = real_weapon( "hb_warrior_bash_gold_zm" );
++	bash = real_weapon( "tod_cyber_sword_bash_zm" );
+ 	bash_p = real_weapon( "tod_bash_punch_zm" );
+ 	bash_g = real_weapon( "tod_bash_gauntlet_zm" );
+ 	dev_log( "INIT unlimited=" + unlimited() + " warrior=bash+gravsmash breacher=c4(sticky)+cluster c4_linked=" + isdefined( c4 ) + " cluster_linked=" + isdefined( th ) + " bash_linked=" + isdefined( bash ) + " bash_punch_linked=" + isdefined( bash_p ) + " bash_gauntlet_linked=" + isdefined( bash_g ) );
+-	dev_log( "INIT_PROXY_NAMES gold=" + linked_as( "hb_warrior_bash_gold_zm" ) + " punch=" + linked_as( "tod_bash_punch_zm" ) + " gauntlet=" + linked_as( "tod_bash_gauntlet_zm" ) + " sword_smash=" + linked_as( TOD_GS_SWORD_PROXY ) );
++	dev_log( "INIT_PROXY_NAMES gold=" + linked_as( "tod_cyber_sword_bash_zm" ) + " punch=" + linked_as( "tod_bash_punch_zm" ) + " gauntlet=" + linked_as( "tod_bash_gauntlet_zm" ) + " sword_smash=" + linked_as( TOD_GS_SWORD_PROXY ) );
+ 	level.tod_gs_charge_fn = &gs_charge;   // Gravity Smash charges on kills (_tod_warrior_melee's death callback)
+ 	dev_log( "INIT_GRAVSMASH tier_min=" + TOD_GS_TIER_MIN + " kills=" + TOD_GS_KILLS + "-" + TOD_GS_KILLS_STEP + "/Lv own_kill_ms=" + TOD_GS_OWN_KILL_MS );
+ 	tod_warrior_melee::init();   // the Warrior's crowd swings (2026-09-26 playtest fix)
+@@ -273,7 +274,7 @@
+ 
+ // THE ENGINE STRIPS A TRAILING "_zm" FROM A WEAPON ASSET NAME (the proven rule
+ // in _tod_classes::register_guns / weapon_or_zm). Until 2026-09-26 this looked
+-// the bash proxies up by their asset spelling ("hb_warrior_bash_gold_zm"), got
++// the bash proxies up by their asset spelling ("tod_cyber_sword_bash_zm"), got
+ // weaponNone, and BASH refused every cast as proxy_not_linked (the user's log:
+ // INIT ... bash_linked=0). Try the name, then the name minus the suffix.
+ function real_weapon( name )
+@@ -430,6 +431,7 @@
+ // the slot with its clip pinned to 0 (the button is polled for GRAVITY SMASH).
+ function kit_switch( from, to )
+ {
++	self tod_cyber_sword::update( false, "kit_switch" );
+ 	if ( from == TOD_KIT_BREACHER ) self take_breacher();
+ 	if ( to == TOD_KIT_BREACHER ) self give_breacher();
+ 	if ( to == TOD_KIT_NECRO ) self necro_pin();
+@@ -1125,7 +1127,7 @@
+ 	// The dash proxy draws the blade you hold (2026-09-26): Hellbound's gold sword
+ 	// dash for the Gold Battle Sword, our punch / gauntlet proxies (their own
+ 	// wind-up clips as the raise; source_data/tod_warrior_punch.gdt) for the rest.
+-	if ( IsSubStr( blade.name, "cc_gold_sword" ) ) proxy_name = "hb_warrior_bash_gold_zm";
++	if ( IsSubStr( blade.name, "cc_gold_sword" ) ) proxy_name = "tod_cyber_sword_bash_zm";
+ 	else if ( IsSubStr( blade.name, "cc_gauntlet" ) ) proxy_name = "tod_bash_gauntlet_zm";
+ 	else proxy_name = "tod_bash_punch_zm";
+ 	proxy = real_weapon( proxy_name );
+@@ -1387,6 +1389,7 @@
+ 		return;
+ 	}
+ 	self.tod_gs_busy = true;
++	self tod_cyber_sword::update( false, "gravity_smash_cast" );
+ 	if ( !unlimited() ) self.tod_gs_kills = 0;   // spent: charge it again with kills
+ 	held = self GetCurrentWeapon();
+ 	held_name = ( isdefined( held ) && isdefined( held.name ) ? held.name : "none" );
+@@ -1659,6 +1662,8 @@
+ 		lethal = ( self c4_max() > 0 ? self.tod_c4_charges : -1 );
+ 		tac = ( self cluster_max() > 0 ? self.tod_cluster_charges : -1 );
+ 	}
++	// Share the actual tier/busy/kill-charge/dev decision, before HUD throttling.
++	self tod_cyber_sword::update( kit == TOD_KIT_WARRIOR && lethal == 0, "hud_readiness" );
+ 	key = kit + ":" + lethal + ":" + tac;
+ 	if ( isdefined( self.tod_kit_hud ) && self.tod_kit_hud == key && GetTime() < self.tod_kit_hud_refresh ) return;
+ 	self.tod_kit_hud = key;
+--- a/scripts/zm/zm_tod2_cybercity.csc
++++ b/scripts/zm/zm_tod2_cybercity.csc
+@@ -61,6 +61,7 @@
+ #using scripts\zm\zm_usermap;
+ 
+ // [tod] client modules (clientfield lockstep with the .gsc twins)
++#using scripts\zm\zm_tod2_cybercity\_tod_cyber_sword;
+ #using scripts\zm\zm_tod2_cybercity\_tod_archer;
+ #using scripts\zm\zm_tod2_cybercity\_tod_necro_skull;   // THE NECROMANCER (2026-09-26): skull + Burned Out client FX (lockstep with _tod_main)
+ #using scripts\zm\zm_tod2_cybercity\_tod_perk_lights;
+--- a/tools/gen_tod_twins.js
++++ b/tools/gen_tod_twins.js
+@@ -1589,8 +1589,8 @@
+       // at 1.033; KNIFE SPEED no longer touches the sword.
+       // THE CYBER SWORD (user 2026-09-26: "change the gold battle sword into a cyber
+       // sword ... it's actually gonna be called the cyber sword"): the display name;
+-      // the stem stays cc_gold_sword (players never see it). The user supplies the model.
+-      tune: { ads: ADS_BUMP, set: {"fireTime": 1.033, "meleeTime": 1.033, "meleeChargeTime": 0.2}, str: { altWeapon: '' },
++      // the stem stays cc_gold_sword (players never see it). Blender MCP art uses the original grip and animation skeleton.
++      tune: { ads: ADS_BUMP, set: {"fireTime": 1.033, "meleeTime": 1.033, "meleeChargeTime": 0.2}, str: { altWeapon: '', gunModel: 'tod_cyber_sword_view', worldModel: 'tod_cyber_sword_world' },
+               name: 'Cyber Sword', nameUp: 'Cyber Sword EX' },
+       csv: { cost: 3000, vo: 'wpck_bowie', cls: 'special', melee: true },
+     },
+--- a/zone_source/zm_tod2_cybercity.zone
++++ b/zone_source/zm_tod2_cybercity.zone
+@@ -1959,3 +1959,5 @@
+ rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodUIOwnership.lua
+ 
+ include,tod_crown_alarm
++
++include,tod_cyber_sword

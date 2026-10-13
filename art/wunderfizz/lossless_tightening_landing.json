@@ -1,0 +1,12 @@
+{
+  "landed_at": "2026-10-07T15:11:51.205241-04:00",
+  "kind": "lossless_tightening",
+  "files": {
+    "tools/wunderfizz/verify_compiled_assets.py": {
+      "before_sha256": "74997918bbf91a8d577508a3bf1aa73522dd4c8bfab2ce4f0e983aa656cdbedf",
+      "sha256": "3c34053b811bcdbcc81f4716ce56052d0aafa3e801cd861de7646e3413e9e77b",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_tightening\\staged_sources\\tools\\wunderfizz\\verify_compiled_assets.py"
+    }
+  },
+  "game_launched": false
+}

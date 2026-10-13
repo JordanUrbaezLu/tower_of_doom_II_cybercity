@@ -1,0 +1,73 @@
+{
+  "master": "art/cyber_sword/cyber_sword.blend",
+  "master_sha256": "c998a79cf73d793a101f14cd225bd6fd3196f006d9aacf3d5e30720e8ce53a28",
+  "texture_size": 4096,
+  "emission_scale": 12,
+  "normal_convention": "DirectX -Y",
+  "mesh_lift_inches": 1.1,
+  "textures": {
+    "i_tod_cyber_sword_c.png": "eed3541a9f524d51ab4358419de39ebaf3796d43f72726c3a08fa14ce0639fe3",
+    "i_tod_cyber_sword_e.png": "6a047e8ce14c4897d7dd4a1172bcaef40b8876feb14de27387383cdff682d55c",
+    "i_tod_cyber_sword_g.png": "565ae63a125f55a3089a2a641b509fe90e33645847403ea41227979fe82ec09e",
+    "i_tod_cyber_sword_n.png": "624461cc4b4aca2844bbd0941dc30e42d5acf791944d0af9ba7c1fb0b09a84a6",
+    "i_tod_cyber_sword_s.png": "becd3cbb26152aab6a3285c51d0a990d18196faa6e517c4aae893b588145a39c"
+  },
+  "triangles": 48777,
+  "donor_skeleton_sha256": "7c7b63dd93ffba97901e2abaa261c4459c9975d4730241a2531addafd735999a",
+  "bones": [
+    "tag_weapon",
+    "tag_knife_offset",
+    "tag_flash",
+    "tag_ik_loc_le",
+    "tag_ik_loc_ri",
+    "tag_ik_target_left_mover",
+    "tag_ik_target_right_mover",
+    "tag_knife_fx"
+  ],
+  "models": [
+    {
+      "lod": 0,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod0.xmodel_bin",
+      "sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+      "triangles": 48777
+    },
+    {
+      "lod": 1,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod1.xmodel_bin",
+      "sha256": "7c8b5855e1a662831a5dc1dce5fbba6e3626c387e8d4b65fd98043e1a86679e6",
+      "triangles": 26990
+    },
+    {
+      "lod": 2,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod2.xmodel_bin",
+      "sha256": "0d2e8b05e235b2ee7c033152105441fa5231399226849db117ff6ff7d51b27ca",
+      "triangles": 14617
+    },
+    {
+      "lod": 3,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod3.xmodel_bin",
+      "sha256": "066f6e12fe87b9e5d7e815e9a9d06a04212b76d1045fd2ca8af83126a0560a53",
+      "triangles": 9098
+    },
+    {
+      "lod": 4,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod4.xmodel_bin",
+      "sha256": "97a5368f52da7981704c77bd80d4a3c95a651d387b4406e272a1146a79727d83",
+      "triangles": 5229
+    },
+    {
+      "lod": 5,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod5.xmodel_bin",
+      "sha256": "eb5a94074219359f23bf4b6ea26b65f5e08c026e1c0b10d451014a86fae50435",
+      "triangles": 3859
+    },
+    {
+      "lod": 6,
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod6.xmodel_bin",
+      "sha256": "5ec68d0f715488050a303a38a754af9fef83abe9dcb69d3f76ba187066269310",
+      "triangles": 2755
+    }
+  ],
+  "gdt_sha256": "2db66e8ca3c0c3a8dd895b44109f584e6b28eacbb262e7ead7626ca8f9762326",
+  "native_playtested": false
+}

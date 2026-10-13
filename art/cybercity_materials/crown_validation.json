@@ -1,0 +1,38 @@
+{
+  "world_brushes": 846,
+  "world_faces": 8892,
+  "world_materials": [
+    "tod_cc_gold_deck",
+    "tod_cc_cyan",
+    "tod_cc_gold",
+    "tod_cc_wall",
+    "tod_cc_sapphire",
+    "tod_cc_brass",
+    "tod_cc_floor",
+    "tod_cc_velvet",
+    "tod_cc_oxblood",
+    "tod_cc_gold_line",
+    "tod_cc_exfil",
+    "tod_cc_bronze_wall",
+    "tod_cc_ruby",
+    "tod_cc_gold_panel",
+    "tod_cc_ceramic",
+    "tod_cc_emerald",
+    "tod_cc_graphite"
+  ],
+  "old_crown_surface_materials_remaining": 0,
+  "unchanged_solid_geometry": false,
+  "authorized_balcony_curbs": 5,
+  "other_crown_geometry_unchanged": true,
+  "gate_material": "tod_cc_door",
+  "coverage": [
+    "interior",
+    "outer shell",
+    "underside",
+    "jewels",
+    "ornament",
+    "approach",
+    "balcony",
+    "hallway"
+  ]
+}

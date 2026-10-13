@@ -1,0 +1,45 @@
+{
+  "weapon_muzzles": {
+    "dg2": [
+      40.99971008300781,
+      0.00014434861077461392,
+      3.141385793685913
+    ],
+    "dingo": [
+      23.125085830688477,
+      0.0,
+      3.873854398727417
+    ]
+  },
+  "clips": {
+    "tod_dealer_c_shock": {
+      "sha256": "b5c7f74ff683bfb2fc98ff51bda1fe5bed6ab3d5d685e3f378e0799913c68baa",
+      "frames": 78,
+      "fps": 30,
+      "lift": 14,
+      "source": "ai_zm_dlc4_keeper_prtctr_idle",
+      "weapon": "dg2",
+      "hand_gap_max": 1.029229147278654e-05,
+      "file": "xanim_export/tod_dealer/tod_dealer_c_shock.xanim_bin"
+    },
+    "tod_dealer_c_burst": {
+      "sha256": "6d5dfaa0a555ee30735869590214a3d6ade5bb75aabc37284ca14a7c96d295f6",
+      "frames": 105,
+      "fps": 30,
+      "lift": 0,
+      "source": "ai_zm_dlc4_enslaved_keeper_idle",
+      "weapon": "dingo",
+      "hand_gap_max": 9.90585442092048e-06,
+      "file": "xanim_export/tod_dealer/tod_dealer_c_burst.xanim_bin"
+    }
+  },
+  "inputs": {
+    "tools/dealer_boss/18_combat_clips.py": "1ad3bff96a437eacd764236282bc4eae0a068f5ae82cce74ece3b4d4b3fec39f",
+    "tools/dealer_boss/author_clips.py": "18697e9018e4f64c6b21b9da48b66e02fbef426d56ee0308330873b42b70d389",
+    "art/dealer_boss/skeleton.json": "82b1963f0ea8c9c968186e440406eff7f409b09a3dd2b3821eb17832491f3773",
+    "art/dealer_boss/donors/wpn_t7_zmb_dg2_world_LOD0.XMODEL_BIN": "da9d2f122f75bca1dc4542fe400191d6348bb2719eadc1e09c0a194fb7cae917",
+    "art/dealer_boss/donors/wpn_t7_lmg_dingo_world_LOD0.XMODEL_BIN": "3e251ea46e263fed1a0fb75252ef42eadf603002e213d63a878b3f9bc64f496c",
+    "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle.xanim_bin": "d7b3b2c4516c666314041563baeb0070cebfe2ad437a891adfa2f4f90e61c021",
+    "xanim_export/tod_keeper/ai_zm_dlc4_enslaved_keeper_idle.xanim_bin": "07c666383e0354843f1b6fe5caa1eedc4efecc1cf8d46304ef89353fea0ed54c"
+  }
+}

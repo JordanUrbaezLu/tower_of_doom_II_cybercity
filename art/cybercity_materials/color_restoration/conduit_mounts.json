@@ -1,0 +1,11170 @@
+{
+  "map_sha256": "cb28810c7580246064ea4836ee6ddb309dc33548a191d92a97d0f19d20da17d1",
+  "rows": [
+    {
+      "label": "lap1 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        192.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        192.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        211.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        211.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        384.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        384.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        403.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap1 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        403.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        576.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        576.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        595.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        595.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        768.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        768.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        787.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap2 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        787.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        960.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        960.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        979.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        979.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        1152.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        1152.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        1171.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap3 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        1171.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        1344.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        1344.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        1363.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        1363.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        1536.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        1536.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        1555.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap4 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        1555.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        1728.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        1728.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        1747.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        1747.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        1920.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        1920.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        1939.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap5 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        1939.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_01",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        2112.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        2112.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        2131.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        2131.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        2304.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        2304.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        2323.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap6 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        2323.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        2496.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        2496.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        2515.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        2515.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        2688.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        2688.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        2707.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap7 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        2707.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        2880.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        2880.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        2899.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        2899.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        3072.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        3072.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        3091.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap8 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        3091.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        3264.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        3264.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        3283.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        3283.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        3456.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        3456.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        3475.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap9 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        3475.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        3667.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        3667.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        3840.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        3840.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        3859.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        3859.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_02",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        4032.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        4032.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        4051.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        4051.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        4224.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        4224.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        4243.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap11 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        4243.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        4416.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        4416.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        4435.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        4435.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        4608.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        4608.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        4627.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap12 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        4627.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        4800.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        4800.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        4819.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        4819.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        4992.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        4992.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        5011.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap13 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        5011.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        5184.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        5184.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        5203.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        5203.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        5376.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        5376.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        5395.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap14 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        5395.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        5568.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        5568.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        5587.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        5587.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        5760.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        5760.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        5779.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap15 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        5779.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_03",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        5952.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        5952.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        5971.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        5971.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        6144.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        6144.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        6163.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap16 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        6163.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        6336.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        6336.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        6355.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        6355.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        6528.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        6528.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        6547.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap17 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        6547.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        6720.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        6720.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        6739.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        6739.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        6912.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        6912.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        6931.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap18 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        6931.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        7104.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        7104.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        7123.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        7123.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        7296.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        7296.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        7315.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap19 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        7315.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        7507.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        7507.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        7680.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        7680.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        7699.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        7699.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_04",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        7872.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        7872.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        7891.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        7891.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        8064.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        8064.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        8083.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap21 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        8083.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        8256.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        8256.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        8275.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        8275.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        8448.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        8448.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        8467.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap22 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        8467.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        8640.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        8640.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        8659.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        8659.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        8832.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        8832.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        8851.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap23 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        8851.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        9024.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        9024.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        9043.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        9043.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        9216.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        9216.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        9235.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap24 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        9235.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        9408.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        9408.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        9427.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        9427.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        9600.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        9600.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        9619.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap25 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        9619.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_05",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        9792.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        9792.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        9811.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        9811.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        9984.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        9984.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        10003.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap26 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        10003.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        10176.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        10176.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        10195.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        10195.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        10368.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        10368.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        10387.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap27 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        10387.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        10560.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        10560.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        10579.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        10579.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        10752.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        10752.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        10771.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap28 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        10771.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        10944.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        10944.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        10963.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        10963.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        11136.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        11136.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        11155.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap29 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        11155.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        11347.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        11347.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        11520.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        11520.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        11539.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        11539.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_06",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        11712.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        11712.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        11731.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        11731.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        11904.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        11904.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        11923.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap31 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        11923.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        12096.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        12096.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        12115.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        12115.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        12288.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        12288.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        12307.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap32 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        12307.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        12480.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        12480.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        12499.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        12499.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        12672.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        12672.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        12691.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap33 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        12691.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        12864.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        12864.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        12883.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        12883.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        13056.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        13056.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        13075.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap34 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        13075.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        13248.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        13248.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        13267.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        13267.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        13440.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        13440.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        13459.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap35 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        13459.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_07",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        13632.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        13632.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        13651.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        13651.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        13824.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        13824.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        13843.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap36 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        13843.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        14016.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        14016.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        14035.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        14035.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        14208.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        14208.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        14227.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap37 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        14227.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        14400.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        14400.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        14419.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        14419.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        14592.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        14592.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        14611.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap38 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        14611.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        14784.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        14784.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        14803.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        14803.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        14976.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        14976.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        14995.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap39 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        14995.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        15187.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        15187.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        15360.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        15360.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        15379.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        15379.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_08",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        15552.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        15552.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        15571.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        15571.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        15744.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        15744.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        15763.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap41 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        15763.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        15936.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        15936.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        15955.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        15955.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        16128.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        16128.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        16147.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap42 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        16147.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        16320.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        16320.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        16339.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        16339.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        16512.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        16512.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        16531.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap43 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        16531.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        16704.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        16704.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        16723.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        16723.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        16896.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        16896.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        16915.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap44 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        16915.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        17088.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        17088.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        17107.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        17107.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        17280.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        17280.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        17299.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap45 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        17299.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_09",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        17472.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        17472.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        17491.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        17491.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        17664.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        17664.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        17683.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap46 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        17683.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        17856.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        17856.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        17875.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        17875.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        18048.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        18048.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        346,
+        18067.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap47 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        346,
+        18067.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        18240.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        18240.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        18259.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        18259.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        18432.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        18432.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -351,
+        18451.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap48 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -351,
+        18451.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        296,
+        18624.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        376,
+        18624.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        346,
+        18643.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        346,
+        18643.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        296,
+        18816.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        376,
+        18816.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        351,
+        18835.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap49 NW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        351,
+        18835.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -376,
+        19008.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SW landing",
+      "kind": "floor",
+      "org": [
+        -336,
+        -296,
+        19008.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -436.12,
+        -346,
+        19027.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SW landing para a",
+      "kind": "wall",
+      "org": [
+        -415.88,
+        -346,
+        19027.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -376,
+        19200.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SE landing",
+      "kind": "floor",
+      "org": [
+        336,
+        -296,
+        19200.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SE landing para a",
+      "kind": "wall",
+      "org": [
+        415.88,
+        -346,
+        19219.5
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap50 SE landing para a",
+      "kind": "wall",
+      "org": [
+        436.12,
+        -346,
+        19219.5
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "tower_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        -224,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        32,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        288,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        -224,
+        512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        32,
+        512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "ground slab",
+      "kind": "floor",
+      "org": [
+        288,
+        512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_ground",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "vault floor",
+      "kind": "floor",
+      "org": [
+        -2276,
+        -1000,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_vault",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "vault floor",
+      "kind": "floor",
+      "org": [
+        -2020,
+        -1000,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_vault",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "vault floor",
+      "kind": "floor",
+      "org": [
+        -2276,
+        -744,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_vault",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "vault floor",
+      "kind": "floor",
+      "org": [
+        -2020,
+        -744,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_vault",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "conduit floor",
+      "kind": "floor",
+      "org": [
+        -2212,
+        -420,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_conduit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "conduit floor",
+      "kind": "floor",
+      "org": [
+        -2212,
+        -164,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_conduit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "conduit floor",
+      "kind": "floor",
+      "org": [
+        -2212,
+        92,
+        -383.88
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_conduit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing n room floor",
+      "kind": "floor",
+      "org": [
+        60,
+        972,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_n",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing n room floor",
+      "kind": "floor",
+      "org": [
+        60,
+        1228,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_n",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing e hall floor",
+      "kind": "floor",
+      "org": [
+        640,
+        328,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_e",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing e room floor",
+      "kind": "floor",
+      "org": [
+        1260,
+        152,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_e",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing e room floor",
+      "kind": "floor",
+      "org": [
+        1004,
+        408,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_e",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing e room floor",
+      "kind": "floor",
+      "org": [
+        1260,
+        408,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_e",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing s room floor",
+      "kind": "floor",
+      "org": [
+        -476,
+        -1428,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_s",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing s room floor",
+      "kind": "floor",
+      "org": [
+        -476,
+        -1172,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_s",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing w hall floor",
+      "kind": "floor",
+      "org": [
+        -844,
+        348,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_w",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing w room floor",
+      "kind": "floor",
+      "org": [
+        -1140,
+        252,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_w",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "wing w room floor",
+      "kind": "floor",
+      "org": [
+        -1140,
+        508,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_w",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        -188,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        68,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        324,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        -156,
+        304,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap10 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        100,
+        304,
+        3648.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_10",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        -188,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_20",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        68,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_20",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        324,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_20",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        -156,
+        304,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_20",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap20 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        100,
+        304,
+        7488.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_20",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        -188,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_30",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        68,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_30",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        324,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_30",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        -156,
+        304,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_30",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap30 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        100,
+        304,
+        11328.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_30",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        -188,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_40",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        68,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_40",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 haven loggia east floor",
+      "kind": "floor",
+      "org": [
+        336,
+        324,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_40",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        -156,
+        304,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_40",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "lap40 haven loggia north floor",
+      "kind": "floor",
+      "org": [
+        100,
+        304,
+        15168.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "breather_40",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "terrace",
+      "kind": "floor",
+      "org": [
+        -400,
+        304,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "terrace",
+      "kind": "floor",
+      "org": [
+        -144,
+        304,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "terrace",
+      "kind": "floor",
+      "org": [
+        112,
+        304,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "terrace",
+      "kind": "floor",
+      "org": [
+        368,
+        304,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "transit bay floor crossing",
+      "kind": "floor",
+      "org": [
+        -1180,
+        228,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "transit bay floor crossing",
+      "kind": "floor",
+      "org": [
+        -1180,
+        484,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "transit bay floor nave",
+      "kind": "floor",
+      "org": [
+        -820,
+        464,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "top_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway power room",
+      "kind": "floor",
+      "org": [
+        880,
+        6228,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway power room",
+      "kind": "floor",
+      "org": [
+        1136,
+        6228,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway power room",
+      "kind": "floor",
+      "org": [
+        880,
+        6484,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway power room",
+      "kind": "floor",
+      "org": [
+        1136,
+        6484,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway teleporter room",
+      "kind": "floor",
+      "org": [
+        -1200,
+        6228,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway teleporter room",
+      "kind": "floor",
+      "org": [
+        -944,
+        6228,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway teleporter room",
+      "kind": "floor",
+      "org": [
+        -1200,
+        6484,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "causeway hallway teleporter room",
+      "kind": "floor",
+      "org": [
+        -944,
+        6484,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_side",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        -176,
+        8144,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        80,
+        8144,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        592,
+        8144,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        -176,
+        8400,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        80,
+        8400,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        592,
+        8400,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        -432,
+        8656,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown hall floor",
+      "kind": "floor",
+      "org": [
+        336,
+        8656,
+        19392.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "power hall floor",
+      "kind": "floor",
+      "org": [
+        640,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_power",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "power hall floor",
+      "kind": "floor",
+      "org": [
+        896,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_power",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "power hall floor",
+      "kind": "floor",
+      "org": [
+        1152,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_power",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "power hall floor",
+      "kind": "floor",
+      "org": [
+        1408,
+        -512,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_power",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "transit return floor",
+      "kind": "floor",
+      "org": [
+        76,
+        -952,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "transit return floor",
+      "kind": "floor",
+      "org": [
+        76,
+        -696,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "base_transit",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -8196,
+        -8484,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -7940,
+        -8484,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -7684,
+        -8484,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -8196,
+        -8228,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -7940,
+        -8228,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -7684,
+        -8228,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -8196,
+        -7972,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "battle arena floor",
+      "kind": "floor",
+      "org": [
+        -7940,
+        -7972,
+        0.12
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "axis": 2,
+      "sign": 1,
+      "group": "arena",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall W",
+      "kind": "wall",
+      "org": [
+        -727.88,
+        8144,
+        19552
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall W",
+      "kind": "wall",
+      "org": [
+        -727.88,
+        8456,
+        19552
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall W",
+      "kind": "wall",
+      "org": [
+        -727.88,
+        8768,
+        19552
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall W",
+      "kind": "wall",
+      "org": [
+        -727.88,
+        9080,
+        19552
+      ],
+      "angles": [
+        0,
+        90,
+        90
+      ],
+      "axis": 0,
+      "sign": 1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall E",
+      "kind": "wall",
+      "org": [
+        727.88,
+        8144,
+        19552
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall E",
+      "kind": "wall",
+      "org": [
+        727.88,
+        8456,
+        19552
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall E",
+      "kind": "wall",
+      "org": [
+        727.88,
+        8768,
+        19552
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    },
+    {
+      "label": "crown wall E",
+      "kind": "wall",
+      "org": [
+        727.88,
+        9080,
+        19552
+      ],
+      "angles": [
+        0,
+        -90,
+        90
+      ],
+      "axis": 0,
+      "sign": -1,
+      "group": "crown_hall",
+      "scale": [
+        1.4,
+        1,
+        1
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "kind": "tower_01",
+      "org": [
+        0,
+        68,
+        1066
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_01",
+      "count": 40
+    },
+    {
+      "kind": "tower_02",
+      "org": [
+        0,
+        -68,
+        2986
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_02",
+      "count": 40
+    },
+    {
+      "kind": "tower_03",
+      "org": [
+        0,
+        68,
+        4906
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_03",
+      "count": 40
+    },
+    {
+      "kind": "tower_04",
+      "org": [
+        0,
+        -68,
+        6826
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_04",
+      "count": 40
+    },
+    {
+      "kind": "tower_05",
+      "org": [
+        0,
+        68,
+        8746
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_05",
+      "count": 40
+    },
+    {
+      "kind": "tower_06",
+      "org": [
+        0,
+        -68,
+        10666
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_06",
+      "count": 40
+    },
+    {
+      "kind": "tower_07",
+      "org": [
+        0,
+        68,
+        12586
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_07",
+      "count": 40
+    },
+    {
+      "kind": "tower_08",
+      "org": [
+        0,
+        -68,
+        14506
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_08",
+      "count": 40
+    },
+    {
+      "kind": "tower_09",
+      "org": [
+        0,
+        69,
+        16426
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_09",
+      "count": 40
+    },
+    {
+      "kind": "tower_10",
+      "org": [
+        0,
+        -68,
+        18346
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_tower_10",
+      "count": 40
+    },
+    {
+      "kind": "base_ground",
+      "org": [
+        32,
+        0,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_ground",
+      "count": 6
+    },
+    {
+      "kind": "base_vault",
+      "org": [
+        -2148,
+        -872,
+        -384
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_vault",
+      "count": 4
+    },
+    {
+      "kind": "base_conduit",
+      "org": [
+        -2212,
+        -164,
+        -384
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_conduit",
+      "count": 3
+    },
+    {
+      "kind": "base_n",
+      "org": [
+        60,
+        1100,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_n",
+      "count": 2
+    },
+    {
+      "kind": "base_e",
+      "org": [
+        1041,
+        324,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_e",
+      "count": 4
+    },
+    {
+      "kind": "base_s",
+      "org": [
+        -476,
+        -1300,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_s",
+      "count": 2
+    },
+    {
+      "kind": "base_w",
+      "org": [
+        -1041,
+        369,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_w",
+      "count": 3
+    },
+    {
+      "kind": "breather_10",
+      "org": [
+        190,
+        162,
+        3648
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_breather_10",
+      "count": 5
+    },
+    {
+      "kind": "breather_20",
+      "org": [
+        190,
+        162,
+        7488
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_breather_20",
+      "count": 5
+    },
+    {
+      "kind": "breather_30",
+      "org": [
+        190,
+        162,
+        11328
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_breather_30",
+      "count": 5
+    },
+    {
+      "kind": "breather_40",
+      "org": [
+        190,
+        162,
+        15168
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_breather_40",
+      "count": 5
+    },
+    {
+      "kind": "top_transit",
+      "org": [
+        -463,
+        342,
+        19392
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_top_transit",
+      "count": 7
+    },
+    {
+      "kind": "crown_side",
+      "org": [
+        -32,
+        6356,
+        19392
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_crown_side",
+      "count": 8
+    },
+    {
+      "kind": "crown_hall",
+      "org": [
+        56,
+        8490,
+        19472
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_crown_hall",
+      "count": 16
+    },
+    {
+      "kind": "base_power",
+      "org": [
+        1024,
+        -512,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_power",
+      "count": 4
+    },
+    {
+      "kind": "base_transit",
+      "org": [
+        76,
+        -824,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_base_transit",
+      "count": 2
+    },
+    {
+      "kind": "arena",
+      "org": [
+        -7972,
+        -8260,
+        0
+      ],
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "model": "tod_conduit_arena",
+      "count": 8
+    }
+  ]
+}

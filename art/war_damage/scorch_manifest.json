@@ -1,0 +1,38 @@
+{
+ "master": "tools/war_damage/make_scorch.py",
+ "master_sha256": "267979ca5d446f882458f9b5915fea31d4f94814385040412b36b1e57db5167d",
+ "seed": 20261003,
+ "tile_units": 128,
+ "tile_texels": 1024,
+ "textures": {
+  "i_tod_cc_floor_scorch_c.png": "9dc9b37cf839f799d0822a498afb0858d164237b309efff1c143db93d4041c45",
+  "i_tod_cc_floor_scorch_g.png": "3db211b51f875f212aba85d5a7dd673755ef9eeb5d8a041ddcd40c4e9c092807",
+  "i_tod_cc_floor_scorch_s.png": "f7b3e98832c21229f3e778cee5ee0211f173b1a34cde6121ddebe71d1b80c3b9",
+  "i_tod_cc_floor_scorch_n.png": "fe4fe784da6b522be85c33c4338affd4b6d6020b6dfc53c2ab1ec0bea0b9c177",
+  "i_tod_cc_floor_scorch_e.png": "cd35d58f304b8d8fad68411d5b2fb0f210d656a61d07c87f3b62086981ec2bec",
+  "i_tod_cc_wall_scorch_c.png": "2d2dc87be30c911bdeba0f2cd0e59d6edd36491f1fe44cabbf8d85b0e1ad838f",
+  "i_tod_cc_wall_scorch_g.png": "d3ea4d1d0bef786a4e6524249438f4367f3db07800ee0d65cbc140f168a8904d",
+  "i_tod_cc_wall_scorch_s.png": "d08881e9695744e8d7ffbf15bf1e2adac2755e5de2cc5b6285ac671805dbd771",
+  "i_tod_cc_wall_scorch_n.png": "c004a2ce1c1ec89944544ab64a7e0caf98a28e0ebedb975d66ce912501fe9f6b",
+  "i_tod_cc_wall_scorch_e.png": "5e709a7c5de75109f3e4517fd9a53cf303df02c10df3aaf9e3ca771889e6a03f",
+  "i_tod_cc_armor_scorch_c.png": "b8ebae1e8e23ceff4cecca9c48a271de99613d013cba1a48bbc8fea4fb077f66",
+  "i_tod_cc_armor_scorch_g.png": "feb3eb07a5b7635d541f0c25403178cfe87f1db570c1a96754cf7e798b529f02",
+  "i_tod_cc_armor_scorch_s.png": "2a3572bff9474a12e4f2f2ef5eeae5dff1e0f4b1b8b8981d3d769a2ee0208e05",
+  "i_tod_cc_armor_scorch_n.png": "9c8945e0b04a67cfaabf97b52065ba0f0a108a5d23928569c056828b2aa59e44",
+  "i_tod_cc_armor_scorch_e.png": "cd35d58f304b8d8fad68411d5b2fb0f210d656a61d07c87f3b62086981ec2bec"
+ },
+ "stats": {
+  "floor_scorch": {
+   "soot_mean": 0.239,
+   "soot_over_half": 0.1771
+  },
+  "wall_scorch": {
+   "soot_mean": 0.1912,
+   "soot_over_half": 0.0952
+  },
+  "armor_scorch": {
+   "soot_mean": 0.2362,
+   "soot_over_half": 0.107
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "source": "Actual native vendor and mask geometry + current native maps",
+  "sources": {
+    "art/partner_shop/engine_kit/vendor_lod0.json": "d65996989083994f0797b63156b8eb9e4d50397718d3eb1a3d14a1c7a28439db",
+    "art/partner_shop/engine_kit/mask_lod0.json": "9d29b17d5acd17d9cd3f612cd144009adb6adc6da66131b090c9fa6c843c5a66",
+    "art/partner_shop/engine_kit/source_manifest.json": "94f34bc583f555ea60518b8bad8f50587ad6652f2871dafee49166b0e62809b0",
+    "source_data/tod_shop.gdt": "6b93deeddd12b80173b1f0a42b208cb885cc42137e4a48df01aba625adbcba23",
+    "tools/art_cohesion/native_preview.py": "8aa4f99fb13ac7a205b90759d90840031b62e9d6676163c469e79edf1a6ee667",
+    "model_export/tod_shop/_images/i_tod_shop_vendor_c.png": "af5c0362de0c4c6d85a641583faaa40834112162d7ea8076d5752c2400ba190d",
+    "model_export/tod_shop/_images/i_tod_shop_vendor_e.png": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37",
+    "model_export/tod_shop/_images/i_tod_shop_vendor_g.png": "cf42ad4751ff6017b1b2adad1ef84bfcaf4bd883cc1ccd1dbad3aabef60be672",
+    "model_export/tod_shop/_images/i_tod_shop_vendor_n.png": "77c4f1822a9086a2d836edeab6346a693ead7f83c535d5fcf315394653797361",
+    "model_export/tod_shop/_images/i_tod_shop_vendor_s.png": "e9718ba1770744e9d7b3fb10f22d4b3577fb4fe19468dc977f8cc9877d3f545f",
+    "model_export/tod_shop/_images/i_tod_shop_glow_c.png": "104395fcedbc236a1c503ab1a10dc99010bf30aa06f275abd0899a7950e09552",
+    "model_export/tod_shop/_images/i_tod_shop_glow_e.png": "fbd3035bb1c376936705d9809158230da717a1805a2d96e956b264225adeb180",
+    "model_export/tod_shop/_images/i_tod_shop_glow_g.png": "f9a5e40364210a54c36fcb24039317f421c991923d81d2f04d0886c4bec29fc1",
+    "model_export/tod_shop/_images/i_tod_shop_glow_n.png": "c1719ca80e8362d2902acae4762a6c2e90e44df28b65b8058b3d446c44c9ddbd",
+    "model_export/tod_shop/_images/i_tod_shop_glow_s.png": "3d4137b40a4c437a1ce7fba92abc16139b14055b7b5bf2ec6915f165cb4547ad"
+  },
+  "author_script_sha256": "12a1da8c0e2c4a810afdea484c0a1e6755437b9b4fb36b81b0ca81d7c546dec7",
+  "image": "art/dealer_presence/dealer_surveillance_1024.png",
+  "image_sha256": "3cbc109d4503332f8543f46f5974c350d61393ad572df06bc5db2f8c77ea943b",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "geometry_triangles": 26759,
+  "master_shop_modified": false,
+  "native_playtested": false
+}

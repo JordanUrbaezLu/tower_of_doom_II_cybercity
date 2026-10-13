@@ -1,0 +1,87 @@
+{
+  "geometry_normals_weights_tags_unchanged": true,
+  "existing_surface_uvs_unchanged": true,
+  "files": [
+    {
+      "file": "tod_sky_dreadnought.xmodel_bin",
+      "triangles": 45752,
+      "vertices": 29829,
+      "material_only_swaps": [
+        "dreadnought aux bells",
+        "dreadnought engine bells"
+      ],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_fighter.xmodel_bin",
+      "triangles": 2016,
+      "vertices": 1312,
+      "material_only_swaps": [
+        "fighter engine bell"
+      ],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_gunship.xmodel_bin",
+      "triangles": 6614,
+      "vertices": 4366,
+      "material_only_swaps": [
+        "gunship engine bells"
+      ],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_hauler.xmodel_bin",
+      "triangles": 19262,
+      "vertices": 12662,
+      "material_only_swaps": [
+        "hauler engine bells"
+      ],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_rock_1.xmodel_bin",
+      "triangles": 9000,
+      "vertices": 4502,
+      "material_only_swaps": [],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_rock_2.xmodel_bin",
+      "triangles": 6500,
+      "vertices": 3252,
+      "material_only_swaps": [],
+      "new_mineral_uvs": []
+    },
+    {
+      "file": "tod_sky_rock_3.xmodel_bin",
+      "triangles": 10442,
+      "vertices": 5263,
+      "material_only_swaps": [
+        "rock 3 veins"
+      ],
+      "new_mineral_uvs": [
+        "rock 3 veins"
+      ]
+    },
+    {
+      "file": "tod_sky_rock_4.xmodel_bin",
+      "triangles": 7968,
+      "vertices": 4000,
+      "material_only_swaps": [
+        "rock 4 seam"
+      ],
+      "new_mineral_uvs": [
+        "rock 4 seam"
+      ]
+    },
+    {
+      "file": "tod_sky_rock_5.xmodel_bin",
+      "triangles": 4700,
+      "vertices": 2358,
+      "material_only_swaps": [],
+      "new_mineral_uvs": []
+    }
+  ],
+  "native_playtested": false
+}

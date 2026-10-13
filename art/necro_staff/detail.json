@@ -1,0 +1,9 @@
+{
+  "recessed_blades": 11,
+  "leather_grips": 4,
+  "material_images": 19,
+  "skull_detail": "surface-fitted sutures and tier-3 ritual inlay",
+  "native_visual_verified": false,
+  "bone_pigmentation": "Baked multi-scale aged bone staining; native 2K color atlas, no procedural runtime dependency.",
+  "grip_seams": "Separated spiral turns, outer-surface stitching; macro reviewed"
+}

@@ -1,0 +1,19 @@
+{
+  "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\crown_alarm\\lens_review\\native_preview.blend",
+  "sha256": "3682f9e7e5a76b3684f5d204a1e32f61cd57b01c12f69520aca294f338c7cf67",
+  "engine": "CYCLES",
+  "preview_denoising": true,
+  "views": [
+    {
+      "shading": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "view": "CAMERA"
+    }
+  ],
+  "verified_at": "2026-10-01T13:44:18.221479-04:00",
+  "capture_method": "actual owned Blender foreground window",
+  "preview_file_resaved": false,
+  "native_playtested": false,
+  "screenshot_sha256": "741282160eda3486152a9bbd143ffa4e7d28174faa8250aacffd6fe2d334a68b"
+}

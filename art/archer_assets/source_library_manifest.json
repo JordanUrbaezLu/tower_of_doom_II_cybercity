@@ -1,0 +1,1960 @@
+{
+  "files": 570,
+  "bytes": 488325775,
+  "extensions": {
+    ".cast": 85,
+    ".txt": 9,
+    ".png": 72,
+    ".json": 28,
+    ".wav": 230,
+    ".mprj": 1,
+    ".mbnk": 1,
+    ".mbnk_digest": 1,
+    ".bin": 129,
+    ".csv": 7,
+    ".log": 7
+  },
+  "audio_events": 129,
+  "referenced_audio_sources": 212,
+  "missing_audio": [],
+  "parse_errors": [],
+  "unresolved_calls": [],
+  "source_build": "R5pc_r5-301_J28_CL11570498_FSv30_1_2026_09_16_17_18",
+  "source_index": [
+    {
+      "path": "assets/animseq/ads_out_onehanded_seq_sliding_grapple/ads_out_onehanded_seq_sliding_grapple_0.cast",
+      "bytes": 103963,
+      "sha256": "6db39a9df5133a16f34ef5d6b35bd93646d362e76d23f992c9dbfdd0f8f050ec"
+    },
+    {
+      "path": "assets/animseq/dummie_death_grapple/dummie_death_grapple_0.cast",
+      "bytes": 223810,
+      "sha256": "cca3e85d164c2938da2a1021906fceecb9d846bdad889de3d8dbdf5a62868c37"
+    },
+    {
+      "path": "assets/animseq/dummie_death_grapple_02/dummie_death_grapple_02_0.cast",
+      "bytes": 90658,
+      "sha256": "9acda548b513de88b0c1fb75ad68ed0d644a74f6191ddfee97ef56abec77ecef"
+    },
+    {
+      "path": "assets/animseq/freefall_grapplehook_pathfinder_celebrationlasso/freefall_grapplehook_pathfinder_celebrationlasso_0.cast",
+      "bytes": 416445,
+      "sha256": "cc2e481b2edfc47d79f72fcea5556002ede34abf5a1a65e912fd2b8e8e4de677"
+    },
+    {
+      "path": "assets/animseq/freefall_grapplehook_pathfinder_spiderman/freefall_grapplehook_pathfinder_spiderman_0.cast",
+      "bytes": 406113,
+      "sha256": "7fd509a0eb275a5b2e7d1ebaa79c82d41f4e2aed97cb356d7f6cfa34e2159e98"
+    },
+    {
+      "path": "assets/animseq/grpplehook_ground_emote_jumprope_loop/grpplehook_ground_emote_jumprope_loop_0.cast",
+      "bytes": 157325,
+      "sha256": "2b7c219401ef37424ea10895dad7fd08562c7cc010a6aa3821b955ad6a512540"
+    },
+    {
+      "path": "assets/animseq/grpplehook_ground_emote_jumprope_start/grpplehook_ground_emote_jumprope_start_0.cast",
+      "bytes": 239981,
+      "sha256": "bc0cc3f2e5a48c009950dbd4938a6e9f82be83c158c094a61b68c81d5187b30f"
+    },
+    {
+      "path": "assets/animseq/grpplehook_ground_emote_lasso/grpplehook_ground_emote_lasso_0.cast",
+      "bytes": 448917,
+      "sha256": "5ae59dfc5942d8928abd66b32ae20b35812d5c5dac0635e3d30e157c46d25358"
+    },
+    {
+      "path": "assets/animseq/heavy_grapple_rifle/heavy_grapple_rifle_0.cast",
+      "bytes": 252957,
+      "sha256": "49c17c9f10399b79468dae962735e561e24ef6809190d66cbf27a4376d7b950c"
+    },
+    {
+      "path": "assets/animseq/heavy_grapple_rifle/heavy_grapple_rifle_1.cast",
+      "bytes": 252957,
+      "sha256": "9533c5475d9e862b618f5787502fef0d819de0f49c01416bd0528c35de0ab9e7"
+    },
+    {
+      "path": "assets/animseq/heavy_grapple_rifle/heavy_grapple_rifle_2.cast",
+      "bytes": 110877,
+      "sha256": "cb83b0f50fe1aaaa7075f044725097fc974a4039a217bb211f4504ee511dfb8c"
+    },
+    {
+      "path": "assets/animseq/heavy_victim_pathfinder_execution_grapple/heavy_victim_pathfinder_execution_grapple_0.cast",
+      "bytes": 378461,
+      "sha256": "c0e84b16869a0bee6b8593de3245dee00b77abb54da4fe6aa0135f86e255bd67"
+    },
+    {
+      "path": "assets/animseq/light_grapple_rifle/light_grapple_rifle_0.cast",
+      "bytes": 249506,
+      "sha256": "3ba0438613b8c22f50c450257d0f2b324706e14da7b970f7c1af9c69616cedfa"
+    },
+    {
+      "path": "assets/animseq/light_grapple_rifle/light_grapple_rifle_1.cast",
+      "bytes": 249506,
+      "sha256": "be17881be48e3c9bf66cd9cd920486900de86dfc6c064fbb18b68408b2a9be94"
+    },
+    {
+      "path": "assets/animseq/light_grapple_rifle/light_grapple_rifle_2.cast",
+      "bytes": 109346,
+      "sha256": "60dd35ea3def6d8a9190d376932af47ec3cb5eb222a06141dd4217c18b3748d3"
+    },
+    {
+      "path": "assets/animseq/light_victim_pathfinder_execution_grapple/light_victim_pathfinder_execution_grapple_0.cast",
+      "bytes": 373314,
+      "sha256": "13ae966f0f1f844e92631e82d006460c18c890a0b86662dc61cc9c265b262468"
+    },
+    {
+      "path": "assets/animseq/medium_grapple_rifle/medium_grapple_rifle_0.cast",
+      "bytes": 249506,
+      "sha256": "8bacb1e6bcfaa5c3b74b03d4b6f9336aef996cdd0b270cdbc46c0d4dc20e0008"
+    },
+    {
+      "path": "assets/animseq/medium_grapple_rifle/medium_grapple_rifle_1.cast",
+      "bytes": 249506,
+      "sha256": "7fc63be31a0c884a3d22ecf345e237efa4f1bae3b8c76c4aebb3c79091a01567"
+    },
+    {
+      "path": "assets/animseq/medium_grapple_rifle/medium_grapple_rifle_2.cast",
+      "bytes": 109346,
+      "sha256": "3a9e38f322646a8e97bc118cf700c88e18ad686c7c0b3ee1c2501b301ec6166c"
+    },
+    {
+      "path": "assets/animseq/medium_victim_pathfinder_execution_grapple/medium_victim_pathfinder_execution_grapple_0.cast",
+      "bytes": 373314,
+      "sha256": "ef77466516358a08abc7a35c2e19db473dacc6a325c833e3ecfd9504b143a77b"
+    },
+    {
+      "path": "assets/animseq/melee_grapple/melee_grapple_0.cast",
+      "bytes": 131636,
+      "sha256": "1e33a1563c6080c1a21d7a17e04dcdcc0150c228d379142f0e54fc1bf67adb64"
+    },
+    {
+      "path": "assets/animseq/melee_grapple_crouch/melee_grapple_crouch_0.cast",
+      "bytes": 131636,
+      "sha256": "70caa28ffef8c1247c437bc06466af0d70cd898eed275daf522a76bc15b9ac53"
+    },
+    {
+      "path": "assets/animseq/meleeknife_seq_06_grapple/meleeknife_seq_06_grapple_0.cast",
+      "bytes": 150248,
+      "sha256": "a647c45b18d6f0f52bdc8ea21854a44e2db46ae747868a132d17d86c91afaafa"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle/mp_pt_heavy_grapple_idle_0.cast",
+      "bytes": 1818663,
+      "sha256": "6279b4066362dab9c7556fdc2717a7e78685ce750dbb6454fbbb39519cc621f4"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_0.cast",
+      "bytes": 59863,
+      "sha256": "00a57399c57e53d0512697473a08ee835cf00b6dc2300fabde8219f2228efa63"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_1.cast",
+      "bytes": 59863,
+      "sha256": "c4422658c392833d961b82835515f0ba9ad96bb4a8e3da44668fb6e83185c94b"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_2.cast",
+      "bytes": 59863,
+      "sha256": "9c804c496aceb315bb3d0b32b5d7d34ba8216adce360e4f9b40e7209c7af7976"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_3.cast",
+      "bytes": 59863,
+      "sha256": "eef54fe464a44b4453529ee47f8d989ff2b0447a07ebced58237dcb57831667f"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_4.cast",
+      "bytes": 11023,
+      "sha256": "13502bdeaf86767ee237bd1659761204d954ef3e540f26e545600a1dfaafa058"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_5.cast",
+      "bytes": 59863,
+      "sha256": "e93093d8e2073955d82a35903df3f37b5afcaf8ea9502569c8d7a2d6f50042c6"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_6.cast",
+      "bytes": 59863,
+      "sha256": "e23f518374dafc0d6b45f70c26a56c0014d56c256eb2e4b44616b45669f5ca7e"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_7.cast",
+      "bytes": 59863,
+      "sha256": "a9e43bc9e6f4a5b731c0098fbf4c8eacbd8c0fdc8c5fccdd7edd85a394d663d0"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_idle_AIM/mp_pt_heavy_grapple_idle_AIM_8.cast",
+      "bytes": 59863,
+      "sha256": "c1665d97c3b6eeb7f33c9634e677cc35bb9eca0b275cc4dd8876a55d3cd264f2"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_0.cast",
+      "bytes": 59863,
+      "sha256": "6761209e69535fcc8bb0bbb2858533cb36aef01d6272c54bf351114eedcb4b1c"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_1.cast",
+      "bytes": 59863,
+      "sha256": "2199c438bc723760e3b597fe5003a20b1f8e5b376613924125d7993702f01887"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_2.cast",
+      "bytes": 59863,
+      "sha256": "0504ea0890d3a0a4f7ffdcf1b890963a6cea2d4748432cbaedd612fb39f3dee0"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_3.cast",
+      "bytes": 59863,
+      "sha256": "d9fb555f0f92378195c8961572d9c99ce5977990db34c58a4f122e3ca4258fba"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_4.cast",
+      "bytes": 11023,
+      "sha256": "443e92b0bafbd33d15647a3a278a56a04cd34c087c527277e47ff58df83f2b4d"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_5.cast",
+      "bytes": 59863,
+      "sha256": "b2b7ad109b87390772ea99b8bcf2b3c837b4fe385d225b295f1cb8c1d4a73420"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_6.cast",
+      "bytes": 59863,
+      "sha256": "42a45f1ffadd159976ac314d03dd34996ad3859c482b63ecc921e4137e6cf768"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_7.cast",
+      "bytes": 59863,
+      "sha256": "6d97a8e4016ab4685c81d5689b80e8a3fc5d6df84a1a549ac8ca8d67f6210fd0"
+    },
+    {
+      "path": "assets/animseq/mp_pt_heavy_grapple_pistol_idle_AIM/mp_pt_heavy_grapple_pistol_idle_AIM_8.cast",
+      "bytes": 59863,
+      "sha256": "8be66308d2de40d086c3c92f0ee7f24a6c0ad102e078b449dd5b2aee50bb1867"
+    },
+    {
+      "path": "assets/animseq/mrvn_loot_grapple_reaction/mrvn_loot_grapple_reaction_0.cast",
+      "bytes": 321053,
+      "sha256": "fcc6d0e294be434c318ea53d8f7c616451a08eea7414e0ceb121fbbe78c6ab05"
+    },
+    {
+      "path": "assets/animseq/mrvn_powerdown_pain_grapple/mrvn_powerdown_pain_grapple_0.cast",
+      "bytes": 146333,
+      "sha256": "4c9d282a85f0c3b232a1643481b0ac71a2249721688a641abe8079f0f977a39a"
+    },
+    {
+      "path": "assets/animseq/npc_victim_pathfinder_execution_grapple/npc_victim_pathfinder_execution_grapple_0.cast",
+      "bytes": 768048,
+      "sha256": "586771e50b3f782f918e5bc77404e1617650d815f37d2c4960274c349cbc37b1"
+    },
+    {
+      "path": "assets/animseq/pathfinder_animated_pose_grapple/pathfinder_animated_pose_grapple_0.cast",
+      "bytes": 175863,
+      "sha256": "538e35c5467fa84f37345ec8dd7d4179e4a890b27d04dc643b73f9da0b23f301"
+    },
+    {
+      "path": "assets/animseq/pathfinder_animated_pose_grapple_idle/pathfinder_animated_pose_grapple_idle_0.cast",
+      "bytes": 63863,
+      "sha256": "a946406a6d740f236b9bbd312149272e4a732b494ecbb7cef90e06286cc311f4"
+    },
+    {
+      "path": "assets/animseq/pathfinder_execution_grapple/pathfinder_execution_grapple_0.cast",
+      "bytes": 511863,
+      "sha256": "ad7edf10374397955110088b8a232e923cdf4e25d94a0675ea30ff007d4347d7"
+    },
+    {
+      "path": "assets/animseq/pathfinder_execution_grapple_loot/pathfinder_execution_grapple_loot_0.cast",
+      "bytes": 57463,
+      "sha256": "d2851730f0ee90a7f00751b9f35f8f9af8c748f712ff7a2b45e6dc07596806a6"
+    },
+    {
+      "path": "assets/animseq/pathfinder_fire_grappleTAC/pathfinder_fire_grappleTAC_0.cast",
+      "bytes": 89463,
+      "sha256": "6a9515875647c875951473ce7d281d52c16ff1859018dae86ea032717fa243c5"
+    },
+    {
+      "path": "assets/animseq/pathfinder_idle_grappleTAC/pathfinder_idle_grappleTAC_0.cast",
+      "bytes": 236663,
+      "sha256": "3501e6e50b5c464430c374dd8e073a6e611445b35ec26ed9b751ee0fdac1f6f5"
+    },
+    {
+      "path": "assets/animseq/prop_pathfinder_grapple_menu_FN_ready_up/prop_pathfinder_grapple_menu_FN_ready_up_0.cast",
+      "bytes": 304269,
+      "sha256": "e38c20d834394014ff413b728032146aebb1a067ed2465ab97eaf8fa7d4f0aa3"
+    },
+    {
+      "path": "assets/animseq/pt_cloudcity_grapple_death_01/pt_cloudcity_grapple_death_01_0.cast",
+      "bytes": 460848,
+      "sha256": "73026ba8c53844636615f5cd16b309586083f79901a0e21e892c4605abc16854"
+    },
+    {
+      "path": "assets/animseq/pt_flinch_grapple_forward/pt_flinch_grapple_forward_0.cast",
+      "bytes": 259248,
+      "sha256": "22d3caafb785e085845049c71f6daa69c85c228c9b593680f09f9d742cdf15d4"
+    },
+    {
+      "path": "assets/animseq/pt_grapple_death_forward/pt_grapple_death_forward_0.cast",
+      "bytes": 187248,
+      "sha256": "188630414073daacb92427ecc6b1f929ac649788e6412861b7a05e6eb40108f2"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_fire/ptpov_cloudcity_grapple_fire_0.cast",
+      "bytes": 76765,
+      "sha256": "339dc3d790d752da758c8ba6f83a8f9bc8758d7038c62ea216c7fdfdb348a644"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_fire_trans/ptpov_cloudcity_grapple_fire_trans_0.cast",
+      "bytes": 67549,
+      "sha256": "07d79b33eb2da9b92c51c570447324b67369f7307137bc278ad84c6a80b49625"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_idle/ptpov_cloudcity_grapple_idle_0.cast",
+      "bytes": 227293,
+      "sha256": "7c2291e37c44dd9d6c8d37b5253e870d84a3462df22395802ccd728b20985517"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_lower/ptpov_cloudcity_grapple_lower_0.cast",
+      "bytes": 89053,
+      "sha256": "f592f88e678e2e17a9dcb988df45c3936810bd310362aae7af969b94db8e4f7d"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_lower_trans/ptpov_cloudcity_grapple_lower_trans_0.cast",
+      "bytes": 67549,
+      "sha256": "3c843b0603625a7a3577b044056a17501ed6b34138727a9f6b59df95191236db"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_0.cast",
+      "bytes": 57565,
+      "sha256": "f9880067bbbbc4b783f5634253260ccb14059790f993cb10ad8cbcd66ffb4dd0"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_1.cast",
+      "bytes": 57565,
+      "sha256": "c78a44408d769a2c810dff420d9f665a6a5e39705230833e8c4e579d31f62242"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_2.cast",
+      "bytes": 57565,
+      "sha256": "1c44b9f02dee739cf3a0f67ed083d66f5117f4b6596c0bfceb77b39722273644"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_3.cast",
+      "bytes": 57565,
+      "sha256": "7cbc1a2daedbbff7d9d0b470dbd51f5c81091d64c6d87ea4768203c7583581b2"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_4.cast",
+      "bytes": 10605,
+      "sha256": "a1244054a402d18c6b0fd1521f11f400261719e5486e77984fdec5deb9efcf90"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_5.cast",
+      "bytes": 57565,
+      "sha256": "087e402f92264d18efd8b16bbc3b7c226b07bcff323cfd5b03466036e1bf6724"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_6.cast",
+      "bytes": 57565,
+      "sha256": "0d52e05b783be6017613d1228ffef87dbca8c3550ae66233ded930690f17f06d"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_7.cast",
+      "bytes": 57565,
+      "sha256": "0d97435b6bd0f9ece36c725b6518e5f4e911f481a0067b46bda3e93176a0005b"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_poses/ptpov_cloudcity_grapple_poses_8.cast",
+      "bytes": 57565,
+      "sha256": "7608df3ad9ddfec624b620838b9b3188a8820975f7f31d08e78ceac2323d563e"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_pull_01/ptpov_cloudcity_grapple_pull_01_0.cast",
+      "bytes": 76765,
+      "sha256": "183cce8af614b2c80e48ff4fe51055b3da615dd88d574fa88a7b48bc7772b8de"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_pull_02/ptpov_cloudcity_grapple_pull_02_0.cast",
+      "bytes": 122845,
+      "sha256": "81ba6a99ede9b28f4d52d7cd6ebacf80d26aa4beee8d8e19aee80413eddf84f9"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_switch/ptpov_cloudcity_grapple_switch_0.cast",
+      "bytes": 150493,
+      "sha256": "5f451973ca3f81f550e2db3bae07b4d34452b20efcd36368891f63dc3f6ab734"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_switch_quick/ptpov_cloudcity_grapple_switch_quick_0.cast",
+      "bytes": 150493,
+      "sha256": "cada99153cf117b591c2b107cd4dff6a20487a93d824928a4c5b330bb017eeb6"
+    },
+    {
+      "path": "assets/animseq/ptpov_cloudcity_grapple_switch_slow/ptpov_cloudcity_grapple_switch_slow_0.cast",
+      "bytes": 150493,
+      "sha256": "728d5b63db74d297d94b89720d05d462dfd60224c031c6d14e48e59a8d117570"
+    },
+    {
+      "path": "assets/animseq/victim_pathfinder_execution_grapple_loot/victim_pathfinder_execution_grapple_loot_0.cast",
+      "bytes": 41602,
+      "sha256": "e79d42f16dd54551e8674061bb3a07d97fabbed7559b451ff30f29d4709b293b"
+    },
+    {
+      "path": "assets/animseq/wraith_gladcard_animated_leapofwraith_grapple/wraith_gladcard_animated_leapofwraith_grapple_0.cast",
+      "bytes": 170445,
+      "sha256": "2f41488d958923afb8bc9e11ed5a22eeff77aa42eedcdcc3681bceef407cbad1"
+    },
+    {
+      "path": "assets/animseq/wraith_gladcard_animated_leapofwraith_grapple_idle/wraith_gladcard_animated_leapofwraith_grapple_idle_0.cast",
+      "bytes": 23501,
+      "sha256": "6b7531059e6b9e73d2d22989fa71c3b56aad1c937cf7602f3adb72a02392d8db"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/anims_grapple_swtich_large_lever_dev/ref_0.cast",
+      "bytes": 759,
+      "sha256": "8d277eaf503baad811a0ff1d5cc443d5db390334e908c22020496ef51877f4e9"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/boomtown_patternwood_01_red_col.png",
+      "bytes": 2047826,
+      "sha256": "9b19be372f27b2be8004fff5fbbea633436c5f912b0fa0a4de7da7f2fcab36c0"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/boomtown_patternwood_01_red_gls.png",
+      "bytes": 4604121,
+      "sha256": "3212c9e8d7d25e6ef07e54ca0e823a4b311dce8478a8464280c0efcc3199421b"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/boomtown_patternwood_01_red_nml.png",
+      "bytes": 2807341,
+      "sha256": "1b6e3a2f9796f800474123b71341cef234ea577a2e864c379633413ab040ff8f"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/boomtown_patternwood_01_red_spc.png",
+      "bytes": 1785624,
+      "sha256": "83390c5f36f37a577767cecb006e49850b4164a7555b1801d72f89cbc7fe93dd"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/lightswitch_touchScreen_col.png",
+      "bytes": 225724,
+      "sha256": "7e0dfd4589d78c958d2c44629a48b19a1c5ac989d7d3870516cdebb6d9010bde"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/lightswitch_touchScreen_gls.png",
+      "bytes": 327644,
+      "sha256": "5830515e8b36aa4354d09ba74d026480a7d1746c8243f5ba4d7cf8748c72142f"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/lightswitch_touchScreen_nml.png",
+      "bytes": 105726,
+      "sha256": "4a34655e559b1374fd5359993a66462c4045beb3c1dcb7b09b00e2773b053ea3"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev/lightswitch_touchScreen_spc.png",
+      "bytes": 284078,
+      "sha256": "a7d9370b25f48303cd40c88aa5d5202d5bf9a3bae8fa9fbd49ccd92f2cf210f3"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_large_lever_dev/grapple_swtich_large_lever_dev_LOD0.cast",
+      "bytes": 12766,
+      "sha256": "732d7116fe82506e8336288f5554c4ad89a3b648085306c23ce3aeeb281e505b"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/anims_grapple_swtich_lever_dev/ref_0.cast",
+      "bytes": 729,
+      "sha256": "c4d4f0142afef99b77a77cd5b62d1c8f41ee259d992e84d918501684e1c2ccf4"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/boomtown_patternwood_01_red_col.png",
+      "bytes": 2047826,
+      "sha256": "9b19be372f27b2be8004fff5fbbea633436c5f912b0fa0a4de7da7f2fcab36c0"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/boomtown_patternwood_01_red_gls.png",
+      "bytes": 4604121,
+      "sha256": "3212c9e8d7d25e6ef07e54ca0e823a4b311dce8478a8464280c0efcc3199421b"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/boomtown_patternwood_01_red_nml.png",
+      "bytes": 2807341,
+      "sha256": "1b6e3a2f9796f800474123b71341cef234ea577a2e864c379633413ab040ff8f"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/boomtown_patternwood_01_red_spc.png",
+      "bytes": 1785624,
+      "sha256": "83390c5f36f37a577767cecb006e49850b4164a7555b1801d72f89cbc7fe93dd"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/lightswitch_touchScreen_col.png",
+      "bytes": 225724,
+      "sha256": "7e0dfd4589d78c958d2c44629a48b19a1c5ac989d7d3870516cdebb6d9010bde"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/lightswitch_touchScreen_gls.png",
+      "bytes": 327644,
+      "sha256": "5830515e8b36aa4354d09ba74d026480a7d1746c8243f5ba4d7cf8748c72142f"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/lightswitch_touchScreen_nml.png",
+      "bytes": 105726,
+      "sha256": "4a34655e559b1374fd5359993a66462c4045beb3c1dcb7b09b00e2773b053ea3"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev/lightswitch_touchScreen_spc.png",
+      "bytes": 284078,
+      "sha256": "a7d9370b25f48303cd40c88aa5d5202d5bf9a3bae8fa9fbd49ccd92f2cf210f3"
+    },
+    {
+      "path": "assets/mdl/grapple_swtich_lever_dev/grapple_swtich_lever_dev_LOD0.cast",
+      "bytes": 15056,
+      "sha256": "e1069b2d3193bec404bd03a5e0ff5efd49c66287c70529e5d2485a966f1d155f"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/anims_pathfinder_grapplehook/ref_0.cast",
+      "bytes": 22189,
+      "sha256": "64c2f1ea28688e5ccf92d12e20f56bbe13ce40e91e3ecfcbc8645e466309d785"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_ao.png",
+      "bytes": 73912,
+      "sha256": "dd896732582064a481dfecb3c83b88bbf8ad7a6eb5542e03c6fed9ba9a328d46"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_cav.png",
+      "bytes": 308792,
+      "sha256": "a252d5beca71ab1d5c4349ddd5b8bff283d73b2080e5a94eff85132574c8b5cf"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_col.png",
+      "bytes": 419547,
+      "sha256": "eff5efd3837d85649af5361673584f3bb43f7b294c7ae8ea3c3fa96a22800960"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_gls.png",
+      "bytes": 816066,
+      "sha256": "c33b52f5ed65845c2d64ef6956b86f3e9261f7aa4f9ae3d77ca2cf0ed2aa25d2"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_nml.png",
+      "bytes": 1133062,
+      "sha256": "4444f3811ebe260f6ca06ed8429f8d15b20d04828f4d43f4ce778b2a2e429b0d"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook/pathfinder_prop_grapplehook_spc.png",
+      "bytes": 312300,
+      "sha256": "0cb171269f2f6f4ed67b13d6b01ec16c90484b77328ffb38300dac17d1a8ceb7"
+    },
+    {
+      "path": "assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook_LOD0.cast",
+      "bytes": 104288,
+      "sha256": "411c63ebb9d0a9ac65301c320de7fb9a667641ce263aa90e05bac87c3cbc6b38"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/anims_projectile_grapple_hook_anchor_bolt/ref_0.cast",
+      "bytes": 219,
+      "sha256": "3f8eccedf7b6aa9c35ab1cccd700a01cd31220522b518d291f14b665e5af2b15"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_ao.png",
+      "bytes": 75585,
+      "sha256": "7745477342037f87999a4585005053917a1d817a52926b880a231d5178becc94"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_cav.png",
+      "bytes": 49023,
+      "sha256": "bf937bb1022cf9826641d157bc0afe7a617f07c0fcc2b8f4ec22a28e9427d560"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_col.png",
+      "bytes": 183456,
+      "sha256": "ea686392489850eb6b7b125d947602f61daa1452b03708a65af5e6073fb5eab6"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_gls.png",
+      "bytes": 294723,
+      "sha256": "801a3545528174b62fb5894e6188cbbb75d65b338bb56d07eb5c988a2a96d7ad"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_nml.png",
+      "bytes": 248492,
+      "sha256": "8d109f856ef3ebaf967dfc8ed759c52b18f5521f929eddbf1d10206761989e1d"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt/grapple_gun_spc.png",
+      "bytes": 129604,
+      "sha256": "ea42c54bbe0175149aecf9620fc58bbabb2ec99654b1debce97910c7b4490a15"
+    },
+    {
+      "path": "assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt_LOD0.cast",
+      "bytes": 30794,
+      "sha256": "edd93137269d1afdc9d76427176d39a57e55dfc2a8e79eeb80c3cfc58b7bcf21"
+    },
+    {
+      "path": "audio/audio/CloudCity_Scr_GrappleMvmt_Cloth_2ch_v1_01_LP.wav",
+      "bytes": 11102260,
+      "sha256": "fc9903e4c98606eeabbeb5bee8826a23af979f9f0bd257031b6670526c006209"
+    },
+    {
+      "path": "audio/audio/CloudCity_Scr_GrappleMvmt_Cloth_2ch_v1_02_LP.wav",
+      "bytes": 10731844,
+      "sha256": "2b3d8904b530edc6c8fca06569694ee2a59c694217f82daa12462221f575470a"
+    },
+    {
+      "path": "audio/audio/CloudCity_Scr_GrappleMvmt_Cloth_2ch_v1_03_LP.wav",
+      "bytes": 11023172,
+      "sha256": "c27d47441d414d1683fcc305cadbeb319b36678a2880a4193e062ab2eb9b75ef"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Extract_Noise_Crunchy_Layer_01.wav",
+      "bytes": 674820,
+      "sha256": "229a145ca01aa8cd58de2acd6407bcd6e47cd1ff70e2e0d5011b8cef2a54d05e"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Extract_Noise_Crunchy_Layer_02.wav",
+      "bytes": 703596,
+      "sha256": "f156aac3538094d56b3251c6904f5026374630e621748b3d8a855d01149c5b42"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Extract_Noise_Crunchy_Layer_03.wav",
+      "bytes": 699652,
+      "sha256": "2d9ae233d4f865e03812c902ff171a4c77b8e4d5791dd721f6cd3a362f1d324f"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Extract_Noise_Crunchy_Layer_04.wav",
+      "bytes": 787972,
+      "sha256": "cc27e2577dd6aa306645dd230fd1a2cefb3466bf09fea7249f5d9326924797ce"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Fire_Noise_Bubbly_Layer_01.wav",
+      "bytes": 332924,
+      "sha256": "119db57f4d2d7c06bfdbde95163aa78f7f5e75c2eda3119e3c00d8f73571b155"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Fire_Noise_Bubbly_Layer_02.wav",
+      "bytes": 305668,
+      "sha256": "9a701743872211a501fd546a546916d565e674b4b128384d45b9d3d3f0fb7b06"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Fire_Noise_Bubbly_Layer_04.wav",
+      "bytes": 278332,
+      "sha256": "395d7a071b6cc6d240edac52c873d05624413b21dd9c1490945aef11d415eed3"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Fire_Noise_Bubbly_Layer_05.wav",
+      "bytes": 295596,
+      "sha256": "6322b6f592d0df0ecc58ec30772c4d67380642872cc211af93e818668a4cc4ec"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_01.wav",
+      "bytes": 225228,
+      "sha256": "1b8392d5ad2cf744f8c68704035e994a48e14d423732f6afe4608a204bec5a8d"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_02.wav",
+      "bytes": 331836,
+      "sha256": "0bb1d801146f65f2edc1d5656291a389c7fad0c59cf95ec01c56dee55583b534"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_03.wav",
+      "bytes": 263796,
+      "sha256": "da71ef4a1b9f6b5287b785ce9cd81adb36d0c9c549df85be1c497dfb936574fe"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_04.wav",
+      "bytes": 281972,
+      "sha256": "91ea6305729347bc6fa2ee50391c26512f12375f6d0f2c25f45cce4cd27506ea"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_05.wav",
+      "bytes": 372996,
+      "sha256": "3e49948c085437b2dbabc6b90f511cd9595634b66fe41d7b60a2229de8b40510"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Impacts_Noise_Crunchy_Layer_06.wav",
+      "bytes": 366020,
+      "sha256": "95de333adf82a7c1d60184756701fddbd5168cdc7303a067d30a4223bf77f8f3"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Releeintarget_Noise_PitchUp_Layer_01.wav",
+      "bytes": 2654244,
+      "sha256": "abd57a5824da26bdfc1f60f4c19fda70a0e0d1b5e43d253d1e4491348bbb15fc"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Releeintarget_Noise_PitchUp_Layer_02.wav",
+      "bytes": 2871356,
+      "sha256": "c43b87f551c69f92f15be02c5201a5601a284f98ace70d9c97cd88ad825ff58f"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Releeintarget_Noise_PitchUp_Layer_03.wav",
+      "bytes": 2792468,
+      "sha256": "04fd7cdd82dc16ef48b094d96cd7788e24d4f5c45eb2651066487ad7aa18a2ca"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Releeintarget_Noise_PitchUp_Layer_04.wav",
+      "bytes": 2798980,
+      "sha256": "6e0076fc3d9de27fca600ebfff4b322cbeea0a3474a636e4a50c378f54f73ec9"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Retract_Noise_PitchDown_Layer_01.wav",
+      "bytes": 118452,
+      "sha256": "f90da6fcc05d4bf1fe092ad467d68c8f6bd924e29f1a3ebdd0b1970a1635178a"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Retract_Noise_PitchDown_Layer_02.wav",
+      "bytes": 89644,
+      "sha256": "afba91c0f2c4ff44ca96d40d32082f6ba70a27a3e9e7fd2d7e893dd8119415a1"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Retract_Noise_PitchDown_Layer_03.wav",
+      "bytes": 108844,
+      "sha256": "65c73676452c41060ab2e5be60f1c4f9f578916491d9060cd7e4c9d5326e8483"
+    },
+    {
+      "path": "audio/audio/Epyon_Lash_Retract_Noise_PitchDown_Layer_04.wav",
+      "bytes": 105652,
+      "sha256": "7026caa97bf117f2debdbda16deb490fafd0d149fcacd074990f52340992d0ba"
+    },
+    {
+      "path": "audio/audio/extract_grapple_bubbleshield_2ch_v1_01.wav",
+      "bytes": 217252,
+      "sha256": "dd9b57497518aa669249667f58365ef324d629d0ee5f433b31576d0b384658f0"
+    },
+    {
+      "path": "audio/audio/extract_grapple_bubbleshield_2ch_v1_02.wav",
+      "bytes": 281236,
+      "sha256": "3f79b20bc772e93d796da0fff9746b8f212bfdf998514977084df6affb5259c2"
+    },
+    {
+      "path": "audio/audio/extract_grapple_bubbleshield_2ch_v1_03.wav",
+      "bytes": 258300,
+      "sha256": "9a5c3b3e2ed1c82584d850c698da58ad383a9f3b81363cc3ba7b1b356093c4b9"
+    },
+    {
+      "path": "audio/audio/extract_grapple_bubbleshield_2ch_v1_04.wav",
+      "bytes": 248844,
+      "sha256": "aefd11baf59c947233798f6855ccc83d5e8f1d7141400662863c6bda862b3e8a"
+    },
+    {
+      "path": "audio/audio/extract_grapple_concrete_2ch_v1_01.wav",
+      "bytes": 567860,
+      "sha256": "bcc39256b47de228b0d932889b70c182a7807e02076a401fe52f6ab9fb6d8b0e"
+    },
+    {
+      "path": "audio/audio/extract_grapple_concrete_2ch_v1_02.wav",
+      "bytes": 388956,
+      "sha256": "b3b583b17a56dd737a8dc1844f6008c949563448e6d612e4299be30355b98bd2"
+    },
+    {
+      "path": "audio/audio/extract_grapple_concrete_2ch_v1_03.wav",
+      "bytes": 366380,
+      "sha256": "52bb06c26cb8a2e40a57b496d42f95335d2c64551600d3842698a15919280cb5"
+    },
+    {
+      "path": "audio/audio/extract_grapple_concrete_2ch_v1_04.wav",
+      "bytes": 545084,
+      "sha256": "a81fb287b922a9b8059f15e09a8b184b4ee16e77440807f2db8d206f6f7c6c4a"
+    },
+    {
+      "path": "audio/audio/extract_grapple_default_2ch_v1_01.wav",
+      "bytes": 157180,
+      "sha256": "f934e2302dcc85af3565fd61dd236f06d5fe9903dc5cfe0855c78137f1ad9964"
+    },
+    {
+      "path": "audio/audio/extract_grapple_default_2ch_v1_02.wav",
+      "bytes": 149716,
+      "sha256": "ef972db953905139a7af1122430542317d4e48f53472677699a75e8a0202d95d"
+    },
+    {
+      "path": "audio/audio/extract_grapple_default_2ch_v1_03.wav",
+      "bytes": 146692,
+      "sha256": "cb090cd05f1b9b899c5ad326f6253537d181b777e332996d1ff7e6035a4ee1ea"
+    },
+    {
+      "path": "audio/audio/extract_grapple_dirt_2ch_v1_01.wav",
+      "bytes": 550124,
+      "sha256": "b545c1527147ff46a57f1a1acc99fe18062458940e3a89805b70869b8a7b0c6b"
+    },
+    {
+      "path": "audio/audio/extract_grapple_dirt_2ch_v1_02.wav",
+      "bytes": 560212,
+      "sha256": "c6e5a0209dbe5a72795810c417cb5932f5c484b314fe2cfdfd4bf16d2f5baec6"
+    },
+    {
+      "path": "audio/audio/extract_grapple_dirt_2ch_v1_03.wav",
+      "bytes": 357540,
+      "sha256": "ea850aeec9e3da74664bd0c37a61ffd24e4a940dc366d9950826167e9128d14f"
+    },
+    {
+      "path": "audio/audio/extract_grapple_dirt_2ch_v1_04.wav",
+      "bytes": 566596,
+      "sha256": "cd74992427dbe35c49a25f552c2d347263dbe4bdc6ae4f8a344b93c7aa3ba494"
+    },
+    {
+      "path": "audio/audio/extract_grapple_flesh_2ch_v1_01.wav",
+      "bytes": 221964,
+      "sha256": "442021e35ea48db56d22b8e8b760744512f089bf57f9ac2ef603535134512f84"
+    },
+    {
+      "path": "audio/audio/extract_grapple_flesh_2ch_v1_02.wav",
+      "bytes": 228772,
+      "sha256": "cea7195a7fe15171a89015b6acad90510c58027fa7a7cad0b2b0f186f91ab094"
+    },
+    {
+      "path": "audio/audio/extract_grapple_flesh_2ch_v1_03.wav",
+      "bytes": 274124,
+      "sha256": "81de1db4147d171b45922451c736294ddf4402b4ed5b81ec04450fb481134623"
+    },
+    {
+      "path": "audio/audio/extract_grapple_flesh_2ch_v1_04.wav",
+      "bytes": 246260,
+      "sha256": "bf18ed15752d791d5df95a9c16f7a0b78b94b30a13552aad16b3014929a1c50f"
+    },
+    {
+      "path": "audio/audio/Extract_Grapple_Glass_2ch_v1_01.wav",
+      "bytes": 572076,
+      "sha256": "02a2b9a25f2421eb96cd56f4934909d0e73e50a1c044c322dd83d91c2f819864"
+    },
+    {
+      "path": "audio/audio/Extract_Grapple_Glass_2ch_v1_02.wav",
+      "bytes": 423348,
+      "sha256": "7d9e1f8719ca6be133684bdb352bfa768498f4f314c954def9b5b089d7238e81"
+    },
+    {
+      "path": "audio/audio/Extract_Grapple_Glass_2ch_v1_03.wav",
+      "bytes": 398780,
+      "sha256": "05de30bfbd69a443b585fe44951a5d614378b6528c25bdad122a4f3a537c6f19"
+    },
+    {
+      "path": "audio/audio/Extract_Grapple_Glass_2ch_v1_04.wav",
+      "bytes": 593284,
+      "sha256": "6dd8cae2754c641862741f5273ccbf0f5b1877ce078ddbea537b862d31093c05"
+    },
+    {
+      "path": "audio/audio/extract_grapple_mud_2ch_v1_01.wav",
+      "bytes": 228188,
+      "sha256": "4d122876ca41edde455fd3fcee50a9da58291fcc2be69dd7d632cd7e5cbe450b"
+    },
+    {
+      "path": "audio/audio/extract_grapple_mud_2ch_v1_02.wav",
+      "bytes": 199596,
+      "sha256": "9c2b1967657b504ba92896e0adbefa80f3f73c6a8e7985899d5b41183bb15fb3"
+    },
+    {
+      "path": "audio/audio/extract_grapple_mud_2ch_v1_03.wav",
+      "bytes": 221452,
+      "sha256": "314eb41999a7d54fe6773e11a8cde4832a571fe0356b1d260fc277754fd4fd3e"
+    },
+    {
+      "path": "audio/audio/extract_grapple_mud_2ch_v1_04.wav",
+      "bytes": 231996,
+      "sha256": "9816e116d6ebbc803691721f05f6254d377f3a3620f1c628471a23bd81e7af39"
+    },
+    {
+      "path": "audio/audio/extract_grapple_sand_2ch_v1_01.wav",
+      "bytes": 431436,
+      "sha256": "49c4ff8c37a28096f4751601c12feebe227e2d3aff4aa4c2053d7cb4a29ee2db"
+    },
+    {
+      "path": "audio/audio/extract_grapple_sand_2ch_v1_02.wav",
+      "bytes": 409204,
+      "sha256": "211454847e5837425999dcf4b2996ffa396871649568962bb3d8de7f43ac1427"
+    },
+    {
+      "path": "audio/audio/extract_grapple_sand_2ch_v1_03.wav",
+      "bytes": 454628,
+      "sha256": "eeb9275ae9343719c25b01bd804ba42644a6fd306a2a942dd3bce56e80f01930"
+    },
+    {
+      "path": "audio/audio/extract_grapple_sand_2ch_v1_04.wav",
+      "bytes": 524884,
+      "sha256": "50ca48967519a3da6517608b5fdf1ac47d9f88d6ff6000c2426da7e353d5b80a"
+    },
+    {
+      "path": "audio/audio/extract_grapple_shieldwall_2ch_v1_01.wav",
+      "bytes": 389284,
+      "sha256": "074bc32bbc01c171555e129c9f230dc6fbb0666b6d8a0aa713f2de3d2743064a"
+    },
+    {
+      "path": "audio/audio/extract_grapple_shieldwall_2ch_v1_02.wav",
+      "bytes": 412492,
+      "sha256": "d6fc9a4954ff4326aa6a914e44df097eb64c7a1f6a45db6db2d6753c258eb561"
+    },
+    {
+      "path": "audio/audio/extract_grapple_shieldwall_2ch_v1_03.wav",
+      "bytes": 358900,
+      "sha256": "7d1a5e73631150f8b344428e460f41dae02210385203e2865df39e46e4073c22"
+    },
+    {
+      "path": "audio/audio/extract_grapple_shieldwall_2ch_v1_04.wav",
+      "bytes": 385380,
+      "sha256": "939e726e0be52958a2440d078eb87fda2a7373885a141c431c53358f380c9a89"
+    },
+    {
+      "path": "audio/audio/extract_grapple_solidmetal_2ch_v1_01.wav",
+      "bytes": 389572,
+      "sha256": "1f556f153d9cfd4a530c263cd99b5887f7bc6c9996508284d129d7eb955c0812"
+    },
+    {
+      "path": "audio/audio/extract_grapple_solidmetal_2ch_v1_02.wav",
+      "bytes": 314804,
+      "sha256": "ab7e0bf65151b0c1bbf377837065cdb92f9eb208e75bdf41e157f14a272f19f2"
+    },
+    {
+      "path": "audio/audio/extract_grapple_solidmetal_2ch_v1_03.wav",
+      "bytes": 291508,
+      "sha256": "86e9ed29d3cf61862e65bbf93a82ca32e8d03e5b830422fad5d287a870d3bd48"
+    },
+    {
+      "path": "audio/audio/extract_grapple_solidmetal_2ch_v1_04.wav",
+      "bytes": 340804,
+      "sha256": "4d8de612dbd3e8c6b215e6b130189b608d5a56e792a811fc81967552d90c5375"
+    },
+    {
+      "path": "audio/audio/extract_grapple_wood_2ch_v1_01.wav",
+      "bytes": 348332,
+      "sha256": "2f092c79216dbf8504cc95cac66010500965c24fa96017cf14737d4dec3c0ea5"
+    },
+    {
+      "path": "audio/audio/extract_grapple_wood_2ch_v1_02.wav",
+      "bytes": 290428,
+      "sha256": "a7a493908e3d7484deb7762e36b4e5b2bb97905dd34702d3eaa75d6fe9a4bd06"
+    },
+    {
+      "path": "audio/audio/extract_grapple_wood_2ch_v1_03.wav",
+      "bytes": 251156,
+      "sha256": "8d322f6d5d17fc0bb44b318fb26071a9953321f8a09af86f5ee8245fbfb538d9"
+    },
+    {
+      "path": "audio/audio/grapple_fire_2ch_v1_01.wav",
+      "bytes": 227964,
+      "sha256": "f7546af14524416a4decdaf79138fd27d5d39bfad97422337a0851413029c869"
+    },
+    {
+      "path": "audio/audio/grapple_fire_2ch_v1_02.wav",
+      "bytes": 235596,
+      "sha256": "7fa6d5e33ffdf8152b80debf4adcbbcb7887d3b95cc8ea3a21531ae9071013fe"
+    },
+    {
+      "path": "audio/audio/grapple_fire_2ch_v1_03.wav",
+      "bytes": 232396,
+      "sha256": "f00b56c8021f2dcb4740c66f1e740a6cc4ea8d2b5314f2ec37d794f4f48de7bb"
+    },
+    {
+      "path": "audio/audio/grapple_fire_2ch_v1_04.wav",
+      "bytes": 204324,
+      "sha256": "f54e7b3acd11d3fc827238cdb80bce0444ad201f333211c7a6d98de4c3f1e516"
+    },
+    {
+      "path": "audio/audio/grapple_reset_2ch_v1_01.wav",
+      "bytes": 120444,
+      "sha256": "b389d5814f1028dcbc4a9939f53b828fd1a2259939eabaa931f59807999abb8d"
+    },
+    {
+      "path": "audio/audio/grapple_retract_2ch_v1_01.wav",
+      "bytes": 175236,
+      "sha256": "0c369c877a17462a1e3d7c2f6faa88deb67eee63d9db7a16756605d0fd1ce94a"
+    },
+    {
+      "path": "audio/audio/grapple_retract_2ch_v1_02.wav",
+      "bytes": 200308,
+      "sha256": "0bd7e851cbc64084f9989be1e797d55b3a8f7ca48a4eb932e0b2b42dc06c45e9"
+    },
+    {
+      "path": "audio/audio/Grapple_Swing_2ch_v1_01.wav",
+      "bytes": 1040420,
+      "sha256": "ddb4f92660bc4be62ae119c13c106a26eba6bab25c1d6e25632f3e9bbb7feb9a"
+    },
+    {
+      "path": "audio/audio/Grapple_Swing_2ch_v1_02.wav",
+      "bytes": 1022492,
+      "sha256": "eb38b8872c974d35457ec4a250c971ab1d1b2d2da1fbecf6bcf16a571400a7c1"
+    },
+    {
+      "path": "audio/audio/Grapple_Swing_2ch_v1_03.wav",
+      "bytes": 991724,
+      "sha256": "fb09d841718bd638e28056e3ede9d230701ee7467ff223c85b5cf02ff5812f26"
+    },
+    {
+      "path": "audio/audio/Grapple_Swing_2ch_v1_04.wav",
+      "bytes": 1116388,
+      "sha256": "5263ed0e65c9ca411c9b77c4ea4ffda59a1eb2b879c9afc47f11e42a7c9316a0"
+    },
+    {
+      "path": "audio/audio/Grapple_Swing_2ch_v1_05.wav",
+      "bytes": 1025924,
+      "sha256": "c59180781bb05461d6961a8a347503698f1ff3f8ffcab190f6824eeaea82f41f"
+    },
+    {
+      "path": "audio/audio/grapple_traverse_2ch_v1_01.wav",
+      "bytes": 861788,
+      "sha256": "c25e96c6ba9bc12c7a2287204e753c2b536730b81b2386f672ecc4cf51ad3751"
+    },
+    {
+      "path": "audio/audio/grapple_traverse_2ch_v1_02.wav",
+      "bytes": 859492,
+      "sha256": "0a83428bc6dc0f738ab1c02b0797b3c024ccffcfcb251e0b98e786e5f5e0fac5"
+    },
+    {
+      "path": "audio/audio/grapple_traverse_2ch_v1_03.wav",
+      "bytes": 901780,
+      "sha256": "cfa3aef64d27177af8cd9d495370052f00636a9ce9385ecf1a8bc3bf3d247fc8"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_01.wav",
+      "bytes": 209148,
+      "sha256": "d04729167d6c930b34074ffd0a965e80673f8d558aa8795a83e2de0a778527b8"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_05.wav",
+      "bytes": 242388,
+      "sha256": "6e041548dceda80a748b8e681db6f42dd548543c5c5e00fb9c2a233561c342e5"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_07.wav",
+      "bytes": 270156,
+      "sha256": "17108dc39f5516e88733caf9c7b9849bcab64f557ee94a2f31b1bac274b882c7"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_08.wav",
+      "bytes": 246460,
+      "sha256": "1c7d4bafe4fcd22dd9bde0e7eefb678d6cb8876b630cd2be9ef9a8a729ff8a56"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_09.wav",
+      "bytes": 264588,
+      "sha256": "a135ed944edf4d60fe00dd43a06dd843d95c6ab2b2b4855b8ba3235310a215f9"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_10.wav",
+      "bytes": 260484,
+      "sha256": "c963426cb13874f858022fd3cb853c02fb45d4f9283f67b07a6626b8372d524e"
+    },
+    {
+      "path": "audio/audio/imp_bullet_heavyballistic_titan_1p_vs_3p_2ch_v2_11.wav",
+      "bytes": 222124,
+      "sha256": "cade1c866f2c69c1a5dacc210d372456463ec35ed6a8a47bc7ed5ef04f1f3d4b"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_01.wav",
+      "bytes": 111444,
+      "sha256": "e560988304628d1ee35b5349f83f085461bd97bb4cdab06a00e42730f834ece9"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_04.wav",
+      "bytes": 144036,
+      "sha256": "81e8179ecf0599da811ecc2d08c2e1d71bd73cfbb4c0ccd4d1a9b8bb3bc10941"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_05.wav",
+      "bytes": 114004,
+      "sha256": "a72d6e62ac22ed5b230ffa0ee223d5f08bb5a9507dcb06cdebb06c1a0082abdb"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_06.wav",
+      "bytes": 116636,
+      "sha256": "00d798dbc7c198aa8709d59dfba49eadf16ff721c1032c04ef26fc5abff389c8"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_07.wav",
+      "bytes": 88836,
+      "sha256": "1a52f7ce92c93ca34db03f80abd85860dc79d498dbd253237858453aad42b9e6"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_08.wav",
+      "bytes": 127332,
+      "sha256": "581f1e996ccf7266da00be4f6cfee29be4678b5935b61c4a580c075ba3f8ede1"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_09.wav",
+      "bytes": 139956,
+      "sha256": "f7fb2acb3f7462475fa8358c21a3981c53c1d43836e205f63c3eae682d90e5ee"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_11.wav",
+      "bytes": 85100,
+      "sha256": "47da9128a4dbf1e53886cb845bd65a6172a2e7a61704d4694a235804088ab21f"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_12.wav",
+      "bytes": 114620,
+      "sha256": "5344bdada56e42a15e0ce7f8344e99b06c9f9c25376d2a33f91bdb2a32581fe6"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_13.wav",
+      "bytes": 112236,
+      "sha256": "008c234600575d1439fc52c102956a8f05fc1c1f4e139b152a18c15e6e2996e5"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_android_1p_vs_3p_2ch_14.wav",
+      "bytes": 128844,
+      "sha256": "7245089fae341fb62881243e76c936938574e7475de3681768ddddf016a15cca"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_headshot_human_1ch_v1_01.wav",
+      "bytes": 112440,
+      "sha256": "b96b6fd10fd01eab4925d162b4889a31a158f106a8332da15020b5e41500c23a"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_headshot_human_1ch_v1_02.wav",
+      "bytes": 121040,
+      "sha256": "3c07fff0666c64f7d9b3cc80a40d9e6756946ee06b2af242ecc908da49a8dd73"
+    },
+    {
+      "path": "audio/audio/imp_bullet_lightballistic_headshot_human_1ch_v1_03.wav",
+      "bytes": 109228,
+      "sha256": "c7a32f5f5894fa9b41231c500e52eac898d6255896850d24677c907b3a8c487d"
+    },
+    {
+      "path": "audio/audio/imp_grapple_bubbleshield_2ch_v1_01.wav",
+      "bytes": 225740,
+      "sha256": "e120372222cac952a954e2109cdb2eb80e6d97d9337dfc5215cc5c031ea4778b"
+    },
+    {
+      "path": "audio/audio/imp_grapple_bubbleshield_2ch_v1_02.wav",
+      "bytes": 273132,
+      "sha256": "3fa94d75f1f8243e886a78cbe7f897e6e59b4729d4cf68133443c10d25788d25"
+    },
+    {
+      "path": "audio/audio/imp_grapple_bubbleshield_2ch_v1_03.wav",
+      "bytes": 233900,
+      "sha256": "b460de430ba74591eda7d98dd7aa23da41180871807929cbd0f3e5067a300276"
+    },
+    {
+      "path": "audio/audio/imp_grapple_bubbleshield_2ch_v1_04.wav",
+      "bytes": 234244,
+      "sha256": "e4bae390b36fdfc3af6d8b0702c64775f0fe4ceeb1bbc3974c4c5de3ad42e04e"
+    },
+    {
+      "path": "audio/audio/imp_grapple_concrete_2ch_v1_01.wav",
+      "bytes": 307988,
+      "sha256": "e26416e275f14978007089d0412f2366edfb9c571c4596ef3be015787062f7cd"
+    },
+    {
+      "path": "audio/audio/imp_grapple_concrete_2ch_v1_02.wav",
+      "bytes": 384836,
+      "sha256": "e046dc3094af04cfec3d23b0cb27a75699a383884c77987a268e8acbfb7fac81"
+    },
+    {
+      "path": "audio/audio/imp_grapple_concrete_2ch_v1_03.wav",
+      "bytes": 500972,
+      "sha256": "77e4c5d37be61fbb3f4edd61670fc6c966514569f1f1871c1fc86eae03342201"
+    },
+    {
+      "path": "audio/audio/imp_grapple_concrete_2ch_v1_04.wav",
+      "bytes": 457916,
+      "sha256": "c0d44ebfaa0d451b0069ed9cdc4a902f93c2dcdee48a5e84e395a274c73e2208"
+    },
+    {
+      "path": "audio/audio/imp_grapple_default_2ch_v1_01.wav",
+      "bytes": 222036,
+      "sha256": "839a78f5860be9873a1e7a69b45b1d7f44cfb5b80b5f694a66eeb32db80a8d29"
+    },
+    {
+      "path": "audio/audio/imp_grapple_default_2ch_v1_02.wav",
+      "bytes": 185676,
+      "sha256": "f0f14f29920d40d5ffa802a00ceddcdc28c0397657ed03e5d11e8b8e7eb58bdb"
+    },
+    {
+      "path": "audio/audio/imp_grapple_dirt_2ch_v1_01.wav",
+      "bytes": 477404,
+      "sha256": "8e341dad2ce6c69cc8d84cc70379c5022894690f12e0385f34908574e6ba423e"
+    },
+    {
+      "path": "audio/audio/imp_grapple_dirt_2ch_v1_02.wav",
+      "bytes": 445196,
+      "sha256": "2744265953a43a2c7febf277ab49a43d2ab969ebfcbdc1ae0e713bf084cea211"
+    },
+    {
+      "path": "audio/audio/imp_grapple_dirt_2ch_v1_03.wav",
+      "bytes": 357540,
+      "sha256": "4656f0b4bc20023b38ffe05aa35097c121a0b4e75728ae5b26773e8a0e7b7699"
+    },
+    {
+      "path": "audio/audio/imp_grapple_dirt_2ch_v1_04.wav",
+      "bytes": 399380,
+      "sha256": "b93e3ddfb5c9a3d772df4c15b913e1c6fad2ce5c9b49cfcec4f51f568fbc7645"
+    },
+    {
+      "path": "audio/audio/imp_grapple_flesh_2ch_v1_01.wav",
+      "bytes": 248468,
+      "sha256": "bd749fbefa2ccde9b585cad7dc851f18a614a024afb337c106634887637357f7"
+    },
+    {
+      "path": "audio/audio/imp_grapple_flesh_2ch_v1_02.wav",
+      "bytes": 186676,
+      "sha256": "13ba5a7fbf1ea7851494531bfb0b4365a4e12cba92268ff40ff034b39da1fc24"
+    },
+    {
+      "path": "audio/audio/imp_grapple_flesh_2ch_v1_03.wav",
+      "bytes": 210876,
+      "sha256": "602a39642d8d7fa48026cd4851e930cc2ac771b1f84a0e6cadfcceb4682df74f"
+    },
+    {
+      "path": "audio/audio/imp_grapple_flesh_2ch_v1_04.wav",
+      "bytes": 185676,
+      "sha256": "047b89f74f37e788fb630f0a970254559ceea681011d7283d017761f27ba5b1d"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Glass_2ch_v1_01.wav",
+      "bytes": 335228,
+      "sha256": "daccaf32f0b0ea018d2990531c8eb48485f51f10d09d44effa758b7d685d5442"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Glass_2ch_v1_02.wav",
+      "bytes": 418876,
+      "sha256": "1ce1932e01da876ded611f34e181ca367408582dfb5c4eaef1462d4604ac5d2c"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Glass_2ch_v1_03.wav",
+      "bytes": 368588,
+      "sha256": "4ba83c041cf19b65852d6c7d5b65cdaee87cfe39fb5a933129e8cd427f5b96db"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Glass_2ch_v1_04.wav",
+      "bytes": 368116,
+      "sha256": "389a5f133888ee8b76c4f3a3f96317517b6924ad8201a04ed1d7949d46c26ea9"
+    },
+    {
+      "path": "audio/audio/imp_grapple_mud_2ch_v1_01.wav",
+      "bytes": 292828,
+      "sha256": "69ca0402d51c7e02f6438b0f847092e2a4ffbf590347f53b35407683403437ab"
+    },
+    {
+      "path": "audio/audio/imp_grapple_mud_2ch_v1_02.wav",
+      "bytes": 268068,
+      "sha256": "edeb121e959e01cf1d2a35c9625768b3e1c3b2f674e540d9978cd9265b6388c1"
+    },
+    {
+      "path": "audio/audio/imp_grapple_mud_2ch_v1_03.wav",
+      "bytes": 207756,
+      "sha256": "5ce452d1996fd311c8d1110aaf5ca522397e7bd4a02ae7ec25cbe633f16c80cf"
+    },
+    {
+      "path": "audio/audio/imp_grapple_mud_2ch_v1_04.wav",
+      "bytes": 263724,
+      "sha256": "25ce25cfff7048cedd2c5f45f9cc8f0408a3f8471c3f0234cbe2278b9633053a"
+    },
+    {
+      "path": "audio/audio/imp_grapple_sand_2ch_v1_01.wav",
+      "bytes": 316468,
+      "sha256": "8d20db81654cb6326759f232bf7fd095b6887d4d006934428d0e9867065db267"
+    },
+    {
+      "path": "audio/audio/imp_grapple_sand_2ch_v1_02.wav",
+      "bytes": 474012,
+      "sha256": "f762f6f92242a3e26fea2e90b429f9a9e04451e3df9415d4254a446115f719e4"
+    },
+    {
+      "path": "audio/audio/imp_grapple_sand_2ch_v1_03.wav",
+      "bytes": 430452,
+      "sha256": "c24de27853025e349eea945e46deafaa6a1e67350ed1bf051035577851cbc74f"
+    },
+    {
+      "path": "audio/audio/imp_grapple_sand_2ch_v1_04.wav",
+      "bytes": 352060,
+      "sha256": "16f37668affe21ad7d6cc94eea7396a31514531f1a8e5296bec0934748a594fb"
+    },
+    {
+      "path": "audio/audio/imp_grapple_shieldwall_2ch_v1_01.wav",
+      "bytes": 361596,
+      "sha256": "9a9b5ac0be5052fdde42f9e34df610b60b4f162845a353b8dcfefdb8d1064e78"
+    },
+    {
+      "path": "audio/audio/imp_grapple_shieldwall_2ch_v1_02.wav",
+      "bytes": 318356,
+      "sha256": "c61f460c757dd389b26840f32a319229e1307ae04880499d11758b65542cca00"
+    },
+    {
+      "path": "audio/audio/imp_grapple_shieldwall_2ch_v1_03.wav",
+      "bytes": 285180,
+      "sha256": "441eb3b3390a965dc071e86d07c7347c18575b0bb214cdbed4bac3a28f2b98a6"
+    },
+    {
+      "path": "audio/audio/imp_grapple_shieldwall_2ch_v1_04.wav",
+      "bytes": 274204,
+      "sha256": "fe0f227837cbaf9422343a1d402946370739916ebe37a88e3d417d22b265da98"
+    },
+    {
+      "path": "audio/audio/imp_grapple_solidmetal_2ch_v1_01.wav",
+      "bytes": 379252,
+      "sha256": "ea06d6f000c6ef6172de42109097f0899851c49c017b3a21d1c35b6216df59d1"
+    },
+    {
+      "path": "audio/audio/imp_grapple_solidmetal_2ch_v1_02.wav",
+      "bytes": 372364,
+      "sha256": "aa3f4571e2e0aa499e494ae6fd21c966c006af49b05e8f1d35798821aaa8584f"
+    },
+    {
+      "path": "audio/audio/imp_grapple_solidmetal_2ch_v1_03.wav",
+      "bytes": 330044,
+      "sha256": "96da2fd342a34250d7c6aff2a90be26e6f93bafd7a798596ad48dcf6def89a6c"
+    },
+    {
+      "path": "audio/audio/imp_grapple_solidmetal_2ch_v1_04.wav",
+      "bytes": 338284,
+      "sha256": "b6191c1b95216cd5faf7f7409178a54600d7207178e734ea8f69fbd8572de649"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_6ch_v2_01.wav",
+      "bytes": 534860,
+      "sha256": "952c19773e91cce64931cab120d5585d82244a5fb300fce7ccc86c384b5a96e4"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_6ch_v2_02.wav",
+      "bytes": 510620,
+      "sha256": "a09c9ed5bb1be4ed57659172fc7c81f223ebe459c39b962bf931b561425fff66"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_6ch_v2_03.wav",
+      "bytes": 487580,
+      "sha256": "b236a14cea21b0fcf40448508852e2150ca9a622289ef5ba62bbff7d5136f65e"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_LsRs_2ch_v1_01.wav",
+      "bytes": 178316,
+      "sha256": "043dcf355f08c389a92824b8ddfe048907dfdde7e10314a81b6a0fa38d964bbf"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_LsRs_2ch_v1_02.wav",
+      "bytes": 170236,
+      "sha256": "ccf8ae0daaa092054d466a60a2b8d9f6b79aac73d3e063586988158ed462a9ad"
+    },
+    {
+      "path": "audio/audio/Imp_Grapple_Titan_3p_vs_1p_LsRs_2ch_v1_03.wav",
+      "bytes": 162556,
+      "sha256": "e8ef4a801bb1b026f33d360272aabd2ddbd4de1c1e1b7ffc428524caee2c6039"
+    },
+    {
+      "path": "audio/audio/imp_grapple_wood_2ch_v1_01.wav",
+      "bytes": 200212,
+      "sha256": "b4028d0209a76bec731d62d284dc3120e35ef404dcc6005ddb1022c9f046b398"
+    },
+    {
+      "path": "audio/audio/imp_grapple_wood_2ch_v1_02.wav",
+      "bytes": 205516,
+      "sha256": "150d5e1a9d8b2332efc5181d35df2fc10b412db8bb69b04801aeda66eb8b56a9"
+    },
+    {
+      "path": "audio/audio/imp_grapple_wood_2ch_v1_03.wav",
+      "bytes": 279004,
+      "sha256": "0f86255ec7efdc7e4df91aadb474589a01db4fbd844819454b7ba558698b90f6"
+    },
+    {
+      "path": "audio/audio/imp_grapple_wood_2ch_v1_05.wav",
+      "bytes": 222028,
+      "sha256": "7eebce83895ed20c9f5094ddfb0dac60f23ce681e1a8a1717f48aa33e27a65b3"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_01.wav",
+      "bytes": 109564,
+      "sha256": "1b96c7d708770f1be2d65bd56ae50f8489834898320931667f09076894939ecb"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_02.wav",
+      "bytes": 126700,
+      "sha256": "36fd8348964d1fe4f66e28904656ceff87e3a306deb10000e37242e030c8cbef"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_03.wav",
+      "bytes": 160844,
+      "sha256": "e0f399da153065f2764c5760d364c5d936918e4102d9265f285ba4856376c1c7"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_1ch_v1_01.wav",
+      "bytes": 59640,
+      "sha256": "df34147762a985866a27904313b023eb60ac5f5c9f04d046639a3292a4652f94"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_1ch_v1_02.wav",
+      "bytes": 68964,
+      "sha256": "1526b5b3471616a95396aab827d9e2dec50fee68e1f2bcc47c6a7f5215d5288c"
+    },
+    {
+      "path": "audio/audio/jumpland_concrete_1ch_v1_03.wav",
+      "bytes": 87548,
+      "sha256": "9f9fe165f26ca28dbf2371fefb85b6c030b3acce732762fbed70603288f6bf11"
+    },
+    {
+      "path": "audio/audio/jumpland_heavy_1ch_v1_01.wav",
+      "bytes": 174740,
+      "sha256": "d44dd6b635f427cfcbeacf5b159a06f13fccc128e8b68dd1bc5979206e0a067a"
+    },
+    {
+      "path": "audio/audio/jumpland_heavy_1ch_v1_02.wav",
+      "bytes": 143500,
+      "sha256": "8b2d286b98b232ad6b2e93353d0e94e886378c6e280b25a61cf6feacf732e40f"
+    },
+    {
+      "path": "audio/audio/jumpland_heavy_1ch_v1_03.wav",
+      "bytes": 151200,
+      "sha256": "7a02379a2af168719f8343ba8725fac63852bfd04759f475d518fcdf311dbb40"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_01.wav",
+      "bytes": 127460,
+      "sha256": "2cafd42a2b7d35e34676301eccef77887ea8e985c5dfd3be383728a51b2420ba"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_02.wav",
+      "bytes": 130088,
+      "sha256": "0c0e1ab43bc2aa2f1fdbf6bc21fa306e94e1decd90daa6a09e2c4490af32aa0f"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_03.wav",
+      "bytes": 137444,
+      "sha256": "766030177b610bb0dde9a758510bef3a4e4757a98e7935fac459b6278568abb5"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_04.wav",
+      "bytes": 149656,
+      "sha256": "a41505305475f1f725c772dcff1a966605b6ed48d73b0e933d2efb0c89cc60df"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_05.wav",
+      "bytes": 138868,
+      "sha256": "b9a48e8c041cf4b1f17d2f928a2f6fbedd2f0149ab8070501c6d35c33764a9a6"
+    },
+    {
+      "path": "audio/audio/Mvmt_Gibraltar_Gear_JumpLand_1ch_v1_06.wav",
+      "bytes": 118240,
+      "sha256": "ff6aacb123473d8f65fd7330b675712edd1eb052a1b2c2c8079ca52df10f15c0"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_01.wav",
+      "bytes": 81024,
+      "sha256": "7aecfe5763a18f22c019a31b17ea0fd4f32f17e4f6805eb2dcd857083aab3e6d"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_02.wav",
+      "bytes": 76656,
+      "sha256": "f3158c5f5e58656db7609baeb024524df0f201b79892637e081c09af0ce37d58"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_03.wav",
+      "bytes": 77952,
+      "sha256": "1ca46b3b06875f9344f50e1a8df60cd1e3816c413131c8df62e835f10350c8ad"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_04.wav",
+      "bytes": 89080,
+      "sha256": "a3ffaa152c1483ddcafe34b94426da7aa35cab280be9e5decada45b7c54e0a9a"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_05.wav",
+      "bytes": 82608,
+      "sha256": "42e19aea1284d537952eee7c175f1f31851cc5e1880aa0a467d6c8913baec4c8"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_FS_JumpLand_1ch_v1_06.wav",
+      "bytes": 91600,
+      "sha256": "f14ba54295cc0d2e3b448f179c9cf22233f02e026b933f70be7edfd13bb3c017"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_01.wav",
+      "bytes": 115632,
+      "sha256": "863e1d559f44d535ebe9ecb76cf1d4bae86a4d107a93c03aa99fa4b14a51c33e"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_02.wav",
+      "bytes": 125916,
+      "sha256": "2e1aae621f574af748e6cc63bbba3e46ab2e350df9ed1737a6255976e489a394"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_03.wav",
+      "bytes": 144940,
+      "sha256": "73c773a448bf0c2d73bc409e7ff6d70c2ce880a48276ce3a03731b59e997ec13"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_04.wav",
+      "bytes": 126824,
+      "sha256": "71859b3a635236dcc09c953bec710f8026746854d46573d212f91c758cce5bf1"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_05.wav",
+      "bytes": 132096,
+      "sha256": "77d89cbbdee74eb500aa50ed45809339542a0ccb8c57c1b07daa7a2d24c45471"
+    },
+    {
+      "path": "audio/audio/Mvmt_HeavyClass_Gear_JumpLand_1ch_v1_06.wav",
+      "bytes": 124236,
+      "sha256": "9298ff3cc57f57c8514919d15637e13d96d34b560cc108b30f231a58cec5ceaa"
+    },
+    {
+      "path": "audio/audio/Mvmt_Human_1P_FS_Jumpland_Gear_1ch_v1_01.wav",
+      "bytes": 174232,
+      "sha256": "5cc18e201accf8c2b3d2432f4c072a95371b7a6e686eb41d476b52c344eea883"
+    },
+    {
+      "path": "audio/audio/Mvmt_Human_1P_FS_Jumpland_Gear_1ch_v1_02.wav",
+      "bytes": 154192,
+      "sha256": "51afce6c28334fe89d45986181f8503bb883fbfb954f21afe35643ebb6d18a3d"
+    },
+    {
+      "path": "audio/audio/Mvmt_Human_1P_FS_Jumpland_Gear_1ch_v1_03.wav",
+      "bytes": 179320,
+      "sha256": "8087748e4ac10f54740fa6ae3cdd08989034f7da0422fd595684d5ca89620d98"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_01.wav",
+      "bytes": 57592,
+      "sha256": "e0e66583eeb94807dcae8505bcb975e254d25d07d58f99e142941e91d85495c3"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_02.wav",
+      "bytes": 80756,
+      "sha256": "77ffd82b3b153ed98a8053e3d14f128553029a43b90f3196735259a2cf2b627b"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_03.wav",
+      "bytes": 72696,
+      "sha256": "38b2d32cc1f57eb3652888ad535180a05de8b6a9e7be4f5a2eb83f740dc44511"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_04.wav",
+      "bytes": 73832,
+      "sha256": "8115ac16ae0d9a029c32cbd52080baf60fd824d5d48fb3ec26b4470fbfa9f586"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_05.wav",
+      "bytes": 75024,
+      "sha256": "731b7a0018cff5f9db57f59e8b59bcf02477f194784b7a5cee7ae25097798370"
+    },
+    {
+      "path": "audio/audio/Mvmt_MediumClass_FS_JumpLand_1ch_v1_06.wav",
+      "bytes": 73044,
+      "sha256": "85b839dca2c4b77a33bfaeb482ff246d24d1029faff6aaad31dd52901b728f8d"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_01.wav",
+      "bytes": 100388,
+      "sha256": "7a52079e238eb50458986f18a226d9db0e24d34a958de84dffd0df0c547b5b5d"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_02.wav",
+      "bytes": 85500,
+      "sha256": "10b5f36506633cca06e44d9d2d306f2db71b77c3ef5ac5cc88a323e31f37113c"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_03.wav",
+      "bytes": 76748,
+      "sha256": "49559117d1d6f5f33c2f03d1065d1a0d0cc0b7b5f3c7ddaaff873a5ed7ce1a25"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_04.wav",
+      "bytes": 68132,
+      "sha256": "74721373c78033814e78394b3772b776d1863a23fc0a0406884788e4936fcb76"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_05.wav",
+      "bytes": 102004,
+      "sha256": "334d1ba34e9709352220fbcec74fe9db495830f43f308efcaa2e907fc1ee502b"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Cloth_JumpLand_1ch_v1_06.wav",
+      "bytes": 108416,
+      "sha256": "63f04333c3aa696f42c0b160208debf182310556b2b005b61dcb18f45caacc38"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_01.wav",
+      "bytes": 75156,
+      "sha256": "13cc5ce996bbda58019cd59fd69a60b486c16d2c038b94db131df720242d4d6c"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_02.wav",
+      "bytes": 99456,
+      "sha256": "9f4d83c2a035d9f6101c43aa4b34b19ad778f25e8ed68ed7d59f5d86c290ef14"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_03.wav",
+      "bytes": 102104,
+      "sha256": "16082aa918eca0b37021edcad9a64e12585fdd6c3b40f27192a2ae6034b05fbb"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_04.wav",
+      "bytes": 107164,
+      "sha256": "2f1b9c15350243fbbafcfd63151c43ea60b9b624e048c7e076ddbc259d58a1f3"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_05.wav",
+      "bytes": 115240,
+      "sha256": "3d1407fb97687aa89d176f49bfcb90c70642565b6c100b9efdff31f844da1102"
+    },
+    {
+      "path": "audio/audio/Mvmt_Mirage_Gear_Packs_JumpLand_1ch_v1_06.wav",
+      "bytes": 95136,
+      "sha256": "6b5404f10110bbe23b258818f29f8e3eda439617d251f9af1831d33ee00d2e4e"
+    },
+    {
+      "path": "audio/audio/Mvmt_RoboPilot_JumpLand_Heavy_1ch_v1_01.wav",
+      "bytes": 107828,
+      "sha256": "ae882a6ebcc1ccf9fa5a4de0f37ca51a30b44b1699171f94a48e45c18a1a1b7a"
+    },
+    {
+      "path": "audio/audio/Mvmt_RoboPilot_JumpLand_Heavy_1ch_v1_02.wav",
+      "bytes": 102768,
+      "sha256": "a1eea0e44d8bfb4593cb7e1012b184612787777336295076deda3108e6b941b5"
+    },
+    {
+      "path": "audio/audio/Mvmt_RoboPilot_JumpLand_Heavy_1ch_v1_03.wav",
+      "bytes": 92912,
+      "sha256": "314b4e33034330e48f956880950f5486bb08477dfd46ca42d831e062ae65de66"
+    },
+    {
+      "path": "audio/audio/null.wav",
+      "bytes": 44144,
+      "sha256": "901da670b8c4ff7959e5aef621f66b57cad5da5522a036e89f6904b1fe8c4ef9"
+    },
+    {
+      "path": "audio/audio/null1.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null2.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null3.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null4.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null5.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null6.wav",
+      "bytes": 88244,
+      "sha256": "9db3206978bade8f03650536082488066dacdf94a8f2ddfb44230da5d17a2d13"
+    },
+    {
+      "path": "audio/audio/null_12s.wav",
+      "bytes": 4986324,
+      "sha256": "f9420a6c6c8690d6ec946a3417ba50ce00fb9e74b738225adb9106fe29e99a6b"
+    },
+    {
+      "path": "audio/audio/null_1m40s.wav",
+      "bytes": 19200044,
+      "sha256": "90286fbae80e74bb2247ba6b02901110cb4bb7e462561cf19bdfc12f7722d2c3"
+    },
+    {
+      "path": "audio/audio/null_2sec.wav",
+      "bytes": 352844,
+      "sha256": "13e6d9a9b74be09f7e443cf8d4077a20fcfde6a0b0bd54a951f9d96d1de11a4c"
+    },
+    {
+      "path": "audio/audio/Pathfinder_Mvmt_Execution_Grapple_Pt_01.wav",
+      "bytes": 1321828,
+      "sha256": "833cd9d9824ccd14f92e99f3e2df9e3ebabaf9e79f8f05d80c1c80b068d6da21"
+    },
+    {
+      "path": "audio/audio/Pathfinder_Mvmt_Execution_Grapple_Pt_02.wav",
+      "bytes": 1248716,
+      "sha256": "b0d6a5ea274c849c79a60f098ae16ca98aa1e57448cd7e062c1bd654460d9198"
+    },
+    {
+      "path": "audio/audio/Pathfinder_Mvmt_Execution_Grapple_Pt_03.wav",
+      "bytes": 975796,
+      "sha256": "a6968b5b73f9249ec8a9e606342bdbde87acc65a6f78fd88141f53aa8beda281"
+    },
+    {
+      "path": "audio/audio/pilot_grapple_ready_2ch_v1_01.wav",
+      "bytes": 197044,
+      "sha256": "9ba74b582a6f42317d841b808a992e4daa971cd414235298b78dabf6bc1cf975"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_3P_Pt1_2ch_v1_01.wav",
+      "bytes": 837356,
+      "sha256": "40dda132c1c205cf26d78283b4d9b20749274b65d2b5d909c2f6d1340888b80e"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_3P_Pt2_2ch_v1_01.wav",
+      "bytes": 297132,
+      "sha256": "3ad9170bac7532e567901bcbcdf7532b8da32f86f829252a2cf52061151840e9"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_3P_Pt3_2ch_v1_01.wav",
+      "bytes": 973068,
+      "sha256": "b7fb023c91b422681b1b49c868585acda1a867917e7fe9718d6779add4a92a99"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_3P_Pt4_2ch_v1_01.wav",
+      "bytes": 391100,
+      "sha256": "3873fb918e7d66bb443ba8d7392b7da545d98b2f34a55626d86f3e880a32481a"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_Robot_3P_Pt1_2ch_v1_01.wav",
+      "bytes": 765484,
+      "sha256": "4554d4b969cef71e9e3b762cb80693d6c72968e6fb235056fc5740634d5996ca"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_Robot_3P_Pt2_2ch_v1_01.wav",
+      "bytes": 345412,
+      "sha256": "07d4b854e19d867e2a9ab3cecaab70121efd2e4c6d60429f877ff446997bd3fc"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_Robot_3P_Pt3_2ch_v1_01.wav",
+      "bytes": 973060,
+      "sha256": "9f46b3c65457df6dcc9a0dd88a5909dcb044eb97f713e3a71e7257829859d2f4"
+    },
+    {
+      "path": "audio/audio/Pilot_Mvmt_Execution_Grapple_Robot_3P_Pt4_2ch_v1_01.wav",
+      "bytes": 391100,
+      "sha256": "dc42bda80ad9c648f4304413b848302195094ef9bca7d0a756470d4b5f432172"
+    },
+    {
+      "path": "audio/audio/prowler_mvmt_wallhop_jumpland_concrete_1ch_v1_01.wav",
+      "bytes": 101812,
+      "sha256": "b67d97ac803c30ea288ae52f2fc02eef4ee6a88185117cea3c77f72c4843aec8"
+    },
+    {
+      "path": "audio/audio/prowler_mvmt_wallhop_jumpland_concrete_1ch_v1_02.wav",
+      "bytes": 85900,
+      "sha256": "6dd7ccee0bd47f32ec586a83dfd5db82397d6b2451f22a021114299b6db27a98"
+    },
+    {
+      "path": "audio/audio/prowler_mvmt_wallhop_jumpland_concrete_1ch_v1_03.wav",
+      "bytes": 86516,
+      "sha256": "df1d0e8ff5ef677b8b26f2fd39a7c91c905394e3512e32f3b40375856f9c60c4"
+    },
+    {
+      "path": "audio/audio/Wpn_LaserMine_ExtendStop_2ch_v1_01.wav",
+      "bytes": 110932,
+      "sha256": "aa94ff065474c1e1e529e46b5dd0177f86d5bb10e78cff899c4ef9edf2b888e0"
+    },
+    {
+      "path": "audio/audio/Wpn_LaserMine_ExtendStop_2ch_v1_02.wav",
+      "bytes": 114804,
+      "sha256": "43c2bfa5b5a1bdaac1874667cad96212d982d70725f9ff5792c6a60305f5d08d"
+    },
+    {
+      "path": "audio/audio/Wpn_LaserMine_ExtendStop_2ch_v1_03.wav",
+      "bytes": 111612,
+      "sha256": "b0fc02716f7a145c66507c84a242aa1a03cc82ac28ee90278169aa5772356b44"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_colpass_rgdu/edge_grapple_cav.png",
+      "bytes": 15667,
+      "sha256": "066055c11c821e7223976fa524220569f15f1830fa62dc68db088420ad32ddf8"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_colpass_rgdu/edge_grapple_col.png",
+      "bytes": 16055,
+      "sha256": "1c8c7b88fc021a3c93ba5b32e540c25a6435692181b947196b8e3bc5f1773994"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_colpass_rgdu/edge_grapple_gls.png",
+      "bytes": 18835,
+      "sha256": "7a1e01c2a7a53825346865fbd448d4328f855470c9ce0e85760c942854ab33d6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_colpass_rgdu/edge_grapple_nml.png",
+      "bytes": 16494,
+      "sha256": "af3c6e608bacde7a33a518aa23ac2a6e6b422ca6647b12e3738f09daf87158ba"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_colpass_rgdu/edge_grapple_spc.png",
+      "bytes": 13251,
+      "sha256": "5d4186a00b01b0f493c48713349f31dd4887f783b52a86a9981315dd7022334d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_rgdu/edge_grapple_cav.png",
+      "bytes": 15667,
+      "sha256": "066055c11c821e7223976fa524220569f15f1830fa62dc68db088420ad32ddf8"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_rgdu/edge_grapple_col.png",
+      "bytes": 16055,
+      "sha256": "1c8c7b88fc021a3c93ba5b32e540c25a6435692181b947196b8e3bc5f1773994"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_rgdu/edge_grapple_gls.png",
+      "bytes": 18835,
+      "sha256": "7a1e01c2a7a53825346865fbd448d4328f855470c9ce0e85760c942854ab33d6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_rgdu/edge_grapple_nml.png",
+      "bytes": 16494,
+      "sha256": "af3c6e608bacde7a33a518aa23ac2a6e6b422ca6647b12e3738f09daf87158ba"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/edge_grapple_rgdu/edge_grapple_spc.png",
+      "bytes": 13251,
+      "sha256": "5d4186a00b01b0f493c48713349f31dd4887f783b52a86a9981315dd7022334d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_cav.png",
+      "bytes": 15667,
+      "sha256": "066055c11c821e7223976fa524220569f15f1830fa62dc68db088420ad32ddf8"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_col.png",
+      "bytes": 16055,
+      "sha256": "1c8c7b88fc021a3c93ba5b32e540c25a6435692181b947196b8e3bc5f1773994"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_gls.png",
+      "bytes": 18835,
+      "sha256": "7a1e01c2a7a53825346865fbd448d4328f855470c9ce0e85760c942854ab33d6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_nml.png",
+      "bytes": 16494,
+      "sha256": "af3c6e608bacde7a33a518aa23ac2a6e6b422ca6647b12e3738f09daf87158ba"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_spc.png",
+      "bytes": 13251,
+      "sha256": "5d4186a00b01b0f493c48713349f31dd4887f783b52a86a9981315dd7022334d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_ao.png",
+      "bytes": 75585,
+      "sha256": "7745477342037f87999a4585005053917a1d817a52926b880a231d5178becc94"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_cav.png",
+      "bytes": 49023,
+      "sha256": "bf937bb1022cf9826641d157bc0afe7a617f07c0fcc2b8f4ec22a28e9427d560"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_col.png",
+      "bytes": 183456,
+      "sha256": "ea686392489850eb6b7b125d947602f61daa1452b03708a65af5e6073fb5eab6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_gls.png",
+      "bytes": 294723,
+      "sha256": "801a3545528174b62fb5894e6188cbbb75d65b338bb56d07eb5c988a2a96d7ad"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_nml.png",
+      "bytes": 248492,
+      "sha256": "8d109f856ef3ebaf967dfc8ed759c52b18f5521f929eddbf1d10206761989e1d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_colpass_rgdp/grapple_gun_spc.png",
+      "bytes": 129604,
+      "sha256": "ea42c54bbe0175149aecf9620fc58bbabb2ec99654b1debce97910c7b4490a15"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_ao.png",
+      "bytes": 75585,
+      "sha256": "7745477342037f87999a4585005053917a1d817a52926b880a231d5178becc94"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_cav.png",
+      "bytes": 49023,
+      "sha256": "bf937bb1022cf9826641d157bc0afe7a617f07c0fcc2b8f4ec22a28e9427d560"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_col.png",
+      "bytes": 183456,
+      "sha256": "ea686392489850eb6b7b125d947602f61daa1452b03708a65af5e6073fb5eab6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_gls.png",
+      "bytes": 294723,
+      "sha256": "801a3545528174b62fb5894e6188cbbb75d65b338bb56d07eb5c988a2a96d7ad"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_nml.png",
+      "bytes": 248492,
+      "sha256": "8d109f856ef3ebaf967dfc8ed759c52b18f5521f929eddbf1d10206761989e1d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_gun_rgdp/grapple_gun_spc.png",
+      "bytes": 129604,
+      "sha256": "ea42c54bbe0175149aecf9620fc58bbabb2ec99654b1debce97910c7b4490a15"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_rgdu/grapple_cav.png",
+      "bytes": 15667,
+      "sha256": "066055c11c821e7223976fa524220569f15f1830fa62dc68db088420ad32ddf8"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_rgdu/grapple_col.png",
+      "bytes": 16055,
+      "sha256": "1c8c7b88fc021a3c93ba5b32e540c25a6435692181b947196b8e3bc5f1773994"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_rgdu/grapple_gls.png",
+      "bytes": 18835,
+      "sha256": "7a1e01c2a7a53825346865fbd448d4328f855470c9ce0e85760c942854ab33d6"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_rgdu/grapple_nml.png",
+      "bytes": 16494,
+      "sha256": "af3c6e608bacde7a33a518aa23ac2a6e6b422ca6647b12e3738f09daf87158ba"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/grapple_rgdu/grapple_spc.png",
+      "bytes": 13251,
+      "sha256": "5d4186a00b01b0f493c48713349f31dd4887f783b52a86a9981315dd7022334d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_ao.png",
+      "bytes": 73912,
+      "sha256": "dd896732582064a481dfecb3c83b88bbf8ad7a6eb5542e03c6fed9ba9a328d46"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_cav.png",
+      "bytes": 308792,
+      "sha256": "a252d5beca71ab1d5c4349ddd5b8bff283d73b2080e5a94eff85132574c8b5cf"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_col.png",
+      "bytes": 419547,
+      "sha256": "eff5efd3837d85649af5361673584f3bb43f7b294c7ae8ea3c3fa96a22800960"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_gls.png",
+      "bytes": 816066,
+      "sha256": "c33b52f5ed65845c2d64ef6956b86f3e9261f7aa4f9ae3d77ca2cf0ed2aa25d2"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_nml.png",
+      "bytes": 1133062,
+      "sha256": "4444f3811ebe260f6ca06ed8429f8d15b20d04828f4d43f4ce778b2a2e429b0d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_colpass_sknp/pathfinder_prop_grapplehook_spc.png",
+      "bytes": 312300,
+      "sha256": "0cb171269f2f6f4ed67b13d6b01ec16c90484b77328ffb38300dac17d1a8ceb7"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_ao.png",
+      "bytes": 73912,
+      "sha256": "dd896732582064a481dfecb3c83b88bbf8ad7a6eb5542e03c6fed9ba9a328d46"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_cav.png",
+      "bytes": 308792,
+      "sha256": "a252d5beca71ab1d5c4349ddd5b8bff283d73b2080e5a94eff85132574c8b5cf"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_col.png",
+      "bytes": 419547,
+      "sha256": "eff5efd3837d85649af5361673584f3bb43f7b294c7ae8ea3c3fa96a22800960"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_gls.png",
+      "bytes": 816066,
+      "sha256": "c33b52f5ed65845c2d64ef6956b86f3e9261f7aa4f9ae3d77ca2cf0ed2aa25d2"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_nml.png",
+      "bytes": 1133062,
+      "sha256": "4444f3811ebe260f6ca06ed8429f8d15b20d04828f4d43f4ce778b2a2e429b0d"
+    },
+    {
+      "path": "standalone_materials/extract_models/material/pathfinder_prop_grapplehook_sknp/pathfinder_prop_grapplehook_spc.png",
+      "bytes": 312300,
+      "sha256": "0cb171269f2f6f4ed67b13d6b01ec16c90484b77328ffb38300dac17d1a8ceb7"
+    }
+  ]
+}

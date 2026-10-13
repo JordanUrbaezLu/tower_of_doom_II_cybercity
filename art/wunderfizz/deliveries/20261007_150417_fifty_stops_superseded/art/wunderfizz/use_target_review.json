@@ -1,0 +1,2529 @@
+{
+  "kind": "read-only native use-target review",
+  "native_tag_hint_local": [
+    50.19290542602539,
+    0,
+    53.87769317626953
+  ],
+  "stock_source": "C:/BO3Tools/TOD2Cybercity/share/raw/scripts/zm/_zm_unitrigger.gsc",
+  "stock_sha256": "add3416c5f8563ce92d0d4839ddf47a360f44fa2b23c69b48a1a931747c3d4de",
+  "native_rules": {
+    "playerRadius": 15,
+    "standMaxZ": 70,
+    "strictHorizontalRadius": "r+15 =47",
+    "verticalMidpointTolerance": 42,
+    "selectionLookAtDot": 0.9
+  },
+  "native_standing_points_checked": 50,
+  "lateral_probes_checked": 150,
+  "min_horizontal_distance": 33.047094573974675,
+  "max_horizontal_distance": 36.71669854954972,
+  "minimum_horizontal_margin": 10.283301450450281,
+  "max_vertical_midpoint_distance": 16.87769317626953,
+  "all_native_candidate_rules_pass": true,
+  "all_existing_session_range_checks_pass": true,
+  "runtime_only_recommendation": "m.stub.origin = m.host GetTagOrigin(\"tag_hint\"); leave m.trig, generated geometry/data, radius and native nav references unchanged.",
+  "native_use_engine_body_touch_look_requirement": "GSC source math passes; actual native use interaction remains user-playtest proof.",
+  "rows": [
+    {
+      "floor": 1,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        245.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        245.87769317626953
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            194
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            194
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            194
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 2,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        629.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        629.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            578
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            578
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            578
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 3,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        1013.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        1013.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            962
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            962
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            962
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 4,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        1397.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        1397.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            1346
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            1346
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            1346
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 5,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        1781.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        1781.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            1730
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            1730
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            1730
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 6,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        2165.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        2165.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            2114
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            2114
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            2114
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 7,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        2549.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        2549.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            2498
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            2498
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            2498
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 8,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        2933.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        2933.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            2882
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            2882
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            2882
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 9,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        3317.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        3317.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            3266
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            3266
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            3266
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 10,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        3701.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        3701.8776931762695
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            3650
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            3650
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            3650
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 11,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        4085.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        4085.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            4034
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            4034
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            4034
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 12,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        4469.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        4469.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            4418
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            4418
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            4418
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 13,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        4853.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        4853.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            4802
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            4802
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            4802
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 14,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        5237.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        5237.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            5186
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            5186
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            5186
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 15,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        5621.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        5621.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            5570
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            5570
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            5570
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 16,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        6005.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        6005.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            5954
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            5954
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            5954
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 17,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        6389.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        6389.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            6338
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            6338
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            6338
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 18,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        6773.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        6773.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            6722
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            6722
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            6722
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 19,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        7157.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        7157.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            7106
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            7106
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            7106
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 20,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        7541.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        7541.8776931762695
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            7490
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            7490
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            7490
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 21,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        7925.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        7925.8776931762695
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            7874
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            7874
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            7874
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 22,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        8309.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        8309.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            8258
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            8258
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            8258
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 23,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        8693.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        8693.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            8642
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            8642
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            8642
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 24,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        9077.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        9077.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            9026
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            9026
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            9026
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 25,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        9461.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        9461.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            9410
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            9410
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            9410
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 26,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        9845.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        9845.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            9794
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            9794
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            9794
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 27,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        10229.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        10229.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            10178
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            10178
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            10178
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 28,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        10613.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        10613.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            10562
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            10562
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            10562
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 29,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        10997.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        10997.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            10946
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            10946
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            10946
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 30,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        11381.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        11381.87769317627
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            11330
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            11330
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            11330
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 31,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        11765.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        11765.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            11714
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            11714
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            11714
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 32,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        12149.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        12149.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            12098
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            12098
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            12098
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 33,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        12533.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        12533.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            12482
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            12482
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            12482
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 34,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        12917.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        12917.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            12866
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            12866
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            12866
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 35,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        13301.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        13301.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            13250
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            13250
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            13250
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 36,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        13685.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        13685.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            13634
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            13634
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            13634
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 37,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        14069.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        14069.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            14018
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            14018
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            14018
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 38,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        14453.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        14453.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            14402
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            14402
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            14402
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 39,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        14837.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        14837.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            14786
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            14786
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            14786
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 40,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        15221.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        15221.87769317627
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            15170
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            15170
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            15170
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 41,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        15605.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        15605.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            15554
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            15554
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            15554
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 42,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        15989.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        15989.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            15938
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            15938
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            15938
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 43,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        16373.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        16373.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            16322
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            16322
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            16322
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 44,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        16757.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        16757.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            16706
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            16706
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            16706
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 45,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        17141.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        17141.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            17090
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            17090
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            17090
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 46,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        17525.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        17525.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            17474
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            17474
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            17474
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 47,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        17909.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        17909.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            17858
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            17858
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            17858
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 48,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        18293.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        18293.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            18242
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            18242
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            18242
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 49,
+      "yaw": 270,
+      "originalStandingReference": [
+        336,
+        435.388,
+        18677.878
+      ],
+      "physicalTagHint": [
+        336,
+        468.43509457397465,
+        18677.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            320,
+            435.388,
+            18626
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            336,
+            435.388,
+            18626
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            352,
+            435.388,
+            18626
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 50,
+      "yaw": 90,
+      "originalStandingReference": [
+        -336,
+        -435.388,
+        19061.878
+      ],
+      "physicalTagHint": [
+        -336,
+        -468.43509457397465,
+        19061.87769317627
+      ],
+      "pointSeparation": 33.04709457539902,
+      "tests": [
+        {
+          "feet": [
+            -320,
+            -435.388,
+            19010
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -336,
+            -435.388,
+            19010
+          ],
+          "distance2D": 33.047094573974675,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -352,
+            -435.388,
+            19010
+          ],
+          "distance2D": 36.71662375248065,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    }
+  ]
+}

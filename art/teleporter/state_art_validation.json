@@ -1,0 +1,11 @@
+{
+  "off_zero_emission": true,
+  "off_chase_hidden": true,
+  "ready_green": true,
+  "pending_green_off": true,
+  "pending_yellow_visible": true,
+  "chase_revolution_seconds": 3,
+  "preview_seconds": 6,
+  "source": "exported xmodel_bin and native map bindings",
+  "native_playtested": false
+}

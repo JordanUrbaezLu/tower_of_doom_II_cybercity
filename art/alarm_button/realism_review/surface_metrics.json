@@ -1,0 +1,298 @@
+{
+  "flared cast column": {
+    "coverage": 0.2917633056640625,
+    "chip_fraction": 0.0019742691281836723,
+    "gloss_range": [
+      0.35777172446250916,
+      0.5824486017227173
+    ]
+  },
+  "cast base plate": {
+    "coverage": 0.4370002746582031,
+    "chip_fraction": 0.007384969927634278,
+    "gloss_range": [
+      0.3392733037471771,
+      0.5864396691322327
+    ]
+  },
+  "round console": {
+    "coverage": 0.4425773620605469,
+    "chip_fraction": 0.010256940673510373,
+    "gloss_range": [
+      0.3308422267436981,
+      0.5887182354927063
+    ]
+  },
+  "hazard collar stripe 0": {
+    "coverage": 0.412261962890625,
+    "chip_fraction": 0.04637648974757569,
+    "gloss_range": [
+      0.37498196959495544,
+      0.6269623041152954
+    ]
+  },
+  "hazard collar stripe 2": {
+    "coverage": 0.412261962890625,
+    "chip_fraction": 0.021689244207565326,
+    "gloss_range": [
+      0.39094167947769165,
+      0.6237277388572693
+    ]
+  },
+  "hazard collar stripe 4": {
+    "coverage": 0.412261962890625,
+    "chip_fraction": 0.013435487452809237,
+    "gloss_range": [
+      0.3837049603462219,
+      0.62528395652771
+    ]
+  },
+  "hazard collar stripe 6": {
+    "coverage": 0.412261962890625,
+    "chip_fraction": 0.03871493078688282,
+    "gloss_range": [
+      0.39476630091667175,
+      0.6287922263145447
+    ]
+  },
+  "hazard collar stripe 8": {
+    "coverage": 0.412078857421875,
+    "chip_fraction": 0.02410575427682737,
+    "gloss_range": [
+      0.37985196709632874,
+      0.6239288449287415
+    ]
+  },
+  "hazard collar stripe 10": {
+    "coverage": 0.412078857421875,
+    "chip_fraction": 0.05591350070354736,
+    "gloss_range": [
+      0.38246405124664307,
+      0.6259603500366211
+    ]
+  },
+  "hazard collar stripe 12": {
+    "coverage": 0.412078857421875,
+    "chip_fraction": 0.008701769977042138,
+    "gloss_range": [
+      0.3824537992477417,
+      0.6090446710586548
+    ]
+  },
+  "hazard collar stripe 14": {
+    "coverage": 0.412078857421875,
+    "chip_fraction": 0.039768940235503224,
+    "gloss_range": [
+      0.38629376888275146,
+      0.6325978636741638
+    ]
+  },
+  "red mushroom head": {
+    "coverage": 0.40006256103515625,
+    "chip_fraction": 6.674676278200507e-05,
+    "gloss_range": [
+      0.5906019806861877,
+      0.87989342212677
+    ]
+  },
+  "red plunger": {
+    "coverage": 0.5795059204101562,
+    "chip_fraction": 0.03819924430928025,
+    "gloss_range": [
+      0.5763731598854065,
+      0.7493894696235657
+    ]
+  },
+  "hazard collar stripe 1": {
+    "coverage": 0.4114990234375,
+    "chip_fraction": 0.010827647582319787,
+    "gloss_range": [
+      0.11350614577531815,
+      0.2367340326309204
+    ]
+  },
+  "hazard collar stripe 3": {
+    "coverage": 0.4114990234375,
+    "chip_fraction": 0.010679323642835954,
+    "gloss_range": [
+      0.12206584960222244,
+      0.22832484543323517
+    ]
+  },
+  "hazard collar stripe 5": {
+    "coverage": 0.4114990234375,
+    "chip_fraction": 0.026549985167606052,
+    "gloss_range": [
+      0.11978330463171005,
+      0.2234349250793457
+    ]
+  },
+  "hazard collar stripe 7": {
+    "coverage": 0.4114990234375,
+    "chip_fraction": 0.04345891426876298,
+    "gloss_range": [
+      0.12329094111919403,
+      0.23309661448001862
+    ]
+  },
+  "hazard collar stripe 9": {
+    "coverage": 0.4110107421875,
+    "chip_fraction": 0.04336204336204336,
+    "gloss_range": [
+      0.1213078573346138,
+      0.22740767896175385
+    ]
+  },
+  "hazard collar stripe 11": {
+    "coverage": 0.4110107421875,
+    "chip_fraction": 0.007276507276507277,
+    "gloss_range": [
+      0.122329480946064,
+      0.22461792826652527
+    ]
+  },
+  "hazard collar stripe 13": {
+    "coverage": 0.4110107421875,
+    "chip_fraction": 0.05019305019305019,
+    "gloss_range": [
+      0.128289595246315,
+      0.23485498130321503
+    ]
+  },
+  "hazard collar stripe 15": {
+    "coverage": 0.4110107421875,
+    "chip_fraction": 0.016186516186516186,
+    "gloss_range": [
+      0.1186608150601387,
+      0.2319774478673935
+    ]
+  },
+  "base rubber foot": {
+    "coverage": 0.39656829833984375,
+    "chip_fraction": 0.016246945881990806,
+    "gloss_range": [
+      0.11165782064199448,
+      0.24198438227176666
+    ]
+  },
+  "bezel screw 0": {
+    "coverage": 0.7060546875,
+    "chip_fraction": 0.45582641770401106,
+    "gloss_range": [
+      0.15525896847248077,
+      0.24195437133312225
+    ]
+  },
+  "bezel screw 1": {
+    "coverage": 0.7060546875,
+    "chip_fraction": 0.20816044260027664,
+    "gloss_range": [
+      0.13577024638652802,
+      0.21828041970729828
+    ]
+  },
+  "bezel screw 2": {
+    "coverage": 0.7060546875,
+    "chip_fraction": 0.5529045643153527,
+    "gloss_range": [
+      0.16275468468666077,
+      0.24225637316703796
+    ]
+  },
+  "bezel screw 3": {
+    "coverage": 0.7060546875,
+    "chip_fraction": 0.2970262793914246,
+    "gloss_range": [
+      0.14477039873600006,
+      0.22380341589450836
+    ]
+  },
+  "console steel rim": {
+    "coverage": 0.0519561767578125,
+    "chip_fraction": 0.09309838472834067,
+    "gloss_range": [
+      0.4194345474243164,
+      0.7356646656990051
+    ]
+  },
+  "steel button bezel": {
+    "coverage": 0.3921966552734375,
+    "chip_fraction": 0.026611679570478153,
+    "gloss_range": [
+      0.3898589611053467,
+      0.7437841296195984
+    ]
+  },
+  "base plate steel lip": {
+    "coverage": 0.3934974670410156,
+    "chip_fraction": 0.013872597016082906,
+    "gloss_range": [
+      0.4558025300502777,
+      0.7473890781402588
+    ]
+  },
+  "anchor bolt 0": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.08411682336467294,
+    "gloss_range": [
+      0.43349263072013855,
+      0.7476656436920166
+    ]
+  },
+  "anchor bolt 1": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.05201040208041608,
+    "gloss_range": [
+      0.5467153787612915,
+      0.7379744052886963
+    ]
+  },
+  "anchor bolt 2": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.125625125025005,
+    "gloss_range": [
+      0.4115568697452545,
+      0.740403950214386
+    ]
+  },
+  "anchor bolt 3": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.13712742548509702,
+    "gloss_range": [
+      0.40594345331192017,
+      0.7427300810813904
+    ]
+  },
+  "anchor bolt 4": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.07281456291258252,
+    "gloss_range": [
+      0.42840540409088135,
+      0.7443291544914246
+    ]
+  },
+  "anchor bolt 5": {
+    "coverage": 0.6102294921875,
+    "chip_fraction": 0.23164632926585316,
+    "gloss_range": [
+      0.3852996528148651,
+      0.7001146674156189
+    ]
+  },
+  "lower steel band": {
+    "coverage": 0.439056396484375,
+    "chip_fraction": 0.04073121568082297,
+    "gloss_range": [
+      0.4074368178844452,
+      0.7462398409843445
+    ]
+  },
+  "upper steel band": {
+    "coverage": 0.4444580078125,
+    "chip_fraction": 0.03354160944795386,
+    "gloss_range": [
+      0.44373470544815063,
+      0.7504612803459167
+    ]
+  }
+}

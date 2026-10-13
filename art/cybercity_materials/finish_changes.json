@@ -1,0 +1,62 @@
+{
+  "version": "cybercity-satin-1",
+  "materials": [
+    {
+      "material": "mtl_tod_teleporter",
+      "before": {
+        "glossRangeMin": "0",
+        "glossRangeMax": "13",
+        "specAmount": "0.6",
+        "specColorTint": ".65 .65 .65 1",
+        "reflectionProbeAmount": "0.35"
+      },
+      "after": {
+        "glossRangeMin": 0,
+        "glossRangeMax": 8,
+        "specAmount": 0.45,
+        "specColorTint": ".5 .5 .5 1",
+        "reflectionProbeAmount": 0.2
+      },
+      "gdt_sha256": "839205cb814a16c943534b649698985e7836f021c360b2ea0a41dff6f86d8c98"
+    },
+    {
+      "material": "mtl_tod_tp_off",
+      "before": {
+        "glossRangeMin": "0",
+        "glossRangeMax": "13",
+        "specAmount": "0.6",
+        "specColorTint": ".65 .65 .65 1",
+        "reflectionProbeAmount": "0.35"
+      },
+      "after": {
+        "glossRangeMin": 0,
+        "glossRangeMax": 8,
+        "specAmount": 0.45,
+        "specColorTint": ".5 .5 .5 1",
+        "reflectionProbeAmount": 0.2
+      },
+      "gdt_sha256": "0415bead727908e06175ae47bd9cc60a28c819d8ab92a1855bd4b2b913292641"
+    },
+    {
+      "material": "mtl_tod_altar",
+      "before": {
+        "glossRangeMin": "0",
+        "glossRangeMax": "6",
+        "specAmount": "0.2",
+        "specColorTint": ".25 .25 .25 1",
+        "reflectionProbeAmount": "0.15"
+      },
+      "after": {
+        "glossRangeMin": 0,
+        "glossRangeMax": 5,
+        "specAmount": 0.2,
+        "specColorTint": ".25 .25 .25 1",
+        "reflectionProbeAmount": 0.15
+      },
+      "gdt_sha256": "5c6c7cfa475715af901cdca488a96fac4a5564f5f877648670141cf6ea8cbc09"
+    }
+  ],
+  "geometry_changed": false,
+  "images_changed": false,
+  "native_playtested": false
+}

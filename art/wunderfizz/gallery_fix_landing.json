@@ -1,0 +1,12 @@
+{
+  "landed_at": "2026-10-07T15:11:59.642977-04:00",
+  "kind": "gallery_fix",
+  "files": {
+    "tools/art_gallery/build_gallery.py": {
+      "before_sha256": "8d28b150ed0b8f613c2f35c9fb6cab8ac7c4def450f787d7648e072f9ce55c45",
+      "sha256": "33045a6aa4f530cc50a5f76eb030ca5ce0cb7b6d4620d1bf7a9a18043f8cec75",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\gallery_fix\\staged_sources\\tools\\art_gallery\\build_gallery.py"
+    }
+  },
+  "game_launched": false
+}

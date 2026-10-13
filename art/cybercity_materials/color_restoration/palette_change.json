@@ -1,0 +1,89 @@
+{
+  "time": "2026-09-26T15:06:22.669871",
+  "brief": "Restore the pre-migration color identity while keeping authored construction and the dark cyber theme.",
+  "changes": {
+    "floor": {
+      "before": "1 1 1 1",
+      "after": ".32 .56 1 1"
+    },
+    "wall": {
+      "before": "1 1 1 1",
+      "after": ".68 .32 .96 1"
+    },
+    "gold": {
+      "before": ".72 .67 .58 1",
+      "after": ".96 .74 .23 1"
+    },
+    "gold_panel": {
+      "before": ".47 .45 .40 1",
+      "after": ".84 .54 .15 1"
+    },
+    "brass": {
+      "before": ".29 .27 .24 1",
+      "after": ".74 .34 .12 1"
+    },
+    "bronze_wall": {
+      "before": ".40 .35 .29 1",
+      "after": ".70 .36 .18 1"
+    },
+    "velvet": {
+      "before": ".24 .23 .28 1",
+      "after": ".40 .18 .68 1"
+    },
+    "oxblood": {
+      "before": ".38 .18 .22 1",
+      "after": ".70 .15 .24 1"
+    },
+    "ceramic": {
+      "before": ".62 .67 .73 1",
+      "after": ".56 .74 .94 1"
+    },
+    "graphite": {
+      "before": ".27 .30 .34 1",
+      "after": ".14 .20 .30 1"
+    },
+    "gold_deck": {
+      "before": ".88 .83 .72 1",
+      "after": ".86 .67 .26 1"
+    },
+    "gold_line": {
+      "before": ".76 .65 .43 1",
+      "after": "1 .77 .16 1"
+    },
+    "cyan": {
+      "before": ".26 .51 .57 1",
+      "after": ".16 .90 1 1"
+    },
+    "sapphire": {
+      "before": ".21 .36 .58 1",
+      "after": ".15 .44 1 1"
+    },
+    "ruby": {
+      "before": ".59 .20 .27 1",
+      "after": ".92 .10 .23 1"
+    },
+    "emerald": {
+      "before": ".18 .47 .35 1",
+      "after": ".12 .82 .39 1"
+    },
+    "exfil": {
+      "before": ".31 .64 .46 1",
+      "after": ".22 .85 .50 1"
+    },
+    "door": {
+      "before": ".36 .61 .45 1",
+      "after": ".27 .75 .44 1"
+    }
+  },
+  "preserved": {
+    "map_source/zm/zm_tod2_cybercity.map": "17cabb1d0451e73dac500774e9e15e5b6761b4ef9b995b05ac27bdda8faf17b6",
+    "source_data/tod_skybox.gdt": "d3f2a2b97b1a318c6e01d767df1eed6a72824fab256e5347e4ab7c0792c497e1",
+    "source_data/tod_shop.gdt": "9434cbc45f7142c583e73a08eba2a606d13e21370d65e2b6451b5c0ae21e7404",
+    "source_data/tod_teleporter.gdt": "839205cb814a16c943534b649698985e7836f021c360b2ea0a41dff6f86d8c98",
+    "source_data/tod_heavenly_altar.gdt": "5c6c7cfa475715af901cdca488a96fac4a5564f5f877648670141cf6ea8cbc09",
+    "source_data/tod_crown_alarm.gdt": "26ed9d772bdbe360eb3164acf2be372f1813c6c1afa39f147a0fef49c466b6fc",
+    "source_data/tod_cyber_elites.gdt": "dbe857cdf40eb88c601258a07c5ead5789e0ecfea87d628cd4f363aaa9cd0410"
+  },
+  "native_visual_approved": false,
+  "game_launched": false
+}

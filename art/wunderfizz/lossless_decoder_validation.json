@@ -1,0 +1,110 @@
+{
+  "verified_at": "2026-10-07T14:47:04.197297-04:00",
+  "live_input_pin": {
+    "file": "tools/wunderfizz/verify_compiled_assets.py",
+    "sha256": "19ebc15d95535d315f45646c3a7c69a8ca3d2c36f19442093fabb896c685e347"
+  },
+  "coherent_landing_receipt": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\wunderfizz\\lossless_fix_landing.json",
+  "coherent_landing_receipt_sha256": "847e5d31eb11d853b30c51b61c272c83c0fe305313c2b4b57c86801620964430",
+  "captured_original_verifier": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\landings\\20261007_144627\\before\\tools\\wunderfizz\\verify_compiled_assets.py",
+  "captured_original_verifier_sha256": "19ebc15d95535d315f45646c3a7c69a8ca3d2c36f19442093fabb896c685e347",
+  "current_live_verifier_sha256": "74997918bbf91a8d577508a3bf1aa73522dd4c8bfab2ce4f0e983aa656cdbedf",
+  "staged_verifier_sha256": "74997918bbf91a8d577508a3bf1aa73522dd4c8bfab2ce4f0e983aa656cdbedf",
+  "source_png_sha256": "dfac47c99e4b061385c87cb8da8f28d667b4f4bf14e086c36ee1eda395ba502c",
+  "checks": [
+    {
+      "name": "truncated actual native LZ4 control",
+      "rejected": true,
+      "reason": "Invalid LZ4 literal run"
+    },
+    {
+      "name": "existing dependency-selected native RGBA control",
+      "passed": true,
+      "asset": "i_tod_archer_axe_hud",
+      "all_rgba_bytes_exact": true
+    },
+    {
+      "name": "full4096 RGBA fixture all thirteen mips",
+      "passed": true,
+      "decoded_bytes": 89478580
+    },
+    {
+      "name": "reject BC7 as lossless",
+      "rejected": true,
+      "reason": "Glass must compile with lossless RGBA8 sRGB alpha"
+    },
+    {
+      "name": "missing mip",
+      "rejected": true,
+      "reason": "Original glass must retain all thirteen mips"
+    },
+    {
+      "name": "base resolution reduced",
+      "rejected": true,
+      "reason": "Original full-resolution glass mip base was lost"
+    },
+    {
+      "name": "invalid depth",
+      "rejected": true,
+      "reason": "Original full-resolution glass mip base was lost"
+    },
+    {
+      "name": "corrupt native offset",
+      "rejected": true,
+      "reason": "Native mip offset table mismatch"
+    },
+    {
+      "name": "truncated whole RGBA payload",
+      "rejected": true,
+      "reason": "Native mip offset table mismatch"
+    },
+    {
+      "name": "extra trailing RGBA payload",
+      "rejected": true,
+      "reason": "Native mip offset table mismatch"
+    },
+    {
+      "name": "opaque chain",
+      "rejected": true,
+      "reason": "('Compiled original alpha diverged', 11, 45.25, 76.39999999999999)"
+    },
+    {
+      "name": "alpha-zero chain",
+      "rejected": true,
+      "reason": "('Compiled original alpha diverged', 11, 209.75, 244.19)"
+    },
+    {
+      "name": "corrupted coarse2x2 mip",
+      "rejected": true,
+      "reason": "('Compiled original alpha diverged', 11, 26.5, 32.0)"
+    },
+    {
+      "name": "corrupted terminal1x1 mip",
+      "rejected": true,
+      "reason": "('Compiled original alpha diverged', 12, 32.0, 32.0)"
+    },
+    {
+      "name": "one corrupt texel hidden below percentile",
+      "rejected": true,
+      "reason": "('Compiled glass has locally corrupted alpha', 10, 13)"
+    },
+    {
+      "name": "one base alpha byte differs",
+      "rejected": true,
+      "reason": "Lossless base glass alpha must match source byte for byte"
+    }
+  ],
+  "count": 16,
+  "existing_native_control_format": 14,
+  "existing_native_control_channel_order": "RGBA",
+  "full_synthetic_dimensions": [
+    4096,
+    4096
+  ],
+  "full_synthetic_mip_count": 13,
+  "native_new_glass_conversion_verified": false,
+  "full_material_lod_note_and_parity_checks_preserved": true,
+  "native_tool_run": false,
+  "game_launched": false,
+  "live_source_unchanged": true
+}

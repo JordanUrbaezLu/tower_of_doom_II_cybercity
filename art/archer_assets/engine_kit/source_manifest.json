@@ -1,0 +1,78 @@
+{
+  "models": [
+    {
+      "asset": "hook",
+      "source": "source_library/archer_equipment/apex_grapple/assets/mdl/projectile_grapple_hook_anchor_bolt/projectile_grapple_hook_anchor_bolt_LOD0.cast",
+      "textures": {
+        "col": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_hook_col.png",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "spc": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_hook_spc.png",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "gls": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_hook_gls.png",
+          "size": [
+            512,
+            512
+          ]
+        },
+        "nml": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_hook_nml.png",
+          "size": [
+            512,
+            512
+          ]
+        }
+      },
+      "triangles": 662,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "pathfinder_prop",
+      "source": "source_library/archer_equipment/apex_grapple/assets/mdl/pathfinder_grapplehook/pathfinder_grapplehook_LOD0.cast",
+      "textures": {
+        "col": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_col.png",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "spc": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_spc.png",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "gls": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_gls.png",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "nml": {
+          "file": "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_nml.png",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      },
+      "triangles": 2012,
+      "removed_slivers": 0
+    }
+  ],
+  "cable_source": "source_library/archer_equipment/apex_grapple/standalone_materials/extract_models/material/grapple_colpass_rgdu/grapple_col.png",
+  "native_tested": false
+}

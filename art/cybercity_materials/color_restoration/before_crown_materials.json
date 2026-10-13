@@ -1,0 +1,142 @@
+{
+  "description": "Detached crown island: authored metal, ceramic and crystal surfaces. World emission remains zero for the user's blackout/power-wave direction.",
+  "materials": {
+    "floor": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "wall": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "ceiling": {
+      "tile": "ceiling",
+      "class": "block",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "trim": {
+      "tile": "trim",
+      "class": "block",
+      "size": 128,
+      "color": "1 1 1 1"
+    },
+    "gold": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".72 .67 .58 1"
+    },
+    "gold_panel": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".47 .45 .40 1"
+    },
+    "brass": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".29 .27 .24 1"
+    },
+    "bronze_wall": {
+      "tile": "armor",
+      "class": "block",
+      "size": 128,
+      "color": ".40 .35 .29 1"
+    },
+    "velvet": {
+      "tile": "armor",
+      "class": "deck",
+      "size": 512,
+      "color": ".24 .23 .28 1"
+    },
+    "oxblood": {
+      "tile": "armor",
+      "class": "block",
+      "size": 128,
+      "color": ".38 .18 .22 1"
+    },
+    "ceramic": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".62 .67 .73 1"
+    },
+    "graphite": {
+      "tile": "armor",
+      "class": "block",
+      "size": 512,
+      "color": ".27 .30 .34 1"
+    },
+    "gold_deck": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".88 .83 .72 1"
+    },
+    "gold_line": {
+      "tile": "trim",
+      "class": "deck",
+      "size": 128,
+      "color": ".76 .65 .43 1"
+    },
+    "cyan": {
+      "tile": "trim",
+      "class": "block",
+      "size": 128,
+      "color": ".26 .51 .57 1"
+    },
+    "sapphire": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".21 .36 .58 1"
+    },
+    "ruby": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".59 .20 .27 1"
+    },
+    "emerald": {
+      "tile": "crystal",
+      "class": "deck",
+      "size": 256,
+      "color": ".18 .47 .35 1"
+    },
+    "exfil": {
+      "tile": "floor",
+      "class": "deck",
+      "size": 128,
+      "color": ".31 .64 .46 1"
+    },
+    "door": {
+      "tile": "wall",
+      "class": "block",
+      "size": 128,
+      "color": ".36 .61 .45 1"
+    }
+  },
+  "suffixes": {
+    "yellow": "gold",
+    "yellow_tinted": "gold_panel",
+    "yellow_tinted_edge": "gold_line",
+    "cyan": "cyan",
+    "blue_tinted_edge": "sapphire",
+    "orange_tinted": "brass",
+    "dark_blue_tinted": "floor",
+    "purple_tinted": "velvet",
+    "purple": "wall",
+    "red": "oxblood",
+    "green_tinted_edge": "emerald",
+    "orange": "bronze_wall",
+    "red_tinted_edge": "ruby",
+    "white": "ceramic",
+    "dark_white": "graphite"
+  }
+}

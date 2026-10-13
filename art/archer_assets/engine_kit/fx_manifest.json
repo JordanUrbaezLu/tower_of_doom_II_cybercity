@@ -1,0 +1,103 @@
+{
+  "provenance": "T7 Assets V2.8 recovered tomahawk emitters; bounded native composition, stock texture first pass",
+  "effects": [
+    {
+      "source": "source_library/archer_equipment/t7_tomahawk_fx/fx_tomahawk_trail.efx",
+      "file": "share/raw/fx/tod/archer/fx_tod_archer_trail.efx",
+      "sha256": "16e812dc02346a1575f68d5294402ba70dd9d628b3a7b03b57881932a53634bb",
+      "elements": [
+        {
+          "source_element": "wraith_looping_def0",
+          "interval": "35 0",
+          "life_ms": "320 30"
+        },
+        {
+          "source_element": "wraith_looping_def1",
+          "interval": "100 0",
+          "life_ms": "200 0"
+        },
+        {
+          "source_element": "wraith_looping_def2",
+          "interval": "35 0",
+          "life_ms": "120 0"
+        },
+        {
+          "source_element": "wraith_looping_def3",
+          "interval": "35 0",
+          "life_ms": "120 0"
+        },
+        {
+          "source_element": "wraith_looping_def4",
+          "interval": "35 0",
+          "life_ms": "200 0"
+        }
+      ],
+      "dynamic_lights": 0
+    },
+    {
+      "source": "source_library/archer_equipment/t7_tomahawk_fx/fx_tomahawk_impact.efx",
+      "file": "share/raw/fx/tod/archer/fx_tod_archer_impact.efx",
+      "sha256": "6487f57ce3cee25dc606716ca2af5da07d4951cbef3a533e7959c49ce0aa8d9e",
+      "elements": [
+        {
+          "source_element": "wraith_looping_def0",
+          "interval": "17 10",
+          "life_ms": "80 20"
+        },
+        {
+          "source_element": "wraith_looping_def1",
+          "interval": "40 7",
+          "life_ms": "150 200"
+        },
+        {
+          "source_element": "wraith_looping_def2",
+          "interval": "15 15",
+          "life_ms": "400 100"
+        },
+        {
+          "source_element": "wraith_looping_def3",
+          "interval": "120 5",
+          "life_ms": "700 200"
+        }
+      ],
+      "dynamic_lights": 0
+    },
+    {
+      "source": "source_library/archer_equipment/t7_tomahawk_fx/fx_tomahawk_charge.efx",
+      "file": "share/raw/fx/tod/archer/fx_tod_archer_charge.efx",
+      "sha256": "ad5b8c5b5f310e77a5263666a5cf6bebbe9b0d9fe91f40db8663389f675af7a9",
+      "elements": [
+        {
+          "source_element": "wraith_looping_def1",
+          "interval": "425 1",
+          "life_ms": "500 50"
+        },
+        {
+          "source_element": "wraith_looping_def2",
+          "interval": "425 1",
+          "life_ms": "300 50"
+        }
+      ],
+      "dynamic_lights": 0
+    },
+    {
+      "source": "source_library/archer_equipment/t7_tomahawk_fx/fx_tomahawk_trail_charged.efx",
+      "file": "share/raw/fx/tod/archer/fx_tod_archer_trail_charged.efx",
+      "sha256": "80708f3a11fde607cb61073dd4936d9589af6cc82c36865392bf992a2aceea83",
+      "elements": [
+        {
+          "source_element": "wraith_looping_def0",
+          "interval": "100 0",
+          "life_ms": "200 0"
+        },
+        {
+          "source_element": "wraith_looping_def1",
+          "interval": "35 0",
+          "life_ms": "220 30"
+        }
+      ],
+      "dynamic_lights": 0
+    }
+  ],
+  "native_tested": false
+}

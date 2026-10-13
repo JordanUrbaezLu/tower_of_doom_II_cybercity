@@ -1,0 +1,1921 @@
+>class,zm_mod_level
+>group,modtools
+
+include,tod_partners
+include,tod_shop
+include,tod2_bo6_wunderfizz
+
+// Cyber roster: all four regular-horde character slots, original AI/gibs.
+aitype,spawner_zm_tod_cyber_horde
+// Normal horde and round elites (map-owned gray/black/red charcoal art).
+aitype,archetype_tod_charcoal_zombie
+xmodel,tod_doppelgast_black_robot
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_cyber_elites.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_mangler.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_elite_hp.gsc
+aitype,spawner_hb_mangler
+xmodel,hb_bo6_mangler
+xanim,hb_mangler_idle
+xanim,hb_mangler_run
+xanim,hb_mangler_melee
+xanim,hb_mangler_cannon
+xanim,hb_mangler_death
+fx,hb/mangler/fx_hb_mangler_eyes
+fx,hb/mangler/fx_hb_mangler_cannon_idle
+fx,hb/mangler/fx_hb_mangler_projectile
+fx,dlc3/stalingrad/fx_raz_mc_charge
+fx,dlc3/stalingrad/fx_raz_mc_muz_flash
+fx,dlc3/stalingrad/fx_raz_mc_shockwave_projectile
+fx,dlc3/stalingrad/fx_raz_mc_shockwave_projectile_impact
+character,c_tod_cyber_zombie
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_cyber_zombies.gsc
+// THE HORDE'S EYES (PK04, 2026-10-04): stock zombie_has_eyes lit zombie/fx_glow_eye_orange over the charcoal horde's red
+// eyes and the golden zombie's gold ones. _tod_eye_glow.csc points the stock eye lane at these two GENERATED effects
+// (tools/fxgen/horde_eyes/make_fx.py; names in _tod_eye_glow.gsh, LOCKSTEP tools/fxgen/horde_eyes/test_eye_glow.js).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_eye_glow.csc
+fx,tod/cyber/fx_tod_charcoal_eye_glow_red
+fx,tod/cyber/fx_tod_golden_eye_glow
+
+// Aetherium HUD kit (zone_source/aetherium_hud.zpkg — lua rawfiles, kit
+// gsc/csc, images, fonts, localize; assets installed in the shared tools root)
+include,aetherium_hud
+// THE MAP TYPEFACE AS A TTF (2026-09-25): tools/build_tod_ttf.py builds it from the
+// glyph sheets; the pause menu, its buttons and the scoreboard setTTF it. Zoned HERE,
+// not in the zpkg, so the asset lint can see it.
+ttf,fonts/tod_tower1.ttf
+// v13.6 — ALXS CW/BO6 Pack-a-Punch (crown machine): models+anims+fx+scripts
+// ride this zpkg (installed at share\zone_source\alxs_cwpap.zpkg); sounds via
+// the szc ALIAS entry. Credits: Madgaz, Owen C137, RiDD_Alexis31 et al —
+// CREDITS.md carries the full list before publish.
+include,alxs_cwpap
+// v13.9 KNUCKLE-CRACK POSTMORTEM (user: "never got the knuckles animation"):
+// the ALXS script calls GetWeapon("zombie_knuckle_crack") — a WaW/BO1-era
+// weapon name that T7'S MOD TOOLS DO NOT SHIP, and no pack on this machine
+// declares it either (searched: raw weapons, all GDT scan roots, stock
+// zones). A `weapon,` line for it was tried and REVERTED — the linker says
+// "Unable to load weapon" because there is nothing to load; the pack's
+// feature silently depends on some OTHER install's knuckle port (likely
+// HarryBo21's perks, which ship one). USE_HAND_KNUCKLE is false in
+// zm_cwpap.gsc until a real knuckle weapon is sourced — flip both back
+// together when it lands.
+
+// Logical's Powerups — timewarp + infinite ammo (vendored 2026-08-20:
+// scripts in repo scripts/zm/logical/powerups, GDT in repo source_data,
+// model/texture binaries installed in the tools root, wavs in
+// sound_assets/_logical; credit Logical + NateSmithZombies before publish)
+include,logical_powerups
+
+// =============================================================================
+// zm_tod2_cybercity.zone — asset manifest for the linker.
+//   - custom scripts use `scriptparsetree`, NOT `rawfile`
+//   - stock framework scripts referenced via #using need NO entries here
+//   - brush FACE materials need NO lines (auto-pulled); only non-face assets
+//     (sky xmodel, LUT, FX, script-referenced models) get listed
+// =============================================================================
+
+// THE CYBERCITY SKY (v17.71, 2026-09-05, docs/104) — self-authored, rendered
+// by tools/gen_tod_sky.js into source_data/tod_skybox/_images/*.exr and wired
+// by the four blocks in source_data/tod_skybox.gdt (image -> material -> xmodel
+// on Treyarch's stock t6_skybox dome -> ssi). The SSI (tod_ssi_cybercity, a
+// clone of Nastian's acc_ssi_miami_night with ONLY skyboxmodel changed) rides
+// in via the worldspawn/volume_sun reference; only the sky XMODEL needs a
+// line. NEVER add a material, line for a sky material — the standalone
+// sky_latlong_hdr techset compile FAILS on this install (map 1, zone :793);
+// it must ride in transitively through the xmodel.
+// LOCKSTEP with SKYBOX_MODEL/SSI in tools/gen_tower_map.js — the ssi carries
+// its own skyboxmodel key, so the pair must move together or they fight.
+// History: Miami night (Nastian T9 pack) v1-v17.69; v14.37 tried silver_dark
+// map-wide and v14.40 reverted it because the SPIRE is meant to be the dark
+// place (its fog hides the sky at any density, so this line only ever decides
+// how the TOWER looks).
+// v17.78: Miami again for the A/B screenshot (user: "revert back to the miami view");
+// the yellow turned out to be the SUN VOLUME height (docs/107, fixed v17.80).
+// v17.81: the cybercity sky is BACK on a correctly lit base (user: "Looks good. Lets implement").
+xmodel,skybox_tod_cybercity
+material,luts_t7_default
+
+// MAP-NAME VISION — NEUTRAL, AND THE FILE MUST EXIST (root cause of the
+// 2026-08-26 "permanent zombie-blood orange tint" report). The engine sets
+// every client's BASE vision by MAP NAME: visionset_mgr_shared.csc
+// finalize_initialization() -> init_fog_vol_to_visionset_monitor(
+// GetDvarString("mapname"), 0 ), and the manager restores that name per-client
+// (incl. after every down/revive). This map never shipped
+// vision/zm_tod2_cybercity.vision, so the engine resolved a MISSING vision and
+// rendered its warm-orange fallback — a permanent, boot-time, Origins-style
+// "zombie blood" wash that no script grep could ever find, because no script
+// applies it. Map 1 hit the same mechanism (its 2026-06-24 "gray screen on
+// revive" bug) and this is its rule ported: the map-name vision ships NEUTRAL
+// (byte-content == stock default.vision; a tint here would be FORCE-RESTORED
+// over any scripted grade on every revive). Source: vision/ in the repo,
+// synced by tools/sync_to_modtools.ps1 (the "vision" mapping).
+rawfile,vision/zm_tod2_cybercity.vision
+
+// BSP (compiled from map_source/zm/zm_tod2_cybercity.map)
+col_map,maps/zm/zm_tod2_cybercity.d3dbsp
+gfx_map,maps/zm/zm_tod2_cybercity.d3dbsp
+
+// Audio (sound/zoneconfig/zm_tod2_cybercity.szc)
+sound,zm_tod2_cybercity
+
+
+// --- RIOT SHIELD (v16.63): the Lv5 "new model" form — Logical's standalone
+//     Riot Shield weapon def (bulletweapon, weaponType riotshield, gunModel
+//     logical_m_shield_full). Its GDT lives in the Logical pack under
+//     <BO3>/model_export/_logical_models/ (gdtdb scans model_export GDTs), so the
+//     weapon, line is the only inclusion lane. ONE ledger registration (guard
+//     223 -> 224). The Lv1-4 shield is stock zod_riotshield: NO zone line — its
+//     CSV row in zm_levelcommon_weapons.csv is the inclusion lane, and a
+//     weapon,zod_riotshield line with no GDT on this box would hard-fail the link
+//     ("Unable to load weapon", the cymbal-monkey lesson). ---
+weapon,log_riotshield_zm
+
+// Twin-swap variants (zone_source/tod_twins.zpkg, GENERATED by
+// tools/gen_tod_twins.js): ak74u fire×handling(+ADS) combos + krig recoil
+// ladder + combat knife swing-speed ladder
+include,tod_twins
+
+// THE WEAPON TABLE (review 2026-08-22, map 1 precedent — its zone line 1319):
+// zm_tod2_cybercity.gsc::custom_add_weapons reads this CSV through TableLookup,
+// which only sees a stringtable asset packed into a fastfile. Without this
+// line the lookup silently hit the STOCK copy in zm_levelcommon.ff, so
+// level.zombie_weapons never held a class-gun row, is_weapon_included() was
+// false for every twin and the roof PaP machine refused every class gun ("PaP'd
+// the PISTOL fine but never the class guns" — the cause _tod_powerups.gsc
+// recorded without finding). The usermap copy (deployed by sync) overrides the
+// stock table: stock rows + every generated variant row from gen_tod_twins.js.
+stringtable,gamedata/weapons/zm/zm_levelcommon_weapons.csv
+
+// Gift of Death (Xmas Gun XM53 wonder weapon by GentlemanCheeseMan; vendored
+// 2026-08-20 — granted by the Death Machine drop, fixed shots-to-kill. The
+// zpkg carries weapon/scriptparsetree/stringtable/fx/material lines; credit
+// GentlemanCheeseMan/Gerardo Justel/Saritasa/Orvani/MidgetBlasters before publish)
+include,xmas_gun
+include,tod2_wunderstrahl
+
+// Entry scripts (server + client)
+scriptparsetree,scripts/zm/zm_tod2_cybercity.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity.csc
+
+// [tod] modules
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_main.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_corpse_cleanup.gsc
+// SILENT STRAY RELOCATION (2026-08-30, user: "I dont want to kill them off but
+// have them spawn near the player if they are too far. It just stalls the game
+// so much"). Teleports stranded trash zombies onto an UNSEEN active-zone riser
+// near the nearest upright player. Never kills, never touches level.zombie_total.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_stray.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_reach.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_recall.gsc
+// THE AMBUSH (docs/204, 2026-10-03): a share of the ordinary spawns climb out round a player.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_ambush.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_endless_rounds.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_doors.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_fall.gsc
+// docs/160 §9 — THE DOPPELGHAST (Hellbound's BO6 ghoul port): the Fall's hunters.
+// aitype + character + model + the four converted clips ride hb_bo6_dev_ai.gdt /
+// hb_doppelghast.gdt (installed at the tools root; snapshots in donor_gdt/hellbound);
+// the two juke clips are script-played (%anim); the AI tables ride animtables/.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_doppelghast.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_elite_fx.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_bo6_audio.gsc
+aitype,spawner_hb_doppelghast_dev
+xmodel,hb_bo6_doppelghast
+xanim,hb_doppelghast_stn_melee_01
+xanim,hb_doppelghast_dth_01
+xanim,hb_doppelghast_juke_l_short_01
+xanim,hb_doppelghast_juke_r_short_01
+fx,blood/fx_blood_impact_exp_body_lg_zmb
+fx,blood/fx_blood_neck_spray_zmb
+fx,tod/elites/fx_tod_doppel_death_charge
+fx,tod/elites/fx_tod_doppel_death_blast
+fx,tod/elites/fx_tod_doppel_juke
+fx,tod/elites/fx_tod_doppel_claw
+fx,tod/elites/fx_tod_mangler_death
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_door_data.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_breather_data.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_zombie_speed.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_atmosphere.gsc
+// Class system + the upgrade tower (every-round two-card choice)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_classes.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_upgrades.gsc
+// DISTRACTION (domain 41, 2026-08-31; Cymbal Monkey-only since v16.49, the
+// level is the carry cap 1/2/3). NO `weapon,` line here BY DESIGN: the def
+// already ships in zm_levelcommon and is included via the
+// zm_levelcommon_weapons.csv row (cymbal_monkey). A `weapon,` line re-packs from a GDT that is
+// not on disk and hard-fails the link with "Unable to load weapon" - map 1 made
+// exactly this mistake, see its zone_source comment.
+// Archer equipment (legacy Distraction id 41 now upgrades grapple recharge)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_archer.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_retriever.gsc
+weapon,tod_archer_retriever
+weapon,tod_archer_retriever_flourish
+weapon,tod_archer_grapple_view
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_archer.csc
+xmodel,tod_archer_hook
+beam,tod_archer_cable
+fx,tod/archer/fx_tod_archer_trail
+fx,tod/archer/fx_tod_archer_impact
+fx,tod/archer/fx_tod_archer_charge
+fx,tod/archer/fx_tod_archer_trail_charged
+// the Retriever burns in flight (user 2026-09-26): the stock Origins fire staff's bolt trail on every thrown
+// axe (the hellhound trail it used in build 11 is a STUB in the mod tools - drew nothing)
+fx,tod/archer/fx_tod_ret_fire
+// PK28 (W2C, 2026-10-05): the R1 Shadowhunter's bolt impact (base + PaP) and their spark children
+// (tools/sfx/w2c_sounds/gen_fx.py; named by source_data/tod_crossbow_impacts.gdt's surface tables)
+fx,tod/archer/fx_tod_crossbow_bolt_impact
+fx,tod/archer/fx_tod_crossbow_bolt_impact_c0
+fx,tod/archer/fx_tod_crossbow_bolt_impact_ug
+fx,tod/archer/fx_tod_crossbow_bolt_impact_ug_c0
+// THE ABILITY FEEDBACK (docs/203, 2026-10-02): the effects are GENERATED by tools/ability_fx/gen_fx.py
+// (tod/abfx), the two screen tints by tools/gen_kill_feel_art.js (the kill feel itself was retired the same day)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_ability_fx.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_ability_fx.csc
+fx,tod/abfx/fx_abfx_bash_1p
+fx,tod/abfx/fx_abfx_bash_impact
+fx,tod/abfx/fx_abfx_bash_impact_lv9
+fx,tod/abfx/fx_abfx_c4_blink
+fx,tod/abfx/fx_abfx_card_1
+fx,tod/abfx/fx_abfx_card_1_c0
+fx,tod/abfx/fx_abfx_card_2
+fx,tod/abfx/fx_abfx_card_2_c0
+fx,tod/abfx/fx_abfx_card_3
+fx,tod/abfx/fx_abfx_card_3_c0
+fx,tod/abfx/fx_abfx_card_4
+fx,tod/abfx/fx_abfx_card_4_c0
+fx,tod/abfx/fx_abfx_card_light
+fx,tod/abfx/fx_abfx_cl_pop_t3
+fx,tod/abfx/fx_abfx_cloak_off
+fx,tod/abfx/fx_abfx_cloak_off_c0
+fx,tod/abfx/fx_abfx_cloak_on
+fx,tod/abfx/fx_abfx_cloak_on_c0
+fx,tod/abfx/fx_abfx_dash_gauntlet
+fx,tod/abfx/fx_abfx_dash_punch
+fx,tod/abfx/fx_abfx_dash_sword
+fx,tod/abfx/fx_abfx_dash_vm
+fx,tod/abfx/fx_abfx_demon_aura
+fx,tod/abfx/fx_abfx_demon_aura_c0
+fx,tod/abfx/fx_abfx_demon_light
+fx,tod/abfx/fx_abfx_demon_on
+fx,tod/abfx/fx_abfx_demon_on_1p
+fx,tod/abfx/fx_abfx_demon_on_c0
+fx,tod/abfx/fx_abfx_dive_ring
+fx,tod/abfx/fx_abfx_dive_trail
+fx,tod/abfx/fx_abfx_draw_vm
+fx,tod/abfx/fx_abfx_fusion_heal
+fx,tod/abfx/fx_abfx_fusion_heal_1p
+fx,tod/abfx/fx_abfx_fusion_heal_c0
+fx,tod/abfx/fx_abfx_fusion_land
+fx,tod/abfx/fx_abfx_fusion_launch
+fx,tod/abfx/fx_abfx_fusion_trail
+fx,tod/abfx/fx_abfx_gauntlet_hit
+fx,tod/abfx/fx_abfx_gauntlet_hit_c0
+fx,tod/abfx/fx_abfx_pierce
+fx,tod/abfx/fx_abfx_pierce_c0
+fx,tod/abfx/fx_abfx_pierce_c1
+fx,tod/abfx/fx_abfx_pulse_1p
+fx,tod/abfx/fx_abfx_pulse_dome0
+fx,tod/abfx/fx_abfx_pulse_dome1
+fx,tod/abfx/fx_abfx_pulse_dome2
+fx,tod/abfx/fx_abfx_pulse_dome3
+fx,tod/abfx/fx_abfx_shield_back
+fx,tod/abfx/fx_abfx_shield_back_c0
+fx,tod/abfx/fx_abfx_shield_break
+fx,tod/abfx/fx_abfx_sword_charged
+fx,tod/abfx/fx_abfx_sword_charged_c0
+fx,tod/abfx/fx_abfx_sword_glow
+fx,tod/abfx/fx_abfx_sword_hit
+fx,tod/abfx/fx_abfx_sword_hit_c0
+image,i_tod_demon_vignette
+image,i_tod_fusion_vignette
+material,tod_demon_vignette
+material,tod_fusion_vignette
+image,i_tod_archer_axe_hud
+// WARRIOR + BREACHER KIT (2026-09-25): Hellbound Bash / Gravity Smash / C4 / Thermite,
+// granted at spawn by _tod_class_kit.gsc. Donor GDTs installed at the tools root
+// (snapshots donor_gdt/hellbound/hb_grenades|hb_thermite|hb_warrior_bash.gdt).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc
+// The Warrior's crowd swings (2026-09-26 playtest): punch cone + fling, gauntlet
+// swing + juke sweep, sword arc + second stroke. Started by _tod_class_kit::init.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_warrior_melee.gsc
+// --- THE NECROMANCER (2026-09-26): the Skull of Nan Sapwe as a class primary +
+//     Widow's Wine = Burned Out. The two weapon forms ride tod_twins.zpkg
+//     (gen_tod_twins LADDER.necromancer); the model/anims come in through them.
+//     Scenes, zombie anims and FX = map 1's proven skull set (stock DLC2 assets).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_necro_skull.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_necro_skull.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_necro_summon.gsc
+scriptbundle,cin_zm_dlc1_zombie_dth_deathray_04
+// (the six "pacified by skullgun" loops left with the entrancing torch, 2026-09-26)
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_start_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_loop_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_start_3p_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_loop_3p_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_side_start_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_beam_side_loop_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_start_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_loop_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_side_start_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_side_loop_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_start_3p_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_torch_loop_3p_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_island
+fx,dlc2/zmb_weapon/fx_wpn_skull_island_3p
+fx,zombie/fx_glow_eye_white
+fx,zombie/fx_bgb_burned_out_1p_zmb
+fx,zombie/fx_bgb_burned_out_3p_zmb
+fx,zombie/fx_bgb_burned_out_fire_torso_zmb
+// the helpers + SOUL BOMB: stock soul fx recoloured blue-grey (tools/necromancer/make_soul_fx.py)
+fx,tod/necro/fx_necro_soul_bomb
+// the SOUL PULSE's ground rings, one per radius band (Necromancer 2026-09-26 19:29)
+fx,tod/necro/fx_necro_pulse_ring0
+fx,tod/necro/fx_necro_pulse_ring1
+fx,tod/necro/fx_necro_pulse_ring2
+fx,tod/necro/fx_necro_pulse_ring3
+fx,tod/necro/fx_necro_summon
+fx,tod/necro/fx_necro_pap_beam_start
+fx,tod/necro/fx_necro_pap_beam_loop
+fx,tod/necro/fx_necro_pap_beam_start_3p
+fx,tod/necro/fx_necro_pap_beam_loop_3p
+fx,tod/necro/fx_necro_pap_beam_side_start
+fx,tod/necro/fx_necro_pap_beam_side_loop
+fx,tod/necro/fx_necro_soul_rip
+fx,tod/necro/fx_necro_soul_wisp
+fx,tod/necro/fx_necro_hound_aura
+fx,tod/necro/fx_necro_thrall_aura
+fx,tod/necro/fx_necro_thrall_aura_c0
+fx,tod/necro/fx_necro_mangler_aura
+fx,tod/necro/fx_necro_mangler_aura_c0
+// the thrall's WHITE EYES (2026-09-26): a twin of the charcoal head whose eye material is a white copy
+// (tools/necromancer/make_helper_eyes.py -> source_data/tod_necro_helpers.gdt); swapped on in thrall_make
+xmodel,tod_necro_thrall_head
+// the helpers' own BLACK models (Necromancer 2026-09-26 18:10; xmodel lines only,
+// their black material twins ride in as mc/ through the skinOverride) + the
+// helper Mangler's soul-coloured cannon shot and blast
+xmodel,tod_necro_thrall_body
+xmodel,tod_necro_hound
+xmodel,tod_necro_mangler
+fx,tod/necro/fx_necro_mgl_shot
+fx,tod/necro/fx_necro_mgl_blast
+// (no bare `material,` line for the eye material: a MODEL material rides in through the xmodel's
+//  skinOverride as mc/<name>; zoned bare it links a second time with no model type and the
+//  linker fails 44 shader lookups - build 11, 2026-09-26)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_archer_bow.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_archer_rune.gsc
+// THE RUNE PRISON (2026-09-26): Der Eisendrache's upgraded fire-bow charged shot, stock dlc1 effects
+fx,dlc1/zmb_weapon/fx_bow_rune_arrowhead_ug_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_impact_ug_glow_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_impact_ug_fire_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_impact_ug_end_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_impact_aoe_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_fire_torso_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_arrow_trail_zmb
+fx,dlc1/zmb_weapon/fx_bow_rune_impact_ug_zmb
+// POWER SCALE (2026-09-25): map 1 at one tenth - the damage front door + the horde curve.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_power_scale.gsc
+// C4 is our sticky clone (source_data/tod_breacher_kit.gdt, 2026-09-25): sticks to enemies.
+weapon,tod_c4
+xmodel,wpn_t7_c4_view
+xmodel,wpn_t7_c4_world
+fx,explosions/fx_exp_grenade_default
+fx,explosions/fx_exp_generic_lg
+// CLUSTER (2026-09-25): Fuse's Knuckle Cluster from Apex replaces the thermite
+// (tools/apex_weapons/import_fuse_cluster.py; source_data/tod_fuse_cluster.gdt).
+weapon,tod_cluster
+xmodel,tod_fuse_cluster_world
+xmodel,tod_fuse_bomblet
+fx,weapon/fx_incend_grenade_trail
+fx,tod/fuse/fx_tod_fuse_bomblet_exp
+fx,tod/fuse/fx_tod_fuse_sizzle
+image,i_hb_thermite_icon
+// Gravity Smash with the Gold Battle Sword (2026-09-26): its smash FX (Hellbound's
+// slam proxy weapon hb_gold_sword_cast_zm left with the Map 1 purge, 2026-10-04).
+fx,hb/gold_sword/fx_smash
+fx,hb/gold_sword/fx_smash_afterglow
+// WARRIOR BLADES (2026-09-26): T1 One Inch Punch (source_data/tod_warrior_punch.gdt, tools/warrior/install_punch.py)
+// and T2 Gauntlet of Siegfried (donor_gdt/t7/wpn_t7_zmb_dlc3_gauntlet_dragon.gdt) ride tod_twins.zpkg as cc_punch /
+// cc_gauntlet. Their clips' FX notes (the fist glow, the gauntlet swipe) and the melee impact effects:
+fx,dlc5/tomb/fx_one_inch_punch
+fx,dlc5/tomb/fx_one_inch_punch_ug
+fx,dlc5/tomb/fx_one_inch_punch_impact
+fx,dlc3/stalingrad/fx_dragon_gauntlet_melee
+fx,dlc3/stalingrad/fx_dragon_gauntlet_melee_impact
+// BASH proxies for the fist / gauntlet users (same GDT): the dash draws the blade you hold, not Hellbound's sword
+weapon,tod_bash_punch_zm
+weapon,tod_bash_gauntlet_zm
+weapon,tod_bash_sword_zm
+// GRAVITY SMASH = stock's Gravity Spikes slam (_zm_weap_gravityspikes.csc, client half added 2026-09-26): its effects
+fx,dlc1/zmb_weapon/fx_wpn_spike_grnd_hit
+fx,dlc1/zmb_weapon/fx_wpn_spike_grnd_hit_1p
+fx,dlc1/zmb_weapon/fx_wpn_spike_torso_trail
+fx,electric/fx_ability_elec_surge_short_robot_optim
+fx,light/fx_light_spark_chest_zombie_optim
+fx,electric/fx_elec_burst_lg_z270_os
+xmodel,tod_archer_retriever_world
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_riotshield.gsc
+// stock Quick Revive machine light (#precache'd by stock _zm_perk_quick_revive)
+fx,zombie/fx_perk_quick_revive_zmb
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_athlete.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.csc
+// (_tod_ballistic.gsc removed 2026-08-20 — the ballistic knife is replaced by
+// the combat knife, a pure-melee weapon with no thrown/retrievable component)
+// Game-start class draft (30s, random on timeout; world paused while choosing)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_class_select.gsc
+// THE CLASS TERMINAL (2026-10-01): the crown's tester class switch - the draft's panel reopened mid-game.
+// Its console (p7_zm_sta_dragon_network_data_terminal) and burst (fx_teleport_flashback_kino) are zoned above.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_class_terminal.gsc
+// Perk scatter (random layout + post-Panzer reshuffle) + the luck bar
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_scatter.gsc
+// Original BO6 Wunderfizz on all fifty floors.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_roster.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_data.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderfizz.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_machine.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_machine.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_luck.gsc
+// Tower gauge — the HUD floor indicator feed (int-only LuiNotifyEvent lane)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_gauge.gsc
+// THE CROWN'S SCENERY (2026-10-05): the props, the hidden lane seals and the open
+// terrace gate - the live half of the Map One ending, whose uplink / road / hold-out /
+// extraction / win screen retired whole (W2E). Anchors are GENERATED
+// (_tod_crown_data.gsc, from gen_tower_map.js — regen, never hand-edit).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_crown_props.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_gameover.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_telem.gsc
+// TELEPORTERS: shared Blender MCP-enhanced pad at eight transit stations and
+// crown ascension. Original travel rules and stock FX; 60s per-pad cooldown.
+// Script-spawned model needs its explicit force-pack line.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_teleport.gsc
+// THE BATTLE ARENA (docs/185): the floor-40 chamber + the arena fight;
+// _tod_arena_data.gsc is GENERATED by gen_tower_map.js (tools/battle_arena_layout.js).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_arena.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_class_cards.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_class_cards.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_arena_data.gsc
+// THE DEALER'S HOUSE (docs/207): level 10's two rooms + the final fight; _tod_house_data.gsc is GENERATED
+// (tools/dealer_house_layout.js). Its sounds ride tod_house.csv (GENERATED) and the dealer lines in tod_shop.csv.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_house.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_house_data.gsc
+// THE KEEPER'S ARCHETYPE HALF (2026-10-05): THE DEALER runs on the Keeper's skeleton
+// and tree, so _tod_keeper.gsc keeps the blackboard + zombie flags his archetype
+// registers, and these are the keeper clips his anim
+// mapping table (animtables/tod_dealer.ai_am) names. THE KEEPER BOSS himself -
+// his aitype, body, dissolve body, client half and four body effects (and his
+// portal, once the Dealer stopped borrowing it) - retired
+// whole (docs/186 -> archive/map1_carryover/). Source GDT: source_data/tod_keeper.gdt
+// (tools/keeper/install_keeper.py; the Dealer's installer derives from it).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_keeper.gsc
+xanim,ai_zm_dlc4_enslaved_keeper_dth_deadwire_1
+xanim,ai_zm_dlc4_enslaved_keeper_dth_deadwire_3
+xanim,ai_zombie_zod_keeper_climb_down_112
+xanim,ai_zombie_zod_keeper_climb_down_128
+xanim,ai_zombie_zod_keeper_climb_down_160
+xanim,ai_zombie_zod_keeper_climb_onto_dock_from_water
+xanim,ai_zombie_zod_keeper_climb_up_112
+xanim,ai_zombie_zod_keeper_climb_up_128
+xanim,ai_zombie_zod_keeper_climb_up_180_down_36
+xanim,ai_zombie_zod_keeper_climb_up_308_down_36
+xanim,ai_zombie_zod_keeper_jump_across_256
+xanim,ai_zombie_zod_keeper_jump_across_72
+xanim,ai_zombie_zod_keeper_jump_across_pap_bridge
+xanim,ai_zombie_zod_keeper_jump_across_pap_bridge_smallgap
+xanim,ai_zombie_zod_keeper_jump_across_pap_bridge_smallgap_to_altar
+xanim,ai_zombie_zod_keeper_jump_down_128
+xanim,ai_zombie_zod_keeper_jump_down_160
+xanim,ai_zombie_zod_keeper_jump_down_190
+xanim,ai_zombie_zod_keeper_jump_down_256
+xanim,ai_zombie_zod_keeper_jump_down_36
+xanim,ai_zombie_zod_keeper_jump_down_48
+xanim,ai_zombie_zod_keeper_jump_down_72
+xanim,ai_zombie_zod_keeper_jump_down_96
+xanim,ai_zombie_zod_keeper_jump_up_108_down_36
+xanim,ai_zombie_zod_keeper_jump_up_128
+xanim,ai_zombie_zod_keeper_jump_up_160
+xanim,ai_zombie_zod_keeper_jump_up_244_down_36
+xanim,ai_zombie_zod_keeper_jump_up_36
+xanim,ai_zombie_zod_keeper_jump_up_36_down_108
+xanim,ai_zombie_zod_keeper_jump_up_36_down_180
+xanim,ai_zombie_zod_keeper_jump_up_36_down_244
+xanim,ai_zombie_zod_keeper_jump_up_36_down_308
+xanim,ai_zombie_zod_keeper_jump_up_36_down_52
+xanim,ai_zombie_zod_keeper_jump_up_48_across_64_down_48
+xanim,ai_zombie_zod_keeper_jump_up_52_down_36
+xanim,ai_zombie_zod_keeper_jump_up_72
+xanim,ai_zombie_zod_keeper_jump_up_96
+xanim,ai_zombie_zod_keeper_jump_up_dockrailing_from_dock
+xanim,ai_zombie_zod_keeper_jump_up_dockrailing_from_water
+xanim,ai_zombie_zod_keeper_mantle_over_128
+xanim,ai_zombie_zod_keeper_mantle_over_36
+xanim,ai_zombie_zod_keeper_mantle_over_48
+xanim,ai_zombie_zod_keeper_mantle_over_72
+xanim,ai_zombie_zod_keeper_mantle_over_96
+xmodel,tod_teleporter
+include,tod_teleporter_states
+// RAMPAGE INDUCER (v18.99e): the BO6 aether canister — the device BO6 uses as
+// its Rampage Inducer — from the MadGaz Liberty Falls pack (TOOLS-side
+// bo6_props.gdt + model_export/_bo6, the same pack the perk machines come
+// from; map 1 zones the _on twin as lab dressing, so it is proven to build).
+// v14.20-v18.99d it was map 1's ww2_circuit_breaker power-switch model, which
+// players read as a power switch and never as a rampage inducer. Both twins:
+// _tod_rampage.gsc swaps to _on (lit purple gauge) while the mode is armed.
+// v18.99h: the model is the REAL one now. It is
+// `t10_zm_essence_container_orange` plus the four crystal shards
+// `t10_zm_essence_container_crystal_01..04` that float in its glass
+// cylinder, joined into ONE static prop (15 x 15 x 31 in, 7 materials) by
+// tools/bo6_extraction/stage_rampage_inducer.py + install_inducer_bo3.py,
+// which own source_data/tod_bo6_inducer.gdt and model_export/tod_bo6_inducer/.
+//
+// ITS ASSET NAME CONTAINS NEITHER "RAMPAGE" NOR "INDUCER" - both return 0 of
+// 272,642 loaded BO6 assets and no public datamine names it. It was found by
+// searching the FICTION (`kind:model essence`), because the wikis call it "an
+// Aetherium essence canister containing fragments of a Fury Crystal".
+// v18.99e-g shipped t10_zm_aether_canister, a Liberty Falls hazmat DRUM picked
+// on a name match - measured, a constant-radius cylinder with a blue-violet
+// gauge glow and no crystal in it at all.
+// docs/208: THE CYBER INDUCER replaces the canister above - map 1's own device
+// (its 2026-10-02 v19.68m, ported whole): plinth + RAMPAGE display, copper coil,
+// four ribs caging a levitating Fury crystal cluster in a plasma column, finned
+// crown with claws and a beacon. ONE model, five animated bones
+// (source_data/tod_inducer_cyber.gdt, model_export/ + xanim_export/tod_inducer_cyber/,
+// held to art/rampage_inducer_cyber/install_manifest.json by tools/inducer_cyber/verify.py).
+// The canister's GDT and model files stay on disk UNZONED as the rollback - put
+// `xmodel,tod_inducer` + `xmodel,tod_inducer_on` back here and point
+// _tod_rampage.gsc's TOD_RAMPAGE_MODEL* at them (and drop its anim_set call).
+xmodel,tod_inducer_cyber
+// The LIT twin - same xmodel_bin, skinOverride to the `_on` materials (rampage
+// red trims, the hot ON glow map). Script swaps to it while rampage is on.
+xmodel,tod_inducer_cyber_on
+// ITS MOTION - two looping clips (idle 12 s / on 3 s) on those bones, and the
+// animtree _tod_rampage.gsc's #using_animtree names. All three lines are
+// required: an xanim missing from the zone plays nothing and says nothing.
+rawfile,animtrees/tod_inducer.atr
+xanim,tod_inducer_cyber_loop_idle
+xanim,tod_inducer_cyber_loop_on
+// ITS GLOW (v18.99i, user: "it needs to glow a dim orange of some sort. And
+// then when it's on, it needs to pulse a deeper orange ... when it's off, it
+// just has, like, a dim kinda lamp"). Two looping effects off one donor -
+// map 1's amber perk aura - written by tools/gen_tod_inducer_fx.py. Each keeps
+// the donor's real dynamic light; idle is flat at 200, on pulses 300-900 once a
+// second in a deeper orange. WITHOUT THESE TWO LINES the effects silently never
+// play and the device just sits there dark.
+fx,tod/fx_tod_inducer_idle
+fx,tod/fx_tod_inducer_on
+// (THE ARMORED SPRINTER's body + three heads retired whole 2026-10-05: no director
+// promotes a zombie any more.)
+fx,tod/teleporter/fx_tod_tp_ready
+fx,tod/teleporter/fx_tod_tp_charge_field
+fx,tod/teleporter/fx_tod_tp_release_field
+fx,dlc4/genesis/fx_sophia_elec_charge_teleporter
+fx,dlc1/castle/fx_elec_teleport_flash_lg
+fx,dlc5/theater/fx_teleport_flashback_kino
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_crown_data.gsc
+// THE JUMP PAD (docs/163): the crown's one-way way across the cut causeway.
+// Since 2026-10-03 it wears DER EISENDRACHE'S JUMP PAD (docs/163 s9): the jumpsphere
+// machine, its deck and its landing pad (source_data/tod_jumppad.gdt, written by
+// tools/jumppad/install_de_jumppad.py - the models are zoned, their materials and
+// textures ride in with them, never zoned bare) and four of DE's flinger effects
+// (dlc1/castle, real effects - not stubs). It wore the teleporter until then.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_jumppad.gsc
+xmodel,tod_jumppad_frame
+xmodel,tod_jumppad_deck_off
+xmodel,tod_jumppad_deck_on
+xmodel,tod_jumppad_land_off
+xmodel,tod_jumppad_land_on
+fx,dlc1/castle/fx_elec_jumppad
+fx,dlc1/castle/fx_elec_jumppad_player_trail
+fx,dlc1/castle/fx_elec_landingpad_glow
+fx,dlc1/castle/fx_dust_landingpad
+// The crown's props (_tod_crown_props): carved T7 stock props already in the Mod
+// Tools GDT DB (source_data/acc_t7_props_*.gdt; binaries verified on disk
+// 2026-08-21). Script-spawned via SetModel, so each needs its explicit force-pack
+// line — confirm none logs `is missing` in the build ERRORLOG (KB §6). (The
+// extraction pad's red / green lights retired with the ending, 2026-10-05.)
+xmodel,p7_zm_sta_dragon_network_data_terminal
+xmodel,p7_zm_asc_light_cage_warning_red
+xmodel,p7_zm_moo_light_panel_01_long
+// THE LEVER (_tod_fall.gsc, 2026-09-24): the stock power switch's models - since docs/208 only the plaza's vestigial power_switch prefab uses them
+xmodel,p7_zm_der_pswitch_body
+xmodel,p7_zm_der_pswitch_handle
+// THE ALARM BUTTON (_tod_fall.gsc, 2026-09-28): Blender-authored stand + pressable cap (tools/alarm_button, source_data/tod_alarm_button.gdt)
+xmodel,tod_alarm_button_stand
+xmodel,tod_alarm_button_cap_on
+xmodel,tod_alarm_button_cap_off
+// THE GRID TERMINAL (docs/208): Nikolai's Grid Terminal V5 is the crown's power switch (_tod_power_terminal.gsc;
+// source_data/tod_fan_props.gdt, held to tools/fan_props/manifest.json by tools/fan_props/verify.py)
+xmodel,tod_power_terminal
+xmodel,tod_power_dial
+xmodel,tod_power_dial_on
+xmodel,tod_power_screen
+xmodel,tod_power_screen_dark
+xmodel,tod_power_screen_f1
+xmodel,tod_power_screen_f2
+xmodel,tod_power_screen_f3
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_power_terminal.gsc
+// THE CYBERCITY SIGN (docs/208): Nikolai's TOWER OF DOOM / CYBERCITY sign over the plaza (_tod_base_sign.gsc), off / dim / on
+xmodel,tod_cybercity_sign2
+xmodel,tod_cybercity_sign2_off
+xmodel,tod_cybercity_sign2_dim
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_base_sign.gsc
+// Custom powerup drops: free PaP (rotation drop). Admin gun removed 2026-08-20.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_powerups.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_ammo_crate.gsc
+// RAMPAGE INDUCER (v14.20) — the opt-in hard mode. WITHOUT THIS LINE the .gsc
+// syncs into the deployed tree and is never compiled: the freshness diff passes
+// cleanly on an inert file, and the only real proof is the .ff size delta
+// (memory deployed-is-not-wired).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_rampage.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_powerups.csc
+// THE LUCKY SOURCES (docs/197, 2026-09-29): the Lucky Clover drop (in the drops' own stock material), the Lucky
+// Meteor (a real server target in the sky) and the Golden Zombie (the horde's mesh in gold twins). Models from
+// tools/lucky/01_author.py (Blender MCP) + tools/lucky/make_golden.py; effects from tools/lucky/make_fx.py. XMODEL
+// LINES ONLY: their materials ride in as mc/<name> (a bare material, line for a model material failed build 11).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_lucky.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_lucky.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_golden_zombie.gsc
+xmodel,tod_luck_clover
+xmodel,tod_luck_meteor
+xmodel,tod_golden_zombie_body
+xmodel,tod_golden_zombie_head
+fx,tod/luck/fx_luck_meteor_trail
+fx,tod/luck/fx_luck_meteor_burst
+fx,tod/luck/fx_luck_meteor_frag
+fx,tod/luck/fx_luck_clover_trail
+fx,tod/luck/fx_luck_clover_land
+fx,tod/luck/fx_luck_golden_aura
+fx,tod/luck/fx_luck_golden_burst
+// Drop model for the free PaP — the stock perk bottle (reliable, centered,
+// grabbable; the Chaos PaP-machine mesh read as a "frame" and its base pivot
+// offset the grab point — reverted 2026-08-20).
+xmodel,zombie_pickup_perk_bottle
+// v18.96 — the teddy bear song hunt (_tod_secret): three script-spawned bears. Since docs/208
+// the fan's CYBER TEDDY (map 1's v19.64; source_data/tod_cyber_teddy.gdt, art/cyber_teddy/).
+xmodel,tod_cyber_teddy
+// Shared cyber Heavenly Gift Altar: base + four breathers + crown.
+// Map-owned Blender replacement; upgrade behavior and original clips retained.
+xmodel,tod_heavenly_altar
+// [tod] PACK-A-PUNCH DROP model (ZoekMeMaar, 'Custom Powerup: Free Pack
+// A Punch' — credit before publish). A purpose-built pickup-sized gold
+// mini-PaP: pivot-CENTRED, unlike the chaos machine mesh which sat off
+// its grab point and read as a frame at drop scale.
+xmodel,free_packapunch
+// [tod] ZOMBIE BLOOD DROP model + its material (NSZ powerup pack —
+// credit before publish). The GDT defines image+material+xmodel, all
+// named zombie_blood; the material needs its own line.
+xmodel,zombie_blood
+material,zombie_blood
+// Scatter drop-in FX (map 1's de-rez burst assets, installed; the zap layer
+// is the Giant teleporter strike)
+fx,_custom/acc/fx_acc_derez_blink
+fx,dlc0/factory/fx_teleporter_elec_strike_os
+// [tod] THOR'S THUNDER (slasher melee domain, user 2026-08-21): ZoekMeMaar's
+// sky-strike (credit) fused with the stock tesla burst + thundergun smoke
+// cloud that map 1's Cyberjack storm used server-side. (The DE funnel is
+// NOT portable — it rides the hb21 bow's clientfields, which this map does
+// not load.) The teleporter strike above is shared with the perk scatter.
+fx,zombie/fx_tesla_shock_zmb
+fx,fire/fx_fire_ground_rubble_50x50
+fx,fire/fx_fire_ground_rubble_sm_50x50
+fx,zombie/fx_tesla_shock_eyes_zmb
+// THE HELLHOUND ARRIVAL BOLT (v17.83). Stock precaches this in _zm_ai_dogs.gsc
+// and it rides in zm_levelcommon — which this zone cannot see, and the map's
+// own .ff ledger has no fx_dog_* row. A #precache with nothing behind it
+// resolves to nothing and PlayFX no-ops in silence, so we carry it ourselves.
+fx,zombie/fx_dog_lightning_buildup_zmb
+// RAMPAGE INDUCER (v14.20): the breaker's continuous spark while hard mode is
+// ON. THIS LINE IS WHAT PACKS THE FX — a #precache alone is NOT enough. Without
+// it the inducer registers, toggles, sounds and silently NEVER SPARKS, with no
+// error anywhere: PlayFX resolves a missing asset to nothing. Same pairing as
+// every other FX here (map 1 needed its zone line at zone:554 as well as the
+// precache). Stock BO3 asset, proven in map 1's atmosphere; pcloud-free, so it
+// is clear of the fx_fire_barrel spark-material crash.
+fx,electric/fx_elec_spark_loop_sm
+// v16.7 LOUNGE AMBIENCE (_tod_atmosphere::lounge_fx): four stock LOOPING
+// effects per breather lounge — a mote shaft, interior haze, ground fog on the
+// teleporter pad, a soft vent at the gate — placed with server PlayFX (map 1's
+// proven loop lane). Each needs THIS line as well as its #precache, exactly
+// like the spark above. All four are map-1-proven on this tools install and
+// carry no particlecloud reference.
+// PK43 (2026-10-05): the motes are the map's own fx,tod/haven/fx_tod_haven_motes (zoned with the haven set); env/light/fx_light_god_rays_dust_motes is a gfx_debug_missing_fx stub in the tools root and is no longer packed
+fx,dirt/fx_dust_linger_int_sector
+fx,fog/fx_fog_ground_wind_lt_sm
+fx,steam/fx_steam_leak_sm_soft_slow
+// v16.78 PhD + Widow's Wine COMBO TELL (_tod_perk_phd.gsc TOD_PHD_FX_*): the
+// purple trail every combo grenade wears in flight, the purple pop over each
+// child's web, the purple blast of the thrown grenade's nova. #precache'd
+// there; both halves required or the fx silently no-ops.
+fx,zombie/fx_trail_rpg_purple_doa
+// BREACHER Cluster flame (2026-09-26): stock looping orange flame on the canister + every bomblet until it pops, _tod_class_kit TOD_CLUSTER_FX_TRAIL (replaced the red rpg trail)
+fx,fire/fx_fire_single_loop_01_xsm_evb
+fx,tod/breacher/fx_tod_cluster_glow
+// the Breacher's lower-tier explosions (tools/breacher/make_tier_fx.js; _c = a child its parent spawns)
+fx,tod/breacher/fx_tod_c4_blast_t1
+fx,tod/breacher/fx_tod_c4_blast_t2
+fx,tod/breacher/fx_tod_c4_blast_t3
+fx,tod/breacher/fx_tod_cl_burst_t1
+fx,tod/breacher/fx_tod_cl_burst_t1_c0
+fx,tod/breacher/fx_tod_cl_burst_t1_c1
+fx,tod/breacher/fx_tod_cl_burst_t2
+fx,tod/breacher/fx_tod_cl_burst_t2_c0
+fx,tod/breacher/fx_tod_cl_burst_t2_c1
+fx,tod/breacher/fx_tod_cl_pop_t1
+fx,tod/breacher/fx_tod_cl_pop_t2
+fx,zombie/fx_raygun_impact_purple_doa
+fx,zombie/fx_exp_rpg_purple_doa
+// The upgrade-choice LUI panel (rawfile = copied verbatim, compiled by
+// L3akMod at link; Lua runtime errors surface in-game as "UI Error <n>")
+rawfile,ui/uieditor/menus/hud/tod_upgrade.lua
+rawfile,ui/uieditor/menus/hud/tod_wunderfizz.lua
+rawfile,ui/uieditor/menus/hud/tod_telem_probe.lua   // TELEMETRY PROBE (tools/telemetry_probe, dev test only)
+rawfile,ui/uieditor/menus/hud/tod_class_select.lua
+// [tod v17.24] the shared keycap writer. REQUIRED by both menus above AND by
+// AetheriumStartMenu.lua (zpkg) — a `require` of a file that is not zoned takes
+// the whole menu down SILENTLY, so this line and those three requires move
+// together. Its own folder is the kit's, matching TodGlyphMetrics.lua.
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodKeycap.lua
+// THE PULL (docs/187): the card-back / rarity-ladder reveal. Zoned in the .zone, NOT the zpkg,
+// like TodPromptCard: a require of an unzoned rawfile fails silently.
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodPull.lua
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodHudVeil.lua   // the HUD veil: hides the HUD during card deals + the shop wheel (2026-09-29)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodJumpCine.lua   // the first jump's letterbox + veil key "jump" (docs/196; AetheriumHud pcall-requires it)
+// THE HAVENS (docs/202, 2026-10-02): the safe zones on floors 10/20/30/40 - the force-field dome (two
+// generated meshes - the safe lattice and v5's breached corrupted one - in six skins: tools/haven/make_dome.py),
+// its thirteen effects (tools/haven/make_fx.py), the screen tint (i_tod_haven_vignette) and the HUD widget.
+// XMODEL LINES ONLY for the dome (its materials ride in through the models; a bare model material line failed build 11).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_haven.gsc
+xmodel,tod_haven_dome
+xmodel,tod_haven_dome_pulse
+xmodel,tod_haven_dome_flash
+xmodel,tod_haven_dome_dark
+xmodel,tod_haven_dome_dark_dim                           // v5: the corrupted dome's brown-out skin
+xmodel,tod_haven_dome_dark_flash
+xmodel,tod_haven_sign_10
+xmodel,tod_haven_sign_20
+xmodel,tod_haven_sign_30
+xmodel,tod_haven_sign_40
+xmodel,tod_haven_sign_10_dark
+xmodel,tod_haven_sign_20_dark
+xmodel,tod_haven_sign_30_dark
+xmodel,tod_haven_sign_40_dark
+fx,tod/haven/fx_tod_haven_ambient
+fx,tod/haven/fx_tod_haven_corrupt
+fx,tod/haven/fx_tod_haven_cross
+fx,tod/haven/fx_tod_haven_push
+fx,tod/haven/fx_tod_haven_boot
+fx,tod/haven/fx_tod_haven_wake
+fx,tod/haven/fx_tod_haven_guard_down
+fx,tod/haven/fx_tod_haven_cleanse
+fx,tod/haven/fx_tod_haven_slowed
+fx,tod/haven/fx_tod_haven_deflect                       // v4: a bullet stopped on a corrupted field's barrier
+fx,tod/haven/fx_tod_haven_fury                          // v5: the fight's loop (the wake swaps it in)
+fx,tod/haven/fx_tod_haven_convulse                      // v5: the purification's convulsion
+fx,tod/haven/fx_tod_haven_collapse                      // v5: its collapse (the implosion)
+fx,tod/haven/fx_tod_haven_motes                         // PK43: the thresholds' + the departure hall's falling motes (replaces the env/light stub)
+image,i_tod_haven_vignette
+image,i_tod_haven_darkness                              // v4: the darkness inside a corrupted field (TodHaven.lua)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodHaven.lua   // the safe zones' screen tint (docs/202; AetheriumHud pcall-requires it)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodArena.lua   // the Battle Arena's readout: LEVEL / WAVE / N LEFT (docs/185 v2.1; AetheriumHud pcall-requires it)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodAbilityFeedback.lua
+// [tod 2026-09-28] THE BLACK MARKET SPIN (docs/188): the Item Shop reel + the
+// companion loadout chips. tod_upgrade.lua pcall-requires it.
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodSpinReel.lua
+// [W2G 2026-10-05] THE COMPANION STATUS PLATE (PK08): tod_upgrade.lua pcall-requires the widget; its two
+// images are GENERATED by tools/artgen/packs/w2g_companion_plate.py (the bar wears i_tod_h2_hp_fill /
+// i_tod_h2_hp_frame, the portraits i_tod_spin_ico_comp_*, all zoned elsewhere)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodCompanionPlate.lua
+// [RT 2026-10-05] THE TOAST (docs/218): tod_upgrade.lua pcall-requires it; it draws on i_tod_title_plate (zoned with
+// the card panel chrome) in the glyph cells
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodToast.lua
+image,i_tod_h2_comp_plate
+image,i_tod_h2_comp_ring
+// [tod 2026-09-29] THE BLACK MARKET SPIN ART (docs/190): 26 images, every name a
+// literal in TodSpinReel.lua ART (source_data/tod_ui_images.gdt, compressed high color).
+image,i_tod_spin_banner_common
+image,i_tod_spin_banner_epic
+image,i_tod_spin_banner_legendary
+// THE DEALER'S HOUSE (docs/207): THE LAST ROLL's cursed tile / banner / mask icon (GENERATED, tools/dealer_house/make_spin_art.py)
+image,i_tod_spin_tile_cursed
+image,i_tod_spin_banner_cursed
+image,i_tod_spin_ico_cursed
+// THE DEALER'S GIFT (docs/209): the COMPANION tile, the ON THE HOUSE banner, the four portraits cut for the tile (GENERATED, tools/partner_shop/make_gift_art.py)
+image,i_tod_spin_tile_gift
+image,i_tod_spin_banner_gift
+image,i_tod_spin_ico_comp_protector
+image,i_tod_spin_ico_comp_talon
+image,i_tod_spin_ico_comp_raps
+image,i_tod_spin_ico_comp_cerberus
+image,i_tod_spin_banner_rare
+image,i_tod_spin_chip
+image,i_tod_spin_flare
+image,i_tod_spin_frame
+image,i_tod_spin_glass
+image,i_tod_spin_ico_arc
+image,i_tod_spin_ico_hollow
+image,i_tod_spin_ico_lucky
+image,i_tod_spin_ico_nano
+image,i_tod_spin_ico_overclock
+image,i_tod_spin_ico_plating
+image,i_tod_spin_ico_reboot
+image,i_tod_spin_ico_salvage
+image,i_tod_spin_ico_sight
+image,i_tod_spin_needle
+image,i_tod_spin_rays
+image,i_tod_spin_scrap
+image,i_tod_spin_socket
+image,i_tod_spin_socket_focus
+image,i_tod_spin_tile_common
+image,i_tod_spin_tile_epic
+image,i_tod_spin_tile_legendary
+image,i_tod_spin_tile_rare
+// [tod 2026-09-29] BLACK MARKET PASS 3 ART (docs/195): the dealer's five poses, the four
+// companion portraits, the portrait frame, the reel's speed streaks (TodSpinReel ART).
+image,i_tod_spin_comp_cerberus
+image,i_tod_spin_comp_protector
+image,i_tod_spin_comp_raps
+image,i_tod_spin_comp_talon
+image,i_tod_spin_dealer_grin
+image,i_tod_spin_dealer_idle
+image,i_tod_spin_dealer_jackpot
+image,i_tod_spin_dealer_shrug
+image,i_tod_spin_dealer_watch
+image,i_tod_spin_portrait_frame
+image,i_tod_spin_streaks
+rawfile,ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodTeleportFeedback.lua
+// [tod v19.3] THE ONE OWNER OF EVERY PROMPT CARD. All six live cursor-hint
+// cards require() this; a require of a file that is not zoned takes the whole
+// widget down SILENTLY, so every door, power and vendor prompt in the map
+// rides on this single line. It sits HERE and not in aetherium_hud.zpkg on
+// purpose: lint_tod_assets cannot read the zpkg (memory `lint-zpkg-blind-spot`),
+// and this file is far too load-bearing to park in the tool's blind spot.
+rawfile,ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodPromptCard.lua
+// Upgrade-card art, COMPLETE set (source_data/tod_ui_images.gdt)
+image,i_tod_title_plate
+// Powerup tray icons (Robit's CW/BO4 powerup shaders, wrapped as tod images)
+// The 58-card cartoon set (files (10).zip 2026-08-20) — full baked cards
+// replace the LUI composite (18 domains x 3 rarities + 4 classes)
+// UI-family art (files (11).zip): banners, luck badges, hint plates, tray icons
+image,i_tod_badge_luck_10
+image,i_tod_badge_luck_100
+image,i_tod_luck_legend
+image,i_tod_badge_luck_20
+image,i_tod_badge_luck_30
+image,i_tod_badge_luck_40
+image,i_tod_badge_luck_50
+image,i_tod_badge_luck_60
+image,i_tod_badge_luck_70
+image,i_tod_badge_luck_80
+image,i_tod_badge_luck_90
+image,i_tod_banner_choose_class
+image,i_tod_banner_upgrade
+// CLASS TIER GATE badges (v14.35, docs/50) — "TIER 2 AT FLOOR 10" / "TIER 3 AT
+// FLOOR 20", shown in the upgrade panel's top-left gutter (the mirror of the
+// luck badge slot) when the FLOOR is the only thing withholding a tier card.
+// The silent-white-square trap: no line here and
+// RegisterImage resolves to nothing, the panel still loads, and the one player
+// who needed the explanation gets a blank box.
+image,i_tod_tier_gate_2
+image,i_tod_tier_gate_3
+// i_tod_upg_class_skirmisher RETIRED 2026-09-26 (the Skirmisher class left; nothing names it)
+image,i_tod_upg_class_assault
+image,i_tod_upg_class_heavy
+image,i_tod_upg_class_slasher
+// (THE FINALE ROAD BANNER and THE WIN SCREEN's banner + emblem - images and their
+// 2d_blend materials - retired whole 2026-10-05 with the Map One ending.)
+// THE LOSS SCREEN (PK09, 2026-10-04): its twin. _tod_gameover.gsc lost_game_over
+// SetShader()s the material; the floor number is live text laid into the plate's
+// empty readout. GENERATED by tools/artgen/packs/pk09_loss_banner.py (--check).
+image,i_tod_lose_banner
+material,tod_lose_banner
+// HEALTH BARS (2026-09-25, docs/174; colours 2026-10-01): 93 bar images + their
+// 93 2d_blend materials. RED for enemies: tod_hpbar_e_NN[_h1|_h2] (every elite) /
+// tod_hpbar_b_NN[_h1|_h2] (Panzer / Keeper / Dealer). WHITE for the Necromancer's
+// helpers: tod_hpbar_s_NN[_h1|_h2]. Drawn by _tod_elite_hp.gsc's waypoint
+// hudelems - SetShader takes a MATERIAL, so both kinds are needed. GENERATED by
+// tools/gen_hpbar_art.js; tools/test_elite_hp.js keeps this block, the GDT
+// and the #precache list in lockstep.
+image,i_tod_hpbar_e_00
+image,i_tod_hpbar_e_01
+image,i_tod_hpbar_e_01_h1
+image,i_tod_hpbar_e_01_h2
+image,i_tod_hpbar_e_02
+image,i_tod_hpbar_e_02_h1
+image,i_tod_hpbar_e_02_h2
+image,i_tod_hpbar_e_03
+image,i_tod_hpbar_e_03_h1
+image,i_tod_hpbar_e_03_h2
+image,i_tod_hpbar_e_04
+image,i_tod_hpbar_e_04_h1
+image,i_tod_hpbar_e_04_h2
+image,i_tod_hpbar_e_05
+image,i_tod_hpbar_e_05_h1
+image,i_tod_hpbar_e_05_h2
+image,i_tod_hpbar_e_06
+image,i_tod_hpbar_e_06_h1
+image,i_tod_hpbar_e_06_h2
+image,i_tod_hpbar_e_07
+image,i_tod_hpbar_e_07_h1
+image,i_tod_hpbar_e_07_h2
+image,i_tod_hpbar_e_08
+image,i_tod_hpbar_e_08_h1
+image,i_tod_hpbar_e_08_h2
+image,i_tod_hpbar_e_09
+image,i_tod_hpbar_e_09_h1
+image,i_tod_hpbar_e_09_h2
+image,i_tod_hpbar_e_10
+image,i_tod_hpbar_e_10_h1
+image,i_tod_hpbar_e_10_h2
+image,i_tod_hpbar_b_00
+image,i_tod_hpbar_b_01
+image,i_tod_hpbar_b_01_h1
+image,i_tod_hpbar_b_01_h2
+image,i_tod_hpbar_b_02
+image,i_tod_hpbar_b_02_h1
+image,i_tod_hpbar_b_02_h2
+image,i_tod_hpbar_b_03
+image,i_tod_hpbar_b_03_h1
+image,i_tod_hpbar_b_03_h2
+image,i_tod_hpbar_b_04
+image,i_tod_hpbar_b_04_h1
+image,i_tod_hpbar_b_04_h2
+image,i_tod_hpbar_b_05
+image,i_tod_hpbar_b_05_h1
+image,i_tod_hpbar_b_05_h2
+image,i_tod_hpbar_b_06
+image,i_tod_hpbar_b_06_h1
+image,i_tod_hpbar_b_06_h2
+image,i_tod_hpbar_b_07
+image,i_tod_hpbar_b_07_h1
+image,i_tod_hpbar_b_07_h2
+image,i_tod_hpbar_b_08
+image,i_tod_hpbar_b_08_h1
+image,i_tod_hpbar_b_08_h2
+image,i_tod_hpbar_b_09
+image,i_tod_hpbar_b_09_h1
+image,i_tod_hpbar_b_09_h2
+image,i_tod_hpbar_b_10
+image,i_tod_hpbar_b_10_h1
+image,i_tod_hpbar_b_10_h2
+image,i_tod_hpbar_s_00
+image,i_tod_hpbar_s_01
+image,i_tod_hpbar_s_01_h1
+image,i_tod_hpbar_s_01_h2
+image,i_tod_hpbar_s_02
+image,i_tod_hpbar_s_02_h1
+image,i_tod_hpbar_s_02_h2
+image,i_tod_hpbar_s_03
+image,i_tod_hpbar_s_03_h1
+image,i_tod_hpbar_s_03_h2
+image,i_tod_hpbar_s_04
+image,i_tod_hpbar_s_04_h1
+image,i_tod_hpbar_s_04_h2
+image,i_tod_hpbar_s_05
+image,i_tod_hpbar_s_05_h1
+image,i_tod_hpbar_s_05_h2
+image,i_tod_hpbar_s_06
+image,i_tod_hpbar_s_06_h1
+image,i_tod_hpbar_s_06_h2
+image,i_tod_hpbar_s_07
+image,i_tod_hpbar_s_07_h1
+image,i_tod_hpbar_s_07_h2
+image,i_tod_hpbar_s_08
+image,i_tod_hpbar_s_08_h1
+image,i_tod_hpbar_s_08_h2
+image,i_tod_hpbar_s_09
+image,i_tod_hpbar_s_09_h1
+image,i_tod_hpbar_s_09_h2
+image,i_tod_hpbar_s_10
+image,i_tod_hpbar_s_10_h1
+image,i_tod_hpbar_s_10_h2
+material,tod_hpbar_e_00
+material,tod_hpbar_e_01
+material,tod_hpbar_e_01_h1
+material,tod_hpbar_e_01_h2
+material,tod_hpbar_e_02
+material,tod_hpbar_e_02_h1
+material,tod_hpbar_e_02_h2
+material,tod_hpbar_e_03
+material,tod_hpbar_e_03_h1
+material,tod_hpbar_e_03_h2
+material,tod_hpbar_e_04
+material,tod_hpbar_e_04_h1
+material,tod_hpbar_e_04_h2
+material,tod_hpbar_e_05
+material,tod_hpbar_e_05_h1
+material,tod_hpbar_e_05_h2
+material,tod_hpbar_e_06
+material,tod_hpbar_e_06_h1
+material,tod_hpbar_e_06_h2
+material,tod_hpbar_e_07
+material,tod_hpbar_e_07_h1
+material,tod_hpbar_e_07_h2
+material,tod_hpbar_e_08
+material,tod_hpbar_e_08_h1
+material,tod_hpbar_e_08_h2
+material,tod_hpbar_e_09
+material,tod_hpbar_e_09_h1
+material,tod_hpbar_e_09_h2
+material,tod_hpbar_e_10
+material,tod_hpbar_e_10_h1
+material,tod_hpbar_e_10_h2
+material,tod_hpbar_b_00
+material,tod_hpbar_b_01
+material,tod_hpbar_b_01_h1
+material,tod_hpbar_b_01_h2
+material,tod_hpbar_b_02
+material,tod_hpbar_b_02_h1
+material,tod_hpbar_b_02_h2
+material,tod_hpbar_b_03
+material,tod_hpbar_b_03_h1
+material,tod_hpbar_b_03_h2
+material,tod_hpbar_b_04
+material,tod_hpbar_b_04_h1
+material,tod_hpbar_b_04_h2
+material,tod_hpbar_b_05
+material,tod_hpbar_b_05_h1
+material,tod_hpbar_b_05_h2
+material,tod_hpbar_b_06
+material,tod_hpbar_b_06_h1
+material,tod_hpbar_b_06_h2
+material,tod_hpbar_b_07
+material,tod_hpbar_b_07_h1
+material,tod_hpbar_b_07_h2
+material,tod_hpbar_b_08
+material,tod_hpbar_b_08_h1
+material,tod_hpbar_b_08_h2
+material,tod_hpbar_b_09
+material,tod_hpbar_b_09_h1
+material,tod_hpbar_b_09_h2
+material,tod_hpbar_b_10
+material,tod_hpbar_b_10_h1
+material,tod_hpbar_b_10_h2
+material,tod_hpbar_s_00
+material,tod_hpbar_s_01
+material,tod_hpbar_s_01_h1
+material,tod_hpbar_s_01_h2
+material,tod_hpbar_s_02
+material,tod_hpbar_s_02_h1
+material,tod_hpbar_s_02_h2
+material,tod_hpbar_s_03
+material,tod_hpbar_s_03_h1
+material,tod_hpbar_s_03_h2
+material,tod_hpbar_s_04
+material,tod_hpbar_s_04_h1
+material,tod_hpbar_s_04_h2
+material,tod_hpbar_s_05
+material,tod_hpbar_s_05_h1
+material,tod_hpbar_s_05_h2
+material,tod_hpbar_s_06
+material,tod_hpbar_s_06_h1
+material,tod_hpbar_s_06_h2
+material,tod_hpbar_s_07
+material,tod_hpbar_s_07_h1
+material,tod_hpbar_s_07_h2
+material,tod_hpbar_s_08
+material,tod_hpbar_s_08_h1
+material,tod_hpbar_s_08_h2
+material,tod_hpbar_s_09
+material,tod_hpbar_s_09_h1
+material,tod_hpbar_s_09_h2
+material,tod_hpbar_s_10
+material,tod_hpbar_s_10_h1
+material,tod_hpbar_s_10_h2
+// (i_tod_banner_panzer / i_tod_banner_protectors dropped 2026-08-22 with the
+// enemy spawn banners — user: "unnecessary". Nothing references them any more;
+// the PNG sources + GDT entries stay in the repo (source_data/tod_ui_images/
+// _images/, tod_ui_images.gdt:2918 and :2942) should the call ever be reversed.)
+image,i_tod_hint_frame
+// THE PROMPT CARD RESKIN (v19.1, docs/135). ONE chassis image carries the whole
+// card: the kit's five chassis rects are NESTED and the outer one contains the
+// other four in all SIX live cards, so the other four slots are pointed at the
+// kit's own $blacktransparent instead of shipping four empty PNGs.
+// NEW NAMES, NEVER an override of the i_mtl_image_* slugs: one of those is shared
+// with the scoreboard, and they are zoned through aetherium_hud.zpkg which
+// lint_tod_assets GATE A cannot read.
+image,i_tod_prompt_chassis
+image,i_tod_prompt_chassis_wide
+image,i_tod_prompt_icon_door
+image,i_tod_prompt_icon_crate
+image,i_tod_prompt_icon_altar
+image,i_tod_prompt_icon_teleporter
+image,i_tod_prompt_icon_power
+// ROUND 2 (docs/136, delivered 2026-09-14). These finish the set: the rampage
+// inducer was drawing the stock documents glyph (the crown finale's icon, and the
+// extract icon above, retired with the ending 2026-10-05),
+// and Pack-a-Punch was wearing the other game's kit art on our own chassis.
+// The perk bottle is the GENERIC fallback only — the nine machines keep their
+// own i_tod_perk_* art, which is per-perk and better.
+image,i_tod_prompt_icon_rampage
+image,i_tod_prompt_icon_pap
+image,i_tod_prompt_icon_perk
+image,i_tod_prompt_chassis_locked
+image,i_tod_prompt_icon_partner_bench
+image,i_tod_prompt_icon_alarm
+image,i_tod_prompt_icon_generic
+// PK07 (2026-10-04): the Black Market (the spin, the Dealer's gift, the House's last roll) and the
+// Battle Arena chamber drew the generic hand. GENERATED by tools/artgen/packs/pk07_prompt_icons.py.
+image,i_tod_prompt_icon_black_market
+image,i_tod_prompt_icon_arena
+image,i_tod_pad_dpad_left
+image,i_tod_pad_dpad_right
+image,i_tod_pad_button_a
+image,i_tod_key_blank_wide
+image,i_tod_hold_plate
+image,i_tod_timer_track
+image,i_tod_timer_fill
+image,i_tod_hint_locked
+image,i_tod_pu2_carpenter
+image,i_tod_pu2_double_points
+image,i_tod_pu2_fire_sale
+image,i_tod_pu2_free_pap
+image,i_tod_pu2_gift_of_death
+image,i_tod_pu2_infinite_ammo
+image,i_tod_pu2_insta
+image,i_tod_pu2_max_ammo
+image,i_tod_pu2_nuke
+image,i_tod_pu2_timewarp
+image,i_tod_card_bounty_regular
+image,i_tod_card_class_assault
+image,i_tod_card_class_heavy
+// i_tod_card_class_skirmisher RETIRED 2026-09-26 (the Skirmisher class left; nothing names it)
+image,i_tod_card_class_slasher
+image,i_tod_card_dmg_reduction_regular
+image,i_tod_card_luck_regular
+// Party-HUD class medallions (256x256 discs) — the portrait slot for the
+// per-class player bodies; see AetheriumCharacters.lua
+// i_tod_class_medallion_skirmisher RETIRED 2026-09-26 (the Skirmisher class left; nothing names it)
+image,i_tod_class_medallion_assault
+image,i_tod_class_medallion_heavy
+image,i_tod_class_medallion_slasher
+// Bottom-left player panel (v16.97, docs/89) — the four Aetherium HUD pieces
+// re-authored in OUR gdt as `uncompressed`. The kit's own copies are DXT5 in
+// a gdt that lives in the mod-tools root and is shared with map 1, which is
+// why these are new names rather than an edit over there.
+// RETIRED v17.0 — the shell was removed (user: "make it minimal"). File and
+// gdt block kept; re-zoning this one line plus the element in
+// AetheriumPlayerInfo.lua brings the panel back.
+image,i_tod_hud_health_fill
+
+// ---- THE GUN HUD (docs/91, v17.9). 59 images: the weapon panel and the
+// offhand tile whole, plus 57 cells cut by tools/slice_hud_sheets.js from four
+// delivered SHEETS — 12 weapon silhouettes, 3 offhand glyphs, and a custom
+// typeface of 13 numerals and 28 letters/marks.
+//
+// The typeface names are built by CONCATENATION at runtime (TodGlyphImage in
+// AetheriumLoadout.lua), so lint_tod_assets.js GATE A cannot see them from a
+// Lua literal. That is the trap the 8 tier cards already fell into, so the
+// lint parses this set explicitly — see TOD_HUD_GLYPHS there. Do not delete a
+// line here on the grounds that "nothing names it": nothing names it in a way
+// grep can see, and the failure mode is a silent WHITE SQUARE.
+//
+// i_tod_hud_lamp IS GONE, AND ITS CELL IS NOW THE MONEY SYMBOL (v19.2, user:
+// "Our HUD uses this symbol in the player HUD when showing amount of money you
+// have. You can reuse that"). The delivered ampersand read as an "8" and was
+// never zoned or sliced; cell 28 carries the map's own points icon now, so "$"
+// renders as that coin ANYWHERE our typeface is drawn. "&" still expands to
+// " AND " in the name renderer — nothing drew it before and nothing does now.
+image,i_tod_hud_lmoney
+image,i_tod_hud_gun_gift
+
+// ---- THE GUN HUD (docs/91, v17.9). 59 images: the weapon panel and the
+// offhand tile whole, plus 57 cells cut by tools/slice_hud_sheets.js from four
+// delivered SHEETS — 12 weapon silhouettes, 3 offhand glyphs, and a custom
+// typeface of 13 numerals and 28 letters/marks.
+//
+// The typeface names are built by CONCATENATION at runtime (TodGlyphImage in
+// AetheriumLoadout.lua), so lint_tod_assets.js GATE A cannot see them from a
+// Lua literal. That is the trap the 8 tier cards already fell into, so the
+// lint parses this set explicitly — see TOD_HUD_GLYPHS there. Do not delete a
+// line here on the grounds that "nothing names it": nothing names it in a way
+// grep can see, and the failure mode is a silent WHITE SQUARE.
+//
+image,i_tod_hud_d0
+image,i_tod_hud_d1
+image,i_tod_hud_d2
+image,i_tod_hud_d3
+image,i_tod_hud_d4
+image,i_tod_hud_d5
+image,i_tod_hud_d6
+image,i_tod_hud_d7
+image,i_tod_hud_d8
+image,i_tod_hud_d9
+image,i_tod_hud_ddash
+image,i_tod_hud_dplus
+image,i_tod_hud_dslash
+image,i_tod_hud_gun_blade
+image,i_tod_hud_gun_peacekeeper
+image,i_tod_hud_gun_rem870
+image,i_tod_hud_gun_mozambique
+image,i_tod_hud_gun_bow
+image,i_tod_hud_gun_crossbow
+image,i_tod_hud_gun_firebow
+// WARRIOR gun cells (docs/176): One Inch Punch / Gauntlet of Siegfried / Gold Battle Sword
+image,i_tod_hud_gun_fist
+image,i_tod_hud_gun_gauntlet
+image,i_tod_hud_gun_greatsword
+image,i_tod_hud_gun_wunderstrahl
+image,i_tod_hud_gun_mr6
+image,i_tod_hud_gun_shield
+image,i_tod_hud_la
+image,i_tod_hud_lapos
+image,i_tod_hud_lb
+image,i_tod_hud_lc
+image,i_tod_hud_ld
+image,i_tod_hud_ldot
+image,i_tod_hud_le
+image,i_tod_hud_lf
+image,i_tod_hud_lg
+image,i_tod_hud_lh
+image,i_tod_hud_lhyphen
+image,i_tod_hud_li
+image,i_tod_hud_lj
+image,i_tod_hud_lk
+image,i_tod_hud_ll
+image,i_tod_hud_lm
+image,i_tod_hud_ln
+image,i_tod_hud_lo
+image,i_tod_hud_lp
+image,i_tod_hud_lq
+image,i_tod_hud_lr
+image,i_tod_hud_ls
+image,i_tod_hud_lt
+image,i_tod_hud_lu
+image,i_tod_hud_lv
+image,i_tod_hud_lw
+image,i_tod_hud_lx
+image,i_tod_hud_ly
+image,i_tod_hud_lz
+// v17.33 — THE PACK-A-PUNCH TIER BADGE (AetheriumLoadout.lua, the 46x32 plate
+// above the gun bay). _1/_2/_3 are cut from i_tod_hud_pap_sheet.png by
+// tools/slice_hud_sheets.js; the tile is delivered whole. All four are
+// PLACEHOLDER art from tools/gen_pap_badge_placeholder.js until docs/96's drop
+// lands — same names, so the drop needs no wiring change.
+image,i_tod_hud_pap_1
+// [tod] Electric Cherry perk icon — no stock T7 cherry shader exists;
+// this replaces the Borderlands placeholder in AetheriumPerks.lua.
+// v13.5: i_tod_perk_cherry RETIRED with the perk (Elemental Pop replaced
+// Electric Cherry) — the PNG and GDT entry stay for history, but unzoned +
+// unreferenced means it no longer packs. The new icon is the pack's official
+// BO6/7 Elemental Pop art, vendored into tod_ui_images like every kit icon.
+image,i_tod_perk_deathperception
+image,i_tod_perk_phd
+image,i_tod_perk_widows
+image,i_tod_perk_wisptea
+// i_tod_perk_deadshot: zoned OUT with its machine in v14.16, back IN v16.64 —
+// the DEADSHOT upgrade (domain 47) draws this crest in the perk bar. The
+// machine stays retired; only the icon returns (GDT block never left).
+image,i_tod_perk_staminup
+image,i_tod_perk_doubletap
+image,i_tod_perk_speed
+image,i_tod_perk_revive
+image,i_tod_perk_jugg
+// NECROMANCER art (docs/179, files - 2026-09-26T125221.075.zip): class set, 9 cards, r59, kit glyphs, skull HUD icon
+image,i_tod_card_class_necromancer
+image,i_tod_class_medallion_necromancer
+image,i_tod_upg_class_necromancer
+image,i_tod_hud_gun_skull
+// PK06 (tools/artgen/packs/gun_bay_icons.py, 2026-10-04): the Necromancer tier-2 / tier-3 gun-bay icons. The Lua builds
+// the name at runtime ("i_tod_hud_gun_" .. cat), so lint_tod_assets cannot see these; gun_bay_icons.py --check gates them.
+image,i_tod_hud_gun_soulstaff
+image,i_tod_hud_gun_crownstaff
+// RIOT SHIELD (v16.63): the stock d-pad/HUD shield icon both shield weapons and
+// AetheriumPlayerInfo.lua reference (map 1 zoned it the same way)
+image,riotshield_zm_icon
+// AMMO CRATE model (docs/208) — Nikolai's AMMO BOX V6 (map 1's v19.69b), map-owned:
+// source_data/tod_fan_props.gdt, held to tools/fan_props/manifest.json. (Until docs/208 the
+// [West] Ammo Crates pack's west_ammo_crate_model, unzoned now, its install-side GDT untouched.)
+xmodel,tod_ammo_chest
+image,i_tod_pu2_zombie_blood
+image,i_tod_pu2_wunderstrahl
+// PAUSE MENU V2 (2026-09-26, pause-menu session, lead-cleared; docs/180): the 60 red
+// "Fallen" pause-menu pieces - panels, title plates, row/pip/badge, 26 upgrade icons,
+// right-panel frames, 14 menu glyphs. Drawn by AetheriumStartMenu.lua (USE_PAUSE_V2).
+image,i_tod_pm_backdrop
+image,i_tod_pm_btn
+image,i_tod_pm_btn_focus
+image,i_tod_pm_footer_flavor
+image,i_tod_pm_gly_audio
+image,i_tod_pm_gly_back
+image,i_tod_pm_gly_camera
+image,i_tod_pm_gly_content
+image,i_tod_pm_gly_controls
+image,i_tod_pm_gly_credits
+image,i_tod_pm_gly_graphics
+image,i_tod_pm_gly_leave
+image,i_tod_pm_gly_network
+image,i_tod_pm_gly_restart
+image,i_tod_pm_gly_return
+image,i_tod_pm_gly_safearea
+image,i_tod_pm_gly_settings
+image,i_tod_pm_gly_voice
+image,i_tod_pm_ico_bash
+image,i_tod_pm_ico_bounty
+image,i_tod_pm_ico_c4
+image,i_tod_pm_ico_cluster
+image,i_tod_pm_ico_dr
+image,i_tod_pm_ico_generic
+image,i_tod_pm_ico_grapple
+image,i_tod_pm_ico_gravsmash
+image,i_tod_pm_ico_luck
+image,i_tod_pm_ico_pellets
+image,i_tod_pm_ico_retriever
+image,i_tod_pm_ico_riotshield
+image,i_tod_pm_ico_soulbeam
+image,i_tod_pm_ico_soulbomb
+image,i_tod_pm_ico_summonpower
+image,i_tod_pm_ico_tier
+// PK05 (tools/artgen/packs/pk05_glyph_icons.py, 2026-10-04): the 13 live upgrade cards that drew the
+// generic hexagon in the pause menu + scoreboard (PM_ICON / SB_ICON), and the AI COMPANION row's empty well.
+image,i_tod_pm_ico_sprint
+image,i_tod_pm_ico_deadeye
+image,i_tod_pm_ico_quickdraw
+image,i_tod_pm_ico_piercing
+image,i_tod_pm_ico_adrenaline
+image,i_tod_pm_ico_fusion
+image,i_tod_pm_ico_vitality
+image,i_tod_pm_ico_armsspecialist
+image,i_tod_pm_ico_cleave
+image,i_tod_pm_ico_demonslayer
+image,i_tod_pm_ico_reapersreach
+image,i_tod_pm_ico_summonermaster
+image,i_tod_pm_ico_cloak
+image,i_tod_pm_ico_companion
+image,i_tod_pm_iconbtn
+image,i_tod_pm_iconbtn_focus
+image,i_tod_pm_legend_box
+image,i_tod_pm_legend_reset
+image,i_tod_pm_panel_left
+image,i_tod_pm_panel_right
+image,i_tod_pm_pip_off
+image,i_tod_pm_pip_on
+image,i_tod_pm_pip_on_violet
+image,i_tod_pm_reset_mark
+image,i_tod_pm_row
+image,i_tod_pm_row_violet
+image,i_tod_pm_timebar
+image,i_tod_pm_title_gameover
+image,i_tod_pm_title_pause
+image,i_tod_pm_title_settings
+// SCOREBOARD V2 (2026-09-26, pause-menu session, lead-cleared; docs/181): the 8 red
+// "Fallen" scoreboard pieces. Drawn by AetheriumScoreboard.lua (USE_SCOREBOARD_V2);
+// the pips and the 19 i_tod_pm_ico_* icons above are reused there.
+image,i_tod_sb_backdrop
+image,i_tod_sb_panel_bottom
+image,i_tod_sb_panel_top
+image,i_tod_sb_player_row
+image,i_tod_sb_player_row_local
+image,i_tod_sb_points
+image,i_tod_sb_row
+image,i_tod_sb_row_violet
+// HUD V2 (2026-09-26, pause-menu session, lead-cleared; docs/182): the red "Fallen"
+// in-match HUD - status plate + luck, descent gauge, player bars, gun plate, tiles,
+// perk socket, toast, 12 ability glyphs (in colour: tools/artgen/packs/w3b_ability_colour.py). Drawn behind USE_HUD_V2.
+// i_tod_h2_shield_broken is in _images but NOT zoned: no state drives it yet.
+image,i_tod_h2_ab_axe
+image,i_tod_h2_ab_bash
+image,i_tod_h2_ab_c4
+image,i_tod_h2_ab_cluster
+image,i_tod_h2_ab_frag
+image,i_tod_h2_ab_hook
+image,i_tod_h2_ab_monkey
+image,i_tod_h2_ab_smash
+image,i_tod_h2_ab_soul_bomb
+image,i_tod_h2_ab_spider
+image,i_tod_h2_ab_spider_phd
+// the Necromancer's INVISIBILITY CLOAK tactical tile (AetheriumLoadout CLASS_KITS[3]). The V1 key i_tod_hud_off_cloak
+// and the SUMMON tile were retired 2026-10-05 (W3B; archive/retired_20261005_ability_glyphs/).
+image,i_tod_h2_ab_cloak
+image,i_tod_h2_downed
+image,i_tod_h2_gauge_boss
+image,i_tod_h2_gauge_down
+image,i_tod_h2_gauge_seg
+image,i_tod_h2_gauge_seg_hub
+image,i_tod_h2_gauge_seg_off
+image,i_tod_h2_gauge_tower
+image,i_tod_h2_gauge_you
+image,i_tod_h2_gun_plate
+image,i_tod_h2_hp_fill
+image,i_tod_h2_hp_frame
+image,i_tod_h2_luck_off
+image,i_tod_h2_luck_on
+image,i_tod_h2_medallion_ring
+image,i_tod_h2_perk_socket
+image,i_tod_h2_points
+image,i_tod_h2_shield
+image,i_tod_h2_shield_fill
+image,i_tod_h2_round_badge
+image,i_tod_h2_round_badge_rampage
+image,i_tod_h2_arena_badge
+image,i_tod_h2_arena_badge_rampage
+image,i_tod_h2_luck_plate
+image,i_tod_h2_luck_plate_rampage
+image,i_tod_h2_tile
+image,i_tod_h2_tile_pap
+image,i_tod_h2_tile_ready
+image,i_tod_h2_toast
+// Perk power-on glow (server sets todPerkGlow clientfield; client plays the FX)
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_lights.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_lights.csc
+// BEGIN THE WAR DAMAGE PASS (docs/205): the tower after the war. CLIENT ONLY - _tod_war_damage.csc spawns
+// one merged model per break / per five ordinary floors (Treyarch's own rubble, slabs, rebar, iron, cables,
+// glass and burn / blast / crack decal cards, placed by tools/war_damage/layout.js, merged by build_clusters.py;
+// source_data/tod_war_damage.gdt) and plays the effects in a window round each player. XMODEL LINES ONLY: the
+// stock materials ride in with the models (a bare model material line failed build 11). The fire-on-rubble
+// effects already zoned elsewhere are not repeated here. Phase 2 (docs/205 s7): the torn conduits' two-state
+// conductor models (source_data/tod_war_conductors.gdt), the one-bit power signal (_tod_war_damage.gsc), the
+// war in the sky (_tod_war_sky.csc) and the generated tod/war effects (make_fx.py). Wired by tools/war_damage/wire.py.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_war_damage.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_war_damage.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_war_damage_data.csc
+// PK23 (W2C, 2026-10-05): THE WORLD AMBIENCE - client only: the wind / far-city beds by altitude, the Undercity +
+// plaza room tones at anchors GENERATED from the map's zone volumes (tools/sfx/w2c_sounds/gen_amb_data.py).
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_amb.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_amb_data.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_war_sky.csc
+xmodel,tod_war_break_48
+xmodel,tod_war_break_47
+xmodel,tod_war_break_45
+xmodel,tod_war_break_43
+xmodel,tod_war_break_42
+xmodel,tod_war_break_39
+xmodel,tod_war_break_37
+xmodel,tod_war_break_36
+xmodel,tod_war_break_34
+xmodel,tod_war_break_32
+xmodel,tod_war_break_29
+xmodel,tod_war_break_28
+xmodel,tod_war_break_26
+xmodel,tod_war_break_24
+xmodel,tod_war_break_23
+xmodel,tod_war_break_19
+xmodel,tod_war_break_18
+xmodel,tod_war_break_16
+xmodel,tod_war_break_14
+xmodel,tod_war_break_13
+xmodel,tod_war_break_09
+xmodel,tod_war_break_07
+xmodel,tod_war_break_06
+xmodel,tod_war_break_03
+xmodel,tod_war_floors_01
+xmodel,tod_war_floors_06
+xmodel,tod_war_floors_11
+xmodel,tod_war_floors_16
+xmodel,tod_war_floors_21
+xmodel,tod_war_floors_26
+xmodel,tod_war_floors_31
+xmodel,tod_war_floors_36
+xmodel,tod_war_floors_41
+xmodel,tod_war_floors_46
+xmodel,tod_war_conductor_a_off
+xmodel,tod_war_conductor_a_on
+xmodel,tod_war_conductor_b_off
+xmodel,tod_war_conductor_b_on
+fx,dirt/fx_dust_fall_sm_lit
+fx,electric/fx_elec_sparks_sm_wire_orange
+fx,smoke/fx_smk_ground_rubble_50x50
+fx,debris/fx_debris_ash_float_lg
+fx,smoke/fx_smk_column_wind_slow_sm_tall_dark
+fx,tod/war/fx_war_arc
+fx,tod/war/fx_war_tube_flicker_a
+fx,tod/war/fx_war_tube_flicker_b
+fx,tod/war/fx_war_tube_flicker_c
+fx,light/fx_light_fire_flicker_noshad_small
+fx,tod/war/fx_war_sky_flash_s
+fx,tod/war/fx_war_sky_flash_m
+fx,tod/war/fx_war_sky_flash_l
+fx,tod/war/fx_war_sky_tracer_c
+fx,tod/war/fx_war_sky_tracer_o
+fx,tod/war/fx_war_sky_hit
+fx,tod/war/fx_war_sky_wreck_s
+fx,tod/war/fx_war_sky_wreck_l
+fx,tod/war/fx_war_sky_impact
+// END THE WAR DAMAGE PASS
+// THE SKY FLEET (docs/192, 2026-09-29): huge client-only ships flying the sealed sky. Models/materials/images
+// ride in with the xmodels (source_data/tod_sky_ships.gdt, tools/sky_ships/06_export.py); the fx are
+// GENERATED by tools/sky_ships/gen_fx.py and the lanes by tools/sky_ships/gen_lanes.js. Gate: test_sky_ships.js.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_sky_ships.csc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_sky_lanes.csc
+xmodel,tod_sky_dreadnought
+xmodel,tod_sky_dreadnought_b
+xmodel,tod_sky_fighter
+xmodel,tod_sky_fighter_b
+xmodel,tod_sky_gunship
+xmodel,tod_sky_gunship_b
+xmodel,tod_sky_hauler
+xmodel,tod_sky_hauler_b
+xmodel,tod_sky_rock_1
+xmodel,tod_sky_rock_2
+xmodel,tod_sky_rock_3
+xmodel,tod_sky_rock_3_b
+xmodel,tod_sky_rock_4
+xmodel,tod_sky_rock_4_b
+xmodel,tod_sky_rock_5
+// v3 (docs/192 s10): every effect tools/sky_ships/gen_fx.py makes, children included (flames x4 kinds x5 sizes, glints,
+// wormhole open/burst/close x5 sizes, shooting stars + their trail, fireballs + trail/burst/fragments, the lights,
+// and fx_sky_eng_gunship = the jump title's gunship engines)
+fx,tod/sky/fx_sky_beacon_l
+fx,tod/sky/fx_sky_beacon_m
+fx,tod/sky/fx_sky_beacon_s
+fx,tod/sky/fx_sky_eng_gunship
+fx,tod/sky/fx_sky_fireball_burst_g
+fx,tod/sky/fx_sky_fireball_burst_o
+fx,tod/sky/fx_sky_fireball_frag
+fx,tod/sky/fx_sky_fireball_g
+fx,tod/sky/fx_sky_fireball_o
+fx,tod/sky/fx_sky_fireball_trail_g
+fx,tod/sky/fx_sky_fireball_trail_o
+fx,tod/sky/fx_sky_flame_fire_0
+fx,tod/sky/fx_sky_flame_fire_1
+fx,tod/sky/fx_sky_flame_fire_2
+fx,tod/sky/fx_sky_flame_fire_3
+fx,tod/sky/fx_sky_flame_fire_4
+fx,tod/sky/fx_sky_flame_fire_heavy_0
+fx,tod/sky/fx_sky_flame_fire_heavy_1
+fx,tod/sky/fx_sky_flame_fire_heavy_2
+fx,tod/sky/fx_sky_flame_fire_heavy_3
+fx,tod/sky/fx_sky_flame_fire_heavy_4
+fx,tod/sky/fx_sky_flame_plasma_0
+fx,tod/sky/fx_sky_flame_plasma_1
+fx,tod/sky/fx_sky_flame_plasma_2
+fx,tod/sky/fx_sky_flame_plasma_3
+fx,tod/sky/fx_sky_flame_plasma_4
+fx,tod/sky/fx_sky_flame_plasma_capital_0
+fx,tod/sky/fx_sky_flame_plasma_capital_1
+fx,tod/sky/fx_sky_flame_plasma_capital_2
+fx,tod/sky/fx_sky_flame_plasma_capital_3
+fx,tod/sky/fx_sky_flame_plasma_capital_4
+fx,tod/sky/fx_sky_glint_cyan_l
+fx,tod/sky/fx_sky_glint_cyan_m
+fx,tod/sky/fx_sky_glint_cyan_s
+fx,tod/sky/fx_sky_glint_orange_l
+fx,tod/sky/fx_sky_glint_orange_m
+fx,tod/sky/fx_sky_glint_orange_s
+fx,tod/sky/fx_sky_sat_l
+fx,tod/sky/fx_sky_sat_m
+fx,tod/sky/fx_sky_sat_s
+fx,tod/sky/fx_sky_sat_xs
+fx,tod/sky/fx_sky_star_a
+fx,tod/sky/fx_sky_star_b
+fx,tod/sky/fx_sky_star_c
+fx,tod/sky/fx_sky_star_trail
+fx,tod/sky/fx_sky_strobe_l
+fx,tod/sky/fx_sky_strobe_m
+fx,tod/sky/fx_sky_strobe_s
+fx,tod/sky/fx_sky_worm_burst_0
+fx,tod/sky/fx_sky_worm_burst_1
+fx,tod/sky/fx_sky_worm_burst_2
+fx,tod/sky/fx_sky_worm_burst_3
+fx,tod/sky/fx_sky_worm_burst_4
+fx,tod/sky/fx_sky_worm_burst_5
+fx,tod/sky/fx_sky_worm_burst_6
+fx,tod/sky/fx_sky_worm_close_0
+fx,tod/sky/fx_sky_worm_close_1
+fx,tod/sky/fx_sky_worm_close_2
+fx,tod/sky/fx_sky_worm_close_3
+fx,tod/sky/fx_sky_worm_close_4
+fx,tod/sky/fx_sky_worm_close_5
+fx,tod/sky/fx_sky_worm_close_6
+fx,tod/sky/fx_sky_worm_open_0
+fx,tod/sky/fx_sky_worm_open_1
+fx,tod/sky/fx_sky_worm_open_2
+fx,tod/sky/fx_sky_worm_open_3
+fx,tod/sky/fx_sky_worm_open_4
+fx,tod/sky/fx_sky_worm_open_5
+fx,tod/sky/fx_sky_worm_open_6
+// END sky fleet
+// THE FIRST JUMP'S CRASH (docs/196 s4 + s6, 2026-09-29/30): on a player's first jump two of the fleet's gunships warp
+// in beside the DULL sky sign (baked unlit: build_city.py --sign-state dull), ram each other, and the sign flickers
+// on behind the explosion: THE LIT SIGN CARD xmodel (tools/jump_title/make_sign_card.py; its material + image ride
+// the xmodel line, never zoned bare). Client only (_tod_jump_title.csc; the beats come from _tod_jumppad.gsc). The
+// fx are GENERATED by tools/jump_title/gen_fx.py (stock effects re-scaled for the sky), the sounds by
+// tools/jump_title/make_sounds.py (sound/aliases/tod_jump.csv). The gunship models ride the sky fleet's xmodel lines
+// above. Gate: tools/jump_title/test_jump_title.js.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_jump_title.csc
+xmodel,tod_jt_sign_lit
+fx,tod/jump/fx_jt_warp
+fx,tod/jump/fx_jt_burn
+fx,tod/jump/fx_jt_boom
+fx,tod/jump/fx_jt_blast
+fx,tod/jump/fx_jt_wreck
+fx,tod/jump/fx_jt_blaze
+// END first-jump crash
+
+// =============================================================================
+// THE CIVIL PROTECTOR COMPANION's stock pack (HB21 zod robot; the partner aitype
+// spawner_tod_partner csvIncludes share/zone_source/zm_ai_zod_companion.zpkg, which
+// names these scripts and effects - they MUST stay zoned). The Map One tower
+// bosses this block used to open with - the PANZER (the whole Spiki mechz block)
+// and the ROGUE PROTECTOR boss (aitypes archetype_ / spawner_acc_zod_robot_boss) -
+// retired whole 2026-10-05 (W2E).
+// =============================================================================
+fx,zombie/fx_fuse_master_switch_on_zod_zmb
+fx,zombie/fx_robot_helper_jump_landing_zod_zmb
+fx,zombie/fx_robot_helper_trail_sky_zod_zmb
+fx,zombie/fx_robot_helper_ground_tell_zod_zmb
+fx,zombie/fx_robot_helper_revive_player_zod_zmb
+fx,destruct/fx_dest_robot_head_sparks
+fx,destruct/fx_dest_robot_body_sparks
+fx,zombie/fx_robot_helper_jet_leg_zod_zmb
+// v17.43 — stock gib.csc plays these on every dismemberment and threw "not
+// precached by the linker" 64 times in one session; real 20-100 KB assets.
+fx,blood/fx_blood_gib_arm_sever_burst
+fx,blood/fx_blood_gib_leg_sever_burst
+fx,impacts/fx_bul_impact_blood_head_fatal_exit
+scriptbundle,cin_zod_robot_companion_entrance
+scriptbundle,cin_zod_robot_companion_exit_death
+scriptparsetree,scripts/zm/zm_zod_robot.gsc
+scriptparsetree,scripts/zm/zm_zod_robot.csc
+scriptparsetree,scripts/zm/archetype_zod_companion.gsc
+scriptparsetree,scripts/zm/archetype_zod_companion.csc
+scriptparsetree,scripts/zm/archetype_zod_companion_interface.gsc
+// s1_mahem + _up UNZONED 2026-09-03 (docs/86 §8): they were the RP's 5th-shot
+// rocket, retired by the user's 2026-08-20 "only his bullet shot" order; the
+// mahem_shot() caller never came back and the weapon cost 77 MB of pack for
+// a projectile nobody could see. His bullets fire the companion AR that
+// rides in with the aitype (no zone line needed). The Skye GDT stays
+// installed; re-zoning is these two lines + a caller for the deleted function.
+// RP attack FX (client-side pulses in _tod_boss_fx.csc — server PlayFX on
+// actors does not render, map 1 lesson)
+fx,_owens_effects/t9_semiauto_cosplay/fx_muz_energy_shotgun_3p
+fx,electric/fx_elec_sparks_burst_xsm_omni_blue_os
+fx,electric/fx_elec_sparks_directional_orange
+// HB21's STOCK-SCRIPT OVERRIDE, vendored (map 1 red-team 2026-07-10): the pack
+// replaces share/raw/.../animation_state_machine_utility.gsc with a 617-byte
+// version that IMPLEMENTS RequestState/SearchAnimationMap (stock ships them as
+// no-ops). Vendored at the stock path = the usermap copy wins at compile, so a
+// Mod Tools "verify" cannot revert it. Its user today is the Civil Protector
+// companion (archetype_zod_companion.gsc #uses it); the Panzer and the Apothicon
+// Fury that first needed it retired whole 2026-10-05 (W2E) with their packs.
+scriptparsetree,scripts/shared/ai/systems/animation_state_machine_utility.gsc
+
+// --- THE STOCK DOG ARCHETYPE: the Necromancer's SOUL HOUND (_tod_necro_summon
+// spawn_hound SpawnActors spawner_zm_factory_zombie_dog). The HELLHOUND elite
+// director (_tod_hellhounds) that first zoned it retired whole 2026-10-05.
+// PURE STOCK, ZERO EXTERNAL PACK. zm_factory_zombie_dog is the last complete
+// unused behaviour tree on this machine. The WHOLE asset chain rides in
+// transitively on the aitype line — character, xmodel + LODs, materials,
+// images, melee weapon, footstep table, the .ai_am/.ai_ast/.ai_asm/.ai_bt and
+// every dog xanim. Proven twice: map 1's packed assetlist carries the same
+// chain, and this map's other boss aitypes already pull transitive characters
+// with no .map spawner behind them.
+// NO fx lines: all four dog FX are inherited via zm_common/zm_levelcommon and
+// #precached by stock _zm_ai_dogs, which is already in this build.
+// NO .map spawner entity: the .map is generated and boss aitypes get a bare
+// SpawnActor. SpawnActor resolves the spawner_ form; archetype_ is its parent
+// and is listed belt-and-braces, matching the zod/protector block.
+aitype,spawner_zm_factory_zombie_dog
+aitype,archetype_zm_factory_zombie_dog
+
+// --- the tod boss driver + FX pulse module ---
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_boss_fx.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_boss_fx.csc
+
+// Perk glow FX — map 1's self-authored recoloured clones of the stock green
+// power-up aura (sources in repo share/raw/fx/acc/light/, installed in the
+// Mod Tools share tree; client-precached by _tod_perk_lights.csc)
+fx,acc/light/fx_perk_glow_red
+fx,acc/light/fx_perk_glow_green
+fx,acc/light/fx_perk_glow_yellow
+fx,acc/light/fx_perk_glow_orange
+fx,acc/light/fx_perk_glow_amber
+fx,acc/light/fx_perk_glow_blue
+fx,acc/light/fx_perk_glow_blacklight
+fx,acc/light/fx_perk_glow_white
+fx,acc/light/fx_perk_glow_purple
+fx,acc/light/fx_perk_glow_teal
+
+// =============================================================================
+// PERKS — Widow's Wine + Electric Cherry (wired 2026-08-20)
+// Widow's Wine = PURE STOCK (_zm_perk_widows_wine, #using'd from both entry
+// scripts, supplies its own machine assets — map 1 needed NO zone lines for
+// it, only map-1-specific HUD icon images we don't port).
+// Electric Cherry = map 1's finished custom module on
+// specialty_combat_efficiency (stock cherry pipeline #using'd for its FX).
+// =============================================================================
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.csc
+
+// v14.16 — WISP TEA (BO7 perk, vendored WetEgg SATPerksCode module; replaces
+// Deadshot). Machine xmodel pair rides the t10 machine block above; sounds
+// ride sound/aliases/tod_wisp_tea.csv (szc ALIAS entry tod_wisp_tea). The
+// wisp companion model + fx are module-precached runtime assets, so every
+// name needs its force-pack line (same doctrine as the machine block). The
+// tea-can bottle weapon's GDT (sat_zmb_perk_cans.gdt) has been installed
+// since v13.3; the `weapon,` line is what actually packs it.
+scriptparsetree,scripts/zm/_zm_perk_wisp_tea.gsc
+scriptparsetree,scripts/zm/_zm_perk_wisp_tea.csc
+xmodel,vfx_sat_fxp_zm_ai_wisp_tea_mask_airflow_01
+fx,_wetegg/sat/perks/fx_wisp_tea_light
+fx,_wetegg/sat/perks/fx_wisp_tea_wisp
+fx,_wetegg/sat/perks/fx_wisp_tea_wisp_trail
+weapon,sat_perk_can_wisp_tea_zm
+
+// v14.17 — BO7 DRINK CANS FOR EVERY PERK (tod_set_perk_cans() in the entry
+// script stamps level._custom_perks[spec].perk_bottle_weapon post-
+// registration; the drink SFX ride the gesture anim's own notetracks — the
+// ps_wfoly_plr_can_drink_* aliases in sound/aliases/tod_perk_cans.csv).
+// All nine live in the long-installed sat_zmb_perk_cans.gdt; the weapon
+// line is what actually packs each one (the wisp precedent above).
+weapon,t10_perk_can_juggernog_zm
+weapon,t10_perk_can_speed_cola_zm
+weapon,t10_perk_can_quick_revive_zm
+weapon,t10_perk_can_staminup_zm
+weapon,t10_perk_can_double_tap_zm
+weapon,sat_perk_can_widows_wine_zm
+weapon,t10_perk_can_death_perception_zm
+weapon,t10_perk_can_phd_flopper_zm
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_phd.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_widows.gsc
+// The real cherry vending machine ([West] Community Perk Collection v2.7,
+// installed in the Mod Tools root; source GDT source_data/acc_west_electric_cherry.gdt).
+// Runtime-SetModel asset -> needs this explicit force-pack line or the machine
+// renders INVISIBLE (map 1 docs/27; verify it lands in the packed assetinfo).
+xmodel,electric_cherry_model
+// v13.3 — BO7/BO6 perk machines (wetegg/sat port; payload install-side at
+// <root>\_custom\_wetegg\models\sat\, per-machine GDTs in the shared
+// source_data). Referenced ONLY via .map script_structs (PERK_PARK) and a
+// runtime SetModel at power-on (_tod_perk_lights::bo7_on_model), so every
+// name needs a force-pack line exactly like electric_cherry_model above.
+// Credits owed before publish (no readme in pack): wetegg, sat, Treyarch.
+xmodel,t10_zm_machine_juggernog
+xmodel,t10_zm_machine_juggernog_on
+xmodel,t10_zm_machine_speed_cola_lava_all_fxanim
+xmodel,t10_zm_machine_speed_cola_lava_all_fxanim_on
+xmodel,t10_zm_machine_quick_revive
+xmodel,t10_zm_machine_quick_revive_on
+xmodel,t10_zm_machine_staminup
+xmodel,t10_zm_machine_staminup_on
+// v14.16 — Deadshot pair RETIRED (machine replaced by Wisp Tea; the deadshot
+// payload stays install-side, un-zoned = unpacked, like elemental_pop below).
+// WISP TEA (BO7, SAT custom): one mesh, off = skin-override twin of _on.
+// Machine payload installed 2026-08-30 at <root>\_custom\_wetegg\models\sat\
+// sat_zm_machine_w_mod (GDT rides inside — bin\converter_gdt_dirs_0.txt's
+// `_custom` line is what feeds it to gdtdb). The wisp companion model +
+// module fx/weapon lines live with the module block further down.
+xmodel,sat_zm_machine_w_mod_fxanim
+xmodel,sat_zm_machine_w_mod_fxanim_on
+xmodel,t10_zm_machine_phd_flopper
+xmodel,t10_zm_machine_phd_flopper_on
+// v13.19 — DEATH PERCEPTION replaced Elemental Pop (same slot; payload at
+// _custom\_wetegg\models\sat\ like the rest. EP's payload stays install-side,
+// un-zoned = unpacked).
+xmodel,t10_zm_machine_death_perception
+xmodel,t10_zm_machine_death_perception_on
+xmodel,t10_zm_machine_d_mod_cowboy_fxanim
+xmodel,t10_zm_machine_d_mod_cowboy_fxanim_on
+xmodel,sat_zm_machine_y_mod
+xmodel,sat_zm_machine_y_mod_on
+
+// Installed SAT machine animation assets; only the three animated machines.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_perk_anims.gsc
+// v18.96 — elite kill confirm (red crosshair snap + ding) and the teddy bear song hunt
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_killconfirm.gsc
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_secret.gsc
+rawfile,animtrees/tod_perk_machines.atr
+xanim,p9_fxanim_zm_gp_speed_cola_initiate
+xanim,p9_fxanim_zm_gp_speed_cola_initiate_off
+xanim,p9_fxanim_zm_gp_speed_cola_loop
+xanim,t10_fxanim_zm_machine_d_mod_idle
+// 2026-10-04 (docs/208) map 1's v19.32: Double Tap's and Wisp Tea's purchase clips are the map-owned
+// tod_* twins in source_data/tod_perk_machines.gdt (the pack's own intro / loop / outro and Wisp clip
+// carried inert BO6 FX strings labelled Sound and a duplicate loop sound). The muzzle flash, eye glow
+// and Wisp burst are named only by those clips' notes, so each rides its own force-pack line.
+xanim,tod_doubletap_intro
+xanim,tod_doubletap_fire
+fx,tod/perks/doubletap_muzzle
+fx,_wetegg/sat/perks/fx_double_tap_zombie_eye_glow_red
+fx,_wetegg/sat/perks/fx_wisp_tea_activate
+xanim,tod_doubletap_outro
+xanim,anim_68e0495f3599ef44
+xanim,tod_wisp_activate
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodUIOwnership.lua
+
+include,tod_crown_alarm
+
+include,tod_cyber_sword
+include,tod_necro_staff
+
+// BEGIN card_pull art (GENERATED by tools/card_pull/install_card_art.py - do not edit)
+rawfile,ui/uieditor/widgets/HUD/AetheriumWidgets/TodCardArt.lua
+image,i_tod_card2_art_adrenaline
+image,i_tod_card2_art_arms_specialist
+image,i_tod_card2_art_bash
+image,i_tod_card2_art_bounty
+image,i_tod_card2_art_buckshot
+image,i_tod_card2_art_cleave
+image,i_tod_card2_art_cloak
+image,i_tod_card2_art_cluster
+image,i_tod_card2_art_cyber_smash
+image,i_tod_card2_art_deadeye
+image,i_tod_card2_art_demon_slayer
+image,i_tod_card2_art_dmg_reduction
+image,i_tod_card2_art_explosive_fusion
+image,i_tod_card2_art_grapple
+image,i_tod_card2_art_luck
+image,i_tod_card2_art_piercing
+image,i_tod_card2_art_quick_draw
+image,i_tod_card2_art_reapers_reach
+image,i_tod_card2_art_retriever
+image,i_tod_card2_art_riot_shield
+image,i_tod_card2_art_soul_pulse
+image,i_tod_card2_art_soul_suck
+image,i_tod_card2_art_sprint
+image,i_tod_card2_art_sticky_c4
+image,i_tod_card2_art_summoner_master
+image,i_tod_card2_art_summoning_power
+image,i_tod_card2_art_tier_assault_2
+image,i_tod_card2_art_tier_assault_3
+image,i_tod_card2_art_tier_heavy_2
+image,i_tod_card2_art_tier_heavy_3
+image,i_tod_card2_art_tier_necromancer_2
+image,i_tod_card2_art_tier_necromancer_3
+image,i_tod_card2_art_tier_slasher_2
+image,i_tod_card2_art_tier_slasher_3
+image,i_tod_card2_art_vitality
+image,i_tod_card2_back
+image,i_tod_card2_body
+image,i_tod_card2_crest_common
+image,i_tod_card2_crest_epic
+image,i_tod_card2_crest_legendary
+image,i_tod_card2_crest_rare
+image,i_tod_card2_frame_common
+image,i_tod_card2_frame_epic
+image,i_tod_card2_frame_legendary
+image,i_tod_card2_frame_rare
+image,i_tod_pull_banner
+image,i_tod_pull_edge
+image,i_tod_pull_flash
+image,i_tod_pull_gem
+image,i_tod_pull_glow
+image,i_tod_pull_pill
+image,i_tod_pull_pip
+image,i_tod_pull_rays
+image,i_tod_pull_ring
+image,i_tod_pull_shard
+image,i_tod_pull_sweep
+// END card_pull art
+
+// Dealer presence: three static existing-wall panels, canonical native portrait.
+image,i_tod_dealer_surveillance
+
+// THE DEALER (docs/199): the final boss - tools/dealer_boss/wire.py writes this block; never hand-edit it.
+scriptparsetree,scripts/zm/zm_tod2_cybercity/_tod_dealer_finale.gsc
+aitype,spawner_tod_dealer
+xmodel,tod_dealer_body
+xmodel,tod_dealer_body_cracked
+xmodel,tod_dealer_scythe
+xmodel,tod_dealer_dg2
+xmodel,tod_dealer_lmg
+xanim,tod_dealer_f_bamf_in
+xanim,tod_dealer_f_bamf_out
+xanim,tod_dealer_f_ee_idle
+xanim,tod_dealer_f_idle
+xanim,tod_dealer_f_idle_attack
+xanim,tod_dealer_f_idle_attack_combo
+xanim,tod_dealer_f_idle_attack_left
+xanim,tod_dealer_f_idle_attack_right
+xanim,tod_dealer_f_idle_attack_up
+xanim,tod_dealer_f_idle_scan_1
+xanim,tod_dealer_f_idle_scan_2
+xanim,tod_dealer_f_intro
+xanim,tod_dealer_f_outtro
+xanim,tod_dealer_f_revive_intro
+xanim,tod_dealer_f_revive_loop
+xanim,tod_dealer_f_revive_outtro
+xanim,tod_dealer_f_run
+xanim,tod_dealer_f_run_attack
+xanim,tod_dealer_f_sprint
+xanim,tod_dealer_f_sprint_attack
+xanim,tod_dealer_f_walk
+xanim,tod_dealer_f_walk_attack
+xanim,tod_dealer_g_cmpn_revive
+xanim,tod_dealer_g_ens_attack_v1
+xanim,tod_dealer_g_ens_attack_v2
+xanim,tod_dealer_g_ens_attack_v3
+xanim,tod_dealer_g_ens_attack_v4
+xanim,tod_dealer_g_ens_dth_v1
+xanim,tod_dealer_g_ens_dth_v2
+xanim,tod_dealer_g_ens_dth_v3
+xanim,tod_dealer_g_ens_dth_v4
+xanim,tod_dealer_g_ens_idle
+xanim,tod_dealer_g_ens_run_attack_v1
+xanim,tod_dealer_g_ens_run_attack_v2
+xanim,tod_dealer_g_ens_run_attack_v3
+xanim,tod_dealer_g_ens_run_attack_v4
+xanim,tod_dealer_g_ens_run_v1
+xanim,tod_dealer_g_ens_run_v2
+xanim,tod_dealer_g_ens_sprint_v1
+xanim,tod_dealer_g_ens_sprint_v2
+xanim,tod_dealer_g_zod_attack_v1
+xanim,tod_dealer_g_zod_attack_v2
+xanim,tod_dealer_g_zod_attack_v4
+xanim,tod_dealer_g_zod_dth_f_v1
+xanim,tod_dealer_g_zod_run_attack_v4
+fx,tod/dealer/fx_tod_dealer_arrive
+fx,tod/dealer/fx_tod_dealer_aura
+fx,tod/dealer/fx_tod_dealer_aura_cracked
+fx,tod/dealer/fx_tod_dealer_aura_trail
+fx,tod/dealer/fx_tod_dealer_death
+fx,tod/dealer/fx_tod_dealer_dissolve
+fx,tod/dealer/fx_tod_dealer_eye_die
+fx,tod/dealer/fx_tod_dealer_mask_shatter
+// end THE DEALER

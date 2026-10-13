@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teleporter — power states</title>
+<style>body{margin:0;background:#0c0c13;color:#eee;font:17px system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:40px 24px}h1{font-size:32px;margin-bottom:8px}p{color:#b9b5c7;line-height:1.5}video{width:100%;max-width:960px;display:block;border-radius:12px}section{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:26px}figure{margin:0;background:#16141d;border-radius:12px;overflow:hidden}img{width:100%;display:block}figcaption{padding:16px}strong{display:block;margin-bottom:6px}small{color:#b9b5c7}</style>
+<main><h1>Teleporter status lights</h1><p>No light without power. Green when ready. An animated yellow chase while pending.</p>
+<p>The metal surface is accepted from the September 26 game test. The new colors are built and deployed in Archer's successful full build 16c. Asset and state checks passed; the user tests the new colors in game. <a href="status_colors/README.md">Checks and build evidence</a>.</p>
+<p><a style="color:#8bcfff" href="surface_repair/review.html">Earlier surface repair and screenshot review</a> — built and now accepted by the user; the pink color shown there is superseded.</p>
+<video controls autoplay muted loop playsinline poster="state_ready.png" src="states_preview.mp4"></video>
+<section><figure><img src="state_off.png" alt="Teleporter with unlit strips"><figcaption><strong>Off</strong><small>No device lights.</small></figcaption></figure>
+<figure><img src="state_ready.png" alt="Teleporter with green neon strips"><figcaption><strong>Ready</strong><small>Green channels and matching green status effects.</small></figcaption></figure>
+<figure><img src="state_recharging.png" alt="Yellow illuminated arc on a dark teleporter"><figcaption><strong>Pending</strong><small>A yellow head and tail circle the rim every three seconds during recharge, destination locks and card-pick pauses.</small></figcaption></figure></section>
+<p>These previews use the exported meshes and native maps with approximate Blender shading. Game lighting and effects are not reproduced. <a href="status_colors/native_states.blend">Exported three-state preview</a> · <a href="teleporter_cyber.blend">Editable master</a>.</p>
+<p>Blender previews · Native appearance awaits the in-game playtest.</p></main></html>

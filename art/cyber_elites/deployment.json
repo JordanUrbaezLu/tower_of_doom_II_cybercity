@@ -1,0 +1,1674 @@
+{
+  "ff_bytes": 209794304,
+  "ff_sha256": "c6968cc363337fd0a868da79ecf28a49563daaddbd62bd108ac520f80a5eaa5b",
+  "ff_time": "2026-09-25T12:26:52.843259",
+  "build_log": "tmp\\cyber_elites_full_build.log",
+  "build_log_sha256": "e928dc2081c738d75fabdfd0b3e824dc2b471938e04b1e7e978c886084e5aa41",
+  "inputs_matched": 315,
+  "inputs": [
+    {
+      "file": "scripts/zm/archetype_zod_companion.csc",
+      "sha256": "863857dea965703cac97ab5564714668f2e8d7b7a2f75b52fe036e12cc84ecfe"
+    },
+    {
+      "file": "scripts/zm/archetype_zod_companion.gsc",
+      "sha256": "aee9ad8176d49984037b0cf914c81b72d0d392f011c0ed2a1fdf5d626932ea2d"
+    },
+    {
+      "file": "scripts/zm/archetype_zod_companion_interface.gsc",
+      "sha256": "24244ff5b7b4818901dc3edca66fdb59d2df394299230d4aaee92f558f3984bb"
+    },
+    {
+      "file": "scripts/zm/mechz_spiki.csc",
+      "sha256": "a7165d49d53a4e0f0c413a1e47f2cdb248f248c6efa71aef2c9852e000d8b77b"
+    },
+    {
+      "file": "scripts/zm/mechz_spiki.gsc",
+      "sha256": "8badccd1a6093b9bb7b01aee82226f268b9383bba8e55d33536c7668929a429a"
+    },
+    {
+      "file": "scripts/zm/zm_cwpap.csc",
+      "sha256": "7c87c1753ebf1517e8512a243575e234f509088be67fdfeeba27c3d8413e4850"
+    },
+    {
+      "file": "scripts/zm/zm_cwpap.gsc",
+      "sha256": "8f585482a0ffa95bde9ce7266a38586827f57f0908a6e8b5b302c8fcefc740dc"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.csc",
+      "sha256": "58924718d6ccee387c838d663ea754e34f98d613da074db17286af0405ed17ae"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.gsc",
+      "sha256": "cffe2c1ab179272f07bbb427b18113a27c74e4cb28312008157523857b3df85c"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.gsh",
+      "sha256": "b1a75059e7cbc5cb219a74806c6b457a2aa52250ab680f60508f87a7dd13752a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity.csc",
+      "sha256": "28a16cb1041fca79fc9fb1526850af666de12cb4c4cd65456003677d072615e6"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity.gsc",
+      "sha256": "4e0b6863e49550f5799e05097354915ebd1712cc68c83771a61c5bd54ef8d6d3"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.csc",
+      "sha256": "5d6a5b3d928b4685a750f15cb6f85b31339abc2cc80039210188010dfe0c65cc"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.gsc",
+      "sha256": "1d8008128efa79eec5d77554633a00f8724134b93142e725d40bfd18c97915e9"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.gsh",
+      "sha256": "4928f35cce7de3b6becb2eb4c816787cf1edaf0a5f107208d3220a43194dd8c9"
+    },
+    {
+      "file": "scripts/zm/zm_zod_robot.csc",
+      "sha256": "d71fabf5bc72abce6033ad91ffed27670995a5b9fcb322b190117d946133bc78"
+    },
+    {
+      "file": "scripts/zm/zm_zod_robot.gsc",
+      "sha256": "a270d5811879d7bbced2bf79c01fc34cbc1df2f994e22f4d51f63efb55979ce9"
+    },
+    {
+      "file": "scripts/zm/_zm_aetherium_hud.csc",
+      "sha256": "75fc2a5e78dc4f66577d1c39364bccbf7a85df8da0e15bfb9e5c9f88881df918"
+    },
+    {
+      "file": "scripts/zm/_zm_aetherium_hud.gsc",
+      "sha256": "41aa6ff1c0cf5f7656ced980f0b62974827cdce5ffd5c3dc8e7a1cdea825bf95"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.csc",
+      "sha256": "32a7e1189be76ed5f1708aaa9fe4d1bffa9d095ca3be6bb022aa4ac9ef0452b3"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.gsc",
+      "sha256": "593b19d8077333c49699a0c654d131b211f237b8b7cbb4f1732d3237a2b56b00"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.gsh",
+      "sha256": "15e6bfb865726577b07463d41fd45aeed5e4a55984f3810dedfa33a71b54cea1"
+    },
+    {
+      "file": "scripts/zm/cheese_man/zombie_slow_util.gsc",
+      "sha256": "b3736c319a2f0b3d71d6575470fe208830240a6eb1f97ce2896788a2bb93308c"
+    },
+    {
+      "file": "scripts/zm/craftables/_hb21_zm_craft_fuse.csc",
+      "sha256": "2111f50d3092035a6d5f7d7792ea072c6b4286c69c6c4f0b91751356d7cf83cd"
+    },
+    {
+      "file": "scripts/zm/craftables/_hb21_zm_craft_fuse.gsc",
+      "sha256": "434514d6c43a78a75d85df5da820ccc53c6bb064503df92f7abd6892bbe70898"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_ammo_crate.gsc",
+      "sha256": "3b222a95df1c53af3782f2a1f5d61e2e6e0f8de9f681f8071b79c66d508f2aa4"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer.csc",
+      "sha256": "b9c9e3cb1efb53c3285b3d873f05c2b7d4234a61f8c685f0b69b1e9c0ce98115"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer.gsc",
+      "sha256": "740bea58f36ded4e00962d4796e2eea6bc00d6972a5fbf3ae499301b502788ec"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_athlete.gsc",
+      "sha256": "c1b24129adf1c5e08bef86fb23cecb8ec6559991fe33bfeccc42871b49eec0f3"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_atmosphere.gsc",
+      "sha256": "251e2ef6b374e3a43329a629360c5836bd9f895243145e49abbe23ce9e622529"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio.gsc",
+      "sha256": "befd8854a43970aee2c3e9f8320ef4162893bfa9c6d22f296de68496fdb99a79"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio_events.gsh",
+      "sha256": "7ea13cbcdbb915daa0f5a085f33e7056de358cb83f4350042d2d75642ce94543"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc",
+      "sha256": "28337efdf46dea080c7a2f0448b5c6ff9c1791c52d51810fbee568487d3f4f33"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.csc",
+      "sha256": "5467a22fae9e8afa9d2e9ef6f1a5aa8d83411fea076e153acac0162cafb539f9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.gsc",
+      "sha256": "03477b546185d5a7f39470c92ef7c25498017962588378b878b3f96d3d0766a7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_breather_data.gsc",
+      "sha256": "fc5db23036238e87d15e52454d7b15841ad2370425ee627c3e644543008a37c5"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_classes.gsc",
+      "sha256": "4dd8af7692bf65a01e461348adc20bdf0bd96f9dac8765ac2322a1e7000d7b7f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_class_select.gsc",
+      "sha256": "ae198d610602c3964482575952d285648535aeb900b05a8a43a9e73951cc7260"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_corpse_cleanup.gsc",
+      "sha256": "6e4cc08cbc3faa9f0a9da012389a4d0dd97c980b1f9b02574c36689abedd7a86"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_crown_data.gsc",
+      "sha256": "5f8ea20425d83961ef2243b1efcd89d6106fbfc47578e53539f1f6e8dc782671"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_elites.gsc",
+      "sha256": "655a1c727b31db7fa052a7f194b6893e2bfef53ed6420d0e1e088ac2b9c23a8d"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_zombies.gsc",
+      "sha256": "da99aca53105372036e956de838de7ebd6ca1b414fb16ccceec62b32ffd4cdf4"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_deadshot.csc",
+      "sha256": "0a3bfeeaa171a3a72bb8dbf939eb331ad921435bb51977304f34ee53f5f98984"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_deadshot.gsc",
+      "sha256": "d7159fe22c6ab64ab53b95f8afac6610481a56cc7372b7a4348016f7a23834b8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_distraction.gsc",
+      "sha256": "d723a6048a537ee978a8de01ea4bb1f81aaec0c1a0bd2ca37a74b3e535488fb7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doors.gsc",
+      "sha256": "b2d6f09671dbca2985c8af1e550d61a78939e1404656197045f78a5efb913e35"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_door_data.gsc",
+      "sha256": "68dbdafa596ee12d608aa9818cd6ffb375797de74526a740c008c05c31431c77"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doppelghast.gsc",
+      "sha256": "effa4d052a5e0128e10af82bdf1987d6772c4537ee888abf1c00463dec88fbf7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doppelghast_motion.gsh",
+      "sha256": "404965a24f73ec89266bd2be47e8bca21c79cfb7066932d3afc3605b4206e1cc"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_endless_rounds.gsc",
+      "sha256": "753492cc4be5ea333bf84ede14eec52675934beda872586bb67aa03af4e6f33a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_fall.gsc",
+      "sha256": "87d8d76c7dfdd761c8942c3a2fec161c5dd6507ac81ea734fbb7ff1560ff0dbc"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_finale.gsc",
+      "sha256": "7cf1a6cd7994b6016e8b2157d56aabb4ea83a76456d0380b9956726c5d152e41"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_gameover.gsc",
+      "sha256": "ef2e586f5c7e2286a965c0b24fc62de7025948c021f57d98421b1bc5221f215e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_gauge.gsc",
+      "sha256": "5f455c6a29f0f2b8f4b0ea2d462dda4ba71ba010a74b0579fa606a3735304053"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_hellhounds.gsc",
+      "sha256": "093d0c3eb258cf63dc666cbf1b3a2d50b9dc9ac9fafa2ca1381b776a761deb11"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_hoop.csc",
+      "sha256": "b2cc27eef2420022b93c09b4fc5177e9a4aa7fc4853a4995dfc594023162ee4c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_jumppad.gsc",
+      "sha256": "0a933f10a2fd6fd32c80033923f890649c153aeaab0031a09fef306e45eda714"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_killconfirm.gsc",
+      "sha256": "1c8e8f0f2f9d9780c3c59a687a2d73bbcd81f9a49ecc11ccf7d7a1063cbb97cd"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_luck.gsc",
+      "sha256": "39a99d63c75dc738b2ae4275a1be784eea8b0c8332010f87cd946da7895b828c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_lunge.gsc",
+      "sha256": "428a70cb4c68720a2ba7cf5a4d652c31254c31c9112c1ff1c3dc70525c73e692"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage.gsh",
+      "sha256": "da6565d13bfb3ecdbd1a1d58bffa847515726b6d53ef29ac74cefff756d60567"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.csc",
+      "sha256": "274403e19aa30e3b778858854ab4d95c78d524e10ce4028e9fbebb66a468d3f9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.gsc",
+      "sha256": "450a07e1f9b329fa6e4dd13b67cbc4a4da40c44661f7edab74ed571d079fe86d"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_main.gsc",
+      "sha256": "e1b2b0a87ba0be109e4242f36aaed3559e57170ea8efb603530ec742867c41a2"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mangler.gsc",
+      "sha256": "a4660b7bf6db904587be2a2915737d45560dcba3b1260429dfc400786deb0bbe"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_partners.gsc",
+      "sha256": "3ca73fefba1cb3931823b2097597ede0779682519e637a41b61217404fd37d99"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_anims.gsc",
+      "sha256": "5b40885963cdd0940de558d30124e2ce94111a555a76c2d971cf374e71ffbce3"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_drink.gsc",
+      "sha256": "afcc858398d8b3568450133704c1619520eeef9491125fc0c4320c0ebc199d56"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.csc",
+      "sha256": "9b2ccbef5ca8fd9f3ec7ec3c0bdac8551dd0f66fbdb9abf064a1fc1e00a5d364"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.gsc",
+      "sha256": "cd6df59b2a4f7d76e32811e3bd2be4ff8a02ea3a4498fe7f2b51b15da893dc41"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.csc",
+      "sha256": "d251521752374e6905228a4afd5c9365b88592f3bee0917ff803d82efbb00358"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.gsc",
+      "sha256": "51288a81981c97270cc02786a5fdc7bfafaec450a7110017e63fbdda95ee89f8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_phd.gsc",
+      "sha256": "20e598ffa193c1408bfdb23c28309911d55d6d59b3f05f6fb90b0ee1a240967b"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_scatter.gsc",
+      "sha256": "7c4994a1210953aea91474406cbe3aa9d2fee691863bc0113d471b1f0d34e0db"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_widows.gsc",
+      "sha256": "4ec3ab41a36f18161d13707380f8a0d0ee44831632842aa9bface5dafdfdd3af"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_powerups.csc",
+      "sha256": "ca2615390f55580bbd64d3e83bc6d8db1d7a441bb49f9d844ab7b76c2708e3a6"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_powerups.gsc",
+      "sha256": "d7abfbf26ab8fb579c9d2356b9cb9464062e3324d2248ff336042c015bc9f405"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_rampage.gsc",
+      "sha256": "31cc0795b1c70645acd9da1f7b4519b5d815a57049fb88fafd0b52fd92393668"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_reaver.gsc",
+      "sha256": "cbf0b3bfc0179d82cf56b07bea127d055c0fea8d7c018672fbd05d35466fcb45"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_retriever.gsc",
+      "sha256": "85ca67ced36d4c990babf96ef5d4ce198b964f333fedf25f351fcca902524fd6"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_riotshield.gsc",
+      "sha256": "a15b29bb0428f004fbf494368dfe555850bc82b9ff3b9b380325cfd84212270f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_runandgun.gsc",
+      "sha256": "ea4c1a8e9f5e111dc37c921eb9b28249e10443fc00e37ae24056594edfd35a12"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_secret.gsc",
+      "sha256": "3749430294c8181490e53e1edef1990600049d65b5873f8168b887c03350fe49"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop.csc",
+      "sha256": "d170634ec3f343e8c0a2abdbe46b536e4cd6c748c4013783257781ebeabc54a9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop.gsc",
+      "sha256": "ec5e452dc536089f106f219df4449009f77127bc274ad489a23490395b66a4e8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop_timing.csc",
+      "sha256": "e1c47bfc3519b24f0f1e77a5891f57e7e7583d7539d5ede62773c627bdf27ea1"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_spire.gsc",
+      "sha256": "cea68656a2d7fd9b3880d3df67f928b1fa9bb5ae0cda9a99c81495d0d0f088b9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_spire_data.gsc",
+      "sha256": "f69438ae8a44e22005ea601cdc53ca5c8f93d9ad633829fc25691393c62ea71f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_sprinter.gsc",
+      "sha256": "c1faaa3be0dbc7417b8d897ba6e36df51537f2388f8a724a6bcf937241f78652"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_stray.gsc",
+      "sha256": "81892a8546c1a10ad0cd78834b57638bc8d1563f319868c029de8cc5777effb8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_teleport.gsc",
+      "sha256": "e44c2eeca08fdf5f12868d84cd0e85586c7c51b438cc5e104cff8f51bcb22aec"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_uniques.gsc",
+      "sha256": "621b9a0b86ad5f896348c2bbddb79c2b5c857d154f6127613f139f80131c01ac"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrades.gsc",
+      "sha256": "03edc2254c119ac281c361c0372f229b87142442143cd6797a0d689d4227803b"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.csc",
+      "sha256": "c180cb26858edfbbc4fd0a9a624bc56c685b32c7937b5a571dd2205c1dfd9274"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.gsc",
+      "sha256": "2722b388cf4933ab44f803e3257c0a8349763a2a33306478c40600f4e9b67a3e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_zombie_speed.gsc",
+      "sha256": "70cfc0febf14894a93dc25285d1931ef3466f79023f4c821537f0533ad0816e5"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.csc",
+      "sha256": "59fee80f2cbe80b0041a8040d66955333b9e5c68b1d351ba0dc8be7a5efaf743"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsc",
+      "sha256": "ac0bfd056e4cc5d20763c629c7f626c35e95904957f36892c2aece4933c6facf"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsh",
+      "sha256": "de760428ff42a3bcf7fbc6e214e49b5c34c63d911658de63b72573ce9ae8716e"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.csc",
+      "sha256": "45b34a21ea66b756ca2a96975ad82f2788c4474dfdc8c276adf51d73a385cacc"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsc",
+      "sha256": "04966ad49da095123b2977047aea2c586bd39fa51328e86e522d277204fc0556"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsh",
+      "sha256": "4ac2e3a97ee88948a90ed45f8abe4ebdedc447440aacab3931c309d5540bd8fb"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.csc",
+      "sha256": "c2e3c588aade1c23df1553ce6fa17bd00d15120359c6ccac84c150cc07decee7"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.gsc",
+      "sha256": "323265037d69b5c4bbdfcd660ca390d1078f4cdb1995ebfa28ab8cf55054189c"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.gsh",
+      "sha256": "523eff16963da3299f1755ee90b7822ff3b347010704bf9a025b1275d9cf17ea"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury_interface.gsc",
+      "sha256": "da25577fbe026f2f9d36e2f6a09cc0112617162c8545da49e2bf52c0c8bf9359"
+    },
+    {
+      "file": "scripts/shared/ai/systems/animation_state_machine_utility.gsc",
+      "sha256": "8a8a93c0976357bc6ad950c2f32b1aa44d70a0cef6579ad9c6bde2a118ce4823"
+    },
+    {
+      "file": "ui/uieditor/widgets/StartMenu/AetheriumMenuButton.lua",
+      "sha256": "5a53f1c839d27654fff6f5cd8e38f43a31c7cabb3cea8b7e60d734f701345b54"
+    },
+    {
+      "file": "ui/uieditor/widgets/StartMenu/AetheriumSmallButton.lua",
+      "sha256": "ee204886607f2727e0c27b5a05f1df17431265de00af5ba7e4e6d93e074a1695"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumCompass.lua",
+      "sha256": "fd9a15b4b48fcf51753e05f4b78e30638d1abdaf6dc1e186158bbdd8284d475a"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumGobbleGum.lua",
+      "sha256": "08d43b6c25265f28f04b343bb0f27425b0a457c251f3856286deee666a80ed58"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeed.lua",
+      "sha256": "a7e51e896212e60470b716d327cfc810d70c13df78f58f22270075efb093861b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeedText.lua",
+      "sha256": "288d437bfa9ce3480051a8145a45c185bd0f312231b4cd0485c5d325cf269781"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumLoadout.lua",
+      "sha256": "478b02f15b04cb5ae3cb1a3791cd6ad69c46bf3446a0584a73dd84a8af9c0350"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPartyPlayers.lua",
+      "sha256": "739447a670f33369b2a1c6c2240f5608b8f626b69fd079287dfe3d5e388e170b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerkItem.lua",
+      "sha256": "7c6f6c9825e490a60c5652a591767ea19283266ee93e6539c4db50c87a8cbda7"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerksContainer.lua",
+      "sha256": "ded9adee3f4e3911672e1e4d347c68fe57fcfe0054604423c51af6716b40b44f"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlayerInfo.lua",
+      "sha256": "935df65b0a8c8a33e7fbbf2f6486d55289ca4554c60bf35d6bf59ddd1bf87d80"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPoints.lua",
+      "sha256": "f13a2e61292a52b25e43f1fffbb935bca60bd21019c08d0c6790ef8f44946f48"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPointsContainer.lua",
+      "sha256": "4339bb27e68395e991f36bb52df7eed814789fcc0528f378a313eecfa1d87c16"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPointsDelta.lua",
+      "sha256": "dbdd8a0f564ad3b60bba3ce6c5cce245c1a084744ecfd71cae8ba70c71e07522"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupItem.lua",
+      "sha256": "7cf790ce1fd305a66294c4506f6bd298724615c9f448ac6a7a3745cfb5a318c5"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupNotification.lua",
+      "sha256": "bfa51690bc8cb6b1b3343ea8b0051587acad961e80e2be7e5c77c43b7e10d17c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupsContainer.lua",
+      "sha256": "0a32dac9005946eb7f0a1953ea6d1bd790fdfbc7f58d879b3757d7202d045865"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumRoundCounter.lua",
+      "sha256": "75d2423fea8d3e51efa598b8beccb808f0260409a0f7be21362a7b198f74f2f3"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumScoreboard.lua",
+      "sha256": "40fb42c51557669ff6d6b3293a5f87da02245a6792fc924afc0bad36b25e6df2"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumSpecialWeapon.lua",
+      "sha256": "fc2c40133215ef16a87bdb0a8ea2d61b04248c3e544fa5abee8dfc1ee4c31b7c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumThirdPersonCrosshair.lua",
+      "sha256": "65d52dcab4d3b48e69a40ff9d5d6559b9c792490f0cd66c916ca5d25d25c58c1"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodAbilityFeedback.lua",
+      "sha256": "a1e5cd22da06533eab87dbbdd0c21fbd73b15e6d9c1c058cac542396616e6a17"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphMetrics.lua",
+      "sha256": "5e80131a93e907303747fc4738150be9d8a915b73b4a49ccabcbe7d9492d7580"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphRow.lua",
+      "sha256": "f7638691567bac0411f0fc5139656ddebdca9d217f3636ad6226c88745e337ea"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphText.lua",
+      "sha256": "7c158c895af45baad0746fe0cb58ff6ae3ed3d6aab069b88ae045ae6c67018bc"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodHealthTint.lua",
+      "sha256": "399089d33e66ce59391d7f3c14c672fae1ee35660f756e8dd6c3226a6661c53b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodKeycap.lua",
+      "sha256": "7558b703e57345c138cc0d34202ca1934733b98d4ea91aa60056a2caaf268d7b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodUIOwnership.lua",
+      "sha256": "de861c8b6e51c8d34db7c026a31f6f26ee973c8d82c5775bdfc051377ae9551e"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumAAT.lua",
+      "sha256": "a9f64e012b62333c1303bc97e3142783276b3c727706bc5488c1ba4366cfe2bc"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumBBG.lua",
+      "sha256": "b98d00db490c914a1f0364b1d37aaf3e9ea7dba1d3060356d049b1a1610be1de"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumCharacters.lua",
+      "sha256": "5989b9929f7fd3683feadbcd70be2727090d63a0246c6d59d8ec093105de5215"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumPerks.lua",
+      "sha256": "f7c6e0aff89f9dde97e873bbe41ce15210215c389c08192d9ccddd0378d280ee"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumWeapons.lua",
+      "sha256": "e57c14e3f020e3aae6d2a5091ff04de468633ff56aeddc5179ab735a1f383afe"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/ZMCursorHintNew.lua",
+      "sha256": "d4ce6e6356ed32320b3f8ad8529749a20262fc32a51701272deffa6a55366f5b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptBBG.lua",
+      "sha256": "54aa337181ce3e4dacdc1f78bb8c733e4cacdf4f1094ce511a8b3abfafeb4a57"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDefault.lua",
+      "sha256": "657bc68070023cddc6115a073f1a00c73e05d19152113a4dfaceafadc8bd8f2c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDoors.lua",
+      "sha256": "5a2c0207e438149340b4caf10279106f84d9ffa498930a18254e020e4e6cb640"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptMysteryBox.lua",
+      "sha256": "7d8b2269ab218f417ecafb00a1796c9e45537d77e3e7ff055bcbd68360f2d918"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPAP.lua",
+      "sha256": "a31e2013eb789053e39165017a9be8ad9225c2e00810250bb1910a89a7cf229e"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPerks.lua",
+      "sha256": "15a4d84852374829a185f4429fb6d692126890beec77703ee638874f6791b364"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerRequired.lua",
+      "sha256": "bd45ccda0e2bd4511652b01ebd9cbd253645113d43475d8a5876ddb822d2fc5e"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerSwitch.lua",
+      "sha256": "f9f181ce735f9155169e01a9337597dfce8303fe6a198747124f576d123a03df"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptTemplate.lua",
+      "sha256": "8856b86d47f1d4458b28ce2dd8f5df8429173313fb7c3fb51f0c62c83e334cb7"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptWallBuy.lua",
+      "sha256": "534540f9a2df9f34eb5416445e4ceda1d0ebeba2a26d300738716da4d3e6102c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodPromptCard.lua",
+      "sha256": "6fca84b408bce08d03282c8d11c3e08156181246878f061c20497b633f24594b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodTeleportFeedback.lua",
+      "sha256": "649dcbacef807deab9735634ea94629f52da4f306e6c96e7df6d6c8af100db9f"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/Scoreboard/AetheriumQuestsCustom.lua",
+      "sha256": "2c8132c130db59bc405cd58392b2ce2f6c25474223545e1cb21f729af6703452"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/AetheriumHud.lua",
+      "sha256": "c7321391827b1dd37e31879dec5a126d5ff83b234eb99607afa6a289b1d1b6b5"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/tod_class_select.lua",
+      "sha256": "0838026f7b21f5262aff1bdc9bf87f929cf2dc426a4fd66ecc3359757f00331a"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/tod_upgrade.lua",
+      "sha256": "754f8eb5865609fff8b4075798ca5d6486bd153292cd63c414880cab8f3bea5d"
+    },
+    {
+      "file": "ui/uieditor/menus/StartMenu/AetheriumStartMenu.lua",
+      "sha256": "9da299c55239b99ef3c9e44169e557672c07564d6fa59f109c1745bf6752ab8d"
+    },
+    {
+      "file": "zone_source/aetherium_hud.zpkg",
+      "sha256": "99cfc3d46066e949de195aef5aac166f50469d0b7f1d6632b761d3e87adb2aff"
+    },
+    {
+      "file": "zone_source/logical_powerups.zpkg",
+      "sha256": "41c36af6eb84de87240d7aa01ba8953cf4c1c6edb02f4f05bff055461f596e0a"
+    },
+    {
+      "file": "zone_source/tod_partners.zpkg",
+      "sha256": "ca27a70e853dd738e32cc886d347cc5b1d0ac59600272ee3fcea7e966ac3ea7f"
+    },
+    {
+      "file": "zone_source/tod_shop.zpkg",
+      "sha256": "2f4b71b47a9a2a16abfde883b76e5dca953f8e05ac8799d55cfaa7d0a1c91b9c"
+    },
+    {
+      "file": "zone_source/tod_teleporter_states.zpkg",
+      "sha256": "4848b8020c2d240bdabe790e6284d4e322b6e8b1c03f7e54b2e08134d4419865"
+    },
+    {
+      "file": "zone_source/tod_twins.zpkg",
+      "sha256": "2609d03cfbf83ffa22b02e3b0ce1c0547fc7f49567c9da16758d4653f155698b"
+    },
+    {
+      "file": "zone_source/xmas_gun.zpkg",
+      "sha256": "340541ac065d623d4deb82410a2dc57780b98488c23bb8270d09903fb16f8439"
+    },
+    {
+      "file": "zone_source/zm_tod2_cybercity.zone",
+      "sha256": "de6d2beab0e6934e6f44e96ca7e6dcdf45c3c602d532845fdf5d2eb71d12c182"
+    },
+    {
+      "file": "sound/aliases/hb_bo6_ghoul.csv",
+      "sha256": "43da0a4a2d8039aa258702ae8a79da18f533317302e3d3908f88506d25ec1c35"
+    },
+    {
+      "file": "sound/aliases/hb_bo6_mangler.csv",
+      "sha256": "8c4dd0bbe6f1995ee11dce3e20432ce1f67d911ad7a06465e6367fc4b0d59d02"
+    },
+    {
+      "file": "sound/aliases/hb_mangler.csv",
+      "sha256": "95b730527b2239f3bbe316001fca8922c311b96bee369d91694cb10818bc82b0"
+    },
+    {
+      "file": "sound/aliases/logical_powerups.csv",
+      "sha256": "960b58a5fecb92aea9a3b996115b2f8794a702f4c972611f031a422f82611187"
+    },
+    {
+      "file": "sound/aliases/tod_archer.csv",
+      "sha256": "c7cee66ab30bca532c5a735a316ad0a16b78200924a5cdc4609bc396e168756f"
+    },
+    {
+      "file": "sound/aliases/tod_baseball_bat.csv",
+      "sha256": "359d49c1243af6b1a8c72eade241a4263e3606f003724309be22f9994c0f9ba0"
+    },
+    {
+      "file": "sound/aliases/tod_bosses.csv",
+      "sha256": "0ca39cf76bd21bee7f94072f8c68c6e0d84894bfe449089b31189564c141ca5c"
+    },
+    {
+      "file": "sound/aliases/tod_combat_knife.csv",
+      "sha256": "6460f3bdc333b3f4da9b9fdf8971ded7f53d8feebf6ae502adc151dd3e8f7503"
+    },
+    {
+      "file": "sound/aliases/tod_expected_roster.csv",
+      "sha256": "1de3e58d3ed612904ef754d077e302a13a0ad5ee0dcf67f353a4e8d12b33dc45"
+    },
+    {
+      "file": "sound/aliases/tod_perk_cans.csv",
+      "sha256": "bd34633815c789dfb902a2a11149fe10355f4c057b27351a55b91ef2003d068c"
+    },
+    {
+      "file": "sound/aliases/tod_ports.csv",
+      "sha256": "b32653b860e54d39db103710092d1a1c1996db91475fa36de9a5c5c60a39a36a"
+    },
+    {
+      "file": "sound/aliases/tod_shop.csv",
+      "sha256": "b025d7749e5bdab935987774ccf0f89fc2a98e198a5384da98b0fe9aa514cafa"
+    },
+    {
+      "file": "sound/aliases/tod_ui.csv",
+      "sha256": "9283fd9e0086f994cec6030362319cb5417608b24bb562d822a3dfe856bbe68a"
+    },
+    {
+      "file": "sound/aliases/tod_weapons.csv",
+      "sha256": "82b42c05a26b13948997afbd75e8a3d2b4d2c5e8417b5b77bb57d72c0ea4ede8"
+    },
+    {
+      "file": "sound/aliases/tod_wisp_tea.csv",
+      "sha256": "f4e89de625519ecff3265813f6f2bc595655f6e2faebb775a8da5be8d0a5289a"
+    },
+    {
+      "file": "sound/aliases/xmas_gun.csv",
+      "sha256": "172a0ea6835e4d5a243cf3ada1a9b64b8499ca7532c997edc15458b500a41857"
+    },
+    {
+      "file": "sound/aliases/zm_ai_zod_companion.csv",
+      "sha256": "bfc6cb3b9af2c67db7fa7349501d510022a1ac089d2f8ca87e698b77b6f3ae7a"
+    },
+    {
+      "file": "sound/zoneconfig/zm_tod2_cybercity.szc",
+      "sha256": "26f202448d86b471118c92aa618855922a8468c47a2b11cb2f55d7e35b2cd53b"
+    },
+    {
+      "file": "animtables/hb_doppelghast_dev.ai_am",
+      "sha256": "97eca954199f7ea130781fc1964328bdc23ce04b55006fe37fd2e1bda5dfc24f"
+    },
+    {
+      "file": "animtables/hb_doppelghast_dev.ai_ast",
+      "sha256": "a3ef7a0b6ebaef1b3f8dc24b6f6450af4cc0ec79209784b8f3afc8a0d6557dfe"
+    },
+    {
+      "file": "animtables/hb_mangler.ai_am",
+      "sha256": "facf57e34c21c54868266c433879181d427580b839e58ba017fbf35bca1509ff"
+    },
+    {
+      "file": "animtables/hb_mangler.ai_ast",
+      "sha256": "bc3db24fde3bd587e855227f758c65541d356a7444532f67b49a9895ed0b5d70"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_body.XMODEL_BIN",
+      "sha256": "059f19de51ed5c6440e86fcbb44fccacf007950ba26c03549ec644bbf39a357e"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead.XMODEL_BIN",
+      "sha256": "942122075b2c3162af8cdf89604fd352ca15a5278d48a4a49caf614c9769c756"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff.XMODEL_BIN",
+      "sha256": "76287d3fd4455b9a3cb6e3d6236fc6e014e1e45f738464072b0adcffadb66a74"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff.XMODEL_BIN",
+      "sha256": "f0961467a8f6b0a23e240ac95de42aa9c8537607d8fcec83e766ec9517818360"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff.XMODEL_BIN",
+      "sha256": "5c3d1750fb9edf17c57303311330e818378aad60dd7ddf6b5cddef30091212d2"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean.XMODEL_BIN",
+      "sha256": "d6c08fb34ff7b6f4b50d357bced43def0ac9f04bf79bbdb0cc90e42147643e70"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff.XMODEL_BIN",
+      "sha256": "8ffef085318c0759ffc1affe1bef2d5a58cebf51dfc8c81948cdb0edad160c99"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff.XMODEL_BIN",
+      "sha256": "9ed6c0dc4a7527433c10c06f04035843b7cad2a0a15fa9c046cdfc63bc92c7dc"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean.XMODEL_BIN",
+      "sha256": "5752bff146f0726e67efc6d9b389a216d808c6e50f92ebad985fb721dbb673be"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn.XMODEL_BIN",
+      "sha256": "2cf461a4df1eb56f8e5b4d5d8113349bc1b40d809978a1b042c4e788ed4e4098"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn.XMODEL_BIN",
+      "sha256": "a6602ce682a8f839ff14fda2a33196bee314b43e9b530e407a9abfe248fe0e53"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn.XMODEL_BIN",
+      "sha256": "1b7fa5eba5bfa75768566fba2aa3ff16630866fd7de030d1c7d0cf3711cb7279"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn.XMODEL_BIN",
+      "sha256": "a28d2e7e98b211303c5be1b453b96d1b23c64b78fd7c649d0fc88915f822a985"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc4_zombie_charred_head.XMODEL_BIN",
+      "sha256": "a6093aea72d7119c5e6d246b6cf4db805c3a897bbb01f3a13739512dc31077b0"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_doppelgast_black_robot.XMODEL_BIN",
+      "sha256": "c1371ba7f5def8ba52311b317d71fa00f3946380029c170d38ecad96c49878a3"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_char_rus_zombie_eyes.png",
+      "sha256": "adc67546ecda5e0e7beb6a098d159ef3286ceb48f929e974e05e4161416ea6ef"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_arms.png",
+      "sha256": "3ecad5f6201719be1a28aeb2a2b99c2fbbebc137e8313a13ad7c5894e8b909e3"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_body.png",
+      "sha256": "d2738fbec6feb31c91fa939129ea60bbd2cf86fbe19495328df2763e6dd11ebc"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_legs.png",
+      "sha256": "2c99993391b103e9d44f5bab03fbb7a36d05ab9fdde1e5ff63a14f74750c8b4b"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_0.png",
+      "sha256": "821b87d790360a2f6fd03efc8fe614ab15972a9c5be8f7b8412a13e1d0b1ad46"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_1.png",
+      "sha256": "309d88dc9252ffd1efc66a0549fe6779132e2cd0984622f5b2b3d6b1581fe039"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_2.png",
+      "sha256": "2e8198544307115ed61c2ed1c898009827d44dab28ab8ba0458d2aaa9ab45a42"
+    },
+    {
+      "file": "share/raw/fx/hb/mangler/fx_hb_mangler_cannon_idle.efx",
+      "sha256": "6f5113132e2831e91e130f84f4c2041961d36de56f5d8eac7b2dadb689f206f6"
+    },
+    {
+      "file": "share/raw/fx/hb/mangler/fx_hb_mangler_eyes.efx",
+      "sha256": "d9821ca21c8599f0252324ec88744f77e2f57a20ea64e56c55d8c957e8dd2ef7"
+    },
+    {
+      "file": "share/raw/fx/hb/mangler/fx_hb_mangler_projectile.efx",
+      "sha256": "6e2cb7f15f53a9075e1fcfb58dfa7fc3830f80c3c0ceffc3fb26d663f3db88ae"
+    },
+    {
+      "file": "source_data/tod_cyber_elites.gdt",
+      "sha256": "0ba92ae8db66a55de5b8fb4cecc7b59e3a0eb14a64c357c0535c879520ae938a"
+    },
+    {
+      "file": "map_source/zm/zm_tod2_cybercity.map",
+      "sha256": "d6512fbeda9543926bbd44631200c9bae7276982438e2e089cc4016033207520"
+    },
+    {
+      "file": "sound/aliases/hb_mangler.csv",
+      "sha256": "95b730527b2239f3bbe316001fca8922c311b96bee369d91694cb10818bc82b0"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_01.wav",
+      "sha256": "fb060364027ba63ecb8ad1b8ccee5f4a8c437a882e76baf178400a2ae6705000"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_02.wav",
+      "sha256": "b1aaf73a27882b3c4675b23be21d54a87f5dea2fb8ce8e02bbf6bb02d04cdc55"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_03.wav",
+      "sha256": "2c4a1bec4426994af46d42d8721358dac638f6219cf39765514af7110f030785"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_04.wav",
+      "sha256": "1c4faa9918bc89caaf6c57745f991bffbe371b9febfb7720e49056830ed5976e"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_05.wav",
+      "sha256": "eacf72b299610400a001785e96aa2f36cb541845a8e0aac34dcd719632896740"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_melee_06.wav",
+      "sha256": "f6d87a416fa0fd39c5729f6fb6213230234e3b407f29d9a344b4e4bceb50a17e"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_pulse_01.wav",
+      "sha256": "6fe9c2c945d69020a282896557de47a8f4f406a4afb3f17dc9d2de94b903f5c9"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_pulse_02.wav",
+      "sha256": "4c3cec5249e93ec873c4ef3a39fb677daa057c9bb7e73003deff4029e7ceef3a"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_pulse_03.wav",
+      "sha256": "db93c696aa4cbed7cae0a09714fb81226839dc181664b613c2d454589970ecbf"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_pulse_04.wav",
+      "sha256": "d3c8e41fde7ed078111d805bed4db457cf45b58a8ef71ef896e30320e1ec93ad"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_impact_01.wav",
+      "sha256": "25387594cd66b3679c65b3782cace984f57eb1952190ffea4210f73d4b2f5668"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_impact_02.wav",
+      "sha256": "5734a3dac69d0aa546859b5542a55da9557a6a1d79ae2bf012f4786ac3fbbc12"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_impact_03.wav",
+      "sha256": "cdd2051bf925d37ec84c5c9ddda8e0ca9b557a302f7bbc54f9b94d6ace67d97f"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_impact_04.wav",
+      "sha256": "5eee419f269441ca85a42998b7571315c2e20382479f919a4d9904149cf69504"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_fire_01.wav",
+      "sha256": "b8da311d8824a03c825f39ad31f97c2a854e5ce0809993afc69e5dd2266483fe"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_fire_02.wav",
+      "sha256": "49acf051dde03f2838713171ec64c8c1f36432b8d6154d7c017fae4b5011d41f"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_fire_03.wav",
+      "sha256": "a19266bc138c6624378c74596462588b842856af72275d8169082cd84666ed8c"
+    },
+    {
+      "file": "sound_assets/hb/mangler/hb_mangler_fire_lfe_01.wav",
+      "sha256": "581b0f25d2d3708ed525b213cdb8a1d37acd457364de8d8a767a50df9efea2a0"
+    },
+    {
+      "file": "sound/aliases/hb_bo6_mangler.csv",
+      "sha256": "8c4dd0bbe6f1995ee11dce3e20432ce1f67d911ad7a06465e6367fc4b0d59d02"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_38c2369595a4ba44.wav",
+      "sha256": "766ab481483db79bd215cf9cd8657553aeefa4149fdf8ba39b422c2df8d8e308"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_132e439cd6b48308.wav",
+      "sha256": "091f60bdf4785c97e57f446d01d3518a449820f570c36b644202689265cdbb97"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4b42dc28d71060a7.wav",
+      "sha256": "612daa8fa83214231346ab95318b4e9d8eef9e16a7378aaf1feff55e302c8433"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6b1427c4d3f3e302.wav",
+      "sha256": "c0272e810fb68591e505cbe4f4ca95fe5dc42546ad41b4e11470875ced29966c"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6c9333b8419ad465.wav",
+      "sha256": "d0c6f6bad1486ac1ef2e4e749ddfbb64b11184b600e58eb480644497018b8d87"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_1e1067f5ecae7d76.wav",
+      "sha256": "171fd9cf052be27c3e5ca64dcf0526b69325efc2ac06ace8baf945994f6fbad0"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_77a5b97e3c4bcabc.wav",
+      "sha256": "7d03dd3b492b7e25cbb2cdd26d0ee4b9292efe59ba5a0fa17c7da2d1e8a022bf"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_29d1e832c6e21673.wav",
+      "sha256": "fc36b752bf7a48aacf74c85be0647355c1f5820b78db42f4b130c900471d3803"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4701c87f6740cc1.wav",
+      "sha256": "00824a34bad489da5d90a428645c3aaab207a77e78b61c23f5b4da0de36843c0"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_689ee233e6ae546f.wav",
+      "sha256": "a3d7322ed6451b068847f600f8e0b6d4bae039fe2ec271d93f6ec4aa3c6dceff"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_74f473af142d96fe.wav",
+      "sha256": "74d9c7e2ef701e5bac5102f3985e022a9a4c5f50bbdf0083fb1f9208b39f8bcd"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7d5e9dcfb6434594.wav",
+      "sha256": "49cddee78258cd8b7d38adff5bc540fafe531d3a981237ede63ff5721ae90932"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_278548b3ec3e9703.wav",
+      "sha256": "ce1f8cd2f7a6b52dc7ec8f15ebb7a5b1033db8c9264f50c4ba694dfa0f33910f"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_3233718feb30908e.wav",
+      "sha256": "e1b39e8567f0cad0a58817aba93947e68691d9cfed0eb52b744953b4fecd06eb"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_3d43b94765cbbfe7.wav",
+      "sha256": "81c45ea24a275ea2cd84fd97585d69691e6fab21def4a2e515e1c8a0bfbfffc0"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4071b5e29343a0ff.wav",
+      "sha256": "9502a24146f933abac9db6760a5ad08492811eb228896612f5a167b4fb3856fe"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4550f209b165847a.wav",
+      "sha256": "04bbae9ed88fec07027b4f35fa9f123ac2a5864709032b13a69510b348b70a9e"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_45ad0f07e8d60c80.wav",
+      "sha256": "15d22dde1fd948db396fe8cadd28e967e6ef170a0b900e0d8bc210528bd1e758"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_637e0ed9775e2fa4.wav",
+      "sha256": "2468cd33d689405de5a4ad0a46436ae45a14d89148dc7b27f36e29168074e4a1"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_78ad72df31897311.wav",
+      "sha256": "364e5342b69679f768ab24b541412603e406410c1c84319e96c24266e7bdd7ed"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_8793cd53593f942.wav",
+      "sha256": "ff355155c7dd720c4139aa1d1e678941ee25905c494ffee47457523ea4f7fce9"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_99be4acb3af4fdd.wav",
+      "sha256": "66db27fe6bd3f5819aa832736bd4aa75a1b67ba9b60e8fa5002a2f470e07a48b"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_5c52dd7090d62e60.wav",
+      "sha256": "107ceb77bc787dff42f28349a14386e11d66cc335271f8efa4548dfb513b20cd"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_eb12419a0428e86.wav",
+      "sha256": "4ecd7c2fa16c1963fa2b13cbb40895dd4bca1cd67080c9cf79bfecebdce8f1e3"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_1cf512e065d90695.wav",
+      "sha256": "20f1dcb7ddb2801b285f00f1ce3e4ab67da802eb0d94d52f7070357bce026c44"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_27e3c6b38c5a1238.wav",
+      "sha256": "8f0f5961281009708d5af627ae6202352b967b011eeaf62fd21783ae05a1c2ea"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7fb1a0cd9d8916e9.wav",
+      "sha256": "13908c6b420978c82aee743536ec5d7cfdec513a6a87b3026f6e4a71ff1ee42e"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_76e5f794614696d4.wav",
+      "sha256": "afed8bb8c4b86b59872bbd8b630bb52664812d650ab3c28427c101fe0a24c132"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_2fcdeded41b7bf91.wav",
+      "sha256": "39b90c39b2dddf3a58f04a6e7b161bc67eabc8790221310aeb81e2478579ee04"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_1ed664b5ab4166e9.wav",
+      "sha256": "4c057499ecc5f974d09ff2b1b1eea27c37c26454c076afe10dfcb787c9a4b102"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_372cac844cf777bb.wav",
+      "sha256": "8e88a1c37f001545bbe6591526de8adab063aece83b087d21d82e1cc4a715268"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6178177565c27272.wav",
+      "sha256": "441d014371550e3f5bdb50bec984a5bb0c332d6fa983fb70eae9b2259b72f570"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_67761e9a257d42c6.wav",
+      "sha256": "ea6e5a46e101858827cd8b3d304a81503a27f31b53b4a50fb038c46d880755d4"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6946e88790751157.wav",
+      "sha256": "493d740410dac8aaa9c9e5aec975e36a6c953d6e4c9147be309f94637b640c7b"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7205c12aa734eedc.wav",
+      "sha256": "206aa8dae4cbb0ffe18cd55f0755aa5214c60ec1844140250e7520deef4cf56f"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4dd5b09d00a0fdac.wav",
+      "sha256": "7fb7d765fa5a0ab100231f57159e6d307b8dbd5311db3f43fef0b489a383b947"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_75c5d35335f9d44b.wav",
+      "sha256": "e0b98ded23881fb1dd46d0c3826d1575738a5ee0522fcd36fb7d1114e08d10c0"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_29912e457e63a46e.wav",
+      "sha256": "ded3e026ced14805bb9d3f7491d3a2139101c046c59b2eeff6c80d4e61737e25"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_327825d38f65c736.wav",
+      "sha256": "58412f27a9bc26de2014ec0de456e2ce3c91603a326203d85af00a86e5d3293e"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_36de36b8a85325eb.wav",
+      "sha256": "7ad60cc260cb3f8d792153a5091045590597ef1998dd4471ba79d76ef84113af"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4031c4c48a1f37df.wav",
+      "sha256": "33acfb7eb44ab266a9856e382fd43e914ca57fe31f4b76466b204f3f7d6515c5"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_5337574b68f5e960.wav",
+      "sha256": "557bccdb516d9c6fad2a60f2919e32b620307ef7bd1137e59e79965780ea6345"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_558944c0d158b71.wav",
+      "sha256": "c8525b52b918072bcab196c80eb100339b7d1b691b22319bdb04384d99997159"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6edb50d1f4fa66bd.wav",
+      "sha256": "f14016fabeb98d0a640f4fe3b5498a10ce4ecf2e6f4bf9bb2de5192f2a2a8343"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6f3d6959d9631514.wav",
+      "sha256": "b16f213953a91c7c1d0461df77a4557823af3d3ba06cab78fea2cdc858f22be8"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_764ee8121993dc41.wav",
+      "sha256": "8d7c6fc4c89bdcfb38bedee6cf75a64993ee5196605545a92b416ea0d1b6fac9"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7733b556dd866eda.wav",
+      "sha256": "85c8a87d56fec03c284dfdedd0ba0f1e0e4728b077df7c2b7c64f0adea1709dc"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7f56869abda5e084.wav",
+      "sha256": "0bf98ec2465592ee123d66e9aafd04f0672778d982bf63855d12e2b914f36475"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_a065d30809b73e3.wav",
+      "sha256": "3062298aca86a9caf6a194a2b3efb02d772f712585332f3d5a285ba695579e5f"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_23060af59dbda31.wav",
+      "sha256": "efc4d81f56b4926a14d58e7da905f57800f1ccf90c4fab94e2ca344fd12a339e"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_32446185a049dfa3.wav",
+      "sha256": "d6a0b0092049cf0bfd8d1a2346d4bd3e86cce0366a9dc3d06f909b164f132fde"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_336c62bd0527302e.wav",
+      "sha256": "b3c1d741acfd98e5b44ae54b540605752933094617abf5a09d7551eabaa4bbcf"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_3e43f743f65a4587.wav",
+      "sha256": "3b93177fe508a47eb89816d0f288907d64aa1616e770cbd7e309828360b51f3a"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_51fa5b9ba0a5aa20.wav",
+      "sha256": "e3c5c707c0200a62811a1f9412111034a631cf31f27ab2dec00233c47df2d6cd"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6714d409ad1606f0.wav",
+      "sha256": "62129250d010905d520e7051bc8ca5e697fb338ec19051d6c98abcea1622171d"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6fe7b05512e11144.wav",
+      "sha256": "b8c30753b8abaf27df22559538f79d072d5391e55b72558f28d8b7ce8ffb474a"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_70a681ba276b479a.wav",
+      "sha256": "baac7a9fba58bcbea366a282355e11bbbafc815e607e06d832c081d77ad203bb"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7546a9de5edf0a62.wav",
+      "sha256": "f92a59b08d32ea774703e86f7a4dc112d130edc8a2b9caf7bd7ec55a96e68421"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_76cc4d5c90d6337d.wav",
+      "sha256": "1bda5ad8abd70f6f79f9d41cf7d6c2ff2b10a7937d625e4bdd4e0242c6df9e38"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_76eef940fbc64a9f.wav",
+      "sha256": "1e904c14dc748e71cb505c29abd97ff373c655a23a3f503862396681e5ffdf37"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_29912e457e63a46e.wav",
+      "sha256": "ded3e026ced14805bb9d3f7491d3a2139101c046c59b2eeff6c80d4e61737e25"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_327825d38f65c736.wav",
+      "sha256": "58412f27a9bc26de2014ec0de456e2ce3c91603a326203d85af00a86e5d3293e"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_36de36b8a85325eb.wav",
+      "sha256": "7ad60cc260cb3f8d792153a5091045590597ef1998dd4471ba79d76ef84113af"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4031c4c48a1f37df.wav",
+      "sha256": "33acfb7eb44ab266a9856e382fd43e914ca57fe31f4b76466b204f3f7d6515c5"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_5337574b68f5e960.wav",
+      "sha256": "557bccdb516d9c6fad2a60f2919e32b620307ef7bd1137e59e79965780ea6345"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_558944c0d158b71.wav",
+      "sha256": "c8525b52b918072bcab196c80eb100339b7d1b691b22319bdb04384d99997159"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6edb50d1f4fa66bd.wav",
+      "sha256": "f14016fabeb98d0a640f4fe3b5498a10ce4ecf2e6f4bf9bb2de5192f2a2a8343"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6f3d6959d9631514.wav",
+      "sha256": "b16f213953a91c7c1d0461df77a4557823af3d3ba06cab78fea2cdc858f22be8"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_764ee8121993dc41.wav",
+      "sha256": "8d7c6fc4c89bdcfb38bedee6cf75a64993ee5196605545a92b416ea0d1b6fac9"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7733b556dd866eda.wav",
+      "sha256": "85c8a87d56fec03c284dfdedd0ba0f1e0e4728b077df7c2b7c64f0adea1709dc"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_7f56869abda5e084.wav",
+      "sha256": "0bf98ec2465592ee123d66e9aafd04f0672778d982bf63855d12e2b914f36475"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_a065d30809b73e3.wav",
+      "sha256": "3062298aca86a9caf6a194a2b3efb02d772f712585332f3d5a285ba695579e5f"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_24b2d0bb76f645d3.wav",
+      "sha256": "dd56554cb1888e281886ecd3ab9b6b7241088df1e8f0988203ac0d7bb1d2ddee"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_1dbaf29f5046799c.wav",
+      "sha256": "d3c8e41fde7ed078111d805bed4db457cf45b58a8ef71ef896e30320e1ec93ad"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_4d4a9104ac7fe7bb.wav",
+      "sha256": "6fe9c2c945d69020a282896557de47a8f4f406a4afb3f17dc9d2de94b903f5c9"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_6105be50dd61ec89.wav",
+      "sha256": "db93c696aa4cbed7cae0a09714fb81226839dc181664b613c2d454589970ecbf"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_f430a60a4493266.wav",
+      "sha256": "4c3cec5249e93ec873c4ef3a39fb677daa057c9bb7e73003deff4029e7ceef3a"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_3e18fcf6ebd1e659.wav",
+      "sha256": "a19266bc138c6624378c74596462588b842856af72275d8169082cd84666ed8c"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_41f79ebd40cebb0b.wav",
+      "sha256": "b8da311d8824a03c825f39ad31f97c2a854e5ce0809993afc69e5dd2266483fe"
+    },
+    {
+      "file": "sound_assets/hb/bo6_enemies/sound_649d75409ee583f6.wav",
+      "sha256": "49acf051dde03f2838713171ec64c8c1f36432b8d6154d7c017fae4b5011d41f"
+    }
+  ],
+  "compiled_models": {
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_body": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_body",
+      "refs": "1",
+      "radius": "104.93",
+      "onePixelDist": "135425.92",
+      "lodCount": "1",
+      "verts0": "7548",
+      "tris0": "10966",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead",
+      "refs": "1",
+      "radius": "26.12",
+      "onePixelDist": "33713.69",
+      "lodCount": "1",
+      "verts0": "264",
+      "tris0": "296",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff",
+      "refs": "1",
+      "radius": "48.53",
+      "onePixelDist": "62638.00",
+      "lodCount": "1",
+      "verts0": "1059",
+      "tris0": "1410",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff",
+      "refs": "1",
+      "radius": "104.93",
+      "onePixelDist": "135425.92",
+      "lodCount": "1",
+      "verts0": "3979",
+      "tris0": "6100",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff",
+      "refs": "1",
+      "radius": "66.12",
+      "onePixelDist": "85337.45",
+      "lodCount": "1",
+      "verts0": "2201",
+      "tris0": "2842",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean",
+      "refs": "1",
+      "radius": "66.12",
+      "onePixelDist": "85337.45",
+      "lodCount": "1",
+      "verts0": "2975",
+      "tris0": "3646",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff",
+      "refs": "1",
+      "radius": "104.93",
+      "onePixelDist": "135425.92",
+      "lodCount": "1",
+      "verts0": "3964",
+      "tris0": "6072",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff",
+      "refs": "1",
+      "radius": "66.12",
+      "onePixelDist": "85337.40",
+      "lodCount": "1",
+      "verts0": "1813",
+      "tris0": "2214",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean",
+      "refs": "1",
+      "radius": "104.93",
+      "onePixelDist": "135425.92",
+      "lodCount": "1",
+      "verts0": "4600",
+      "tris0": "7320",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn",
+      "refs": "1",
+      "radius": "27.41",
+      "onePixelDist": "35379.09",
+      "lodCount": "1",
+      "verts0": "1006",
+      "tris0": "1616",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn",
+      "refs": "1",
+      "radius": "37.63",
+      "onePixelDist": "48570.75",
+      "lodCount": "1",
+      "verts0": "887",
+      "tris0": "896",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn",
+      "refs": "1",
+      "radius": "27.42",
+      "onePixelDist": "35385.25",
+      "lodCount": "1",
+      "verts0": "1015",
+      "tris0": "1632",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn": {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn",
+      "refs": "1",
+      "radius": "37.63",
+      "onePixelDist": "48570.75",
+      "lodCount": "1",
+      "verts0": "1478",
+      "tris0": "1698",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_charcoal_c_zom_dlc4_zombie_charred_head": {
+      "name": "tod_charcoal_c_zom_dlc4_zombie_charred_head",
+      "refs": "1",
+      "radius": "122.46",
+      "onePixelDist": "158055.16",
+      "lodCount": "1",
+      "verts0": "1505",
+      "tris0": "1858",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "tod_doppelgast_black_robot": {
+      "name": "tod_doppelgast_black_robot",
+      "refs": "1",
+      "radius": "202.97",
+      "onePixelDist": "261966.48",
+      "lodCount": "1",
+      "verts0": "41501",
+      "tris0": "72736",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    },
+    "hb_bo6_mangler": {
+      "name": "hb_bo6_mangler",
+      "refs": "1",
+      "radius": "146.23",
+      "onePixelDist": "188739.61",
+      "lodCount": "1",
+      "verts0": "68789",
+      "tris0": "96220",
+      "verts1": null,
+      "tris1": null,
+      "verts2": null,
+      "tris2": null,
+      "verts3": null,
+      "tris3": null,
+      "verts4": null,
+      "tris4": null,
+      "verts5": null,
+      "tris5": null,
+      "verts6": null,
+      "tris6": null,
+      "verts7": null,
+      "tris7": null
+    }
+  },
+  "sound_banks": [
+    {
+      "file": "snd/all/zm_tod2_cybercity.all.sabl",
+      "bytes": 114259840,
+      "time": "2026-09-25T12:26:33.826089"
+    },
+    {
+      "file": "snd/all/zm_tod2_cybercity.all.sabs",
+      "bytes": 209338496,
+      "time": "2026-09-25T12:26:32.042974"
+    },
+    {
+      "file": "snd/en/zm_tod2_cybercity.en.sabl",
+      "bytes": 2048,
+      "time": "2026-09-25T12:26:54.680447"
+    },
+    {
+      "file": "snd/en/zm_tod2_cybercity.en.sabs",
+      "bytes": 2048,
+      "time": "2026-09-25T12:26:54.677099"
+    }
+  ],
+  "charcoal_eyes": {
+    "materialType": "lit_emissive",
+    "colorMap": "i_tod_charcoal_mtl_char_rus_zombie_eyes",
+    "colorMap00": "i_tod_charcoal_mtl_char_rus_zombie_eyes",
+    "colorTint": "1 0 0 1",
+    "colorTint1": "1 0 0 1",
+    "scaleRGB": 16.0
+  },
+  "source_palette_verified": true,
+  "game_launched": false,
+  "native_visual_verified": false,
+  "native_gameplay_verified": false
+}

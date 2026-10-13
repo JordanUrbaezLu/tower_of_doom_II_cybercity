@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "before": {
+    "tools/gen_tower_map.js": "4bc79ed3d9f428bf76b75434606af1a61161ed2f64ddfbbdb35e369bcdcb79fe",
+    "zone_source/zm_tod2_cybercity.zone": "f28c21c11e85ffc8a03096dc911252e3c4cc87ba401f61012b7a34264333caf2",
+    "tools/build_map.ps1": "c7586a7778d617cfccc4b8d920d90f430b947a88f747ddeca7646ce67e1e9c77"
+  },
+  "before_copies": "tmp/dealer_presence_wiring/1790786426458616000",
+  "after": {
+    "tools/gen_tower_map.js": "76c4218da0460b74c1ca0f91ec7198709e1631149364ac8d02c03c217f68308c",
+    "zone_source/zm_tod2_cybercity.zone": "94556c04c7d41a2652ea7591d336e4dad91b81ec533f2460b29032afbe69afc5",
+    "tools/build_map.ps1": "e2e05da69f4357b36da7c9d7b522dcbac8ac872e5da6e108ecdf59860b08a08a",
+    "map_source/zm/zm_tod2_cybercity.map": "1680ccf026f32e89ae16f05e7874050a92f82dec99cbbea7775e70d7fa610e43"
+  },
+  "native_build_run": false,
+  "sync_allowlist_correction": {
+    "receipt": "art/dealer_presence/sync_integration.json",
+    "sha256": "d406a6706c2363c3017e361d417a860d527d4499f715f892f276c89475d9fc03"
+  }
+}

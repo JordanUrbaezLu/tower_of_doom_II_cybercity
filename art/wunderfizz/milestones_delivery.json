@@ -1,0 +1,462 @@
+{
+  "status": "Corrected four-haven default FULL BUILD OK; user native playtest pending",
+  "ff": {
+    "verified_at": "2026-10-08T15:23:14.481182-04:00",
+    "ff_bytes": 220396416,
+    "ff_sha256": "6adf2e8fdc9d0a86493f2a0ea8c9e822b568f3f0e8232c1e251c450af52cf554",
+    "ff_time": "2026-10-08T15:20:49.643704-04:00",
+    "source_inputs": 291,
+    "floor_count": 4,
+    "machine_count": 4,
+    "floors": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "placement": {
+      "machine_count": 4,
+      "floor_count": 4,
+      "floors": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "inside_existing_haven_domes": true,
+      "generated_gsc_matches_layout": true,
+      "purchaser_nav_probes_required": 12,
+      "haven_route_connections_required": 4,
+      "layout_source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\wunderfizz_layout.js",
+      "layout_source_sha256": "614336dfd9db569e7b2c4fae221381b91f1c44652fb514a3bbb5138a15adc70b",
+      "generated_data": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_data.gsc",
+      "generated_data_sha256": "f953b4222392627dd1d4368acdc895235c050b5f71ecb7d768ddd5174ceea460"
+    },
+    "retired_individual_machine_structs": 9,
+    "all_fourteen_native_lods_verified": true,
+    "complete_material_tables_verified": true,
+    "original_glass_alpha_mips_verified": 13,
+    "original_machine_pcm_files": 7,
+    "failures": [],
+    "postbuild_peer_source_changes": [],
+    "shipping_snapshot_and_private_deployment_match": true,
+    "wunderfizz_source_still_matches_deployment": true,
+    "game_launched": false,
+    "native_playtest": "Pending; the user tests appearance, audio, controls, drink flow and diagnostic output."
+  },
+  "native_geometry": {
+    "zm_tod2_cybercity.d3dbsp": {
+      "sha256": "be573f5327461043ea1c4ce253048542be76d60e815b089807a6b78ac19a2cdb",
+      "bytes": 11543476,
+      "mtime": "2026-10-08T15:16:43.883405-04:00"
+    },
+    "zm_tod2_cybercity.led": {
+      "sha256": "09dc56340370ce331ead51e2caa86f2aae12e238c515b410a555c78ad3acc7c2",
+      "bytes": 245384506,
+      "mtime": "2026-10-08T15:18:33.141651-04:00"
+    },
+    "zm_tod2_cybercity_navmesh.hkt": {
+      "sha256": "9d5ae62724ecb045597a9627c2a703c5c0f49b594884ad3e9d3300d40e7084cb",
+      "bytes": 98899,
+      "mtime": "2026-10-08T15:16:43.862213-04:00"
+    }
+  },
+  "nav": {
+    "rows": [
+      {
+        "floor": 10,
+        "route": [
+          92,
+          92,
+          3650
+        ],
+        "routeFace": 829,
+        "probes": [
+          [
+            17.476,
+            -69.07900000000001,
+            3650
+          ],
+          [
+            3.62,
+            -61.079,
+            3650
+          ],
+          [
+            -10.236,
+            -53.079,
+            3650
+          ]
+        ],
+        "probeFaces": [
+          833,
+          497,
+          497
+        ],
+        "component": 17
+      },
+      {
+        "floor": 20,
+        "route": [
+          92,
+          92,
+          7490
+        ],
+        "routeFace": 828,
+        "probes": [
+          [
+            17.476,
+            -69.07900000000001,
+            7490
+          ],
+          [
+            3.62,
+            -61.079,
+            7490
+          ],
+          [
+            -10.236,
+            -53.079,
+            7490
+          ]
+        ],
+        "probeFaces": [
+          831,
+          500,
+          500
+        ],
+        "component": 14
+      },
+      {
+        "floor": 30,
+        "route": [
+          92,
+          92,
+          11330
+        ],
+        "routeFace": 826,
+        "probes": [
+          [
+            17.476,
+            -69.07900000000001,
+            11330
+          ],
+          [
+            3.62,
+            -61.079,
+            11330
+          ],
+          [
+            -10.236,
+            -53.079,
+            11330
+          ]
+        ],
+        "probeFaces": [
+          832,
+          499,
+          499
+        ],
+        "component": 11
+      },
+      {
+        "floor": 40,
+        "route": [
+          92,
+          92,
+          15170
+        ],
+        "routeFace": 827,
+        "probes": [
+          [
+            17.476,
+            -69.07900000000001,
+            15170
+          ],
+          [
+            3.62,
+            -61.079,
+            15170
+          ],
+          [
+            -10.236,
+            -53.079,
+            15170
+          ]
+        ],
+        "probeFaces": [
+          834,
+          498,
+          498
+        ],
+        "component": 8
+      }
+    ],
+    "bad": [],
+    "checked": 4,
+    "probes": 12
+  },
+  "glass_alpha": {
+    "asset": "i_t10_zm_machine_wunderfizz_glass_c",
+    "selected_cache": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_t10_zm_machine_wunderfizz_glass_c_OZSTHAPCUZZLGWIBP7INP6AUU4.iwi",
+    "sha256": "2d6c5d23680d64254000377bd3d555c3d9dd25869fa59e63b3f6e1e7fbd387ab",
+    "compression": "uncompressed RGBA8 sRGB alpha-capable",
+    "native_iwi_format": 14,
+    "channel_order": "RGBA",
+    "base_alpha_byte_exact": true,
+    "base_rgba_byte_exact": true,
+    "maximum_alpha_error_limit": 1,
+    "mean_alpha_error_limit": 2,
+    "p99_alpha_error_limit": 12,
+    "mips": [
+      {
+        "level": 0,
+        "size": [
+          4096,
+          4096
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.0,
+        "p99_alpha_error": 0.0,
+        "maximum_alpha_error": 0
+      },
+      {
+        "level": 1,
+        "size": [
+          2048,
+          2048
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.022021055221557617,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 2,
+        "size": [
+          1024,
+          1024
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.02440166473388672,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 3,
+        "size": [
+          512,
+          512
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.06111907958984375,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 4,
+        "size": [
+          256,
+          256
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.0386505126953125,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 5,
+        "size": [
+          128,
+          128
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.033935546875,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 6,
+        "size": [
+          64,
+          64
+        ],
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.03466796875,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 7,
+        "size": [
+          32,
+          32
+        ],
+        "alpha_min": 4,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.0439453125,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 8,
+        "size": [
+          16,
+          16
+        ],
+        "alpha_min": 27,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.04296875,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 9,
+        "size": [
+          8,
+          8
+        ],
+        "alpha_min": 75,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.015625,
+        "p99_alpha_error": 0.36999999999999744,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 10,
+        "size": [
+          4,
+          4
+        ],
+        "alpha_min": 148,
+        "alpha_max": 255,
+        "mean_alpha_error": 0.125,
+        "p99_alpha_error": 1.0,
+        "maximum_alpha_error": 1
+      },
+      {
+        "level": 11,
+        "size": [
+          2,
+          2
+        ],
+        "alpha_min": 178,
+        "alpha_max": 245,
+        "mean_alpha_error": 0.0,
+        "p99_alpha_error": 0.0,
+        "maximum_alpha_error": 0
+      },
+      {
+        "level": 12,
+        "size": [
+          1,
+          1
+        ],
+        "alpha_min": 210,
+        "alpha_max": 210,
+        "mean_alpha_error": 0.0,
+        "p99_alpha_error": 0.0,
+        "maximum_alpha_error": 0
+      }
+    ]
+  },
+  "source_gate_log": "tmp/wunderfizz/milestones/gates.log",
+  "full_build_log": "tmp/wunderfizz/milestones/full_build.log",
+  "candidate_review": {
+    "status": "staged validation passed",
+    "time": "2026-10-07T15:20:23.199821-04:00",
+    "live_inputs_unchanged": true,
+    "staged_files_sha256": {
+      "tools/wunderfizz/test_layout.js": "1828d47e518a4a43d0a27b7aa0d7c54b4d14c7a7661b19208442a7f72a8f348d",
+      "tools/wunderfizz/native_navcheck.js": "32fdfff484773b305c6c5946fade25b7b62de453e7abeaafa657c96a86ad45bd"
+    },
+    "layout_candidate_sha256": {
+      "tmp/wunderfizz/milestones/layout/staged_sources/tools/wunderfizz_layout.js": "614336dfd9db569e7b2c4fae221381b91f1c44652fb514a3bbb5138a15adc70b",
+      "tmp/wunderfizz/milestones/layout/staged_sources/tools/gen_tower_map.js": "212835b088bdc8bcb042d13077906ac3c896be29bb916a5423a22fad297c29b5",
+      "tmp/wunderfizz/milestones/layout/generated/map_source/zm/zm_tod2_cybercity.map": "20dd13b359ae0fa45f3545405a518a3c26421e88a8797283a3ce514f848b220c",
+      "tmp/wunderfizz/milestones/layout/generated/scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_data.gsc": "f953b4222392627dd1d4368acdc895235c050b5f71ecb7d768ddd5174ceea460"
+    },
+    "original_asset_manifest_sha256": "994390e2f4f76763e0a17a38d7739b574460c2262d688208d97dcee5e5ebff5c",
+    "haven_layout_sha256": "72615ab0e4e36b872f2b502cb18d29e9c025783c3a6f14dcab0e1a789ad76efd",
+    "static_checks": {
+      "passed": 27,
+      "failed": 0
+    },
+    "native_selftest": {
+      "passed": true,
+      "haven_floors": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "standing_probes": 12,
+      "negative_controls": [
+        "missing native probe mesh",
+        "disconnected purchaser component",
+        "missing haven",
+        "extra non-haven machine",
+        "unexpected floor",
+        "detached floor height",
+        "outside-dome body and probes",
+        "wrong facing",
+        "expanded animated bounds"
+      ]
+    },
+    "preserved_contracts": [
+      "all14 original LODs",
+      "all121 activationframes",
+      "exact source bounds",
+      "8 original collision hulls",
+      "24 directed stock drop anchors",
+      "crown jump route",
+      "crown PaP anchor/orientation",
+      "floor20 Dealer portrait",
+      "parent transit/arena/Dealer gates"
+    ],
+    "precorrection_native_mesh_check": {
+      "hkt": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\maps\\zm\\zm_tod2_cybercity_navmesh.hkt",
+      "sha256": "8732b36f42a49f868605eadb725fb92a90086f7e02e457938c506ed2fc2ac24c",
+      "passed": true,
+      "four_existing_haven_connections": true,
+      "probes": 12,
+      "all_parent_route_gates_passed": true,
+      "scope": "Completed15:04 delivery mesh with four unchanged haven anchors. New regenerated geometry must pass guarded fresh native build."
+    },
+    "shipping_source_or_native_written": false,
+    "blender_or_game_launched": false
+  },
+  "dealer_context": {
+    "same": true,
+    "liveSha256": "622078d654f4176974b664e036e93812c95761dcc86b0cdeaea183a7be54c437",
+    "candidateSha256": "622078d654f4176974b664e036e93812c95761dcc86b0cdeaea183a7be54c437",
+    "scenes": [
+      {
+        "id": "crown_junction",
+        "same": true,
+        "before": 18,
+        "after": 18
+      },
+      {
+        "id": "floor20_service",
+        "same": true,
+        "before": 112,
+        "after": 112
+      },
+      {
+        "id": "lower_power_corridor",
+        "same": true,
+        "before": 4,
+        "after": 4
+      }
+    ]
+  },
+  "game_launched": false
+}

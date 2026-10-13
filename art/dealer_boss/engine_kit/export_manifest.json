@@ -1,0 +1,876 @@
+{
+ "master": "art/dealer_boss/dealer_boss.blend",
+ "master_sha256": "5debd912203ecd0775803e0c5f3f54702f912ee90c432d22271968be679d9395",
+ "stage": "10_state2_mask",
+ "donor": "model_export/tod_keeper/c_zom_dlc4_keeper_fb.XMODEL_BIN",
+ "donor_sha256": "c03c280598101c848a642b286d9c23ecd10bc3df80599f01003a177a9506c387",
+ "bones": 145,
+ "bone_names": [
+  "tag_origin",
+  "j_mainroot",
+  "tag_aim",
+  "tag_sync",
+  "j_hip_le",
+  "j_hip_ri",
+  "j_hipbackpush_le",
+  "j_hipbackpush_ri",
+  "j_hipfrontraise_le",
+  "j_hipfrontraise_ri",
+  "j_robe_back_01",
+  "j_robe_front_01",
+  "j_spinelower",
+  "j_hipslidedown_le",
+  "j_hiptwist_le",
+  "j_knee_le",
+  "j_robe_01_le",
+  "j_robe_02_le",
+  "j_robe_back_01_le",
+  "j_robe_back_02_le",
+  "j_robe_front_01_le",
+  "j_robe_front_02_le",
+  "j_hipslidedown_ri",
+  "j_hiptwist_ri",
+  "j_knee_ri",
+  "j_robe_01_ri",
+  "j_robe_02_ri",
+  "j_robe_back_01_ri",
+  "j_robe_back_02_ri",
+  "j_robe_front_01_ri",
+  "j_robe_front_02_ri",
+  "j_robe_back_02",
+  "j_robe_front_02",
+  "j_spineupper",
+  "j_ankle_le",
+  "j_knee_bulge_le",
+  "j_robe_03_le",
+  "j_robe_04_le",
+  "j_robe_back_03_le",
+  "j_robe_back_04_le",
+  "j_robe_front_03_le",
+  "j_robe_front_04_le",
+  "j_ring_01_le",
+  "j_ring_02_le",
+  "j_ankle_ri",
+  "j_knee_bulge_ri",
+  "j_robe_03_ri",
+  "j_robe_04_ri",
+  "j_robe_back_03_ri",
+  "j_robe_back_04_ri",
+  "j_robe_front_03_ri",
+  "j_robe_front_04_ri",
+  "j_ring_01_ri",
+  "j_ring_02_ri",
+  "j_robe_back_03",
+  "j_robe_front_03",
+  "j_spine4",
+  "j_ball_le",
+  "j_ball_ri",
+  "j_robe_front_04",
+  "j_clavicle_le",
+  "j_clavicle_ri",
+  "j_neck",
+  "j_shoulderraise_le",
+  "j_shoulderraise_ri",
+  "j_shoulderraiserot_le",
+  "j_shoulderraiserot_ri",
+  "tag_stowed_back",
+  "tag_weapon_chest",
+  "j_shoulder_le",
+  "j_shoulder_ri",
+  "j_neck2",
+  "j_elbow_le",
+  "j_shoulderpushout_le",
+  "j_shoulderslidedown_le",
+  "j_shouldertwist_le",
+  "j_elbow_ri",
+  "j_shoulderpushout_ri",
+  "j_shoulderslidedown_ri",
+  "j_shouldertwist_ri",
+  "j_head",
+  "j_elbow_bulge_le",
+  "j_wrist_le",
+  "j_wristtwist1_le",
+  "j_wristtwist2_le",
+  "j_wristtwist3_le",
+  "j_wristtwist4_le",
+  "j_wristtwist5_le",
+  "j_wristtwist6_le",
+  "j_wristtwist_le",
+  "j_elbow_bulge_ri",
+  "j_wrist_ri",
+  "j_wristtwist1_ri",
+  "j_wristtwist2_ri",
+  "j_wristtwist3_ri",
+  "j_wristtwist4_ri",
+  "j_wristtwist5_ri",
+  "j_wristtwist6_ri",
+  "j_wristtwist_ri",
+  "j_helmet",
+  "j_keeper_jaw",
+  "tag_eye",
+  "j_index_le_1",
+  "j_mid_le_1",
+  "j_pinkybase_le",
+  "j_ringbase_le",
+  "j_thumb_le_1",
+  "tag_weapon_left",
+  "j_wristcrease_le",
+  "j_index_ri_1",
+  "j_mid_ri_1",
+  "j_pinkybase_ri",
+  "j_ringbase_ri",
+  "j_thumb_ri_1",
+  "tag_inhand",
+  "tag_weapon_right",
+  "j_wristcrease_ri",
+  "j_tongue_01",
+  "j_index_le_2",
+  "j_mid_le_2",
+  "j_pinky_le_1",
+  "j_ring_le_1",
+  "j_thumb_le_2",
+  "j_index_ri_2",
+  "j_mid_ri_2",
+  "j_pinky_ri_1",
+  "j_ring_ri_1",
+  "j_thumb_ri_2",
+  "j_tongue_02",
+  "j_index_le_3",
+  "j_mid_le_3",
+  "j_pinky_le_2",
+  "j_ring_le_2",
+  "j_thumb_le_3",
+  "j_index_ri_3",
+  "j_mid_ri_3",
+  "j_pinky_ri_2",
+  "j_ring_ri_2",
+  "j_thumb_ri_3",
+  "j_tongue_03",
+  "j_pinky_le_3",
+  "j_ring_le_3",
+  "j_pinky_ri_3",
+  "j_ring_ri_3",
+  "j_tongue_04"
+ ],
+ "groups": {
+  "body": {
+   "material": "mtl_tod_dealer_body",
+   "atlas": 4096,
+   "images": {
+    "n": "i_tod_dealer_body_n.png",
+    "c": "i_tod_dealer_body_c.png",
+    "s": "i_tod_dealer_body_s.png",
+    "g": "i_tod_dealer_body_g.png",
+    "e": "i_tod_dealer_body_e.png"
+   }
+  },
+  "head": {
+   "material": "mtl_tod_dealer_head",
+   "atlas": 2048,
+   "images": {
+    "n": "i_tod_dealer_head_n.png",
+    "c": "i_tod_dealer_head_c.png",
+    "s": "i_tod_dealer_head_s.png",
+    "g": "i_tod_dealer_head_g.png",
+    "e": "i_tod_dealer_head_e.png"
+   }
+  },
+  "hands": {
+   "material": "mtl_tod_dealer_hands",
+   "atlas": 2048,
+   "images": {
+    "n": "i_tod_dealer_hands_n.png",
+    "c": "i_tod_dealer_hands_c.png",
+    "s": "i_tod_dealer_hands_s.png",
+    "g": "i_tod_dealer_hands_g.png",
+    "e": "i_tod_dealer_hands_e.png"
+   }
+  }
+ },
+ "scythe": {
+  "material": "mtl_tod_dealer_scythe",
+  "atlas": 1024,
+  "images": {
+   "n": "i_tod_dealer_scythe_n.png",
+   "c": "i_tod_dealer_scythe_c.png",
+   "s": "i_tod_dealer_scythe_s.png",
+   "g": "i_tod_dealer_scythe_g.png",
+   "e": "i_tod_dealer_scythe_e.png"
+  }
+ },
+ "states": {
+  "masked": "tod_dealer",
+  "cracked": "tod_dealer_cracked"
+ },
+ "emission_scale": 6.0,
+ "max_weights": 4,
+ "lods": [
+  {
+   "model": "tod_dealer",
+   "lod": 0,
+   "ratio": 1.0,
+   "file": "model_export/tod_dealer/tod_dealer_lod0.xmodel_bin",
+   "sha256": "b95ba601b99b3fab95ced834ffac61b87c2d468e70a5f73c588ef9f1fad4bbbc",
+   "meshes": {
+    "body": {
+     "faces": 51126,
+     "verts": 26216,
+     "slivers": 4,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 31815,
+     "verts": 16242,
+     "slivers": 129,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 12006
+    },
+    "hands": {
+     "faces": 16160,
+     "verts": 8372,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 99101,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 0,
+   "ratio": 1.0,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod0.xmodel_bin",
+   "sha256": "bf9461139c4b6e6e41d01ee172547df3877af697b827639eefb97837d15143c5",
+   "meshes": {
+    "body": {
+     "faces": 51126,
+     "verts": 26216,
+     "slivers": 4,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 32913,
+     "verts": 17052,
+     "slivers": 129,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 10908
+    },
+    "hands": {
+     "faces": 16160,
+     "verts": 8372,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 100199,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 0,
+   "ratio": 1.0,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod0.xmodel_bin",
+   "sha256": "aef0e59018968f642f0c3112628edbb4cb2639cc822527ff05a73b7e674c8fab",
+   "meshes": {
+    "scythe": {
+     "faces": 1520,
+     "verts": 857,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 1520,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 1,
+   "ratio": 0.55,
+   "file": "model_export/tod_dealer/tod_dealer_lod1.xmodel_bin",
+   "sha256": "8bf7f860a8492a9e048d3837abe14c5ae53227f836eee6daa0a15b41319c6411",
+   "meshes": {
+    "body": {
+     "faces": 28120,
+     "verts": 14595,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 18822,
+     "verts": 9663,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 5350
+    },
+    "hands": {
+     "faces": 8887,
+     "verts": 4734,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 55829,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 1,
+   "ratio": 0.55,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod1.xmodel_bin",
+   "sha256": "10024be033423300e47f97dc16bf7d573117e1bb6f89a83bbe39e681db2083b0",
+   "meshes": {
+    "body": {
+     "faces": 28120,
+     "verts": 14595,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 19876,
+     "verts": 10381,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 4296
+    },
+    "hands": {
+     "faces": 8887,
+     "verts": 4734,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 56883,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 1,
+   "ratio": 0.55,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod1.xmodel_bin",
+   "sha256": "1d816be1aa911b00f8ebf68a5c8e610ed8713b5adbc28ec5ebca5c519f7dc324",
+   "meshes": {
+    "scythe": {
+     "faces": 836,
+     "verts": 488,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 836,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 2,
+   "ratio": 0.28,
+   "file": "model_export/tod_dealer/tod_dealer_lod2.xmodel_bin",
+   "sha256": "53ba01288e24ea837e8613a43e2af771ea2c58d6cd24dcbd9df0f463d0e93ebf",
+   "meshes": {
+    "body": {
+     "faces": 14316,
+     "verts": 7530,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 9678,
+     "verts": 5014,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 2627
+    },
+    "hands": {
+     "faces": 4523,
+     "verts": 2476,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 28517,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 2,
+   "ratio": 0.28,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod2.xmodel_bin",
+   "sha256": "8fadc9190141c979e2ac3a3f2c074d872a7d230056a278b06a49cbc18d0338ca",
+   "meshes": {
+    "body": {
+     "faces": 14316,
+     "verts": 7530,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 10333,
+     "verts": 5454,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 1972
+    },
+    "hands": {
+     "faces": 4523,
+     "verts": 2476,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 29172,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 2,
+   "ratio": 0.28,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod2.xmodel_bin",
+   "sha256": "1081233627ee40a44ea66b9a9c3946c5fa283555c76968edc7160ae23664fe92",
+   "meshes": {
+    "scythe": {
+     "faces": 424,
+     "verts": 258,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 424,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 3,
+   "ratio": 0.14,
+   "file": "model_export/tod_dealer/tod_dealer_lod3.xmodel_bin",
+   "sha256": "116133a089c1dfa46089308e22c166a34ce402f17992f25ce874048725e43a5f",
+   "meshes": {
+    "body": {
+     "faces": 7157,
+     "verts": 3865,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 4769,
+     "verts": 2507,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 1383
+    },
+    "hands": {
+     "faces": 2261,
+     "verts": 1300,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 14187,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 3,
+   "ratio": 0.14,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod3.xmodel_bin",
+   "sha256": "22f192b11e0fabe6572df28b930d124ebfe683b931097410ee044a5b2328d4e9",
+   "meshes": {
+    "body": {
+     "faces": 7157,
+     "verts": 3865,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 5229,
+     "verts": 2823,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 923
+    },
+    "hands": {
+     "faces": 2261,
+     "verts": 1300,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 14647,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 3,
+   "ratio": 0.14,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod3.xmodel_bin",
+   "sha256": "f8473353e3e8a090ee5716e7b40c780fa0b1363c8651524fbf0a87776b41199d",
+   "meshes": {
+    "scythe": {
+     "faces": 234,
+     "verts": 146,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 234,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 4,
+   "ratio": 0.075,
+   "file": "model_export/tod_dealer/tod_dealer_lod4.xmodel_bin",
+   "sha256": "cb6102a1a23ea0b095672657a07a0170cb9b09cc6fa080c74719015903f413e7",
+   "meshes": {
+    "body": {
+     "faces": 3833,
+     "verts": 2159,
+     "slivers": 0,
+     "normal_fallbacks": 18,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 2391,
+     "verts": 1300,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 905
+    },
+    "hands": {
+     "faces": 1212,
+     "verts": 747,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 7436,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 4,
+   "ratio": 0.075,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod4.xmodel_bin",
+   "sha256": "277c866cfa8d5923fd9746f1212b9780cb3c556ecd6898518704c3b75dd37405",
+   "meshes": {
+    "body": {
+     "faces": 3833,
+     "verts": 2159,
+     "slivers": 0,
+     "normal_fallbacks": 18,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 2760,
+     "verts": 1570,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 536
+    },
+    "hands": {
+     "faces": 1212,
+     "verts": 747,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 7805,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 4,
+   "ratio": 0.075,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod4.xmodel_bin",
+   "sha256": "f8473353e3e8a090ee5716e7b40c780fa0b1363c8651524fbf0a87776b41199d",
+   "meshes": {
+    "scythe": {
+     "faces": 234,
+     "verts": 146,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 234,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 5,
+   "ratio": 0.04,
+   "file": "model_export/tod_dealer/tod_dealer_lod5.xmodel_bin",
+   "sha256": "40c8139693e2ed761130fb00986683ca885e7d5947592b6aebb8984063f6f598",
+   "meshes": {
+    "body": {
+     "faces": 2045,
+     "verts": 1231,
+     "slivers": 0,
+     "normal_fallbacks": 92,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 1153,
+     "verts": 676,
+     "slivers": 0,
+     "normal_fallbacks": 18,
+     "state_faces_dropped": 604
+    },
+    "hands": {
+     "faces": 645,
+     "verts": 445,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 3843,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 5,
+   "ratio": 0.04,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod5.xmodel_bin",
+   "sha256": "cfd42922f525b50bfe2249c4e0f1d02b1b11aa821a62bf52bde38c2430bb0826",
+   "meshes": {
+    "body": {
+     "faces": 2045,
+     "verts": 1231,
+     "slivers": 0,
+     "normal_fallbacks": 92,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 1441,
+     "verts": 904,
+     "slivers": 0,
+     "normal_fallbacks": 24,
+     "state_faces_dropped": 316
+    },
+    "hands": {
+     "faces": 645,
+     "verts": 445,
+     "slivers": 0,
+     "normal_fallbacks": 0,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 4131,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 5,
+   "ratio": 0.04,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod5.xmodel_bin",
+   "sha256": "f8473353e3e8a090ee5716e7b40c780fa0b1363c8651524fbf0a87776b41199d",
+   "meshes": {
+    "scythe": {
+     "faces": 234,
+     "verts": 146,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 234,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  },
+  {
+   "model": "tod_dealer",
+   "lod": 6,
+   "ratio": 0.022,
+   "file": "model_export/tod_dealer/tod_dealer_lod6.xmodel_bin",
+   "sha256": "415e110d4d19f1f7389b950d3c6c0adf038a55fc7421227e27c0a17879e9cf06",
+   "meshes": {
+    "body": {
+     "faces": 1124,
+     "verts": 743,
+     "slivers": 0,
+     "normal_fallbacks": 110,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 496,
+     "verts": 344,
+     "slivers": 0,
+     "normal_fallbacks": 24,
+     "state_faces_dropped": 469
+    },
+    "hands": {
+     "faces": 354,
+     "verts": 286,
+     "slivers": 0,
+     "normal_fallbacks": 42,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 1974,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_cracked",
+   "lod": 6,
+   "ratio": 0.022,
+   "file": "model_export/tod_dealer/tod_dealer_cracked_lod6.xmodel_bin",
+   "sha256": "6b6138baaa04e4937016c4fe126cf11825d93e69eca0163ade2682a76fec94dc",
+   "meshes": {
+    "body": {
+     "faces": 1124,
+     "verts": 743,
+     "slivers": 0,
+     "normal_fallbacks": 110,
+     "state_faces_dropped": 0
+    },
+    "head": {
+     "faces": 737,
+     "verts": 534,
+     "slivers": 0,
+     "normal_fallbacks": 30,
+     "state_faces_dropped": 228
+    },
+    "hands": {
+     "faces": 354,
+     "verts": 286,
+     "slivers": 0,
+     "normal_fallbacks": 42,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 2215,
+   "materials": [
+    "mtl_tod_dealer_body",
+    "mtl_tod_dealer_head",
+    "mtl_tod_dealer_hands"
+   ]
+  },
+  {
+   "model": "tod_dealer_scythe",
+   "lod": 6,
+   "ratio": 0.022,
+   "file": "model_export/tod_dealer/tod_dealer_scythe_lod6.xmodel_bin",
+   "sha256": "f8473353e3e8a090ee5716e7b40c780fa0b1363c8651524fbf0a87776b41199d",
+   "meshes": {
+    "scythe": {
+     "faces": 234,
+     "verts": 146,
+     "slivers": 0,
+     "normal_fallbacks": 6,
+     "state_faces_dropped": 0
+    }
+   },
+   "triangles_total": 234,
+   "materials": [
+    "mtl_tod_dealer_scythe"
+   ]
+  }
+ ],
+ "textures": {
+  "i_tod_dealer_body_c.png": "91372f1e9b86dd622289aa18963213e2d19831bc585bd5c1da9f2afc90d47482",
+  "i_tod_dealer_body_e.png": "6d527467c5e10d6b1b5f3e5b4edaf0b63c2b437a6a7dc1bf21ffc6230429eaa6",
+  "i_tod_dealer_body_g.png": "b49c3b60149a8e612d0784b72aef6749a947fe67301d49362ca34ac944922bdb",
+  "i_tod_dealer_body_n.png": "59f4a3b4a06f239ccc1bb2e35d4a64caf2f490b3e5288227a24d88fcaea7e84f",
+  "i_tod_dealer_body_s.png": "9b90d0f1e18f0554d8474f2ccde8e1b9ed08b524476852c411abd9f6a7da28e3",
+  "i_tod_dealer_hands_c.png": "469b2ea58d6b5cac13c91eba199a694e18cf1fc85383b076af81678870ffb7ae",
+  "i_tod_dealer_hands_e.png": "d4e752aa1aedcca102b74928ea78617960dc4287c893587e964a142165a243de",
+  "i_tod_dealer_hands_g.png": "1a0ce4f064faa1a9d690148162dc76b2f2bb26d9c8145bf35d642395bd6c8990",
+  "i_tod_dealer_hands_n.png": "0213462ca535003810bf91f7fa78e47323fd08c8ec60c48be7bbb21b9e125e15",
+  "i_tod_dealer_hands_s.png": "ee963108aaf339ba44b611deeedb03e509e1581f6b799257c22bb5295426ea28",
+  "i_tod_dealer_head_c.png": "250044f68a9e86ab5350b47feb4a8109ab31b72d2fea01a7630ec45f42762350",
+  "i_tod_dealer_head_e.png": "f83c2211ba947f40ef4a946f13f0fdab592b0ba4d9835ec1e0039766f928eb11",
+  "i_tod_dealer_head_g.png": "6070e92d0691751442bbdacddf8375eb362d99d2b9ba59db17caeb2f9d0235d0",
+  "i_tod_dealer_head_n.png": "00cb6fefe5b03437b54590287cf49057ea4f1ed334f74df367c4f1535e4d8d9c",
+  "i_tod_dealer_head_s.png": "19619667c9458f99fc1e7a2d281e825c986ce761f801fca247c659376820b51b",
+  "i_tod_dealer_scythe_c.png": "49b0b1e694886fc33271ed9667368e9d8fb70ad6ac6afb50b17a649afb42fa6e",
+  "i_tod_dealer_scythe_e.png": "63aff000713cbeb97446174ec684220fad188cd4179c7afae3104c01deba375d",
+  "i_tod_dealer_scythe_g.png": "c74debd2cca804c04c99955628318afd55c9a7cf66fd34b2a19c293b0dad26c3",
+  "i_tod_dealer_scythe_n.png": "5af181bde5f86e2a4773fa9609fb2db4cf4119678960a9298c0f220932140c34",
+  "i_tod_dealer_scythe_s.png": "bd0cc12923bc2725b349ac8c21d9bc85f3b362435f386b6e9751d96a5c574c8c"
+ },
+ "seconds": 71.3
+}

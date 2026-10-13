@@ -1,0 +1,60 @@
+{
+  "status": "Blender MCP references: 1/2 regular, 3 armored only. Build evidence in docs/149.",
+  "models": [
+    {
+      "id": "01_line_trooper",
+      "title": "Line Trooper",
+      "body": "c_zom_der_zombie_body1",
+      "head": "c_zom_der_zombie_head1",
+      "helmet": true,
+      "style": "trooper",
+      "description": "Reference 2: layered spinal machine, paired supply pipes, separate flank return, copper induction chamber, amber regulator, supported neural cell; twin chest cells and fitted limb braces.",
+      "reference": 2,
+      "equipment_master": "art/cyber_reference_two_mcp/reference_two.blend"
+    },
+    {
+      "id": "02_signal_trooper",
+      "title": "Signal Trooper",
+      "body": "c_zom_der_zombie_body2",
+      "head": "c_zom_der_zombie_head2",
+      "helmet": true,
+      "style": "signal",
+      "description": "Reference 1: chest monitor, layered shoulder, spinal cell, cracked optic and left-side braces.",
+      "reference": 1,
+      "equipment_master": "art/cyber_reference_one_mcp/reference_one.blend"
+    },
+    {
+      "id": "03_relay_carrier",
+      "title": "Relay Carrier",
+      "body": "c_zom_der_zombie_body1",
+      "head": "c_zom_der_zombie_head3",
+      "helmet": false,
+      "style": "relay",
+      "description": "Reference 2: layered spinal machine, paired supply pipes, separate flank return, copper induction chamber, amber regulator, supported neural cell; twin chest cells and fitted limb braces.",
+      "reference": 2,
+      "equipment_master": "art/cyber_reference_two_mcp/reference_two.blend"
+    },
+    {
+      "id": "04_crown_carrier",
+      "title": "Crown Carrier",
+      "body": "c_zom_der_zombie_body2",
+      "head": "c_zom_der_zombie_head1",
+      "helmet": false,
+      "style": "crown",
+      "description": "Reference 1: fractured optic, chest monitor, spinal cell, asymmetric shoulder and limb armor.",
+      "reference": 1,
+      "equipment_master": "art/cyber_reference_one_mcp/reference_one.blend"
+    },
+    {
+      "id": "05_armored_sprinter",
+      "title": "Armored Sprinter",
+      "body": "c_t8_zmb_mob_zombie_body3",
+      "head": "c_zom_der_zombie_head2",
+      "helmet": false,
+      "style": "sprinter",
+      "description": "Reference 3, armored only: raised welding visor, twin back tanks, industrial collar, mechanical left arm/hand, hazard case and single knee brace.",
+      "reference": 3,
+      "equipment_master": "art/cyber_reference_three_mcp/reference_three.blend"
+    }
+  ]
+}

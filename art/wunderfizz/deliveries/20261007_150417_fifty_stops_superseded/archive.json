@@ -1,0 +1,21 @@
+{
+  "status": "Historical fifty-stop delivery, superseded by user correction to four existing haven domes; never use as current placement proof.",
+  "archived_at": "2026-10-07T15:21:23.573452-04:00",
+  "files": {
+    "art/wunderfizz/build.json": "c2c6591fa76a839a52431f1180932e1947ae820ae1288d63cae2af85a8396238",
+    "art/wunderfizz/delivery_inputs.json": "7c5658361a0ac7e95ea3b4cb378f1893fc83a19b28649e60cbe9560a256f3f8b",
+    "art/wunderfizz/compiled_assets.json": "c77e03d05c5e4d99302692ae52a62340705a053e7d8ef6d590b087860a3f4e0d",
+    "art/wunderfizz/native_audio.json": "5218b34207d470d3b979f32802f30e43aaa64bf5af9e9e1b41e7e175ab6321dc",
+    "art/wunderfizz/native_glass_measurement.json": "c5f015c5a378ce9612968d70d23a368e6269cbed4b3998775fc34d44131a679c",
+    "art/wunderfizz/use_target_review.json": "20dff52d734c43415a7ac8d3878dd2dd39232ba8bcfe6f23bf13720e959fac76",
+    "art/wunderfizz/gallery_delivery.json": "84c7140672642b2f10efa241292e767a23b93f66cd15546e5af9520d0858ec14",
+    "art/wunderfizz/dealer_context_parity.json": "bc6eb75cd34ea5b5621f855ba0f907eebf589e99a70229e2f8c735dd60e1cc07",
+    "docs/wunderfizz/IMPLEMENTATION.md": "2d170f476f99616b544422642bec02bf445c7c8b5500f009851dc7be665df127",
+    "docs/wunderfizz/ASSET_IMPORT.md": "a166b300eb5927fc8b585221197ddc64fdc5ecebb9b7f91670d77f74e358ef1f",
+    "docs/wunderfizz/PLAYTEST.md": "0ccee175a8d05dc739bba1701961a245465be91d4df4f99857d6caf4c96ddc6e",
+    "docs/wunderfizz/asset_inventory.json": "8756f6ecbb6c7c5e46f7fe85bfaaf7663882ca8c0d2fcf5c717467f9615bdecc",
+    "tmp/wunderfizz/final_build.log": "6edda1383dafca73186b1f07e87c892497878c01580fdcbbad9c0b9b13ee6222",
+    "tools/wunderfizz_layout.js": "2894966bff474cbd1f13234428c0b5f9b6f4b4a7376d044a781c7d2c8b126627",
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_data.gsc": "38426e5ee23fbb4a57619bf42ca1cbd9cf0ced38c4eb33af88e464ba8413139d"
+  }
+}

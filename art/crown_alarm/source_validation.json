@@ -1,0 +1,65 @@
+{
+  "models": 6,
+  "lod_files": 15,
+  "compiled_lods": 18,
+  "triangles": {
+    "tod_crown_alarm_housing": [
+      11004,
+      2880,
+      1300
+    ],
+    "tod_crown_alarm_rotor_off": [
+      3256,
+      1422,
+      644
+    ],
+    "tod_crown_alarm_rotor_on": [
+      3256,
+      1422,
+      644
+    ],
+    "tod_crown_alarm_housing_high": [
+      11004,
+      2880,
+      1300
+    ],
+    "tod_crown_alarm_rotor_high_off": [
+      3256,
+      1422,
+      644
+    ],
+    "tod_crown_alarm_rotor_high_on": [
+      3256,
+      1422,
+      644
+    ]
+  },
+  "textures": 28,
+  "light_profile": {
+    "version": "red-sweep-2",
+    "intensity": 1800,
+    "radius": 900,
+    "fov_degrees": 78,
+    "lamp_emission": 36,
+    "high_lamp_multiplier": 16,
+    "high_fixture_scale": 2,
+    "high_rotor_height": 48,
+    "high_intensity": 14400,
+    "high_radius": 2400,
+    "high_spawn_range": 20000,
+    "high_bounds": 2600,
+    "spawn_range": 2400,
+    "bounds": 940,
+    "interval_ms": 1000,
+    "turn_seconds": 1.5,
+    "local_spots": 13,
+    "color": [
+      1,
+      0,
+      0
+    ]
+  },
+  "native_compiled_checked": false,
+  "compiled_spotlight_checked": false,
+  "native_playtested": false
+}

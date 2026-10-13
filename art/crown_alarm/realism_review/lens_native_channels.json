@@ -1,0 +1,24 @@
+{
+  "native_material": "mtl_tod_alarm_lens",
+  "native_shader": "lit_emissive_transparent_advanced",
+  "compiled_techset": "mc/lit_emissive_transparent_advanced#e6142445",
+  "sample_shader": "lit_emissive_transparent.hlsl_ps_main_24YIDZERH2VTYMYCAJL3EBXP75",
+  "consumed_images": [
+    "i_tod_alarm_lens_c",
+    "i_tod_alarm_lens_n",
+    "i_tod_alarm_lens_g"
+  ],
+  "unused_declared_image": "i_tod_alarm_lens_s",
+  "constant_dielectric_f0": 0.04,
+  "evidence": "transparent_advanced_sample_disassembly.txt",
+  "evidence_sha256": "05c21811e58d1b930cdb81bdce5112d47205b2fdc63ca3b2acb35e45585359fd",
+  "native_inputs_unchanged": true,
+  "other_materials_unchanged": true,
+  "native_visual_verified": false,
+  "renders": {
+    "before": "c1468049090d72af0e635d7a2b750d2a41bc7ebf4375b7e335e5faeceaa0bf39",
+    "after": "1eb2ecdc749ab201b8f2a00f2c7ac6970f494c28f56254e77b629137ae75283e",
+    "detail": "3fe2a79cb234e8ae1c966c7bc3886e94931e19e8070da1870e4bef67797902cf",
+    "on_detail": "5213dff63ad8a3f4521aca44bf60c2977c561bb1d37c56109ad2b447d783f848"
+  }
+}

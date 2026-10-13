@@ -1,0 +1,16 @@
+{
+  "parts": 140,
+  "skull_source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\rune_prison_death_skull\\rune_prison_death_skull.xmodel_bin",
+  "skull_source_sha256": "6b727d5e09eb1f1523085a54a4a9e4917ea5d17cf1d28ead58c2bdcb71c952db",
+  "custom_texture_resolution": 2048,
+  "bone_maps": "Exclusive 2048 atlas baked from original BO3 color/normal maps, authored pores and cavity shading; HeroSkullUV",
+  "native_visual_verified": false,
+  "detail_pass": {
+    "recessed_blades": 11,
+    "leather_grips": 4,
+    "material_images": 19,
+    "skull_detail": "surface-fitted sutures and tier-3 ritual inlay",
+    "native_visual_verified": false,
+    "bone_pigmentation": "Baked multi-scale aged bone staining; native 2K color atlas, no procedural runtime dependency."
+  }
+}

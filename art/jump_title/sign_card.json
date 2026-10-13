@@ -1,0 +1,66 @@
+{
+  "model": "tod_jt_sign_lit",
+  "material": "mtl_tod_jt_sign_lit",
+  "image": "i_tod_jt_sign_lit",
+  "sign_dist": 9500,
+  "w_deg": 65.0,
+  "sky_card_d_m": 1000.0,
+  "box_el": 11.0,
+  "reference_width_px": 1536.0,
+  "image_px": [
+    1536,
+    1024
+  ],
+  "title_center_px": [
+    768.0,
+    435.0
+  ],
+  "units_per_px": 7.880426403217689,
+  "width": 12104.33495534237,
+  "height": 8069.556636894914,
+  "left": -6052.167477671185,
+  "right": 6052.167477671185,
+  "top": 3427.985485399695,
+  "bottom": -4641.571151495219,
+  "scale_rgb": 16,
+  "source_sha256": "e22016bec6747396b71b4aa20aff1ff472f696f28704ced746191d277a995a17",
+  "derived_art_receipt": "art/sky3d/dealer_review/native_card_art.json",
+  "derived_art_receipt_sha256": "511aa5e13f71a12667eef47b1fcc4c7f345ad9531d28f21af76d164687a380bc",
+  "native_image_source": "art/sky3d/sign/v12_native_lit.png",
+  "native_image_sha256": "b16d6528a271da49dc90bde26d7d7ee1098c277e33fb9357aa73fb2c3651f1c3",
+  "corners_local": [
+    [
+      0.0,
+      -6052.167477671185,
+      3427.985485399695
+    ],
+    [
+      0.0,
+      6052.167477671185,
+      3427.985485399695
+    ],
+    [
+      0.0,
+      6052.167477671185,
+      -4641.571151495219
+    ],
+    [
+      0.0,
+      -6052.167477671185,
+      -4641.571151495219
+    ]
+  ],
+  "files": {
+    "model": "model_export/tod_jump_title/tod_jt_sign_lit.xmodel_bin",
+    "image": "model_export/tod_jump_title/_images/i_tod_jt_sign_lit.png",
+    "gdt": "source_data/tod_jump_title.gdt"
+  },
+  "sha256": {
+    "model": "66a3df78cd542e5a9aebe5b00c843c7b5a075c294dd2af440db0cd9852063f17",
+    "image": "b16d6528a271da49dc90bde26d7d7ee1098c277e33fb9357aa73fb2c3651f1c3",
+    "gdt": "2519cd9a9ab27b2f4f2e3aa1ece96ebb08aab20ee8f5b9470de315ac3e512dd7"
+  },
+  "zone_line": "xmodel,tod_jt_sign_lit",
+  "native_verified": false,
+  "notes": "Dealer crest painting with unchanged GATE geometry; Blender-derived graphite finish and foreground visibility alpha; native appearance awaits the user."
+}

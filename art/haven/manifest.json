@@ -1,0 +1,135 @@
+{
+  "asset": "tod_haven_dome",
+  "field": {
+    "R": 332,
+    "centre_above_floor": -66.61764705882354,
+    "sphere_r": 338.6176,
+    "top": 272
+  },
+  "lods": [
+    {
+      "lod": 0,
+      "frequency": 10,
+      "switch": 0,
+      "triangles": 5256
+    },
+    {
+      "lod": 1,
+      "frequency": 6,
+      "switch": 3200,
+      "triangles": 2176
+    }
+  ],
+  "dark_lods": [
+    {
+      "lod": 0,
+      "frequency": 10,
+      "switch": 0,
+      "triangles": 4752,
+      "holes": 42
+    },
+    {
+      "lod": 1,
+      "frequency": 6,
+      "switch": 3200,
+      "triangles": 2056,
+      "holes": 10
+    }
+  ],
+  "dark": {
+    "hole_fraction": 0.11,
+    "tiles": 4,
+    "texture": [
+      512,
+      512
+    ],
+    "seam_in": 0.395
+  },
+  "materials": {
+    "mtl_tod_haven_field": 4.0,
+    "mtl_tod_haven_field_pulse": 7.0,
+    "mtl_tod_haven_field_flash": 13.0,
+    "mtl_tod_haven_field_dark": 3.5,
+    "mtl_tod_haven_field_dark_dim": 1.4,
+    "mtl_tod_haven_field_dark_flash": 10.0
+  },
+  "texture": [
+    256,
+    128
+  ],
+  "states": {
+    "safe": [
+      "tod_haven_dome",
+      "tod_haven_dome_pulse",
+      "tod_haven_dome_flash"
+    ],
+    "corrupted": [
+      "tod_haven_dome_dark",
+      "tod_haven_dome_dark_dim",
+      "tod_haven_dome_dark_flash"
+    ]
+  },
+  "signs": {
+    "card": [
+      360,
+      180
+    ],
+    "texture": [
+      1024,
+      512
+    ],
+    "scale_rgb": {
+      "safe": 5.0,
+      "dark": 3.5
+    },
+    "models": [
+      "tod_haven_sign_10",
+      "tod_haven_sign_20",
+      "tod_haven_sign_30",
+      "tod_haven_sign_40",
+      "tod_haven_sign_10_dark",
+      "tod_haven_sign_20_dark",
+      "tod_haven_sign_30_dark",
+      "tod_haven_sign_40_dark"
+    ]
+  },
+  "darkness": {
+    "image": "i_tod_haven_darkness",
+    "size": [
+      1280,
+      720
+    ],
+    "centre": 0.17,
+    "edge": 0.8,
+    "max": 0.93
+  },
+  "barrier": {
+    "material": "tod_haven_barrier",
+    "donor": "clip_weapon_noimpact",
+    "overrides": {
+      "missileClip": "1",
+      "noPenetrate": "1"
+    }
+  },
+  "sha256": {
+    "model_export/tod_haven/_images/i_tod_haven_field.png": "47358517502f7ffc6413938340b0f56538c7cfc81c18d11ffe1215e92bd2b06e",
+    "model_export/tod_haven/_images/i_tod_haven_field_dark.png": "afe2ed4790672f0f6faeb1aac946cbd5e83a9e09ec9951f9be4d9eef49b47c27",
+    "model_export/tod_haven/_images/i_tod_haven_vignette.png": "80677679ca0549fb6bb30b76dd5f37f0bb5dd516ea59c92c5a223d0e07041c91",
+    "model_export/tod_haven/_images/i_tod_haven_darkness.png": "7f155cd24714d23d18526b487014be0fc2a1a81099a8e34c3efb49c6d3b6acdf",
+    "model_export/tod_haven/_images/i_tod_haven_sign_10.png": "7d29f77b706b6dbb0689e8c571220f43d4c90dde3b9be8cc05fcc94f463d0d51",
+    "model_export/tod_haven/_images/i_tod_haven_sign_20.png": "d9c8730b221025c9f09fe02689f5b47603a73fdfa687fea44c8cf8d42d94cdfd",
+    "model_export/tod_haven/_images/i_tod_haven_sign_30.png": "e9c1a08de79229f191f2f7ccab515e01db2065b2f83e65e72d46cb9e78ae7e28",
+    "model_export/tod_haven/_images/i_tod_haven_sign_40.png": "8bb0e36ddead20bfc6c8bb11c5ab211feb51e33d9c800b68bfb6472286f37231",
+    "model_export/tod_haven/_images/i_tod_haven_sign_10_dark.png": "7f078285fc39c25db4a80056c0f76f14d439ec5ac7ce59d6154a811d23771c6e",
+    "model_export/tod_haven/_images/i_tod_haven_sign_20_dark.png": "9210f904c4f45d350f2c3c496dcd5e7919fd0c72bfceff501848ad61c0a4859d",
+    "model_export/tod_haven/_images/i_tod_haven_sign_30_dark.png": "d442e5cfd85dcceaa0e2fe60a6542b5fb7b48aa7aa46b8d05bba0db04847c9e8",
+    "model_export/tod_haven/_images/i_tod_haven_sign_40_dark.png": "d8f1097c8a734d364866b5cbe1e3c0634c2eae531a8e8d29d01fd36b2875e4d9",
+    "model_export/tod_haven/tod_haven_dome_lod0.xmodel_bin": "47ee42909549344f5f3a989e4ebd59c9b0e43fb4da6fc42a9d3ec829d34b33a5",
+    "model_export/tod_haven/tod_haven_dome_dark_lod0.xmodel_bin": "4a6ff1b30e7f465687084cea510c41c265f57f43c4b378ce36455bed96f40861",
+    "model_export/tod_haven/tod_haven_dome_lod1.xmodel_bin": "cd447ac410ead5ecaa5351a8c5e1e37dfc11cb43e2bc3c50ec14abbd2f6375ce",
+    "model_export/tod_haven/tod_haven_dome_dark_lod1.xmodel_bin": "632a7d2ad571fa13379cf1a61256c5a9bc2d0d09400aa1a64b60a0a44cae8051",
+    "model_export/tod_haven/tod_haven_sign.xmodel_bin": "8c9c8b13898f10a2cfd7de34eb7f43845045554027c5b9dcd084ade67956019b",
+    "art/haven/tod_haven.gdt": "bd3481e98b2fc48bca46cf71eb62e7b79946cd6e61bd69afdb6bfea48dad908e",
+    "source_data/tod_haven.gdt": "bd3481e98b2fc48bca46cf71eb62e7b79946cd6e61bd69afdb6bfea48dad908e"
+  }
+}

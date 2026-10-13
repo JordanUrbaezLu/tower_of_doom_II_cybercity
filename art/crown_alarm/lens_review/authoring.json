@@ -1,0 +1,33 @@
+{
+  "revision": "2026-10-01 clear glass",
+  "authoring": "Actual Blender MCP execute_blender_code",
+  "dome_alpha": 0.1,
+  "rib_alpha": 0.05,
+  "padding_alpha": 0.045,
+  "rgb_unchanged": true,
+  "native_geometry_unchanged": true,
+  "glow_unchanged": true,
+  "specColorTint": ".220916 .220916 .220916 1",
+  "specColorMap": "$black_specular",
+  "native_specular_mask": 0.0,
+  "native_f0_after": 0.04,
+  "before_comparison": "Reconstructed original source alpha using the repaired valid shader; not the invalid native fallback.",
+  "review": "lens_review",
+  "native_visual_verified": false,
+  "native_playtested": false,
+  "source_sha256": "5ed19b81cc29cb0d4f9cdaf0dce0dce0fdfc45a2d7c8fff519f53a14e846b439",
+  "output_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+  "old_alpha_range": [
+    0.32156863808631897,
+    1.0
+  ],
+  "renders": {
+    "after_off.png": "8f8ce31a1850fe9cc09b260e2fccb454f29f7de647def643cfc98117df396329",
+    "after_on.png": "d8a0b90e079e6da3c69334c4b2548af557add9b9eff6cf533db129a50a94a916",
+    "before_off.png": "019d8c901cf772f1275050fba526e946423c60f3894382b0234ff8859b391f31",
+    "before_on.png": "9ef579c2668b770d4d26eca29efe41157bdf7d1840da2520696e037063bd5177",
+    "distance_off.png": "ed411fcadf05d00bfcac0bf103c3dd6b9a05b65a3102a1aa0fa4a18a883ce71c",
+    "distance_on.png": "d8e715268859b67006f85afe55f03e3ec52c85e0a3f16a713f7c39169f3c4b09",
+    "rotation_on_bloom.png": "c6e7461ba477c46e3bb7a2df98c02c8a17dc15e2ca2fe1c26ff2a225f9209175"
+  }
+}

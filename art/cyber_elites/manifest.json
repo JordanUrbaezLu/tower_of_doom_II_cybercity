@@ -1,0 +1,250 @@
+{
+  "models": [
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_body",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_body.XMODEL_BIN",
+      "source_sha256": "72b1e909d6e519a779ddd62c2b52ae41869f935fad4e78d8de93c11f1ab01257",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_body.XMODEL_BIN",
+      "sha256": "059f19de51ed5c6440e86fcbb44fccacf007950ba26c03549ec644bbf39a357e",
+      "faces": 10966
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_behead.XMODEL_BIN",
+      "source_sha256": "29e7051ad975f9d0c0ab7b73b2c8e63b04fc4b671021fc307bce25d07d73b7af",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead.XMODEL_BIN",
+      "sha256": "942122075b2c3162af8cdf89604fd352ca15a5278d48a4a49caf614c9769c756",
+      "faces": 296
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_blegsoff.XMODEL_BIN",
+      "source_sha256": "10337b5cce91b17168e50dc797f0dfd3aa1bb921c3fbf120498d0a11d50133dd",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff.XMODEL_BIN",
+      "sha256": "76287d3fd4455b9a3cb6e3d6236fc6e014e1e45f738464072b0adcffadb66a74",
+      "faces": 1410
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_larmoff.XMODEL_BIN",
+      "source_sha256": "cfed3a3d5c2ce5ba20427b88820d75933f247ea43f5f850e3627ada7e4af65b3",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff.XMODEL_BIN",
+      "sha256": "f0961467a8f6b0a23e240ac95de42aa9c8537607d8fcec83e766ec9517818360",
+      "faces": 6100
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_llegoff.XMODEL_BIN",
+      "source_sha256": "6a6b255f59218dcc79c337f599cf4d5008b486b80bcf105543a8a4b4eadb9af7",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff.XMODEL_BIN",
+      "sha256": "5c3d1750fb9edf17c57303311330e818378aad60dd7ddf6b5cddef30091212d2",
+      "faces": 2842
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_lowclean.XMODEL_BIN",
+      "source_sha256": "6e81dab2b0366d985a74fd3d0f3b14cf9cc634f577499256efb8e3e4cd5e581f",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean.XMODEL_BIN",
+      "sha256": "d6c08fb34ff7b6f4b50d357bced43def0ac9f04bf79bbdb0cc90e42147643e70",
+      "faces": 3646
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_rarmoff.XMODEL_BIN",
+      "source_sha256": "b5d37f4a8723a9b0a4a9d9141cafdeb2897b3487ec0f33b9b3c2df89abaa24eb",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff.XMODEL_BIN",
+      "sha256": "8ffef085318c0759ffc1affe1bef2d5a58cebf51dfc8c81948cdb0edad160c99",
+      "faces": 6072
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_rlegoff.XMODEL_BIN",
+      "source_sha256": "2e7304cdf203863741f5fc93ef534c9bebf0ded1dbb64fd5a92983b936d0acc0",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff.XMODEL_BIN",
+      "sha256": "9ed6c0dc4a7527433c10c06f04035843b7cad2a0a15fa9c046cdfc63bc92c7dc",
+      "faces": 2214
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_g_upclean.XMODEL_BIN",
+      "source_sha256": "ad894fcc568a156a75ae0d33eca55f3c703cb8461ae5ec3242ddb185c64e7266",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean.XMODEL_BIN",
+      "sha256": "5752bff146f0726e67efc6d9b389a216d808c6e50f92ebad985fb721dbb673be",
+      "faces": 7320
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_s_larmspawn.XMODEL_BIN",
+      "source_sha256": "beef2047fe7a9d61448fd5129eee9ff2f1896c32ddd8e6de474a873974579759",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn.XMODEL_BIN",
+      "sha256": "2cf461a4df1eb56f8e5b4d5d8113349bc1b40d809978a1b042c4e788ed4e4098",
+      "faces": 1616
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_s_llegspawn.XMODEL_BIN",
+      "source_sha256": "2b01af0497814cb723ad01fc96b880880dd8b8cb3ef2088d7d4071ebb903f67d",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn.XMODEL_BIN",
+      "sha256": "a6602ce682a8f839ff14fda2a33196bee314b43e9b530e407a9abfe248fe0e53",
+      "faces": 896
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_s_rarmspawn.XMODEL_BIN",
+      "source_sha256": "9688ec068ce213169a43d945c9d5065101a3c28d1d5760fed4e21dacb19cc5c1",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn.XMODEL_BIN",
+      "sha256": "1b7fa5eba5bfa75768566fba2aa3ff16630866fd7de030d1c7d0cf3711cb7279",
+      "faces": 1632
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc3_zombie_sentinel_s_rlegspawn.XMODEL_BIN",
+      "source_sha256": "ad0d575c74c014548859aaf165f02e5e0f3924c7eca8eeb6ba938aa277376227",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn.XMODEL_BIN",
+      "sha256": "a28d2e7e98b211303c5be1b453b96d1b23c64b78fd7c649d0fc88915f822a985",
+      "faces": 1698
+    },
+    {
+      "name": "tod_charcoal_c_zom_dlc4_zombie_charred_head",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\charred\\c_zom_dlc4_zombie_charred_head.XMODEL_BIN",
+      "source_sha256": "44e322c1912821f3ab01a70f8bf44e4fe3c27e4eb7193aece70ce74b402f3aff",
+      "output": "model_export\\tod_cyber_elites\\tod_charcoal_c_zom_dlc4_zombie_charred_head.XMODEL_BIN",
+      "sha256": "a6093aea72d7119c5e6d246b6cf4db805c3a897bbb01f3a13739512dc31077b0",
+      "faces": 1858
+    },
+    {
+      "name": "tod_doppelgast_black_robot",
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\doppelghast\\hb_bo6_doppelghast.xmodel_bin",
+      "source_sha256": "6ecb5d899e47d8e064222e539c5998df434c7b16427d8941030424afc735bcd9",
+      "output": "model_export\\tod_cyber_elites\\tod_doppelgast_black_robot.XMODEL_BIN",
+      "sha256": "adeaa6c0069fec7fd42787eecb5604e4dd23c9eff7ec26e6e49c09a964f01e68",
+      "faces": 72736,
+      "robot_faces": 23808,
+      "original_bones": 136,
+      "robot_parts": 152,
+      "organic_leg_cut_z": 51,
+      "eyes_preserved": true,
+      "robot_uv_mapped": true,
+      "robot_uv_min_area": 2.116040908362038e-05
+    }
+  ],
+  "textures": [
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\_custom_zombies\\charredzombies\\_images\\i_c_zom_dlc3_rus_sentinel_zombie_arms_c.png",
+      "source_sha256": "afc37e01dc11bdbaed3a32566a3c363a4864b9be886ba57e1f376a22f0cfa621",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_arms.png",
+      "mode": "gray",
+      "sha256": "3ecad5f6201719be1a28aeb2a2b99c2fbbebc137e8313a13ad7c5894e8b909e3"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\_custom_zombies\\charredzombies\\_images\\i_c_zom_dlc3_rus_sentinel_zombie_body_c.png",
+      "source_sha256": "71f283c4dbb3fac3a3463b7a46142ea328b0c340606c93e824eb3f0af4222eff",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_body.png",
+      "mode": "gray",
+      "sha256": "d2738fbec6feb31c91fa939129ea60bbd2cf86fbe19495328df2763e6dd11ebc"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\_custom_zombies\\charredzombies\\_images\\i_c_zom_dlc3_rus_sentinel_zombie_legs_c.png",
+      "source_sha256": "32deefd1e1cefe33843b184d78031391468e658ae6050e4c53b0e1ad5c03ad13",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_legs.png",
+      "mode": "gray",
+      "sha256": "2c99993391b103e9d44f5bab03fbb7a36d05ab9fdde1e5ff63a14f74750c8b4b"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\_custom_zombies\\charredzombies\\_images\\zombie_eye.png",
+      "source_sha256": "216b9b9fdb904b72b8dd62e8bd163c926392311bba3eeedec5ad3ec9f00a3ab6",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_charcoal_mtl_char_rus_zombie_eyes.png",
+      "mode": "red",
+      "sha256": "adc67546ecda5e0e7beb6a098d159ef3286ceb48f929e974e05e4161416ea6ef"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\doppelghast\\_images\\i_hb_doppelghast_00_c.png",
+      "source_sha256": "856a964d6603cb3154d1d122061a838d1de18f16c8c2c4dab12d0aabc111a0ef",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_doppelgast_black_0.png",
+      "mode": "black",
+      "sha256": "821b87d790360a2f6fd03efc8fe614ab15972a9c5be8f7b8412a13e1d0b1ad46"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\doppelghast\\_images\\i_hb_doppelghast_01_c.png",
+      "source_sha256": "2c44daea53d825db90c9c515163fd7b289ed5009799feaefe1cfa9889d2251c0",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_doppelgast_black_1.png",
+      "mode": "black",
+      "sha256": "309d88dc9252ffd1efc66a0549fe6779132e2cd0984622f5b2b3d6b1581fe039"
+    },
+    {
+      "source": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\doppelghast\\_images\\i_hb_doppelghast_02_c.png",
+      "source_sha256": "96f349aebbc7ecadcb73a0a91468065ac0eee6961bc4ccb92f8de9305890f485",
+      "output": "model_export\\tod_cyber_elites\\images\\i_tod_doppelgast_black_2.png",
+      "mode": "black",
+      "sha256": "2e8198544307115ed61c2ed1c898009827d44dab28ab8ba0458d2aaa9ab45a42"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_shell_c.png",
+      "sha256": "791b7c4a49d2b4393029332bf66d8128220108f1ee23a74445daaf7e9bb8704b",
+      "mode": "robot_shell_c"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_shell_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8",
+      "mode": "robot_shell_n"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_shell_s.png",
+      "sha256": "90f91b1542c7f06915bee5cc4ca39b5f123b3afb5e0fafc6be0779462fda34d3",
+      "mode": "robot_shell_s"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_shell_g.png",
+      "sha256": "e7076417c2ce24e49056ddfa1cd4784c9ef873aed427175726562d000f98d39e",
+      "mode": "robot_shell_g"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_piston_c.png",
+      "sha256": "7b6be0565328f09f34958d85bd791a73de309fc807896cbe4a3ae5de49a897ca",
+      "mode": "robot_piston_c"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_piston_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8",
+      "mode": "robot_piston_n"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_piston_s.png",
+      "sha256": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+      "mode": "robot_piston_s"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_piston_g.png",
+      "sha256": "40ef8288d66dcc4ef34bd059942e7c27afa992982868ded65d0866037e6fb504",
+      "mode": "robot_piston_g"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_c.png",
+      "sha256": "83c77af33bef5d39905daa7d9054e1e929c916e80a0aaeee8762d5ce86f93770",
+      "mode": "robot_rubber_c"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8",
+      "mode": "robot_rubber_n"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_s.png",
+      "sha256": "b3f5b41b02ded139d6951ad991c152233b0781fd9062ab9768c19cfc3d8d5ee3",
+      "mode": "robot_rubber_s"
+    },
+    {
+      "output": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_g.png",
+      "sha256": "8314620923c2c615e37cccf9bb73941e0c26c281b935792e85619468f0d67210",
+      "mode": "robot_rubber_g"
+    }
+  ],
+  "native_verified": false,
+  "gdt_sha256": "dbe857cdf40eb88c601258a07c5ead5789e0ecfea87d628cd4f363aaa9cd0410",
+  "donor_binding_corrections": {
+    "legDmg2": "g_rlegoff",
+    "leftarm_gibmodel": "s_larmspawn",
+    "leftleg_gibmodel": "s_llegspawn"
+  },
+  "robot_material_fix": "Blender MCP: 12 real texture maps, smart UVs, explicit native fullspec materials with emission disabled; original bones and organic faces retained"
+}

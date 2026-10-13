@@ -1,0 +1,12 @@
+{
+  "changed_functions": [
+    "spawn_der_teleporter"
+  ],
+  "added_functions": [
+    "model_dev_log"
+  ],
+  "removed_functions": [
+    "spawn_der_piece"
+  ],
+  "all_other_teleporter_functions_match_HEAD": true
+}

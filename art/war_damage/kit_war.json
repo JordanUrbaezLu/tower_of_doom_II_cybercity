@@ -1,0 +1,64 @@
+{
+ "tod_war_conduit_torn_a": {
+  "root": "repo",
+  "role": "conduit_torn",
+  "bones": 1,
+  "materials": [
+   "mtl_tod_conduit_rubber",
+   "mtl_tod_conduit_shell",
+   "mtl_tod_conduit_steel"
+  ],
+  "triangles": 2620,
+  "min": [
+   -48.0,
+   -9.0,
+   0.0
+  ],
+  "max": [
+   17.701,
+   9.0,
+   56.348
+  ],
+  "lods": {
+   "0": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod0.xmodel_bin",
+   "1": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod1.xmodel_bin",
+   "2": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod2.xmodel_bin"
+  },
+  "lod_triangles": {
+   "0": 2620,
+   "1": 478,
+   "2": 478
+  }
+ },
+ "tod_war_conduit_torn_b": {
+  "root": "repo",
+  "role": "conduit_torn",
+  "bones": 1,
+  "materials": [
+   "mtl_tod_conduit_rubber",
+   "mtl_tod_conduit_shell",
+   "mtl_tod_conduit_steel"
+  ],
+  "triangles": 2620,
+  "min": [
+   -65.435,
+   -9.0,
+   0.0
+  ],
+  "max": [
+   3.538,
+   9.0,
+   58.85
+  ],
+  "lods": {
+   "0": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod0.xmodel_bin",
+   "1": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod1.xmodel_bin",
+   "2": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod2.xmodel_bin"
+  },
+  "lod_triangles": {
+   "0": 2620,
+   "1": 478,
+   "2": 478
+  }
+ }
+}

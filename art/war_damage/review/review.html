@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>War Damage Review</title>
+<style>
+  :root { --bg: #f4f1ec; --ink: #1f1d1a; --muted: #6b655c; --card: #ffffff; --line: #d9d3c8; --accent: #9b2c24; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #141312; --ink: #ece8e1; --muted: #a39d93; --card: #1e1c1a; --line: #34312d; --accent: #e0675b; } }
+  :root[data-theme="dark"] { --bg: #141312; --ink: #ece8e1; --muted: #a39d93; --card: #1e1c1a; --line: #34312d; --accent: #e0675b; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1320px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  p.lede { color: var(--muted); margin: 0 0 16px; max-width: 70ch; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 12px 0 20px; }
+  figure { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 6px 10px; font-size: 13px; color: var(--muted); }
+  figcaption b { color: var(--ink); }
+  .note { background: var(--card); border-left: 3px solid var(--accent); padding: 10px 14px; border-radius: 4px; color: var(--ink); max-width: 80ch; }
+  table { border-collapse: collapse; margin: 8px 0 12px; }
+  td, th { border-bottom: 1px solid var(--line); padding: 4px 12px 4px 0; text-align: left; font-size: 14px; }
+  @media (max-width: 760px) { .pair { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+<h1>War Damage Review</h1>
+<p class="lede">The tower after the war (docs/205): one snapped break on an odd lap (43, red district) and one on an even lap (6, blue district, the mirrored frame), before and after. Background Blender with neutral studio light at -2 stops: this checks composition and placement, not Black Ops III's lighting. The effects (dust, embers, fire, sparks, ash, smoke columns) are runtime particles and are not in these stills.</p>
+
+<h2>Lap 43: outside the tower</h2>
+<div class="pair">
+  <figure><img src="lap43_outside_before.png" alt="Lap 43 break from outside, before"><figcaption><b>Before</b>: the clean snapped stair</figcaption></figure>
+  <figure><img src="lap43_outside_after.png" alt="Lap 43 break from outside, after"><figcaption><b>After</b>: blast crater with rebar and shrapnel holes on the core, rubble on the catch deck, the stair's iron hanging off, the column's rebar cage, loose cables</figcaption></figure>
+</div>
+<h2>Lap 43: on the snapped ledge, looking down the drop</h2>
+<div class="pair">
+  <figure><img src="lap43_ledge_before.png" alt="Lap 43 ledge view, before"><figcaption><b>Before</b></figcaption></figure>
+  <figure><img src="lap43_ledge_after.png" alt="Lap 43 ledge view, after"><figcaption><b>After</b>: soot on the deck below, the scorched wall</figcaption></figure>
+</div>
+<h2>Lap 43: landed on the catch deck, looking back up</h2>
+<div class="pair">
+  <figure><img src="lap43_deck_before.png" alt="Lap 43 deck view, before"><figcaption><b>Before</b></figcaption></figure>
+  <figure><img src="lap43_deck_after.png" alt="Lap 43 deck view, after"><figcaption><b>After</b>: hanging slab chunks and rebar at the lip, the scorched wall under it, shrapnel holes, rubble and glass at your feet (the holes' bright rims are the preview's side lights on their crater normal maps; their colour is black)</figcaption></figure>
+</div>
+
+<h2>Lap 6 (mirrored frame): outside the tower</h2>
+<div class="pair">
+  <figure><img src="lap06_outside_before.png" alt="Lap 6 break from outside, before"><figcaption><b>Before</b></figcaption></figure>
+  <figure><img src="lap06_outside_after.png" alt="Lap 6 break from outside, after"><figcaption><b>After</b></figcaption></figure>
+</div>
+<h2>Lap 6: on the snapped ledge</h2>
+<div class="pair">
+  <figure><img src="lap06_ledge_before.png" alt="Lap 6 ledge view, before"><figcaption><b>Before</b></figcaption></figure>
+  <figure><img src="lap06_ledge_after.png" alt="Lap 6 ledge view, after"><figcaption><b>After</b></figcaption></figure>
+</div>
+<h2>Lap 6: on the catch deck</h2>
+<div class="pair">
+  <figure><img src="lap06_deck_before.png" alt="Lap 6 deck view, before"><figcaption><b>Before</b></figcaption></figure>
+  <figure><img src="lap06_deck_after.png" alt="Lap 6 deck view, after"><figcaption><b>After</b>: the core blast above you is seen almost edge-on, so in this preview it catches the bright studio sky as a white sheen (Blender's generic specular, not the decal's own spec map); its colour is dark soot</figcaption></figure>
+</div>
+
+<h2>Phase 2: the blast's wiring (docs/205 s7)</h2>
+<p>The torn conduit bodies (a stands out of the wall; b curls past vertical and flops back down) with their conductor twins
+(a: ON, b: OFF), a fray cable at b's torn mouth, and the stock LED fixture dangling by one bracket - on a plain wall in the
+orientation layout.js uses. The preview colours the conduit materials flat (they are the map's own dark armored channel in game).</p>
+<div class="row">
+  <figure><img src="wiring_front.png" alt="Torn conduits and the dangling fixture, front"><figcaption><b>Front</b>: the bolted part flat on the wall, the torn part curling off it; the conductors inside the body they were torn with</figcaption></figure>
+  <figure><img src="wiring_side.png" alt="Torn conduits and the dangling fixture, side"><figcaption><b>Side</b>: a's curl stands out, b's flops over; the fray cable hangs from the mouth</figcaption></figure>
+</div>
+<h2>Phase 2: lap 43 with the wiring and the scorched kit faces (build B)</h2>
+<div class="row">
+  <figure><img src="lap43_deck_phase2.png" alt="Lap 43 deck view, phase 2"><figcaption><b>Deck</b>: the torn conduit and the fixture beside the crater (top left), the core face, the fascia and the deck on their scorched twins</figcaption></figure>
+  <figure><img src="lap43_ledge_phase2.png" alt="Lap 43 ledge view, phase 2"><figcaption><b>Ledge</b>: the lip landing and its paras scorched (the stain decals read pale in this studio exposure; measured dark)</figcaption></figure>
+  <figure><img src="lap43_outside_phase2.png" alt="Lap 43 outside view, phase 2"><figcaption><b>Outside</b></figcaption></figure>
+</div>
+<h2>Phase 2: the scorched tiles (make_scorch.py)</h2>
+<figure style="max-width: 960px"><img src="scorch_tiles.png" alt="The kit's floor, wall and armor tiles, before / scorched colour / scorched gloss"><figcaption>Rows: floor, wall, armor. Columns: the kit tile, its scorched colour, its scorched gloss (soot is matte)</figcaption></figure>
+<h2>The decals, chosen by measurement</h2>
+<p class="note">A scorch must be darker than the dark district panels it sits on. Below: the five decals that ship, composited with their real alpha over the district red (shrapnel impact, two shrapnel exits, charred stain, blast).</p>
+<figure style="max-width: 960px"><img src="decal_swatch.png" alt="The five shipping decals over dark red"><figcaption>sRGB luminance where the alpha is solid</figcaption></figure>
+<table>
+  <tr><th>Decal</th><th>Luminance</th><th>Used</th></tr>
+  <tr><td>bullet_metal_impact_01 / exit_02 / exit_03</td><td>0.01</td><td>shrapnel holes (253)</td></tr>
+  <tr><td>grunge_charred_stain_01</td><td>0.10</td><td>soot: lip, deck, wall under the lip, landing corners</td></tr>
+  <tr><td>blast_01</td><td>0.16</td><td>core blasts, wall under the lip</td></tr>
+  <tr><td>damage_burn_impact_01</td><td>0.22</td><td>dropped (reads pale)</td></tr>
+  <tr><td>grunge_charred_stain_02</td><td>0.23</td><td>dropped (ash grey)</td></tr>
+  <tr><td>damage_cracks_01</td><td>0.34</td><td>dropped (concrete grey: white squiggles on metal)</td></tr>
+</table>
+</main>
+</body>
+</html>

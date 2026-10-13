@@ -1,0 +1,2351 @@
+{
+  "kit": "T7 Assets V2.8 (DG-2 / Wunderwaffe, The Giant) extracted to tmp/wunderstrahl/src; read-only",
+  "inputs": {
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_view_LOD0.XMODEL_BIN": {
+      "sha256": "3d2835a08b0773341e726daf66231a90fe981510e011c4953083eeccd3c50f74",
+      "bytes": 856586
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_skeleton.XMODEL_BIN": {
+      "sha256": "037ca938a99503786401e300fff2175203add35973d44f51f1df13cbc00241d4",
+      "bytes": 3160038
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/source_data/_midgetblaster/t7_base_dg2.gdt": {
+      "sha256": "0f981eb2131da868d54d3bbaababa2cfa0cfa6dc0271f54a5a3f60470e3a0a45",
+      "bytes": 222498
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD0.XMODEL_BIN": {
+      "sha256": "da9d2f122f75bca1dc4542fe400191d6348bb2719eadc1e09c0a194fb7cae917",
+      "bytes": 844336
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD1.XMODEL_BIN": {
+      "sha256": "93c78df32f0e9ba933ef83aa1cf727e3ad86669e6a7126f329af409f73a2bd6d",
+      "bytes": 427633
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD2.XMODEL_BIN": {
+      "sha256": "233f2757c23b6b84728f799defa970d30e7458bca2989519136ffdfd6568eb89",
+      "bytes": 303098
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD3.XMODEL_BIN": {
+      "sha256": "e1b3d62c67ddbb71dfb2a8fc99e6e1d6428bb53db3e1363c4abfa28249e06220",
+      "bytes": 172627
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD4.XMODEL_BIN": {
+      "sha256": "6182ea32528fa973114360448eafa08a3035db7ea2cbaa638a62481a90f2cf61",
+      "bytes": 101145
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD5.XMODEL_BIN": {
+      "sha256": "ae35dff7d590b379899b86d2dad1d793effe718d3344f047287ceed313bc89a4",
+      "bytes": 54726
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD6.XMODEL_BIN": {
+      "sha256": "a950213dfe6b06108b412d7237d4e99b5685407fab044ba9b16cbcafe43e1e17",
+      "bytes": 30034
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD7.XMODEL_BIN": {
+      "sha256": "57dabb5c99e085ca881a8f55c67cb86f34170f7ca1b4efdee74c5f2d0cc68724",
+      "bytes": 16626
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$black_multimask.png": {
+      "sha256": "417e5e90ec9ccefb2cf03ceb422aa71f5724d010c7bec2b59d6908976fa59231",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_gloss.png": {
+      "sha256": "d41f38479d8b0745c44259e285ce2ec33aed8e7ea01a0b59dfc43d9a8a5ca0b4",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_mask.png": {
+      "sha256": "cd8a1f862b8886877047a23bdc131e1e7cb0d11fe8e99834160f218efa9ce8a4",
+      "bytes": 148
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_normal.png": {
+      "sha256": "da3066d5f292578073520208e0b6c48b129ddc71673ecf1b47027dc04b8fd361",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$gray_32_one_channel.png": {
+      "sha256": "59fde556c5aacf6f424cadeb7ddbc7b511eba08f3abc3a127f1724f0172ca348",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$identitynormalmap.png": {
+      "sha256": "da3066d5f292578073520208e0b6c48b129ddc71673ecf1b47027dc04b8fd361",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$white_reveal.png": {
+      "sha256": "cd8a1f862b8886877047a23bdc131e1e7cb0d11fe8e99834160f218efa9ce8a4",
+      "bytes": 148
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_c.png": {
+      "sha256": "2f67eb1a59461f8d68d6cca40707ddcd5efdbd67f2ad27cbe77ad814a2f87e20",
+      "bytes": 6100784
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_g.png": {
+      "sha256": "4c7c4795379fb995dd5d2e090a9b84a679b85e05c6243aa43e5f50ca2eb5117b",
+      "bytes": 5406576
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_n.png": {
+      "sha256": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+      "bytes": 6351483
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_o.png": {
+      "sha256": "44b7043edd7a4ef72d5c6534455864c9b75406e87c3fcb1321a669bbf817883d",
+      "bytes": 39119
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_r.png": {
+      "sha256": "c4ed22740482d08c2cb1c21c3d8377ede44a433a7d59f22102f338ccf40c6560",
+      "bytes": 52938
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_s.png": {
+      "sha256": "5acafa320b5f12b7facdc2361dd3e9cb5574ce404a0d8c0f6b08a190d7615ef6",
+      "bytes": 2660620
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_c.png": {
+      "sha256": "97f8167bd14c7a5ed11f218675f0a852b36266f6ca7ca83fb03f729ef7869f33",
+      "bytes": 84139
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_e.png": {
+      "sha256": "2ccb26c9a3e6ef4c32e4e3bdf52ad37c4dcaa032f6d9ce0b46f002e143e1961a",
+      "bytes": 69788
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_n.png": {
+      "sha256": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+      "bytes": 79880
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_c.png": {
+      "sha256": "721f736b17f9573d6eda766b97f745958580b55adc4a38aa144ad8a28c752483",
+      "bytes": 4077873
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_g.png": {
+      "sha256": "1d423a0d470e38e93837f62e4ea28f47c3695139bf030b770ac6c13b1fd283b0",
+      "bytes": 5292393
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_n.png": {
+      "sha256": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+      "bytes": 6721346
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_o.png": {
+      "sha256": "8a451286e1e46ca02e0115f30beed4de37d726e1cc8c1a860d3bd0eb3769edfb",
+      "bytes": 44427
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_r.png": {
+      "sha256": "7f1e150c8b0bf7efba7ed119afb89a30d02c7cdf921f66d68a352b04e7caf782",
+      "bytes": 139014
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_s.png": {
+      "sha256": "c99798fa4269b41c9a18a1eef8feb818fe1dd0d353642947d4c054a860299a24",
+      "bytes": 1961588
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_c.png": {
+      "sha256": "3d83547fde31d5845b4ebece4369ff536b503b6d82efb493f1fcc77e5f0fe887",
+      "bytes": 5581270
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_g.png": {
+      "sha256": "cb0684a4e1038dbb2a45639f99039e43dedf483ea1ed91a0beb9668d7d505806",
+      "bytes": 4909714
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_n.png": {
+      "sha256": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+      "bytes": 6714366
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_o.png": {
+      "sha256": "d6e3fe94f90de7c2b6f9a8315dc6749864598087c9a55b88b9f8f9149333786a",
+      "bytes": 38613
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_r.png": {
+      "sha256": "c395802ef873a5703959093c4255bcdf49e3dfbc8448668f7f53e1ef52f5802c",
+      "bytes": 22093
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_s.png": {
+      "sha256": "bcf222a95b9f2e26dab80afcfe69b549fbd9697774e46e5c1763b7ee6e312968",
+      "bytes": 3843200
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power.png": {
+      "sha256": "146510df4fb58a621288a89f5eda0cf8ccfd9e9e56cbb0710cc372d66afc1b29",
+      "bytes": 71670
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power_c.png": {
+      "sha256": "b4785dc1f0d9cc827798bab5e22524cbe2ddaf7769346fc963c6363ee9685c10",
+      "bytes": 244223
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power_n.png": {
+      "sha256": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+      "bytes": 35735
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_c.png": {
+      "sha256": "290d88ee238dceeafe590fbade11ef4a72b1a82eaf8be8869946950ac75bed71",
+      "bytes": 3036323
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_g.png": {
+      "sha256": "4981aa05490f6b80ff5bef51770229071fbf5e3f97c807b01da4842a9644ea7c",
+      "bytes": 2729396
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_n.png": {
+      "sha256": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+      "bytes": 3628183
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_o.png": {
+      "sha256": "ce95f040343b31aa78dcbc0e55b29e7cb208627aa7be3208fab3ec6a2ca09cb4",
+      "bytes": 10128
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_r.png": {
+      "sha256": "affba8b0ed8a5654d103b7f8110911ff63a7eaba87fff7a4646f256952ef0560",
+      "bytes": 42775
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_s.png": {
+      "sha256": "ef4353154f7c9cf09737546868d21ec8bc388ec494727becf13bbacd8d13a8d1",
+      "bytes": 668560
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_down.xanim_bin": {
+      "sha256": "786958532d1619b37490ed706e74a4a78b44657c76b6946ebcaf45263044f8af",
+      "bytes": 1902
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_up.xanim_bin": {
+      "sha256": "077a9962eb31be7986665f7143cadfc101e0d5dfbfdfe2bb2ebc5fd9a5f20e2d",
+      "bytes": 1805
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_b.xanim_bin": {
+      "sha256": "e0ae7dcba44b6a7b67ea9104d1e05cb6b5fda363356f0255905164d55f9728db",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_f.xanim_bin": {
+      "sha256": "5525cc9c909b95afaec38d27040549d119e4105f4ca2432a204dd56e2510dace",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_in.xanim_bin": {
+      "sha256": "f480082ba6979c7a058b7b497c563ebe4cbe134ac8a5dcd2c37ca70bbc7ef6c6",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_l.xanim_bin": {
+      "sha256": "899b016c3d59dce410a65ed43fbe7120f5b20a5c100a842002150dd853d29ae8",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_out.xanim_bin": {
+      "sha256": "f2dc4358268631f8f91f2eaf768444a67dce125b73232647e7f805d4fff1a42e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_r.xanim_bin": {
+      "sha256": "f6448512cd6f0ece02d4f893aa79bb50a6ebf06b7963e311f064d249a1c17c9a",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fall.xanim_bin": {
+      "sha256": "cf899f8a05f82a6189879051d841cdfe16ac72e2d204f7d6a562753d7146617a",
+      "bytes": 161706
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire.xanim_bin": {
+      "sha256": "0466727e90093a9a0208f98528ce28ec74e8e649f8a49735ca3d2d940ec92eb6",
+      "bytes": 92692
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire_ads.xanim_bin": {
+      "sha256": "2fae6526ab5217a6f4a2e57ba88fca37afd4dc76936ca83e90cff059ac72d48f",
+      "bytes": 92692
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_first_raise.xanim_bin": {
+      "sha256": "8cdf2acc077a8a6ad89f87849405d72d525d3477a8f864dbb07034432b785253",
+      "bytes": 273190
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_idle.xanim_bin": {
+      "sha256": "8d6586c79e3733f82c814882eb5a69492aa078d0501a4ac72282393a8e4fd2b2",
+      "bytes": 18370
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump.xanim_bin": {
+      "sha256": "7a45065b33bdd7c8083ff08a31faf3fd72fd736db0eeafe6a470132845516c6e",
+      "bytes": 2480
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump_land.xanim_bin": {
+      "sha256": "590e3ec42363382c2f532478da7c193dca9a62ec0848cd50a07783361fb4aacc",
+      "bytes": 108619
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout.xanim_bin": {
+      "sha256": "33438fc2f4e89da4b48488904d02d77b44dd88f68fc90d655e185b99909c2385",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout_quick.xanim_bin": {
+      "sha256": "5856b173f0787ce8a6496f75bc31691f25bf3ecfada849e4c97e26ef6aa613ca",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway.xanim_bin": {
+      "sha256": "4650edc3af38367d408ef91a1a9fc2f850b27c473f7dd844cb87ae58459f3d5b",
+      "bytes": 113927
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway_quick.xanim_bin": {
+      "sha256": "f468b347cc056cea44c2d2e03671d478783f3949538fa9a55008c38eaaeba179",
+      "bytes": 113927
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_reload_empty.xanim_bin": {
+      "sha256": "3ecfddddca944acafa539f39b4088acfd97e528b576189439eab1d7151ba60cd",
+      "bytes": 963325
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_air_in.xanim_bin": {
+      "sha256": "8e2e47ec379986bc9edbdaf9f8caba822e4d5d94a0c7062c0eed8e8a891fb4b0",
+      "bytes": 76766
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_in.xanim_bin": {
+      "sha256": "13006540959f6b5b72e1f3c9f635d7df93bea5deda45fe2bcd5b622f19f90aa5",
+      "bytes": 76766
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_loop.xanim_bin": {
+      "sha256": "0e543ab35f822761e9cb6c2260ad81e427b93e28994a99914072d0ce854ac53b",
+      "bytes": 151089
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_out.xanim_bin": {
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_in.xanim_bin": {
+      "sha256": "4428019852b2a1a7c5c991fcb285f3a2cddb39f1a059e45c70586ba7eeb31fdd",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_loop.xanim_bin": {
+      "sha256": "c997bc4beb8f1741361e7301b51b7f524bf168d1a442b497c8be98e622f95883",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_out.xanim_bin": {
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_walk_f.xanim_bin": {
+      "sha256": "70c6e2eb7cdadbef6d943e3888d875d51917f65af07d854c4631f6831b05db00",
+      "bytes": 3444
+    }
+  },
+  "view": {
+    "bones": [
+      {
+        "name": "tag_weapon",
+        "parent": -1,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_bolt_animate",
+        "parent": 0,
+        "offset": [
+          17.56783676147461,
+          1.0275955200195312,
+          2.2921764850616455
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_brass",
+        "parent": 0,
+        "offset": [
+          9.636404037475586,
+          2.950840950012207,
+          2.108778238296509
+        ],
+        "matrix": [
+          [
+            0.00018311105685598315,
+            0.999786370433668,
+            0.0
+          ],
+          [
+            -0.999786370433668,
+            0.00018311105685598315,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_bulb_1",
+        "parent": 0,
+        "offset": [
+          7.888395309448242,
+          2.950840950012207,
+          2.108778238296509
+        ],
+        "matrix": [
+          [
+            0.00018311105685598315,
+            0.999786370433668,
+            0.0
+          ],
+          [
+            -0.999786370433668,
+            0.00018311105685598315,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_bulb_2",
+        "parent": 0,
+        "offset": [
+          9.636404037475586,
+          2.950840950012207,
+          2.108778238296509
+        ],
+        "matrix": [
+          [
+            0.00018311105685598315,
+            0.999786370433668,
+            0.0
+          ],
+          [
+            -0.999786370433668,
+            0.00018311105685598315,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_bulb_3",
+        "parent": 0,
+        "offset": [
+          11.38994026184082,
+          2.950840950012207,
+          2.108778238296509
+        ],
+        "matrix": [
+          [
+            0.00018311105685598315,
+            0.999786370433668,
+            0.0
+          ],
+          [
+            -0.999786370433668,
+            0.00018311105685598315,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_clip",
+        "parent": 0,
+        "offset": [
+          9.715932846069336,
+          1.0692057609558105,
+          -11.789814949035645
+        ],
+        "matrix": [
+          [
+            0.00018311105685598315,
+            0.999786370433668,
+            0.0
+          ],
+          [
+            -0.999786370433668,
+            0.00018311105685598315,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_flash",
+        "parent": 0,
+        "offset": [
+          40.99971008300781,
+          0.00014434861077461392,
+          3.141385793685913
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_fx",
+        "parent": 0,
+        "offset": [
+          2.0514495372772217,
+          -0.0012304277624934912,
+          3.7162694931030273
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "name": "tag_switch_animate",
+        "parent": 0,
+        "offset": [
+          6.241604804992676,
+          1.2918975353240967,
+          2.2083029747009277
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9991454817346721,
+            0.040803247169408245
+          ],
+          [
+            0.0,
+            -0.040803247169408245,
+            0.9991454817346721
+          ]
+        ]
+      },
+      {
+        "name": "tag_switch_cover_animate",
+        "parent": 0,
+        "offset": [
+          6.241604804992676,
+          1.5177242755889893,
+          2.6864564418792725
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9991760002441481,
+            0.04052858058412427
+          ],
+          [
+            0.0,
+            -0.04052858058412427,
+            0.9991760002441481
+          ]
+        ]
+      },
+      {
+        "name": "tag_bolt_handle_animate",
+        "parent": 1,
+        "offset": [
+          18.32926368713379,
+          1.0767676830291748,
+          2.2921760082244873
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "meshes": [
+      {
+        "index": 0,
+        "material": "mtl_wpn_t7_zmb_dg2_wood",
+        "verts": 406,
+        "faces": 634,
+        "lo": [
+          -11.4776,
+          -1.0963,
+          -3.5888
+        ],
+        "hi": [
+          18.1024,
+          5.4562,
+          2.8277
+        ],
+        "bones": [
+          "tag_bolt_animate",
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 1,
+        "material": "mtl_wpn_t7_zmb_dg2_pipe",
+        "verts": 9928,
+        "faces": 11774,
+        "lo": [
+          -0.075,
+          -4.3356,
+          -2.1843
+        ],
+        "hi": [
+          40.9996,
+          5.3463,
+          7.7681
+        ],
+        "bones": [
+          "tag_bolt_handle_animate",
+          "tag_bulb_1",
+          "tag_bulb_2",
+          "tag_bulb_3",
+          "tag_switch_cover_animate",
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 2,
+        "material": "mtl_wpn_t7_zmb_dg2_body",
+        "verts": 3860,
+        "faces": 4550,
+        "lo": [
+          0.231,
+          -2.0499,
+          -8.9471
+        ],
+        "hi": [
+          34.0644,
+          2.6442,
+          4.7626
+        ],
+        "bones": [
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 3,
+        "material": "mtl_wpn_t7_zmb_dg2_glass",
+        "verts": 22,
+        "faces": 20,
+        "lo": [
+          6.0633,
+          -0.5284,
+          2.8123
+        ],
+        "hi": [
+          18.1366,
+          0.5284,
+          3.8691
+        ],
+        "bones": [
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 4,
+        "material": "mtl_wpn_t7_zmb_dg2_metal",
+        "verts": 7581,
+        "faces": 8189,
+        "lo": [
+          -5.5048,
+          -2.024,
+          -12.5686
+        ],
+        "hi": [
+          25.7103,
+          5.7396,
+          5.0664
+        ],
+        "bones": [
+          "tag_bolt_animate",
+          "tag_clip",
+          "tag_switch_animate",
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 5,
+        "material": "mtl_wpn_t7_zmb_dg2_glow",
+        "verts": 711,
+        "faces": 1188,
+        "lo": [
+          1.2747,
+          -0.6037,
+          3.12
+        ],
+        "hi": [
+          2.413,
+          0.6046,
+          4.3263
+        ],
+        "bones": [
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 6,
+        "material": "mtl_wpn_t7_zmb_dg2_power",
+        "verts": 14,
+        "faces": 12,
+        "lo": [
+          6.2052,
+          -0.3488,
+          3.009
+        ],
+        "hi": [
+          17.6013,
+          0.3488,
+          3.6724
+        ],
+        "bones": [
+          "tag_weapon"
+        ]
+      },
+      {
+        "index": 7,
+        "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+        "verts": 218,
+        "faces": 366,
+        "lo": [
+          10.7181,
+          2.9036,
+          1.2372
+        ],
+        "hi": [
+          12.0618,
+          5.0706,
+          2.6331
+        ],
+        "bones": [
+          "tag_bulb_3"
+        ]
+      },
+      {
+        "index": 8,
+        "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+        "verts": 218,
+        "faces": 366,
+        "lo": [
+          8.9605,
+          2.9036,
+          1.2372
+        ],
+        "hi": [
+          10.3042,
+          5.0706,
+          2.6331
+        ],
+        "bones": [
+          "tag_bulb_2"
+        ]
+      },
+      {
+        "index": 9,
+        "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+        "verts": 218,
+        "faces": 366,
+        "lo": [
+          7.2131,
+          2.9036,
+          1.2372
+        ],
+        "hi": [
+          8.5568,
+          5.0706,
+          2.6331
+        ],
+        "bones": [
+          "tag_bulb_1"
+        ]
+      }
+    ],
+    "triangles": 27465
+  },
+  "skeleton": {
+    "bones": 122,
+    "weapon_bones": {
+      "tag_weapon": [
+        13.873879432678223,
+        -17.98021697998047,
+        -17.371612548828125
+      ],
+      "tag_bolt_animate": [
+        31.441715240478516,
+        -16.952621459960938,
+        -15.079435348510742
+      ],
+      "tag_brass": [
+        23.510282516479492,
+        -15.029376029968262,
+        -15.262833595275879
+      ],
+      "tag_bulb_1": [
+        21.76227569580078,
+        -15.029376029968262,
+        -15.262833595275879
+      ],
+      "tag_bulb_2": [
+        23.510282516479492,
+        -15.029376029968262,
+        -15.262833595275879
+      ],
+      "tag_bulb_3": [
+        25.26382064819336,
+        -15.029376029968262,
+        -15.262833595275879
+      ],
+      "tag_clip": [
+        23.589813232421875,
+        -16.9110107421875,
+        -29.161426544189453
+      ],
+      "tag_flash": [
+        54.87358856201172,
+        -17.980072021484375,
+        -14.230225563049316
+      ],
+      "tag_fx": [
+        15.925329208374023,
+        -17.981447219848633,
+        -13.655342102050781
+      ],
+      "tag_switch_animate": [
+        20.1154842376709,
+        -16.688318252563477,
+        -15.163309097290039
+      ],
+      "tag_switch_cover_animate": [
+        20.1154842376709,
+        -16.462491989135742,
+        -14.685154914855957
+      ],
+      "tag_bolt_handle_animate": [
+        32.20314407348633,
+        -16.9034481048584,
+        -15.079435348510742
+      ]
+    }
+  },
+  "world": [
+    {
+      "lod": 0,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 406,
+          "faces": 634,
+          "lo": [
+            -11.4776,
+            -1.0963,
+            -3.5888
+          ],
+          "hi": [
+            18.1024,
+            5.4562,
+            2.8277
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 9928,
+          "faces": 11774,
+          "lo": [
+            -0.075,
+            -4.3356,
+            -2.1843
+          ],
+          "hi": [
+            40.9996,
+            5.3463,
+            7.7681
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 3859,
+          "faces": 4550,
+          "lo": [
+            0.231,
+            -2.0499,
+            -8.9471
+          ],
+          "hi": [
+            34.0644,
+            2.6442,
+            4.7626
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 22,
+          "faces": 20,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8123
+          ],
+          "hi": [
+            18.1366,
+            0.5284,
+            3.8691
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 7129,
+          "faces": 7805,
+          "lo": [
+            -5.5048,
+            -2.024,
+            -6.3454
+          ],
+          "hi": [
+            25.7103,
+            5.7396,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_glow",
+          "verts": 711,
+          "faces": 1188,
+          "lo": [
+            1.2747,
+            -0.6037,
+            3.12
+          ],
+          "hi": [
+            2.413,
+            0.6046,
+            4.3263
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 14,
+          "faces": 12,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            0.3488,
+            3.6724
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 218,
+          "faces": 366,
+          "lo": [
+            10.7181,
+            2.9036,
+            1.2372
+          ],
+          "hi": [
+            12.0618,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 218,
+          "faces": 366,
+          "lo": [
+            8.9605,
+            2.9036,
+            1.2372
+          ],
+          "hi": [
+            10.3042,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 9,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 218,
+          "faces": 366,
+          "lo": [
+            7.2131,
+            2.9036,
+            1.2372
+          ],
+          "hi": [
+            8.5568,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 27081
+    },
+    {
+      "lod": 1,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 234,
+          "faces": 328,
+          "lo": [
+            -11.4776,
+            -1.0963,
+            -3.5888
+          ],
+          "hi": [
+            18.1024,
+            5.4562,
+            2.8277
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 5272,
+          "faces": 5179,
+          "lo": [
+            -0.075,
+            -4.3269,
+            -2.1332
+          ],
+          "hi": [
+            40.9996,
+            5.3587,
+            7.7589
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 2256,
+          "faces": 2502,
+          "lo": [
+            3.7115,
+            -2.0499,
+            -8.9405
+          ],
+          "hi": [
+            34.0644,
+            2.6442,
+            4.7626
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 22,
+          "faces": 20,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8123
+          ],
+          "hi": [
+            18.1366,
+            0.5284,
+            3.8691
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 4475,
+          "faces": 4023,
+          "lo": [
+            -5.4642,
+            -2.024,
+            -6.3454
+          ],
+          "hi": [
+            25.7103,
+            5.7396,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_glow",
+          "verts": 116,
+          "faces": 160,
+          "lo": [
+            1.2747,
+            -0.5924,
+            3.1292
+          ],
+          "hi": [
+            2.413,
+            0.5933,
+            4.317
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 14,
+          "faces": 12,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            0.3488,
+            3.6724
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 117,
+          "faces": 174,
+          "lo": [
+            10.7168,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            12.0631,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 117,
+          "faces": 174,
+          "lo": [
+            8.9592,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            10.3055,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 9,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 117,
+          "faces": 174,
+          "lo": [
+            7.2118,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            8.5581,
+            5.0706,
+            2.6331
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 12746
+    },
+    {
+      "lod": 2,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 176,
+          "faces": 220,
+          "lo": [
+            -11.4776,
+            -1.0963,
+            -3.5888
+          ],
+          "hi": [
+            18.1024,
+            5.466,
+            2.8277
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 3558,
+          "faces": 2935,
+          "lo": [
+            -0.0767,
+            -4.3269,
+            -2.1269
+          ],
+          "hi": [
+            40.9996,
+            5.3599,
+            7.7589
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 1699,
+          "faces": 1430,
+          "lo": [
+            3.7115,
+            -2.0499,
+            -8.9405
+          ],
+          "hi": [
+            34.0644,
+            2.6404,
+            4.7382
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 19,
+          "faces": 17,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8024
+          ],
+          "hi": [
+            18.1366,
+            0.5383,
+            3.8652
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 3889,
+          "faces": 3303,
+          "lo": [
+            -5.4642,
+            -2.024,
+            -6.3454
+          ],
+          "hi": [
+            25.7103,
+            5.7396,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_glow",
+          "verts": 51,
+          "faces": 51,
+          "lo": [
+            1.2721,
+            -0.5917,
+            3.1292
+          ],
+          "hi": [
+            2.4132,
+            0.5601,
+            4.2764
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 14,
+          "faces": 12,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            0.3488,
+            3.6724
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 51,
+          "faces": 53,
+          "lo": [
+            10.6991,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            12.0746,
+            5.1277,
+            2.5738
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 51,
+          "faces": 51,
+          "lo": [
+            8.9462,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            10.3158,
+            5.1277,
+            2.5738
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 9,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 52,
+          "faces": 54,
+          "lo": [
+            7.1941,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            8.5697,
+            5.1277,
+            2.5738
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 8126
+    },
+    {
+      "lod": 3,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 115,
+          "faces": 114,
+          "lo": [
+            -11.4776,
+            -1.0968,
+            -3.5408
+          ],
+          "hi": [
+            18.1145,
+            5.2611,
+            2.8277
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 1646,
+          "faces": 1171,
+          "lo": [
+            -0.0767,
+            -4.308,
+            -1.9225
+          ],
+          "hi": [
+            39.6594,
+            5.3599,
+            7.7391
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 1026,
+          "faces": 732,
+          "lo": [
+            3.7115,
+            -2.0617,
+            -6.3079
+          ],
+          "hi": [
+            30.2149,
+            2.5821,
+            4.7382
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 16,
+          "faces": 14,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8024
+          ],
+          "hi": [
+            18.1366,
+            0.5383,
+            3.9109
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 2493,
+          "faces": 1929,
+          "lo": [
+            -5.4642,
+            -2.024,
+            -6.3454
+          ],
+          "hi": [
+            25.7103,
+            5.7468,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_glow",
+          "verts": 34,
+          "faces": 27,
+          "lo": [
+            1.2729,
+            -0.5731,
+            3.1292
+          ],
+          "hi": [
+            2.4132,
+            0.5601,
+            4.2764
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 10,
+          "faces": 8,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6014,
+            0.3369,
+            3.701
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 34,
+          "faces": 25,
+          "lo": [
+            10.8909,
+            2.8894,
+            1.2351
+          ],
+          "hi": [
+            11.9042,
+            4.9705,
+            2.5555
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 26,
+          "faces": 21,
+          "lo": [
+            9.1795,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            10.1164,
+            4.9728,
+            2.5538
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 9,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 30,
+          "faces": 23,
+          "lo": [
+            7.4123,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            8.3642,
+            4.969,
+            2.5848
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 4064
+    },
+    {
+      "lod": 4,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 80,
+          "faces": 63,
+          "lo": [
+            -11.4639,
+            -1.0264,
+            -3.5408
+          ],
+          "hi": [
+            18.1698,
+            5.2611,
+            2.7561
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 760,
+          "faces": 461,
+          "lo": [
+            1.3372,
+            -4.2904,
+            -0.4402
+          ],
+          "hi": [
+            39.6594,
+            4.8878,
+            7.7206
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 628,
+          "faces": 417,
+          "lo": [
+            3.7115,
+            -2.0131,
+            -3.3087
+          ],
+          "hi": [
+            23.9213,
+            2.572,
+            4.8235
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 11,
+          "faces": 9,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8541
+          ],
+          "hi": [
+            18.1366,
+            0.5075,
+            3.9109
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 1581,
+          "faces": 1156,
+          "lo": [
+            -5.3662,
+            -1.7229,
+            -4.6071
+          ],
+          "hi": [
+            25.7103,
+            5.7468,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_glow",
+          "verts": 18,
+          "faces": 13,
+          "lo": [
+            1.4099,
+            -0.4924,
+            3.1698
+          ],
+          "hi": [
+            2.4131,
+            0.4396,
+            4.1757
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 10,
+          "faces": 6,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6014,
+            0.3095,
+            3.701
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 22,
+          "faces": 14,
+          "lo": [
+            10.8909,
+            2.96,
+            1.2351
+          ],
+          "hi": [
+            11.8154,
+            4.957,
+            2.495
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 21,
+          "faces": 14,
+          "lo": [
+            9.2615,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            10.1164,
+            4.9728,
+            2.5151
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 9,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 19,
+          "faces": 14,
+          "lo": [
+            7.4644,
+            2.9036,
+            1.2351
+          ],
+          "hi": [
+            8.3295,
+            4.9563,
+            2.5848
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 2167
+    },
+    {
+      "lod": 5,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 47,
+          "faces": 32,
+          "lo": [
+            -11.4639,
+            -1.0264,
+            -3.4188
+          ],
+          "hi": [
+            17.9488,
+            2.2604,
+            2.7561
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 290,
+          "faces": 136,
+          "lo": [
+            2.4194,
+            -2.4466,
+            1.1839
+          ],
+          "hi": [
+            34.7819,
+            4.7056,
+            4.5392
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 365,
+          "faces": 229,
+          "lo": [
+            3.884,
+            -1.9117,
+            -3.2972
+          ],
+          "hi": [
+            22.955,
+            2.5667,
+            4.8235
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 10,
+          "faces": 6,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8541
+          ],
+          "hi": [
+            18.1366,
+            0.3865,
+            3.9109
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 953,
+          "faces": 665,
+          "lo": [
+            -5.3662,
+            -1.7226,
+            -4.6071
+          ],
+          "hi": [
+            25.7103,
+            2.9787,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 4,
+          "faces": 2,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            -0.0,
+            3.3407
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 6,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb1",
+          "verts": 10,
+          "faces": 4,
+          "lo": [
+            10.8909,
+            4.8034,
+            1.3331
+          ],
+          "hi": [
+            11.7967,
+            4.957,
+            2.2036
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 7,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb2",
+          "verts": 10,
+          "faces": 4,
+          "lo": [
+            9.2615,
+            4.8034,
+            1.3331
+          ],
+          "hi": [
+            10.1164,
+            4.9728,
+            2.2727
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 8,
+          "material": "mtl_wpn_t7_zmb_dg2_bulb3",
+          "verts": 10,
+          "faces": 4,
+          "lo": [
+            7.4644,
+            4.8034,
+            1.3331
+          ],
+          "hi": [
+            8.3295,
+            4.9542,
+            2.1877
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 1082
+    },
+    {
+      "lod": 6,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 30,
+          "faces": 20,
+          "lo": [
+            -11.3907,
+            -1.0264,
+            -3.3578
+          ],
+          "hi": [
+            4.8155,
+            1.0264,
+            2.5551
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 58,
+          "faces": 24,
+          "lo": [
+            3.0964,
+            -1.3333,
+            1.4825
+          ],
+          "hi": [
+            30.4783,
+            2.8286,
+            4.5387
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 234,
+          "faces": 138,
+          "lo": [
+            3.884,
+            -1.7462,
+            -2.6484
+          ],
+          "hi": [
+            22.955,
+            2.4948,
+            4.8235
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 4,
+          "faces": 2,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8541
+          ],
+          "hi": [
+            18.1366,
+            -0.2016,
+            3.3407
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 626,
+          "faces": 355,
+          "lo": [
+            -5.2315,
+            -1.7226,
+            -4.6071
+          ],
+          "hi": [
+            25.7103,
+            2.7066,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 4,
+          "faces": 2,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            -0.0,
+            3.3407
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 541
+    },
+    {
+      "lod": 7,
+      "bones": [
+        "tag_weapon",
+        "tag_brass",
+        "tag_flash",
+        "tag_fx"
+      ],
+      "meshes": [
+        {
+          "index": 0,
+          "material": "mtl_wpn_t7_zmb_dg2_wood",
+          "verts": 23,
+          "faces": 12,
+          "lo": [
+            -11.3907,
+            -1.0264,
+            -2.5723
+          ],
+          "hi": [
+            1.5858,
+            1.0264,
+            2.5172
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 1,
+          "material": "mtl_wpn_t7_zmb_dg2_pipe",
+          "verts": 6,
+          "faces": 2,
+          "lo": [
+            28.4721,
+            -0.5641,
+            2.7095
+          ],
+          "hi": [
+            30.4783,
+            0.0383,
+            3.6536
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 2,
+          "material": "mtl_wpn_t7_zmb_dg2_body",
+          "verts": 140,
+          "faces": 74,
+          "lo": [
+            4.0444,
+            -1.7462,
+            -2.6484
+          ],
+          "hi": [
+            21.6207,
+            1.7462,
+            4.8235
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 3,
+          "material": "mtl_wpn_t7_zmb_dg2_glass",
+          "verts": 4,
+          "faces": 2,
+          "lo": [
+            6.0633,
+            -0.5284,
+            2.8541
+          ],
+          "hi": [
+            18.1366,
+            -0.2016,
+            3.3407
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 4,
+          "material": "mtl_wpn_t7_zmb_dg2_metal",
+          "verts": 358,
+          "faces": 177,
+          "lo": [
+            -5.2315,
+            -1.7226,
+            -4.5767
+          ],
+          "hi": [
+            24.8576,
+            1.7223,
+            5.0664
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        },
+        {
+          "index": 5,
+          "material": "mtl_wpn_t7_zmb_dg2_power",
+          "verts": 4,
+          "faces": 2,
+          "lo": [
+            6.2052,
+            -0.3488,
+            3.009
+          ],
+          "hi": [
+            17.6013,
+            -0.0,
+            3.3407
+          ],
+          "bones": [
+            "tag_weapon"
+          ]
+        }
+      ],
+      "triangles": 269
+    }
+  ],
+  "materials": {
+    "mtl_wpn_t7_zmb_dg2_wood": "lit_weapon",
+    "mtl_wpn_t7_zmb_dg2_pipe": "lit_weapon",
+    "mtl_wpn_t7_zmb_dg2_body": "lit_weapon",
+    "mtl_wpn_t7_zmb_dg2_glass": "lit_transparent",
+    "mtl_wpn_t7_zmb_dg2_metal": "lit_weapon",
+    "mtl_wpn_t7_zmb_dg2_glow": "lit_emissive_script",
+    "mtl_wpn_t7_zmb_dg2_power": "lit_emissive",
+    "mtl_wpn_t7_zmb_dg2_bulb1": "lit_emissive_script",
+    "mtl_wpn_t7_zmb_dg2_bulb2": "lit_emissive_script",
+    "mtl_wpn_t7_zmb_dg2_bulb3": "lit_emissive_script"
+  }
+}

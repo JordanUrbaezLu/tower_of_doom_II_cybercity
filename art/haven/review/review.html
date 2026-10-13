@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haven Design Review</title>
+<style>
+  :root { --bg: #0b0f1a; --panel: #121a2b; --ink: #e6edf7; --muted: #8fa0bd; --accent: #4fe3ff; --line: #22314d; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg: #f4f6fb; --panel: #ffffff; --ink: #121826; --muted: #4c5a72; --accent: #0a8fb0; --line: #d5dcea; } }
+  :root[data-theme="dark"] { --bg: #0b0f1a; --panel: #121a2b; --ink: #e6edf7; --muted: #8fa0bd; --accent: #4fe3ff; --line: #22314d; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, Segoe UI, sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 24px; margin: 0 0 4px; letter-spacing: .02em; }
+  .sub { color: var(--muted); margin: 0 0 20px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+  figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 10px 12px; font-size: 14px; }
+  figcaption b { color: var(--accent); }
+  .wide { grid-column: 1 / -1; }
+  .note { margin-top: 20px; padding: 12px 14px; border-left: 3px solid var(--accent); background: var(--panel); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>The Havens: floor 10 design review (v2, the heart)</h1>
+  <p class="sub">docs/202. The safe zone now stands inside the tower: the core opens at the haven floor into a hall, the force field stands at its heart with the teleporter at its centre, and the machines ring the hall outside the field. The real generated map faces around floor 10, the map's own surface materials, the shipping force-field dome and the floor's own lights, seen from player height. Rendered in Blender (Eevee); an approximation of the in-game look.</p>
+  <div class="grid">
+    <figure class="wide"><img src="approach.png" alt="Through the porch archway into the hall"><figcaption><b>Approach.</b> Coming down the tower, on the floor's landing: the porch steps and the archway in the old core's wall, and the field glowing inside with the teleporter at its centre.</figcaption></figure>
+    <figure class="wide"><img src="loggia.png" alt="From the loggia across the hall to the field"><figcaption><b>The hall.</b> From the east loggia: the field at the hall's heart, the emitter pylons with their lit collars, the next lap's flights running round the void overhead and the projector ring on the ceiling.</figcaption></figure>
+    <figure><img src="inside.png" alt="Inside the field looking out at the machines"><figcaption><b>Inside.</b> Beside the teleporter, looking out at the east loggia: the altar and Pack-a-Punch stand outside the field, so shopping is a step out of the safe zone.</figcaption></figure>
+    <figure><img src="pad.png" alt="From the teleporter arrival looking south"><figcaption><b>Arrival.</b> Where up-riders land, inside the field, looking over the teleporter to the porch side.</figcaption></figure>
+    <figure><img src="gallery.png" alt="From the stairs above, over the handrail into the hall"><figcaption><b>From the stairs.</b> Coming down the next lap's east flight, over its sloped handrail: the field glows across the void before you reach the floor.</figcaption></figure>
+    <figure><img src="plan.png" alt="Section plan of the hall"><figcaption><b>Plan.</b> A section cut 150 over the floor: the field and the teleporter at the heart, the porch fan bottom left, the pylons, the perk pads (top), the ammo crate, the altar and Pack-a-Punch (right).</figcaption></figure>
+    <figure class="wide"><img src="vignette_states.png" alt="The screen tint in its states: outside, inside, crossing, a cut hit"><figcaption><b>Your screen.</b> The shipped tint with the widget's own colours and alphas (tools/haven/render_tint_preview.py), over a placeholder scene. Top to bottom: outside (nothing drawn); inside (the steady cyan lattice at the edges); crossing in, at the flash's peak (70 ms, then it fades over half a second); inside at the peak of a hit the field cut.</figcaption></figure>
+    <figure class="wide"><img src="ripple_graze_260.png" alt="The crossing ripple seen along the dome"><figcaption><b>Crossing ripple, from the side.</b> A player crossing on the field's north side, 0.26 s in: the rings lie on the dome and bend with its curve (tools/haven/preview_ripple.py reads the generated effect; beads drawn as small glowing spheres, their colour and softness approximate).</figcaption></figure>
+    <figure><img src="ripple_front_260.png" alt="The crossing ripple face on"><figcaption><b>Crossing ripple, face on.</b> The same crossing from the north loggia: rings running outward over the dome, the lowest ones cut off by the floor.</figcaption></figure>
+    <figure><img src="ripple_inside_120.png" alt="The crossing ripple from inside the field"><figcaption><b>Crossing ripple, from inside.</b> 0.12 s in, seen from inside the field: concentric rings on the curved field round the point where the player crossed.</figcaption></figure>
+    <figure><img src="ripple_push_110.png" alt="A zombie forcing into the field"><figcaption><b>A zombie forcing in.</b> The same rounded ripple, tighter and in the field's hostile red (the preview's exposure washes the red out).</figcaption></figure>
+    <figure><img src="vignette_corner_2x.png" alt="The tint's corner at twice size"><figcaption><b>Detail.</b> The top-left corner of the steady inside tint at twice size: the hex lattice and fine scanlines fade out well before the centre of the screen.</figcaption></figure>
+    <figure class="wide"><img src="state_corrupt_loggia.png" alt="The corrupted haven from the north loggia"><figcaption><b>v3 CORRUPTED (before you take it).</b> From the north loggia: the field in its crimson skin, the FLOOR 10 sign red on the S wall behind it, and the guardians' spawn spots marked inside the field (tools/haven/preview_states.py; the markers stand in for the Doppelghasts and Manglers, the embers and red arcs of fx_tod_haven_corrupt are not drawn). This field does nothing for you: no slow, no damage cut, no tax, and its pad is dead.</figcaption></figure>
+    <figure class="wide"><img src="state_safe_loggia.png" alt="The safe haven from the north loggia"><figcaption><b>v3 SAFE (after the cleanse).</b> The same view once the last guardian is dead: the field cyan again, the sign in the district's colour. The two states are the user's "two distinct states": one when it is not safe, one when it is.</figcaption></figure>
+    <figure><img src="state_corrupt_porch.png" alt="The corrupted haven from the porch"><figcaption><b>Corrupted, from the way in.</b> Through the porch archway: the crimson lattice and the red sign read before you are inside the wake band.</figcaption></figure>
+    <figure><img src="state_safe_porch.png" alt="The safe haven from the porch"><figcaption><b>Safe, from the way in.</b> The sanctuary you fought for.</figcaption></figure>
+    <figure><img src="state_corrupt_gallery.png" alt="The corrupted haven from the gallery above"><figcaption><b>Corrupted, from the gallery.</b> Coming down the next lap's flight: the evil dome below, its guardians' spots inside it; a player here is inside the wake band and will rouse them.</figcaption></figure>
+    <figure><img src="state_safe_gallery.png" alt="The safe haven from the gallery above"><figcaption><b>Safe, from the gallery.</b></figcaption></figure>
+  </div>
+  <p class="note">What this does NOT show: BO3's lighting bake, probes, exposure and bloom; the effects (the ambient motes, the crossing ripple, the boot); the screen tint; the stock machines (shown as labelled blocks at their real anchors and footprints). The game is the authority.</p>
+</main>
+</body>
+</html>

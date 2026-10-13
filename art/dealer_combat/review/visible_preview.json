@@ -1,0 +1,78 @@
+{
+  "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\dealer_combat\\review\\dealer_combat.blend",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "camera": "DC | player-height camera",
+  "areas": [
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    },
+    {
+      "type": "RENDERED",
+      "scene_lights": true,
+      "scene_world": true,
+      "perspective": "CAMERA",
+      "camera_zoom": 18.0
+    }
+  ],
+  "approximation": "Actual native rig/weapon clips; preview effect geometry and studio lighting are not BO3."
+}

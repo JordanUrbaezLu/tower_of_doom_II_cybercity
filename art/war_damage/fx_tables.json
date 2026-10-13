@@ -1,0 +1,29 @@
+{
+ "flash_sizes": {
+  "l": 3000,
+  "m": 1500,
+  "s": 700
+ },
+ "loops_ms": {
+  "a": 2400,
+  "b": 3100,
+  "c": 4000
+ },
+ "tracer": {
+  "life_ms": 380,
+  "speed": 4200
+ },
+ "tube_light": {
+  "peak": 380,
+  "radius": 220
+ },
+ "tube_points": [
+  -18,
+  0,
+  18
+ ],
+ "wreck_sizes": {
+  "l": 2.4,
+  "s": 1.0
+ }
+}

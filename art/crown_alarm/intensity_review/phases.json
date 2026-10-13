@@ -1,0 +1,156 @@
+{
+  "preview_seed": 260926,
+  "runtime": "Server RandomFloat(360), once per fixture per match",
+  "fixtures": [
+    {
+      "id": 0,
+      "kind": "pillar",
+      "phase_degrees": 23.80872475677617
+    },
+    {
+      "id": 1,
+      "kind": "pillar",
+      "phase_degrees": 151.96551182617284
+    },
+    {
+      "id": 2,
+      "kind": "pillar",
+      "phase_degrees": 119.16192805697018
+    },
+    {
+      "id": 3,
+      "kind": "pillar",
+      "phase_degrees": 163.51397378423528
+    },
+    {
+      "id": 4,
+      "kind": "pillar",
+      "phase_degrees": 307.29469647011575
+    },
+    {
+      "id": 5,
+      "kind": "pillar",
+      "phase_degrees": 267.4115049449453
+    },
+    {
+      "id": 6,
+      "kind": "pillar",
+      "phase_degrees": 156.01889337608563
+    },
+    {
+      "id": 7,
+      "kind": "pillar",
+      "phase_degrees": 181.6361141031901
+    },
+    {
+      "id": 8,
+      "kind": "pillar",
+      "phase_degrees": 156.42270626233542
+    },
+    {
+      "id": 9,
+      "kind": "pillar",
+      "phase_degrees": 210.5706938493105
+    },
+    {
+      "id": 10,
+      "kind": "pillar",
+      "phase_degrees": 274.7368393881945
+    },
+    {
+      "id": 11,
+      "kind": "pillar",
+      "phase_degrees": 279.3361917380052
+    },
+    {
+      "id": 12,
+      "kind": "pendant",
+      "phase_degrees": 293.8413710166728
+    },
+    {
+      "id": 13,
+      "kind": "point",
+      "phase_degrees": 337.1458137329732
+    },
+    {
+      "id": 14,
+      "kind": "point",
+      "phase_degrees": 164.71378651959222
+    },
+    {
+      "id": 15,
+      "kind": "point",
+      "phase_degrees": 244.33730266070432
+    },
+    {
+      "id": 16,
+      "kind": "point",
+      "phase_degrees": 335.8849942820032
+    },
+    {
+      "id": 17,
+      "kind": "point",
+      "phase_degrees": 8.0865978916048
+    },
+    {
+      "id": 18,
+      "kind": "point",
+      "phase_degrees": 33.51926042438638
+    },
+    {
+      "id": 19,
+      "kind": "point",
+      "phase_degrees": 45.72490360201364
+    },
+    {
+      "id": 20,
+      "kind": "point",
+      "phase_degrees": 68.92196465444847
+    },
+    {
+      "id": 21,
+      "kind": "point",
+      "phase_degrees": 180.56098035352002
+    },
+    {
+      "id": 22,
+      "kind": "point",
+      "phase_degrees": 349.3117605544898
+    },
+    {
+      "id": 23,
+      "kind": "point",
+      "phase_degrees": 268.6795045744708
+    },
+    {
+      "id": 24,
+      "kind": "point",
+      "phase_degrees": 246.36852030880036
+    },
+    {
+      "id": 25,
+      "kind": "point",
+      "phase_degrees": 338.6668268024902
+    },
+    {
+      "id": 26,
+      "kind": "point",
+      "phase_degrees": 181.69522482858073
+    },
+    {
+      "id": 27,
+      "kind": "point",
+      "phase_degrees": 211.26922765619068
+    },
+    {
+      "id": 28,
+      "kind": "point",
+      "phase_degrees": 111.6185873521084
+    },
+    {
+      "id": 29,
+      "kind": "apex",
+      "phase_degrees": 321.73085118524136
+    }
+  ]
+}

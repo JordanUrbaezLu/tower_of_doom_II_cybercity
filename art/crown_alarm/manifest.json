@@ -1,0 +1,960 @@
+{
+  "authoring": "Blender MCP execute_blender_code",
+  "models": [
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 0,
+      "triangles": 11004,
+      "meshes": 55,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin",
+      "sha256": "1214fb25c986dec0282db66b9dcddae84b2600ca04688233f56006a761cfdfb3",
+      "bounds": [
+        [
+          -26.0,
+          -26.0,
+          0.0
+        ],
+        [
+          26.0,
+          29.0,
+          48.349998474121094
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 1,
+      "triangles": 2880,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin",
+      "sha256": "f5a7961aa525cb0e17936e6603e6225bae4716ca51a38c2f2bad01cc7478c901",
+      "bounds": [
+        [
+          -25.976890563964844,
+          -26.0,
+          0.0
+        ],
+        [
+          26.0,
+          29.0,
+          48.350120544433594
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 2,
+      "triangles": 1300,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin",
+      "sha256": "d2631fb07d1621e4df673a98e4b3f711a5ba8de8eedee7f1dbb0ba0d3f5f936b",
+      "bounds": [
+        [
+          -25.971416473388672,
+          -25.96596908569336,
+          0.014780402183532715
+        ],
+        [
+          25.971416473388672,
+          28.9748477935791,
+          48.333251953125
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 0,
+      "triangles": 3256,
+      "meshes": 9,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod0.xmodel_bin",
+      "sha256": "59642b0afffd3e9573e228117c2eeadba6bb123548715ec58ef37f99daa188be",
+      "bounds": [
+        [
+          -9.300000190734863,
+          -13.300000190734863,
+          -13.5
+        ],
+        [
+          5.099999904632568,
+          13.300000190734863,
+          15.299999237060547
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 1,
+      "triangles": 1422,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod1.xmodel_bin",
+      "sha256": "eadeef5193a54c8dc4300ffbef07d82a1b449c4905cf69426afef1c9840770f4",
+      "bounds": [
+        [
+          -9.299749374389648,
+          -13.327444076538086,
+          -13.500123977661133
+        ],
+        [
+          4.999407768249512,
+          13.327444076538086,
+          15.327442169189453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 2,
+      "triangles": 644,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod2.xmodel_bin",
+      "sha256": "885b9259f4613b36b4cff98ed14e4882d89640cd8413ff85d5e394fb65bc892a",
+      "bounds": [
+        [
+          -9.299103736877441,
+          -13.213854789733887,
+          -13.500801086425781
+        ],
+        [
+          4.956813812255859,
+          13.213854789733887,
+          15.213855743408203
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 0,
+      "triangles": 3256,
+      "meshes": 9,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod0.xmodel_bin",
+      "sha256": "ef6ed47aa9f76de243b39f0a42bd3eacedbd88cf4607236a96fa451479ee8dab",
+      "bounds": [
+        [
+          -9.300000190734863,
+          -13.300000190734863,
+          -13.5
+        ],
+        [
+          5.099999904632568,
+          13.300000190734863,
+          15.299999237060547
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 1,
+      "triangles": 1422,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod1.xmodel_bin",
+      "sha256": "c6ccb71a9d42f9494d3e60876b21adbcfd65c73581061e23908a22bfb3a5dcf3",
+      "bounds": [
+        [
+          -9.299749374389648,
+          -13.327444076538086,
+          -13.500123977661133
+        ],
+        [
+          4.999407768249512,
+          13.327444076538086,
+          15.327442169189453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 2,
+      "triangles": 644,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod2.xmodel_bin",
+      "sha256": "42954011c2b919b711d4604feb422418c225dccabfd94a65bf6a588ec5058fa2",
+      "bounds": [
+        [
+          -9.299103736877441,
+          -13.213854789733887,
+          -13.500801086425781
+        ],
+        [
+          4.956813812255859,
+          13.213854789733887,
+          15.213855743408203
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 0,
+      "triangles": 11004,
+      "meshes": 55,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod0.xmodel_bin",
+      "sha256": "648d694d03c833f9c6e760a94f9beb0d88191a35ed7eb1ab20180ceb0a24cc07",
+      "bounds": [
+        [
+          -44.62396240234375,
+          -44.62396240234375,
+          0.0
+        ],
+        [
+          44.62396240234375,
+          44.62396240234375,
+          92.69999694824219
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 1,
+      "triangles": 2880,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod1.xmodel_bin",
+      "sha256": "d52275ec9ef5457d45c36cf7eab5ead7d05b8e75897f6db027908eb75bf59283",
+      "bounds": [
+        [
+          -44.614036560058594,
+          -44.614036560058594,
+          0.0
+        ],
+        [
+          44.614036560058594,
+          44.614036560058594,
+          92.70024108886719
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 2,
+      "triangles": 1300,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod2.xmodel_bin",
+      "sha256": "14b59d1f558e55d7e928b093b7452e083d505e6c85030c9a32efd9a2b7880ecd",
+      "bounds": [
+        [
+          -44.68345642089844,
+          -44.68345642089844,
+          0.014780402183532715
+        ],
+        [
+          44.68345642089844,
+          44.68345642089844,
+          92.66650390625
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_high_off",
+      "lod": 0,
+      "triangles": 3256,
+      "meshes": 9,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod0.xmodel_bin",
+      "sha256": "873be2578d9f85006f02cac493bdc621a189e417fad5535528d655ec9de0eeba",
+      "bounds": [
+        [
+          -18.600000381469727,
+          -26.600000381469727,
+          -27.0
+        ],
+        [
+          10.199999809265137,
+          26.600000381469727,
+          30.599998474121094
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_high_off",
+      "lod": 1,
+      "triangles": 1422,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod1.xmodel_bin",
+      "sha256": "86efceddb62641f201e049959740d71b0d46e4072d87263b64fe708b302e9226",
+      "bounds": [
+        [
+          -18.599498748779297,
+          -26.654888153076172,
+          -27.000247955322266
+        ],
+        [
+          9.998815536499023,
+          26.654888153076172,
+          30.654884338378906
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_high_off",
+      "lod": 2,
+      "triangles": 644,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod2.xmodel_bin",
+      "sha256": "bff63d424c4ab9f8b23a6deed2a846bfbc2767953615337fbfb15ec64b9cac92",
+      "bounds": [
+        [
+          -18.598207473754883,
+          -26.427709579467773,
+          -27.001602172851562
+        ],
+        [
+          9.913627624511719,
+          26.427709579467773,
+          30.427711486816406
+        ]
+      ]
+    }
+  ],
+  "textures": {
+    "i_tod_alarm_cast_c.png": "b0fc0bb2f21df7c50b82f64f23c95f6b6a4af44983244fbc10b0ba65519e7f3b",
+    "i_tod_alarm_cast_g.png": "41ce4ff8856fa33cf5a9aba6da79f7c689ff9307ac6565035ac21251f8382f4d",
+    "i_tod_alarm_cast_s.png": "ce2d53ca04b3e03a99924496d92b03be1ce340b39b21bcd37491618cd07fd5bb",
+    "i_tod_alarm_cast_n.png": "b64ea740a24061e2d8195aba74dd98033830a358f1e61524da8bdca60aa11628",
+    "i_tod_alarm_steel_c.png": "ed585a896a6da95cb1e8e033afe25ea4a37cb961204e2522acd45588151304c5",
+    "i_tod_alarm_steel_g.png": "55114e8cd4ce3fc34e547b9da6948a885c9384ea5554030a938786f5eef20c49",
+    "i_tod_alarm_steel_s.png": "1b72355e75fc8878d814596b276eacf2e9bddf1d46d39c9bd67a3cd24584e177",
+    "i_tod_alarm_steel_n.png": "e167d34a0d9cf7d414cc8905e8e8f1465c8402220ac2ae03466c8127419c6618",
+    "i_tod_alarm_rubber_c.png": "6aee0a9efd3732c9bf9aaa45c59a6bc7e39d9a9fa0c678f2596d5ce973bcc2b6",
+    "i_tod_alarm_rubber_g.png": "f3b54495bc98d550b089b2b07caaadd1f9332739bd97967535935759aae3348c",
+    "i_tod_alarm_rubber_s.png": "1162a3a7c5e703dfa27129da1a9dc242819898c94d05cb18254bd01f483dbdf9",
+    "i_tod_alarm_rubber_n.png": "1c5932fd2d55456190e73a3664bf42ca6d8b74864c36881e519ee98606bde744",
+    "i_tod_alarm_reflector_c.png": "06064d19204eb5948f0f87048a759b548087358d3333094ca99b316576ce7e6a",
+    "i_tod_alarm_reflector_g.png": "6f20e31ce50c3be0c677c1f7921e47964ed2a7e36000ea1ac4d7c591d5e122a4",
+    "i_tod_alarm_reflector_s.png": "6d1777f7373661e1e0b0b51ab5ef857706b6a9f7cb021bbdd868a42212a597be",
+    "i_tod_alarm_reflector_n.png": "ab76cef19cf5ec0ef07613923d82da192a6e1ce6da67ebff1fce06e7c65c0f84",
+    "i_tod_alarm_lens_c.png": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+    "i_tod_alarm_lens_g.png": "727798041721bee7590584f393a79c118b78ffeb5b44da1c30f29e81230071a8",
+    "i_tod_alarm_lens_s.png": "2357c7a0c79dae351c571b8132c1fc146f67d5ccd2480d1794c3c5fd92e8a4ca",
+    "i_tod_alarm_lens_n.png": "704b9bf9c42e136dee2f5755705d37849f02dfc19f3c4cb70143f91f8b321863",
+    "i_tod_alarm_lamp_off_c.png": "77c09242819a1c5c57eb91af6418a933213387c0b9c7daa444d3707a116ac4e5",
+    "i_tod_alarm_lamp_off_g.png": "90b046266c2a9b8644710a7a231487206d1fd78e06ccdfe4cca082bad87b1853",
+    "i_tod_alarm_lamp_off_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_lamp_off_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_lamp_on_c.png": "860ffb96b6e7bbdb5da3079a778e83030a9920c0e31c8c7fc46368f241b38669",
+    "i_tod_alarm_lamp_on_g.png": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75",
+    "i_tod_alarm_lamp_on_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_lamp_on_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+  },
+  "pivot_z": 26,
+  "height": 48.35,
+  "width": 52,
+  "turn_seconds": 1.5,
+  "fixture_count": 30,
+  "preview_native_verified": false,
+  "light_profile": {
+    "version": "red-sweep-2",
+    "intensity": 1800,
+    "radius": 900,
+    "fov_degrees": 78,
+    "lamp_emission": 36,
+    "high_lamp_multiplier": 16,
+    "high_fixture_scale": 2,
+    "high_rotor_height": 48,
+    "high_intensity": 14400,
+    "high_radius": 2400,
+    "high_spawn_range": 20000,
+    "high_bounds": 2600,
+    "spawn_range": 2400,
+    "bounds": 940,
+    "interval_ms": 1000,
+    "turn_seconds": 1.5,
+    "local_spots": 13,
+    "color": [
+      1,
+      0,
+      0
+    ]
+  },
+  "gdt_sha256": "f59c2344bafb54bb8b3e5c6259090cd4426ad4f77f65b10390989155480b219f",
+  "spotlight_sha256": "857ffbd9fac164f87b43e6ec7f46aca690c62df2b41a4aaf04801dd82c33bce5",
+  "variants": [
+    {
+      "asset": "tod_crown_alarm_rotor_high_on",
+      "source_asset": "tod_crown_alarm_rotor_high_off",
+      "skin_override": "mtl_tod_alarm_lamp_off mtl_tod_alarm_lamp_high_on"
+    }
+  ],
+  "high_light_sha256": "1863be72ce9572756530ff1507ead72d634c6535d676c12973322512cb14cc4b",
+  "surface_realism": {
+    "revision": "2026-09-29",
+    "authoring": "Actual Blender MCP execute_blender_code",
+    "geometry": "All native vertices, normals, faces, bones, bounds and material roles retained; UV-only atlas update.",
+    "native_visual_verified": false,
+    "atlas_parts": {
+      "dark motor-driven reflector back": {
+        "tile": [
+          0,
+          512,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "cast foot - mounting flange": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "motor housing": {
+        "tile": [
+          512,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "top metal cap": {
+        "tile": [
+          512,
+          512,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective vertical strut 0": {
+        "tile": [
+          0,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective shoulder 0": {
+        "tile": [
+          768,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective vertical strut 1": {
+        "tile": [
+          128,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective shoulder 1": {
+        "tile": [
+          896,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective vertical strut 2": {
+        "tile": [
+          256,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective shoulder 2": {
+        "tile": [
+          768,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective vertical strut 3": {
+        "tile": [
+          384,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "protective shoulder 3": {
+        "tile": [
+          896,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "rotor bearing": {
+        "tile": [
+          256,
+          512,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_cast"
+      },
+      "single ruby polycarbonate dome": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 14": {
+        "tile": [
+          512,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 16": {
+        "tile": [
+          640,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 18": {
+        "tile": [
+          768,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 20": {
+        "tile": [
+          896,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 22": {
+        "tile": [
+          512,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 24": {
+        "tile": [
+          640,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 26": {
+        "tile": [
+          768,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 28": {
+        "tile": [
+          896,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 30": {
+        "tile": [
+          512,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 32": {
+        "tile": [
+          640,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 34": {
+        "tile": [
+          768,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 36": {
+        "tile": [
+          896,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "lens optical rib 38": {
+        "tile": [
+          512,
+          384,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_lens"
+      },
+      "spun parabolic reflector": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_reflector"
+      },
+      "isolator gasket": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "lens seat seal": {
+        "tile": [
+          512,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "black bolt socket 0": {
+        "tile": [
+          0,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "black bolt socket 1": {
+        "tile": [
+          128,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "black bolt socket 2": {
+        "tile": [
+          256,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "black bolt socket 3": {
+        "tile": [
+          384,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 0": {
+        "tile": [
+          512,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 1": {
+        "tile": [
+          640,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 2": {
+        "tile": [
+          512,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 3": {
+        "tile": [
+          640,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 4": {
+        "tile": [
+          768,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 5": {
+        "tile": [
+          896,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 6": {
+        "tile": [
+          0,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 7": {
+        "tile": [
+          128,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 8": {
+        "tile": [
+          256,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 9": {
+        "tile": [
+          384,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 10": {
+        "tile": [
+          768,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 11": {
+        "tile": [
+          896,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 12": {
+        "tile": [
+          0,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 13": {
+        "tile": [
+          128,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 14": {
+        "tile": [
+          256,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "motor heat sink flute 15": {
+        "tile": [
+          384,
+          640,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "rear cable plug": {
+        "tile": [
+          512,
+          768,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_rubber"
+      },
+      "lower machined retaining ring": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "cap crown - machined highlight": {
+        "tile": [
+          512,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "flange socket bolt 0": {
+        "tile": [
+          512,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "flange socket bolt 1": {
+        "tile": [
+          640,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "flange socket bolt 2": {
+        "tile": [
+          768,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "flange socket bolt 3": {
+        "tile": [
+          896,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "rear cable gland": {
+        "tile": [
+          768,
+          384,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "motor spindle": {
+        "tile": [
+          768,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "rotor bracket": {
+        "tile": [
+          896,
+          384,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "lamp lower socket": {
+        "tile": [
+          512,
+          384,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      },
+      "lamp upper contact": {
+        "tile": [
+          640,
+          384,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_alarm_steel"
+      }
+    },
+    "review": "realism_review/before.png and after.png"
+  },
+  "lens_repair": {
+    "revision": "2026-10-01 clear glass",
+    "authoring": "Actual Blender MCP execute_blender_code",
+    "dome_alpha": 0.1,
+    "rib_alpha": 0.05,
+    "padding_alpha": 0.045,
+    "rgb_unchanged": true,
+    "native_geometry_unchanged": true,
+    "glow_unchanged": true,
+    "specColorTint": ".220916 .220916 .220916 1",
+    "specColorMap": "$black_specular",
+    "native_specular_mask": 0.0,
+    "native_f0_after": 0.04,
+    "before_comparison": "Reconstructed original source alpha using the repaired valid shader; not the invalid native fallback.",
+    "review": "lens_review",
+    "native_visual_verified": false,
+    "native_playtested": false
+  }
+}

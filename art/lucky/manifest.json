@@ -1,0 +1,130 @@
+{
+  "authoring": "Blender MCP execute_blender_code (tools/lucky/mcp_call.py, port 9888)",
+  "models": [
+    {
+      "asset": "tod_luck_clover",
+      "lod": 0,
+      "lods": 3,
+      "triangles": 7940,
+      "dropped_needles": 32,
+      "meshes": 30,
+      "materials": [
+        "mtl_x2icon_gold"
+      ],
+      "file": "model_export/tod_lucky/tod_luck_clover_lod0.xmodel_bin",
+      "sha256": "e71e6cf42871453c80f7426d238b523378906fda30c8e0b1f45071ebec1599ca",
+      "bounds": [
+        [
+          -9.373197555541992,
+          -2.0,
+          -11.335939407348633
+        ],
+        [
+          9.373197555541992,
+          2.0,
+          9.373197555541992
+        ]
+      ]
+    },
+    {
+      "asset": "tod_luck_clover",
+      "lod": 1,
+      "lods": 3,
+      "triangles": 3978,
+      "dropped_needles": 8,
+      "meshes": 30,
+      "materials": [
+        "mtl_x2icon_gold"
+      ],
+      "file": "model_export/tod_lucky/tod_luck_clover_lod1.xmodel_bin",
+      "sha256": "d1f8215240d81e288ee545af492adcb19d2283db1325bfe7b03219c0d87f7fb2",
+      "bounds": [
+        [
+          -9.372543334960938,
+          -2.0005006790161133,
+          -11.335939407348633
+        ],
+        [
+          9.372543334960938,
+          2.0003349781036377,
+          9.372543334960938
+        ]
+      ]
+    },
+    {
+      "asset": "tod_luck_clover",
+      "lod": 2,
+      "lods": 3,
+      "triangles": 1804,
+      "dropped_needles": 0,
+      "meshes": 14,
+      "materials": [
+        "mtl_x2icon_gold"
+      ],
+      "file": "model_export/tod_lucky/tod_luck_clover_lod2.xmodel_bin",
+      "sha256": "dbd1d248adf109d67879264e0c43fd4b7123dea2b2bfa996917d2dc20845c9cc",
+      "bounds": [
+        [
+          -9.37105941772461,
+          -2.000910758972168,
+          -11.324748039245605
+        ],
+        [
+          9.37105941772461,
+          2.0019102096557617,
+          9.37105941772461
+        ]
+      ]
+    },
+    {
+      "asset": "tod_luck_meteor",
+      "lod": 0,
+      "lods": 1,
+      "triangles": 6028,
+      "dropped_needles": 0,
+      "meshes": 40,
+      "materials": [
+        "mtl_tod_luck_rock",
+        "mtl_tod_luck_rockvein",
+        "mtl_tod_luck_crystal"
+      ],
+      "file": "model_export/tod_lucky/tod_luck_meteor.xmodel_bin",
+      "sha256": "9493cc4fadfcc19f9057468cb94addd9025f283aa4b8f2d5358a391ee5aa0896",
+      "bounds": [
+        [
+          -167.1938934326172,
+          -145.190673828125,
+          -164.35604858398438
+        ],
+        [
+          157.891845703125,
+          139.68048095703125,
+          137.36575317382812
+        ]
+      ]
+    }
+  ],
+  "textures": {
+    "i_tod_luck_flat_n.png": "954b8f4a3c286ced51cc2f7e3151acfbc0e6422b63bbbb796d903a333fc1d8e8",
+    "i_tod_luck_rock_c.png": "5106cae8c66073a2052da0e0db8b95457aa00ba6299e77c347cdb174bb89a41a",
+    "i_tod_luck_rock_g.png": "118f9c64708e5c8a39efbc56944e3db5cd3371c81b4163921687bcadcec5792c",
+    "i_tod_luck_rock_s.png": "b3f5b41b02ded139d6951ad991c152233b0781fd9062ab9768c19cfc3d8d5ee3",
+    "i_tod_luck_rockvein_c.png": "0ab0c0aca0fca5b8f740258451c8f43cd4649ff6cdeb92ef33fdc8173290afd8",
+    "i_tod_luck_rockvein_g.png": "34a9bbe53bed4f4249300972d3db6e86af41cb6f391f5f4d80d3db0c29ee077e",
+    "i_tod_luck_rockvein_s.png": "e7433970305245db88756ccd037f88cfaa3e228bf9e84cae4169adc10ca133ee",
+    "i_tod_luck_crystal_c.png": "c45e0bbaa631829ef23b578f59dd6fab4087f703071bf36cfea6bcab89de43bf",
+    "i_tod_luck_crystal_g.png": "375c72351b8e6e600849aa30dab3d04aff44d5cbb412508cfaf8870bfa1daa9d",
+    "i_tod_luck_crystal_s.png": "e7433970305245db88756ccd037f88cfaa3e228bf9e84cae4169adc10ca133ee"
+  },
+  "gdt_sha256": "dd09629a0295095885f4d5f56a7e5333d9ea5553fa2cd43377664fba1969f897",
+  "meteor_radius": 135,
+  "drop_material": "mtl_x2icon_gold",
+  "renders": {
+    "clover_front": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\lucky\\clover_front.png",
+    "clover_34": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\lucky\\clover_34.png",
+    "lineup_front": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\lucky\\lineup_front.png",
+    "lineup_34": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\lucky\\lineup_34.png",
+    "meteor": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\lucky\\meteor.png"
+  },
+  "preview_native_verified": false
+}

@@ -1,0 +1,49 @@
+{
+  "mcp_port": 9912,
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render_samples": 16,
+  "resolution": [
+    768,
+    768
+  ],
+  "preview_texture_size": [
+    1024,
+    1024
+  ],
+  "original_native_texture_size": [
+    4096,
+    4096
+  ],
+  "original_inputs_unchanged": true,
+  "native_visual_verified": false,
+  "native_playtested": false,
+  "original_lod0_triangles": 54481,
+  "renders": [
+    {
+      "state": "off",
+      "source_model": "t10_zm_machine_wunderfizz_fxanim",
+      "source_animation_frame": 0,
+      "triangles": 54481,
+      "file": "tmp/wunderfizz/assets/review/off.png",
+      "sha256": "8d2e230c023e1fd482ed51f22395686c585e32eac8af8aeaf00d7a959226fea2"
+    },
+    {
+      "state": "on",
+      "source_model": "t10_zm_machine_wunderfizz_fxanim_on",
+      "source_animation_frame": 0,
+      "triangles": 54481,
+      "file": "tmp/wunderfizz/assets/review/on.png",
+      "sha256": "086df4c863adcaf0b91c228786f343e24e239c23a0983ff323e037d2d10ae8b9"
+    },
+    {
+      "state": "activation_frame50",
+      "source_model": "t10_zm_machine_wunderfizz_fxanim_on",
+      "source_animation_frame": 50,
+      "triangles": 54481,
+      "file": "tmp/wunderfizz/assets/review/activation_frame50.png",
+      "sha256": "0006f3f20ce34c11667e2d9eaca7b0daf346647f281055f76f2f73eb5c5709b9"
+    }
+  ],
+  "blend_file": "tmp/wunderfizz/assets/review/bo6_source_review.blend",
+  "blend_sha256": "6ab5c1f2dd76fe639e12117810ce2fc566fb0f8e9d84dd97c3d6988b98b6e074"
+}

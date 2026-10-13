@@ -1,0 +1,745 @@
+{
+ "hkt": "C:/BO3Tools/TOD2Cybercity/share/raw/maps/zm/zm_tod2_cybercity_navmesh.hkt",
+ "F": 841,
+ "E": 3767,
+ "V": 1888,
+ "components": 29,
+ "compSize": [
+  110,
+  100,
+  24,
+  143,
+  68,
+  38,
+  11,
+  11,
+  48,
+  11,
+  9,
+  48,
+  9,
+  9,
+  52,
+  9,
+  9,
+  52,
+  11,
+  12,
+  6,
+  6,
+  6,
+  6,
+  6,
+  9,
+  6,
+  6,
+  6
+ ],
+ "tower": {
+  "baseComp": 4,
+  "rows": [
+   {
+    "fl": 1,
+    "faces": 18,
+    "comps": [
+     4
+    ],
+    "foreign": false
+   },
+   {
+    "fl": 2,
+    "faces": 7,
+    "comps": [
+     4
+    ],
+    "foreign": false
+   },
+   {
+    "fl": 3,
+    "faces": 8,
+    "comps": [
+     19,
+     4
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 4,
+    "faces": 3,
+    "comps": [
+     19
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 5,
+    "faces": 4,
+    "comps": [
+     19
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 6,
+    "faces": 8,
+    "comps": [
+     20,
+     19
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 7,
+    "faces": 6,
+    "comps": [
+     20,
+     18
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 8,
+    "faces": 6,
+    "comps": [
+     18
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 9,
+    "faces": 9,
+    "comps": [
+     18,
+     17
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 10,
+    "faces": 38,
+    "comps": [
+     17
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 11,
+    "faces": 3,
+    "comps": [
+     17
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 12,
+    "faces": 6,
+    "comps": [
+     17
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 13,
+    "faces": 9,
+    "comps": [
+     21,
+     17
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 14,
+    "faces": 6,
+    "comps": [
+     21,
+     16
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 15,
+    "faces": 4,
+    "comps": [
+     16
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 16,
+    "faces": 7,
+    "comps": [
+     16,
+     15
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 17,
+    "faces": 4,
+    "comps": [
+     15
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 18,
+    "faces": 8,
+    "comps": [
+     22,
+     15
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 19,
+    "faces": 7,
+    "comps": [
+     22,
+     14
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 20,
+    "faces": 38,
+    "comps": [
+     14
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 21,
+    "faces": 3,
+    "comps": [
+     14
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 22,
+    "faces": 6,
+    "comps": [
+     14
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 23,
+    "faces": 9,
+    "comps": [
+     23,
+     14
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 24,
+    "faces": 6,
+    "comps": [
+     23,
+     13
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 25,
+    "faces": 4,
+    "comps": [
+     13
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 26,
+    "faces": 7,
+    "comps": [
+     13,
+     12
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 27,
+    "faces": 4,
+    "comps": [
+     12
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 28,
+    "faces": 8,
+    "comps": [
+     24,
+     12
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 29,
+    "faces": 6,
+    "comps": [
+     24,
+     11
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 30,
+    "faces": 39,
+    "comps": [
+     11
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 31,
+    "faces": 4,
+    "comps": [
+     11
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 32,
+    "faces": 7,
+    "comps": [
+     11,
+     10
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 33,
+    "faces": 4,
+    "comps": [
+     10
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 34,
+    "faces": 7,
+    "comps": [
+     25,
+     10
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 35,
+    "faces": 4,
+    "comps": [
+     25
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 36,
+    "faces": 8,
+    "comps": [
+     26,
+     25
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 37,
+    "faces": 6,
+    "comps": [
+     26,
+     9
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 38,
+    "faces": 6,
+    "comps": [
+     9
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 39,
+    "faces": 8,
+    "comps": [
+     9,
+     8
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 40,
+    "faces": 39,
+    "comps": [
+     8
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 41,
+    "faces": 4,
+    "comps": [
+     8
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 42,
+    "faces": 8,
+    "comps": [
+     27,
+     8
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 43,
+    "faces": 6,
+    "comps": [
+     27,
+     7
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 44,
+    "faces": 6,
+    "comps": [
+     7
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 45,
+    "faces": 8,
+    "comps": [
+     7,
+     6
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 46,
+    "faces": 6,
+    "comps": [
+     6
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 47,
+    "faces": 9,
+    "comps": [
+     28,
+     6
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 48,
+    "faces": 5,
+    "comps": [
+     28,
+     5
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 49,
+    "faces": 4,
+    "comps": [
+     5
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 50,
+    "faces": 5,
+    "comps": [
+     5
+    ],
+    "foreign": true
+   },
+   {
+    "fl": 51,
+    "faces": 10,
+    "comps": [
+     5
+    ],
+    "foreign": true
+   }
+  ],
+  "bad": [],
+  "descent": {
+   "bad": [],
+   "topComp": 5,
+   "baseComp": 4,
+   "sections": 25,
+   "links": [
+    {
+     "lap": 3,
+     "from": 19,
+     "to": 4
+    },
+    {
+     "lap": 6,
+     "from": 20,
+     "to": 19
+    },
+    {
+     "lap": 7,
+     "from": 18,
+     "to": 20
+    },
+    {
+     "lap": 9,
+     "from": 17,
+     "to": 18
+    },
+    {
+     "lap": 13,
+     "from": 21,
+     "to": 17
+    },
+    {
+     "lap": 14,
+     "from": 16,
+     "to": 21
+    },
+    {
+     "lap": 16,
+     "from": 15,
+     "to": 16
+    },
+    {
+     "lap": 18,
+     "from": 22,
+     "to": 15
+    },
+    {
+     "lap": 19,
+     "from": 14,
+     "to": 22
+    },
+    {
+     "lap": 23,
+     "from": 23,
+     "to": 14
+    },
+    {
+     "lap": 24,
+     "from": 13,
+     "to": 23
+    },
+    {
+     "lap": 26,
+     "from": 12,
+     "to": 13
+    },
+    {
+     "lap": 28,
+     "from": 24,
+     "to": 12
+    },
+    {
+     "lap": 29,
+     "from": 11,
+     "to": 24
+    },
+    {
+     "lap": 32,
+     "from": 10,
+     "to": 11
+    },
+    {
+     "lap": 34,
+     "from": 25,
+     "to": 10
+    },
+    {
+     "lap": 36,
+     "from": 26,
+     "to": 25
+    },
+    {
+     "lap": 37,
+     "from": 9,
+     "to": 26
+    },
+    {
+     "lap": 39,
+     "from": 8,
+     "to": 9
+    },
+    {
+     "lap": 42,
+     "from": 27,
+     "to": 8
+    },
+    {
+     "lap": 43,
+     "from": 7,
+     "to": 27
+    },
+    {
+     "lap": 45,
+     "from": 6,
+     "to": 7
+    },
+    {
+     "lap": 47,
+     "from": 28,
+     "to": 6
+    },
+    {
+     "lap": 48,
+     "from": 5,
+     "to": 28
+    }
+   ],
+   "nativeTraversalPlayed": false
+  },
+  "topComp": 5
+ },
+ "wunderfizz": {
+  "rows": [
+   {
+    "floor": 10,
+    "route": [
+     92,
+     92,
+     3650
+    ],
+    "routeFace": 829,
+    "probes": [
+     [
+      17.476,
+      -69.07900000000001,
+      3650
+     ],
+     [
+      3.62,
+      -61.079,
+      3650
+     ],
+     [
+      -10.236,
+      -53.079,
+      3650
+     ]
+    ],
+    "probeFaces": [
+     833,
+     497,
+     497
+    ],
+    "component": 17
+   },
+   {
+    "floor": 20,
+    "route": [
+     92,
+     92,
+     7490
+    ],
+    "routeFace": 828,
+    "probes": [
+     [
+      17.476,
+      -69.07900000000001,
+      7490
+     ],
+     [
+      3.62,
+      -61.079,
+      7490
+     ],
+     [
+      -10.236,
+      -53.079,
+      7490
+     ]
+    ],
+    "probeFaces": [
+     831,
+     500,
+     500
+    ],
+    "component": 14
+   },
+   {
+    "floor": 30,
+    "route": [
+     92,
+     92,
+     11330
+    ],
+    "routeFace": 826,
+    "probes": [
+     [
+      17.476,
+      -69.07900000000001,
+      11330
+     ],
+     [
+      3.62,
+      -61.079,
+      11330
+     ],
+     [
+      -10.236,
+      -53.079,
+      11330
+     ]
+    ],
+    "probeFaces": [
+     832,
+     499,
+     499
+    ],
+    "component": 11
+   },
+   {
+    "floor": 40,
+    "route": [
+     92,
+     92,
+     15170
+    ],
+    "routeFace": 827,
+    "probes": [
+     [
+      17.476,
+      -69.07900000000001,
+      15170
+     ],
+     [
+      3.62,
+      -61.079,
+      15170
+     ],
+     [
+      -10.236,
+      -53.079,
+      15170
+     ]
+    ],
+    "probeFaces": [
+     834,
+     498,
+     498
+    ],
+    "component": 8
+   }
+  ],
+  "bad": [],
+  "checked": 4,
+  "probes": 12
+ },
+ "transit": {
+  "routes": 8,
+  "bad": []
+ }
+}

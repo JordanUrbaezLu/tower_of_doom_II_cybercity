@@ -1,0 +1,6 @@
+{
+  "old_build_rejected": true,
+  "reason": "Native gloss remains 8; required 6. Native baseline also records depth 0.1 instead of 0.",
+  "log": "tmp/teleporter_surface_old_build_negative.log",
+  "native_fix_verified": false
+}

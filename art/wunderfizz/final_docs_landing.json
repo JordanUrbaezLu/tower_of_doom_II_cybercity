@@ -1,0 +1,27 @@
+{
+  "landed_at": "2026-10-07T15:08:02.104484-04:00",
+  "kind": "final_docs",
+  "files": {
+    "docs/wunderfizz/IMPLEMENTATION.md": {
+      "before_sha256": "079813e68ec78f535b94aa68d0266271ccd17b2480d899b889ccf19b4ec9f163",
+      "sha256": "d64c44cd3b7b841135bfc7afadbe89fa3f62dd4bb365ca9d6dfae9fa97346c36",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\final_docs\\staged_sources\\docs\\wunderfizz\\IMPLEMENTATION.md"
+    },
+    "docs/wunderfizz/ASSET_IMPORT.md": {
+      "before_sha256": "bd02ee914a56095ac4635dc8db56a3a69e14613cffc69e355bec7ba574eb67ad",
+      "sha256": "d92c568493ba59db82bc7e55955083d2141e1bbc9b67c7f83347b5917dfc5212",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\final_docs\\staged_sources\\docs\\wunderfizz\\ASSET_IMPORT.md"
+    },
+    "docs/wunderfizz/asset_inventory.json": {
+      "before_sha256": "e061f27da9195c07b28aa291ec3d73e8e96cbb93e61ec1ce40d1ca4f5dfa6d4b",
+      "sha256": "6829912d7969475971858be020d9e4129e9de27380de001e3ae16f5f709100fd",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\final_docs\\staged_sources\\docs\\wunderfizz\\asset_inventory.json"
+    },
+    "tmp/wunderfizz/PLAYTEST_REFERENCE.md": {
+      "before_sha256": "f9d78fcd5b27d1c3a3b04f5c323fb7a8dd2133dd516c1cb299aa15b62b6848e0",
+      "sha256": "102b91b186f064847f864f137e64c7e5447ca7676e340ccbb473d484688d3dac",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\final_docs\\staged_sources\\tmp\\wunderfizz\\PLAYTEST_REFERENCE.md"
+    }
+  },
+  "game_launched": false
+}

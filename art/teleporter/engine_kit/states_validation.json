@@ -1,0 +1,12 @@
+{
+  "source_checks": true,
+  "compiled": true,
+  "body_geometry_unchanged": true,
+  "off_emission_scale": 0,
+  "extra_models_per_recharging_pad": 1,
+  "indicator_triangles": 1152,
+  "revolution_seconds": 3,
+  "new_dynamic_lights": 0,
+  "game_launched": false,
+  "native_playtested": false
+}

@@ -1,0 +1,175 @@
+{
+ "ao_dist": 4.0,
+ "bevel_r": 0.12,
+ "blender": "4.2.23 LTS",
+ "models": {
+  "cerberus": {
+   "binary": "tmp\\partner_assets\\T7 Assets V2.8\\model_export\\_midgetblaster\\props\\t7_veh\\veh_t7_drone_amws_armored_mp_dark\\veh_t7_drone_amws_armored_mp_dark_LOD0.xmodel_bin",
+   "groups": {
+    "armored_hull": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_armored_hull_mp_dark_color",
+      "mtl_veh_t7_drone_amws_armored_hull_chrome",
+      "mtl_veh_t7_drone_amws_armored_hull_dark_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_armored_hull_bare_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_armored_hull_dark_metal"
+     ],
+     "size": 512,
+     "triangles": 6622
+    },
+    "armored_swingarm": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_armored_swingarm_mp_dark_color",
+      "mtl_veh_t7_drone_amws_armored_swingarm_dark_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_armored_swingarm_chrome"
+     ],
+     "size": 512,
+     "triangles": 612
+    },
+    "armored_treadcovers": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_armored_treadcovers_mp_dark_color",
+      "mtl_veh_t7_drone_amws_armored_treadcovers_dark_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_armored_treadcovers_rubber"
+     ],
+     "size": 512,
+     "triangles": 736
+    },
+    "armored_turret": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_armored_turret_mp_dark_color",
+      "mtl_veh_t7_drone_amws_armored_turret_dark_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_armored_turret_bare_metal",
+      "mtl_veh_t7_drone_amws_armored_turret_red_paint",
+      "mtl_veh_t7_drone_amws_armored_turret_rubber",
+      "mtl_veh_t7_drone_amws_armored_turret_grenade",
+      "mtl_veh_t7_drone_amws_armored_turret_front_sensor_mp_dark"
+     ],
+     "size": 512,
+     "triangles": 5311
+    },
+    "launcher": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_launcher_mp_dark_color",
+      "mtl_veh_t7_drone_amws_launcher_thick_metal_mp_dark",
+      "mtl_veh_t7_drone_amws_launcher_bare_metal",
+      "mtl_veh_t7_drone_amws_launcher_chrome_02"
+     ],
+     "size": 512,
+     "triangles": 2874
+    },
+    "minigun": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_minigun_mp_dark_color",
+      "mtl_veh_t7_drone_amws_minigun_bare_metal_mp_dark_color",
+      "mtl_veh_t7_drone_amws_minigun_thick_metal",
+      "mtl_veh_t7_drone_amws_minigun_plastic",
+      "mtl_veh_t7_drone_amws_minigun_ammobelt_mp_dark_color"
+     ],
+     "size": 512,
+     "triangles": 4869
+    },
+    "turret_grenade": {
+     "materials": [
+      "mtl_veh_t7_drone_amws_armored_turret_grenade02_mp_dark"
+     ],
+     "size": 256,
+     "triangles": 200
+    }
+   },
+   "scale": 0.997372265519767,
+   "sha256": "9904b339f082a793d1cbd6b692d2061863602d012a829c303f458cdbd5d7eff3",
+   "size": 57.847591400146484
+  },
+  "protector": {
+   "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\c_zom_zod_robot_protector_gold_fb.xmodel_bin",
+   "groups": {
+    "arm": {
+     "materials": [
+      "mtl_c_t7_zom_zod_robot_arm_gold"
+     ],
+     "size": 1024,
+     "triangles": 6920
+    },
+    "foot": {
+     "materials": [
+      "mtl_c_t7_zom_zod_robot_foot_gold"
+     ],
+     "size": 512,
+     "triangles": 3424
+    },
+    "leg": {
+     "materials": [
+      "mtl_c_t7_zom_zod_robot_leg_gold"
+     ],
+     "size": 1024,
+     "triangles": 2766
+    },
+    "limbs": {
+     "materials": [
+      "mtl_c_t7_zom_zod_robot_limbs_gold"
+     ],
+     "size": 1024,
+     "triangles": 5653
+    },
+    "pelvis": {
+     "materials": [
+      "mtl_c_t7_nrc_robot_grunt_chassis_pelvis"
+     ],
+     "size": 512,
+     "triangles": 1991
+    },
+    "torso": {
+     "materials": [
+      "mtl_c_t7_nrc_robot_grunt_chassis_torso"
+     ],
+     "size": 256,
+     "triangles": 198
+    },
+    "upper": {
+     "materials": [
+      "mtl_c_t7_zom_zod_robot_upper_gold",
+      "mtl_c_t7_zom_zod_robot_lights"
+     ],
+     "size": 1024,
+     "triangles": 7674
+    }
+   },
+   "scale": 1.27342877845312,
+   "sha256": "5c1f530a1cbed45332c04ad77b87a55aa48ec4f0a863dae32187ff8d2fe9afbc",
+   "size": 73.85886915028095
+  },
+  "talon": {
+   "binary": "tmp\\partner_assets\\T7 Assets V2.8\\model_export\\_midgetblaster\\props\\t7_veh\\veh_t7_drone_attack_gun_darkcolor\\veh_t7_drone_attack_gun_darkcolor_LOD0.xmodel_bin",
+   "groups": {
+    "body": {
+     "materials": [
+      "mtl_veh_t7_drone_attack_body_mp_dark",
+      "mtl_veh_t7_drone_attack_body_dark_metal",
+      "mtl_veh_t7_drone_attack_body_bare_metal_mp_dark_titanium",
+      "mtl_veh_t7_drone_attack_body_colored_metal",
+      "mtl_veh_t7_drone_attack_body_fin_edge_mp_dark_grey"
+     ],
+     "size": 512,
+     "triangles": 2064
+    },
+    "wing_gun": {
+     "materials": [
+      "mtl_veh_t7_drone_attack_wing_gun_mp_dark",
+      "mtl_veh_t7_drone_attack_wing_gun_dark_metal",
+      "mtl_veh_t7_drone_attack_wing_gun_bare_metal_mp_dark_titanium",
+      "mtl_veh_t7_drone_attack_wing_gun_fin_edge_top_mp_dark_grey",
+      "mtl_veh_t7_drone_attack_wing_gun_fin_edge_bottom_mp_dark_grey"
+     ],
+     "size": 512,
+     "triangles": 3984
+    }
+   },
+   "scale": 0.8852754132501011,
+   "sha256": "969e65f5d996e3363b41deb566b952d3e6e34f0dadf2a16a9cb5258606d39334",
+   "size": 51.34597396850586
+  }
+ },
+ "samples": 128,
+ "whole_ao": false
+}

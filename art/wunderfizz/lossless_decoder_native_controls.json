@@ -1,0 +1,73 @@
+{
+  "recorded_at": "2026-10-07T14:40:15.454791-04:00",
+  "dependency_ledger": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps",
+  "dependency_sha256": "c14dde9d4463429348a7bab6adc773cae8bbe10e68fcb15b0d7df0ff1137d48b",
+  "existing_native_controls": [
+    {
+      "name": "i_tod_archer_axe_hud",
+      "gdt": "source_data/tod_archer.gdt",
+      "gdt_sha256": "22954675fb4c9e3d34ef4f6e012ea08bb3066f1aaf9c7b3770a5769e55c79eca",
+      "fields": {
+        "baseImage": "model_export/tod_archer/_images/i_tod_archer_axe_hud.png",
+        "imageType": "Texture",
+        "type": "image",
+        "semantic": "2d",
+        "streamable": "0",
+        "compressionMethod": "uncompressed",
+        "coreSemantic": "sRGB3chAlpha",
+        "noMipMaps": "1",
+        "clampU": "1",
+        "clampV": "1"
+      },
+      "source": "model_export/tod_archer/_images/i_tod_archer_axe_hud.png",
+      "source_sha256": "eab721de176b73b9cc8f857abb36f3ed00f960fa4d642679c90224fce27dc0d2",
+      "cache": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_tod_archer_axe_hud_SPX53TCACQ6YLOJYLASZRYIRII.iwi",
+      "cache_sha256": "34b2044e0eff42aad98ff66958519d603b11a75a63fc16cd8e458d70f19efac2",
+      "source_deployed_match": true,
+      "format_id": 14,
+      "header_hex": "4957691d0e01c20000000002000201000000803f0000803f0000803f0000803f00000000000000000000000000000000000000000000000000000000000000006000100060001000600010006000100060001000600010006000100060001000",
+      "decompressed_bytes": 1048672,
+      "mip_count": 1,
+      "dimensions": [
+        512,
+        512,
+        1
+      ],
+      "mips": [
+        {
+          "level": 0,
+          "size": [
+            512,
+            512
+          ],
+          "payload_start": 96,
+          "payload_end": 1048672,
+          "declared_end": 1048672,
+          "rgba_error": {
+            "mean": 0.0,
+            "p99": 0.0,
+            "maximum": 0
+          },
+          "bgra_error": {
+            "mean": 0.87506103515625,
+            "p99": 33.0,
+            "maximum": 77
+          },
+          "alpha_direct_box_error": {
+            "mean": 0.0,
+            "p99": 0.0,
+            "maximum": 0
+          },
+          "alpha_sequential_box_error": {
+            "mean": 0.0,
+            "p99": 0.0,
+            "maximum": 0
+          }
+        }
+      ],
+      "chain_starts_at": 96
+    }
+  ],
+  "native_tool_run": false,
+  "source_or_cache_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "ff_bytes": 193176704,
+  "ff_sha256": "19a0f5885da89926a35cd9ab2fae008dfb968d3bb4bace9d4c209253f5c0a73e",
+  "ff_time": "2026-09-27T12:01:18.309508",
+  "build_log": "tmp/tower_power_build/full4.log",
+  "script_followup_log": "tmp/tower_power_build/full4d.log",
+  "inputs_matched": 467,
+  "conduit_fixtures": 1109,
+  "conduit_hosts": 49,
+  "conduit_models": 100,
+  "conduit_lods": 202,
+  "conduit_images": 20,
+  "world_materials": 29,
+  "game_launched": false,
+  "native_visual_verified": false
+}

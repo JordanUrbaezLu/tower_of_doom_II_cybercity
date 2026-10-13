@@ -1,0 +1,23 @@
+{
+  "mtl_tod_teleporter": {
+    "glossRangeMin": "0",
+    "glossRangeMax": "13",
+    "specAmount": "0.6",
+    "specColorTint": ".65 .65 .65 1",
+    "reflectionProbeAmount": "0.35"
+  },
+  "mtl_tod_tp_off": {
+    "glossRangeMin": "0",
+    "glossRangeMax": "13",
+    "specAmount": "0.6",
+    "specColorTint": ".65 .65 .65 1",
+    "reflectionProbeAmount": "0.35"
+  },
+  "mtl_tod_altar": {
+    "glossRangeMin": "0",
+    "glossRangeMax": "6",
+    "specAmount": "0.2",
+    "specColorTint": ".25 .25 .25 1",
+    "reflectionProbeAmount": "0.15"
+  }
+}

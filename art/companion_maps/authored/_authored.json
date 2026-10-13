@@ -1,0 +1,693 @@
+{
+ "images": {
+  "i_c_t7_nrc_robot_grunt_chassis_arm_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: from the real arm_c - bare plates glossier, rust / dust / red paint duller, cavities dull",
+   "semantic": "glossMap",
+   "sha256": "9e75005409b2396a9c185b2044af8db474848d73394f2d929b2bb1b3e100cb3b",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_arm_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: Cycles Bevel of the arm + the relief of the real arm_c, at the real Protector normal rms",
+   "semantic": "normalMap",
+   "sha256": "1c5e0877328895b8b4e5f4c4d424478cad84356870dca2302d02ef4e635329d8",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_arm_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "sRGB3ch",
+   "how": "spec: blue-steel (the real leg_s steel), dielectric on the red paint and rust of the real arm_c",
+   "semantic": "specularMap",
+   "sha256": "eb5538eafdce6b73f81bdd100387a7292bcaf9b2a433ebdce7117e974f06f9c2",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_pelvis_c": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "colour: dark gunmetal paint, grime in recesses (bake), edge wear (bevel)",
+   "semantic": "diffuseMap",
+   "sha256": "bd759bfc67954b80e0f938af7b0326e3d73f4ec6237db0644f4c3ccc515bc1c7",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_pelvis_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: satin paint, polished on worn edges, dull in grime",
+   "semantic": "glossMap",
+   "sha256": "c85571be6f5eddb0b69c7597393c9e066e36e1aff2eb99e288066013453919f4",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_pelvis_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: Cycles Bevel of the chassis + fine casting grain",
+   "semantic": "normalMap",
+   "sha256": "f20d5701f37467804a04d94379a370e7e7a6f5a85aff559086a3a61e498c248a",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_pelvis_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "spec: painted metal, bare steel showing on worn edges (mask)",
+   "semantic": "specularMask",
+   "sha256": "52254d00d49c10966db4b9074832b5241eef5e3dfa7452234ae20cbe4df93fed",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_torso_c": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "colour: dark gunmetal paint, grime in recesses (bake), edge wear (bevel)",
+   "semantic": "diffuseMap",
+   "sha256": "45d06dd72919671cac58b3dc0cc45662b3e8694d9accd31d1c8160a7b8791e88",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_torso_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: satin paint, polished on worn edges, dull in grime",
+   "semantic": "glossMap",
+   "sha256": "dc7beeacd6a580d4d8203f1e45b425731c6ab5a778c43b8da3decfe045a8574b",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_torso_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: Cycles Bevel of the chassis + fine casting grain",
+   "semantic": "normalMap",
+   "sha256": "69a313e62553e5e99a6e34e8563c3486aae51c2321971e880fc4901ce36dadef",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_c_t7_nrc_robot_grunt_chassis_torso_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "sRGB3ch",
+   "how": "spec: painted metal, bare steel showing on worn edges",
+   "semantic": "specularMap",
+   "sha256": "646bd5fb8ffaabf69dbb74b9c0764df361e3b6987ea8771254c4b95fa15f278f",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_c_t7_zom_zod_robot_foot_gold_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: the real foot_g remapped to polished gold (floor 0.55)",
+   "semantic": "glossMap",
+   "sha256": "24f20ed5cc710953aaf5afbe8df5720175307488635f7779923dcf5679be8c88",
+   "size": [
+    1024,
+    512
+   ]
+  },
+  "i_c_t7_zom_zod_robot_foot_gold_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "spec: the real foot_s brightness as the gold tint's strength (painted / dirty parts dimmer)",
+   "semantic": "specularMask",
+   "sha256": "0f2f884dbf93e0420137cc81327b444e5adee15bc6e11e916619ff5b7e537e53",
+   "size": [
+    1024,
+    512
+   ]
+  },
+  "i_c_t7_zom_zod_robot_leg_gold_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: the real leg_g remapped to polished gold (floor 0.55)",
+   "semantic": "glossMap",
+   "sha256": "f5491d61f8d78c452b6ede33cf5022745cf284f4ea1bbc79faa1d4c0f3bdc90e",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_leg_gold_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "spec: the real leg_s brightness as the gold tint's strength (painted / dirty parts dimmer)",
+   "semantic": "specularMask",
+   "sha256": "ef603f2893d85010467d62eb6575f0f7441b4048ef1b4941ea9a31db73aef250",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_limbs_gold_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: the real limbs_g remapped to polished gold (floor 0.55)",
+   "semantic": "glossMap",
+   "sha256": "002e0d9356a39efcfbc8b7a3dbda03deffc018de44022b1fa80cb79e6629a366",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_limbs_gold_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "spec: the real limbs_s brightness as the gold tint's strength (painted / dirty parts dimmer)",
+   "semantic": "specularMask",
+   "sha256": "2d1e1e340ae9c6c6341e6a00c1013b7fb8089778383fedf885747b89e8c7483d",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_upper_gold_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: polished gold, lowered where the real upper_c is grimy (darker than around), lifted on its worn edges",
+   "semantic": "glossMap",
+   "sha256": "68824a27f6f458e164b10a7330824417301fae336a736c87a3e0896977d1e457",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_upper_gold_s": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "spec: the gold tint's strength - full on clean plate, dimmed in grime, brighter on worn edges",
+   "semantic": "specularMask",
+   "sha256": "707c6253b83991986f27921e092f013d3f305f66d4372388342b2f9bf7449795",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_upper_m": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "emissive: the real upper_c status orbs (blue / red), isolated by brightness + saturation",
+   "semantic": "diffuseMap",
+   "sha256": "58bc9bafe2f223afb7f5ccb6f92297d066e9fae2eb98c87894d968d20b117ead",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_c_t7_zom_zod_robot_upper_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: the panel relief of the real upper_c (its islands overlap 5x: no geometry bake), at the rms of the real limbs / leg _n",
+   "semantic": "normalMap",
+   "sha256": "050fb17e914a9d2acf96c103a7e1968aca3727b992e5b4bfefcdde4c28e5d189",
+   "size": [
+    1024,
+    1024
+   ]
+  },
+  "i_t7_decal_grunge_splatter_c": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "decal colour: the real T7 rust grunge (cru_decal_grunge_rust_01_c) spots as alpha over a light grey (the definition's own rust tint colours it), wrapped vertically by a half-offset cross-fade",
+   "semantic": "diffuseMap",
+   "sha256": "5dc41979ce4d4d7517fe186d3bc0d03209f9da1803a74cea714470d8953242a6",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_hull_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: armored_hull_dead_n minus the measured AMWS crumple (k=0.942)",
+   "semantic": "normalMap",
+   "sha256": "3068197d5e7db1a194804e3f0716664a8386c9a8a018e9e9e64c3048e267984c",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_hull_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "fdbd491da55e19a5a2a82984828edb700ccff1f591e65ce124d0514596a0e88d",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_hull_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + the real wear of i_veh_t7_drone_amws_armored_hull_g, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "a03bcccf148300226373109c4effcc98dae4a60d2244eba6bd6a123bdac4cbb9",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_swingarm_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: armored_swingarm_dead_n minus the AMWS crumple at 2x scale (offset [508, 515])",
+   "semantic": "normalMap",
+   "sha256": "6439c6ecf767fb129410d61219389e58d0d34365e4064892828f742d6ba84d4f",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_swingarm_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "cd8c327a6ce2646a6abe61ca0bd766b0dee996fea741fcd39292dc7878cf5a9c",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_swingarm_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + the real wear of i_veh_t7_drone_amws_armored_swingarm_g, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "92e1bdbb54c397de63836429ec2586e433946bfbf4f4add9efc1f880dd3dc7c0",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_treadcovers_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: armored_treadcovers_dead_n minus the measured AMWS crumple (k=0.889)",
+   "semantic": "normalMap",
+   "sha256": "e3cf7130143533fdf8ca5ef35fe4fbf0615ab291e47612e4c07a56c249e7a2de",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_treadcovers_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "02d41bec8ba2727d9f3c8c8ef7c83071569a0952591761737136ee4e1c9a68fb",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_treadcovers_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + the real wear of i_veh_t7_drone_amws_armored_treadcovers_g, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "61bb5f38c17368883a7ad4acdd24513db1b2080eb16ff725f31b6afe0a8f2402",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_turret_grenade_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: Cycles Bevel of the real low-poly surface (no source exists)",
+   "semantic": "normalMap",
+   "sha256": "080ec89e735d77183c6d4be568f557e028b206946bfafbb2613be05a850163e6",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_turret_grenade_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit + mottle, levels matched",
+   "semantic": "revealMap",
+   "sha256": "693c8ac2a56a9214e6e0c128eceb5c4ba02c6d200ff7b34268eb439d71c62fbb",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_turret_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: armored_turret_dead_n minus the measured AMWS crumple (k=0.953)",
+   "semantic": "normalMap",
+   "sha256": "46679f18ad923913c410d42d8d126586957cd8ee2a151c37e6361d9b240bf9db",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_turret_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "5cb19977b256ed451feb1529fcd8df8f31724aad5d5f94ae524f8b5f6f993b7c",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_armored_turret_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + the real wear of i_veh_t7_drone_amws_armored_turret_g, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "20a1679881efc4f2205343456a7829f3261aed3e58ea2e6294c537eeb53c7eee",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_base_emissive_e": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "emissive: the stock AMWS light layout (base_emissive_dead_e) - strips, dots, chevrons",
+   "semantic": "diffuseMap",
+   "sha256": "9b6195688db3a96383b0adc57122aa1e142e36d9af897629af347ed793ef2ca9",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_base_emissive_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: base_emissive_darkcolor_dead_g, crack glints filtered out, lifted (an intact lens)",
+   "semantic": "glossMap",
+   "sha256": "dc5712a3b758d76d02c3d97f19f1fbc55ff5c31511fa272cc0c81b215041b7f0",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_base_emissive_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: base_emissive_dead_n, cracked-glass lines median-filtered out (bezels kept)",
+   "semantic": "normalMap",
+   "sha256": "0454f1dfcc761b9a6d50ad4f380ab3f1832ae277ca557887eae0b32d3fd43ac8",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_base_emissive_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: base_emissive_darkcolor_dead_o, crack lines filtered out",
+   "semantic": "occlusionMap",
+   "sha256": "e421717ed3b8d49f12c7ff873badba419c30f6b445cc6ba040279a52454727a1",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_base_emissive_scroll_e": {
+   "compressionMethod": "compressed high color",
+   "coreSemantic": "sRGB3chAlpha",
+   "how": "emissive: three soft scan pulses for the scrolling status strip (no source exists)",
+   "semantic": "diffuseMap",
+   "sha256": "d92bd3f50ef3cdb9676a8ad34b3c0fabf82ebe33bd5bd13d1bc17ef9c037eca6",
+   "size": [
+    128,
+    32
+   ]
+  },
+  "i_veh_t7_drone_amws_launcher_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: launcher_dead_n minus the measured AMWS crumple (k=0.969)",
+   "semantic": "normalMap",
+   "sha256": "d164695de10911b4de15b7ee782b5cb1ff57a80763ffaee8e64d4175f6ea531a",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_launcher_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "fc5e852207e47d18f6d4d66c09fa4eebfa13aa17f74779d1ef43adfbc915bec9",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_launcher_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + the real wear of i_veh_t7_drone_amws_launcher_g, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "ab53dfdd0eb7d7f22f948605bb48f4bedc6adb45403fa28c53a1859371c957e1",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_minigun_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: Cycles Bevel of the real low-poly surface (no source exists)",
+   "semantic": "normalMap",
+   "sha256": "6d1bf97da81347cc6ed08b01967fdeccdc318ba25be474543c37e141aa136035",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_minigun_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit on the Cycles bake + bevel normal",
+   "semantic": "occlusionMap",
+   "sha256": "bb4d947018b15926be70f6bfb17463711b4e1e80d8292c811ea97e6d5957e430",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_minigun_tile_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: tileable worn-steel noise (no source exists)",
+   "semantic": "glossMap",
+   "sha256": "d8ae4eb79576416ecba8445a54a440d8a0d279d444d692198024fd0c09880c10",
+   "size": [
+    256,
+    256
+   ]
+  },
+  "i_veh_t7_drone_amws_minigun_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit + mottle, levels matched",
+   "semantic": "revealMap",
+   "sha256": "c366503341b30be270b5236753aee052e0aa4cb42edf7a75c939d6a922dcece6",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_sensor01_lens_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: polished lens with faint smudges (no source exists)",
+   "semantic": "glossMap",
+   "sha256": "fe7bfd74795480e2fe5c63424ac16c1a3d02e5bfc2cb28da4e83cc00d955be59",
+   "size": [
+    128,
+    128
+   ]
+  },
+  "i_veh_t7_drone_amws_sensor02_lens_g": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "gloss: polished lens with faint smudges (no source exists)",
+   "semantic": "glossMap",
+   "sha256": "bcbc92b6cdfb13bf9d7a89b9c71f259b9bb49982b44fd6369d4d91ec1e205f33",
+   "size": [
+    128,
+    128
+   ]
+  },
+  "i_veh_t7_drone_amws_swingarm_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit on the REAL swingarm_o + i_veh_t7_drone_amws_swingarm_n",
+   "semantic": "revealMap",
+   "sha256": "b64ce92b07dd7116ddcbd83c94d352678c6bbda1cdce9a833bd43a80c7e18e67",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_amws_wheels_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit on the REAL wheels_o + i_t7_drone_amws_wheels_n",
+   "semantic": "revealMap",
+   "sha256": "04ab533237ef26a0519dc6ffe922c7d217cba57864ceaf7f1e45f1cd35297786",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_attack_wing_gun_n": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Normal",
+   "how": "normal: wing_gun_dead_n minus the measured attack-drone crumple (k=0.850)",
+   "semantic": "normalMap",
+   "sha256": "825892f550a8c17282b696939545c0f45d8a04c587c1f0ca6d3a85fdab93e9ad",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_attack_wing_gun_o": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "occlusion: the attack-drone fit (r=0.85) on this part's Cycles bake + its normal",
+   "semantic": "occlusionMap",
+   "sha256": "52ef7c352e0d9df60c581b0cd470443cae7b423f305acec62bde9aef5758335d",
+   "size": [
+    512,
+    512
+   ]
+  },
+  "i_veh_t7_drone_attack_wing_gun_tile_r": {
+   "compressionMethod": "compressed",
+   "coreSemantic": "Linear1ch",
+   "how": "reveal: the attack-drone mask fit (r=0.80) + soft multi-scale grain, levels matched to the real mask",
+   "semantic": "revealMap",
+   "sha256": "1c96c27b76137fd1af80a1b968ca8449b38b0f68468f91faf236cbfc09de69b8",
+   "size": [
+    512,
+    512
+   ]
+  }
+ },
+ "models": {
+  "armored_swingarm_crumple_offset_at_2x": [
+   508,
+   515
+  ],
+  "occlusion_fit_r": 0.8535836977240241,
+  "protector_normal_hf_rms": 0.12861784547567368,
+  "reveal_fit_r": 0.7974505982650645,
+  "reveal_residual_std": 0.2132314294576645,
+  "w_occlusion": [
+   0.16095572710037231,
+   0.6245613694190979,
+   0.21694867312908173,
+   0.06917355954647064,
+   -0.01682731695473194,
+   -0.326177179813385,
+   0.0181278083473444
+  ],
+  "w_reveal": [
+   0.21137523651123047,
+   -1.0554728507995605,
+   2.7436015605926514,
+   0.03977068141102791,
+   0.07215853780508041,
+   -0.08005902171134949,
+   -0.4173171818256378,
+   -1.0296331644058228
+  ]
+ },
+ "sources_sha256": {
+  "bake:cerberus_armored_hull_ao.png": "8ce53d4276ede78eb701feec3c03ec5f69ff4401ff0b66d12ee33ad02df017a5",
+  "bake:cerberus_armored_swingarm_ao.png": "89317c045bad761554b33af8f874ce505480c75a606708335b28f18f6d5450a8",
+  "bake:cerberus_armored_treadcovers_ao.png": "46731700c8c1591c43e23f85e371cd2a4907ecb283b9940a1ace1a49189f9488",
+  "bake:cerberus_armored_turret_ao.png": "d5fc12a8c0d17aecef4e779efd46216472e7341a038eda826543131840ee0201",
+  "bake:cerberus_launcher_ao.png": "f76515fc0a129ca0a9099c2e8ca75c03f80da3ebedfd92388980c76cc8218572",
+  "bake:cerberus_minigun_ao.png": "1553b448002ac86ac9f80caaacafd03eddcbe264bf029af41426d92d7665cf4c",
+  "bake:cerberus_minigun_bevel.png": "84e7040e3ddd883ba7877fbbf41640802f42e14b922f98c195803daab1af4b80",
+  "bake:cerberus_turret_grenade_ao.png": "a6eed7d5949f7cf7c3f8a26ee209607f40729a8664491dba1570a030f1a4a5d5",
+  "bake:cerberus_turret_grenade_bevel.png": "47eed4afd8f9ebf31282018ae2875dbc2059c3d37a97daec42bb03c9668a0cd5",
+  "bake:protector_arm_ao.png": "d36e7810644f11ec2dd61e1bbc2d6f0ce5410b35beb0ca1bb8f849fcd3387305",
+  "bake:protector_arm_bevel.png": "4eacb8dc0abcea7b89473005132360e0bb865bed17506da916fc4ede6469ddd8",
+  "bake:protector_pelvis_ao.png": "a25651d22ecb76146fa224b5efda63906d134fb79b02879d363ccfc00da39c33",
+  "bake:protector_pelvis_bevel.png": "1ee9f22e5a40b8536dddae5a07313d09d8e3745a75542f40e399564bfc307cd1",
+  "bake:protector_torso_ao.png": "804e61b306e93e2faba0dfe064472ab131647ae4cd10e5be52bd717f21e10710",
+  "bake:protector_torso_bevel.png": "1a29a6b4207b501ebd5679d628d9239b167e3c6af662dcd01cbd13ed3fa21196",
+  "bake:talon_body_ao.png": "6adc256d45680713ebbbb24b60603467c15e90e0136d8faa6d01cef19cbd0eeb",
+  "bake:talon_body_mask.png": "102a8243c5beb5fca6882d884240ce9553d9c8056234940588d81b6033d7f3d7",
+  "bake:talon_wing_gun_ao.png": "123431cac00dc561b3c51b1194998753c2bd00f898465d07bd563a3f952d151e",
+  "i_c_t7_zmb_zod_robot_arm_c": "ce2faea85a580d426fe269a67856fe4714d2ffe1aa2b2fcdd080defcaa12526c",
+  "i_c_t7_zom_zod_robot_foot_g": "3084eb7795801bbb9581dda7ef796d1ec8793e50e730f73055eee9ec95c345d1",
+  "i_c_t7_zom_zod_robot_foot_s": "3bd1e15dacc1f33143457b8a23de8126b2515cce3279ce7eb73f43b5fe397d88",
+  "i_c_t7_zom_zod_robot_leg_g": "4871e8f354290c0835945bdb0378f5737300da0ead3336c45a3756ed3954a01e",
+  "i_c_t7_zom_zod_robot_leg_n": "5697f0740b9f9723b641eead6f1c5c9e546f23944e08d84c96896e81e224e4fe",
+  "i_c_t7_zom_zod_robot_leg_s": "6addc147a43027b97527cff1ab6d0040155e92194000dd8d388fa3e1846b32c0",
+  "i_c_t7_zom_zod_robot_limbs_g": "0ac65f79133d2dad391cecffd977ae640cb791028417de0d3d095173f54fe8e0",
+  "i_c_t7_zom_zod_robot_limbs_n": "799998c39434849c4736a8d30af963b5d9c7c3171a5a42e5b10d40ceceb501bc",
+  "i_c_t7_zom_zod_robot_limbs_s": "84a651173b2aa773fab49e40d4ef46769b227de6d4fcf754e6d65b5b5b93f090",
+  "i_c_t7_zom_zod_robot_upper_c": "fcb39ba1fc4dc0b6717a7ef01fff1510706cb3e9a27b30d0dc546da09d727fe9",
+  "i_t7_cru_decal_grunge_rust_01_c": "4cb5fd44b81d3bf6839087cdf9d17cd989d1b3acc99eacffbd9c9668db5f0ef7",
+  "i_t7_drone_amws_wheels_n": "2a861942406cf9fe923f9a3b6e38d004fc33eb811c4832549b79c635f0d9b504",
+  "i_veh_t7_drone_amws_armored_hull_dead_n": "04e8c7e933d4b994a3c5ff9a4a980dd4198b395ea357d328ca213ec383883a03",
+  "i_veh_t7_drone_amws_armored_hull_g": "b11ca5f044e3bf44f8ca88b5eb840717ae1fb97a798f8d8439c42295b278f9de",
+  "i_veh_t7_drone_amws_armored_swingarm_dead_n": "e2944c6c593cdf561eef7e9ccfaec825266c9c47d9a652c2fcdefe8e575588fd",
+  "i_veh_t7_drone_amws_armored_swingarm_g": "66c97e8ed9c8eea82b5cdec4c7048138b3b0828946f6edb34d683f7100c23a06",
+  "i_veh_t7_drone_amws_armored_treadcovers_dead_n": "37b620562f23cdb924670619924e6241ef5ba0963ff8778e22ab0973a712eca2",
+  "i_veh_t7_drone_amws_armored_treadcovers_g": "811db5c27754c619f290277a770d7a19cc9ecfe378c195c20cfb80ced54034e2",
+  "i_veh_t7_drone_amws_armored_turret_dead_n": "ab312133794382aad2e329cda65370e0ecd3987efe749ed2e827581352026f23",
+  "i_veh_t7_drone_amws_armored_turret_g": "597d1c473fb2f5802fda6dbf8955ae8227436d8830fb93380f4460866efbe3cb",
+  "i_veh_t7_drone_amws_base_emissive_darkcolor_dead_g": "5f7b501896d638ccf3f635143b2151d398c6302f356d180ddb83aabbfd27c3d7",
+  "i_veh_t7_drone_amws_base_emissive_darkcolor_dead_o": "ea372c8f79deffa6e58babfa89d7fb8dccc12751b15dad3800466f3d1dd49b0a",
+  "i_veh_t7_drone_amws_base_emissive_dead_e": "14cc988b8ae05bbc6a96632b8a1ec39f453c8891c87b1662ea737bbac0d542b0",
+  "i_veh_t7_drone_amws_base_emissive_dead_n": "ded57ccbea8248d831b722ed00cc2397dc92133b932534ada0c15e2a83a0acbd",
+  "i_veh_t7_drone_amws_launcher_dead_n": "c4d72f50baea82ff10bcf2a01dd2246ae3b4fd00e697519f4407ee250f9d1c8f",
+  "i_veh_t7_drone_amws_launcher_g": "75645956918cdde8a118919a6add52645aade73b95ba6f77cd53d35aed352b03",
+  "i_veh_t7_drone_amws_swingarm_n": "2d5df730b8864ed8aa0b3c1d466dde403f706f69025f15c859298fa92c6860db",
+  "i_veh_t7_drone_amws_swingarm_o": "8a3d774714cab778ee79196f3a2f3c78b5ccba60a099efa4dea3fd35d5dec712",
+  "i_veh_t7_drone_amws_wheels_o": "33096b32047aa41529b5d09f59d334a2fb8c9934e019f44f4bbf2d86f7c20a31",
+  "i_veh_t7_drone_attack_body_dead_n": "f384333ad3b5e10b788fe6d8bf73d73a30bef664974296680c2350df2e73d5f5",
+  "i_veh_t7_drone_attack_body_dead_o": "a4e7ae67d7d42259f5f39be7acb8bf121b52cc68088fc69f7bd043aa01c39a54",
+  "i_veh_t7_drone_attack_body_litecolor_test_m": "24bbb8a5658ae3d146c3189e2ca9060ba96bc287838a16b4208e0f0edade1379",
+  "i_veh_t7_drone_attack_body_litecolor_test_n": "012f517ce1f5958a8a717d1f47ae5abcf204fa53d5b0676577cc04b2ea3933e8",
+  "i_veh_t7_drone_attack_wing_gun_dead_n": "360e18234711c44178a602a19d3fc1b80c74d9934fbea2cb36d5a0f0af5b384f"
+ },
+ "tool": "tools/companion_maps/compose.py"
+}

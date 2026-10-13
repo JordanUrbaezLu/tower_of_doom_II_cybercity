@@ -1,0 +1,195 @@
+{
+ "variants": {
+  "a": {
+   "params": {
+    "hinge": -8.0,
+    "curl": 84.0,
+    "twist": 30.0,
+    "buckle": 0.0
+   },
+   "free_end": [
+    -3.34,
+    0.0,
+    55.819
+   ],
+   "free_dir": [
+    -0.8587,
+    0.0,
+    0.5125
+   ],
+   "body_bounds": [
+    [
+     -48.0,
+     -9.0,
+     0.0
+    ],
+    [
+     17.701,
+     9.0,
+     56.348
+    ]
+   ]
+  },
+  "b": {
+   "params": {
+    "hinge": -20.0,
+    "curl": 126.0,
+    "twist": -34.0,
+    "buckle": 0.7
+   },
+   "free_end": [
+    -60.94,
+    0.0,
+    54.308
+   ],
+   "free_dir": [
+    -0.9483,
+    0.0,
+    -0.3175
+   ],
+   "body_bounds": [
+    [
+     -65.435,
+     -9.0,
+     0.0
+    ],
+    [
+     3.538,
+     9.0,
+     58.85
+    ]
+   ]
+  }
+ },
+ "models": [
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod0.xmodel_bin",
+   "sha256": "4be96a579eaecb25ab587e981d54b82f2fa89f7afad4d2749d9505ad804312f4",
+   "triangles": 2620,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod1.xmodel_bin",
+   "sha256": "3a345be951dbefe8067cca017acf2dbe1965e82f3ed6e7f640d622929d4b06ed",
+   "triangles": 478,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_a_lod2.xmodel_bin",
+   "sha256": "3a345be951dbefe8067cca017acf2dbe1965e82f3ed6e7f640d622929d4b06ed",
+   "triangles": 478,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_a_off_lod0.xmodel_bin",
+   "sha256": "3aa98f604cc89cdca5dd44f84cbd6d1af1462dc46485dae0f1c2ccfd669e7e24",
+   "triangles": 136,
+   "materials": [
+    "mtl_tod_conduit_wire_off"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_a_off_lod1.xmodel_bin",
+   "sha256": "3e419a52161b3035061837e6b1d5f72b6ef7453a4d5a6fa649685049b13f0fbd",
+   "triangles": 74,
+   "materials": [
+    "mtl_tod_conduit_wire_off"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_a_on_lod0.xmodel_bin",
+   "sha256": "f611a72c11926cee9ae13ec5787427afe8d60c4c25c938596c2d41dc2c40262d",
+   "triangles": 136,
+   "materials": [
+    "mtl_tod_conduit_wire_on"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_a_on_lod1.xmodel_bin",
+   "sha256": "1a1ba140a36bbf19a3ec73f7a32de1e5f5742872c10eb7bb731f0608f4fb9e2a",
+   "triangles": 74,
+   "materials": [
+    "mtl_tod_conduit_wire_on"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod0.xmodel_bin",
+   "sha256": "1dd8072550e8f5c19a8ae59ec16c9ed86a85bca7135938e67e06f59ad9488e76",
+   "triangles": 2620,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod1.xmodel_bin",
+   "sha256": "813528fa194d8ba702c7498cc09a5cbbb0b56fd20035fa107cf92723eb3961b5",
+   "triangles": 478,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/kit/tod_war_conduit_torn_b_lod2.xmodel_bin",
+   "sha256": "813528fa194d8ba702c7498cc09a5cbbb0b56fd20035fa107cf92723eb3961b5",
+   "triangles": 478,
+   "materials": [
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_b_off_lod0.xmodel_bin",
+   "sha256": "047894e27a05a7075d601e01295ef21318aa95d7dd706a19a3681cdc9ac68734",
+   "triangles": 136,
+   "materials": [
+    "mtl_tod_conduit_wire_off"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_b_off_lod1.xmodel_bin",
+   "sha256": "0248dc6f28b2b2061a2a5ee97f4b0bc7a28f544ddee6ff8b64a0129fafaa0ed6",
+   "triangles": 74,
+   "materials": [
+    "mtl_tod_conduit_wire_off"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_b_on_lod0.xmodel_bin",
+   "sha256": "fc0e9585e9b7427b61cfe9feca7595b8962b0907fde6b4e7401a86f4046c7b3d",
+   "triangles": 136,
+   "materials": [
+    "mtl_tod_conduit_wire_on"
+   ]
+  },
+  {
+   "file": "model_export/tod_war_damage/tod_war_conductor_b_on_lod1.xmodel_bin",
+   "sha256": "6b2a4d75269a231427706a3c7045bfb6cc5cdddfc93e86deef51fcff8b90f0a1",
+   "triangles": 74,
+   "materials": [
+    "mtl_tod_conduit_wire_on"
+   ]
+  }
+ ],
+ "source": {
+  "lod0": "a1736304ced5ce483bc99bf78501a6b573f445eeffd485cc98cae0fa04e932ed",
+  "lod1": "6c9f617961defc14e3adc8b469131773cbe13209b981faa6c07a6a78c35409bf"
+ },
+ "gdt_sha256": "92ff48c823c8ae1d9ee49d29ff03410d2fb9c104124bf98c09db8c1ef06f7753"
+}

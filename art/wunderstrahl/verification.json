@@ -1,0 +1,567 @@
+{
+  "models": {
+    "model_export/tod_wunderstrahl/tod2_ws_view_LOD0.XMODEL_BIN": {
+      "triangles": 42795,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 3.1473,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD0.XMODEL_BIN": {
+      "triangles": 36887,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 3.1467,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD1.XMODEL_BIN": {
+      "triangles": 15462,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 3.1346,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD2.XMODEL_BIN": {
+      "triangles": 9514,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 3.1346,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD3.XMODEL_BIN": {
+      "triangles": 5151,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 2.95,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD4.XMODEL_BIN": {
+      "triangles": 2860,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 2.95,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_glow",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD5.XMODEL_BIN": {
+      "triangles": 1830,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 2.95,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_bulb",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD6.XMODEL_BIN": {
+      "triangles": 857,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "emitter_max_radius": 2.905,
+      "crystal_front_x": 40.998,
+      "materials": [
+        "mtl_tod2_ws_stock",
+        "mtl_tod2_ws_coil",
+        "mtl_tod2_ws_body",
+        "mtl_tod2_ws_glass",
+        "mtl_tod2_ws_frame",
+        "mtl_tod2_ws_core",
+        "mtl_tod2_ws_emitter"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD0.XMODEL_BIN": {
+      "triangles": 13938,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "bbox": [
+        [
+          -20.990869522094727,
+          -4.026572227478027,
+          -6.679760932922363
+        ],
+        [
+          20.989593505859375,
+          4.026572227478027,
+          6.679760932922363
+        ]
+      ],
+      "length": 41.98,
+      "materials": [
+        "mtl_x2icon_gold"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD1.XMODEL_BIN": {
+      "triangles": 4711,
+      "needles": 0,
+      "bad_faces": 0,
+      "bad_normals": 0,
+      "bad_uvs": 0,
+      "bad_weights": 0,
+      "emitter_uv_out": 0,
+      "axial_gap": {
+        "inches": 0.0,
+        "at": null
+      },
+      "floating_parts": [],
+      "bbox": [
+        [
+          -20.990869522094727,
+          -3.820143222808838,
+          -4.603704929351807
+        ],
+        [
+          20.989593505859375,
+          4.032327175140381,
+          6.463169574737549
+        ]
+      ],
+      "length": 41.98,
+      "materials": [
+        "mtl_x2icon_gold"
+      ]
+    },
+    "model_export/tod_wunderstrahl/tod2_ws_skeleton.XMODEL_BIN": {
+      "bones": 122,
+      "byte_identical": true
+    }
+  },
+  "textures": {
+    "i_tod2_ws_body_c": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_body_g": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_body_n": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.924
+    },
+    "i_tod2_ws_body_s": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_coil_c": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_coil_g": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_coil_n": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.951
+    },
+    "i_tod2_ws_coil_s": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_core_c": {
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_core_e": {
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA",
+      "blue_dominant_lit_fraction": 0.0,
+      "lit_fraction": 1.0
+    },
+    "i_tod2_ws_core_g": {
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_core_n": {
+      "size": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.998,
+        1.003
+      ],
+      "normal_z_mean": 0.987
+    },
+    "i_tod2_ws_core_s": {
+      "size": [
+        512,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_emitter_c": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_emitter_e": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "blue_dominant_lit_fraction": 0.0,
+      "lit_fraction": 0.1257
+    },
+    "i_tod2_ws_emitter_g": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_emitter_n": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.99
+    },
+    "i_tod2_ws_emitter_s": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_frame_c": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_frame_g": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_frame_n": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.939
+    },
+    "i_tod2_ws_frame_s": {
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_glass_c": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_glass_g": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_lamp_c": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_lamp_e": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "blue_dominant_lit_fraction": 0.0,
+      "lit_fraction": 1.0
+    },
+    "i_tod2_ws_lamp_g": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_lamp_n": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.997
+    },
+    "i_tod2_ws_lamp_s": {
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_stock_c": {
+      "size": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_stock_g": {
+      "size": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    "i_tod2_ws_stock_n": {
+      "size": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA",
+      "normal_len_p5_p95": [
+        0.997,
+        1.003
+      ],
+      "normal_z_mean": 0.99
+    },
+    "i_tod2_ws_stock_s": {
+      "size": [
+        2048,
+        1024
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "clips": 28,
+  "emitter_normal_inside_uvs": {
+    "texels": 2424231,
+    "facing_out_under_0_1": 0
+  },
+  "clip_tag_flash_max_deviation": 0.00208,
+  "install_art_check": "WUNDERSTRAHL_ART_CHECK_OK 73 blocks, 99 referenced files pinned",
+  "result": "PASS",
+  "failures": [],
+  "native_built": false,
+  "native_playtested": false,
+  "limits": "Source-level checks only: no linker run, no compiled-ledger triangle comparison, no in-game look. Those need the main session's FULL build and the user's playtest."
+}

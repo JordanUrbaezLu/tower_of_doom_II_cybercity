@@ -1,0 +1,20 @@
+{
+  "lead_build": "tmp/lead_build/build8.log",
+  "lamp_emission": 36.0,
+  "inputs": [
+    {
+      "file": "source_data/tod_crown_alarm.gdt",
+      "sha256": "9f23a60264b48eb45c7cff66d138f135dce65b9d2a5cc9b339ad48a5c119f7d3"
+    },
+    {
+      "file": "share/raw/fx/tod/crown_alarm/fx_tod_alarm_sweep.efx",
+      "sha256": "857ffbd9fac164f87b43e6ec7f46aca690c62df2b41a4aaf04801dd82c33bce5"
+    }
+  ],
+  "source_matches_private": true,
+  "no_post_ff_asset_sync": true,
+  "compiled_spotlight_present": true,
+  "ff_bytes": 189911808,
+  "scope": "Brightness only. Random start phases are not yet built.",
+  "user_feedback": "Brightness looks better now."
+}

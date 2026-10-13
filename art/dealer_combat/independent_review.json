@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-10-08T19:07:00.635324+00:00",
+  "reviewer": "/root/dealer_combat_review",
+  "scope": "Independent read-only code and authoring-art review; no native game launch.",
+  "combat_review": {
+    "status": "PASS",
+    "checks": "Cancellation, cover, fixed warning footprints, damage callbacks and cleanup; 50 staged math/lifetime checks and three planted regressions.",
+    "art": "All four refreshed contact views opened; actual weapon/clip alignment, warnings and Dealer identity accepted; binary hashes match reviewed clips.",
+    "clip_sha256": [
+      "b5c7f74ff683bfb2fc98ff51bda1fe5bed6ab3d5d685e3f378e0799913c68baa",
+      "6d5dfaa0a555ee30735869590214a3d6ade5bb75aabc37284ca14a7c96d295f6"
+    ]
+  },
+  "charge_repair_review": {
+    "status": "PASS",
+    "checks": "Both emitted coil curves 0,.08,.92,1; every parsed graph checked; repeated/reversed negative controls pass; compiled gate rejects preserved failed ledger on missing charge effect.",
+    "limitation": "Initial authoring review missed donor helper duplicate-key edge; fresh native output must pass mandatory compiled-effect gate."
+  },
+  "native_visual_verified": false,
+  "native_performance_verified": false,
+  "native_audio_played": false,
+  "game_launched": false
+}

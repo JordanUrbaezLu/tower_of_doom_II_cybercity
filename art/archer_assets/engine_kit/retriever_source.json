@@ -1,0 +1,110 @@
+{
+  "source_model": "source_library/archer_equipment/retriever/model_export/t6_wpn_zmb_tomahawk_world_lod0.xmodel_bin",
+  "triangles": 1361,
+  "bounds": [
+    [
+      -10.059294700622559,
+      -1.4192399978637695,
+      -24.74500274658203
+    ],
+    [
+      7.364281177520752,
+      1.432790994644165,
+      3.6332569122314453
+    ]
+  ],
+  "textures": [
+    {
+      "material": "body",
+      "slot": "col",
+      "source": "source_library/archer_equipment/retriever/images/~-gmtl_t6_wpn_zmb_tomahawk_col.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_body_col.png",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "body",
+      "slot": "nml",
+      "source": "source_library/archer_equipment/retriever/images/mtl_t6_wpn_zmb_tomahawk_nml.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_body_nml.png",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "body",
+      "slot": "spc",
+      "source": "source_library/archer_equipment/retriever/images/~~-gmtl_t6_wpn_zmb_tomahawk_s~c2852453.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_body_spc.png",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "blade",
+      "slot": "col",
+      "source": "source_library/archer_equipment/retriever/images/~-gmtl_t6_wpn_zmb_tomahawk_blade_col.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_blade_col.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "material": "blade",
+      "slot": "nml",
+      "source": "source_library/archer_equipment/retriever/images/mtl_t6_wpn_zmb_tomahawk_blade_nml.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_blade_nml.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "material": "blade",
+      "slot": "spc",
+      "source": "source_library/archer_equipment/retriever/images/~~-gmtl_t6_wpn_zmb_tomahawk_b~998d70fb.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_blade_spc.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "material": "fringe",
+      "slot": "col",
+      "source": "source_library/archer_equipment/retriever/images/~-gmtl_t6_wpn_zmb_tomahawk_alpha_col.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_fringe_col.png",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "material": "fringe",
+      "slot": "nml",
+      "source": "source_library/archer_equipment/retriever/images/mtl_t6_wpn_zmb_tomahawk_alpha_nml.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_fringe_nml.png",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "material": "fringe",
+      "slot": "spc",
+      "source": "source_library/archer_equipment/retriever/images/~~-gmtl_t6_wpn_zmb_tomahawk_a~46907b31.dds",
+      "file": "model_export/tod_archer/_images/i_tod_retriever_fringe_spc.png",
+      "size": [
+        512,
+        256
+      ]
+    }
+  ],
+  "first_person_animation_fitted": true,
+  "native_motion_manifest": "art/archer_assets/engine_kit/native_motion.json"
+}

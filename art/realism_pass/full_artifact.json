@@ -1,0 +1,10 @@
+{
+  "ff_time": "2026-09-29T18:24:07.479121",
+  "ff_unix": 1790720647.479121,
+  "ff_bytes": 224891008,
+  "ff_sha256": "f3fc888e1dd1eb53371e1df82b1a38f0ff512b9ec41f75c41963c863b8dc671b",
+  "log": "art/realism_pass/full_build.log",
+  "inputs": "art/realism_pass/full_build_inputs.json",
+  "log_sha256": "0f8a883fdf70db51d6f6929476ae84915d1d3bab82c8c7f09ae18872bdf34293",
+  "inputs_sha256": "d08586e9ba3d4c4371756f9c1e759d1ed84fdaedccb39e57ef9b5f7077a95916"
+}

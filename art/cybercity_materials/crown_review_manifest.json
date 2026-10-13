@@ -1,0 +1,6 @@
+{
+  "map_sha256": "2ebd46ab6fc7b10c5ac6eb31a8053bc06fdda752726b52de3fa81020062aea76",
+  "source_world_brushes": 803,
+  "preview_limit": "Exported maps and gloss range; approximate fullspec GGX preview, not BO3 parity; actual map solids and source meshes, neutral review lighting; native lighting/gameplay not reproduced",
+  "stock_props": "Stock perk machines, ammo crate, power lever and runtime FX are retained in game but omitted from this architecture review"
+}

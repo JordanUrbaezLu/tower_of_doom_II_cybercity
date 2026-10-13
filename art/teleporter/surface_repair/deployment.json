@@ -1,0 +1,72 @@
+{
+  "materials": {
+    "mtl_tod_teleporter": {
+      "_name": "mtl_tod_teleporter",
+      "materialType": "lit_emissive_advanced_fullspec",
+      "waterRoughness": 0.0,
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "colorMap00": "i_tod_teleporter_ready_e",
+      "scaleRGB": 6.0
+    },
+    "mtl_tod_tp_off": {
+      "_name": "mtl_tod_tp_off",
+      "materialType": "lit_emissive_advanced_fullspec",
+      "waterRoughness": 0.0,
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "colorMap00": "i_tod_teleporter_e",
+      "scaleRGB": 0.0
+    }
+  },
+  "ff_time": "2026-09-26T22:58:00.760803",
+  "ff_bytes": 196651712,
+  "native_visual_verified": false,
+  "game_launched": false,
+  "build_log": "tmp/lead_build/build16c.log",
+  "build_log_sha256": "635a4faa1698481b549618617a31cbc9ac2fbb44b2a25b9675a05387a70f9d32",
+  "ff_sha256": "00bd02181a912dc23a993178428e9ef668c1dcec4d5a2fd3ab0782a9dd8cfddb",
+  "inputs": {
+    "model_export/tod_teleporter/tod_teleporter_lod0.xmodel_bin": "7aebcdbf9ed780ae98a5f0162a1c68846b5deb62530d4c59dd81fa0fa903425a",
+    "model_export/tod_teleporter/tod_teleporter_lod1.xmodel_bin": "b28e41033307715032581034157d4458b9a2519f3803ab862b1a2600fcd95fc9",
+    "model_export/tod_teleporter/tod_teleporter_lod2.xmodel_bin": "2ae562dafe97dedbfd2bfa2ad408a9ebdcdb1b9ccc9c5eb6cc4673bfc0d3923f",
+    "model_export/tod_teleporter/tod_teleporter_lod3.xmodel_bin": "a546f19069af37d7395147034232da1fbb7eb29a1e94dfe36fb71f3f05719edb",
+    "model_export/tod_teleporter/tod_teleporter_lod4.xmodel_bin": "19be2bc289aa53b14e0ccf64fbb8e6f62fc74533893bc71cce63dafaccd42327",
+    "model_export/tod_teleporter/tod_teleporter_lod5.xmodel_bin": "84c41a450510efecd3ce99766cc774d915ce4f96d2b2272fc2b921f3fdcc3289",
+    "model_export/tod_teleporter/tod_teleporter_lod6.xmodel_bin": "3b460dacbf7f7a7ce2d0319d83e4c11bbe788b7356ee3d60cc506bf17806539d",
+    "model_export/tod_teleporter/tod_tp_recharge_lod0.xmodel_bin": "702f18474e2795816f2ce329f1adb77c1437d422fdddbb850e05712ccc4496de",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_c.png": "589dfa4a3b20ab82a71271acbfa79afe87e3c5325094b9fec5ab0533428a1015",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_e.png": "9efa6837a8d9c13981ee619377e43af2a54adfb1087057e09c3bc2aac6b25968",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_g.png": "4cd134e5553ebc670a7dfbc2fe660228b613dabf1a2f2bbe12f302c6fdec55ec",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_n.png": "780af1638fd4e665951fbff88e5b16f3f83fae416a707c32e254608914fe4d9f",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_ready_e.png": "25cb02b8d034f1c5286aac8b99b89d351d1276a9dd5ade559b8d2f9362781742",
+    "model_export/tod_teleporter/_images/i_tod_teleporter_s.png": "135b32222c4e6002e33826b4b0dc3e4a256529323ecd56c423748417c55ebf54",
+    "source_data/tod_teleporter.gdt": "26996c911d08a7b85cd737618bba4e09e83fdd9f37201faac0a8b6c8b3b6396b",
+    "source_data/tod_teleporter_states.gdt": "2e3a3c456d8663a02f0777bb3aafadbbb834b891a5b098703a09ee14c2766afd",
+    "scripts/zm/zm_tod2_cybercity/_tod_teleport.gsc": "3636d21110c65a1ac6d3ab32b278d1dc5d9520354d81c89e7d06a0d489d89bf1",
+    "zone_source/tod_teleporter_states.zpkg": "4848b8020c2d240bdabe790e6284d4e322b6e8b1c03f7e54b2e08134d4419865"
+  },
+  "packed_assets": [
+    "i_tod_teleporter_c",
+    "i_tod_teleporter_e",
+    "i_tod_teleporter_g",
+    "i_tod_teleporter_n",
+    "i_tod_teleporter_ready_e",
+    "i_tod_teleporter_s",
+    "mc/mtl_tod_teleporter",
+    "mc/mtl_tod_tp_charge_0",
+    "mc/mtl_tod_tp_charge_1",
+    "mc/mtl_tod_tp_charge_2",
+    "mc/mtl_tod_tp_off",
+    "tod_teleporter",
+    "tod_teleporter_off",
+    "tod_tp_recharge"
+  ],
+  "native_built": true
+}

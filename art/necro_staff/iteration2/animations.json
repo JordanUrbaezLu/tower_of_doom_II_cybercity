@@ -1,0 +1,384 @@
+{
+  "clips": [
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_b",
+      "frames": 31,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_b.XANIM_BIN",
+      "sha256": "b52c614f362012f30e622b1425bfd5c99be8a26ac267aa3bdf1906df2fe0f887"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_f",
+      "frames": 31,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_f.XANIM_BIN",
+      "sha256": "04c92bdf1b0d02d1d4084766ab74ec205e9817999031c75858e092061087d24d"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_in",
+      "frames": 11,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_in.XANIM_BIN",
+      "sha256": "7497631030cd5507a7851d22104f7ed3c242084af748358fe6a8c72879b31ac2"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_l",
+      "frames": 31,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_l.XANIM_BIN",
+      "sha256": "04603b7bdccc7237dddb064e98fcccc91024be82056ad199095356db5f5b392c"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_out",
+      "frames": 11,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_out.XANIM_BIN",
+      "sha256": "d8efeaa61f1f0a20b98a4c68b9344b4311142c26117f26fec7980361dd23d29f"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_crawl_r",
+      "frames": 31,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_r.XANIM_BIN",
+      "sha256": "2968baaaa1735e78728fc0c36013ec42e5472b8499b58313e5a5bcf83302db35"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_idle",
+      "frames": 301,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_idle.XANIM_BIN",
+      "sha256": "547e49b146d4e719718dc5e6a1292389c5ba5dc415b14cd687e0fa822620dc33"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_slide_air_in",
+      "frames": 14,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_air_in.XANIM_BIN",
+      "sha256": "3829ff5d74e621d0687438d5245d31806866b0783342ee23938983617af7a2b5"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_slide_in",
+      "frames": 14,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_in.XANIM_BIN",
+      "sha256": "95f0721dd311ce616362a8c04b48edc8719fd4d5528ca2523fe940f7fcb919a0"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_slide_loop",
+      "frames": 28,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_loop.XANIM_BIN",
+      "sha256": "5997ceed9bfb3fd4264ba89c7844e69298f920186b8ce96e2a426c138bf18f9e"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_slide_out",
+      "frames": 11,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_out.XANIM_BIN",
+      "sha256": "d24675e63db192a58e69d03f618074621ae99e02936dd210655f025ad82eb231"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_ads_fire",
+      "frames": 6,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_ads_fire.XANIM_BIN",
+      "sha256": "b705f9c25deb820b1037739ab4c34291b946f0980066cc415d90fbf2cc28d387"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_fire",
+      "frames": 15,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_fire.XANIM_BIN",
+      "sha256": "cab8b1f6fea432e28bc1c31f8c24378d348f2b85f6df04bb1297b41312809ce1"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_hold_fire",
+      "frames": 2,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_hold_fire.XANIM_BIN",
+      "sha256": "83a71cae5cdf8deb150868deec8768c58eba0e63ca9792e11ccac2b5023e6304"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_melee_slash",
+      "frames": 24,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_melee_slash.XANIM_BIN",
+      "sha256": "ab473a4d689ed585ccd758ae89ab0515cbab1535469fcb4aaf7e9d5a997be654"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_pullout",
+      "frames": 18,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_pullout.XANIM_BIN",
+      "sha256": "d9553e3d1d05aa83a38eb6173e04b8b62c787f55c8dc2e52e3efe5fc2861579b"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_pullout_quick",
+      "frames": 26,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_pullout_quick.XANIM_BIN",
+      "sha256": "5490ec428468bfd3177e6bd11c2f1334b3a826145959641b3373dfad052fa409"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_putaway",
+      "frames": 16,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_putaway.XANIM_BIN",
+      "sha256": "c2a8e9a52c0adcc8be80736e9a2aab0efed4c09906d3e6e3cb71e92fefbce212"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_putaway_quick",
+      "frames": 17,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_putaway_quick.XANIM_BIN",
+      "sha256": "37c392f2490651a5fb9f5bc84774045be8df8e37f2ffba7cd657a94e845aca88"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_reload_ice",
+      "frames": 75,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_reload_ice.XANIM_BIN",
+      "sha256": "2f526626d928d534ad20c1be84007f5f0d55d1941ed7222707c714c05d6b5acb"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_sprint_in",
+      "frames": 11,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_in.XANIM_BIN",
+      "sha256": "1eb772390b42b633e2a5d628a42c7fba0bff28408bf8cd5207307cc5ce24b58b"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_sprint_loop",
+      "frames": 31,
+      "fps": 30,
+      "loop": true,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_loop.XANIM_BIN",
+      "sha256": "44afd7a6c8993d3b14de1a6e29f8cac68ef8671159a3e3a38ff326f796f4386c"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_sprint_out",
+      "frames": 11,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_out.XANIM_BIN",
+      "sha256": "11fcce3fc390e66739d6093a063f2eaf887d022f48cc2aeeb87e6a2ea488ebe5"
+    },
+    {
+      "name": "tod_vm_necro_staff_fit_t7_water_first_raise",
+      "frames": 49,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_water_first_raise.XANIM_BIN",
+      "sha256": "63de54fd6edf1cb93d3778cfe6c224079ea5d46d84ad82f84e15f054fe7fb74c"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_ads_down",
+      "frames": 19,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_ads_down.XANIM_BIN",
+      "sha256": "c3fadd8a9b522dba5fada5db98e3e36db72bf50a40c6dec1bc74dfbd0f95d36b"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_ads_up",
+      "frames": 18,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_ads_up.XANIM_BIN",
+      "sha256": "118cae11d78c48df268a2960799145830af3fb0aa9056078af0a8702cf1eef4e"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_fall",
+      "frames": 30,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_fall.XANIM_BIN",
+      "sha256": "bb577c3a9d78e2725d8e42c9b9e6e24edc19665dc7317a4358ac2f7da75d9687"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_jump",
+      "frames": 25,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_jump.XANIM_BIN",
+      "sha256": "087d299635c52964fbc5315659c128e5a0fd7e921eeff8b653eb4d9c630b04b7"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_jump_land",
+      "frames": 20,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_jump_land.XANIM_BIN",
+      "sha256": "d1e2bd19d4b6cd1783f311944ebf664936f9bc9be629ab7772c9d20e201587ee"
+    },
+    {
+      "name": "tod_vm_necro_staff_t7_walk_f",
+      "frames": 35,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_walk_f.XANIM_BIN",
+      "sha256": "a443eae87222d0e2d5b13518b855bd0601f7ec98628a7a8f03e2bb22ba8def89"
+    },
+    {
+      "name": "tod_vm_necro_staff_channel_in",
+      "frames": 9,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_in.XANIM_BIN",
+      "sha256": "7d7c02f0bb0af486dd4a1ed1f07c1fd1083db4cb7696aab0c5279141780eb361"
+    },
+    {
+      "name": "tod_vm_necro_staff_channel_loop",
+      "frames": 34,
+      "fps": 30,
+      "loop": true,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_loop.XANIM_BIN",
+      "sha256": "923ab48517f800f46c39f827eb0373262e60d5fcbe05933697892b6dc921b565"
+    },
+    {
+      "name": "tod_vm_necro_staff_channel_out",
+      "frames": 10,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_out.XANIM_BIN",
+      "sha256": "3f7f08b41816644ad8a16001bdabf5f5c8a3d8791bfd7fb94f69e8ba8e9834bf"
+    },
+    {
+      "name": "tod_vm_necro_staff_pulse",
+      "frames": 19,
+      "fps": 30,
+      "loop": false,
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_pulse.XANIM_BIN",
+      "sha256": "29901e50d19674f4c9d04ba03bae1d6054d60a4e6011b527e93be97d321af117"
+    }
+  ],
+  "slots": {
+    "adsDownAnim": "tod_vm_necro_staff_t7_ads_down",
+    "adsFireAnim": "tod_vm_necro_staff_channel_out",
+    "adsLastShotAnim": "tod_vm_necro_staff_channel_out",
+    "adsUpAnim": "tod_vm_necro_staff_t7_ads_up",
+    "crawlBackAnim": "tod_vm_necro_staff_fit_crawl_b",
+    "crawlEmptyBackAnim": "tod_vm_necro_staff_fit_crawl_b",
+    "crawlEmptyForwardAnim": "tod_vm_necro_staff_fit_crawl_f",
+    "crawlEmptyInAnim": "tod_vm_necro_staff_fit_crawl_in",
+    "crawlEmptyLeftAnim": "tod_vm_necro_staff_fit_crawl_l",
+    "crawlEmptyOutAnim": "tod_vm_necro_staff_fit_crawl_out",
+    "crawlEmptyRightAnim": "tod_vm_necro_staff_fit_crawl_r",
+    "crawlForwardAnim": "tod_vm_necro_staff_fit_crawl_f",
+    "crawlInAnim": "tod_vm_necro_staff_fit_crawl_in",
+    "crawlLeftAnim": "tod_vm_necro_staff_fit_crawl_l",
+    "crawlOutAnim": "tod_vm_necro_staff_fit_crawl_out",
+    "crawlRightAnim": "tod_vm_necro_staff_fit_crawl_r",
+    "dropAnim": "tod_vm_necro_staff_fit_t7_putaway",
+    "emptyDropAnim": "tod_vm_necro_staff_fit_t7_putaway",
+    "emptyIdleAnim": "tod_vm_necro_staff_fit_idle",
+    "emptyRaiseAnim": "tod_vm_necro_staff_fit_t7_pullout",
+    "fallAnim": "tod_vm_necro_staff_t7_fall",
+    "fireAnim": "tod_vm_necro_staff_channel_out",
+    "firstRaiseAnim": "tod_vm_necro_staff_fit_t7_water_first_raise",
+    "holdFireAnim": "tod_vm_necro_staff_channel_in",
+    "holdFireLoopAnim": "tod_vm_necro_staff_channel_loop",
+    "idleAnim": "tod_vm_necro_staff_fit_idle",
+    "jumpAnim": "tod_vm_necro_staff_t7_jump",
+    "jumpLandAnim": "tod_vm_necro_staff_t7_jump_land",
+    "lastShotAnim": "tod_vm_necro_staff_channel_out",
+    "meleeAnim": "tod_vm_necro_staff_fit_t7_melee_slash",
+    "quickDropAnim": "tod_vm_necro_staff_fit_t7_putaway_quick",
+    "quickRaiseAnim": "tod_vm_necro_staff_fit_t7_pullout_quick",
+    "raiseAnim": "tod_vm_necro_staff_fit_t7_pullout",
+    "reloadAnim": "tod_vm_necro_staff_fit_t7_reload_ice",
+    "reloadEmptyAnim": "tod_vm_necro_staff_fit_t7_reload_ice",
+    "reloadQuickAnim": "tod_vm_necro_staff_fit_t7_reload_ice",
+    "reloadQuickEmptyAnim": "tod_vm_necro_staff_fit_t7_reload_ice",
+    "slide_in": "tod_vm_necro_staff_fit_slide_in",
+    "slide_in_air": "tod_vm_necro_staff_fit_slide_air_in",
+    "slide_loop": "tod_vm_necro_staff_fit_slide_loop",
+    "slide_out": "tod_vm_necro_staff_fit_slide_out",
+    "sprintInAnim": "tod_vm_necro_staff_fit_t7_sprint_in",
+    "sprintLoopAnim": "tod_vm_necro_staff_fit_t7_sprint_loop",
+    "sprintOutAnim": "tod_vm_necro_staff_fit_t7_sprint_out",
+    "walkAnim": "tod_vm_necro_staff_t7_walk_f",
+    "holdFireCancelAnim": "tod_vm_necro_staff_channel_out",
+    "fireIntroAnim": "tod_vm_necro_staff_channel_in",
+    "altRaiseAnim": "tod_vm_necro_staff_fit_t7_pullout",
+    "altDropAnim": "tod_vm_necro_staff_fit_t7_putaway"
+  },
+  "sources": {
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_b.XANIM_BIN": "94c9a064ae596b331e9a0fd092a76fb10521db2648cd34e1a61d68575b433874",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_f.XANIM_BIN": "e9372673638f586887fd1b8067a85eb86a158d9dbc3446a581ba2315889122e5",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_in.XANIM_BIN": "6c6ea07c5a76ca507a6d088ebdd42b44d535213d449265e994e2d0689f9a8bd2",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_l.XANIM_BIN": "e2168a52c8ae271946cd89406c5b98a77a021c1db36e8ef552a0f7357428ab63",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_out.XANIM_BIN": "3e616c432eec6f988c8648c8782c803827f409518eb35079e01f3cbd18995575",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_crawl_r.XANIM_BIN": "dbedd10d99b3dc575b9e7d250e750a0e04c1fa0c55dd5dca8f61acee4e5097b6",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_idle.XANIM_BIN": "f167153998be673df7616dbb867139e9ffb9bb235dfd5352a4d9124c07568238",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_slide_air_in.XANIM_BIN": "9638a3d41a6bfcfda148a0faf115fd0898a9de838e3efe73f469a047ab1f359a",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_slide_in.XANIM_BIN": "cd8060f26102d2fd12d202807aa01a89020b8b0987eed8f859ceceb708f30b38",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_slide_loop.XANIM_BIN": "7e2d514e9ec86b5d992e1a78e5dfe753990f3bfbfd37b955b556e99cdc329348",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_slide_out.XANIM_BIN": "8e5b0fc5c74beb1204a13f6f7bb6e7b6a1c2870a29339202e0cfe70fe0e8e752",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_ads_fire.XANIM_BIN": "97dbe22499c00e90312fa454be5d44020f5dfe6f39936ac6a0d3bf1de737a08b",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_fire.XANIM_BIN": "6a0d26ee339df5211527a0611a261bbb20e17ef91a2fb1f01196719e3ffaefb6",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_hold_fire.XANIM_BIN": "8328499da36f10c053707017c90e0e6975f23e49015cb9276a8c7f8c3d6591bf",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_melee_slash.XANIM_BIN": "c9048044f3b40ef34a1f5dc5d3427898ee3158fb6c38226f8044fa2670052da5",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_pullout.XANIM_BIN": "08b2cf4f77f2c07dcd5f7ab30dcd977764a8ba52ca188881cc1a3b3bc734dce7",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_pullout_quick.XANIM_BIN": "d97eddd4a61588bfe072d04916e3040a0740c47abd9b36849ab601439de8af57",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_putaway.XANIM_BIN": "a941d49a20f86b9dcc94482edcd880c6df3bc1dc00d7c84c8ccdb186ed362c63",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_putaway_quick.XANIM_BIN": "040d2430acf02c765d3a1c8054fd7dbfa193ff541993d5d1ec881cf1d7f0fcf6",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_reload_ice.XANIM_BIN": "544b9fdcc55d2e4e0cac11f08397b04ba330bd645a546d6673aa6946d8154fed",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_sprint_in.XANIM_BIN": "f954d4383816c739759258aa35ded997ab9e5a2dc027e9e2ec4129b1bf052f2b",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_sprint_loop.XANIM_BIN": "9fffd410facc3f04ba2386d20ad550e9c8a2674794d5d5669ecc7a149fa6672c",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_sprint_out.XANIM_BIN": "816752307b6ba34b8d163a4878ae2690d100280e22eacb21178cbf2131640294",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_fit_t7_water_first_raise.XANIM_BIN": "992df920b7a5a2140915a4e5fcfe98ab026261818b9a4de3005496c2f70bc620",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_ads_down.XANIM_BIN": "7f62c702a5be1451637aabce41090d1524eb973ad6a393440a4699933f22dacd",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_ads_up.XANIM_BIN": "baf68088890aed26c3a249a3087b81fb7e4d314650d2b99c8eaff1598f3e13b3",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_fall.XANIM_BIN": "a97fd63df729087a4d1d103064423337f1b2ad57ba77eb865e21dc424467ac83",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_jump.XANIM_BIN": "7b088e8188438843392bb436d8b154d68d1a372b484b31448ff89b65ad96f877",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_jump_land.XANIM_BIN": "c5ecab742a945771daecd0b2235e3b18bbfb46d0036ef1ca79143907f94e5f48",
+    "xanim_export\\tod_staff_approved\\tod_vm_staff_ice_t7_walk_f.XANIM_BIN": "52ccc293fb42893be72a047c23078c36df6e4b5289e0cba06eeea11c33cb6ba4",
+    "C:\\BO3Tools\\TOD2Cybercity\\xanim_export\\black_ops_3\\zns_skull\\vm_zom_skull_fire_loop.xanim_bin": "72273b08131097331d98c741adaa899c92826804c4e96eafd2368b288d4374e3"
+  },
+  "rig_sha256": "f960f17b5a9ba6f94837605a41585f769ed487c6711f8df885f36d5284be3e2f",
+  "tags": {
+    "tag_flash": [
+      32.0,
+      0.0,
+      3.9000000953674316
+    ],
+    "tag_fx_mouth": [
+      31.399999618530273,
+      0.0,
+      3.9000000953674316
+    ],
+    "tag_fx_left": [
+      33.599998474121094,
+      1.5,
+      2.700000047683716
+    ],
+    "tag_fx_right": [
+      33.599998474121094,
+      -1.5,
+      2.700000047683716
+    ]
+  },
+  "native_visual_verified": false
+}

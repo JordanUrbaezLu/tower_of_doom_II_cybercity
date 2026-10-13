@@ -1,0 +1,18 @@
+{
+  "actual_native_geometry": true,
+  "source_meshes_hidden_in_render_and_viewport": true,
+  "complete_authoring_receipt_verified": true,
+  "authoring_receipt_sha256": "0d2d55c1f3d8efb3c0630b3dc3376dae5d9c08af0209995beb4087346de9abd4",
+  "native_preview_sha256": "3682f9e7e5a76b3684f5d204a1e32f61cd57b01c12f69520aca294f338c7cf67",
+  "native_specular_mask": 0,
+  "native_f0": [
+    0.04,
+    0.04,
+    0.04
+  ],
+  "default_state": "off, bloom disabled",
+  "shading": "RENDERED",
+  "rotation_seconds": 1.5,
+  "bloom_rotation_render_sha256": "ab53f96974ba44ef56d8b51599fb7bd137472d481e1eb139cabd5dd241f0cfd3",
+  "native_playtested": false
+}

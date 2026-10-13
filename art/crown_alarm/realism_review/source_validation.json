@@ -1,0 +1,151 @@
+{
+  "lod_files": 15,
+  "corners": 139002,
+  "changed_uv_corners": 131730,
+  "geometry_identical": true,
+  "native_material_roles_preserved": true,
+  "lens_gloss_spec_shader_enabled": true,
+  "maps": [
+    {
+      "image": "i_tod_alarm_cast_c.png",
+      "size": 1024,
+      "sha256": "b0fc0bb2f21df7c50b82f64f23c95f6b6a4af44983244fbc10b0ba65519e7f3b"
+    },
+    {
+      "image": "i_tod_alarm_cast_g.png",
+      "size": 1024,
+      "sha256": "41ce4ff8856fa33cf5a9aba6da79f7c689ff9307ac6565035ac21251f8382f4d"
+    },
+    {
+      "image": "i_tod_alarm_cast_s.png",
+      "size": 1024,
+      "sha256": "ce2d53ca04b3e03a99924496d92b03be1ce340b39b21bcd37491618cd07fd5bb"
+    },
+    {
+      "image": "i_tod_alarm_cast_n.png",
+      "size": 1024,
+      "sha256": "b64ea740a24061e2d8195aba74dd98033830a358f1e61524da8bdca60aa11628"
+    },
+    {
+      "image": "i_tod_alarm_steel_c.png",
+      "size": 1024,
+      "sha256": "ed585a896a6da95cb1e8e033afe25ea4a37cb961204e2522acd45588151304c5"
+    },
+    {
+      "image": "i_tod_alarm_steel_g.png",
+      "size": 1024,
+      "sha256": "55114e8cd4ce3fc34e547b9da6948a885c9384ea5554030a938786f5eef20c49"
+    },
+    {
+      "image": "i_tod_alarm_steel_s.png",
+      "size": 1024,
+      "sha256": "1b72355e75fc8878d814596b276eacf2e9bddf1d46d39c9bd67a3cd24584e177"
+    },
+    {
+      "image": "i_tod_alarm_steel_n.png",
+      "size": 1024,
+      "sha256": "e167d34a0d9cf7d414cc8905e8e8f1465c8402220ac2ae03466c8127419c6618"
+    },
+    {
+      "image": "i_tod_alarm_rubber_c.png",
+      "size": 1024,
+      "sha256": "6aee0a9efd3732c9bf9aaa45c59a6bc7e39d9a9fa0c678f2596d5ce973bcc2b6"
+    },
+    {
+      "image": "i_tod_alarm_rubber_g.png",
+      "size": 1024,
+      "sha256": "f3b54495bc98d550b089b2b07caaadd1f9332739bd97967535935759aae3348c"
+    },
+    {
+      "image": "i_tod_alarm_rubber_s.png",
+      "size": 1024,
+      "sha256": "1162a3a7c5e703dfa27129da1a9dc242819898c94d05cb18254bd01f483dbdf9"
+    },
+    {
+      "image": "i_tod_alarm_rubber_n.png",
+      "size": 1024,
+      "sha256": "1c5932fd2d55456190e73a3664bf42ca6d8b74864c36881e519ee98606bde744"
+    },
+    {
+      "image": "i_tod_alarm_reflector_c.png",
+      "size": 1024,
+      "sha256": "06064d19204eb5948f0f87048a759b548087358d3333094ca99b316576ce7e6a"
+    },
+    {
+      "image": "i_tod_alarm_reflector_g.png",
+      "size": 1024,
+      "sha256": "6f20e31ce50c3be0c677c1f7921e47964ed2a7e36000ea1ac4d7c591d5e122a4"
+    },
+    {
+      "image": "i_tod_alarm_reflector_s.png",
+      "size": 1024,
+      "sha256": "6d1777f7373661e1e0b0b51ab5ef857706b6a9f7cb021bbdd868a42212a597be"
+    },
+    {
+      "image": "i_tod_alarm_reflector_n.png",
+      "size": 1024,
+      "sha256": "ab76cef19cf5ec0ef07613923d82da192a6e1ce6da67ebff1fce06e7c65c0f84"
+    },
+    {
+      "image": "i_tod_alarm_lens_c.png",
+      "size": 1024,
+      "sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73"
+    },
+    {
+      "image": "i_tod_alarm_lens_g.png",
+      "size": 1024,
+      "sha256": "727798041721bee7590584f393a79c118b78ffeb5b44da1c30f29e81230071a8"
+    },
+    {
+      "image": "i_tod_alarm_lens_s.png",
+      "size": 1024,
+      "sha256": "2357c7a0c79dae351c571b8132c1fc146f67d5ccd2480d1794c3c5fd92e8a4ca"
+    },
+    {
+      "image": "i_tod_alarm_lens_n.png",
+      "size": 1024,
+      "sha256": "704b9bf9c42e136dee2f5755705d37849f02dfc19f3c4cb70143f91f8b321863"
+    },
+    {
+      "image": "i_tod_alarm_lamp_off_c.png",
+      "size": 512,
+      "sha256": "77c09242819a1c5c57eb91af6418a933213387c0b9c7daa444d3707a116ac4e5"
+    },
+    {
+      "image": "i_tod_alarm_lamp_off_g.png",
+      "size": 512,
+      "sha256": "90b046266c2a9b8644710a7a231487206d1fd78e06ccdfe4cca082bad87b1853"
+    },
+    {
+      "image": "i_tod_alarm_lamp_off_s.png",
+      "size": 512,
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "image": "i_tod_alarm_lamp_off_n.png",
+      "size": 512,
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "image": "i_tod_alarm_lamp_on_c.png",
+      "size": 512,
+      "sha256": "860ffb96b6e7bbdb5da3079a778e83030a9920c0e31c8c7fc46368f241b38669"
+    },
+    {
+      "image": "i_tod_alarm_lamp_on_g.png",
+      "size": 512,
+      "sha256": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75"
+    },
+    {
+      "image": "i_tod_alarm_lamp_on_s.png",
+      "size": 512,
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "image": "i_tod_alarm_lamp_on_n.png",
+      "size": 512,
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    }
+  ],
+  "native_visual_verified": false
+}

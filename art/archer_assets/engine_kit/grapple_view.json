@@ -1,0 +1,13 @@
+{
+  "source_component": "original Apex pathfinder_grapplehook",
+  "housing": "Blender authored wrist mount",
+  "triangles": 2200,
+  "hand_pose": "BO2 arm motion fitted to wrist mount",
+  "runtime": "native BO3 inventory item, not a camera-linked world prop",
+  "animations": [
+    "raise",
+    "idle",
+    "lower"
+  ],
+  "native_tested": false
+}

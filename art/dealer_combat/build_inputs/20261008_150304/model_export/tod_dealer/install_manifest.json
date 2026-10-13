@@ -1,0 +1,506 @@
+{
+ "authored": {
+  "tod_dealer_f_bamf_in": "e86c0baa63c5453e1f5544252f0763ea1b91ebbaad6a579e1680e07c3f75e50e",
+  "tod_dealer_f_bamf_out": "6f472daa410c626bedf8568d1a9b6cb7424b1529c6f00b2d6bc58ba214a2f959",
+  "tod_dealer_f_ee_idle": "65216e469d8655dac423cd455b347bce19c8be111e13deda191fbbd927df5a72",
+  "tod_dealer_f_idle": "8f0ce7a9fef19f27b77e84f0db96657ae4c2f69f71ec215789a50bcbc5de48de",
+  "tod_dealer_f_idle_attack": "c4f980d85578dff519eb251763e71a46b1934551f109b67cf41a08acf0cc8935",
+  "tod_dealer_f_idle_attack_combo": "76ace669a1f8f8e53a61152c42caf2afca4ee6e6706a58e6c9f36c68cf6b4206",
+  "tod_dealer_f_idle_attack_left": "35093519098518d6c7c1951fe96f119ea723cfcf4777623683503499d1683d2b",
+  "tod_dealer_f_idle_attack_right": "38f643be172fc485d96b5b97c26b406f7544f298e379e24502e35c3b6be537bb",
+  "tod_dealer_f_idle_attack_up": "e56b3e911351b86d59c00065d846a88575db9cc4c59f01112962c9bfd0661ac7",
+  "tod_dealer_f_idle_scan_1": "f3925d91e9794b2d379c5c808973176b55d0206a8eaa77705a3e4e9f2b103476",
+  "tod_dealer_f_idle_scan_2": "0f97b14a872f90e919ae68aeeb49be1bbf50cf823f6920232f4cdbe27929573d",
+  "tod_dealer_f_intro": "d25f8f93f0b86ea093b933c44b2bb4b8bfa03f58f24f8e810463baba7b023014",
+  "tod_dealer_f_outtro": "fa905a72fa475ca170144d01edaa7312e1af0a1f5320b6724401a5950b6c5555",
+  "tod_dealer_f_revive_intro": "af2ba4e11c79908cb7fd7a59df8a5a23c510b34fa5ac079b19efec4c0d94f756",
+  "tod_dealer_f_revive_loop": "05c4a763c0e3ddda4743fea10779386d76c096f6476701ce03eae57b75414da9",
+  "tod_dealer_f_revive_outtro": "249cca8899cfe61b945ea84fe55519f8e88041111cc54388fbdaed604c24b586",
+  "tod_dealer_f_run": "add60cb945afc464abe6a8eeaf885a9fa8514c091143ac9945fb01f44b57d5e7",
+  "tod_dealer_f_run_attack": "b56f08bbd3a42d0b153cfa925749fe7eca25a8500f33c26ee466314ee9e7312c",
+  "tod_dealer_f_sprint": "757edb8ed4fd139ddf1acacf2628555db9bc11d9b02f156a3e18be891e2b491b",
+  "tod_dealer_f_sprint_attack": "60ce0fbada3ef0fae2c5ff96cf9839e2dbd2165a3aaeb8822d98d2e7a23df695",
+  "tod_dealer_f_walk": "c5844a5489c41c09be164dfceb7f3938294d06d44763e5c23b1fc8c91ea7b725",
+  "tod_dealer_f_walk_attack": "230ff24608ac45b35f4349e37ceaeb0cac8e18721e10a4503569f1af45c87f55",
+  "tod_dealer_g_cmpn_revive": "a0402c07c8eb2d1f7223d499219a3c4e5c347a9f4ae6f43df726e8c4cbfa8b1d",
+  "tod_dealer_g_ens_attack_v1": "b5988dc4f139caee1847020a9dd7702ed482ca481d8c3d72a84e87efddc3d8e5",
+  "tod_dealer_g_ens_attack_v2": "3dec47df7c3b37c8ccd75978ac77fb0077c2315fef31db1af72a41a0c533a057",
+  "tod_dealer_g_ens_attack_v3": "1e936d6c520c260185e139bdd54e6fcb585fe7164a9d090efdf07e101fe7f037",
+  "tod_dealer_g_ens_attack_v4": "3560e26399b51cc296fac16c288a3d7e6ab657349dc72cfb8735c272ba688e6a",
+  "tod_dealer_g_ens_dth_v1": "cbf06acea9b6c0e1b34b876c1090e67edd626fb6103ffd755e36776656f5f674",
+  "tod_dealer_g_ens_dth_v2": "a9fd803ab0dc6890ba134bfdc81f2fec5664ac6c795631a5a6176c5ea5cea5d6",
+  "tod_dealer_g_ens_dth_v3": "ef8f13be7be6e7c49a5753af19fa938f666449e8e0a2b7a32a5e1643a2f09f70",
+  "tod_dealer_g_ens_dth_v4": "ed743d3104d69c5bcbdcadae9011232da459e2e228fa500493f14afe732a7b3b",
+  "tod_dealer_g_ens_idle": "6b6cb9bdbb261973739bedbe817123a04ea6d542666859629386cbedac750ce9",
+  "tod_dealer_g_ens_run_attack_v1": "de67754835aa9e20fbeaadb20ad70cfc73daef77175672873ba068cd6015cd02",
+  "tod_dealer_g_ens_run_attack_v2": "dff5545bcf36821e0a68b5382cc766bbef8f5c81a412f31421e8fd216dd1cd8a",
+  "tod_dealer_g_ens_run_attack_v3": "334c14d302ae81069c2d229dd82a77451cf3d515dd718b6b088ef97d4a9a315e",
+  "tod_dealer_g_ens_run_attack_v4": "62772cb0370c2f37ec54e54cb727c2eebf82cc88f55139adcfc5b8e005d26101",
+  "tod_dealer_g_ens_run_v1": "93753bfb50f6aadc01104dcafc79b746028b94b1bb4f3399db7b4081226dbc05",
+  "tod_dealer_g_ens_run_v2": "c2b94a35c0d4c0ddfaa5455a8bef758cd9b695c1a4e67bd99a72df28bdd55d6c",
+  "tod_dealer_g_ens_sprint_v1": "ce2768a15ec82640d3b5ae0bdb8249cae6b8f6da97153d5d7275b852fb116bfa",
+  "tod_dealer_g_ens_sprint_v2": "3e83b6fcb197e77906b4a04600e1c7753ceb5019d258c5c53544eaed57489239",
+  "tod_dealer_g_zod_attack_v1": "4f48c7723060c41ee0e8b8af5e1122be33cc92a29c6013b9d539ba94dfa71e1f",
+  "tod_dealer_g_zod_attack_v2": "523ff89a44cb6aa6c89f849eee32d9b0944b45d95f16fc98d9b8e8abf53dc99f",
+  "tod_dealer_g_zod_attack_v4": "3560e26399b51cc296fac16c288a3d7e6ab657349dc72cfb8735c272ba688e6a",
+  "tod_dealer_g_zod_dth_f_v1": "320d7344227d08ec6c280ed4ffd842ab4720512d7fae6c41d3bea676fca92c76",
+  "tod_dealer_g_zod_run_attack_v4": "1709c3ceff82645fa84edb7cf54c406786397ed5dc874eaf11c2620dd55a466e"
+ },
+ "clips": [
+  "tod_dealer_f_bamf_in",
+  "tod_dealer_f_bamf_out",
+  "tod_dealer_f_ee_idle",
+  "tod_dealer_f_idle",
+  "tod_dealer_f_idle_attack",
+  "tod_dealer_f_idle_attack_combo",
+  "tod_dealer_f_idle_attack_left",
+  "tod_dealer_f_idle_attack_right",
+  "tod_dealer_f_idle_attack_up",
+  "tod_dealer_f_idle_scan_1",
+  "tod_dealer_f_idle_scan_2",
+  "tod_dealer_f_intro",
+  "tod_dealer_f_outtro",
+  "tod_dealer_f_revive_intro",
+  "tod_dealer_f_revive_loop",
+  "tod_dealer_f_revive_outtro",
+  "tod_dealer_f_run",
+  "tod_dealer_f_run_attack",
+  "tod_dealer_f_sprint",
+  "tod_dealer_f_sprint_attack",
+  "tod_dealer_f_walk",
+  "tod_dealer_f_walk_attack",
+  "tod_dealer_g_cmpn_revive",
+  "tod_dealer_g_ens_attack_v1",
+  "tod_dealer_g_ens_attack_v2",
+  "tod_dealer_g_ens_attack_v3",
+  "tod_dealer_g_ens_attack_v4",
+  "tod_dealer_g_ens_dth_v1",
+  "tod_dealer_g_ens_dth_v2",
+  "tod_dealer_g_ens_dth_v3",
+  "tod_dealer_g_ens_dth_v4",
+  "tod_dealer_g_ens_idle",
+  "tod_dealer_g_ens_run_attack_v1",
+  "tod_dealer_g_ens_run_attack_v2",
+  "tod_dealer_g_ens_run_attack_v3",
+  "tod_dealer_g_ens_run_attack_v4",
+  "tod_dealer_g_ens_run_v1",
+  "tod_dealer_g_ens_run_v2",
+  "tod_dealer_g_ens_sprint_v1",
+  "tod_dealer_g_ens_sprint_v2",
+  "tod_dealer_g_zod_attack_v1",
+  "tod_dealer_g_zod_attack_v2",
+  "tod_dealer_g_zod_attack_v4",
+  "tod_dealer_g_zod_dth_f_v1",
+  "tod_dealer_g_zod_run_attack_v4"
+ ],
+ "death_start": "dealerDeathStart",
+ "export_manifest_sha256": "0b4caa1c916c766df61f7642a5789661c04d704256e9adcd247591bd0fb94fa2",
+ "files": {
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_cmpn_revive.xanim_bin": "4dfbed90ce75618c0c4be9912bbe37475e29f159b777ae5dbd1dbb7b88078771",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_bamf_in.xanim_bin": "ad727718bcbbf829bc8f4b03dbd0e5a73f1d7c1e971a8b96df44862ff29a2099",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_bamf_out.xanim_bin": "50fddef19a4851a61ea2b66110d274dbe6dc2f779cad9d2fcd3cf760adb0991e",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_ee_idle.xanim_bin": "2f4e09fe3c2bf449993f73d33a6850e8d7581b60be16acd15fdce49f906bf46b",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle.xanim_bin": "d7b3b2c4516c666314041563baeb0070cebfe2ad437a891adfa2f4f90e61c021",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_attack.xanim_bin": "c94a4a4f8f7fd2d044e13f3d414cf37785673a272145237f1bdb937804c59cdb",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_attack_combo.xanim_bin": "d9ce3385f8970d5d3ed7e545d1e9a4081bd87998cea564f10f84fb491f145c3f",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_attack_left.xanim_bin": "3b97f2fbfd661b82a8d94d820b5f61c284cf4ede744c2baccdd4cda192b7d609",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_attack_right.xanim_bin": "99798c498264231c59e461898a4dbcc8f11a8d91187078129f42f719304b427b",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_attack_up.xanim_bin": "b284881bce5f7480cbd0d24e42a4feb9864fe7961cc3313e811edfa9503ddd95",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_scan_1.xanim_bin": "167dfb776580a0720cf58be28e7920452eae91517b7a3b3ec61fbec4f9cab6fa",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_idle_scan_2.xanim_bin": "99cfaf87d4ed61a13cd58367c2040702dfb9aba388036d8ebc1661eb2c4d1343",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_intro.xanim_bin": "3c171ba465a0209cfd6cda8fedc171ebd782fde441d7aeaa3e30110e44bae516",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_outtro.xanim_bin": "f045158625ff9c225b1dc60f2489055f689d5c076e809880c725b8370cf30f9d",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_revive_intro.xanim_bin": "f2059f3e40cedde59be8f15bc1cdb3ac1d673238fb93842701e38c4c1a4c6342",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_revive_loop.xanim_bin": "fe200d7f91e42f6ea461f98201b0854a0853c2eeff005c681e67750bd2aa73e0",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_revive_outtro.xanim_bin": "e50a4a4a1cf2c3f9e0d212faf4f864ec511d90c8f13dcc5658189a0a16aa5a20",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_run.xanim_bin": "cad2bb434911d4813de98c03473ee9238c0239942f4c4cef5214422e04738e8c",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_run_attack.xanim_bin": "00c9599852344e56d2b125200a10ffb289d97204f04daa275381dc135b2afdcf",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_sprint.xanim_bin": "ce511fa201f983b259686b3dea89fd77e37c2445a72f740bb15545b4ce6399dd",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_sprint_attack.xanim_bin": "5f7a7eb7def7feb66c7cdd951538a3da072cd163cbd0309e79b5e40292fabb7f",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_walk.xanim_bin": "c5704694af131ebb010de424c8a947fe011850f74c11633f36c5c4bc6fad1aa2",
+  "art/dealer_boss/clips_src/ai_zm_dlc4_keeper_prtctr_walk_attack.xanim_bin": "fde45063c87cbe54ac462a1632f95de756dd0140423802a3564d411ed363b184",
+  "art/dealer_boss/clips_src/ai_zombie_zod_keeper_attack_v1.xanim_bin": "9609cadc8283700571bd3bb0c08725663996821af0420455f6a070c82afcb50e",
+  "art/dealer_boss/clips_src/ai_zombie_zod_keeper_attack_v2.xanim_bin": "144aec3c91392ceeafabe398d79d13697c6088f569253c1f5bd63b513be144c8",
+  "art/dealer_boss/clips_src/ai_zombie_zod_keeper_attack_v4.xanim_bin": "af2c0c9ea62c4bd0f28bc5340d3d75f01f7cf59d3274a237f4355dd2ef47ab8a",
+  "art/dealer_boss/clips_src/ai_zombie_zod_keeper_dth_f_v1.xanim_bin": "2eb7b337e873ab803c7d61dcde2e3d80b12e8bc00f2364cb90ac2a01d2875d28",
+  "model_export/tod_dealer/_donor_images/i_mtl_wpn_t7_lmg_dingo_decals_c.png": "f3c90897f0db735c8277527652f0ce2b0cf2249b78134f7f40532172058bea6d",
+  "model_export/tod_dealer/_donor_images/i_mtl_wpn_t7_lmg_dingo_decals_n.png": "a2ffd56f12d1f9a67d091b342cf89db8df95a168795a952062a0489feb639630",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_barrel_base_c.png": "9c8d15ec2522d65c1a0a306a2624e1adbfc3c2b6c757505b9ec9bb194a862dff",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_barrel_base_g.png": "4a80475ee85f1540ffdfd52db4600671cec6a20ab33fc28ce4e9e7558f11c016",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_barrel_base_n.png": "e6fe4b3c4a4b1bd944c9aac7f40def3eb6fd403e45fcaffd10eb8441e70b8eef",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_barrel_base_o.png": "c0a0728dc57d003639cd2fb68402c9863ca49184dd7f0b273a7866d309c48be2",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_barrel_base_s.png": "bcb560d80777186359e7d7d1b06d8e6bbee62c6e208c0b154b06d33ccff01aba",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_base_c.png": "dad22c8c7fc0108df8524907962ad458610bd064914f7672728709bb4192ab67",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_base_g.png": "1b00cd172a85e40d1376029c57b3a09aaa57dc1f8451bd452635d6d0a5399da4",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_base_n.png": "cb767bc1d90011f782210d07626570fe091a148994e84e05eeec578214bfa39c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_base_o.png": "cef1a4799de826cf92589de4598a5deb20f433dd6de3f6ff6e0f765ab5ccdcf6",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_base_s.png": "7afb17580e12aa31c816128c73f71fbdd930a2366e53c55d3f5bba6485fe4212",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_bolt_base_c.png": "e8b356ce1aff0cf4a07e8dcd17df44177019b66b97f5a58137cb3d681efa595a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_bolt_base_g.png": "d44529b957a6f6760fba7aac175d8c7208f9e826b053f44f4a5e907e16350d00",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_bolt_base_n.png": "91ef874a75fd1d36f684a7c773c7969c379ebb35ae168c5f38453f7e2f270f30",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_bolt_base_o.png": "5a1d837edcc8403b98c42b3d06f98f2027be0a558c89a049182daf2ff3ae109d",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_bolt_base_s.png": "1c2fe6f0b37602de5d497da0638b2a55ad12b70721ff4fcf722ac3ac90f2dcbf",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_grip_base_c.png": "5608009c54ec1f0ab80f89dc0fbc98957af12715e780e74cea2e98e562f0d39f",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_grip_base_g.png": "08bd770fb9b0c389128f4ea3cfcae876f093abfc044746d6db06977ecd7f6435",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_grip_base_n.png": "1ad5e6e61bd7aabd52955f2deb201986e292bfcf1153523edda02d0fc2acdecc",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_grip_base_o.png": "466f517b9841390f2df6d580c34a43a7046f6be5f528fca1dadb9f9610b31713",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_grip_base_s.png": "d9fb089eb9cdaf426cb140595da30b3e021865aeb95f08b5692d2cf341ed27ec",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_handgrd_base_c.png": "a37b30be362db208aba7259ac6e457199b58a8483d9f152241f221a8bf8bd16e",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_handgrd_base_g.png": "da4e29bf4fd1e3c76014b2a5bff8465637cef4ee33a53bf15b2b763527da5c85",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_handgrd_base_n.png": "8ab62795646e0884316869525aece010d37e914c9fbe773eb54e6b60eddeb5a1",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_handgrd_base_o.png": "0362507007dfb4a7d871539d27e029255cf76bcea28e07c90c8a402a69b731f3",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_handgrd_base_s.png": "5e2fa9b3312495c95c68219b8ae3c4b130a00ef50c8896d0c94809fced59fba2",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_bolt_c.png": "2864518593af416a1942a29a82a87db590eea25771b0c0e042a1d49082c5400d",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_bolt_g.png": "affdada16e5b7e5dc59e8dd1c0b46e23f5a75c123e6f8c315489f6d69f5c43eb",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_bolt_n.png": "e9a65924a7cbfa69e6f2c43472c07b0c0d8c4a2e8fefaab22a02fe1ce70ab401",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_bolt_o.png": "3a0199e2781b02f9ffe15168805fb48593afdaa783dc4e82b6dc5e8be0e97f5a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_bolt_s.png": "e379ae1a43377a855374b417f45b29394aa548d1458abd09f3b8106b2d465d38",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_clamp_c.png": "02f3e0419aad432510ac5ebff471502445cf64251a113f34b596be7ff7cb93a2",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_clamp_g.png": "b053a5f9a28601db0dee497ecb72fc994c5eab08a9a37f5ae9be6dc583e320f3",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_clamp_n.png": "b26496190fc3e267d01ea2d378105ab03bb38d843b2a49342888f416e1b73e38",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_clamp_o.png": "a829067aa267b42018428faf0a74c44988ca9aac24b48551f1ca245a807d2597",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_clamp_s.png": "f71a814121e1623222236760c29b47b1ff74490c2661f0c50b4d6623ccb173f3",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_base_c.png": "b3c5818bcd54e2cd31d67ee63ec4c9df931980374bca8943fa52c22527277533",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_base_g.png": "ca1ba06921091921ada7bbc9aa78c48aea3777df4d29549924981fb2f044d90e",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_base_n.png": "a3b811845e1761f88f627b9a2a9d828aad1cd82dc0f881aba43fea0f355110a4",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_base_o.png": "cd008e76acd0117d18bdc232e6cad6a316f8e37ac8989526bd6771bc61666559",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_base_s.png": "4ca75dcd5e0ed04228bf3d09306bb93f17243fb2543631fb8f8e6b679cf490aa",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_cover_c.png": "84b7d3b34b565dadb4972c9f88699b318ee785252aa7bf431c8c53855e6f3f6d",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_cover_g.png": "e823bbe632a5bad8399ee5f3e60171316d89167827a162089a414c20de6985e1",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_cover_n.png": "b05050217ad1ac50d4567c225acdb14c33af2962110e6cf61ee17306253a354a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_cover_o.png": "3d4c28e80cb67bf19f8e24d21479cd2579f4ce04a99a2ae7c8949ad49d2ed486",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_cover_s.png": "b4fb0f11def806d7a32c0208cf629bbd17bf6c1471beff87e9acfeefafb2d123",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_release_c.png": "fe791fd971fae012519d5bf1227c8d29da915bdd60755979aba8c686204061ee",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_release_g.png": "ab983c7341884cd437173c5846128694175129d9b5b848e81d716b6b53e3ec6c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_release_n.png": "9d2827302c23f2b345f0bca21d31bf1c8b66f558a443ae019a0c1a13b88657de",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_release_o.png": "f9727302e48e9e8bdfd4e0a37cb2d8fd545850300724535585471016081fc38f",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_sleeve_release_s.png": "0f1845868d17e349fec43b35c7feb2585b7e9ec891456c4d6e4f34eda512b980",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_teeth_c.png": "1156cf933ed4e05b49e346e84dab8500c54366ac13258b805f9c92ab96cc8dd1",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_teeth_g.png": "ad0e12a5a8c8f1028bfca2437920e9426621f69cb742f481cbcd1c1887f6f2d2",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_teeth_n.png": "cc258246e7be7380cfae88743678dc09c11e26ec9da3c5a2cc72d3bd4aacda11",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_teeth_o.png": "ad52e9494aa130e150fdf89e498e20002325dd1429e6bb1056a4669fa7f9f52d",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_mag_teeth_s.png": "637014164db1f322daaedd1a902ff317c7dbda5dfa323c86bbd96b2d6c2a2de8",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_muzzle_base_c.png": "c8fac25aa8eae3688d2a45483791adfaf32bea02f97510e7921f943534983136",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_muzzle_base_g.png": "33e77c6fda9ea8540f762453de0c7e509672402a658781a3a714c07875e63c99",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_muzzle_base_n.png": "2358bca8a62543d2255d12cf626b387af9da0b8cff70564db3076bfb4938a469",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_muzzle_base_o.png": "5a0b871a6c8f51d3e33cea4f2913b2f0c9d609aab4b2d14bef55a0bb9dd871e8",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_muzzle_base_s.png": "850b0d2407e48d96e458db965b5ef8fb9a8c1e8514343e6bcd46e31438beb370",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_rail_cover_c.png": "c92b4ea0d4ffb6ec920f78f49b09d44c7b3ce0c855d8778ebfe6e29fbbb98d15",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_rail_cover_g.png": "309518f80f645259f06377884308cc94888896990b656f383609628b10dfdd4c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_rail_cover_n.png": "0f5adf0b3ef8513afc49be8b5056235a3d81ae4ba6e6b18f2ce741a2688b016a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_rail_cover_o.png": "d9171f6858981811f1694ffbc6eeab1f83502a7d5b93251e54bc751c4dad485e",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_rail_cover_s.png": "f39c0881fbed6dddcf8241dd580fa41a534c9d3e9671ea078afce21b9e612dac",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_front_c.png": "c10269354af8e2e360ab973b104f2bbc54a84f206c02d45ba881c1725b83aeeb",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_front_g.png": "0d1eda228434d17b9adc27d1f77ec98d6c9a7bb2b8ccce8a23b4efbced8e2c68",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_front_n.png": "3915ef789f0a20a62c1122ecffb59fa499fb71aaf6eb69670d1fc8af20fe64af",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_front_o.png": "cf4658fdb6c45ff6e09f4fe345b8cf97e44e130a2e1beece1d95c700e08d43e5",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_front_s.png": "5d59eb59232a35baac67ada690795123aa4564086e9eba353f22f1dda14e9e22",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear1_c.png": "0da1f8cb58b30809ed3d89ed348921aa438ee632dfa4a91becbd6c00e41936cc",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear1_g.png": "1adc78b8d56d993c94043f8a661eb5a38672e183ca5d09b246bc1af324246a1c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear1_n.png": "a0c07447a12b76765187f71500b418280d0e33cb957740362b496ffa2f06bf49",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear1_o.png": "f9b3600b591d1c7780ac3e385a162bb9acb633c117eb1d680fb820ea584c574b",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear1_s.png": "190b60e8f92522836c6c0f66acba6f35d4c114964322d2903aac476da846b1a9",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear2_c.png": "2cfbc2872fc8f47e7d94069b13dbe595e3bc3724c43863f901eb0ec3cfbc31fc",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear2_g.png": "ee0fd655bfc6722b6a24b2bc39508fef11bc22127627083c89e113c9ef14d44e",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear2_n.png": "56b5ed960c92a15912db179136016e2389cdddce7a995ea3bb07d0c3a2a55451",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear2_o.png": "c5e8be9eea9491622781de12b3319f3e2582b5399f3ce2b089f1f55631f4f7f7",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_sight_rear2_s.png": "579570adde8f705cd265882fc46f43ad7846a7dc9dc53dff47ceb26ff03cb786",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_stock_base_c.png": "9b66f810b6ff89bc7588fdf3393c0ce15aa1e0f08c7f77aea5da379c3dfa8de4",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_stock_base_g.png": "a13e088e965c9a417373582023e9661fd5f08c4c7b2949c86c0861ba8352f904",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_stock_base_n.png": "2d07214c48886f79119d120146df9ec3c8b209cbc603b6fb6555e10d0cfef613",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_stock_base_o.png": "fb1f433b8c216a04c565374b07d53fab935acd7091503250f324b74fef9298af",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_stock_base_s.png": "a1a08259ebbfa1c33518ed8e2e075ced726046b18e6e1527bb1a963d9eb883d1",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_trigger_base_c.png": "5d57a831cd040ac9e7f07397213eaf386b8eb64d018d213b1d2691ef8a4d9eb5",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_trigger_base_g.png": "b437650c559c0a2ac15fb10af7123a4f71927267572ab40ce9a554be2efbf022",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_trigger_base_n.png": "dd3f350193b1ff86252f3ca77f22cb8be7db1d875e63cac6427e4c4100cfbcbe",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_trigger_base_o.png": "8ea943e867e9b39fe7ede1b7ebd30d8ae394aac3fd066a23b972f1d2c633f3c7",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_lmg_dingo_trigger_base_s.png": "d2c5a8e972000c7d22b8ec40d0bbdaba6ea6c8cfd1359787b64c04d835da55a1",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_body_c.png": "2f67eb1a59461f8d68d6cca40707ddcd5efdbd67f2ad27cbe77ad814a2f87e20",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_body_g.png": "4c7c4795379fb995dd5d2e090a9b84a679b85e05c6243aa43e5f50ca2eb5117b",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_body_n.png": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_body_o.png": "44b7043edd7a4ef72d5c6534455864c9b75406e87c3fcb1321a669bbf817883d",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_body_s.png": "5acafa320b5f12b7facdc2361dd3e9cb5574ce404a0d8c0f6b08a190d7615ef6",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_glass_c.png": "97f8167bd14c7a5ed11f218675f0a852b36266f6ca7ca83fb03f729ef7869f33",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_glass_e.png": "2ccb26c9a3e6ef4c32e4e3bdf52ad37c4dcaa032f6d9ce0b46f002e143e1961a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_glass_n.png": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_metal_c.png": "721f736b17f9573d6eda766b97f745958580b55adc4a38aa144ad8a28c752483",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_metal_g.png": "1d423a0d470e38e93837f62e4ea28f47c3695139bf030b770ac6c13b1fd283b0",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_metal_n.png": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_metal_o.png": "8a451286e1e46ca02e0115f30beed4de37d726e1cc8c1a860d3bd0eb3769edfb",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_metal_s.png": "c99798fa4269b41c9a18a1eef8feb818fe1dd0d353642947d4c054a860299a24",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_pipe_c.png": "3d83547fde31d5845b4ebece4369ff536b503b6d82efb493f1fcc77e5f0fe887",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_pipe_g.png": "cb0684a4e1038dbb2a45639f99039e43dedf483ea1ed91a0beb9668d7d505806",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_pipe_n.png": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_pipe_o.png": "d6e3fe94f90de7c2b6f9a8315dc6749864598087c9a55b88b9f8f9149333786a",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_pipe_s.png": "bcf222a95b9f2e26dab80afcfe69b549fbd9697774e46e5c1763b7ee6e312968",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_power.png": "146510df4fb58a621288a89f5eda0cf8ccfd9e9e56cbb0710cc372d66afc1b29",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_power_c.png": "b4785dc1f0d9cc827798bab5e22524cbe2ddaf7769346fc963c6363ee9685c10",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_power_n.png": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_wood_c.png": "290d88ee238dceeafe590fbade11ef4a72b1a82eaf8be8869946950ac75bed71",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_wood_g.png": "4981aa05490f6b80ff5bef51770229071fbf5e3f97c807b01da4842a9644ea7c",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_wood_n.png": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_wood_o.png": "ce95f040343b31aa78dcbc0e55b29e7cb208627aa7be3208fab3ec6a2ca09cb4",
+  "model_export/tod_dealer/_donor_images/i_wpn_t7_zmb_dg2_wood_s.png": "ef4353154f7c9cf09737546868d21ec8bc388ec494727becf13bbacd8d13a8d1",
+  "model_export/tod_dealer/wpn_t7_lmg_dingo_world_LOD0.XMODEL_BIN": "3e251ea46e263fed1a0fb75252ef42eadf603002e213d63a878b3f9bc64f496c",
+  "model_export/tod_dealer/wpn_t7_zmb_dg2_world_LOD0.XMODEL_BIN": "da9d2f122f75bca1dc4542fe400191d6348bb2719eadc1e09c0a194fb7cae917"
+ },
+ "lod0_triangles": {
+  "tod_dealer": 99101,
+  "tod_dealer_cracked": 100199,
+  "tod_dealer_scythe": 1520
+ },
+ "master_sha256": "5debd912203ecd0775803e0c5f3f54702f912ee90c432d22271968be679d9395",
+ "overrides": {
+  "anim_zombie_death_front": [
+   "tod_dealer_g_ens_dth_v1",
+   "tod_dealer_g_ens_dth_v2",
+   "tod_dealer_g_ens_dth_v3",
+   "tod_dealer_g_ens_dth_v4"
+  ],
+  "anim_zombie_keeper_idle": [
+   "tod_dealer_f_idle",
+   "tod_dealer_f_idle_scan_1",
+   "tod_dealer_f_idle_scan_2"
+  ],
+  "anim_zombie_melee_run_ad": [
+   "tod_dealer_g_ens_run_attack_v1",
+   "tod_dealer_g_ens_run_attack_v2",
+   "tod_dealer_g_ens_run_attack_v3",
+   "tod_dealer_g_ens_run_attack_v4",
+   "tod_dealer_g_zod_run_attack_v4"
+  ],
+  "anim_zombie_melee_run_au": [
+   "tod_dealer_f_idle_attack_left",
+   "tod_dealer_f_idle_attack_right"
+  ],
+  "anim_zombie_melee_walk_ad": [
+   "tod_dealer_g_ens_attack_v1",
+   "tod_dealer_g_ens_attack_v2",
+   "tod_dealer_g_ens_attack_v3",
+   "tod_dealer_g_ens_attack_v4",
+   "tod_dealer_g_zod_attack_v1",
+   "tod_dealer_g_zod_attack_v2",
+   "tod_dealer_g_zod_attack_v4"
+  ],
+  "anim_zombie_melee_walk_au": [
+   "tod_dealer_f_idle_attack_left",
+   "tod_dealer_f_idle_attack_right"
+  ],
+  "anim_zombie_run_ad_v0": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v0_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v1": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v1_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v2": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v2_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v3": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_ad_v3_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_run_au_v0": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v0_pain_chest_f": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v1": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v1_pain_chest_f": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v2": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v2_pain_chest_f": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v3": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_run_au_v3_pain_chest_f": [
+   "tod_dealer_f_run"
+  ],
+  "anim_zombie_sprint_ad_v0": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v0_pain_chest_f": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v1": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v1_pain_chest_f": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v2": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v2_pain_chest_f": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v3": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_ad_v3_pain_chest_f": [
+   "tod_dealer_g_ens_sprint_v1"
+  ],
+  "anim_zombie_sprint_au_v0": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v0_pain_chest_f": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v1": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v1_pain_chest_f": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v2": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v2_pain_chest_f": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v3": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_sprint_au_v3_pain_chest_f": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_super_sprint": [
+   "tod_dealer_f_sprint"
+  ],
+  "anim_zombie_walk_ad_v0": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v0_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v1": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v1_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v2": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v2_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v3": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_ad_v3_pain_chest_f": [
+   "tod_dealer_g_ens_run_v1"
+  ],
+  "anim_zombie_walk_au_v0": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v0_pain_chest_f": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v1": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v1_pain_chest_f": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v2": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v2_pain_chest_f": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v3": [
+   "tod_dealer_f_walk"
+  ],
+  "anim_zombie_walk_au_v3_pain_chest_f": [
+   "tod_dealer_f_walk"
+  ]
+ },
+ "pack": "T7 Assets V2.8.rar",
+ "script_aliases": {
+  "anim_dealer_bamf_in": "tod_dealer_f_bamf_in",
+  "anim_dealer_bamf_out": "tod_dealer_f_bamf_out",
+  "anim_dealer_cast_combo": "tod_dealer_f_idle_attack_combo",
+  "anim_dealer_cast_left": "tod_dealer_f_idle_attack_left",
+  "anim_dealer_cast_right": "tod_dealer_f_idle_attack_right",
+  "anim_dealer_cast_up": "tod_dealer_f_idle_attack_up",
+  "anim_dealer_channel_intro": "tod_dealer_f_revive_intro",
+  "anim_dealer_channel_loop": "tod_dealer_f_revive_loop",
+  "anim_dealer_channel_outtro": "tod_dealer_f_revive_outtro",
+  "anim_dealer_death_front": "tod_dealer_g_zod_dth_f_v1",
+  "anim_dealer_ee_idle": "tod_dealer_f_ee_idle",
+  "anim_dealer_idle_attack": "tod_dealer_f_idle_attack",
+  "anim_dealer_idle_ground": "tod_dealer_g_ens_idle",
+  "anim_dealer_intro": "tod_dealer_f_intro",
+  "anim_dealer_kneel": "tod_dealer_g_cmpn_revive",
+  "anim_dealer_outtro": "tod_dealer_f_outtro",
+  "anim_dealer_run_attack": "tod_dealer_f_run_attack",
+  "anim_dealer_sprint_attack": "tod_dealer_f_sprint_attack",
+  "anim_dealer_super_sprint_ground": "tod_dealer_g_ens_sprint_v1",
+  "anim_dealer_walk_attack": "tod_dealer_f_walk_attack",
+  "anim_dealer_weapon_burst": "tod_dealer_c_burst",
+  "anim_dealer_weapon_shock": "tod_dealer_c_shock"
+ },
+ "source_clips": [
+  "ai_zm_dlc4_keeper_prtctr_walk",
+  "ai_zm_dlc4_keeper_prtctr_run",
+  "ai_zm_dlc4_keeper_prtctr_sprint",
+  "ai_zm_dlc4_keeper_prtctr_idle",
+  "ai_zm_dlc4_keeper_prtctr_idle_scan_1",
+  "ai_zm_dlc4_keeper_prtctr_idle_scan_2",
+  "ai_zm_dlc4_keeper_prtctr_idle_attack",
+  "ai_zm_dlc4_keeper_prtctr_idle_attack_combo",
+  "ai_zm_dlc4_keeper_prtctr_idle_attack_left",
+  "ai_zm_dlc4_keeper_prtctr_idle_attack_right",
+  "ai_zm_dlc4_keeper_prtctr_idle_attack_up",
+  "ai_zm_dlc4_keeper_prtctr_walk_attack",
+  "ai_zm_dlc4_keeper_prtctr_run_attack",
+  "ai_zm_dlc4_keeper_prtctr_sprint_attack",
+  "ai_zm_dlc4_keeper_prtctr_bamf_in",
+  "ai_zm_dlc4_keeper_prtctr_bamf_out",
+  "ai_zm_dlc4_keeper_prtctr_intro",
+  "ai_zm_dlc4_keeper_prtctr_outtro",
+  "ai_zm_dlc4_keeper_prtctr_revive_intro",
+  "ai_zm_dlc4_keeper_prtctr_revive_loop",
+  "ai_zm_dlc4_keeper_prtctr_revive_outtro",
+  "ai_zm_dlc4_keeper_prtctr_ee_idle",
+  "ai_zm_dlc4_keeper_cmpn_revive",
+  "ai_zombie_zod_keeper_attack_v1",
+  "ai_zombie_zod_keeper_attack_v2",
+  "ai_zombie_zod_keeper_attack_v4",
+  "ai_zombie_zod_keeper_dth_f_v1"
+ ],
+ "states": {
+  "cracked": "tod_dealer_cracked",
+  "masked": "tod_dealer"
+ },
+ "texts": {
+  "animtables/tod_dealer.ai_am": "0f0ba218accc58d6149741e1f2125ee9012c1da556c690c6438179adcd3b2969",
+  "animtables/tod_dealer.ai_ast": "ca517feacc65c5433219722d3686ff91cd922cbc3a529d7ca44e0d64deda7bda",
+  "share/raw/animstatemachines/tod_dealer.ai_asm": "22ec0a85f31e83ecb4f8a0d004d7cb4a7cf280f662fac8af4192b38e465f47bf",
+  "share/raw/behavior/tod_dealer.ai_bt": "ab18d553f3b2d3d2ea95f10e58a457ed0f88f9470f836e57b704716c72b8ecb7",
+  "source_data/tod_dealer.gdt": "1d694788ae548a0c88763f627c55c1829815fe1db14b2108423e829caec90824"
+ },
+ "weapon_models": {
+  "dg2": "tod_dealer_dg2",
+  "dingo": "tod_dealer_lmg"
+ }
+}

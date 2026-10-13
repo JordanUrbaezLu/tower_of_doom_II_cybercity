@@ -1,0 +1,2731 @@
+{
+  "source": "C:\\Users\\jorda\\Downloads\\Hellbound_Gold_Battle_Sword\\03_gold_battle_sword.blend",
+  "source_sha256": "fd7de471aede48cdc671a66eb55030dc33cd45b67662accf6477d8e0de4746fe",
+  "objects": [
+    {
+      "name": "Blade \u2022 forged double edge",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.156000018119812,
+        0.012000001035630703,
+        0.9696000814437866
+      ],
+      "materials": [
+        "Blade edge",
+        "Blade dark inset"
+      ]
+    },
+    {
+      "name": "Guard \u2022 left swept quillon",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1434561014175415,
+        0.013162931427359581,
+        0.09870988130569458
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "Guard \u2022 right swept quillon",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.1434561014175415,
+        0.013162931427359581,
+        0.09870988130569458
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "Guard \u2022 central jewel throne",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.04156683385372162,
+        0.01899999938905239,
+        0.04926532506942749
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "Grip \u2022 leather core",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03200000151991844,
+        0.03200000151991844,
+        0.2279999852180481
+      ],
+      "materials": [
+        "Black leather"
+      ]
+    },
+    {
+      "name": "Grip \u2022 lower ferrule",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03720000013709068,
+        0.03720000013709068,
+        0.014999985694885254
+      ],
+      "materials": [
+        "Antique gold",
+        "Gold dark recess"
+      ]
+    },
+    {
+      "name": "Grip \u2022 upper ferrule",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.033399999141693115,
+        0.033399999141693115,
+        0.023000001907348633
+      ],
+      "materials": [
+        "Antique gold",
+        "Gold dark recess"
+      ]
+    },
+    {
+      "name": "Pommel \u2022 crown silhouette",
+      "type": "MESH",
+      "collections": [
+        "01 Structure"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.07329785078763962,
+        0.01899999938905239,
+        0.07423794269561768
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "REFERENCE \u2022 GoldBattleSword.jpg",
+      "type": "EMPTY",
+      "collections": [
+        "99 Reference"
+      ],
+      "location": [
+        0.0,
+        0.04500000178813934,
+        0.5695000290870667
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Front reference",
+      "type": "CAMERA",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.0,
+        -3.0,
+        0.6039999723434448
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Three quarter",
+      "type": "CAMERA",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.8500000238418579,
+        -2.0,
+        0.7599999904632568
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Hilt detail",
+      "type": "CAMERA",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.07999999821186066,
+        -2.0,
+        1.0199999809265137
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Cool broad key",
+      "type": "LIGHT",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        -0.44999998807907104,
+        -0.6000000238418579,
+        1.2999999523162842
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Warm gold fill",
+      "type": "LIGHT",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.5,
+        -0.44999998807907104,
+        0.6000000238418579
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Edge strip",
+      "type": "LIGHT",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.15000000596046448,
+        0.44999998807907104,
+        1.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Lower blade softbox",
+      "type": "LIGHT",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        -0.25,
+        -0.6000000238418579,
+        0.25
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Back reference",
+      "type": "CAMERA",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.0,
+        3.0,
+        0.6039999723434448
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Physical detail",
+      "type": "CAMERA",
+      "collections": [
+        "90 Studio"
+      ],
+      "location": [
+        0.20000000298023224,
+        -0.550000011920929,
+        1.0399999618530273
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    },
+    {
+      "name": "Quillon long inset ridge L",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.08340296894311905,
+        0.001600000075995922,
+        0.014466047286987305
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon long inset ridge R",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.08340296894311905,
+        0.001600000075995922,
+        0.014466047286987305
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Gem bezel outer L",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03884464129805565,
+        0.0028000008314847946,
+        0.04566299915313721
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Gem bezel inner L",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.027443304657936096,
+        0.001499999314546585,
+        0.03242659568786621
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel \u2022 silver crown inset",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0635305643081665,
+        0.002900000661611557,
+        0.05857062339782715
+      ],
+      "materials": [
+        "Blade edge"
+      ]
+    },
+    {
+      "name": "Quillon long inset ridge L \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.08340296894311905,
+        0.001600000075995922,
+        0.014466047286987305
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon long inset ridge R \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.08340296894311905,
+        0.001600000075995922,
+        0.014466047286987305
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Gem bezel outer L \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03884464129805565,
+        0.0028000008314847946,
+        0.04566299915313721
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Gem bezel inner L \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.027443304657936096,
+        0.001499999314546585,
+        0.03242659568786621
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel \u2022 silver crown inset \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0635305643081665,
+        0.002900000661611557,
+        0.05857062339782715
+      ],
+      "materials": [
+        "Blade edge"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 01 \u65ac",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03674723207950592,
+        0.002520001493394375,
+        0.03704196214675903
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 01 \u65ac \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03674723207950592,
+        0.002520001493394375,
+        0.03704196214675903
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 02 \u5996",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.037005484104156494,
+        0.002520001493394375,
+        0.036755144596099854
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 02 \u5996 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.037005484104156494,
+        0.002520001493394375,
+        0.036755144596099854
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 03 \u9664",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.036860641092061996,
+        0.002520001493394375,
+        0.03765946626663208
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 03 \u9664 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.036860641092061996,
+        0.002520001493394375,
+        0.03765946626663208
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 04 \u9b54",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03702478110790253,
+        0.002520001493394375,
+        0.03701680898666382
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 04 \u9b54 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03702478110790253,
+        0.002520001493394375,
+        0.03701680898666382
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 05 \u795e",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03675367683172226,
+        0.002520001493394375,
+        0.03828120231628418
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 05 \u795e \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03675367683172226,
+        0.002520001493394375,
+        0.03828120231628418
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 06 \u5a01",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03681965917348862,
+        0.002520001493394375,
+        0.036891281604766846
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 06 \u5a01 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03681965917348862,
+        0.002520001493394375,
+        0.036891281604766846
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 07 \u7121",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03687485307455063,
+        0.002520001493394375,
+        0.037606507539749146
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 07 \u7121 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03687485307455063,
+        0.002520001493394375,
+        0.037606507539749146
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 08 \u96d9",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.037057653069496155,
+        0.002520001493394375,
+        0.03670269250869751
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Chinese blade \u2022 08 \u96d9 \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.037057653069496155,
+        0.002520001493394375,
+        0.03670269250869751
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left diamond",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.006396621465682983,
+        0.001249999739229679,
+        0.010079503059387207
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left diamond \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.006396621465682983,
+        0.001249999739229679,
+        0.010079503059387207
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left upper chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.001700000837445259,
+        0.00837796926498413
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left upper chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.001700000837445259,
+        0.00837796926498413
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left lower chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.008378028869628906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple left lower chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.008378028869628906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right diamond",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.006396621465682983,
+        0.001249999739229679,
+        0.010079503059387207
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right diamond \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.006396621465682983,
+        0.001249999739229679,
+        0.010079503059387207
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right upper chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.00837796926498413
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right upper chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.00837796926498413
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right lower chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.008378028869628906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple right lower chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01605665683746338,
+        0.0017000003717839718,
+        0.008378028869628906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple throat diamond",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.015700001269578934,
+        0.0016167964786291122,
+        0.019700050354003906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Hilt simple throat diamond \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.015700001269578934,
+        0.0016167964786291122,
+        0.019700050354003906
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple diamond",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03139200061559677,
+        0.0025920001789927483,
+        0.03619199991226196
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple diamond \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03139200061559677,
+        0.0025920001789927483,
+        0.03619199991226196
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple left chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01139511913061142,
+        0.002015999983996153,
+        0.025259435176849365
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple left chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01139511913061142,
+        0.002015999983996153,
+        0.025259435176849365
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple right chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01139511913061142,
+        0.002015999983996153,
+        0.025259435176849365
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade crown simple right chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.01139511913061142,
+        0.002015999983996153,
+        0.025259435176849365
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple crown diamond",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.009825872257351875,
+        0.001249999739229679,
+        0.01768636703491211
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple crown diamond \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.009825872257351875,
+        0.001249999739229679,
+        0.01768636703491211
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple left chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.008353461511433125,
+        0.0016000010073184967,
+        0.015086174011230469
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple left chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.008353461511433125,
+        0.0016000010073184967,
+        0.015086174011230469
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple right chevron",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.008353461511433125,
+        0.0016000010073184967,
+        0.015086174011230469
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple right chevron \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.008353461511433125,
+        0.0016000010073184967,
+        0.015086174011230469
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple lower diamond",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.015700001269578934,
+        0.0016167964786291122,
+        0.02369987964630127
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel simple lower diamond \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.015700001269578934,
+        0.0016167964786291122,
+        0.02369987964630127
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Gem setting \u2022 solid tapered seat",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03588685765862465,
+        0.008499999530613422,
+        0.042827725410461426
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "Gem setting \u2022 solid tapered seat \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03588685765862465,
+        0.008499999530613422,
+        0.042827725410461426
+      ],
+      "materials": [
+        "Antique gold"
+      ]
+    },
+    {
+      "name": "Blade gold border fitted L",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.044377926737070084,
+        0.004206658806651831,
+        0.9230599403381348
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade gold border fitted L \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.044377926737070084,
+        0.004206658806651831,
+        0.9230599403381348
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade gold border fitted R",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.044377926737070084,
+        0.004206658806651831,
+        0.9230599403381348
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Blade gold border fitted R \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.044377926737070084,
+        0.004206658806651831,
+        0.9230599403381348
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon fitted border left",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.11581459641456604,
+        0.0010000001639127731,
+        0.0949583649635315
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon fitted border left \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.11581459641456604,
+        0.0010000001639127731,
+        0.0949583649635315
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon fitted border right",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.11581459641456604,
+        0.0010000001639127731,
+        0.0949583649635315
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Quillon fitted border right \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.11581459641456604,
+        0.0010000001639127731,
+        0.0949583649635315
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel fitted silver border",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.06400652974843979,
+        0.0010999999940395355,
+        0.05916118621826172
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Pommel fitted silver border \u2022 reverse",
+      "type": "CURVE",
+      "collections": [
+        "02 Ornament"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.06400652974843979,
+        0.0010999999940395355,
+        0.05916118621826172
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 00",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03460000082850456,
+        0.03460000082850456,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 01",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03460000082850456,
+        0.03460000082850456,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 02",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03460000082850456,
+        0.03460000082850456,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 03",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03460000082850456,
+        0.03460000082850456,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 04",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03759999945759773,
+        0.03759999945759773,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 05",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03759999945759773,
+        0.03759999945759773,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Ferrule \u2022 fine gold ring 06",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03759999945759773,
+        0.03759999945759773,
+        0.001999974250793457
+      ],
+      "materials": [
+        "Gold raised engraving"
+      ]
+    },
+    {
+      "name": "Grip \u2022 cross wrap -1",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03447054326534271,
+        0.03462373465299606,
+        0.21700149774551392
+      ],
+      "materials": [
+        "Polished leather bands"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03449638932943344,
+        0.034678082913160324,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.001",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03454979136586189,
+        0.034461311995983124,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 cross wrap -1.001",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03447054326534271,
+        0.03462373465299606,
+        0.21700149774551392
+      ],
+      "materials": [
+        "Polished leather bands"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.002",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03449638932943344,
+        0.034678082913160324,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.003",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03454979136586189,
+        0.034461311995983124,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 cross wrap 1",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03447054326534271,
+        0.03462373465299606,
+        0.21700149774551392
+      ],
+      "materials": [
+        "Polished leather bands"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.004",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.034549787640571594,
+        0.034461311995983124,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.005",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03449638932943344,
+        0.034678082913160324,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 cross wrap 1.001",
+      "type": "MESH",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03447054326534271,
+        0.03462373465299606,
+        0.21700149774551392
+      ],
+      "materials": [
+        "Polished leather bands"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.006",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03454979136586189,
+        0.034461311995983124,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Grip \u2022 saddle stitched border.007",
+      "type": "CURVE",
+      "collections": [
+        "03 Grip detail"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.03449638932943344,
+        0.034678082913160324,
+        0.21735692024230957
+      ],
+      "materials": [
+        "Leather wrap edge"
+      ]
+    },
+    {
+      "name": "Gem \u2022 hand cut sapphire brilliant",
+      "type": "MESH",
+      "collections": [
+        "04 Jewel"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.024000000208616257,
+        0.006799999624490738,
+        0.02899998426437378
+      ],
+      "materials": [
+        "Sapphire facet deep",
+        "Sapphire facet blue",
+        "Sapphire facet cyan",
+        "Sapphire facet violet"
+      ]
+    },
+    {
+      "name": "Gem \u2022 hand cut sapphire brilliant \u2022 reverse",
+      "type": "MESH",
+      "collections": [
+        "04 Jewel"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.024000000208616257,
+        0.006799999624490738,
+        0.02899998426437378
+      ],
+      "materials": [
+        "Sapphire facet deep",
+        "Sapphire facet blue",
+        "Sapphire facet cyan",
+        "Sapphire facet violet"
+      ]
+    },
+    {
+      "name": "Citadel attachment guide",
+      "type": "EMPTY",
+      "collections": [
+        "98 Attachment guide"
+      ],
+      "location": [
+        0.0,
+        0.0,
+        0.9340000152587891
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": []
+    }
+  ],
+  "materials": [
+    {
+      "name": "Antique gold",
+      "base": [
+        0.5799999833106995,
+        0.3100000023841858,
+        0.08500000089406967,
+        1.0
+      ],
+      "metal": 0.9599999785423279,
+      "rough": 0.3100000023841858,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Antique gold.001",
+      "base": [
+        0.5199999809265137,
+        0.20499999821186066,
+        0.04500000178813934,
+        1.0
+      ],
+      "metal": 0.9399999976158142,
+      "rough": 0.3449999988079071,
+      "emission": 0.10000000149011612,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Black leather",
+      "base": [
+        0.010999999940395355,
+        0.014000000432133675,
+        0.017000000923871994,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5799999833106995,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Black leather.001",
+      "base": [
+        0.008999999612569809,
+        0.014000000432133675,
+        0.017999999225139618,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5899999737739563,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Blade dark inset",
+      "base": [
+        0.02500000037252903,
+        0.03700000047683716,
+        0.0430000014603138,
+        1.0
+      ],
+      "metal": 0.9399999976158142,
+      "rough": 0.3149999976158142,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Blade dark inset.001",
+      "base": [
+        0.01600000075995922,
+        0.03500000014901161,
+        0.0430000014603138,
+        1.0
+      ],
+      "metal": 0.8799999952316284,
+      "rough": 0.3700000047683716,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Blade edge",
+      "base": [
+        0.41999998688697815,
+        0.47999998927116394,
+        0.5299999713897705,
+        1.0
+      ],
+      "metal": 0.9800000190734863,
+      "rough": 0.25,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Blade edge.001",
+      "base": [
+        0.28999999165534973,
+        0.38999998569488525,
+        0.4399999976158142,
+        1.0
+      ],
+      "metal": 0.9700000286102295,
+      "rough": 0.2849999964237213,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Gold dark recess",
+      "base": [
+        0.0949999988079071,
+        0.039000000804662704,
+        0.012000000104308128,
+        1.0
+      ],
+      "metal": 0.8199999928474426,
+      "rough": 0.41499999165534973,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Gold raised engraving",
+      "base": [
+        0.7699999809265137,
+        0.47999998927116394,
+        0.15000000596046448,
+        1.0
+      ],
+      "metal": 0.9599999785423279,
+      "rough": 0.2150000035762787,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Gold raised engraving.001",
+      "base": [
+        0.8199999928474426,
+        0.41999998688697815,
+        0.10999999940395355,
+        1.0
+      ],
+      "metal": 0.8999999761581421,
+      "rough": 0.25,
+      "emission": 0.41999998688697815,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "hb_crew_material_1c4468a98ec503c3",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "hb_crew_material_1d5f42dd5b2e8127",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Alpha"
+      ]
+    },
+    {
+      "name": "hb_crew_material_26aecaf61b8bb022",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "hb_crew_material_3457a91be984607",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "hb_crew_material_3901795bbfdee8a0",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "hb_crew_material_5b681cecb2487ae3",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "hb_crew_material_d89d05f4c15210",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "Leather wrap edge",
+      "base": [
+        0.0560000017285347,
+        0.028999999165534973,
+        0.014000000432133675,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5049999952316284,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Leather wrap edge.001",
+      "base": [
+        0.06499999761581421,
+        0.029999999329447746,
+        0.014999999664723873,
+        1.0
+      ],
+      "metal": 0.05000000074505806,
+      "rough": 0.49000000953674316,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "mtl_hb_twin_knives",
+      "base": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.6499999761581421,
+      "emission": 0.0,
+      "linked": [
+        "Base Color"
+      ]
+    },
+    {
+      "name": "Polished leather bands",
+      "base": [
+        0.017999999225139618,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.4300000071525574,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Polished leather bands.001",
+      "base": [
+        0.014000000432133675,
+        0.020999999716877937,
+        0.026000000536441803,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.45500001311302185,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Sapphire facet blue",
+      "base": [
+        0.006000000052154064,
+        0.06499999761581421,
+        0.3400000035762787,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.44999998807907104,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet blue.001",
+      "base": [
+        0.006000000052154064,
+        0.06499999761581421,
+        0.3400000035762787,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.44999998807907104,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet cyan",
+      "base": [
+        0.014000000432133675,
+        0.1599999964237213,
+        0.6499999761581421,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.699999988079071,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet cyan.001",
+      "base": [
+        0.014000000432133675,
+        0.1599999964237213,
+        0.6499999761581421,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.699999988079071,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet deep",
+      "base": [
+        0.003000000026077032,
+        0.017999999225139618,
+        0.11999999731779099,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.25,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet deep.001",
+      "base": [
+        0.003000000026077032,
+        0.017999999225139618,
+        0.11999999731779099,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.25,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet violet",
+      "base": [
+        0.012000000104308128,
+        0.03500000014901161,
+        0.23000000417232513,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.3499999940395355,
+      "linked": []
+    },
+    {
+      "name": "Sapphire facet violet.001",
+      "base": [
+        0.012000000104308128,
+        0.03500000014901161,
+        0.23000000417232513,
+        1.0
+      ],
+      "metal": 0.3499999940395355,
+      "rough": 0.14000000059604645,
+      "emission": 0.3499999940395355,
+      "linked": []
+    },
+    {
+      "name": "Uncharged | Antique gold",
+      "base": [
+        0.5799999833106995,
+        0.3100000023841858,
+        0.08500000089406967,
+        1.0
+      ],
+      "metal": 0.9599999785423279,
+      "rough": 0.3100000023841858,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Black leather",
+      "base": [
+        0.010999999940395355,
+        0.014000000432133675,
+        0.017000000923871994,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5799999833106995,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Blade dark inset",
+      "base": [
+        0.02500000037252903,
+        0.03700000047683716,
+        0.0430000014603138,
+        1.0
+      ],
+      "metal": 0.9399999976158142,
+      "rough": 0.3149999976158142,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Blade edge",
+      "base": [
+        0.41999998688697815,
+        0.47999998927116394,
+        0.5299999713897705,
+        1.0
+      ],
+      "metal": 0.9800000190734863,
+      "rough": 0.25,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Gold dark recess",
+      "base": [
+        0.0949999988079071,
+        0.039000000804662704,
+        0.012000000104308128,
+        1.0
+      ],
+      "metal": 0.8199999928474426,
+      "rough": 0.41499999165534973,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Gold raised engraving",
+      "base": [
+        0.7699999809265137,
+        0.47999998927116394,
+        0.15000000596046448,
+        1.0
+      ],
+      "metal": 0.9599999785423279,
+      "rough": 0.2150000035762787,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Leather wrap edge",
+      "base": [
+        0.0560000017285347,
+        0.028999999165534973,
+        0.014000000432133675,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.5049999952316284,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    },
+    {
+      "name": "Uncharged | Polished leather bands",
+      "base": [
+        0.017999999225139618,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "metal": 0.0,
+      "rough": 0.4300000071525574,
+      "emission": 0.0,
+      "linked": [
+        "Base Color",
+        "Roughness",
+        "Normal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "engine": "Blender EEVEE (4.2)",
+  "limit": "Exported maps and gloss range; approximate fullspec GGX preview, not BO3 parity; real emitted haven faces + the shipping dome; BO3 bake / probes / exposure / bloom / effects not reproduced; stock machines are labelled blocks",
+  "scene_sha256": "4bbccd4c490bf1332bd382d4553afc57df5129ffbd3bd3c60d78849a638e6e7f",
+  "dome_sha256": "47ee42909549344f5f3a989e4ebd59c9b0e43fb4da6fc42a9d3ec829d34b33a5",
+  "images": {
+    "approach.png": "ce1c9fecf43b84f251d80d7feb7de3dbdbf34e56888ced454776b98a70a5e450",
+    "inside.png": "baec6c6a46d09682101f52e5b9cca1a553170b0a9ed65467f3e3557648e51ce0",
+    "loggia.png": "2dd082a2deb8dfbd8aab1ae4f51f7bb60ab0b47416fb4c4ccfe06e6d2fe70220",
+    "gallery.png": "42aa7165743b8ac4daeaf9335fa5acdc7035454c931f35e5326f034178f23da5",
+    "pad.png": "c09b397f5617c8f133242c07e27c4ae1d65525e8316eeab3567f8bd6aa9f8764",
+    "plan.png": "844c912f85443a10d58ccd672b1ce0efef1d6d07e532b290ed08748f5b2897fd"
+  }
+}

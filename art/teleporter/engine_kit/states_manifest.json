@@ -1,0 +1,51 @@
+{
+  "master_sha256": "64f625c0cab34f8aec538ac17568d80ae828da1412141e0dbd6bde339c191e8b",
+  "base_master_sha256": "4bb2538344ae2773cac08eff6cc0cfbc961d7bcd9470e2ddb765447c98ef1e51",
+  "emission_source_sha256": "9efa6837a8d9c13981ee619377e43af2a54adfb1087057e09c3bc2aac6b25968",
+  "ready_image_sha256": "25cb02b8d034f1c5286aac8b99b89d351d1276a9dd5ade559b8d2f9362781742",
+  "base_color_source_sha256": "1fc2b60299621373ba2da527fd5a33f149996879bbbef1e94506ca47c03ba0a4",
+  "state_color_sha256": "589dfa4a3b20ab82a71271acbfa79afe87e3c5325094b9fec5ab0533428a1015",
+  "recharge_geometry_sha256": "8aa8833549887be3749119ddbe634fd49efeced256d842f09ab7966803f43798",
+  "recharge_triangles": 1152,
+  "states": [
+    "off",
+    "ready",
+    "pending"
+  ],
+  "palette": {
+    "revision": "green_ready_yellow_pending_v1",
+    "ready_linear": [
+      0.018,
+      1.0,
+      0.075
+    ],
+    "pending_linear": [
+      1.0,
+      0.82,
+      0.018
+    ],
+    "off_emission": 0,
+    "revolution_seconds": 3,
+    "pending_reasons": [
+      "recharge",
+      "destination",
+      "paused",
+      "pending"
+    ]
+  },
+  "revolution_seconds": 3,
+  "native_playtested": false,
+  "gdt_sha256": "2e3a3c456d8663a02f0777bb3aafadbbb834b891a5b098703a09ee14c2766afd",
+  "recharge_file": "model_export/tod_teleporter/tod_tp_recharge_lod0.xmodel_bin",
+  "recharge_sha256": "702f18474e2795816f2ce329f1adb77c1437d422fdddbb850e05712ccc4496de",
+  "off_shared_lods": [
+    "7aebcdbf9ed780ae98a5f0162a1c68846b5deb62530d4c59dd81fa0fa903425a",
+    "b28e41033307715032581034157d4458b9a2519f3803ab862b1a2600fcd95fc9",
+    "2ae562dafe97dedbfd2bfa2ad408a9ebdcdb1b9ccc9c5eb6cc4673bfc0d3923f",
+    "a546f19069af37d7395147034232da1fbb7eb29a1e94dfe36fb71f3f05719edb",
+    "19be2bc289aa53b14e0ccf64fbb8e6f62fc74533893bc71cce63dafaccd42327",
+    "84c41a450510efecd3ce99766cc774d915ce4f96d2b2272fc2b921f3fdcc3289",
+    "3b460dacbf7f7a7ce2d0319d83e4c11bbe788b7356ee3d60cc506bf17806539d"
+  ],
+  "body_geometry_unchanged": true
+}

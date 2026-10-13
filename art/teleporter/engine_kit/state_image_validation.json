@@ -1,0 +1,11 @@
+{
+  "pixels_checked": 4194304,
+  "emission_peak_and_zero_mask_identical": true,
+  "ready_hue": "green",
+  "nonzero_emission_pixels": 163167,
+  "non_glowing_diffuse_pixels_identical": true,
+  "changed_glass_pixels": 163167,
+  "ready_emission_sha256": "25cb02b8d034f1c5286aac8b99b89d351d1276a9dd5ade559b8d2f9362781742",
+  "state_diffuse_sha256": "589dfa4a3b20ab82a71271acbfa79afe87e3c5325094b9fec5ab0533428a1015",
+  "native_visual_verified": false
+}

@@ -1,0 +1,8 @@
+{
+  "executed_candidate_sources": {
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\binding_candidate\\tools\\crown_alarm\\17_clear_lens.py": "ad4d67b7e08bfd74af618742b4c082cf585a4e766b6239a936de3e7e7b128b3d",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\staged\\tools\\crown_alarm\\surface_realism.py": "4d461beee39c85d5a99bc3baf613810f128d88885d1d58aed7cf94df50fe0ac2"
+  },
+  "transport": "Actual Blender MCP execute_blender_code",
+  "native_visual_verified": false
+}

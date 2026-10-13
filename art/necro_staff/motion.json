@@ -1,0 +1,139 @@
+{
+  "frames": [
+    {
+      "file": "art/necro_staff/motion/channel_in_00.png",
+      "sha256": "8bb101f1f85c77462e749e7c23846fd3b590dac9963d420f325bded7635258c6"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_in_02.png",
+      "sha256": "e288124d2ad890e2530bd7f580fc2a5a1ded240985f0facf98563c620b6dfa2b"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_in_04.png",
+      "sha256": "025ec16403c13d2bc631fa9e25c63e0c4dab7c3663ab067f8907c49289ac4e02"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_in_06.png",
+      "sha256": "24a86c356c02e16e4282f82b75dd3d9b9845292d2f957ef272553d81c6b6191b"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_in_08.png",
+      "sha256": "11954e79070cf4f275e3204b4e5b3c9e8f310711b20ef8b25d914ce53ab665f1"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_00.png",
+      "sha256": "b883b66dbc3fc0a94202d8ba640e48ef5ec1d681b9f92727b1227be903220dfb"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_03.png",
+      "sha256": "707f9c579ef4b41fa3f7fd4883d9f92bdb263a85435e30f5bef6bc46c38b75b1"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_06.png",
+      "sha256": "39fc491da7db1b53c038953c860c63a7c480c4960b508f51d46a724b2becfe3c"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_09.png",
+      "sha256": "a4c6237f9ad9b4ae96e89d535e6ce49f1cb93ccca7d277735eb8d0d60bd9d840"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_12.png",
+      "sha256": "5dc49a2bf09f878dac40be5f7a3c9a24fb519f4a47b58bada47fa79009daf295"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_15.png",
+      "sha256": "c1436cb0c9dc7bb6b8f23007223b928f94e4571315f676cba388f9420dcf2e83"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_18.png",
+      "sha256": "681eba76483786d211da838df09cb69bb45586aa6b2d9d93b5b7c973e7116614"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_21.png",
+      "sha256": "f9285fe056678ec37bbf65c0124d5e91f6d4afe81cf4a97f65e213005f28aad8"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_24.png",
+      "sha256": "ff843be0da5edefc5afc6f832bfbd45833ee5437adb2b056dbcef5455d022dce"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_27.png",
+      "sha256": "a15256cb613d0de1147a36478500a16ce00491b57aa3f7abf2efd6bfb19117f7"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_30.png",
+      "sha256": "085274dadc3a33809585b185630394e83edf63ae9e1b8f28189bddbcd98e5533"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_loop_33.png",
+      "sha256": "044ebde6a9fb1caf28265765bc54bd472a6d4a7b90c8b50ec4090311bbf19948"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_out_00.png",
+      "sha256": "aa6a693457ae589195ef55df179265280be6ee900051162cdcb01c725f434499"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_out_02.png",
+      "sha256": "4fceef7ef06669c826c0eca82b617d541006e9a3c9e8e0b9b9361d5fee13661a"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_out_04.png",
+      "sha256": "e156a5f6a6b17316f9115e6d9ae55e56fceb78aa9645e8f4b922f498ccd40b63"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_out_06.png",
+      "sha256": "286e785a6b3caaa0ec99ef81120b122da794e3e9ac2af291b9e1ca0264c3d751"
+    },
+    {
+      "file": "art/necro_staff/motion/channel_out_08.png",
+      "sha256": "62abd87428a7eaae0c35eba08a7bd28f66700fbe5758fbcfda4f9db4129897d6"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_00.png",
+      "sha256": "09f670d6a251c9e9fe63f54e69bcad94245889c2ff4f37394689b2bf2a9d86b1"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_02.png",
+      "sha256": "ce771b4bec175fa0e6451c0d86927285c237b7369aee1ed6f62063f87555877f"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_04.png",
+      "sha256": "1542bf6aea9767e48f0a2876be7a996b36f4cf724eff040ab8e2557ae6505f9c"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_06.png",
+      "sha256": "f31aeff6c5606ccb0044568518bb0cea3ae652ce026b6590cd454b7ea64cc9a8"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_08.png",
+      "sha256": "480b363d5936db56a31af8a41ce024344520d963d4de4a089495fa4e208a6333"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_10.png",
+      "sha256": "2239e283d2b3a6a2ee309eea4596ed5c3468f8e2a373427b556f9b49e2e537d7"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_12.png",
+      "sha256": "1e4e6e8b4f06a2f18c729701b1f7f406d6987f7c338e2b77557f7f47aef1eaaa"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_14.png",
+      "sha256": "223e027daef56caee039938d1b66a6e0eaf7dd0e3cdef02fd474c29018498ed7"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_16.png",
+      "sha256": "30e5d8272e7662f0c071182b95786eb0966e213ea206e570b93a0741c50e6b91"
+    },
+    {
+      "file": "art/necro_staff/motion/pulse_18.png",
+      "sha256": "021eb0a14d8dba240befe137d60705254e6e0606ba696af74977aa0530cc88e6"
+    }
+  ],
+  "blend": "art/necro_staff/casting_motion_review.blend",
+  "blend_sha256": "a490a065a814da3a05e7abe36a32e1ea3614c26c266075ec395b2b9a34d995e7",
+  "animations_sha256": "582d91f747f2809aa6b015c6405c1ca995c91c9173f7806dade4f5e40f6aa326",
+  "models_sha256": "75c03cabee0519ea9d988890bb9bcab4c3be29439e2584cbeca5d03f9720a970",
+  "recorded_at": "2026-09-27T22:37:53.282166",
+  "native_visual_verified": false,
+  "note": "Actual Blender MCP render completed all 32 samples and saved the final scene after the transport timeout. Fresh frame and saved-scene timestamps match current model/animation metadata. A subsequent MCP render succeeded. Neutral review lighting only; no in-game visual verification."
+}

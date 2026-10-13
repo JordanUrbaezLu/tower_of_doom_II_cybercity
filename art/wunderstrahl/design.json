@@ -1,0 +1,336 @@
+{
+  "beam_axis": {
+    "y": 0.0,
+    "z": 3.1414,
+    "tag_flash": [
+      40.9997,
+      0.0001,
+      3.1414
+    ]
+  },
+  "rings": [
+    {
+      "name": "Emitter ring 1 (claw mount)",
+      "x": 35.85,
+      "depth": 0.6,
+      "bore": 1.4,
+      "outer": 2.12,
+      "band": 0.06
+    },
+    {
+      "name": "Emitter ring 2",
+      "x": 37.25,
+      "depth": 0.4,
+      "bore": 1.3,
+      "outer": 2.05,
+      "band": 0.06
+    }
+  ],
+  "focusing_ring": {
+    "x": [
+      38.62,
+      39.02
+    ],
+    "hoop": [
+      2.52,
+      2.95,
+      0.07
+    ],
+    "hub": [
+      1.55,
+      1.98
+    ],
+    "spokes": {
+      "angles": [
+        54.0,
+        126.0,
+        198.0,
+        270.0,
+        342.0
+      ],
+      "radius": [
+        1.92,
+        2.58
+      ],
+      "x": [
+        38.68,
+        38.94
+      ],
+      "width": 0.2
+    },
+    "claw_tip_x": 39.073,
+    "claw_tips": [
+      {
+        "radius": 2.896,
+        "angle": 19.38
+      },
+      {
+        "radius": 2.94,
+        "angle": 90.0
+      },
+      {
+        "radius": 2.896,
+        "angle": 160.62
+      },
+      {
+        "radius": 2.822,
+        "angle": 233.07
+      },
+      {
+        "radius": 2.822,
+        "angle": 306.93
+      }
+    ],
+    "claw_ferrules": {
+      "hook_dir_xr": [
+        -0.231,
+        -0.973
+      ],
+      "radius": 0.07,
+      "past_tip": 0.06,
+      "behind_tip": 0.2
+    },
+    "hub_bolts": {
+      "angles": [
+        54.0,
+        126.0,
+        198.0,
+        270.0,
+        342.0
+      ],
+      "radius": 1.8
+    }
+  },
+  "crystal_cut": {
+    "stagger_levels": "0..1",
+    "table_apex_x": 40.998
+  },
+  "far_lod_spine": {
+    "x": [
+      19.0,
+      39.35
+    ],
+    "radius": 0.55,
+    "levels": "5..7"
+  },
+  "far_lod_claws": {
+    "levels": {
+      "5": {
+        "sides": 4,
+        "radius": 0.085,
+        "step": 0.5
+      },
+      "6": {
+        "sides": 3,
+        "radius": 0.095,
+        "step": 0.8
+      }
+    },
+    "ring_centre_dz": 0.065,
+    "path_x_rho": [
+      [
+        35.9,
+        1.82
+      ],
+      [
+        36.5,
+        2.08
+      ],
+      [
+        37.0,
+        2.48
+      ],
+      [
+        37.5,
+        3.18
+      ],
+      [
+        38.0,
+        3.8
+      ],
+      [
+        38.5,
+        4.22
+      ],
+      [
+        38.95,
+        4.24
+      ],
+      [
+        39.25,
+        4.08
+      ],
+      [
+        39.34,
+        3.8
+      ],
+      [
+        39.28,
+        3.42
+      ],
+      [
+        39.17,
+        3.12
+      ],
+      [
+        39.073,
+        2.875
+      ]
+    ],
+    "material": "mtl_tod2_ws_coil (a copper patch of its atlas)"
+  },
+  "housing": [
+    38.98,
+    39.98
+  ],
+  "crystal": {
+    "back": 39.7,
+    "girdle": [
+      39.86,
+      40.06
+    ],
+    "front": 40.99,
+    "radius": 0.97,
+    "table_radius": 0.52
+  },
+  "max_radius": 3.1473,
+  "tie_rods": {
+    "angles": [
+      54.0,
+      126.0,
+      270.0
+    ],
+    "radius": 1.8,
+    "rod": 0.072
+  },
+  "conduits": {
+    "y": 0.55,
+    "radius": 0.072,
+    "path_xz": [
+      [
+        18.56,
+        4.2
+      ],
+      [
+        19.02,
+        4.34
+      ],
+      [
+        19.45,
+        4.52
+      ],
+      [
+        20.4,
+        4.53
+      ],
+      [
+        21.4,
+        4.49
+      ],
+      [
+        24.6,
+        4.52
+      ],
+      [
+        25.6,
+        4.95
+      ],
+      [
+        26.3,
+        5.55
+      ],
+      [
+        27.0,
+        5.74
+      ],
+      [
+        27.6,
+        5.7
+      ],
+      [
+        28.6,
+        5.45
+      ],
+      [
+        29.6,
+        5.25
+      ],
+      [
+        30.3,
+        5.18
+      ],
+      [
+        33.0,
+        5.2
+      ],
+      [
+        34.9,
+        5.16
+      ],
+      [
+        35.56,
+        5.06
+      ]
+    ]
+  },
+  "removed_tip_faces": 68,
+  "level0_triangles": {
+    "Emitter ring 1 (claw mount)": 2048,
+    "Emitter ring 2": 2048,
+    "Focusing ring hoop": 1920,
+    "Focusing ring hub": 1792,
+    "Focusing ring spoke 0": 16,
+    "Focusing ring spoke 1": 16,
+    "Focusing ring spoke 2": 16,
+    "Focusing ring spoke 3": 16,
+    "Focusing ring spoke 4": 16,
+    "Claw ferrule 0": 96,
+    "Claw ferrule 1": 96,
+    "Claw ferrule 2": 96,
+    "Claw ferrule 3": 96,
+    "Claw ferrule 4": 96,
+    "Hub bolt 0": 30,
+    "Hub bolt 1": 30,
+    "Hub bolt 2": 30,
+    "Hub bolt 3": 30,
+    "Hub bolt 4": 30,
+    "Lens housing": 1536,
+    "Focusing crystal": 144,
+    "Tie rod 0": 24,
+    "Tie nut 0-0": 30,
+    "Tie nut 0-1": 30,
+    "Tie nut 0-2": 30,
+    "Tie nut 0-3": 30,
+    "Tie rod 1": 24,
+    "Tie nut 1-0": 30,
+    "Tie nut 1-1": 30,
+    "Tie nut 1-2": 30,
+    "Tie nut 1-3": 30,
+    "Tie rod 2": 24,
+    "Tie nut 2-0": 30,
+    "Tie nut 2-1": 30,
+    "Tie nut 2-2": 30,
+    "Tie nut 2-3": 30,
+    "Housing screw 0": 40,
+    "Housing screw 1": 40,
+    "Housing screw 2": 40,
+    "Housing screw 3": 40,
+    "Housing screw 4": 40,
+    "Housing screw 5": 40,
+    "Conduit left": 1760,
+    "Conduit gland left": 96,
+    "Conduit ferrule left": 96,
+    "Conduit clamp left 20.10": 96,
+    "Conduit clamp left 26.30": 96,
+    "Conduit clamp left 30.65": 96,
+    "Conduit standoff left 30.65": 24,
+    "Conduit right": 1760,
+    "Conduit gland right": 96,
+    "Conduit ferrule right": 96,
+    "Conduit clamp right 20.10": 96,
+    "Conduit clamp right 26.30": 96,
+    "Conduit clamp right 30.65": 96,
+    "Conduit standoff right 30.65": 24
+  },
+  "level0_total": 15398
+}

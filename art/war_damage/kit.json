@@ -1,0 +1,550 @@
+{
+  "stock_root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops III 455130\\model_export",
+  "props": {
+    "p7_debris_concrete_rubble_pile_03": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_pile_03"
+      ],
+      "triangles": 6863,
+      "min": [
+        -45.68,
+        -54.07,
+        -2.77
+      ],
+      "max": [
+        44.88,
+        45.61,
+        16.18
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_pile_03/p7_debris_concrete_rubble_pile_03_lod0.XMODEL_BIN",
+        "1": "t7_props/p7_debris_concrete_rubble_pile_03/p7_debris_concrete_rubble_pile_03_lod1.XMODEL_BIN",
+        "2": "t7_props/p7_debris_concrete_rubble_pile_03/p7_debris_concrete_rubble_pile_03_lod2.XMODEL_BIN",
+        "3": "t7_props/p7_debris_concrete_rubble_pile_03/p7_debris_concrete_rubble_pile_03_lod3.XMODEL_BIN",
+        "4": "t7_props/p7_debris_concrete_rubble_pile_03/p7_debris_concrete_rubble_pile_03_lod4.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 6863,
+        "1": 4851,
+        "2": 2954,
+        "3": 1453,
+        "4": 465
+      },
+      "role": "pile"
+    },
+    "p7_debris_concrete_rubble_scattered_01": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_sm"
+      ],
+      "triangles": 592,
+      "min": [
+        -65.27,
+        -51.9,
+        -0.7
+      ],
+      "max": [
+        71.65,
+        77.68,
+        6.31
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_sm/p7_debris_concrete_rubble_scattered_01_lod0.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 592
+      },
+      "role": "scatter"
+    },
+    "p7_debris_concrete_rubble_sm_00": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_sm"
+      ],
+      "triangles": 194,
+      "min": [
+        -7.81,
+        -5.99,
+        -6.25
+      ],
+      "max": [
+        7.81,
+        5.99,
+        6.25
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_sm/p7_debris_concrete_rubble_sm_00_lod0.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 194
+      },
+      "role": "chunk"
+    },
+    "p7_debris_concrete_rubble_sm_03": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_sm"
+      ],
+      "triangles": 274,
+      "min": [
+        -6.11,
+        -10.63,
+        -8.68
+      ],
+      "max": [
+        6.11,
+        10.63,
+        8.68
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_sm/p7_debris_concrete_rubble_sm_03_lod0.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 274
+      },
+      "role": "chunk"
+    },
+    "p7_debris_concrete_rubble_sm_07": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_sm"
+      ],
+      "triangles": 106,
+      "min": [
+        -5.77,
+        -5.06,
+        -4.63
+      ],
+      "max": [
+        5.77,
+        5.06,
+        4.63
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_sm/p7_debris_concrete_rubble_sm_07_lod0.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 106
+      },
+      "role": "chunk"
+    },
+    "p7_debris_concrete_rubble_lg_03_no_metal": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_lg_02"
+      ],
+      "triangles": 310,
+      "min": [
+        -45.88,
+        -45.78,
+        -9.85
+      ],
+      "max": [
+        44.3,
+        29.15,
+        9.78
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_lg/p7_debris_concrete_rubble_lg_03_no_metal_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 310
+      },
+      "role": "slab"
+    },
+    "p7_debris_concrete_rubble_med_01_no_metal": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_concrete_rubble_med_01"
+      ],
+      "triangles": 1628,
+      "min": [
+        -35.23,
+        -21.77,
+        -15.37
+      ],
+      "max": [
+        26.34,
+        20.96,
+        15.37
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_concrete_rubble_med/p7_debris_concrete_rubble_med_01_no_metal_lod0.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 1628
+      },
+      "role": "slab"
+    },
+    "p7_rebar_straight_32_01": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_rebar_01_rusty",
+        "mtl_p7_rebar_cap_01_rusty"
+      ],
+      "triangles": 744,
+      "min": [
+        -16.62,
+        -1.16,
+        -10.83
+      ],
+      "max": [
+        17.87,
+        1.12,
+        10.5
+      ],
+      "lods": {
+        "0": "t7_props/p7_rebar/p7_rebar_straight_32_01_lod0.xmodel_bin",
+        "1": "t7_props/p7_rebar/p7_rebar_straight_32_01_lod1.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 744,
+        "1": 256
+      },
+      "role": "rebar"
+    },
+    "p7_rebar_straight_32_02": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_rebar_01_rusty",
+        "mtl_p7_rebar_cap_01_rusty"
+      ],
+      "triangles": 968,
+      "min": [
+        -16.62,
+        -4.08,
+        -10.8
+      ],
+      "max": [
+        17.87,
+        1.87,
+        9.82
+      ],
+      "lods": {
+        "0": "t7_props/p7_rebar/p7_rebar_straight_32_02_lod0.xmodel_bin",
+        "1": "t7_props/p7_rebar/p7_rebar_straight_32_02_lod1.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 968,
+        "1": 304
+      },
+      "role": "rebar"
+    },
+    "p7_rebar_patch_64x64_01": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_rebar_01_rusty",
+        "mtl_p7_rebar_cap_01_rusty"
+      ],
+      "triangles": 1020,
+      "min": [
+        -30.65,
+        -3.44,
+        -32.23
+      ],
+      "max": [
+        32.62,
+        3.44,
+        32.23
+      ],
+      "lods": {
+        "0": "t7_props/p7_rebar/p7_rebar_patch_64x64_01_lod0.xmodel_bin",
+        "1": "t7_props/p7_rebar/p7_rebar_patch_64x64_01_lod1.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 1020,
+        "1": 548
+      },
+      "role": "rebar_grid"
+    },
+    "p7_rebar_patch_64x64_02": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_rebar_01_rusty",
+        "mtl_p7_rebar_cap_01_rusty"
+      ],
+      "triangles": 880,
+      "min": [
+        -32.34,
+        -3.18,
+        -26.37
+      ],
+      "max": [
+        30.36,
+        3.4,
+        26.37
+      ],
+      "lods": {
+        "0": "t7_props/p7_rebar/p7_rebar_patch_64x64_02_lod0.xmodel_bin",
+        "1": "t7_props/p7_rebar/p7_rebar_patch_64x64_02_lod1.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 880,
+        "1": 408
+      },
+      "role": "rebar_grid"
+    },
+    "p7_rebar_column_128": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_rebar_01_rusty",
+        "mtl_p7_rebar_cap_01_rusty",
+        "mtl_p7_rebar_tie_01"
+      ],
+      "triangles": 5248,
+      "min": [
+        -6.36,
+        -6.4,
+        -65.01
+      ],
+      "max": [
+        6.26,
+        6.32,
+        64.92
+      ],
+      "lods": {
+        "0": "t7_props/p7_rebar/p7_rebar_column_128_lod0.xmodel_bin",
+        "1": "t7_props/p7_rebar/p7_rebar_column_128_lod1.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 5248,
+        "1": 2464
+      },
+      "role": "rebar_col"
+    },
+    "p7_fxp_debris_metal_scrap_01": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_metal_scrap_01"
+      ],
+      "triangles": 374,
+      "min": [
+        -10.81,
+        -8.26,
+        -3.07
+      ],
+      "max": [
+        10.73,
+        8.26,
+        3.12
+      ],
+      "lods": {
+        "0": "t7_fx_props/p7_fxp_debris_metal_scrap_set/p7_fxp_debris_metal_scrap_01_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 374
+      },
+      "role": "scrap"
+    },
+    "p7_fxp_debris_metal_scrap_02": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_metal_scrap_02"
+      ],
+      "triangles": 380,
+      "min": [
+        -10.61,
+        -6.18,
+        -2.53
+      ],
+      "max": [
+        10.61,
+        6.18,
+        2.47
+      ],
+      "lods": {
+        "0": "t7_fx_props/p7_fxp_debris_metal_scrap_set/p7_fxp_debris_metal_scrap_02_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 380
+      },
+      "role": "scrap"
+    },
+    "p7_zm_der_gantry_beam_01": {
+      "bones": 1,
+      "materials": [
+        "t7_metal_worn_iron_dark"
+      ],
+      "triangles": 2168,
+      "min": [
+        -25.0,
+        -276.0,
+        -6.5
+      ],
+      "max": [
+        25.0,
+        276.0,
+        13.0
+      ],
+      "lods": {
+        "0": "t7_props_zombie/p7_zm_der_gantry_crane/p7_zm_der_gantry_beam_01_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 2168
+      },
+      "role": "beam"
+    },
+    "p7_wires_electrical_rubber_02": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_wires_electrical_rubber"
+      ],
+      "triangles": 1184,
+      "min": [
+        -8.15,
+        -0.08,
+        -35.12
+      ],
+      "max": [
+        6.96,
+        64.0,
+        3.82
+      ],
+      "lods": {
+        "0": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_02_lod0.xmodel_bin",
+        "1": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_02_lod1.xmodel_bin",
+        "2": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_02_lod2.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 1184,
+        "1": 404,
+        "2": 266
+      },
+      "role": "cable"
+    },
+    "p7_wires_electrical_rubber_03": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_wires_electrical_rubber"
+      ],
+      "triangles": 1242,
+      "min": [
+        -30.22,
+        -0.08,
+        -9.93
+      ],
+      "max": [
+        -17.22,
+        64.0,
+        3.83
+      ],
+      "lods": {
+        "0": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_03_lod0.xmodel_bin",
+        "1": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_03_lod1.xmodel_bin",
+        "2": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_03_lod2.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 1242,
+        "1": 254,
+        "2": 122
+      },
+      "role": "cable"
+    },
+    "p7_wires_electrical_rubber_04": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_wires_electrical_rubber"
+      ],
+      "triangles": 1062,
+      "min": [
+        -8.2,
+        -0.13,
+        -4.96
+      ],
+      "max": [
+        8.15,
+        63.95,
+        3.86
+      ],
+      "lods": {
+        "0": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_04_lod0.xmodel_bin",
+        "1": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_04_lod1.xmodel_bin",
+        "2": "t7_beautiful_corner_props/p7_wires_electrical_rubber/p7_wires_electrical_rubber_04_lod2.xmodel_bin"
+      },
+      "lod_triangles": {
+        "0": 1062,
+        "1": 638,
+        "2": 266
+      },
+      "role": "cable"
+    },
+    "p7_light_fixture_led_ceiling_01_dmg": {
+      "bones": 4,
+      "materials": [
+        "mtl_p7_light_fixture_led_ceiling_01_dmg",
+        "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+        "t7_plastic_panel_cables"
+      ],
+      "triangles": 1643,
+      "min": [
+        -10.0,
+        -30.3,
+        -4.71
+      ],
+      "max": [
+        10.0,
+        30.3,
+        0.06
+      ],
+      "lods": {
+        "0": "t7_props/p7_light_fixture_led/p7_light_fixture_led_ceiling_01_dmg_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 1643
+      },
+      "role": "fixture"
+    },
+    "p7_debris_glass_shards_01": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_glass_shards",
+        "mtl_p7_debris_glass_shards_edge"
+      ],
+      "triangles": 1660,
+      "min": [
+        -26.58,
+        -23.52,
+        0.0
+      ],
+      "max": [
+        25.01,
+        0.03,
+        0.5
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_glass_shards/p7_debris_glass_shards_01_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 1660
+      },
+      "role": "glass"
+    },
+    "p7_debris_glass_shards_03": {
+      "bones": 1,
+      "materials": [
+        "mtl_p7_debris_glass_shards",
+        "mtl_p7_debris_glass_shards_edge"
+      ],
+      "triangles": 3772,
+      "min": [
+        -47.33,
+        -50.68,
+        -0.0
+      ],
+      "max": [
+        -0.05,
+        0.51,
+        0.5
+      ],
+      "lods": {
+        "0": "t7_props/p7_debris_glass_shards/p7_debris_glass_shards_03_lod0.XMODEL_BIN"
+      },
+      "lod_triangles": {
+        "0": 3772
+      },
+      "role": "glass"
+    }
+  },
+  "missing": []
+}

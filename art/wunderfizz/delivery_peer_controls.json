@@ -1,0 +1,38 @@
+{
+  "controls": [
+    {
+      "control": "feature script drift cannot use peer exception",
+      "rejected": true,
+      "reason": "Unreviewed post-build source changes"
+    },
+    {
+      "control": "unrelated additional input cannot use peer exception",
+      "rejected": true,
+      "reason": "Unreviewed post-build source changes"
+    },
+    {
+      "control": "Dealer after-hash must match exact independent receipt",
+      "rejected": true,
+      "reason": "('Peer before/after pins do not match', 'scripts/zm/zm_tod2_cybercity/_tod_house.gsc')"
+    },
+    {
+      "control": "missing captured feature input",
+      "rejected": true,
+      "reason": "Unreviewed post-build source changes"
+    },
+    {
+      "control": "default lane stays strict",
+      "rejected": true,
+      "reason": "Shipping inputs changed after build snapshot"
+    },
+    {
+      "control": "unknown peer receipt rejected before reading",
+      "rejected": true,
+      "reason": "Unknown peer landing receipt"
+    }
+  ],
+  "count": 6,
+  "completed_delivery_receipt_unchanged": true,
+  "native_or_source_mutation": false,
+  "game_launched": false
+}

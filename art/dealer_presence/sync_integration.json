@@ -1,0 +1,16 @@
+{
+  "source": "tools/sync_to_modtools.ps1",
+  "before_copy": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\dealer_presence_sync_fix\\20260930_164858_465\\sync_to_modtools.ps1",
+  "after_sha256": "c9b56b6dd4d9161e2246f73c9d63df02b2c76f5aa0c192df2406bcfa88ccffb6",
+  "native_build_run": false,
+  "missing_row_source_gate_rejected": true,
+  "exact_delta": "One Copy-Tree row for model_export/tod_dealer_presence; all other bytes unchanged",
+  "before_sha256": "76cbebb38f406af7f7251df025b8ece508de74ed132ae9dbb7de61f6fe60190a",
+  "schema": 1,
+  "sync_run": false,
+  "source_gate_passed": true,
+  "helper_hashes": {
+    "tools/dealer_presence/wire.py": "7b415a7d51037443d228f747cc22d1a4aeae52ffe7e892e2ed23076c41c30d92",
+    "tools/dealer_presence/verify.py": "4454df267808c9147b541670e8dee08ac3323cd9f4f13f9f7ed622c61a6f2aae"
+  }
+}

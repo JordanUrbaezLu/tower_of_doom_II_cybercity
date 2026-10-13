@@ -1,0 +1,12 @@
+{
+  "workspace": "CROWN ALARM - native map render",
+  "area": "IMAGE_EDITOR",
+  "image": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\crown_alarm\\realism_review\\after.png",
+  "image_sha256": "1eb2ecdc749ab201b8f2a00f2c7ac6970f494c28f56254e77b629137ae75283e",
+  "native_map_preview": true,
+  "native_visual_verified": false,
+  "canonical_master_saved": true,
+  "lens_constant_dielectric_f0": 0.04,
+  "lens_native_channel_receipt": "lens_native_channels.json",
+  "live_viewports": 0
+}

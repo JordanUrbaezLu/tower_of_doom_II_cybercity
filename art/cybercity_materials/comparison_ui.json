@@ -1,0 +1,76 @@
+{
+  "views": [
+    {
+      "view": "interior",
+      "output": "crown_interior_side_by_side.png",
+      "images": [
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_interior_before.png",
+          "width": 1600,
+          "height": 1000
+        },
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_interior.png",
+          "width": 1600,
+          "height": 1000
+        }
+      ],
+      "matched_dimensions": true,
+      "buttons_pass": true
+    },
+    {
+      "view": "from_tower",
+      "output": "crown_from_tower_side_by_side.png",
+      "images": [
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_from_tower_before.png",
+          "width": 1500,
+          "height": 1500
+        },
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_from_tower.png",
+          "width": 1500,
+          "height": 1500
+        }
+      ],
+      "matched_dimensions": true,
+      "buttons_pass": true
+    },
+    {
+      "view": "exterior",
+      "output": "crown_exterior_side_by_side.png",
+      "images": [
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_exterior_before.png",
+          "width": 1400,
+          "height": 1500
+        },
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_exterior.png",
+          "width": 1400,
+          "height": 1500
+        }
+      ],
+      "matched_dimensions": true,
+      "buttons_pass": true
+    },
+    {
+      "view": "underside",
+      "output": "crown_underside_side_by_side.png",
+      "images": [
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_underside_before.png",
+          "width": 1500,
+          "height": 1150
+        },
+        {
+          "src": "file:///C:/Users/jorda/Repositories/tower_of_doom_II_cybercity/art/cybercity_materials/crown_underside.png",
+          "width": 1500,
+          "height": 1150
+        }
+      ],
+      "matched_dimensions": true,
+      "buttons_pass": true
+    }
+  ]
+}

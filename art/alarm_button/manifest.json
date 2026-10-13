@@ -1,0 +1,563 @@
+{
+  "authoring": "Blender MCP execute_blender_code (tools/alarm_button/mcp_call.py, port 9887)",
+  "models": [
+    {
+      "asset": "tod_alarm_button_stand",
+      "lod": 0,
+      "triangles": 7152,
+      "meshes": 35,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_stand_lod0.xmodel_bin",
+      "sha256": "6c63d45314fc2461a277ffcc0f4b28341b0b1b36f821253fefae486e190514db",
+      "bounds": [
+        [
+          -12.399999618530273,
+          -12.399999618530273,
+          0.0
+        ],
+        [
+          12.399999618530273,
+          12.399999618530273,
+          38.20000076293945
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_stand",
+      "lod": 1,
+      "triangles": 2742,
+      "meshes": 24,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_stand_lod1.xmodel_bin",
+      "sha256": "86d5baf21a80ed184467785c649d50a1eba27d47e5445553a48a095d0dbd3777",
+      "bounds": [
+        [
+          -12.399999618530273,
+          -12.399999618530273,
+          0.0
+        ],
+        [
+          12.399999618530273,
+          12.399999618530273,
+          38.20004653930664
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_stand",
+      "lod": 2,
+      "triangles": 1350,
+      "meshes": 24,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_stand_lod2.xmodel_bin",
+      "sha256": "e8938ef740bcc6b20ff7d5999a9279d256f5291a7759bfa4b29c9b160ca87039",
+      "bounds": [
+        [
+          -12.383390426635742,
+          -12.382328987121582,
+          0.011220782995223999
+        ],
+        [
+          12.382328987121582,
+          12.383390426635742,
+          38.20073318481445
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_on",
+      "lod": 0,
+      "triangles": 1468,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_on_lod0.xmodel_bin",
+      "sha256": "19fc76ac32f1df02085dbcb83cc92847ad708ffdfd913e9d9ff5fe6c4cecc225",
+      "bounds": [
+        [
+          -4.150000095367432,
+          -4.150000095367432,
+          -0.40000152587890625
+        ],
+        [
+          4.150000095367432,
+          4.150000095367432,
+          3.950000762939453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_on",
+      "lod": 1,
+      "triangles": 734,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_on_lod1.xmodel_bin",
+      "sha256": "99b96f5d28ac7868c4eb7788ea33ad75099c8f06b396cff59c425c1294b395d4",
+      "bounds": [
+        [
+          -4.149811267852783,
+          -4.149811267852783,
+          -0.400146484375
+        ],
+        [
+          4.149811267852783,
+          4.149811267852783,
+          3.950000762939453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_on",
+      "lod": 2,
+      "triangles": 366,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_on_lod2.xmodel_bin",
+      "sha256": "e4db9a566230ec5407c200559f925fa81070d69a569f97ff51764b1bc9caafb8",
+      "bounds": [
+        [
+          -4.131871223449707,
+          -4.131871223449707,
+          -0.4003143310546875
+        ],
+        [
+          4.131871223449707,
+          4.131871223449707,
+          3.9499664306640625
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_off",
+      "lod": 0,
+      "triangles": 1468,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_off_lod0.xmodel_bin",
+      "sha256": "bc03c6a20231d2305365c5988a2dfa8f5a5abc7a641468cf9bdc139d92aaa5ba",
+      "bounds": [
+        [
+          -4.150000095367432,
+          -4.150000095367432,
+          -0.40000152587890625
+        ],
+        [
+          4.150000095367432,
+          4.150000095367432,
+          3.950000762939453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_off",
+      "lod": 1,
+      "triangles": 734,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_off_lod1.xmodel_bin",
+      "sha256": "e43dda8a9b218674032ea8fb42dd626ae98696de63a0163e1209757645f12faf",
+      "bounds": [
+        [
+          -4.149811267852783,
+          -4.149811267852783,
+          -0.400146484375
+        ],
+        [
+          4.149811267852783,
+          4.149811267852783,
+          3.950000762939453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_alarm_button_cap_off",
+      "lod": 2,
+      "triangles": 366,
+      "meshes": 2,
+      "file": "model_export/tod_alarm_button/tod_alarm_button_cap_off_lod2.xmodel_bin",
+      "sha256": "afd9497f6df3509960b5c7b718181e76ec5dc0e19d32d29656c5be77774d118c",
+      "bounds": [
+        [
+          -4.131871223449707,
+          -4.131871223449707,
+          -0.4003143310546875
+        ],
+        [
+          4.131871223449707,
+          4.131871223449707,
+          3.9499664306640625
+        ]
+      ]
+    }
+  ],
+  "textures": {
+    "i_tod_abtn_cast_c.png": "6ba19b31f38ec3841fa953d68a3f5e91dd8a21c915b07999ec4864559ad32990",
+    "i_tod_abtn_cast_g.png": "a061a2905435f9ce35d337a2802685d0f94ac7194cb29e0fde214ee6d03fbc61",
+    "i_tod_abtn_cast_s.png": "33dee02f2477eccff0107e983af5c21baa693b80e14b24fc5175cba47a75c2d8",
+    "i_tod_abtn_cast_n.png": "eaede4b912e63a743d75381507170b640a19534eb56a87282d816d51e40b2f05",
+    "i_tod_abtn_steel_c.png": "e9ad59485f92b077fa5fa2189df97f860b86d8b2bace8ae62d8835ad3196ca36",
+    "i_tod_abtn_steel_g.png": "c5188ebd52783f7f86bc73206a92f5d61ae30d8a7d0270faa5f1f840dfcb35ef",
+    "i_tod_abtn_steel_s.png": "8a329e461f7f4fd196a23c601968b0815cd9381291b3ceaf438916124f433563",
+    "i_tod_abtn_steel_n.png": "25a2302826190f793eced1318e90912d3e069d819bc610d6ce1f6347ba719b8d",
+    "i_tod_abtn_rubber_c.png": "8fc4c4829c5b3a9e5cd216e947c9d6951f030800672a622bcdab42851db1f58a",
+    "i_tod_abtn_rubber_g.png": "b1c5f77cfc47562bb566d465e77b1ba653b57bd443d8607da79b6d1072edc767",
+    "i_tod_abtn_rubber_s.png": "f75c3b3176a69c741280401fc1ffeb9095f607650bf555c50e037051ab309604",
+    "i_tod_abtn_rubber_n.png": "1d79cf03ee86a666f14ca8a8740ade65433287c2fcf2b87e618dd015f94d2407",
+    "i_tod_abtn_hazard_c.png": "f8b5d37b0f094bc33cd8a8354fa220533cff290ebc3ab27908c05dbc472f6849",
+    "i_tod_abtn_hazard_g.png": "ab2268dd7f3357c00abe318c1a66a632faba1b0629e9c240c3ef4ca4fd774bf9",
+    "i_tod_abtn_hazard_s.png": "81474c8d0749323add6e1394693db01cdc86b353ebb2cc290444c4ef5b61a2f3",
+    "i_tod_abtn_hazard_n.png": "7c1645bdd6f543b30f7d88ea14aac029e144b6df377ba7d4a7344da145cb64ad",
+    "i_tod_abtn_red_off_c.png": "0e74eb9a70a0ab2f0f9ee63ed91760ad55e43ec93118ed22850bf172084e4ddd",
+    "i_tod_abtn_red_off_g.png": "c43341b621c4d499d3166b9462dca6cffe6a8bc6b86a0695191c65ebea3411ad",
+    "i_tod_abtn_red_off_s.png": "bdfd0ed123dfcbc5eccd8f6c04e3a79d2b462e4cb118dd44ae505a4fbf061468",
+    "i_tod_abtn_red_off_n.png": "f567f3dc0954eb328adcad4c08835d8809b6449c56bb1b9b723e811ddcaf6702",
+    "i_tod_abtn_red_on_c.png": "ef2b91f781869e3f026cbfd8839324f76c1307f915ea65f5d8c1e105b613e9c6",
+    "i_tod_abtn_red_on_g.png": "c43341b621c4d499d3166b9462dca6cffe6a8bc6b86a0695191c65ebea3411ad",
+    "i_tod_abtn_red_on_s.png": "bdfd0ed123dfcbc5eccd8f6c04e3a79d2b462e4cb118dd44ae505a4fbf061468",
+    "i_tod_abtn_red_on_n.png": "f567f3dc0954eb328adcad4c08835d8809b6449c56bb1b9b723e811ddcaf6702"
+  },
+  "gdt_sha256": "8bac4cb6254752c25af2c69c3ee5fb2facc3384c222b45eacf82512dc8fc5e89",
+  "cap_z": 38.2,
+  "console_z": 37.0,
+  "stand_radius": 12.0,
+  "height": 42.150000000000006,
+  "renders": {
+    "on": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\alarm_button\\on.png",
+    "off": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\alarm_button\\off.png"
+  },
+  "preview_native_verified": false,
+  "surface_realism": {
+    "revision": "2026-09-29",
+    "authoring": "Actual Blender MCP execute_blender_code",
+    "geometry": "All native vertices, normals, faces, bones, bounds and material roles retained; UV-only atlas update.",
+    "native_visual_verified": false,
+    "atlas_parts": {
+      "flared cast column": {
+        "tile": [
+          512,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_cast"
+      },
+      "cast base plate": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_cast"
+      },
+      "round console": {
+        "tile": [
+          0,
+          512,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_cast"
+      },
+      "hazard collar stripe 0": {
+        "tile": [
+          0,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 2": {
+        "tile": [
+          0,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 4": {
+        "tile": [
+          256,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 6": {
+        "tile": [
+          512,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 8": {
+        "tile": [
+          768,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 10": {
+        "tile": [
+          256,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 12": {
+        "tile": [
+          512,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "hazard collar stripe 14": {
+        "tile": [
+          768,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_hazard"
+      },
+      "red mushroom head": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_red_off"
+      },
+      "red plunger": {
+        "tile": [
+          512,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_red_off"
+      },
+      "hazard collar stripe 1": {
+        "tile": [
+          512,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 3": {
+        "tile": [
+          512,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 5": {
+        "tile": [
+          640,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 7": {
+        "tile": [
+          768,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 9": {
+        "tile": [
+          896,
+          256,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 11": {
+        "tile": [
+          640,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 13": {
+        "tile": [
+          768,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "hazard collar stripe 15": {
+        "tile": [
+          896,
+          128,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "base rubber foot": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "bezel screw 0": {
+        "tile": [
+          512,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "bezel screw 1": {
+        "tile": [
+          640,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "bezel screw 2": {
+        "tile": [
+          768,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "bezel screw 3": {
+        "tile": [
+          896,
+          0,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_rubber"
+      },
+      "console steel rim": {
+        "tile": [
+          512,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "steel button bezel": {
+        "tile": [
+          512,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "base plate steel lip": {
+        "tile": [
+          0,
+          0,
+          512
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 0": {
+        "tile": [
+          0,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 1": {
+        "tile": [
+          128,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 2": {
+        "tile": [
+          256,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 3": {
+        "tile": [
+          384,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 4": {
+        "tile": [
+          512,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "anchor bolt 5": {
+        "tile": [
+          640,
+          512,
+          128
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "lower steel band": {
+        "tile": [
+          768,
+          0,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      },
+      "upper steel band": {
+        "tile": [
+          768,
+          256,
+          256
+        ],
+        "size": 1024,
+        "material": "mtl_tod_abtn_steel"
+      }
+    },
+    "review": "realism_review/before.png and after.png"
+  }
+}

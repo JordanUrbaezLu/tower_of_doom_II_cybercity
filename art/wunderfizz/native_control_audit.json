@@ -1,0 +1,319 @@
+{
+  "verified_at": "2026-10-07T13:35:03.063632-04:00",
+  "native_output_pins": {
+    "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone\\zm_tod2_cybercity.ff": "f3b5185049fce079eabdbf0c58c5951ac12c0ef4accf4d2e0319cba046d9729b",
+    "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps": "1aa7a725fba9743f6bf40e706667d69f4c5831bab3a818c21671e76f093b7c96"
+  },
+  "decompressed_bytes": 417280692,
+  "controls": [
+    {
+      "material": "mc/mtl_tod_ptn_pro_00",
+      "native_image_count": 6,
+      "native_image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "other native material image",
+          "native_flags": 0
+        }
+      ],
+      "complete_native_material_definition": true,
+      "dependency_images": [
+        "i_c_t7_zmb_zod_robot_arm_c",
+        "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_n",
+        "$gray_32_one_channel",
+        "$white_ao",
+        "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_g",
+        "i_tod_ptn_c_t7_nrc_robot_grunt_chassis_arm_s"
+      ]
+    },
+    {
+      "material": "mc/mtl_tod_ptn_rap_08",
+      "native_image_count": 6,
+      "native_image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x500000000016e6f9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x50000000000ab619",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x500000000016de79",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        }
+      ],
+      "complete_native_material_definition": true,
+      "dependency_images": [
+        "i_tod_ptn_veh_t7_dlc3_sentinel_drone_pods_glass02_c",
+        "i_tod_ptn_mtl_veh_t7_dlc_lumpy03_n",
+        "$gray_32_one_channel",
+        "$occlusion",
+        "i_veh_t7_detail_char02_g",
+        "$white_reveal"
+      ]
+    },
+    {
+      "material": "mc/t10_zm_machine_staminup_glass_on",
+      "native_image_count": 11,
+      "native_image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x5000000006d0bcf9",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x50000000000ab619",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x5000000000170799",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0x500000000016de79",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 5,
+          "image_pointer": "0x500000000042dd79",
+          "semantic_hash": "0x53a3fce2",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x5000000006d0bd59",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000006d0bd79",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x5000000000170819",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 9,
+          "image_pointer": "0x5000000006d0bd99",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 10,
+          "image_pointer": "0x5000000000170859",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        }
+      ],
+      "complete_native_material_definition": true,
+      "dependency_images": [
+        "i_t10_zm_machine_staminup_glass_on_c",
+        "i_t10_zm_machine_staminup_glass_on_n",
+        "$gray_32_one_channel",
+        "i_t10_zm_machine_staminup_glass_on_o",
+        "i_t10_zm_machine_staminup_glass_on_g",
+        "i_t10_zm_machine_staminup_glass_on_e_c",
+        "i_generic_lookup",
+        "$camo_base_mask",
+        "$camo_base_normal",
+        "$camo_base_gloss",
+        "$white_reveal"
+      ]
+    },
+    {
+      "material": "mc/mtl_tod_alarm_cast",
+      "native_image_count": 10,
+      "native_image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x500000000016de59",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x5000000000170799",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x500000000016de79",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x5000000000170819",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x50000000074f4d79",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x5000000000170859",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 9,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "other native material image",
+          "native_flags": 0
+        }
+      ],
+      "complete_native_material_definition": true,
+      "dependency_images": [
+        "i_tod_alarm_cast_c",
+        "i_tod_alarm_cast_n",
+        "$gray_32_one_channel",
+        "$white_ao",
+        "i_tod_alarm_cast_g",
+        "$camo_base_mask",
+        "$camo_base_normal",
+        "$camo_base_gloss",
+        "i_tod_alarm_cast_s"
+      ]
+    }
+  ],
+  "available_shader_controls": {
+    "lit_advanced_fullspec": "mc/mtl_tod_ptn_pro_00",
+    "lit_transparent_plus": "mc/mtl_tod_ptn_rap_08",
+    "lit_emissive_scroll_transparent_plus": "mc/t10_zm_machine_staminup_glass_on"
+  },
+  "shader_types_without_current_control": [],
+  "proof": "Current owned FF control materials validate the structural reader/common colour, normal and gloss semantics only. The exact BO6 source still requires its own completed post-link gate.",
+  "bo6_machine_compiled_verified": false,
+  "native_visual_verified": false,
+  "game_launched": false
+}

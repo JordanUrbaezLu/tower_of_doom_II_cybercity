@@ -1,0 +1,54 @@
+{
+  "prepared_at": "2026-10-07T14:00:21.352400-04:00",
+  "files": {
+    "tools/gen_tower_map.js": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\conduit_fix\\staged_sources\\tools\\gen_tower_map.js",
+      "sha256": "3048be9a5fabb23fd2432f6c77f2fd33602b0be3bbcd0ae22c81baae08ab7bc6",
+      "before_sha256": "44b9c50576b22555371772740fd1843da5492e9d582227fe57402c03a5eda4d8"
+    },
+    "tools/wunderfizz_layout.js": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\conduit_fix\\staged_sources\\tools\\wunderfizz_layout.js",
+      "sha256": "91b356a202a4292e59d3866bf7627f9c0c0e5807aca60c0e3b7bb6f071bcf468",
+      "before_sha256": "c28dae49a65e7e92a15145f964d10431b2c4ca41a1a2255d198167f570ad772a"
+    },
+    "tools/wunderfizz/test_layout.js": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\conduit_fix\\staged_sources\\tools\\wunderfizz\\test_layout.js",
+      "sha256": "88f0729a03d6791b260575e9aa09ff16aa593c8166010ab003d287ab0d9a08ee",
+      "before_sha256": "4b6be6a04c470e19f03fbe84bd84d8158fdb428d2dc64cfb6a7ce38e4f97c190"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_machine.gsc": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\animation_fix\\staged_sources\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_machine.gsc",
+      "sha256": "60675c4c63bcdc12c847ff268586aec6a9aed5505ca0d34e2ae572a98105d6ca",
+      "before_sha256": "f4bd60aae7dc7bd4389b8f84a03b411a35c06fd91a8d495596d07190bd2c1e83"
+    },
+    "tools/wunderfizz/test_machine.js": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\animation_fix\\staged_sources\\tools\\wunderfizz\\test_machine.js",
+      "sha256": "4da84de72d8624d2320bcc3ee2695b043b1ee3a283488dae25ef6c1a74579978",
+      "before_sha256": "d4bce4e887ff15957b80f6ef0f7a48eeca6c2d7feaad41e6545c28a28c64b8fe"
+    },
+    "map_source/zm/zm_tod2_cybercity.map": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\conduit_fix\\generated\\map_source\\zm\\zm_tod2_cybercity.map",
+      "sha256": "554b7926cc3f2f0500d4fbf414878dded3636311a81be12bac19079d9c239815",
+      "before_sha256": "e5c863d150130c1bbdeeefa9245546b6f89bb42a0551867d0f012fd4a294f800"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_data.gsc": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\conduit_fix\\generated\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_data.gsc",
+      "sha256": "38426e5ee23fbb4a57619bf42ca1cbd9cf0ced38c4eb33af88e464ba8413139d",
+      "before_sha256": "b6d89b8f8c5353d0a5ae06a1d78cde7499b49e4e8e30bedd8cf308a8c06a836b"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_sky_lanes.csc": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\sky_lanes\\scripts\\zm\\zm_tod2_cybercity\\_tod_sky_lanes.csc",
+      "sha256": "71a829a810b023a4562bb19cc6de7bfda589a9a1808cc64a47302254eb17d82a",
+      "before_sha256": "d5978aecee5041595b0e85fb30d0a64fde3666ad9188365df92ac8f76febf723"
+    },
+    "art/sky_ships/lanes.json": {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\sky_lanes\\art\\sky_ships\\lanes.json",
+      "sha256": "8ce37fb3739f898ded7b286271b71101684b7852114bf5ec34a8e6db52a0c19e",
+      "before_sha256": "5614fa15088c1b14b1d9fc5c4bc441f80762701864d29f75813a097b0eedf4d7"
+    }
+  },
+  "landed_at": "2026-10-07T14:00:29.722028-04:00",
+  "kind": "Conduit support retained; non-blocking native presentation",
+  "game_launched": false,
+  "native_built": false
+}

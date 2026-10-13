@@ -1,0 +1,8 @@
+{
+  "resolution": 2048,
+  "uv": "HeroSkullUV",
+  "source_uv": "SourceBoneUV",
+  "ao_distance": 2.2,
+  "normal_y": "DirectX",
+  "native_visual_verified": false
+}

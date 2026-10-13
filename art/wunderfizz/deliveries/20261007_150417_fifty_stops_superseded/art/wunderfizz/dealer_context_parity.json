@@ -1,0 +1,25 @@
+{
+  "same": true,
+  "liveSha256": "622078d654f4176974b664e036e93812c95761dcc86b0cdeaea183a7be54c437",
+  "candidateSha256": "622078d654f4176974b664e036e93812c95761dcc86b0cdeaea183a7be54c437",
+  "scenes": [
+    {
+      "id": "crown_junction",
+      "same": true,
+      "before": 18,
+      "after": 18
+    },
+    {
+      "id": "floor20_service",
+      "same": true,
+      "before": 112,
+      "after": 112
+    },
+    {
+      "id": "lower_power_corridor",
+      "same": true,
+      "before": 4,
+      "after": 4
+    }
+  ]
+}

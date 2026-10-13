@@ -1,0 +1,221 @@
+{
+  "authoring": "Blender MCP execute_blender_code",
+  "models": [
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 0,
+      "triangles": 11004,
+      "meshes": 55,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin",
+      "sha256": "c0b4376cf5d109f6540909aa47e8683654f212f0876b2b9b57ff449ba40174cf",
+      "bounds": [
+        [
+          -26.0,
+          -26.0,
+          0.0
+        ],
+        [
+          26.0,
+          29.0,
+          48.349998474121094
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 1,
+      "triangles": 2880,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin",
+      "sha256": "64990aed9b4f24378e4ae4ca8437cbc1bdf583a75e51591af76bade1fb8299b2",
+      "bounds": [
+        [
+          -25.976890563964844,
+          -26.0,
+          0.0
+        ],
+        [
+          26.0,
+          29.0,
+          48.350120544433594
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 2,
+      "triangles": 1300,
+      "meshes": 18,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin",
+      "sha256": "34d993701418cf966a4b620958e79980e059afe16cd851594ee158078e7565d1",
+      "bounds": [
+        [
+          -25.971416473388672,
+          -25.96596908569336,
+          0.014780402183532715
+        ],
+        [
+          25.971416473388672,
+          28.9748477935791,
+          48.333251953125
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 0,
+      "triangles": 3256,
+      "meshes": 9,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod0.xmodel_bin",
+      "sha256": "641feb6e1f80b180db7ab8d89c19c723320df6375b0ad7c0281893da653dc2e3",
+      "bounds": [
+        [
+          -9.300000190734863,
+          -13.300000190734863,
+          -13.5
+        ],
+        [
+          5.099999904632568,
+          13.300000190734863,
+          15.299999237060547
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 1,
+      "triangles": 1422,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod1.xmodel_bin",
+      "sha256": "61f6fec261ccb86ca03662eb46b2b1f4ad380c89a7e30509c3f49b33174cb907",
+      "bounds": [
+        [
+          -9.299749374389648,
+          -13.327444076538086,
+          -13.500123977661133
+        ],
+        [
+          4.999407768249512,
+          13.327444076538086,
+          15.327442169189453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_off",
+      "lod": 2,
+      "triangles": 644,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod2.xmodel_bin",
+      "sha256": "87288681d5af50a88b17377ddcd23d8e040c128724bf8026e26e8e265d3252eb",
+      "bounds": [
+        [
+          -9.299103736877441,
+          -13.213854789733887,
+          -13.500801086425781
+        ],
+        [
+          4.956813812255859,
+          13.213854789733887,
+          15.213855743408203
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 0,
+      "triangles": 3256,
+      "meshes": 9,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod0.xmodel_bin",
+      "sha256": "af261509d896d3468b8939b79cef4c5b8d8e26e94cba0cf4f47c078f53157434",
+      "bounds": [
+        [
+          -9.300000190734863,
+          -13.300000190734863,
+          -13.5
+        ],
+        [
+          5.099999904632568,
+          13.300000190734863,
+          15.299999237060547
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 1,
+      "triangles": 1422,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod1.xmodel_bin",
+      "sha256": "e8308971a4675d364002ec57ce95620e36f571ed2e39b893379ad9e20230a8f8",
+      "bounds": [
+        [
+          -9.299749374389648,
+          -13.327444076538086,
+          -13.500123977661133
+        ],
+        [
+          4.999407768249512,
+          13.327444076538086,
+          15.327442169189453
+        ]
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_rotor_on",
+      "lod": 2,
+      "triangles": 644,
+      "meshes": 8,
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod2.xmodel_bin",
+      "sha256": "de4513eec289e72ff4cae5ad6351425ddc46a29e5903fbb744beb6f74657e1d1",
+      "bounds": [
+        [
+          -9.299103736877441,
+          -13.213854789733887,
+          -13.500801086425781
+        ],
+        [
+          4.956813812255859,
+          13.213854789733887,
+          15.213855743408203
+        ]
+      ]
+    }
+  ],
+  "textures": {
+    "i_tod_alarm_cast_c.png": "315e44cdc67c8e5bbd58a140bd7dd7f5ebb62f9e4ad91bc7fafa691535e529a1",
+    "i_tod_alarm_cast_g.png": "8edad65f2e9157423c2eaadeee43196e602c766b149143d3ec9fefe481f9e5cd",
+    "i_tod_alarm_cast_s.png": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+    "i_tod_alarm_cast_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_steel_c.png": "5d56b881e06a89e133be2b51e9b0a9da05965344a6850d43618798f823afb029",
+    "i_tod_alarm_steel_g.png": "ba99df2b89a910c1750c1e14afed45d20c00ccdcd08cbdba5e52e3ca7f1a876b",
+    "i_tod_alarm_steel_s.png": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+    "i_tod_alarm_steel_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_rubber_c.png": "4787fb52584ed6cb82aba66fb82e219172d9d3215cb069cf3328dad1d73aeacd",
+    "i_tod_alarm_rubber_g.png": "a7e9d34d5098459bbd6bed491c1069ee0129a1eea8a0b695cd64ef5c73145b4e",
+    "i_tod_alarm_rubber_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_rubber_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_reflector_c.png": "0277a0929260078d41ec5cb5b73f6b353af8e4fb95b4a3155c18626148ef23ba",
+    "i_tod_alarm_reflector_g.png": "ad61926d95ee3773df0c2319dc9ff44cfeb9b0738b2a9ebaf110256ee3b36970",
+    "i_tod_alarm_reflector_s.png": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+    "i_tod_alarm_reflector_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_lens_c.png": "fd0fd962f94d9ef7420ed8a027c7d8639246252f5e2841310268dd068f146502",
+    "i_tod_alarm_lens_g.png": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75",
+    "i_tod_alarm_lens_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_lens_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_lamp_off_c.png": "77c09242819a1c5c57eb91af6418a933213387c0b9c7daa444d3707a116ac4e5",
+    "i_tod_alarm_lamp_off_g.png": "90b046266c2a9b8644710a7a231487206d1fd78e06ccdfe4cca082bad87b1853",
+    "i_tod_alarm_lamp_off_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_lamp_off_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_alarm_lamp_on_c.png": "860ffb96b6e7bbdb5da3079a778e83030a9920c0e31c8c7fc46368f241b38669",
+    "i_tod_alarm_lamp_on_g.png": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75",
+    "i_tod_alarm_lamp_on_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_alarm_lamp_on_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+  },
+  "pivot_z": 26,
+  "height": 48.35,
+  "width": 52,
+  "turn_seconds": 1.5,
+  "fixture_count": 30,
+  "preview_native_verified": false
+}

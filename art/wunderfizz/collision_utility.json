@@ -1,0 +1,24 @@
+{
+  "source": "C:\\BO3Tools\\TOD2Cybercity\\gdtdb\\gdt.db",
+  "access": "SQLite mode=ro; writable_schema pragma only allows parsing oversized unrelated stock table definitions; no writes.",
+  "table": "material",
+  "query_name": "clip_slick",
+  "values": {
+    "PK_id": 66164,
+    "_name": "clip_slick",
+    "_precalc_md5": "57-D9-88-81-52-76-4C-BA-A0-7C-55-A6-84-F4-98-03",
+    "materialType": "tools_blend",
+    "noDraw": 1,
+    "usage": "clip",
+    "nonSolid": 1,
+    "playerClip": 1,
+    "aiClip": 1,
+    "slick": 1,
+    "bulletClip": 0,
+    "missileClip": 0,
+    "surfaceType": "<none>",
+    "colorMap": "clip_slick"
+  },
+  "observed_at": "2026-10-07T14:02:30.344433-04:00",
+  "classification": "Exact noDraw collision utility. Visual-material allow rule remains tod_cc_ prefix or exact anchored utility list."
+}

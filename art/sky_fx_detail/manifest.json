@@ -1,0 +1,23 @@
+{
+  "seed": 290926,
+  "mcp_port": 9894,
+  "authoring": "actual Blender MCP, editable curves rendered orthographically",
+  "native_playtested": false,
+  "images": {
+    "i_tod_sky_meteor_wake.png": "062553636a5d105c730f4bba1332164159505e0ec5ec4abff2b9473956a80048",
+    "i_tod_sky_rift_dust.png": "f8f4f41854dcbd19bb54746fb02ab58057487c7d761097312237f0bbcb4a1117",
+    "i_tod_sky_rift_fibre.png": "0802b4c49eb8e6d4f577d58eb557e3d0a4280880b97fea81a552113ad6becab4",
+    "i_tod_sky_rift_void.png": "6062a24197ea7195fa85584d0e67afde637860912937a3dd46660321eb3ed220"
+  },
+  "refinement": "tapered torn fibres; tapered soft grazing-alpha dust",
+  "master_sha256": "32f5f2dc76a52dc8cdd68d96dc410d939ec00a3ab54ef03f4f77596f02f0c9de",
+  "sources": {
+    "01_author.py": "460c293041961a179374269478543a4ee4855ad804b3a9ae2b9ab7ff7b7bc492",
+    "02_void.py": "b39656f784b46f6c8eb68bc4fc96d5cc5974c741e939c9deba70284353cd5ea7",
+    "03_taper.py": "d5ab38cab374d058f7b1fa9615a6e2f08c0db79be37681ec3a98c379b72302b1",
+    "04_review.py": "b93dcb25e4957475ca7a1abaecd647d4a3aa0b1f28562a45bd7cb0987fcbeb3b",
+    "05_phase_preview.py": "0025695aabe5af98380dcc8a6336ae11d2efcf534d134cdde568b43750f2b0ad",
+    "06_black_export.py": "96adc3aac64c79e96e3ab62fd9518de019e61012de1be24676cf739447f46da7"
+  },
+  "native_preview_limit": "Authored texture layers only; native stock flow/lightning/distortion, bloom/exposure and OIT need user review."
+}

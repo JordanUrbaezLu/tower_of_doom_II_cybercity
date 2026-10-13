@@ -1,0 +1,73 @@
+{
+  "native_radius": 100,
+  "tell_seconds": 1.8,
+  "fps": 30,
+  "bloom": false,
+  "preview_only": true,
+  "poses": {
+    "shock_warning": {
+      "clip": "tod_dealer_c_shock",
+      "weapon": "dg2",
+      "frame": 15,
+      "clip_sha256": "b5c7f74ff683bfb2fc98ff51bda1fe5bed6ab3d5d685e3f378e0799913c68baa",
+      "weapon_tag": [
+        3.085681438446045,
+        -1.2976152896881104,
+        65.26575469970703
+      ],
+      "muzzle": [
+        44.195411682128906,
+        -1.2983510494232178,
+        64.31365966796875
+      ]
+    },
+    "shock_release": {
+      "clip": "tod_dealer_c_shock",
+      "weapon": "dg2",
+      "frame": 57,
+      "clip_sha256": "b5c7f74ff683bfb2fc98ff51bda1fe5bed6ab3d5d685e3f378e0799913c68baa",
+      "weapon_tag": [
+        1.157218337059021,
+        -1.5472936630249023,
+        69.42754364013672
+      ],
+      "muzzle": [
+        42.22813415527344,
+        -1.547328233718872,
+        67.45346069335938
+      ]
+    },
+    "burst_warning": {
+      "clip": "tod_dealer_c_burst",
+      "weapon": "dingo",
+      "frame": 15,
+      "clip_sha256": "6d5dfaa0a555ee30735869590214a3d6ade5bb75aabc37284ca14a7c96d295f6",
+      "weapon_tag": [
+        3.7592012882232666,
+        -1.6728241443634033,
+        59.92052459716797
+      ],
+      "muzzle": [
+        27.154117584228516,
+        -1.6718385219573975,
+        61.47480392456055
+      ]
+    },
+    "burst_fire": {
+      "clip": "tod_dealer_c_burst",
+      "weapon": "dingo",
+      "frame": 43,
+      "clip_sha256": "6d5dfaa0a555ee30735869590214a3d6ade5bb75aabc37284ca14a7c96d295f6",
+      "weapon_tag": [
+        4.067949295043945,
+        -1.2912076711654663,
+        59.4445915222168
+      ],
+      "muzzle": [
+        27.47640037536621,
+        -1.2910600900650024,
+        60.785186767578125
+      ]
+    }
+  }
+}

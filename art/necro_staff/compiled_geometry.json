@@ -1,0 +1,115 @@
+{
+  "lods": [
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 0,
+      "source": 37394,
+      "compiled": 37394,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 1,
+      "source": 19413,
+      "compiled": 19413,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 2,
+      "source": 8201,
+      "compiled": 8201,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 0,
+      "source": 37394,
+      "compiled": 37394,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 1,
+      "source": 19413,
+      "compiled": 19413,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 2,
+      "source": 8201,
+      "compiled": 8201,
+      "removed_slivers": 0
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 0,
+      "source": 69007,
+      "compiled": 65928,
+      "removed_slivers": 3079,
+      "max_removed_triangle_area": 9.144593379498216e-05,
+      "removed_surface_area": 0.07351465547052066,
+      "source_surface_area": 1398.5990004615458,
+      "removed_surface_percent": 0.005256306878973916
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 1,
+      "source": 39050,
+      "compiled": 38723,
+      "removed_slivers": 327,
+      "max_removed_triangle_area": 8.812581405966393e-05,
+      "removed_surface_area": 0.007044297685801979,
+      "source_surface_area": 1390.703638785232,
+      "removed_surface_percent": 0.0005065275943302424
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 2,
+      "source": 19785,
+      "compiled": 19679,
+      "removed_slivers": 106,
+      "max_removed_triangle_area": 9.738617827909839e-05,
+      "removed_surface_area": 0.001591163986670416,
+      "source_surface_area": 1351.5603282791712,
+      "removed_surface_percent": 0.00011772792922209488
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 0,
+      "source": 69007,
+      "compiled": 65928,
+      "removed_slivers": 3079,
+      "max_removed_triangle_area": 9.144593379498216e-05,
+      "removed_surface_area": 0.07351465547052066,
+      "source_surface_area": 1398.5990004615458,
+      "removed_surface_percent": 0.005256306878973916
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 1,
+      "source": 39050,
+      "compiled": 38723,
+      "removed_slivers": 327,
+      "max_removed_triangle_area": 8.812581405966393e-05,
+      "removed_surface_area": 0.007044297685801979,
+      "source_surface_area": 1390.703638785232,
+      "removed_surface_percent": 0.0005065275943302424
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 2,
+      "source": 19785,
+      "compiled": 19679,
+      "removed_slivers": 106,
+      "max_removed_triangle_area": 9.738617827909839e-05,
+      "removed_surface_area": 0.001591163986670416,
+      "source_surface_area": 1351.5603282791712,
+      "removed_surface_percent": 0.00011772792922209488
+    }
+  ],
+  "models_sha256": "75c03cabee0519ea9d988890bb9bcab4c3be29439e2584cbeca5d03f9720a970",
+  "native_visual_verified": false,
+  "note": "All Tier 2 triangles retained. Tier 3 drops are fully accounted for by microscopic forged-blade slivers; under 0.02 percent of surface area in every LOD. Leather rim UV stretching warnings do not remove its geometry."
+}

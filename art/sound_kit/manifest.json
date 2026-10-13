@@ -1,0 +1,248 @@
+{
+  "source": "files - 2026-09-29T120517.688.zip",
+  "brief": "docs/194_sound_kit_prompt.md",
+  "files": {
+    "tod_pull_rung_1": {
+      "sha256": "4c73943c55cde0279951c6ed7787eb4ef623f16ad9c66143d5f35e33a597fd6c",
+      "secs": 0.45,
+      "lufs": -11.5,
+      "source_sha256": "4c73943c55cde0279951c6ed7787eb4ef623f16ad9c66143d5f35e33a597fd6c",
+      "how": "as delivered"
+    },
+    "tod_pull_rung_2": {
+      "sha256": "8c4faf71f51fcf886a740ff23e28f020ff937604ef8328f4d05ba87f7bfd9194",
+      "secs": 0.45,
+      "lufs": -11.0,
+      "source_sha256": "8c4faf71f51fcf886a740ff23e28f020ff937604ef8328f4d05ba87f7bfd9194",
+      "how": "as delivered"
+    },
+    "tod_pull_rung_3": {
+      "sha256": "1754a5b95e85763ef9d7b1a3f529fddc67691dd3d5ffc1843a535f3e34cefa7b",
+      "secs": 0.45,
+      "lufs": -10.3,
+      "source_sha256": "1754a5b95e85763ef9d7b1a3f529fddc67691dd3d5ffc1843a535f3e34cefa7b",
+      "how": "as delivered"
+    },
+    "tod_pull_rung_4": {
+      "sha256": "0fd4fed3d9b236ecb42feacef78f6033b6f71d82a8b3b6fd03838573626b626b",
+      "secs": 0.45,
+      "lufs": -9.4,
+      "source_sha256": "0fd4fed3d9b236ecb42feacef78f6033b6f71d82a8b3b6fd03838573626b626b",
+      "how": "as delivered"
+    },
+    "tod_pull_beat": {
+      "sha256": "a6550a10505fba50f855e0b979c6531a2988d87f1d1a34034e1de9a29fa27747",
+      "secs": 0.4,
+      "lufs": -13.0,
+      "source_sha256": "a6550a10505fba50f855e0b979c6531a2988d87f1d1a34034e1de9a29fa27747",
+      "how": "as delivered"
+    },
+    "tod_pull_legendary": {
+      "sha256": "3aa661b2869b4aae89f56b7ec1ceca226b52769081e5bc65b07402a887af33e8",
+      "secs": 2.0,
+      "lufs": -8.2,
+      "source_sha256": "3aa661b2869b4aae89f56b7ec1ceca226b52769081e5bc65b07402a887af33e8",
+      "how": "as delivered"
+    },
+    "tod_pull_alert": {
+      "sha256": "131b3a908b0ffb822bcd3409fdd9a0d8930d9924dd8a3ee94fe6527920731b00",
+      "secs": 0.9,
+      "lufs": -9.3,
+      "source_sha256": "131b3a908b0ffb822bcd3409fdd9a0d8930d9924dd8a3ee94fe6527920731b00",
+      "how": "as delivered"
+    },
+    "tod_spin_coin": {
+      "sha256": "8d3ca3702208634d59f30171c5297c650215d6f0f60aa0a563cb4cf2fa112456",
+      "secs": 0.6,
+      "lufs": -11.3,
+      "source_sha256": "8d3ca3702208634d59f30171c5297c650215d6f0f60aa0a563cb4cf2fa112456",
+      "how": "as delivered"
+    },
+    "tod_spin_open": {
+      "sha256": "a879e73a321fdc230c5312f7fb06e243f2189b7534f8a38785e67e46b26bbd65",
+      "secs": 0.8,
+      "lufs": -11.4,
+      "source_sha256": "a879e73a321fdc230c5312f7fb06e243f2189b7534f8a38785e67e46b26bbd65",
+      "how": "as delivered"
+    },
+    "tod_spin_luck": {
+      "sha256": "df47016dc4ef93e9a10850d944bd10a32637c68124690e26aabe718f63e58ad9",
+      "secs": 0.7,
+      "lufs": -11.6,
+      "source_sha256": "df47016dc4ef93e9a10850d944bd10a32637c68124690e26aabe718f63e58ad9",
+      "how": "as delivered"
+    },
+    "tod_spin_start": {
+      "sha256": "4149b04e30e85e374f0608ed4d9e2c276818e665be581f76a9b27895ee279c33",
+      "secs": 0.9,
+      "lufs": -11.7,
+      "source_sha256": "4149b04e30e85e374f0608ed4d9e2c276818e665be581f76a9b27895ee279c33",
+      "how": "as delivered"
+    },
+    "tod_spin_tick_1": {
+      "sha256": "14e5f260b5cce237a26d48572fa8c9f2b9746ca147f5f6e3ca411e4af2268d5f",
+      "secs": 0.08,
+      "lufs": -70.0,
+      "source_sha256": "14e5f260b5cce237a26d48572fa8c9f2b9746ca147f5f6e3ca411e4af2268d5f",
+      "how": "as delivered"
+    },
+    "tod_spin_tick_2": {
+      "sha256": "02e5f2cabe44d4923557551c03ed1c55512ec28b7b7a26f08e7a588974ed3250",
+      "secs": 0.08,
+      "lufs": -70.0,
+      "source_sha256": "02e5f2cabe44d4923557551c03ed1c55512ec28b7b7a26f08e7a588974ed3250",
+      "how": "as delivered"
+    },
+    "tod_spin_tick_3": {
+      "sha256": "b79fd29bd3d2307395fc2e27a985711bce663418b647d6038bd41d4ec75a060a",
+      "secs": 0.08,
+      "lufs": -70.0,
+      "source_sha256": "b79fd29bd3d2307395fc2e27a985711bce663418b647d6038bd41d4ec75a060a",
+      "how": "as delivered"
+    },
+    "tod_spin_crawl": {
+      "sha256": "92049119b3151c5da492d10231e134a9354c1ec7cdca283573d4d90384dbab16",
+      "secs": 0.25,
+      "lufs": -70.0,
+      "source_sha256": "92049119b3151c5da492d10231e134a9354c1ec7cdca283573d4d90384dbab16",
+      "how": "as delivered"
+    },
+    "tod_spin_stop": {
+      "sha256": "59f1d29e0fd65a802325216a170614c10f555b897b784dc5e483849470a940d2",
+      "secs": 0.4,
+      "lufs": -13.7,
+      "source_sha256": "59f1d29e0fd65a802325216a170614c10f555b897b784dc5e483849470a940d2",
+      "how": "as delivered"
+    },
+    "tod_spin_socket": {
+      "sha256": "d5ea8db42b4f0c24fb7bd5194e9777e3c0a65749a53f60de9cf1966010df5a02",
+      "secs": 0.6,
+      "lufs": -10.7,
+      "source_sha256": "d5ea8db42b4f0c24fb7bd5194e9777e3c0a65749a53f60de9cf1966010df5a02",
+      "how": "as delivered"
+    },
+    "tod_spin_upgrade": {
+      "sha256": "046600d681ec0d9d25797e0746b78de32a5217c45088c603983c85481d69b899",
+      "secs": 0.8,
+      "lufs": -10.1,
+      "source_sha256": "046600d681ec0d9d25797e0746b78de32a5217c45088c603983c85481d69b899",
+      "how": "as delivered"
+    },
+    "tod_spin_scrap": {
+      "sha256": "ac41798ed4c9ae815c8325d4250ebd2599c262333ab72fc9abc6790c450d4c63",
+      "secs": 0.8,
+      "lufs": -11.1,
+      "source_sha256": "ac41798ed4c9ae815c8325d4250ebd2599c262333ab72fc9abc6790c450d4c63",
+      "how": "as delivered"
+    },
+    "tod_spin_close": {
+      "sha256": "2cb3f1edc0305695f30b97e70b076414ccb50344d2d5e19cc635bd2c16c0e48a",
+      "secs": 0.5,
+      "lufs": -13.9,
+      "source_sha256": "2cb3f1edc0305695f30b97e70b076414ccb50344d2d5e19cc635bd2c16c0e48a",
+      "how": "as delivered"
+    },
+    "tod_spin_vo_buy_1": {
+      "sha256": "88e3e8a103cb711b6eb6d9f9cd70680fda6166a69ec7a37b1fce3fba3bfa35e2",
+      "secs": 2.081,
+      "lufs": -13.0,
+      "source_sha256": "88e3e8a103cb711b6eb6d9f9cd70680fda6166a69ec7a37b1fce3fba3bfa35e2",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_buy_2": {
+      "sha256": "c7589d8f8615a10d7e5a21d504cd855b274c5a66d46b6795e82c334223712c54",
+      "secs": 4.955,
+      "lufs": -13.1,
+      "source_sha256": "c7589d8f8615a10d7e5a21d504cd855b274c5a66d46b6795e82c334223712c54",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_buy_3": {
+      "sha256": "3eb234650f53d32c89cca920bc9e4180c49cc4756d6cee961bdf58a7eef64f1d",
+      "secs": 5.341,
+      "lufs": -13.0,
+      "source_sha256": "3eb234650f53d32c89cca920bc9e4180c49cc4756d6cee961bdf58a7eef64f1d",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_common_1": {
+      "sha256": "d9783c6620047170d961c5581363a90317f427c492907ca47a4c9fb25188b59a",
+      "secs": 4.517,
+      "lufs": -13.0,
+      "source_sha256": "d9783c6620047170d961c5581363a90317f427c492907ca47a4c9fb25188b59a",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_common_2": {
+      "sha256": "26159d318ba543df7c540524637514817729a960f594304f39570b4d592be7d5",
+      "secs": 1.356,
+      "lufs": -13.0,
+      "source_sha256": "26159d318ba543df7c540524637514817729a960f594304f39570b4d592be7d5",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_epic_1": {
+      "sha256": "5a7acb96bd1af988af46f4c6c1ac32c0be476b69d1af98c0bb5fd4aa09222ff4",
+      "secs": 4.784,
+      "lufs": -13.0,
+      "source_sha256": "5a7acb96bd1af988af46f4c6c1ac32c0be476b69d1af98c0bb5fd4aa09222ff4",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_epic_2": {
+      "sha256": "b7bc7b7aefd9c06d36a8e83f3d5ca6dc5c8e26f86bff91486f76f842e8d72860",
+      "secs": 7.253,
+      "lufs": -13.0,
+      "source_sha256": "b7bc7b7aefd9c06d36a8e83f3d5ca6dc5c8e26f86bff91486f76f842e8d72860",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_legendary_1": {
+      "sha256": "ff8a142b2602bc02f3ed56b4498f8b34de9c37e2f90015af253a12e483829362",
+      "secs": 7.925,
+      "lufs": -13.0,
+      "source_sha256": "ff8a142b2602bc02f3ed56b4498f8b34de9c37e2f90015af253a12e483829362",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_legendary_2": {
+      "sha256": "0c06be875f41bd12f895598e296b5e6c155571ed1ea049e01d8457e825dedd61",
+      "secs": 8.05,
+      "lufs": -13.0,
+      "source_sha256": "0c06be875f41bd12f895598e296b5e6c155571ed1ea049e01d8457e825dedd61",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    },
+    "tod_spin_vo_close": {
+      "sha256": "c2c5c403f31038aa19d7a54936c19863c2cc15f34c91905e7a552c566a5591e2",
+      "secs": 4.691,
+      "lufs": -13.0,
+      "source_sha256": "c2c5c403f31038aa19d7a54936c19863c2cc15f34c91905e7a552c566a5591e2",
+      "how": "ElevenLabs eleven_v4 (tools/black_market_vo), take 1"
+    }
+  },
+  "aliases": [
+    "tod_spin_coin",
+    "tod_spin_open",
+    "tod_spin_luck",
+    "tod_spin_start",
+    "tod_spin_tick_1",
+    "tod_spin_tick_2",
+    "tod_spin_tick_3",
+    "tod_spin_crawl_1",
+    "tod_spin_crawl_2",
+    "tod_spin_crawl_3",
+    "tod_spin_crawl_4",
+    "tod_spin_crawl_5",
+    "tod_spin_stop",
+    "tod_spin_socket",
+    "tod_spin_upgrade",
+    "tod_spin_scrap",
+    "tod_spin_close",
+    "tod_spin_vo_buy_1",
+    "tod_spin_vo_buy_2",
+    "tod_spin_vo_buy_3",
+    "tod_spin_vo_common_1",
+    "tod_spin_vo_common_2",
+    "tod_spin_vo_epic_1",
+    "tod_spin_vo_epic_2",
+    "tod_spin_vo_legendary_1",
+    "tod_spin_vo_legendary_2",
+    "tod_spin_vo_close"
+  ],
+  "alias_table": "sound/aliases/tod_ui.csv",
+  "pitch_units": "cents",
+  "native_played": false
+}

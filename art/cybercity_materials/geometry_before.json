@@ -1,0 +1,27 @@
+{
+  "source": "C:/BO3Tools/TOD2Cybercity/map_source/zm/zm_tod2_cybercity.map",
+  "crown hall floor": {
+    "lo": [
+      -768,
+      7840,
+      19376
+    ],
+    "hi": [
+      768,
+      9376,
+      19392
+    ]
+  },
+  "crown wall W": {
+    "lo": [
+      -768,
+      8032,
+      19392
+    ],
+    "hi": [
+      -728,
+      9184,
+      19968
+    ]
+  }
+}

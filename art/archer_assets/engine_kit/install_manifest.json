@@ -1,0 +1,286 @@
+{
+  "models": [
+    {
+      "asset": "tod_archer_hook",
+      "triangles": 662,
+      "file": "model_export/tod_archer/tod_archer_hook.xmodel_bin",
+      "sha256": "d9b57fbbdad7a98f81e1d04974b1e8e94a24eb4e561aef41db805abc59438c3e"
+    },
+    {
+      "asset": "tod_archer_pathfinder_prop",
+      "triangles": 2012,
+      "file": "model_export/tod_archer/tod_archer_pathfinder_prop.xmodel_bin",
+      "sha256": "c60f5b58c1158d26441452a55426d65a8481d1e7162094b3a1cf587d3090d669"
+    },
+    {
+      "asset": "tod_archer_retriever_world",
+      "lod": 0,
+      "file": "model_export/tod_archer/tod_archer_retriever_world_lod0.xmodel_bin",
+      "sha256": "dbef1b1a13fe9597d6346071e8ab1b11782c64ffb1a58eb07a0548abf2b37fed",
+      "triangles": 1361
+    },
+    {
+      "asset": "tod_archer_retriever_world",
+      "lod": 1,
+      "file": "model_export/tod_archer/tod_archer_retriever_world_lod1.xmodel_bin",
+      "sha256": "da8ffa03bb21b80148f629b40c4191a36805e71d71a2674d2e5ab84621ce174d",
+      "triangles": 250
+    },
+    {
+      "asset": "tod_archer_retriever_world",
+      "lod": 2,
+      "file": "model_export/tod_archer/tod_archer_retriever_world_lod2.xmodel_bin",
+      "sha256": "4d5e331758a748d42d2a2b4388c33d2c209779a0bc9ef8ab846c052eb892095b",
+      "triangles": 23
+    },
+    {
+      "asset": "tod_archer_bo2_hands",
+      "file": "model_export/tod_archer/tod_archer_bo2_hands.xmodel_bin",
+      "sha256": "6e99f0ec55e9d79de12a06ca1ea2906e45a9250a466e48d2d705bde9743dce3d",
+      "triangles": 7240,
+      "bones": 60
+    },
+    {
+      "asset": "tod_archer_retriever_view",
+      "file": "model_export/tod_archer/tod_archer_retriever_view.xmodel_bin",
+      "sha256": "4298074dd48640456993bbfa41f3ca8ff154f668ddc09eaa2c94f3c0d442c5d2",
+      "triangles": 2501,
+      "bones": 9
+    },
+    {
+      "asset": "tod_archer_grapple_hands",
+      "file": "model_export/tod_archer/tod_archer_grapple_hands.xmodel_bin",
+      "sha256": "3e86bea2888e8c15094b5da1d7d6102c0127a5c628e6ce9f1c2416f91822d49f",
+      "triangles": 7240,
+      "bones": 61
+    },
+    {
+      "asset": "tod_archer_grapple_view",
+      "file": "model_export/tod_archer/tod_archer_grapple_view.xmodel_bin",
+      "sha256": "7402e23aaf97c8fa9cdea97ccf29cd0ed6475f99c64e2803c0c04e281dbc6cc3",
+      "triangles": 2200,
+      "bones": 1
+    }
+  ],
+  "audio": [
+    {
+      "alias": "tod_archer_hook_fire",
+      "source": "source_library/archer_equipment/apex_grapple/audio/audio/grapple_fire_2ch_v1_01.wav",
+      "file": "sound_assets/tod/archer/hook_fire.wav",
+      "seconds": 0.6460416666666666,
+      "sha256": "f6bf78760810f1cebdac541f28f01549328c8cbf3261a9a5cc0da0015dfdb763"
+    },
+    {
+      "alias": "tod_archer_hook_attach",
+      "source": "source_library/archer_equipment/apex_grapple/audio/audio/imp_grapple_default_2ch_v1_01.wav",
+      "file": "sound_assets/tod/archer/hook_attach.wav",
+      "seconds": 0.6292291666666666,
+      "sha256": "394353726ad682d79b048f4aed4453bf669b9ecca6cf9df69cab470bd54a6e20"
+    },
+    {
+      "alias": "tod_archer_hook_pull",
+      "source": "source_library/archer_equipment/apex_grapple/audio/audio/grapple_traverse_2ch_v1_01.wav",
+      "file": "sound_assets/tod/archer/hook_pull.wav",
+      "seconds": 2.244125,
+      "sha256": "76547ff297c2f8c19d25f998e831013b13dfe9c533ae8ff0e73302f123797387"
+    },
+    {
+      "alias": "tod_archer_hook_release",
+      "source": "source_library/archer_equipment/apex_grapple/audio/audio/grapple_retract_2ch_v1_01.wav",
+      "file": "sound_assets/tod/archer/hook_release.wav",
+      "seconds": 0.4965833333333333,
+      "sha256": "5c2abe571f12781e7a267f6967ed17b8bc788e186a7e6fcd2794bdc7591500c6"
+    },
+    {
+      "alias": "tod_archer_hook_ready",
+      "source": "source_library/archer_equipment/apex_grapple/audio/audio/pilot_grapple_ready_2ch_v1_01.wav",
+      "file": "sound_assets/tod/archer/hook_ready.wav",
+      "seconds": 0.5583958333333333,
+      "sha256": "d30a3d38053b5e38dea5348488dfe5498c9a3197613277ad5301e341a416b1df"
+    },
+    {
+      "alias": "tod_archer_axe_hit",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/imp/tom_imp_00.LN55.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_hit_0.wav",
+      "seconds": 1.374,
+      "sha256": "585183ce3326d3dcf8b33bbfab4a5bcd3ad372e070374739066b6e7274bde9cd"
+    },
+    {
+      "alias": "tod_archer_axe_hit",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/imp/tom_imp_01.LN55.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_hit_1.wav",
+      "seconds": 1.01375,
+      "sha256": "7437866824f65c26c19461458a73e7d89c048bef3ec0fe2cfbf30efc039dbf9b"
+    },
+    {
+      "alias": "tod_archer_axe_hit",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/imp/tom_imp_02.LN55.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_hit_2.wav",
+      "seconds": 1.1433541666666667,
+      "sha256": "432374bc93dbb2491c8e14b076d4c29e9a6cbf28dcfc02d42c68e003354cec00"
+    },
+    {
+      "alias": "tod_archer_axe_hit",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/imp/tom_imp_03.LN55.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_hit_3.wav",
+      "seconds": 1.4031666666666667,
+      "sha256": "735882111570920f788ecdfdb9bf5742c0d3c79b415f24b56a2df44c4d3a8596"
+    },
+    {
+      "alias": "tod_archer_axe_throw",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/throw/tom_throw_00.LN65.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_throw_0.wav",
+      "seconds": 1.5613333333333332,
+      "sha256": "57be80bfae1de282dbff69345f30a06567785b8b0fff208979625afc2b7f47d9"
+    },
+    {
+      "alias": "tod_archer_axe_throw",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/throw/tom_throw_01.LN65.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_throw_1.wav",
+      "seconds": 1.5873541666666666,
+      "sha256": "a3a01c8bd2e149b542fa94d66e1004491d9e2c4c71d327fab5be13c01ac84272"
+    },
+    {
+      "alias": "tod_archer_axe_spin",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/tom_spin.LL55.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_spin.wav",
+      "seconds": 4.431125,
+      "sha256": "f7bab23b792845b7b6315dc05fb96def9fe1ee5ddf858f0c7fbb6b43fe30c3dc"
+    },
+    {
+      "alias": "tod_archer_axe_return",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/tom_incoming.LN65.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_return.wav",
+      "seconds": 4.1343958333333335,
+      "sha256": "6cc460ed4225038587afd7df4562835132975bd9fce9cd8b564c6c466f6db896"
+    },
+    {
+      "alias": "tod_archer_axe_catch",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/tom_catch.LN65.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_catch.wav",
+      "seconds": 0.342875,
+      "sha256": "3a8ea07e4ebeaa724097c90c7050a1b9f9a425157635ba68fdf980bff1a10272"
+    },
+    {
+      "alias": "tod_archer_axe_ready",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/tomahawk_cooldown.LN65.pc.snd.wav",
+      "file": "sound_assets/tod/archer/axe_ready.wav",
+      "seconds": 0.9362291666666667,
+      "sha256": "78863633d1999cbcd7b5261a2a7e63bce80b2d6a53dc05ed43daec03f344ca86"
+    },
+    {
+      "alias": "tod_archer_axe_first_raise",
+      "source": "source_library/archer_equipment/retriever/sound/wpn/tomahawk/tomahawk_first_raise_1.SN65.pc.snd.flac",
+      "file": "sound_assets/tod/archer/axe_first_raise.wav",
+      "sha256": "767ce76307286cddbdfec8d4c271bd8037792be21f8d5f4737efd466fa81aae4",
+      "seconds": 2.272
+    }
+  ],
+  "textures": {
+    "model_export/tod_archer/_images/i_tod_archer_axe_hud.png": "eab721de176b73b9cc8f857abb36f3ed00f960fa4d642679c90224fce27dc0d2",
+    "model_export/tod_archer/_images/i_tod_archer_cable.png": "1c8c7b88fc021a3c93ba5b32e540c25a6435692181b947196b8e3bc5f1773994",
+    "model_export/tod_archer/_images/i_tod_archer_charge_ring.tiff": "545a44340116ca869f2a0650cd3b67ff75e4c47fcacadf7b33d12381ba85267b",
+    "model_export/tod_archer/_images/i_tod_archer_hands_0_col.png": "92f18d012c0851bf1b81a2fa0073294d75bda363a06014a02cb2fd07b904bbd2",
+    "model_export/tod_archer/_images/i_tod_archer_hands_0_nml.png": "dffb4d6f02985ba7360f42f2d17c8a749edfadcae869dff254a2f72b367c8109",
+    "model_export/tod_archer/_images/i_tod_archer_hands_0_spc.png": "f26705ae9202da1d67f054bcb47a44b512a255dd8ca6e1bb1038ff7a9384d2a0",
+    "model_export/tod_archer/_images/i_tod_archer_hands_1_col.png": "77f833a87514bda80d5554ccbbd3c594c1ed5b12a17191e0f77629f94d26a17e",
+    "model_export/tod_archer/_images/i_tod_archer_hands_1_nml.png": "378ce9313cf7c524b587ed31a1c42a17a17ded11c5dec7d40ba3955b3fb08229",
+    "model_export/tod_archer/_images/i_tod_archer_hands_1_spc.png": "a2396c724235293c8e41ad4d9982bb7d160ef2781de84e987249845a3f9b72e3",
+    "model_export/tod_archer/_images/i_tod_archer_hook_col.png": "ea686392489850eb6b7b125d947602f61daa1452b03708a65af5e6073fb5eab6",
+    "model_export/tod_archer/_images/i_tod_archer_hook_gls.png": "801a3545528174b62fb5894e6188cbbb75d65b338bb56d07eb5c988a2a96d7ad",
+    "model_export/tod_archer/_images/i_tod_archer_hook_hud.png": "c5ede01e6e8c4225b197276c758d4c2c1eab0b86654d19825b9f7e154481791c",
+    "model_export/tod_archer/_images/i_tod_archer_hook_nml.png": "0db408175abfdecff4221cc4475cc8b407f22fc921be118043a61021e1cf93bd",
+    "model_export/tod_archer/_images/i_tod_archer_hook_spc.png": "ea42c54bbe0175149aecf9620fc58bbabb2ec99654b1debce97910c7b4490a15",
+    "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_col.png": "eff5efd3837d85649af5361673584f3bb43f7b294c7ae8ea3c3fa96a22800960",
+    "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_gls.png": "c33b52f5ed65845c2d64ef6956b86f3e9261f7aa4f9ae3d77ca2cf0ed2aa25d2",
+    "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_nml.png": "f6ab370da821570de733e2fc059f82b734bcfaa6ba28c22df2a8f95fa8be4b9f",
+    "model_export/tod_archer/_images/i_tod_archer_pathfinder_prop_spc.png": "0cb171269f2f6f4ed67b13d6b01ec16c90484b77328ffb38300dac17d1a8ceb7",
+    "model_export/tod_archer/_images/i_tod_retriever_blade_col.png": "b423052c68f4cfb81b925aa88db8522d82dba74054d66501c6b3c21a8f12bea6",
+    "model_export/tod_archer/_images/i_tod_retriever_blade_gls.png": "484edfa8ecabad27dfd1c53c2a8aa28c47ef14689aa6b2d8e0554d8524693b82",
+    "model_export/tod_archer/_images/i_tod_retriever_blade_nml.png": "0cb979b223ec0384086459c984648cb25425e16622a3ce2c4608475eff1cbe6c",
+    "model_export/tod_archer/_images/i_tod_retriever_blade_spc.png": "584e7308f1b297cda35e7ffde04ca8a30206495652a5a173335d98b78997b2f3",
+    "model_export/tod_archer/_images/i_tod_retriever_body_col.png": "b04391d0079774d35ff61bd82816c775a98984e8efef056bc6bfc51e3a6af923",
+    "model_export/tod_archer/_images/i_tod_retriever_body_gls.png": "6b0ea00f6a96e4c4ca9a67a4eac157048dfffd654d605141c2224be05c0d8f7f",
+    "model_export/tod_archer/_images/i_tod_retriever_body_nml.png": "8f392b85030c108a9e95e1d4d5620dc147a501680ec3f7b7ad724e350604d75a",
+    "model_export/tod_archer/_images/i_tod_retriever_body_spc.png": "1f728eba0c6f679e8d2f086658fbf39db50832108f9dbc3fff1c411f252df1c4",
+    "model_export/tod_archer/_images/i_tod_retriever_ember_atlas.png": "07be7366daa7ddb2728526dde0b1f9dcf9676db910f0bf0aa824da78d949c02d",
+    "model_export/tod_archer/_images/i_tod_retriever_fringe_col.png": "e5d8f8313d7028d544521a84155cf9984998a1942427c25e1736f13e949f63ed",
+    "model_export/tod_archer/_images/i_tod_retriever_fringe_gls.png": "f619cae80d11bea28b1ef5a0d92f14da4b7f3081f023e0cb988af01d334345ff",
+    "model_export/tod_archer/_images/i_tod_retriever_fringe_nml.png": "a73112c0c3c6de5551c33b889a0c57f1577e6196d7a1873d03de9313f34bc9fa",
+    "model_export/tod_archer/_images/i_tod_retriever_fringe_spc.png": "f73076f744cc472df14b782aef2443ffe9a052fc3cc2e3a990c297bdf942bf74"
+  },
+  "gdt_sha256": "5d601e671bdab4b222891275acaf4864352bf03694a76deaa7e6ded6082bedf2",
+  "native_tested": false,
+  "additional_gdts": {
+    "source_data/tod_archer_charge.gdt": "a7a9312105207e7a767df4b51dcb4e166f440675ec23d2d2d9d4ceefa299c7a4",
+    "source_data/tod_archer_grapple_view.gdt": "9261f66d4df365829aee13fe81bca391ac9bcbc12d597f3c4ffdf994ba5f4b8b",
+    "source_data/tod_archer_motion.gdt": "1dd54d600243be2f00476c604729f25d65c0d8bd5cf6b122bc323708e2268f81",
+    "source_data/tod_archer_weapons.gdt": "ff961b8291d13828f6783adde5a9cc0db5e7c6649b15b05133a0d9aa96a8b258",
+    "source_data/tod_retriever.gdt": "482ff4e137a7271ba0c824e673aa2e9af3ac54cc286eeef936e73a52981925ef"
+  },
+  "animations": [
+    {
+      "asset": "tod_archer_flourish",
+      "file": "xanim_export/tod_archer/tod_archer_flourish.xanim_bin",
+      "sha256": "0965ef6da4fe2e0964d14b06debcfcd619be75243256fb7df0283a432d67d853",
+      "frames": 48,
+      "fps": 30,
+      "bones": 69
+    },
+    {
+      "asset": "tod_archer_flourish_idle",
+      "file": "xanim_export/tod_archer/tod_archer_flourish_idle.xanim_bin",
+      "sha256": "49ab3da5db2d4ec6c7c3eebb184008069164a2d6f796185d88871198991617f1",
+      "frames": 11,
+      "fps": 30,
+      "bones": 69
+    },
+    {
+      "asset": "tod_archer_grapple_idle",
+      "file": "xanim_export/tod_archer/tod_archer_grapple_idle.xanim_bin",
+      "sha256": "f23642ba26280b18ef55666b3f542be1780f49f046d19c8f3cd53a175b20b222",
+      "frames": 1,
+      "fps": 30,
+      "bones": 62
+    },
+    {
+      "asset": "tod_archer_grapple_lower",
+      "file": "xanim_export/tod_archer/tod_archer_grapple_lower.xanim_bin",
+      "sha256": "fd2b9e40391f256ef951735d728328419641893551a43529d68beb3d019461b9",
+      "frames": 5,
+      "fps": 30,
+      "bones": 62
+    },
+    {
+      "asset": "tod_archer_grapple_raise",
+      "file": "xanim_export/tod_archer/tod_archer_grapple_raise.xanim_bin",
+      "sha256": "711ed6bfbd1db5112ca1efbfe5cd9b6d26af581252cbca076e40eff3432d5913",
+      "frames": 5,
+      "fps": 30,
+      "bones": 62
+    },
+    {
+      "asset": "tod_archer_hold",
+      "file": "xanim_export/tod_archer/tod_archer_hold.xanim_bin",
+      "sha256": "ad5bdf30135e6a407b00b6d90861e28669a201eefec51f22ddb690b16292d734",
+      "frames": 6,
+      "fps": 30,
+      "bones": 69
+    },
+    {
+      "asset": "tod_archer_throw",
+      "file": "xanim_export/tod_archer/tod_archer_throw.xanim_bin",
+      "sha256": "a13d39c482e73c6b200f5483b23919f5393c2bc9abbcc79a8ba33e0c14890a48",
+      "frames": 21,
+      "fps": 30,
+      "bones": 69
+    }
+  ],
+  "conversion_models": {
+    "model_export/tod_archer/tod_archer_flourish_idle_rig.xmodel_bin": "25a0ea49b8dc6179629389e58c4a274e47d8c0127a2911f6f14ff6c3b4853055",
+    "model_export/tod_archer/tod_archer_flourish_rig.xmodel_bin": "25a0ea49b8dc6179629389e58c4a274e47d8c0127a2911f6f14ff6c3b4853055",
+    "model_export/tod_archer/tod_archer_grapple_rig.xmodel_bin": "aa87d4b971fe228064adf3805b372508cdcb92c6cecafa3da80adcab3894d9ba",
+    "model_export/tod_archer/tod_archer_hold_rig.xmodel_bin": "b8acd39c9f716809ec96507d08d74b30ab396b3f8d768088fee32af604e2b814",
+    "model_export/tod_archer/tod_archer_throw_rig.xmodel_bin": "b8acd39c9f716809ec96507d08d74b30ab396b3f8d768088fee32af604e2b814"
+  }
+}

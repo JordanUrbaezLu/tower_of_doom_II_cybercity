@@ -1,0 +1,162 @@
+{
+  "models": [
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 0,
+      "triangles": 50106,
+      "vertices": 27683,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod0.XMODEL_BIN",
+      "sha256": "7fcde633154ec1798b79afdf0b7fa1e5ee50808c88cf8862a0c378900d8488ce"
+    },
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 1,
+      "triangles": 24805,
+      "vertices": 14938,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod1.XMODEL_BIN",
+      "sha256": "fb10557498e7ebca49bc759be6ff7cd90453db38a54a11412dc1b7e022638cb2"
+    },
+    {
+      "asset": "tod_necro_staff2_view",
+      "lod": 2,
+      "triangles": 7196,
+      "vertices": 4510,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod2.XMODEL_BIN",
+      "sha256": "dcf3754569e991b740a3f2314f58fff6ae4b9f748f0967b902d978f1e72a8a68"
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 0,
+      "triangles": 50106,
+      "vertices": 27683,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod0.XMODEL_BIN",
+      "sha256": "8c03b7d0b85c9406156389d07b5b2f2bc7c23a2c75fd71172049700e8096915d"
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 1,
+      "triangles": 24805,
+      "vertices": 14938,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod1.XMODEL_BIN",
+      "sha256": "6f2762e9eaf18aad5e3f1e869e1074a2ae2b40fdfd370640bb769b84797f5d29"
+    },
+    {
+      "asset": "tod_necro_staff2_world",
+      "lod": 2,
+      "triangles": 7196,
+      "vertices": 4510,
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod2.XMODEL_BIN",
+      "sha256": "71d97b989c2cddeb12434e1a725d4b52262481818e099559a4979d9433d8cd22"
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 0,
+      "triangles": 63896,
+      "vertices": 34971,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod0.XMODEL_BIN",
+      "sha256": "7261b09e17c602e7cc824a0505abc627527cc043a43392c3bdb5a650cd96de2a"
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 1,
+      "triangles": 31874,
+      "vertices": 18726,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod1.XMODEL_BIN",
+      "sha256": "c9d52b307ab041db4cea96e01deb583b5382c25430f943f727bffb09d328c9d3"
+    },
+    {
+      "asset": "tod_necro_staff3_view",
+      "lod": 2,
+      "triangles": 8764,
+      "vertices": 5359,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod2.XMODEL_BIN",
+      "sha256": "d09e88cb48a5b2aef2c62b18b815006bc0bda96ca57635a4f71c3390848d6f51"
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 0,
+      "triangles": 63896,
+      "vertices": 34971,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod0.XMODEL_BIN",
+      "sha256": "b8d82dc5f8e3f4abc9505bda24c1ff8ca6a640e83d729eb2ae518fb676fd69c5"
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 1,
+      "triangles": 31874,
+      "vertices": 18726,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod1.XMODEL_BIN",
+      "sha256": "5d9bf845753d3737ca0d45d5cd2ff988cee7d4846528cb36e947abea2db3d4f9"
+    },
+    {
+      "asset": "tod_necro_staff3_world",
+      "lod": 2,
+      "triangles": 8764,
+      "vertices": 5359,
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod2.XMODEL_BIN",
+      "sha256": "244335ae84213e5dc22ac19af06bfe2726f83ee642031f51e14b91d5b8b7e39f"
+    }
+  ],
+  "view_transform": [
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "tags_canonical": {
+    "tag_flash": [
+      0,
+      -3.9,
+      32
+    ],
+    "tag_fx_mouth": [
+      0,
+      -3.9,
+      31.4
+    ],
+    "tag_fx_left": [
+      -1.5,
+      -2.7,
+      33.6
+    ],
+    "tag_fx_right": [
+      1.5,
+      -2.7,
+      33.6
+    ]
+  },
+  "view_tags": {
+    "tag_flash": [
+      24.52698516845703,
+      0.0,
+      5.839023590087891
+    ],
+    "tag_fx_mouth": [
+      24.371692657470703,
+      0.0,
+      5.259468078613281
+    ],
+    "tag_fx_left": [
+      26.10020637512207,
+      1.5,
+      7.073920249938965
+    ],
+    "tag_fx_right": [
+      26.10020637512207,
+      -1.5,
+      7.073920249938965
+    ]
+  },
+  "native_visual_verified": false
+}

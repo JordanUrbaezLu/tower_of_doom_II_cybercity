@@ -1,0 +1,23 @@
+{
+  "textures": {
+    "i_tod2_ws_emitter_c.png": "9ddedf1de6ba666685e56d48210837abf835691c0dbc0008148d4e0576aa2862",
+    "i_tod2_ws_emitter_s.png": "86e2880c0435b623f1846837579d9daa34b40dd5d180161f0c2f9516cf19a71e",
+    "i_tod2_ws_emitter_g.png": "6d27b1ea456398d0629175cf89ebf2ce00f5d02d82ce235cd1e305e6b29eee3a",
+    "i_tod2_ws_emitter_e.png": "2b5f1b23612deb35db628efb3e54fea756f21e785660130f44bfd345c3b350d1",
+    "i_tod2_ws_emitter_n.png": "28df14e181e7d8ad5351016522c2290befd5ae3fd848197e2778f6f13d1ab521"
+  },
+  "master": "art/wunderstrahl/wunderstrahl.blend",
+  "master_sha256": "268be4c6a41ef628564bbc0f70d889da12ddedfa741b4a0095dc999297941b57",
+  "atlas": "art/wunderstrahl/engine_kit/atlas.json",
+  "atlas_sha256": "d779b027c350f86bb283c9a4dc5be8c58c869bf9f5b1a37f6c7ab9a1703563c1",
+  "size": 2048,
+  "normal_convention": "tangent space, DirectX (green = -Y)",
+  "emission_scale": 16.0,
+  "samples": {
+    "n": 24,
+    "other": 128
+  },
+  "device": "GPU",
+  "triangles": 8038,
+  "normal_clamped_texels": 108
+}

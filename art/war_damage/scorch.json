@@ -1,0 +1,894 @@
+{
+ "generated_by": "tools/war_damage/layout.js",
+ "breaks": 24,
+ "labels": {
+  "lap48 broken catch deck": {
+   "faces": null
+  },
+  "lap48 broken outer rail": {
+   "faces": null
+  },
+  "lap48 broken landing fascia": {
+   "faces": null
+  },
+  "lap48 broken frame outer stump": {
+   "faces": null
+  },
+  "lap48 broken frame core scar": {
+   "faces": null
+  },
+  "lap48 broken nose fragment a": {
+   "faces": null
+  },
+  "lap48 broken nose fragment b": {
+   "faces": null
+  },
+  "lap48 SW landing": {
+   "faces": null
+  },
+  "lap48 SW landing para a": {
+   "faces": null
+  },
+  "lap48 SW landing para b": {
+   "faces": null
+  },
+  "core band lap48 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap47 broken catch deck": {
+   "faces": null
+  },
+  "lap47 broken outer rail": {
+   "faces": null
+  },
+  "lap47 broken landing fascia": {
+   "faces": null
+  },
+  "lap47 broken frame outer stump": {
+   "faces": null
+  },
+  "lap47 broken frame core scar": {
+   "faces": null
+  },
+  "lap47 broken nose fragment a": {
+   "faces": null
+  },
+  "lap47 broken nose fragment b": {
+   "faces": null
+  },
+  "lap47 NE landing": {
+   "faces": null
+  },
+  "lap47 NE landing para a": {
+   "faces": null
+  },
+  "lap47 NE landing para b": {
+   "faces": null
+  },
+  "core band lap47 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap45 broken catch deck": {
+   "faces": null
+  },
+  "lap45 broken outer rail": {
+   "faces": null
+  },
+  "lap45 broken landing fascia": {
+   "faces": null
+  },
+  "lap45 broken frame outer stump": {
+   "faces": null
+  },
+  "lap45 broken frame core scar": {
+   "faces": null
+  },
+  "lap45 broken nose fragment a": {
+   "faces": null
+  },
+  "lap45 broken nose fragment b": {
+   "faces": null
+  },
+  "lap45 NE landing": {
+   "faces": null
+  },
+  "lap45 NE landing para a": {
+   "faces": null
+  },
+  "lap45 NE landing para b": {
+   "faces": null
+  },
+  "core band lap45 NE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap43 broken catch deck": {
+   "faces": null
+  },
+  "lap43 broken outer rail": {
+   "faces": null
+  },
+  "lap43 broken landing fascia": {
+   "faces": null
+  },
+  "lap43 broken frame outer stump": {
+   "faces": null
+  },
+  "lap43 broken frame core scar": {
+   "faces": null
+  },
+  "lap43 broken nose fragment a": {
+   "faces": null
+  },
+  "lap43 broken nose fragment b": {
+   "faces": null
+  },
+  "lap43 NE landing": {
+   "faces": null
+  },
+  "lap43 NE landing para a": {
+   "faces": null
+  },
+  "lap43 NE landing para b": {
+   "faces": null
+  },
+  "core band lap43 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap42 broken catch deck": {
+   "faces": null
+  },
+  "lap42 broken outer rail": {
+   "faces": null
+  },
+  "lap42 broken landing fascia": {
+   "faces": null
+  },
+  "lap42 broken frame outer stump": {
+   "faces": null
+  },
+  "lap42 broken frame core scar": {
+   "faces": null
+  },
+  "lap42 broken nose fragment a": {
+   "faces": null
+  },
+  "lap42 broken nose fragment b": {
+   "faces": null
+  },
+  "lap42 SW landing": {
+   "faces": null
+  },
+  "lap42 SW landing para a": {
+   "faces": null
+  },
+  "lap42 SW landing para b": {
+   "faces": null
+  },
+  "core band lap42 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap39 broken catch deck": {
+   "faces": null
+  },
+  "lap39 broken outer rail": {
+   "faces": null
+  },
+  "lap39 broken landing fascia": {
+   "faces": null
+  },
+  "lap39 broken frame outer stump": {
+   "faces": null
+  },
+  "lap39 broken frame core scar": {
+   "faces": null
+  },
+  "lap39 broken nose fragment a": {
+   "faces": null
+  },
+  "lap39 broken nose fragment b": {
+   "faces": null
+  },
+  "lap39 NE landing": {
+   "faces": null
+  },
+  "lap39 NE landing para a": {
+   "faces": null
+  },
+  "lap39 NE landing para b": {
+   "faces": null
+  },
+  "core band lap39 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap37 broken catch deck": {
+   "faces": null
+  },
+  "lap37 broken outer rail": {
+   "faces": null
+  },
+  "lap37 broken landing fascia": {
+   "faces": null
+  },
+  "lap37 broken frame outer stump": {
+   "faces": null
+  },
+  "lap37 broken frame core scar": {
+   "faces": null
+  },
+  "lap37 broken nose fragment a": {
+   "faces": null
+  },
+  "lap37 broken nose fragment b": {
+   "faces": null
+  },
+  "lap37 NE landing": {
+   "faces": null
+  },
+  "lap37 NE landing para a": {
+   "faces": null
+  },
+  "lap37 NE landing para b": {
+   "faces": null
+  },
+  "core band lap37 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap36 broken catch deck": {
+   "faces": null
+  },
+  "lap36 broken outer rail": {
+   "faces": null
+  },
+  "lap36 broken landing fascia": {
+   "faces": null
+  },
+  "lap36 broken frame outer stump": {
+   "faces": null
+  },
+  "lap36 broken frame core scar": {
+   "faces": null
+  },
+  "lap36 broken nose fragment a": {
+   "faces": null
+  },
+  "lap36 broken nose fragment b": {
+   "faces": null
+  },
+  "lap36 SW landing": {
+   "faces": null
+  },
+  "lap36 SW landing para a": {
+   "faces": null
+  },
+  "lap36 SW landing para b": {
+   "faces": null
+  },
+  "core band lap36 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap34 broken catch deck": {
+   "faces": null
+  },
+  "lap34 broken outer rail": {
+   "faces": null
+  },
+  "lap34 broken landing fascia": {
+   "faces": null
+  },
+  "lap34 broken frame outer stump": {
+   "faces": null
+  },
+  "lap34 broken frame core scar": {
+   "faces": null
+  },
+  "lap34 broken nose fragment a": {
+   "faces": null
+  },
+  "lap34 broken nose fragment b": {
+   "faces": null
+  },
+  "lap34 SW landing": {
+   "faces": null
+  },
+  "lap34 SW landing para a": {
+   "faces": null
+  },
+  "lap34 SW landing para b": {
+   "faces": null
+  },
+  "core band lap34 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap32 broken catch deck": {
+   "faces": null
+  },
+  "lap32 broken outer rail": {
+   "faces": null
+  },
+  "lap32 broken landing fascia": {
+   "faces": null
+  },
+  "lap32 broken frame outer stump": {
+   "faces": null
+  },
+  "lap32 broken frame core scar": {
+   "faces": null
+  },
+  "lap32 broken nose fragment a": {
+   "faces": null
+  },
+  "lap32 broken nose fragment b": {
+   "faces": null
+  },
+  "lap32 SW landing": {
+   "faces": null
+  },
+  "lap32 SW landing para a": {
+   "faces": null
+  },
+  "lap32 SW landing para b": {
+   "faces": null
+  },
+  "core band lap32 SW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap29 broken catch deck": {
+   "faces": null
+  },
+  "lap29 broken outer rail": {
+   "faces": null
+  },
+  "lap29 broken landing fascia": {
+   "faces": null
+  },
+  "lap29 broken frame outer stump": {
+   "faces": null
+  },
+  "lap29 broken frame core scar": {
+   "faces": null
+  },
+  "lap29 broken nose fragment a": {
+   "faces": null
+  },
+  "lap29 broken nose fragment b": {
+   "faces": null
+  },
+  "lap29 NE landing": {
+   "faces": null
+  },
+  "lap29 NE landing para a": {
+   "faces": null
+  },
+  "lap29 NE landing para b": {
+   "faces": null
+  },
+  "core band lap29 NE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap28 broken catch deck": {
+   "faces": null
+  },
+  "lap28 broken outer rail": {
+   "faces": null
+  },
+  "lap28 broken landing fascia": {
+   "faces": null
+  },
+  "lap28 broken frame outer stump": {
+   "faces": null
+  },
+  "lap28 broken frame core scar": {
+   "faces": null
+  },
+  "lap28 broken nose fragment a": {
+   "faces": null
+  },
+  "lap28 broken nose fragment b": {
+   "faces": null
+  },
+  "lap28 SW landing": {
+   "faces": null
+  },
+  "lap28 SW landing para a": {
+   "faces": null
+  },
+  "lap28 SW landing para b": {
+   "faces": null
+  },
+  "core band lap28 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap26 broken catch deck": {
+   "faces": null
+  },
+  "lap26 broken outer rail": {
+   "faces": null
+  },
+  "lap26 broken landing fascia": {
+   "faces": null
+  },
+  "lap26 broken frame outer stump": {
+   "faces": null
+  },
+  "lap26 broken frame core scar": {
+   "faces": null
+  },
+  "lap26 broken nose fragment a": {
+   "faces": null
+  },
+  "lap26 broken nose fragment b": {
+   "faces": null
+  },
+  "lap26 SW landing": {
+   "faces": null
+  },
+  "lap26 SW landing para a": {
+   "faces": null
+  },
+  "lap26 SW landing para b": {
+   "faces": null
+  },
+  "core band lap26 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap24 broken catch deck": {
+   "faces": null
+  },
+  "lap24 broken outer rail": {
+   "faces": null
+  },
+  "lap24 broken landing fascia": {
+   "faces": null
+  },
+  "lap24 broken frame outer stump": {
+   "faces": null
+  },
+  "lap24 broken frame core scar": {
+   "faces": null
+  },
+  "lap24 broken nose fragment a": {
+   "faces": null
+  },
+  "lap24 broken nose fragment b": {
+   "faces": null
+  },
+  "lap24 SW landing": {
+   "faces": null
+  },
+  "lap24 SW landing para a": {
+   "faces": null
+  },
+  "lap24 SW landing para b": {
+   "faces": null
+  },
+  "core band lap24 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap23 broken catch deck": {
+   "faces": null
+  },
+  "lap23 broken outer rail": {
+   "faces": null
+  },
+  "lap23 broken landing fascia": {
+   "faces": null
+  },
+  "lap23 broken frame outer stump": {
+   "faces": null
+  },
+  "lap23 broken frame core scar": {
+   "faces": null
+  },
+  "lap23 broken nose fragment a": {
+   "faces": null
+  },
+  "lap23 broken nose fragment b": {
+   "faces": null
+  },
+  "lap23 NE landing": {
+   "faces": null
+  },
+  "lap23 NE landing para a": {
+   "faces": null
+  },
+  "lap23 NE landing para b": {
+   "faces": null
+  },
+  "core band lap23 NE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap19 broken catch deck": {
+   "faces": null
+  },
+  "lap19 broken outer rail": {
+   "faces": null
+  },
+  "lap19 broken landing fascia": {
+   "faces": null
+  },
+  "lap19 broken frame outer stump": {
+   "faces": null
+  },
+  "lap19 broken frame core scar": {
+   "faces": null
+  },
+  "lap19 broken nose fragment a": {
+   "faces": null
+  },
+  "lap19 broken nose fragment b": {
+   "faces": null
+  },
+  "lap19 NE landing": {
+   "faces": null
+  },
+  "lap19 NE landing para a": {
+   "faces": null
+  },
+  "lap19 NE landing para b": {
+   "faces": null
+  },
+  "core band lap19 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap18 broken catch deck": {
+   "faces": null
+  },
+  "lap18 broken outer rail": {
+   "faces": null
+  },
+  "lap18 broken landing fascia": {
+   "faces": null
+  },
+  "lap18 broken frame outer stump": {
+   "faces": null
+  },
+  "lap18 broken frame core scar": {
+   "faces": null
+  },
+  "lap18 broken nose fragment a": {
+   "faces": null
+  },
+  "lap18 broken nose fragment b": {
+   "faces": null
+  },
+  "lap18 SW landing": {
+   "faces": null
+  },
+  "lap18 SW landing para a": {
+   "faces": null
+  },
+  "lap18 SW landing para b": {
+   "faces": null
+  },
+  "core band lap18 SW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap16 broken catch deck": {
+   "faces": null
+  },
+  "lap16 broken outer rail": {
+   "faces": null
+  },
+  "lap16 broken landing fascia": {
+   "faces": null
+  },
+  "lap16 broken frame outer stump": {
+   "faces": null
+  },
+  "lap16 broken frame core scar": {
+   "faces": null
+  },
+  "lap16 broken nose fragment a": {
+   "faces": null
+  },
+  "lap16 broken nose fragment b": {
+   "faces": null
+  },
+  "lap16 SW landing": {
+   "faces": null
+  },
+  "lap16 SW landing para a": {
+   "faces": null
+  },
+  "lap16 SW landing para b": {
+   "faces": null
+  },
+  "core band lap16 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap14 broken catch deck": {
+   "faces": null
+  },
+  "lap14 broken outer rail": {
+   "faces": null
+  },
+  "lap14 broken landing fascia": {
+   "faces": null
+  },
+  "lap14 broken frame outer stump": {
+   "faces": null
+  },
+  "lap14 broken frame core scar": {
+   "faces": null
+  },
+  "lap14 broken nose fragment a": {
+   "faces": null
+  },
+  "lap14 broken nose fragment b": {
+   "faces": null
+  },
+  "lap14 SW landing": {
+   "faces": null
+  },
+  "lap14 SW landing para a": {
+   "faces": null
+  },
+  "lap14 SW landing para b": {
+   "faces": null
+  },
+  "core band lap14 NW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap13 broken catch deck": {
+   "faces": null
+  },
+  "lap13 broken outer rail": {
+   "faces": null
+  },
+  "lap13 broken landing fascia": {
+   "faces": null
+  },
+  "lap13 broken frame outer stump": {
+   "faces": null
+  },
+  "lap13 broken frame core scar": {
+   "faces": null
+  },
+  "lap13 broken nose fragment a": {
+   "faces": null
+  },
+  "lap13 broken nose fragment b": {
+   "faces": null
+  },
+  "lap13 NE landing": {
+   "faces": null
+  },
+  "lap13 NE landing para a": {
+   "faces": null
+  },
+  "lap13 NE landing para b": {
+   "faces": null
+  },
+  "core band lap13 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap9 broken catch deck": {
+   "faces": null
+  },
+  "lap9 broken outer rail": {
+   "faces": null
+  },
+  "lap9 broken landing fascia": {
+   "faces": null
+  },
+  "lap9 broken frame outer stump": {
+   "faces": null
+  },
+  "lap9 broken frame core scar": {
+   "faces": null
+  },
+  "lap9 broken nose fragment a": {
+   "faces": null
+  },
+  "lap9 broken nose fragment b": {
+   "faces": null
+  },
+  "lap9 NE landing": {
+   "faces": null
+  },
+  "lap9 NE landing para a": {
+   "faces": null
+  },
+  "lap9 NE landing para b": {
+   "faces": null
+  },
+  "core band lap9 SE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap7 broken catch deck": {
+   "faces": null
+  },
+  "lap7 broken outer rail": {
+   "faces": null
+  },
+  "lap7 broken landing fascia": {
+   "faces": null
+  },
+  "lap7 broken frame outer stump": {
+   "faces": null
+  },
+  "lap7 broken frame core scar": {
+   "faces": null
+  },
+  "lap7 broken nose fragment a": {
+   "faces": null
+  },
+  "lap7 broken nose fragment b": {
+   "faces": null
+  },
+  "lap7 NE landing": {
+   "faces": null
+  },
+  "lap7 NE landing para a": {
+   "faces": null
+  },
+  "lap7 NE landing para b": {
+   "faces": null
+  },
+  "core band lap7 NE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  },
+  "lap6 broken catch deck": {
+   "faces": null
+  },
+  "lap6 broken outer rail": {
+   "faces": null
+  },
+  "lap6 broken landing fascia": {
+   "faces": null
+  },
+  "lap6 broken frame outer stump": {
+   "faces": null
+  },
+  "lap6 broken frame core scar": {
+   "faces": null
+  },
+  "lap6 broken nose fragment a": {
+   "faces": null
+  },
+  "lap6 broken nose fragment b": {
+   "faces": null
+  },
+  "lap6 SW landing": {
+   "faces": null
+  },
+  "lap6 SW landing para a": {
+   "faces": null
+  },
+  "lap6 SW landing para b": {
+   "faces": null
+  },
+  "core band lap6 SW": {
+   "faces": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "lap3 broken catch deck": {
+   "faces": null
+  },
+  "lap3 broken outer rail": {
+   "faces": null
+  },
+  "lap3 broken landing fascia": {
+   "faces": null
+  },
+  "lap3 broken frame outer stump": {
+   "faces": null
+  },
+  "lap3 broken frame core scar": {
+   "faces": null
+  },
+  "lap3 broken nose fragment a": {
+   "faces": null
+  },
+  "lap3 broken nose fragment b": {
+   "faces": null
+  },
+  "lap3 NE landing": {
+   "faces": null
+  },
+  "lap3 NE landing para a": {
+   "faces": null
+  },
+  "lap3 NE landing para b": {
+   "faces": null
+  },
+  "core band lap3 NE": {
+   "faces": [
+    1,
+    0,
+    0
+   ]
+  }
+ }
+}

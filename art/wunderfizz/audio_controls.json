@@ -1,0 +1,19 @@
+{
+  "controls": [
+    {
+      "defect": "loop changed into one-shot",
+      "rejected": true,
+      "reason": "Alias subset/native fields changed"
+    },
+    {
+      "defect": "activation electricity Secondary removed",
+      "rejected": true,
+      "reason": "Alias subset/native fields changed"
+    },
+    {
+      "defect": "original PCM altered by one byte",
+      "rejected": true,
+      "reason": "('Native candidate differs from original', 'evt_wunderfizz_spark_01.wav')"
+    }
+  ]
+}

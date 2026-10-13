@@ -1,0 +1,474 @@
+{
+  "feature": "THE WUNDERSTRAHL (docs/219) - model track",
+  "native_built": false,
+  "native_playtested": false,
+  "inputs": {
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_view_LOD0.XMODEL_BIN": {
+      "sha256": "3d2835a08b0773341e726daf66231a90fe981510e011c4953083eeccd3c50f74",
+      "bytes": 856586
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_skeleton.XMODEL_BIN": {
+      "sha256": "037ca938a99503786401e300fff2175203add35973d44f51f1df13cbc00241d4",
+      "bytes": 3160038
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/source_data/_midgetblaster/t7_base_dg2.gdt": {
+      "sha256": "0f981eb2131da868d54d3bbaababa2cfa0cfa6dc0271f54a5a3f60470e3a0a45",
+      "bytes": 222498
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD0.XMODEL_BIN": {
+      "sha256": "da9d2f122f75bca1dc4542fe400191d6348bb2719eadc1e09c0a194fb7cae917",
+      "bytes": 844336
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD1.XMODEL_BIN": {
+      "sha256": "93c78df32f0e9ba933ef83aa1cf727e3ad86669e6a7126f329af409f73a2bd6d",
+      "bytes": 427633
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD2.XMODEL_BIN": {
+      "sha256": "233f2757c23b6b84728f799defa970d30e7458bca2989519136ffdfd6568eb89",
+      "bytes": 303098
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD3.XMODEL_BIN": {
+      "sha256": "e1b3d62c67ddbb71dfb2a8fc99e6e1d6428bb53db3e1363c4abfa28249e06220",
+      "bytes": 172627
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD4.XMODEL_BIN": {
+      "sha256": "6182ea32528fa973114360448eafa08a3035db7ea2cbaa638a62481a90f2cf61",
+      "bytes": 101145
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD5.XMODEL_BIN": {
+      "sha256": "ae35dff7d590b379899b86d2dad1d793effe718d3344f047287ceed313bc89a4",
+      "bytes": 54726
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD6.XMODEL_BIN": {
+      "sha256": "a950213dfe6b06108b412d7237d4e99b5685407fab044ba9b16cbcafe43e1e17",
+      "bytes": 30034
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD7.XMODEL_BIN": {
+      "sha256": "57dabb5c99e085ca881a8f55c67cb86f34170f7ca1b4efdee74c5f2d0cc68724",
+      "bytes": 16626
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$black_multimask.png": {
+      "sha256": "417e5e90ec9ccefb2cf03ceb422aa71f5724d010c7bec2b59d6908976fa59231",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_gloss.png": {
+      "sha256": "d41f38479d8b0745c44259e285ce2ec33aed8e7ea01a0b59dfc43d9a8a5ca0b4",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_mask.png": {
+      "sha256": "cd8a1f862b8886877047a23bdc131e1e7cb0d11fe8e99834160f218efa9ce8a4",
+      "bytes": 148
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$camo_base_normal.png": {
+      "sha256": "da3066d5f292578073520208e0b6c48b129ddc71673ecf1b47027dc04b8fd361",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$gray_32_one_channel.png": {
+      "sha256": "59fde556c5aacf6f424cadeb7ddbc7b511eba08f3abc3a127f1724f0172ca348",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$identitynormalmap.png": {
+      "sha256": "da3066d5f292578073520208e0b6c48b129ddc71673ecf1b47027dc04b8fd361",
+      "bytes": 150
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/$white_reveal.png": {
+      "sha256": "cd8a1f862b8886877047a23bdc131e1e7cb0d11fe8e99834160f218efa9ce8a4",
+      "bytes": 148
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_c.png": {
+      "sha256": "2f67eb1a59461f8d68d6cca40707ddcd5efdbd67f2ad27cbe77ad814a2f87e20",
+      "bytes": 6100784
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_g.png": {
+      "sha256": "4c7c4795379fb995dd5d2e090a9b84a679b85e05c6243aa43e5f50ca2eb5117b",
+      "bytes": 5406576
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_n.png": {
+      "sha256": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+      "bytes": 6351483
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_o.png": {
+      "sha256": "44b7043edd7a4ef72d5c6534455864c9b75406e87c3fcb1321a669bbf817883d",
+      "bytes": 39119
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_r.png": {
+      "sha256": "c4ed22740482d08c2cb1c21c3d8377ede44a433a7d59f22102f338ccf40c6560",
+      "bytes": 52938
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_body_s.png": {
+      "sha256": "5acafa320b5f12b7facdc2361dd3e9cb5574ce404a0d8c0f6b08a190d7615ef6",
+      "bytes": 2660620
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_c.png": {
+      "sha256": "97f8167bd14c7a5ed11f218675f0a852b36266f6ca7ca83fb03f729ef7869f33",
+      "bytes": 84139
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_e.png": {
+      "sha256": "2ccb26c9a3e6ef4c32e4e3bdf52ad37c4dcaa032f6d9ce0b46f002e143e1961a",
+      "bytes": 69788
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_glass_n.png": {
+      "sha256": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+      "bytes": 79880
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_c.png": {
+      "sha256": "721f736b17f9573d6eda766b97f745958580b55adc4a38aa144ad8a28c752483",
+      "bytes": 4077873
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_g.png": {
+      "sha256": "1d423a0d470e38e93837f62e4ea28f47c3695139bf030b770ac6c13b1fd283b0",
+      "bytes": 5292393
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_n.png": {
+      "sha256": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+      "bytes": 6721346
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_o.png": {
+      "sha256": "8a451286e1e46ca02e0115f30beed4de37d726e1cc8c1a860d3bd0eb3769edfb",
+      "bytes": 44427
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_r.png": {
+      "sha256": "7f1e150c8b0bf7efba7ed119afb89a30d02c7cdf921f66d68a352b04e7caf782",
+      "bytes": 139014
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_metal_s.png": {
+      "sha256": "c99798fa4269b41c9a18a1eef8feb818fe1dd0d353642947d4c054a860299a24",
+      "bytes": 1961588
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_c.png": {
+      "sha256": "3d83547fde31d5845b4ebece4369ff536b503b6d82efb493f1fcc77e5f0fe887",
+      "bytes": 5581270
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_g.png": {
+      "sha256": "cb0684a4e1038dbb2a45639f99039e43dedf483ea1ed91a0beb9668d7d505806",
+      "bytes": 4909714
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_n.png": {
+      "sha256": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+      "bytes": 6714366
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_o.png": {
+      "sha256": "d6e3fe94f90de7c2b6f9a8315dc6749864598087c9a55b88b9f8f9149333786a",
+      "bytes": 38613
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_r.png": {
+      "sha256": "c395802ef873a5703959093c4255bcdf49e3dfbc8448668f7f53e1ef52f5802c",
+      "bytes": 22093
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_pipe_s.png": {
+      "sha256": "bcf222a95b9f2e26dab80afcfe69b549fbd9697774e46e5c1763b7ee6e312968",
+      "bytes": 3843200
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power.png": {
+      "sha256": "146510df4fb58a621288a89f5eda0cf8ccfd9e9e56cbb0710cc372d66afc1b29",
+      "bytes": 71670
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power_c.png": {
+      "sha256": "b4785dc1f0d9cc827798bab5e22524cbe2ddaf7769346fc963c6363ee9685c10",
+      "bytes": 244223
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_power_n.png": {
+      "sha256": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+      "bytes": 35735
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_c.png": {
+      "sha256": "290d88ee238dceeafe590fbade11ef4a72b1a82eaf8be8869946950ac75bed71",
+      "bytes": 3036323
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_g.png": {
+      "sha256": "4981aa05490f6b80ff5bef51770229071fbf5e3f97c807b01da4842a9644ea7c",
+      "bytes": 2729396
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_n.png": {
+      "sha256": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+      "bytes": 3628183
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_o.png": {
+      "sha256": "ce95f040343b31aa78dcbc0e55b29e7cb208627aa7be3208fab3ec6a2ca09cb4",
+      "bytes": 10128
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_r.png": {
+      "sha256": "affba8b0ed8a5654d103b7f8110911ff63a7eaba87fff7a4646f256952ef0560",
+      "bytes": 42775
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/_images/i_wpn_t7_zmb_dg2_wood_s.png": {
+      "sha256": "ef4353154f7c9cf09737546868d21ec8bc388ec494727becf13bbacd8d13a8d1",
+      "bytes": 668560
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_down.xanim_bin": {
+      "sha256": "786958532d1619b37490ed706e74a4a78b44657c76b6946ebcaf45263044f8af",
+      "bytes": 1902
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_up.xanim_bin": {
+      "sha256": "077a9962eb31be7986665f7143cadfc101e0d5dfbfdfe2bb2ebc5fd9a5f20e2d",
+      "bytes": 1805
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_b.xanim_bin": {
+      "sha256": "e0ae7dcba44b6a7b67ea9104d1e05cb6b5fda363356f0255905164d55f9728db",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_f.xanim_bin": {
+      "sha256": "5525cc9c909b95afaec38d27040549d119e4105f4ca2432a204dd56e2510dace",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_in.xanim_bin": {
+      "sha256": "f480082ba6979c7a058b7b497c563ebe4cbe134ac8a5dcd2c37ca70bbc7ef6c6",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_l.xanim_bin": {
+      "sha256": "899b016c3d59dce410a65ed43fbe7120f5b20a5c100a842002150dd853d29ae8",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_out.xanim_bin": {
+      "sha256": "f2dc4358268631f8f91f2eaf768444a67dce125b73232647e7f805d4fff1a42e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_r.xanim_bin": {
+      "sha256": "f6448512cd6f0ece02d4f893aa79bb50a6ebf06b7963e311f064d249a1c17c9a",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fall.xanim_bin": {
+      "sha256": "cf899f8a05f82a6189879051d841cdfe16ac72e2d204f7d6a562753d7146617a",
+      "bytes": 161706
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire.xanim_bin": {
+      "sha256": "0466727e90093a9a0208f98528ce28ec74e8e649f8a49735ca3d2d940ec92eb6",
+      "bytes": 92692
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire_ads.xanim_bin": {
+      "sha256": "2fae6526ab5217a6f4a2e57ba88fca37afd4dc76936ca83e90cff059ac72d48f",
+      "bytes": 92692
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_first_raise.xanim_bin": {
+      "sha256": "8cdf2acc077a8a6ad89f87849405d72d525d3477a8f864dbb07034432b785253",
+      "bytes": 273190
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_idle.xanim_bin": {
+      "sha256": "8d6586c79e3733f82c814882eb5a69492aa078d0501a4ac72282393a8e4fd2b2",
+      "bytes": 18370
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump.xanim_bin": {
+      "sha256": "7a45065b33bdd7c8083ff08a31faf3fd72fd736db0eeafe6a470132845516c6e",
+      "bytes": 2480
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump_land.xanim_bin": {
+      "sha256": "590e3ec42363382c2f532478da7c193dca9a62ec0848cd50a07783361fb4aacc",
+      "bytes": 108619
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout.xanim_bin": {
+      "sha256": "33438fc2f4e89da4b48488904d02d77b44dd88f68fc90d655e185b99909c2385",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout_quick.xanim_bin": {
+      "sha256": "5856b173f0787ce8a6496f75bc31691f25bf3ecfada849e4c97e26ef6aa613ca",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway.xanim_bin": {
+      "sha256": "4650edc3af38367d408ef91a1a9fc2f850b27c473f7dd844cb87ae58459f3d5b",
+      "bytes": 113927
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway_quick.xanim_bin": {
+      "sha256": "f468b347cc056cea44c2d2e03671d478783f3949538fa9a55008c38eaaeba179",
+      "bytes": 113927
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_reload_empty.xanim_bin": {
+      "sha256": "3ecfddddca944acafa539f39b4088acfd97e528b576189439eab1d7151ba60cd",
+      "bytes": 963325
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_air_in.xanim_bin": {
+      "sha256": "8e2e47ec379986bc9edbdaf9f8caba822e4d5d94a0c7062c0eed8e8a891fb4b0",
+      "bytes": 76766
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_in.xanim_bin": {
+      "sha256": "13006540959f6b5b72e1f3c9f635d7df93bea5deda45fe2bcd5b622f19f90aa5",
+      "bytes": 76766
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_loop.xanim_bin": {
+      "sha256": "0e543ab35f822761e9cb6c2260ad81e427b93e28994a99914072d0ce854ac53b",
+      "bytes": 151089
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_out.xanim_bin": {
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_in.xanim_bin": {
+      "sha256": "4428019852b2a1a7c5c991fcb285f3a2cddb39f1a059e45c70586ba7eeb31fdd",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_loop.xanim_bin": {
+      "sha256": "c997bc4beb8f1741361e7301b51b7f524bf168d1a442b497c8be98e622f95883",
+      "bytes": 167015
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_out.xanim_bin": {
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "bytes": 60840
+    },
+    "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_walk_f.xanim_bin": {
+      "sha256": "70c6e2eb7cdadbef6d943e3888d875d51917f65af07d854c4631f6831b05db00",
+      "bytes": 3444
+    }
+  },
+  "outputs": {
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_c.png": "276c2bde6e26d2c8f10c86435064a768f527b4a8334335f5e6b6943260bbff9a",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_g.png": "c140b4936ca05011d137d0dbcec40d57d4a6086281e1b524a0960798916811e3",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_n.png": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_s.png": "0b263adaae9c5cefe68603646d8fa53eb6c8fb0bfe6b6f2f0e80d5b3f90bdcb7",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_c.png": "be6d8e5ad98e34adebfbd4b8cea46eef9674d4bc5d5e3171781376fc850207f8",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_g.png": "c6945cf95b9816bbb215cbbb22e3f6e54e32d15a0a34e8559ab142393951b5e5",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_n.png": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_s.png": "3f3f0e7f969dc18ff6001b04b3809fca85658bf004ebb7d541437562a00abfb3",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_core_c.png": "df7f44917f6188080882754c0b986374b5523bce596b39fed948c4f789d12846",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_core_e.png": "0b169c3b57e21a216ff044904777443674908f3a32d18fca26637da41d0aacdc",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_core_g.png": "d37f94a4c47f185c6ced7e9f7442642e1560a809789b780bec4898d81813d2c1",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_core_n.png": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_core_s.png": "3ecf36933fd6699b786629c029996b3bd1bf2cb1ff468bdda9648fd386766d00",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_emitter_c.png": "9ddedf1de6ba666685e56d48210837abf835691c0dbc0008148d4e0576aa2862",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_emitter_e.png": "2b5f1b23612deb35db628efb3e54fea756f21e785660130f44bfd345c3b350d1",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_emitter_g.png": "6d27b1ea456398d0629175cf89ebf2ce00f5d02d82ce235cd1e305e6b29eee3a",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_emitter_n.png": "28df14e181e7d8ad5351016522c2290befd5ae3fd848197e2778f6f13d1ab521",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_emitter_s.png": "86e2880c0435b623f1846837579d9daa34b40dd5d180161f0c2f9516cf19a71e",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_c.png": "93ac19b74a137705ddcb808d84d00f75e15241eeaf35f8b507dde5bcc236f368",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_g.png": "9c35869de4616c5764801fefa95bb4f785eed14ad44947559081cf38ca3460f7",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_n.png": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_s.png": "e6b72e3f6c63c5990427a7b6fe8ce85c6e0631f4e11603945fc874731a2aa1dc",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_glass_c.png": "d8503052f2aac53201290212829bfc7a54637d3b0d2c6cfaf0addc4abbc076ee",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_glass_g.png": "7cadcd1d5cecf407913dc80a96e98db85599333df6f694e4fb6812f8011bc906",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_lamp_c.png": "5f7ac038c390967511d585788ce4a24fd6338db0af3a99b774544ac35cd38dd7",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_lamp_e.png": "0728d0e30e6215ac648cfe088ffb9969b9cbe69144416559999a5fa9aeffc921",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_lamp_g.png": "69fead58f3deb8e82ab57cef3208afb0f09edeab8be25c007e8f3bd2e564e140",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_lamp_n.png": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_lamp_s.png": "38edfa52d5bfc8cf2bd1b6ece2b13c72d1b3e4820be48523e8e27f2e1a7b9490",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_c.png": "cb004590487190b479bfcb476164f3fdf23c2cb799bdfc5dea31c81aae3a093f",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_g.png": "90ed7c2afa25b8ef515701359430b413a4ab08b7104ed52babb460bfa323b737",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_n.png": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+    "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_s.png": "d7055af64458ef6e767071c05ad2f1186f88c143881b16f8af1c6a713015da72",
+    "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD0.XMODEL_BIN": "00cb84786e882cdc61e04c9b8c23721bc38dc6f5ecf526d2b430d80fd0efa419",
+    "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD1.XMODEL_BIN": "bc1f387760ca92127367e4fd5f7b79c9a730a73181a9b8105ae8eefdb4d35b1a",
+    "model_export/tod_wunderstrahl/tod2_ws_skeleton.XMODEL_BIN": "037ca938a99503786401e300fff2175203add35973d44f51f1df13cbc00241d4",
+    "model_export/tod_wunderstrahl/tod2_ws_view_LOD0.XMODEL_BIN": "23307755d83181ad7d6f724b0f40c27e3a1b3f9d09c7d38924ff70cd9913666b",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD0.XMODEL_BIN": "4c525b8c2e696d00b8470be3b1cfdfcdf4bd2b037b0ed1762d048eadf49572ec",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD1.XMODEL_BIN": "4ff7db5d56694ac43fa6cba22a42445db27e9664ebf63104ab954ad70cebf893",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD2.XMODEL_BIN": "2b74f1494e335dba0a86870ec0a14594a9e8a8b72ac548f9e3765f0292c77901",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD3.XMODEL_BIN": "aa24e534558eb05f40e5b9ff8c9f392e5ac7f94592a40a0cd68860309d302ee4",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD4.XMODEL_BIN": "7b8558f17b7023e37bfd93b1b5f9ff64d8324642067f8a57733d4df445e9624a",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD5.XMODEL_BIN": "33ba349eec426fd85f03b3a64a87680c1cb7cd897565a8d05ff149055b179f34",
+    "model_export/tod_wunderstrahl/tod2_ws_world_LOD6.XMODEL_BIN": "27639afb5e11f862ce9c6a8695f3ec9c852385ae51520d0884ad03a7c6c06a8d",
+    "tmp/wunderstrahl/stage/source_data/tod2_wunderstrahl_art.gdt": "16ad1a9dafd60096d99c553b8909f131d479b80382792ed0ba11f2168b4ee465",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_ads_base_down.xanim_bin": "786958532d1619b37490ed706e74a4a78b44657c76b6946ebcaf45263044f8af",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_ads_base_up.xanim_bin": "077a9962eb31be7986665f7143cadfc101e0d5dfbfdfe2bb2ebc5fd9a5f20e2d",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_b.xanim_bin": "e0ae7dcba44b6a7b67ea9104d1e05cb6b5fda363356f0255905164d55f9728db",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_f.xanim_bin": "5525cc9c909b95afaec38d27040549d119e4105f4ca2432a204dd56e2510dace",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_in.xanim_bin": "f480082ba6979c7a058b7b497c563ebe4cbe134ac8a5dcd2c37ca70bbc7ef6c6",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_l.xanim_bin": "899b016c3d59dce410a65ed43fbe7120f5b20a5c100a842002150dd853d29ae8",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_out.xanim_bin": "f2dc4358268631f8f91f2eaf768444a67dce125b73232647e7f805d4fff1a42e",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_r.xanim_bin": "f6448512cd6f0ece02d4f893aa79bb50a6ebf06b7963e311f064d249a1c17c9a",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_fall.xanim_bin": "cf899f8a05f82a6189879051d841cdfe16ac72e2d204f7d6a562753d7146617a",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_fire.xanim_bin": "0466727e90093a9a0208f98528ce28ec74e8e649f8a49735ca3d2d940ec92eb6",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_fire_ads.xanim_bin": "2fae6526ab5217a6f4a2e57ba88fca37afd4dc76936ca83e90cff059ac72d48f",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_first_raise.xanim_bin": "8cdf2acc077a8a6ad89f87849405d72d525d3477a8f864dbb07034432b785253",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_idle.xanim_bin": "8d6586c79e3733f82c814882eb5a69492aa078d0501a4ac72282393a8e4fd2b2",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_jump.xanim_bin": "7a45065b33bdd7c8083ff08a31faf3fd72fd736db0eeafe6a470132845516c6e",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_jump_land.xanim_bin": "590e3ec42363382c2f532478da7c193dca9a62ec0848cd50a07783361fb4aacc",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_pullout.xanim_bin": "33438fc2f4e89da4b48488904d02d77b44dd88f68fc90d655e185b99909c2385",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_pullout_quick.xanim_bin": "5856b173f0787ce8a6496f75bc31691f25bf3ecfada849e4c97e26ef6aa613ca",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_putaway.xanim_bin": "4650edc3af38367d408ef91a1a9fc2f850b27c473f7dd844cb87ae58459f3d5b",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_putaway_quick.xanim_bin": "f468b347cc056cea44c2d2e03671d478783f3949538fa9a55008c38eaaeba179",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_reload_empty.xanim_bin": "3ecfddddca944acafa539f39b4088acfd97e528b576189439eab1d7151ba60cd",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_air_in.xanim_bin": "8e2e47ec379986bc9edbdaf9f8caba822e4d5d94a0c7062c0eed8e8a891fb4b0",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_in.xanim_bin": "13006540959f6b5b72e1f3c9f635d7df93bea5deda45fe2bcd5b622f19f90aa5",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_loop.xanim_bin": "0e543ab35f822761e9cb6c2260ad81e427b93e28994a99914072d0ce854ac53b",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_out.xanim_bin": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_in.xanim_bin": "4428019852b2a1a7c5c991fcb285f3a2cddb39f1a059e45c70586ba7eeb31fdd",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_loop.xanim_bin": "c997bc4beb8f1741361e7301b51b7f524bf168d1a442b497c8be98e622f95883",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_out.xanim_bin": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+    "xanim_export/tod_wunderstrahl/tod2_ws_vm_walk_f.xanim_bin": "70c6e2eb7cdadbef6d943e3888d875d51917f65af07d854c4631f6831b05db00"
+  },
+  "masters": {
+    "art/wunderstrahl/dg2_reference.blend": "179c8e552a521090629f5e8feec1be111c515827f94986353f28d39c7d9ccebc",
+    "art/wunderstrahl/emitter_bake.blend": "77beeda6141f21745e05bc439a6348f7e2224dc51a4479a7ee6b7d95f105d81b",
+    "art/wunderstrahl/native_preview.blend": "32a449d39e73549064d1b3ab899c0ae027c751a72d413a4e3bd78f8a9a6f2601",
+    "art/wunderstrahl/wunderstrahl.blend": "268be4c6a41ef628564bbc0f70d889da12ddedfa741b4a0095dc999297941b57"
+  },
+  "review": {
+    "art/wunderstrahl/review/before_after_first_person.png": "63e6465fb0b02714de302501a4b5e81590ea3a5bc9e2caf150c078f2aaedca77",
+    "art/wunderstrahl/review/before_after_lens_close.png": "358b2ab2677fcdfc344cc2caf7fb8f8428b923e5a1621dfcd1e6ea158e2b16d0",
+    "art/wunderstrahl/review/before_after_lens_front.png": "012f97eb442343dcf8a07c8e8e5a6d983f39baa5aa9f3a752347415e82ad5f6c",
+    "art/wunderstrahl/review/before_after_profile_left.png": "d444f76046e0aea5cc0cea2bfe4293c57cbd7a8f7e645a2bac46d1f32b34dd19",
+    "art/wunderstrahl/review/before_after_quarter_left.png": "2893105a746561b8cd538420e7e3267af7878181c0d29490d76c558b9b44cc63",
+    "art/wunderstrahl/review/before_after_quarter_right.png": "df5f3037bf49600eaf82877caa915f93d0ad34d35234798ba1435ebbbe51297d",
+    "art/wunderstrahl/review/before_after_top.png": "da5eed661a82844851133618cf6dc9614cdce8c2c66d85986542ae1c3860113c",
+    "art/wunderstrahl/review/before_first_person.png": "6c972d3583e52fec3eb4bf3b5f536fa90a4bc8b2e75c2c71932a7c3f0d2890b4",
+    "art/wunderstrahl/review/before_lens_close.png": "ade225206d1a3b0e0e580424bc7ce2a242230c905b1a4a6c90587e19cec07ea2",
+    "art/wunderstrahl/review/before_lens_front.png": "1195790c4efc50c4a9e3f1d09bff6c68648e5286584bfe4f90b7df3060d7191b",
+    "art/wunderstrahl/review/before_profile_left.png": "6d7bef80822cbd0fcbe9569d98ae98d43ea9b652fa607aa675cb78912b67d202",
+    "art/wunderstrahl/review/before_quarter_left.png": "6338a62b6227fd7673b7a824235951f7f3d1dc56fad55010487857d4c1747225",
+    "art/wunderstrahl/review/before_quarter_right.png": "797975e701826466d3d3f1e35ae39ba175544866e488510851722afb338437fb",
+    "art/wunderstrahl/review/before_top.png": "0abb2bc5560f314af07f7341679eaf650d91d6fa52d31df43dac949e7a6701ba",
+    "art/wunderstrahl/review/contact_sheet.png": "68d9d08b15deb33a66139b1a2ce512bd2cf6863027c68820b224d87980e5fb2e",
+    "art/wunderstrahl/review/wunderstrahl_ads.png": "b5fc424a69881ced100a34506f4d041e7c92a9e66b4885d46178ba2b37a35196",
+    "art/wunderstrahl/review/wunderstrahl_first_person.png": "5e6c1b1207ed39f0f324d696372fb3e0525e823b03a9f93cacce236815e9726b",
+    "art/wunderstrahl/review/wunderstrahl_first_person_nobloom.png": "1cfe98df9e50bc517e4dc7cf82435861b798300c1daa1fe5bbf70b93108646dc",
+    "art/wunderstrahl/review/wunderstrahl_lens_close.png": "3a290707237f97244a3217c34250231e2264cc5d98ccdcca23e64b2d2b9b4057",
+    "art/wunderstrahl/review/wunderstrahl_lens_close_nobloom.png": "520bd9a2926ec9182703f4d231fd555b4a298741a2885b57788c16a9c8b1e286",
+    "art/wunderstrahl/review/wunderstrahl_lens_front.png": "8450ffbb61bb422168dc5a80d9a4f50546bdf20ea77f760f957b497f43907704",
+    "art/wunderstrahl/review/wunderstrahl_pickup.png": "5cb0474ab4d493326f38b27761eedd0c7be08078f477aac766071db72b0770ec",
+    "art/wunderstrahl/review/wunderstrahl_pickup_lineup.png": "bd69756279bca57cf12b035b972f3fab799e50e0de2098460dc8d7c391b411c3",
+    "art/wunderstrahl/review/wunderstrahl_profile_left.png": "ed1260628bd17a48a002d931f491381a0eddef5d5e8178e0e339f2c4d9be26ee",
+    "art/wunderstrahl/review/wunderstrahl_quarter_left.png": "2fdb5ccce8cba0500f054159e8bd7e62af38241bbdbc8a86b2fd141307acb942",
+    "art/wunderstrahl/review/wunderstrahl_quarter_left_nobloom.png": "ff2174e9bbf2e59016320c8f7b98a32367212657a38e04ce25401deb01ddc806",
+    "art/wunderstrahl/review/wunderstrahl_quarter_right.png": "8d379bacf280737c87ff241e9deed762b26f19588712cc521b57ebcaba9ee28c",
+    "art/wunderstrahl/review/wunderstrahl_top.png": "999c0df7fc41a61cee592487e08e0fe01f11832ddd594da2318b28961d570438",
+    "art/wunderstrahl/review/wunderstrahl_world.png": "f045895eae732b4d5788c73847ab951943bb5d6ee4af8738c1aecb5d6bf86959",
+    "art/wunderstrahl/review/wunderstrahl_world_lods.png": "3f1fbb28601ea8955b1dc34f79eeccb8145b35554dae7de356fd8940c6064fe2"
+  },
+  "records": {
+    "art/wunderstrahl/surfaces.json": "4bac190f10d16d1ebe1b8dc69b473c05fe774585881d8e21d5b23d5e0f62928b",
+    "art/wunderstrahl/design.json": "41db504aa86bb4908c4b37fc4fb45b7ef6b2043a4d189254153433d1e6d9f60c",
+    "art/wunderstrahl/engine_kit/atlas.json": "d779b027c350f86bb283c9a4dc5be8c58c869bf9f5b1a37f6c7ab9a1703563c1",
+    "art/wunderstrahl/engine_kit/bake.json": "1b4ca1390946341ca0bbfe3aa49542cd0fc417955e87ac08af4bf4b19ecc4332",
+    "art/wunderstrahl/engine_kit/models.json": "37d732eac639dba016b9361b04701300d9036a2907a4628a4ef92c26872456bc"
+  },
+  "tools": {
+    "tools/wunderstrahl/model/01_import.py": "b179632b1e57df64ad0114e311bd3b75f9a1d24f60b59b7e1f4ab22e687d3625",
+    "tools/wunderstrahl/model/02_render_reference.py": "973f51b966f8319a13a6196d0e3f4d7f2713f39ad58e7673830cb4e77312004a",
+    "tools/wunderstrahl/model/03_surfaces.py": "c858eeb30a8d13833804b3d8d67f25c608435654209c38aec0cec94e4683e7bd",
+    "tools/wunderstrahl/model/04_author.py": "6cd49760e9e3cf46565bbac04b5ef95bd240f9d9bff0f5bbca8be2eb857e6ba2",
+    "tools/wunderstrahl/model/05_bake.py": "6cfbc5b9f956a5b50cf982e537a8c1a76b98d03d30c2f5b093f0d3399bd057e1",
+    "tools/wunderstrahl/model/06_export.py": "ebce43199eee9201661ae290a8db1f45082e664a872b0edcbe5a1db90c06c731",
+    "tools/wunderstrahl/model/07_render.py": "acc2d097e9f4555e146f120dba000eafd23c799bafb1ad4ef8ca18eb2c992cce",
+    "tools/wunderstrahl/model/08_contact_sheet.py": "7eaf497adc9edfeee7e47be27f7c3bbab04af8b1609976ed4865a0a8cc4a4d75",
+    "tools/wunderstrahl/model/09_open_master.py": "31925b1bd44bdbeaab864a9a210f330ba8cd032c409adca355fafc74b8ea4850",
+    "tools/wunderstrahl/model/blendlib.py": "130086b7cd196d47ef980a12ef63730352841b47f8eb9acb1de9beffa82f5f88",
+    "tools/wunderstrahl/model/common.py": "506c9ba88d8b95d4d56567cc33b79dfb8d1c140c3fc11ddb8f476d1d665e313d",
+    "tools/wunderstrahl/model/diag_claws.py": "9535f849ef41e6715d3b7d7a661fa2f1c0064c1be8c1af62f3b4cf9a72838ca0",
+    "tools/wunderstrahl/model/diag_closeups.py": "464d7af4d32f56644cb01eb98c552b7bce5ffe488554cf12fd6e56298160159d",
+    "tools/wunderstrahl/model/diag_colour.py": "41a13e21f076a3971c00cda7892e8e5f3a8d39634246d34da56d4b748f327273",
+    "tools/wunderstrahl/model/diag_emitter.py": "11c4104db9345fa9e81184cd7f91a1dacc78a672c14f1d7d6b0d589da8ce03f3",
+    "tools/wunderstrahl/model/diag_lanes.py": "e09be9161d5d125f89d3f7a93c4915f01579e8fcebb4a13f814ca8c074c29d6b",
+    "tools/wunderstrahl/model/diag_levels.py": "ee7ef9bd264bf1f0552911fdaedf24e2bd80231a78818694fde2cc8ec1f180d7",
+    "tools/wunderstrahl/model/diag_master.py": "12377f54bca4495e2a93cc2e86d53f1793f588072dee265d722c3e9a2a7c0935",
+    "tools/wunderstrahl/model/diag_mixnode.py": "5869bbf2bb04349b6d8cc667987821571aa986102e18d981cb9badfb7b83d5f0",
+    "tools/wunderstrahl/model/diag_overlap.py": "c58a0a0c3fab3b60a6ec14b63cab69546acacd213d3fd4a87f66c8ef771e6c2e",
+    "tools/wunderstrahl/model/diag_overlap_where.py": "d4c8a83971a6ac3a43af5568e2aafcaee85c25146c5402aebc0fe322cc5e58bc",
+    "tools/wunderstrahl/model/diag_surface.py": "82570e07d86e2e51b47a27a8b37d639f29361b8699228e3099c5ebbff9fe01e7",
+    "tools/wunderstrahl/model/emitter.py": "fb991381e5293080328cbda77fa280b16ab6025dc81f5961b710da1b01cf33b8",
+    "tools/wunderstrahl/model/exportlib.py": "2e0764e2abad96ed77de0e8da8bf99dc725256bc213020d982ed88a3388e8043",
+    "tools/wunderstrahl/model/install_art.py": "7ec0a5d4763e02fdb6732fd686a96cca31b9cf05d7502d007c61f7036f4c6f77",
+    "tools/wunderstrahl/model/materials.py": "66f07b699293e45bd4c9c1afd3da4b3bdbae84a943e33074a194e38831e9192b",
+    "tools/wunderstrahl/model/mcp_bootstrap.py": "a3f22392d4b68b0771eff810ab915996806b5e5b3e0c2c202b554d6c41d7b1fd",
+    "tools/wunderstrahl/model/mcp_call.py": "162cd22cc708dcf2b95b4cc17ef47482c213f82c4407335a3b2248ffdf6ad2ae",
+    "tools/wunderstrahl/model/pngio.py": "2939e8f26087f699b6c68142328823eb7abaa29fd7e1546eb971405e102cc121",
+    "tools/wunderstrahl/model/review.py": "e1d81a63c6b8a0d4f648946d3fa57eaafc0f5078a86bbbd487d723d9fd957d09",
+    "tools/wunderstrahl/model/texgen.py": "686b3ff920fd00ac90c4e281670c203c4a2a2bf468ce5c99714a2e24189e29d6",
+    "tools/wunderstrahl/model/verify_art.py": "910081b3ec7ecd4ad0ee8dc92a79e6e607ec61a016194605626a34aa5fafa32a",
+    "tools/wunderstrahl/model/views.py": "1227997498650bd1dc3a60a4bc54c9f46842b9467f47b13479c1e331f1294a3d",
+    "tools/wunderstrahl/model/zones.py": "f93a1c591fff0a7481c5962b9bebe6d2eea9b167b1f1eaa5bbf59a8c19611622",
+    "tools/wunderstrahl/model/start_studio.ps1": "1e5e33dc55e01ce5904b61e8cf67e9c5c2973144bd0ae4bbc620ccfcf5539d95",
+    "tools/wunderstrahl/model/ws_call.sh": "f965b2139960764fb688d786d2319a99b035d368c9f4acb0f13f12351e5df1ec"
+  },
+  "vendor_addon": {
+    "file": "tmp/wunderstrahl/vendor/addon.py",
+    "sha256": "e1a033c6b308fa40e6ef555abfd51ff76c185c313f02292541f6a6c00c1b9564"
+  },
+  "staged_gdt": "tmp/wunderstrahl/stage/source_data/tod2_wunderstrahl_art.gdt"
+}

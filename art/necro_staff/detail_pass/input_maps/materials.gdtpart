@@ -1,0 +1,254 @@
+	"i_tod_necro_iron_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_iron_c.png"
+		"semantic" "diffuseMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+		"type" "image"
+	}
+	"i_tod_necro_iron_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_iron_n.png"
+		"semantic" "normalMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_iron_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_iron_g.png"
+		"semantic" "glossMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_iron_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_iron_s.png"
+		"semantic" "specularMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"mtl_tod_necro_staff_iron" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_necro_iron_c"
+		"normalMap" "i_tod_necro_iron_n"
+		"cosinePowerMap" "i_tod_necro_iron_g"
+		"specColorMap" "i_tod_necro_iron_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorTint" "1 1 1 1"
+		"colorMap00" "i_tod_necro_iron_c"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "1"
+		"reflectionProbeAmount" "0.65"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_necro_forge_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_forge_c.png"
+		"semantic" "diffuseMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+		"type" "image"
+	}
+	"i_tod_necro_forge_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_forge_n.png"
+		"semantic" "normalMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_forge_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_forge_g.png"
+		"semantic" "glossMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_forge_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_forge_s.png"
+		"semantic" "specularMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"mtl_tod_necro_staff_forge" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_necro_forge_c"
+		"normalMap" "i_tod_necro_forge_n"
+		"cosinePowerMap" "i_tod_necro_forge_g"
+		"specColorMap" "i_tod_necro_forge_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorTint" "1 1 1 1"
+		"colorMap00" "i_tod_necro_forge_c"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "1"
+		"reflectionProbeAmount" "0.65"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_necro_bone_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_bone_c.png"
+		"semantic" "diffuseMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+		"type" "image"
+	}
+	"i_tod_necro_bone_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_bone_n.png"
+		"semantic" "normalMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_bone_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_bone_g.png"
+		"semantic" "glossMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_bone_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_bone_s.png"
+		"semantic" "specularMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"mtl_tod_necro_staff_bone" ( "material.gdf" )
+	{
+		"surfaceType" "flesh"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_necro_bone_c"
+		"normalMap" "i_tod_necro_bone_n"
+		"cosinePowerMap" "i_tod_necro_bone_g"
+		"specColorMap" "i_tod_necro_bone_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorTint" "1 1 1 1"
+		"colorMap00" "i_tod_necro_bone_c"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "1"
+		"reflectionProbeAmount" "0.65"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_necro_staff_soul_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_staff_soul_c.png"
+		"semantic" "diffuseMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+		"type" "image"
+	}
+	"i_tod_necro_staff_soul_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_staff_soul_n.png"
+		"semantic" "normalMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"i_tod_necro_staff_soul_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export\\tod_necro_staff\\i_tod_necro_staff_soul_g.png"
+		"semantic" "glossMap"
+		"imageType" "Texture"
+		"streamable" "0"
+		"compressionMethod" "compressed"
+		"coreSemantic" ""
+		"type" "image"
+	}
+	"mtl_tod_necro_staff_soul" ( "material.gdf" )
+	{
+		"surfaceType" "flesh"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_necro_staff_soul_c"
+		"normalMap" "i_tod_necro_staff_soul_n"
+		"cosinePowerMap" "i_tod_necro_staff_soul_g"
+		"specColorMap" "i_tod_necro_bone_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorTint" "1 1 1 1"
+		"colorMap00" "i_tod_necro_staff_soul_c"
+		"scaleRGB" "2"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"waterRoughness" "0"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "1"
+		"reflectionProbeAmount" "0.65"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}

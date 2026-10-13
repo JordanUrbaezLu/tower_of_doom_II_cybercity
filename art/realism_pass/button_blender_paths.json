@@ -1,0 +1,217 @@
+{
+  "master": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\alarm_button\\alarm_button.blend",
+  "image_count": 26,
+  "packed_count": 25,
+  "durable_external_count": 0,
+  "unsafe": [],
+  "images": [
+    {
+      "name": "Render Result.001",
+      "source": "VIEWER",
+      "path": "",
+      "packed": false,
+      "packed_bytes": 0,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_steel_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_steel_s.png",
+      "packed": true,
+      "packed_bytes": 134052,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_steel_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_steel_n.png",
+      "packed": true,
+      "packed_bytes": 649316,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_steel_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_steel_g.png",
+      "packed": true,
+      "packed_bytes": 548820,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_steel_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_steel_c.png",
+      "packed": true,
+      "packed_bytes": 662876,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_rubber_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_rubber_s.png",
+      "packed": true,
+      "packed_bytes": 20743,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_rubber_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_rubber_n.png",
+      "packed": true,
+      "packed_bytes": 519970,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_rubber_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_rubber_g.png",
+      "packed": true,
+      "packed_bytes": 411077,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_rubber_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_rubber_c.png",
+      "packed": true,
+      "packed_bytes": 143136,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_on_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_on_s.png",
+      "packed": true,
+      "packed_bytes": 20726,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_on_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_on_n.png",
+      "packed": true,
+      "packed_bytes": 608582,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_on_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_on_g.png",
+      "packed": true,
+      "packed_bytes": 459660,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_on_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_on_c.png",
+      "packed": true,
+      "packed_bytes": 224388,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_off_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_off_s.png",
+      "packed": true,
+      "packed_bytes": 20726,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_off_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_off_n.png",
+      "packed": true,
+      "packed_bytes": 608582,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_off_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_off_g.png",
+      "packed": true,
+      "packed_bytes": 459660,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_red_off_c.png.001",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_red_off_c.png",
+      "packed": true,
+      "packed_bytes": 360280,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_hazard_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_hazard_s.png",
+      "packed": true,
+      "packed_bytes": 183788,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_hazard_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_hazard_n.png",
+      "packed": true,
+      "packed_bytes": 499719,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_hazard_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_hazard_g.png",
+      "packed": true,
+      "packed_bytes": 504970,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_hazard_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_hazard_c.png",
+      "packed": true,
+      "packed_bytes": 672241,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_cast_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_cast_s.png",
+      "packed": true,
+      "packed_bytes": 135326,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_cast_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_cast_n.png",
+      "packed": true,
+      "packed_bytes": 1096943,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_cast_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_cast_g.png",
+      "packed": true,
+      "packed_bytes": 816549,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_abtn_cast_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_alarm_button\\_images\\i_tod_abtn_cast_c.png",
+      "packed": true,
+      "packed_bytes": 419832,
+      "durable_external": false
+    },
+    {
+      "name": "detail.png.001",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\art\\alarm_button\\realism_review\\detail.png",
+      "packed": true,
+      "packed_bytes": 1144896,
+      "durable_external": false
+    }
+  ]
+}

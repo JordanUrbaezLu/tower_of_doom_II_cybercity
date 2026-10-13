@@ -1,0 +1,162 @@
+{
+  "models": 15,
+  "material_families": 13,
+  "maps": {
+    "i_tod_sky_plate_c": {
+      "width": 2048,
+      "height": 2048,
+      "max_channel_std": 18.7983
+    },
+    "i_tod_sky_plate_n": {
+      "width": 2048,
+      "height": 2048,
+      "max_channel_std": 18.5168
+    },
+    "i_tod_sky_plate_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 28.0383
+    },
+    "i_tod_sky_plate_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 12.3371
+    },
+    "i_tod_sky_plate2_c": {
+      "width": 2048,
+      "height": 2048,
+      "max_channel_std": 20.3575
+    },
+    "i_tod_sky_plate2_n": {
+      "width": 2048,
+      "height": 2048,
+      "max_channel_std": 24.9197
+    },
+    "i_tod_sky_plate2_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 30.1107
+    },
+    "i_tod_sky_plate2_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 11.7655
+    },
+    "i_tod_sky_drive_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 8.2415
+    },
+    "i_tod_sky_drive_n": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 1.8219
+    },
+    "i_tod_sky_drive_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 9.3509
+    },
+    "i_tod_sky_drive_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 5.0594
+    },
+    "i_tod_sky_rock_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 6.0785
+    },
+    "i_tod_sky_rock_n": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 12.6617
+    },
+    "i_tod_sky_rock_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 7.1776
+    },
+    "i_tod_sky_rock_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 5.0273
+    },
+    "i_tod_sky_rock2_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 6.6208
+    },
+    "i_tod_sky_cargo_orange": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 12.1598
+    },
+    "i_tod_sky_cargo_n": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 2.7012
+    },
+    "i_tod_sky_cargo_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 9.8357
+    },
+    "i_tod_sky_cargo_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 7.9238
+    },
+    "i_tod_sky_cargo_teal": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 9.3529
+    },
+    "i_tod_sky_cargo_red": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 10.772
+    },
+    "i_tod_sky_cargo_white": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 11.8169
+    },
+    "i_tod_sky_cargo_yellow": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 12.1598
+    },
+    "i_tod_sky_mineral_magenta_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 42.7281
+    },
+    "i_tod_sky_mineral_n": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 2.5831
+    },
+    "i_tod_sky_mineral_g": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 12.6946
+    },
+    "i_tod_sky_mineral_s": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 3.8535
+    },
+    "i_tod_sky_mineral_cyan_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 42.7281
+    },
+    "i_tod_sky_mineral_amber_c": {
+      "width": 1024,
+      "height": 1024,
+      "max_channel_std": 42.7281
+    }
+  },
+  "native_visual_approval": false
+}

@@ -1,0 +1,711 @@
+{
+  "authoring": "Blender MCP execute_blender_code (tools/sky_ships/mcp_call.py, port 9890)",
+  "ships": [
+    {
+      "ship": "dreadnought",
+      "models": [
+        "tod_sky_dreadnought",
+        "tod_sky_dreadnought_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_dreadnought.xmodel_bin",
+      "sha256": "a7dc3b21af45abe733b965c609825232ecac9adfb4ff71fb07363584d20da787",
+      "triangles": 45752,
+      "meshes": 36,
+      "materials": [
+        "mtl_tod_sky_hull",
+        "mtl_tod_sky_hull2",
+        "mtl_tod_sky_drive_metal",
+        "mtl_tod_sky_engine_cyan",
+        "mtl_tod_sky_neon_cyan",
+        "mtl_tod_sky_glass",
+        "mtl_tod_sky_windows",
+        "mtl_tod_sky_hangar",
+        "mtl_tod_sky_deco",
+        "mtl_tod_sky_nav_green",
+        "mtl_tod_sky_nav_red",
+        "mtl_tod_sky_neon_red",
+        "mtl_tod_sky_neon_white"
+      ],
+      "bounds": [
+        [
+          -6383.0,
+          -2725.0,
+          -850.0
+        ],
+        [
+          5045.6,
+          2725.0,
+          2442.0
+        ]
+      ],
+      "length": 11428.6,
+      "half_width": 2725.0,
+      "nozzles": [
+        [
+          -5600.0,
+          2150.0,
+          -80.0,
+          410
+        ],
+        [
+          -5600.0,
+          -2150.0,
+          -80.0,
+          410
+        ],
+        [
+          -5260.0,
+          -760.0,
+          0.0,
+          300
+        ],
+        [
+          -5260.0,
+          0.0,
+          0.0,
+          300
+        ],
+        [
+          -5260.0,
+          760.0,
+          0.0,
+          300
+        ],
+        [
+          -5120.0,
+          1120.0,
+          250.0,
+          95
+        ],
+        [
+          -5120.0,
+          -1120.0,
+          250.0,
+          95
+        ],
+        [
+          -5120.0,
+          1120.0,
+          -250.0,
+          95
+        ],
+        [
+          -5120.0,
+          -1120.0,
+          -250.0,
+          95
+        ],
+        [
+          -5120.0,
+          380.0,
+          300.0,
+          80
+        ],
+        [
+          -5120.0,
+          -380.0,
+          300.0,
+          80
+        ],
+        [
+          -5120.0,
+          380.0,
+          -300.0,
+          80
+        ],
+        [
+          -5120.0,
+          -380.0,
+          -300.0,
+          80
+        ]
+      ],
+      "lights": [
+        [
+          4960,
+          0,
+          0,
+          "s"
+        ],
+        [
+          -5650,
+          2150,
+          -80,
+          "s"
+        ],
+        [
+          -5650,
+          -2150,
+          -80,
+          "s"
+        ],
+        [
+          1530,
+          0,
+          1393,
+          "b"
+        ],
+        [
+          -3400,
+          1720,
+          30,
+          "s"
+        ],
+        [
+          -3400,
+          -1720,
+          30,
+          "s"
+        ],
+        [
+          -300,
+          0,
+          -458,
+          "b"
+        ],
+        [
+          600,
+          0,
+          908,
+          "b"
+        ]
+      ],
+      "accent": "neon_red",
+      "surface_verts": {
+        "mtl_tod_sky_deco": 48,
+        "mtl_tod_sky_drive_metal": 3592,
+        "mtl_tod_sky_engine_cyan": 780,
+        "mtl_tod_sky_glass": 1680,
+        "mtl_tod_sky_hangar": 12,
+        "mtl_tod_sky_hull": 12390,
+        "mtl_tod_sky_hull2": 55447,
+        "mtl_tod_sky_nav_green": 24,
+        "mtl_tod_sky_nav_red": 24,
+        "mtl_tod_sky_neon_cyan": 4848,
+        "mtl_tod_sky_neon_red": 1968,
+        "mtl_tod_sky_neon_white": 1272,
+        "mtl_tod_sky_windows": 188
+      }
+    },
+    {
+      "ship": "fighter",
+      "models": [
+        "tod_sky_fighter",
+        "tod_sky_fighter_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_fighter.xmodel_bin",
+      "sha256": "5cc5d95426e147d00b99bd638ea8bdcc18db8549a822910002161eed36534104",
+      "triangles": 2016,
+      "meshes": 15,
+      "materials": [
+        "mtl_tod_sky_hull",
+        "mtl_tod_sky_neon_white",
+        "mtl_tod_sky_hull2",
+        "mtl_tod_sky_engine_cyan",
+        "mtl_tod_sky_drive_metal",
+        "mtl_tod_sky_neon_cyan",
+        "mtl_tod_sky_nav_green",
+        "mtl_tod_sky_nav_red"
+      ],
+      "bounds": [
+        [
+          -645.6,
+          -458.0,
+          -90.8
+        ],
+        [
+          470.0,
+          458.0,
+          223.0
+        ]
+      ],
+      "length": 1115.6,
+      "half_width": 458.0,
+      "nozzles": [
+        [
+          -470.0,
+          0.0,
+          0.0,
+          78
+        ]
+      ],
+      "lights": [
+        [
+          -362,
+          446,
+          -15,
+          "s"
+        ],
+        [
+          -362,
+          -446,
+          -15,
+          "s"
+        ]
+      ],
+      "accent": "neon_cyan",
+      "surface_verts": {
+        "mtl_tod_sky_drive_metal": 206,
+        "mtl_tod_sky_engine_cyan": 48,
+        "mtl_tod_sky_hull": 120,
+        "mtl_tod_sky_hull2": 2980,
+        "mtl_tod_sky_nav_green": 24,
+        "mtl_tod_sky_nav_red": 24,
+        "mtl_tod_sky_neon_cyan": 264,
+        "mtl_tod_sky_neon_white": 52
+      }
+    },
+    {
+      "ship": "gunship",
+      "models": [
+        "tod_sky_gunship",
+        "tod_sky_gunship_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_gunship.xmodel_bin",
+      "sha256": "1f9d0933f0c60856227889a48d30ff0669505baa4f0e94ab9cc094d083dd8ab5",
+      "triangles": 6614,
+      "meshes": 21,
+      "materials": [
+        "mtl_tod_sky_glass",
+        "mtl_tod_sky_hull2",
+        "mtl_tod_sky_drive_metal",
+        "mtl_tod_sky_engine_cyan",
+        "mtl_tod_sky_neon_cyan",
+        "mtl_tod_sky_hull",
+        "mtl_tod_sky_neon_white",
+        "mtl_tod_sky_deco",
+        "mtl_tod_sky_nav_green",
+        "mtl_tod_sky_nav_red",
+        "mtl_tod_sky_neon_magenta"
+      ],
+      "bounds": [
+        [
+          -1994.0,
+          -1220.0,
+          -250.0
+        ],
+        [
+          1620.0,
+          1220.0,
+          881.0
+        ]
+      ],
+      "length": 3614.0,
+      "half_width": 1220.0,
+      "nozzles": [
+        [
+          -1690.0,
+          -200.0,
+          -10.0,
+          150
+        ],
+        [
+          -1690.0,
+          200.0,
+          -10.0,
+          150
+        ]
+      ],
+      "lights": [
+        [
+          -100,
+          1180,
+          -50,
+          "s"
+        ],
+        [
+          -100,
+          -1180,
+          -50,
+          "s"
+        ],
+        [
+          -650,
+          0,
+          541,
+          "b"
+        ],
+        [
+          0,
+          0,
+          -200,
+          "b"
+        ]
+      ],
+      "accent": "neon_magenta",
+      "surface_verts": {
+        "mtl_tod_sky_deco": 24,
+        "mtl_tod_sky_drive_metal": 540,
+        "mtl_tod_sky_engine_cyan": 120,
+        "mtl_tod_sky_glass": 4,
+        "mtl_tod_sky_hull": 156,
+        "mtl_tod_sky_hull2": 9984,
+        "mtl_tod_sky_nav_green": 24,
+        "mtl_tod_sky_nav_red": 24,
+        "mtl_tod_sky_neon_cyan": 192,
+        "mtl_tod_sky_neon_magenta": 648,
+        "mtl_tod_sky_neon_white": 192
+      }
+    },
+    {
+      "ship": "hauler",
+      "models": [
+        "tod_sky_hauler",
+        "tod_sky_hauler_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_hauler.xmodel_bin",
+      "sha256": "149cc29686e85c4805009a4b7f7959418e5a71bb3b6cc11e0bb2c66d56629d86",
+      "triangles": 19262,
+      "meshes": 28,
+      "materials": [
+        "mtl_tod_sky_ads",
+        "mtl_tod_sky_hull2",
+        "mtl_tod_sky_hull",
+        "mtl_tod_sky_cargo_orange",
+        "mtl_tod_sky_cargo_red",
+        "mtl_tod_sky_cargo_teal",
+        "mtl_tod_sky_cargo_white",
+        "mtl_tod_sky_cargo_yellow",
+        "mtl_tod_sky_glass",
+        "mtl_tod_sky_drive_metal",
+        "mtl_tod_sky_engine_amber",
+        "mtl_tod_sky_neon_amber",
+        "mtl_tod_sky_deco",
+        "mtl_tod_sky_nav_green",
+        "mtl_tod_sky_nav_red",
+        "mtl_tod_sky_neon_white",
+        "mtl_tod_sky_windows"
+      ],
+      "bounds": [
+        [
+          -3546.0,
+          -927.0,
+          -559.0
+        ],
+        [
+          3041.2,
+          927.0,
+          990.0
+        ]
+      ],
+      "length": 6587.2,
+      "half_width": 927.0,
+      "nozzles": [
+        [
+          -3200.0,
+          -330.0,
+          -215.0,
+          180
+        ],
+        [
+          -3200.0,
+          -330.0,
+          215.0,
+          180
+        ],
+        [
+          -3200.0,
+          330.0,
+          -215.0,
+          180
+        ],
+        [
+          -3200.0,
+          330.0,
+          215.0,
+          180
+        ]
+      ],
+      "lights": [
+        [
+          2980,
+          0,
+          0,
+          "s"
+        ],
+        [
+          -3000,
+          0,
+          520,
+          "s"
+        ],
+        [
+          -2700,
+          0,
+          1000,
+          "b"
+        ],
+        [
+          0,
+          0,
+          -560,
+          "b"
+        ],
+        [
+          1560,
+          640,
+          -520,
+          "s"
+        ],
+        [
+          1560,
+          -640,
+          -520,
+          "s"
+        ]
+      ],
+      "accent": "neon_amber",
+      "surface_verts": {
+        "mtl_tod_sky_ads": 20,
+        "mtl_tod_sky_cargo_orange": 96,
+        "mtl_tod_sky_cargo_red": 96,
+        "mtl_tod_sky_cargo_teal": 72,
+        "mtl_tod_sky_cargo_white": 96,
+        "mtl_tod_sky_cargo_yellow": 72,
+        "mtl_tod_sky_deco": 56,
+        "mtl_tod_sky_drive_metal": 1668,
+        "mtl_tod_sky_engine_amber": 360,
+        "mtl_tod_sky_glass": 5784,
+        "mtl_tod_sky_hull": 1056,
+        "mtl_tod_sky_hull2": 24998,
+        "mtl_tod_sky_nav_green": 24,
+        "mtl_tod_sky_nav_red": 24,
+        "mtl_tod_sky_neon_amber": 720,
+        "mtl_tod_sky_neon_white": 408,
+        "mtl_tod_sky_windows": 28
+      }
+    }
+  ],
+  "rocks": [
+    {
+      "rock": "1",
+      "models": [
+        "tod_sky_rock_1"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_rock_1.xmodel_bin",
+      "sha256": "db305142042e38a2fe86590ac7510b9f668cfe563afd678f87fe205de12ab05e",
+      "triangles": 9000,
+      "meshes": 1,
+      "materials": [
+        "mtl_tod_sky_rock"
+      ],
+      "bounds": [
+        [
+          -593.2,
+          -522.7,
+          -476.4
+        ],
+        [
+          702.5,
+          562.8,
+          474.2
+        ]
+      ],
+      "radius": 708.2,
+      "veins": false,
+      "surface_verts": {
+        "mtl_tod_sky_rock": 8978
+      }
+    },
+    {
+      "rock": "2",
+      "models": [
+        "tod_sky_rock_2"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_rock_2.xmodel_bin",
+      "sha256": "12f8066eda2d1b0f30fb1a50bade859c1c6a6dd27e4cea0c3313e2b894a5bf92",
+      "triangles": 6500,
+      "meshes": 1,
+      "materials": [
+        "mtl_tod_sky_rock2"
+      ],
+      "bounds": [
+        [
+          -630.9,
+          -305.3,
+          -261.1
+        ],
+        [
+          652.3,
+          288.0,
+          269.2
+        ]
+      ],
+      "radius": 655.6,
+      "veins": false,
+      "surface_verts": {
+        "mtl_tod_sky_rock2": 6841
+      }
+    },
+    {
+      "rock": "3",
+      "models": [
+        "tod_sky_rock_3",
+        "tod_sky_rock_3_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_rock_3.xmodel_bin",
+      "sha256": "11e812f4ffb2a332d72e66c65ea526645bc9e6d1f8db27487b91b51e254e0c6f",
+      "triangles": 10442,
+      "meshes": 2,
+      "materials": [
+        "mtl_tod_sky_rock",
+        "mtl_tod_sky_mineral_magenta"
+      ],
+      "bounds": [
+        [
+          -536.0,
+          -523.8,
+          -450.8
+        ],
+        [
+          546.3,
+          512.1,
+          471.2
+        ]
+      ],
+      "radius": 574.5,
+      "veins": true,
+      "surface_verts": {
+        "mtl_tod_sky_mineral_magenta": 4908,
+        "mtl_tod_sky_rock": 8342
+      }
+    },
+    {
+      "rock": "4",
+      "models": [
+        "tod_sky_rock_4",
+        "tod_sky_rock_4_b"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_rock_4.xmodel_bin",
+      "sha256": "135ac6c856ef944778a48d488fb9bfc865f77e7ec17fbdeecaf634ee548d117c",
+      "triangles": 7968,
+      "meshes": 2,
+      "materials": [
+        "mtl_tod_sky_rock2",
+        "mtl_tod_sky_mineral_cyan"
+      ],
+      "bounds": [
+        [
+          -627.6,
+          -530.9,
+          -261.3
+        ],
+        [
+          602.6,
+          545.7,
+          256.9
+        ]
+      ],
+      "radius": 645.2,
+      "veins": true,
+      "surface_verts": {
+        "mtl_tod_sky_mineral_cyan": 1956,
+        "mtl_tod_sky_rock2": 8044
+      }
+    },
+    {
+      "rock": "5",
+      "models": [
+        "tod_sky_rock_5"
+      ],
+      "file": "model_export/tod_sky_ships/tod_sky_rock_5.xmodel_bin",
+      "sha256": "3b22ba7d7b1b1c8beaaaf2f755de387996263a0bf70e8e518310da8502a78202",
+      "triangles": 4700,
+      "meshes": 4,
+      "materials": [
+        "mtl_tod_sky_rock",
+        "mtl_tod_sky_rock2"
+      ],
+      "bounds": [
+        [
+          -461.7,
+          -335.1,
+          -241.3
+        ],
+        [
+          409.8,
+          374.0,
+          266.2
+        ]
+      ],
+      "radius": 476.4,
+      "veins": false,
+      "surface_verts": {
+        "mtl_tod_sky_rock": 3072,
+        "mtl_tod_sky_rock2": 2677
+      }
+    }
+  ],
+  "images": {
+    "i_tod_sky_ads2_c": "3d9265f292b0113ac265d6f0c85cdc309608e763a95eb8927b377337b6eadc72",
+    "i_tod_sky_ads_c": "a48e2e44255504e84e191dcfedc1894fc9819d4f3215dc205733591474410a72",
+    "i_tod_sky_cargo_g": "7885ff949079dfe69f9fe062bed6b5d26e21a9893892925674c34d769dec0e03",
+    "i_tod_sky_cargo_n": "220fd02c60696eb2a258676ea0257418803a84eb4d9a1666b7a7b403e5be045f",
+    "i_tod_sky_cargo_orange": "c80f67676942db9c890d188161e86b2f9ae4583866a1cf6a4e07ece2961f074a",
+    "i_tod_sky_cargo_red": "fd2805c6378e53175d3a9bfe9c018bbd1c20bfb411d4c05e5e00dedeb427ba67",
+    "i_tod_sky_cargo_s": "feee98c4cc7a3fb1893f329e367ae3d9daf061c2fadad08981dac52dca30f8c9",
+    "i_tod_sky_cargo_teal": "b1166f911964746000244d9454c75fdedfe184fca23d69598208f710a16c7273",
+    "i_tod_sky_cargo_white": "2a5074b1e097e821231704509039e05461071141febd9b6c769c53ac48e7e733",
+    "i_tod_sky_cargo_yellow": "665fc30805900858dd210ede6a04e58dade6b3b91c7ce93f224b80a609396f30",
+    "i_tod_sky_deco_c": "3a351e554f7296d3ebcd99d0242bbb1146eda31151884464e741a005ce690a66",
+    "i_tod_sky_drive_c": "d742304d0479fe8b62e8d5542601829ad7d1908e555325c46ae3b9964147fdee",
+    "i_tod_sky_drive_g": "5a109d13b3e0933403addcb05edf8537b1879a9c3ac3a3f815314f4af63ee639",
+    "i_tod_sky_drive_n": "d473cd25251cfc405055ec47ce8cc80aee46e0aceb080200fdab06c800e7e409",
+    "i_tod_sky_drive_s": "9b891672017720a4b615ad8ded44b8162f516c2966a82a2e83a7dfbfe0a78f90",
+    "i_tod_sky_flat_g": "d5869dceae5cc2a32bd5747a1d5f782072170a15a7b6630986d93fa1a7ad7ebc",
+    "i_tod_sky_flat_n": "072b54cf18c7b6527f75471c798c9fd23e7ba7163f0a2f02e651f8caa08f30b5",
+    "i_tod_sky_flat_s": "f7d730c36d2c4fb576259b70e6d1edf05955043f924e409ec6d59239b06e3355",
+    "i_tod_sky_glow_amber": "289a5224da523991470df9748b25d07f95e99fdd7a9c925c26c76a1bf7dc6d33",
+    "i_tod_sky_glow_cyan": "4b87aa0679cf85a49618dab3f341cc7de0a5f36d047ab996661818e684891b9d",
+    "i_tod_sky_glow_green": "d7638195fdf92ff83de0dda94f507dfee9411599d0c22f15cd5ecae0cda8e371",
+    "i_tod_sky_glow_hot_amber": "1385ec05612aa02036fecd2e2c7767b68a7c97aa5574fc522fea7f07441dad0b",
+    "i_tod_sky_glow_hot_cyan": "24bcfbb809483474325d804c9265fc54738d01f08d97897cea1008800902c0b3",
+    "i_tod_sky_glow_magenta": "7041a00c1d88ab52b3ab9035bc0a4518e77e17b4175fb08a67a7af398812c58f",
+    "i_tod_sky_glow_nav_green": "c6d2e2041fe3ba7bd9c9c9b5326ef2aad9d7c55f83ae3c450e19132022ae0b91",
+    "i_tod_sky_glow_nav_red": "6dd6e07d4251c71180544fbbaaf4091d6bd7a2aa494203a5fb4fcbc373e2e980",
+    "i_tod_sky_glow_orange": "ded933363a0f438dcdda4c50c7dcc0f9d6569d47dba2e876ffc4a4a394d40955",
+    "i_tod_sky_glow_red": "835951ade9f48e69ee7710a2294c1c7f4c2e2b2b88c1662767089a7624ece749",
+    "i_tod_sky_glow_teal": "fd98f0a6b1397d0917c1edd59951ca32e355532f820e4b5533c1f9cb5d684c0f",
+    "i_tod_sky_glow_white": "82f386cd25dd3b6e31bc5a825ea06c609e4f967e6919caaa632de995a770f6eb",
+    "i_tod_sky_mineral_amber_c": "5a07019729463502385512997d848ec23a3ae93ed612c766368704999e8a29f3",
+    "i_tod_sky_mineral_cyan_c": "03baeeb0af8e284be61b5e7f7dbed4ab857e164f7b889fd51d9cdc3515e16a3a",
+    "i_tod_sky_mineral_g": "b833cd100c055423c0e0d543ba7e544cd623b87e748f6bba6ef9709cac952dd0",
+    "i_tod_sky_mineral_magenta_c": "d67aba72f5629153b331f3d220a091a62a90c77576915df8ee4bd1a931692cd9",
+    "i_tod_sky_mineral_n": "c32892b600bc2e92bde82768d3f532e0e135d6d62c9464c2663e6973564741b2",
+    "i_tod_sky_mineral_s": "6cd9e968dac8b718943840b685fb9eb80b9cb8efce6c6357cc6efcdcb476aeac",
+    "i_tod_sky_plate2_c": "d800ddac2fd317b98aa7e546991d1b9eb3345b38c3bec5a5edff78cd08360b1a",
+    "i_tod_sky_plate2_g": "07ee4bf3be967d3429be5c0ab1f1c69ea4f661340221c4ea4555804ab2266630",
+    "i_tod_sky_plate2_n": "c48485f37244c28cd9511365b11f722a1caf2c3f7399ab3d04909c6793defd2c",
+    "i_tod_sky_plate2_s": "adfe0fff3c4ab5a2bb8fb9b2edd9ece848acd46b5482758556e5d81803991e81",
+    "i_tod_sky_plate_c": "3090c96ec811662b5205be0c849ddb6dbc3e9de36fca46b453454c5c4710ce33",
+    "i_tod_sky_plate_g": "86f0d0ba1319ebd5164892a5e5c3fbf592a91e11c9922a53ce84a337234d82d8",
+    "i_tod_sky_plate_n": "8734148c41c9068cb39d8be938287b3655dded42b0c40554125797bcdd673bb2",
+    "i_tod_sky_plate_s": "fd0f550730b1a23b696d0bd028566031628721b08d16b085eb0f0f2d59c22b28",
+    "i_tod_sky_rock2_c": "5f9bf74f75bb7914438a646b47ee59a332de8e591291ac62e606b0eda5f52a85",
+    "i_tod_sky_rock_c": "450bca6ff5d900dfbf31b5128df5f74bb425199228cd6950c5910f43f786494a",
+    "i_tod_sky_rock_g": "31336c19c4d1e073bee3397a189d5f6a0d33cb94f14420374ed0bb4902dcd73e",
+    "i_tod_sky_rock_n": "48b6167cc153b1df1eff5eef4f493a6712fe0de23bc1dac4189ff538bd00fa2b",
+    "i_tod_sky_rock_s": "0f7a2423ae956fada0d97b6159d1e7a7b7468e2f7438d3b58ef0c9a4c7936ec9",
+    "i_tod_sky_win2_c": "dce612e5ba7d05bdc15e0329ed198e88072512d60e326bad7e1ee242e1f3603c"
+  },
+  "gdt": "art/sky_ships/staging/tod_sky_ships.gdt",
+  "gdt_sha256": "d36b4ed58f5ee9d5fe9794916087ab3da42ccca92470fbf12411936bb1d8b867",
+  "zone_lines": [
+    "xmodel,tod_sky_dreadnought",
+    "xmodel,tod_sky_dreadnought_b",
+    "xmodel,tod_sky_fighter",
+    "xmodel,tod_sky_fighter_b",
+    "xmodel,tod_sky_gunship",
+    "xmodel,tod_sky_gunship_b",
+    "xmodel,tod_sky_hauler",
+    "xmodel,tod_sky_hauler_b",
+    "xmodel,tod_sky_rock_1",
+    "xmodel,tod_sky_rock_2",
+    "xmodel,tod_sky_rock_3",
+    "xmodel,tod_sky_rock_3_b",
+    "xmodel,tod_sky_rock_4",
+    "xmodel,tod_sky_rock_4_b",
+    "xmodel,tod_sky_rock_5"
+  ],
+  "native_verified": false
+}

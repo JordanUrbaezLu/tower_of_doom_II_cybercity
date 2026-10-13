@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "engine": "Blender EEVEE (4.2)",
+  "scene": "haven_review.blend (tools/haven/preview.py)",
+  "cross_efx_sha256": "1c56b8161ad9cf33865e1ea2a558aa4bf20d3d8b4369a35e62026648a57a83f6",
+  "push_efx_sha256": "526feed1ff695003a62eef670c3ec217dc92953d82bf4b81f699d5b0ea9f8b28",
+  "limit": "beads drawn as emissive spheres at their alpha; no sprite blending, bloom, exposure, streaks or crackle",
+  "images": {
+    "ripple_front_120.png": {
+      "beads": 56,
+      "sha256": "b8e4ddef2426e9785f041bc5d7eca3d7a1ce8a70d475737316981303851792a8"
+    },
+    "ripple_front_260.png": {
+      "beads": 146,
+      "sha256": "f489db212f60ef6cd935a1973aaa32905cebd73e5cdd6f22e464e64b8ab3e996"
+    },
+    "ripple_graze_120.png": {
+      "beads": 56,
+      "sha256": "169e8e3600d8c3e639671aaf6fdec9ecdb5dc47379dac9e10ab0cdd14d43a91e"
+    },
+    "ripple_graze_260.png": {
+      "beads": 146,
+      "sha256": "be4864c4624b05914bef9c80cf00e85b3036767a6ec8558cb43e00769266b66d"
+    },
+    "ripple_inside_120.png": {
+      "beads": 56,
+      "sha256": "a36f407731d73ae3099ebbe542e733290720764f3ad8e144f31e277f427005d5"
+    },
+    "ripple_inside_260.png": {
+      "beads": 146,
+      "sha256": "e35526ff3852a4f5c31cceed0f2b8e09b029d67cbb45ffbf837ebdfd471af880"
+    },
+    "ripple_push_110.png": {
+      "beads": 54,
+      "sha256": "3330a7a9d72b796cc36b1990844d66825e8e779f9b0ae87a866ff5cfdce0f1e5"
+    }
+  }
+}

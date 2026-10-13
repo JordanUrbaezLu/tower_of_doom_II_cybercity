@@ -1,0 +1,528 @@
+return 75014000
+^1ERROR: xmodel 'p7_zm_zod_fuse' is missing
+  xmodel:p7_zm_zod_fuse
+    csv:zm_ai_zod_companion.zpkg
+      csv:tod_partners.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1Material 'mc/mtl_wpn_t7_zmb_bow_rune_missile' (mc/lit_emissive_scroll_3layer_plus): Image '$white' (emissiveMap2) has a mismatched usage ( '2d' expected: [diffuseMap, HDR] )
+  material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+    xmodel:wpn_t7_zmb_bow_base_view
+      weapon:cc_bow_d0s0_zm
+        csv:tod_twins.zpkg
+          csv:zone_source/zm_tod2_cybercity.zone
+^1material 'mc/mtl_wpn_t7_zmb_bow_rune_missile' using technique 'mc/lit_emissive_scroll_3layer_plus#e6142445.lit' from techniqueSet 'mc/lit_emissive_scroll_3layer_plus#e6142445' doesn't expose a 'emissiveMap2' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    0: aoMap i_wpn_t7_zmb_bow_rune_missile_o
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    1: (null) $camo_base_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    2: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    3: flickerLookupMap i_generic_lookup
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    4: normalMap i_wpn_t7_zmb_bow_rune_missile_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    5: glossMap i_wpn_t7_zmb_bow_rune_missile_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    6: camoMaskMap $camo_base_mask
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    7: colorMap i_wpn_t7_zmb_bow_rune_missile_c
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    8: emissiveMap3 i_wpn_t7_zmb_bow_rune_missile_e
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    9: emissiveMap1 $white_diffuse
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    10: (null) $camo_base_normal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_missile
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1Material 'mc/mtl_wpn_t7_zmb_bow_storm_crystals' (mc/lit_emissive_scroll_3layer_advanced): Image '$white' (emissiveMap2) has a mismatched usage ( '2d' expected: [diffuseMap, HDR] )
+  material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+    xmodel:wpn_t7_zmb_bow_base_view
+      weapon:cc_bow_d0s0_zm
+        csv:tod_twins.zpkg
+          csv:zone_source/zm_tod2_cybercity.zone
+^1material 'mc/mtl_wpn_t7_zmb_bow_storm_crystals' using technique 'mc/lit_emissive_scroll_3layer_advanced#e6142445.lit' from techniqueSet 'mc/lit_emissive_scroll_3layer_advanced#e6142445' doesn't expose a 'emissiveMap2' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    0: aoMap $white_ao
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    1: (null) $camo_base_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    2: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    3: flickerLookupMap i_generic_lookup
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    4: normalMap i_wpn_t7_zmb_bow_storm_crystals_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    5: glossMap i_wpn_t7_zmb_bow_storm_crystals_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    6: camoMaskMap $camo_base_mask
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    7: colorMap i_wpn_t7_zmb_bow_storm_crystals_c
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    8: emissiveMap3 i_wpn_t7_zmb_bow_storm_crystals_e
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    9: emissiveMap1 $white_diffuse
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    10: (null) $camo_base_normal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    11: specColorMap i_wpn_t7_zmb_bow_storm_crystals_s
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_crystals
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1Material 'mc/mtl_wpn_t7_zmb_bow_rune_rocks' (mc/lit_emissive_scroll_3layer_plus): Image '$white' (emissiveMap2) has a mismatched usage ( '2d' expected: [diffuseMap, HDR] )
+  material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+    xmodel:wpn_t7_zmb_bow_base_view
+      weapon:cc_bow_d0s0_zm
+        csv:tod_twins.zpkg
+          csv:zone_source/zm_tod2_cybercity.zone
+^1material 'mc/mtl_wpn_t7_zmb_bow_rune_rocks' using technique 'mc/lit_emissive_scroll_3layer_plus#e6142445.lit' from techniqueSet 'mc/lit_emissive_scroll_3layer_plus#e6142445' doesn't expose a 'emissiveMap2' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    0: aoMap i_wpn_t7_zmb_bow_rune_rocks_o
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    1: (null) $camo_base_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    2: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    3: flickerLookupMap i_generic_lookup
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    4: normalMap i_wpn_t7_zmb_bow_rune_rocks_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    5: glossMap i_wpn_t7_zmb_bow_rune_rocks_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    6: camoMaskMap $camo_base_mask
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    7: colorMap i_wpn_t7_zmb_bow_rune_rocks_c
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    8: emissiveMap3 i_wpn_t7_zmb_bow_rune_rocks_e
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    9: emissiveMap1 $white_diffuse
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    10: (null) $camo_base_normal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_rune_rocks
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1Material 'mc/mtl_wpn_t7_zmb_bow_storm_missle_orb' (mc/lit_emissive_scroll_3layer_plus): Image '$white' (emissiveMap2) has a mismatched usage ( '2d' expected: [diffuseMap, HDR] )
+  material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+    xmodel:wpn_t7_zmb_bow_base_view
+      weapon:cc_bow_d0s0_zm
+        csv:tod_twins.zpkg
+          csv:zone_source/zm_tod2_cybercity.zone
+^1material 'mc/mtl_wpn_t7_zmb_bow_storm_missle_orb' using technique 'mc/lit_emissive_scroll_3layer_plus#e6142445.lit' from techniqueSet 'mc/lit_emissive_scroll_3layer_plus#e6142445' doesn't expose a 'emissiveMap2' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    0: aoMap $occlusion_50
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    1: (null) $camo_base_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    2: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    3: flickerLookupMap i_generic_lookup
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    4: normalMap i_wpn_t7_zmb_bow_storm_crystals_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    5: glossMap i_wpn_t7_zmb_bow_storm_crystals_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    6: camoMaskMap $camo_base_mask
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    7: colorMap $color_black_40
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    8: emissiveMap3 i_wpn_t7_zmb_bow_storm_crystals_e
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    9: emissiveMap1 $white_diffuse
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1    10: (null) $camo_base_normal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_zmb_bow_storm_missle_orb
+      xmodel:wpn_t7_zmb_bow_base_view
+        weapon:cc_bow_d0s0_zm
+          csv:tod_twins.zpkg
+            csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_zmb_bow_base_view) uses material (mtl_wpn_t7_zmb_bow_rune_missile) but there is no techset for surface 1
+  xmodel:wpn_t7_zmb_bow_base_view
+    weapon:cc_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_zmb_bow_base_view) uses material (mtl_wpn_t7_zmb_bow_storm_crystals) but there is no techset for surface 13
+  xmodel:wpn_t7_zmb_bow_base_view
+    weapon:cc_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_zmb_bow_base_view) uses material (mtl_wpn_t7_zmb_bow_rune_rocks) but there is no techset for surface 15
+  xmodel:wpn_t7_zmb_bow_base_view
+    weapon:cc_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_zmb_bow_base_view) uses material (mtl_wpn_t7_zmb_bow_storm_missle_orb) but there is no techset for surface 17
+  xmodel:wpn_t7_zmb_bow_base_view
+    weapon:cc_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (tod_fire_bow_rune_view) uses material (mtl_wpn_t7_zmb_bow_storm_crystals) but there is no techset for surface 13
+  xmodel:tod_fire_bow_rune_view
+    weapon:cc_fire_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (tod_fire_bow_rune_view) uses material (mtl_wpn_t7_zmb_bow_storm_missle_orb) but there is no techset for surface 17
+  xmodel:tod_fire_bow_rune_view
+    weapon:cc_fire_bow_d0s0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (tod_punch_none_view) uses material (mtl_wpn_t7_none) but there is no techset for surface 0
+  xmodel:tod_punch_none_view
+    weapon:cc_punch_k0_zm
+      csv:tod_twins.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1ERROR: Material mtl_glass was not found in gdtDB
+  material:mc/mtl_glass
+    xmodel:view_xmas_gun
+      weapon:xmas_gun_zm
+        csv:xmas_gun.zpkg
+          csv:zone_source/zm_tod2_cybercity.zone
+^1The model (view_xmas_gun) uses material (mtl_glass) but there is no techset for surface 4
+  xmodel:view_xmas_gun
+    weapon:xmas_gun_zm
+      csv:xmas_gun.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1The model (world_xmas_gun) uses material (mtl_glass) but there is no techset for surface 1
+  xmodel:world_xmas_gun
+    weapon:xmas_gun_zm
+      csv:xmas_gun.zpkg
+        csv:zone_source/zm_tod2_cybercity.zone
+^1Material 'mc/mtl_wpn_t7_c4_decal2' (mc/lit_plus): Image '$white_reveal' (colorMap) has a mismatched usage ( 'revealMap' expected: [diffuseMap] )
+  material:mc/mtl_wpn_t7_c4_decal2
+    xmodel:wpn_t7_c4_view
+      weapon:tod_c4
+        csv:zone_source/zm_tod2_cybercity.zone
+^1material 'mc/mtl_wpn_t7_c4_decal2' using technique 'mc/lit_plus#e6142445.gbuffer' from techniqueSet 'mc/lit_plus#e6142445' doesn't expose a 'colorMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_c4_decal2
+      xmodel:wpn_t7_c4_view
+        weapon:tod_c4
+          csv:zone_source/zm_tod2_cybercity.zone
+^1    0: aoMap $white_ao
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_c4_decal2
+      xmodel:wpn_t7_c4_view
+        weapon:tod_c4
+          csv:zone_source/zm_tod2_cybercity.zone
+^1    1: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_c4_decal2
+      xmodel:wpn_t7_c4_view
+        weapon:tod_c4
+          csv:zone_source/zm_tod2_cybercity.zone
+^1    2: normalMap $identitynormalmap
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_c4_decal2
+      xmodel:wpn_t7_c4_view
+        weapon:tod_c4
+          csv:zone_source/zm_tod2_cybercity.zone
+^1    3: glossMap $white_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_wpn_t7_c4_decal2
+      xmodel:wpn_t7_c4_view
+        weapon:tod_c4
+          csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_c4_view) uses material (mtl_wpn_t7_c4_decal2) but there is no techset for surface 7
+  xmodel:wpn_t7_c4_view
+    weapon:tod_c4
+      csv:zone_source/zm_tod2_cybercity.zone
+^1The model (wpn_t7_c4_world) uses material (mtl_wpn_t7_c4_decal2) but there is no techset for surface 5
+  xmodel:wpn_t7_c4_world
+    weapon:tod_c4
+      csv:zone_source/zm_tod2_cybercity.zone
+^1ERROR: Material gfx_teleport_tube_em_scroll_nocull was not found in gdtDB
+  material:el/gfx_teleport_tube_em_scroll_nocull
+    fx:dlc5/theater/fx_teleport_flashback_kino
+      csv:zone_source/zm_tod2_cybercity.zone
+^1File fx/tod/dealer_combat/fx_dc_charge.efx, line 835: Curves times must be monotonically increasing (key 1 is at 0 <= 0).
+  fx:tod/dealer_combat/fx_dc_charge
+    csv:zone_source/zm_tod2_cybercity.zone
+^1File fx/tod/dealer_combat/fx_dc_charge.efx, line 835: Unknown editor elem }
+  fx:tod/dealer_combat/fx_dc_charge
+    csv:zone_source/zm_tod2_cybercity.zone
+^3Found 318 bad nodes, 0 useless nodes, dumped to C:\BO3Tools\TOD2Cybercity\/usermaps\zm_tod2_cybercity/zone_source/all/assetinfo/zm_tod2_cybercity.badnodes file.
+  game_map:maps/zm/zm_tod2_cybercity.d3dbsp
+^3WARNING: Effect material 'gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vd/gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vdd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vdd/gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact_lv9
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vd/gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact_lv9
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vdd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vdd/gfx_decal_crater_01|dup
+    fx:tod/abfx/fx_abfx_bash_impact_lv9
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:gfx_decal_crater_01|dup
+    fx:hb/gold_sword/fx_smash
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vd/gfx_decal_crater_01|dup
+    fx:hb/gold_sword/fx_smash
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vdd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vdd/gfx_decal_crater_01|dup
+    fx:hb/gold_sword/fx_smash
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:gfx_decal_crater_01|dup
+    fx:dlc1/zmb_weapon/fx_wpn_spike_grnd_hit
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vd/gfx_decal_crater_01|dup
+    fx:dlc1/zmb_weapon/fx_wpn_spike_grnd_hit
+      texturecombo:zm_tod2_cybercity
+^3WARNING: Effect material 'vdd/gfx_decal_crater_01|dup', usage 0x1, texture '$white_diffuse' is a default non combo image, texture skipped, effect might be corrupt.
+  material:vdd/gfx_decal_crater_01|dup
+    fx:dlc1/zmb_weapon/fx_wpn_spike_grnd_hit
+      texturecombo:zm_tod2_cybercity
+^3Found 64 bad bulletmeshes, dumped to C:\BO3Tools\TOD2Cybercity\/usermaps\zm_tod2_cybercity/zone_source/all/assetinfo/zm_tod2_cybercity_bulletreport.csv file.

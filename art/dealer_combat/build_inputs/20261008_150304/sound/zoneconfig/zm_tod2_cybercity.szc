@@ -1,0 +1,279 @@
+{
+    "Name": "zm_tod2_cybercity",
+    "GameMode": "mpl",
+    "IsCommon": false,
+    "Parent": "",
+    "Overlay": "",
+    "IsStandalone": true,
+    "IsProduction": false,
+    "IsShipped": false,
+    "DontDeploy": false,
+    "NoStreamBank": false,
+    "MapFile": "",
+    "Standalone": true,
+    "Builds": [
+        "T7"
+    ],
+    "Sources": [
+        {
+            "Type": "ALIAS",
+            "Name": "tod_war",
+            "Filename": "tod_war.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_haven",
+            "Filename": "tod_haven.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_arena",
+            "Filename": "tod_arena.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_house",
+            "Filename": "tod_house.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_dealer",
+            "Filename": "tod_dealer.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_dealer_combat",
+            "Filename": "tod_dealer_combat.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_sky",
+            "Filename": "tod_sky.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_jump",
+            "Filename": "tod_jump.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_luck",
+            "Filename": "tod_luck.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_near",
+            "Filename": "tod_near.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_ability",
+            "Filename": "tod_ability.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_stings",
+            "Filename": "tod_stings.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_partners",
+            "Filename": "tod_partners.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_amb",
+            "Filename": "tod_amb.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_necro_foley",
+            "Filename": "tod_necro_foley.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_crossbow",
+            "Filename": "tod_crossbow.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_necromancer",
+            "Filename": "tod_necromancer.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_ports",
+            "Filename": "tod_ports.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_wunderstrahl",
+            "Filename": "tod_wunderstrahl.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "zm_ai_zod_companion",
+            "Filename": "zm_ai_zod_companion.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_bosses",
+            "Filename": "tod_bosses.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "hb_bo6_ghoul",
+            "Filename": "hb_bo6_ghoul.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_ui",
+            "Filename": "tod_ui.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "logical_powerups",
+            "Filename": "logical_powerups.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "xmas_gun",
+            "Filename": "xmas_gun.csv",
+            "Specs": []
+        },
+        {
+            "Type": "AMBIENT",
+            "Name": "ambient_mod",
+            "Filename": "ambient_mod.csv",
+            "Specs": [
+                "mpl_mod"
+            ]
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "zm_cwpap_sound",
+            "Filename": "zm_cwpap_sound.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_wisp_tea",
+            "Filename": "tod_wisp_tea.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_perk_cans",
+            "Filename": "tod_perk_cans.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_perk_machines",
+            "Filename": "tod_perk_machines.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_shop",
+            "Filename": "tod_shop.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_expected_roster",
+            "Filename": "tod_expected_roster.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "elemental_bow_sounds",
+            "Filename": "elemental_bow_sounds.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_archer",
+            "Filename": "tod_archer.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "hb_mangler",
+            "Filename": "hb_mangler.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "hb_bo6_mangler",
+            "Filename": "hb_bo6_mangler.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_elite_fx",
+            "Filename": "tod_elite_fx.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "hb_thermite",
+            "Filename": "hb_thermite.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_fuse_cluster",
+            "Filename": "tod_fuse_cluster.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_warrior",
+            "Filename": "tod_warrior.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_mangler_vox",
+            "Filename": "tod_mangler_vox.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_perk_jingles",
+            "Filename": "tod_perk_jingles.csv",
+            "Specs": []
+        },
+        {
+            "Type": "ALIAS",
+            "Name": "tod_wunderfizz",
+            "Filename": "tod_wunderfizz.csv",
+            "Specs": []
+        }
+    ]
+}

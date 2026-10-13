@@ -1,0 +1,15 @@
+{
+  "texture": "model_export\\tod_necro\\i_tod_necro_pulse.png",
+  "sha256": "5146c4cb8b0d578db904f002384d3f8c5a14696aeb1189e744ef4544f28d6eb5",
+  "authoring": "Blender MCP, tools/necromancer/author_pulse.py",
+  "resolution": [
+    512,
+    512
+  ],
+  "native_particles_per_cast": 2,
+  "native_lights": 0,
+  "native_lifetime_ms": 845,
+  "native_edge_ms": 140,
+  "native_playtested": false,
+  "preview_bloom": false
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "engine": "Blender EEVEE (4.2)",
+  "scene": "haven_review.blend (tools/haven/preview.py)",
+  "sign_anchor": {
+    "org": [
+      20.0,
+      -235.0,
+      3978.0
+    ],
+    "yaw": 90.0
+  },
+  "guard_spots": [
+    [
+      347.596,
+      185.029
+    ],
+    [
+      185.029,
+      347.596
+    ],
+    [
+      -1.029,
+      347.596
+    ],
+    [
+      -163.596,
+      185.029
+    ],
+    [
+      -154.516,
+      -22.952
+    ],
+    [
+      -22.952,
+      -154.516
+    ],
+    [
+      228.0,
+      -143.559
+    ],
+    [
+      338.516,
+      -22.952
+    ]
+  ],
+  "dome_dark_sha256": "afe2ed4790672f0f6faeb1aac946cbd5e83a9e09ec9951f9be4d9eef49b47c27",
+  "dome_dark_mesh": "tod_haven_dome_dark_lod0.xmodel_bin (v5: the breached mesh on the cracked-pane atlas)",
+  "dome_dark_mesh_sha256": "4a6ff1b30e7f465687084cea510c41c265f57f43c4b378ce36455bed96f40861",
+  "sign_sha256": "8c9c8b13898f10a2cfd7de34eb7f43845045554027c5b9dcd084ade67956019b",
+  "limit": "approximate emissive view; no bake, probes, exposure, bloom, effects or guardians (markers at their spots)",
+  "images": {
+    "state_corrupt_porch.png": "ae5f9e33b3f5306c00d25b4d596334121a5de65bb4f26b9b5e21ec5c6c2a7613",
+    "state_corrupt_loggia.png": "fd5715fa70fa58738956299ed97cc839c963708ff21a790a428024a8d5510761",
+    "state_corrupt_gallery.png": "40e50c178ba6fdb112db6f31abd45cd5a521cb5bb80ba18d250a9f1abc89c04c",
+    "state_safe_porch.png": "5f13df8e4e789da98c406df651b438d184099e7823c56c97cec9d3a24c78bd57",
+    "state_safe_loggia.png": "d0013a48d4539d01e7a77ea8f65bf74e42239444c2bfe8207a32fcb42a8846db",
+    "state_safe_gallery.png": "e179874a8343c66ec4743030ce76e8f4a78e25650dd5298364c79a8c4061f07d"
+  }
+}

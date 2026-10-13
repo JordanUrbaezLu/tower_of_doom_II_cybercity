@@ -1,0 +1,622 @@
+{
+  "verified_at": "2026-10-01T13:29:07.787054-04:00",
+  "source_root": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity",
+  "source_image": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
+  "source_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+  "deployed_source_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+  "dependencies": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps",
+  "dependencies_sha256": "6cd623249eb773d97f5b6fe3d237b93b56d2f74a9465f40e92cb7ad5003cbaad",
+  "selected_cache": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_tod_alarm_lens_c_KWXGWYG3O537E7VHAYNE5H7N7C.iwi",
+  "selected_cache_sha256": "1a4a4a7e18825dbacbc10f5f414a43612dd1f1ad9ad57d149aa6b310b94e0beb",
+  "cache_modified_at": "2026-10-01T12:49:16.279625-04:00",
+  "format": "BC7_SRGB",
+  "source_alpha_histogram": {
+    "11": 573440,
+    "13": 212992,
+    "26": 262144
+  },
+  "compiled_alpha_histogram": {
+    "11": 573440,
+    "12": 13280,
+    "13": 191228,
+    "14": 8484,
+    "26": 262144
+  },
+  "maximum_alpha_error_bytes": 1,
+  "near_opaque_threshold": 220,
+  "mips": [
+    {
+      "level": 0,
+      "width": 1024,
+      "height": 1024,
+      "payload_start": 349648,
+      "payload_end": 1398224,
+      "alpha_histogram": {
+        "11": 573440,
+        "12": 13280,
+        "13": 191228,
+        "14": 8484,
+        "26": 262144
+      }
+    },
+    {
+      "level": 1,
+      "width": 512,
+      "height": 512,
+      "payload_start": 87504,
+      "payload_end": 349648,
+      "alpha_histogram": {
+        "11": 143360,
+        "12": 976,
+        "13": 47664,
+        "14": 4608,
+        "26": 65536
+      }
+    },
+    {
+      "level": 2,
+      "width": 256,
+      "height": 256,
+      "payload_start": 21968,
+      "payload_end": 87504,
+      "alpha_histogram": {
+        "11": 35840,
+        "12": 320,
+        "13": 11248,
+        "14": 1744,
+        "26": 16384
+      }
+    },
+    {
+      "level": 3,
+      "width": 128,
+      "height": 128,
+      "payload_start": 5584,
+      "payload_end": 21968,
+      "alpha_histogram": {
+        "11": 8960,
+        "12": 48,
+        "13": 2912,
+        "14": 368,
+        "26": 4096
+      }
+    },
+    {
+      "level": 4,
+      "width": 64,
+      "height": 64,
+      "payload_start": 1488,
+      "payload_end": 5584,
+      "alpha_histogram": {
+        "11": 2240,
+        "13": 784,
+        "14": 48,
+        "26": 1024
+      }
+    },
+    {
+      "level": 5,
+      "width": 32,
+      "height": 32,
+      "payload_start": 464,
+      "payload_end": 1488,
+      "alpha_histogram": {
+        "11": 560,
+        "13": 208,
+        "26": 256
+      }
+    },
+    {
+      "level": 6,
+      "width": 16,
+      "height": 16,
+      "payload_start": 208,
+      "payload_end": 464,
+      "alpha_histogram": {
+        "11": 140,
+        "12": 8,
+        "13": 44,
+        "26": 64
+      }
+    },
+    {
+      "level": 7,
+      "width": 8,
+      "height": 8,
+      "payload_start": 144,
+      "payload_end": 208,
+      "alpha_histogram": {
+        "11": 35,
+        "12": 13,
+        "26": 16
+      }
+    },
+    {
+      "level": 8,
+      "width": 4,
+      "height": 4,
+      "payload_start": 128,
+      "payload_end": 144,
+      "alpha_histogram": {
+        "12": 12,
+        "24": 4
+      }
+    },
+    {
+      "level": 9,
+      "width": 2,
+      "height": 2,
+      "payload_start": 112,
+      "payload_end": 128,
+      "alpha_histogram": {
+        "8": 3,
+        "24": 1
+      }
+    },
+    {
+      "level": 10,
+      "width": 1,
+      "height": 1,
+      "payload_start": 96,
+      "payload_end": 112,
+      "alpha_histogram": {
+        "15": 1
+      }
+    }
+  ],
+  "housing_lods": [
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 0,
+      "lens_triangles": 3392,
+      "source_alpha_min": 13,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 12,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 1,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 2,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 135680
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 135680
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 135680
+        }
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 1,
+      "lens_triangles": 430,
+      "source_alpha_min": 26,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 1,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 2,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 17200
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 17200
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 17200
+        }
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing",
+      "lod": 2,
+      "lens_triangles": 196,
+      "source_alpha_min": 26,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 1,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 2,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 7840
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 7840
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 7840
+        }
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 0,
+      "lens_triangles": 3392,
+      "source_alpha_min": 13,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 12,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 1,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 2,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 135680
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 135680
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 135680
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 135680
+        }
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 1,
+      "lens_triangles": 430,
+      "source_alpha_min": 26,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 1,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 2,
+          "min": 26,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 17200
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 17200
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 17200
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 17200
+        }
+      ]
+    },
+    {
+      "asset": "tod_crown_alarm_housing_high",
+      "lod": 2,
+      "lens_triangles": 196,
+      "source_alpha_min": 26,
+      "source_alpha_max": 26,
+      "compiled_mips": [
+        {
+          "level": 0,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 1,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 2,
+          "min": 26,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 3,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 4,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 5,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 6,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 7,
+          "min": 11,
+          "max": 26,
+          "samples": 7840
+        },
+        {
+          "level": 8,
+          "min": 12,
+          "max": 24,
+          "samples": 7840
+        },
+        {
+          "level": 9,
+          "min": 8,
+          "max": 24,
+          "samples": 7840
+        },
+        {
+          "level": 10,
+          "min": 15,
+          "max": 15,
+          "samples": 7840
+        }
+      ]
+    }
+  ],
+  "native_geometry_changed": false,
+  "game_launched": false,
+  "native_visual_verified": false
+}

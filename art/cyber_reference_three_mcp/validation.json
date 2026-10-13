@@ -1,0 +1,91 @@
+{
+  "reference": 3,
+  "assignment": "armored sprinter only",
+  "authoring_transport": "upstream Blender MCP execute_blender_code; localhost:9877",
+  "equipment_objects": 1676,
+  "evaluated_equipment_triangles": 510245,
+  "attachment_bones": {
+    "j_shoulder_le": 31,
+    "j_elbow_le": 182,
+    "j_spine4": 942,
+    "j_hip_ri": 56,
+    "j_wrist_le": 44,
+    "j_thumb_le_1": 13,
+    "j_thumb_le_2": 8,
+    "j_thumb_le_3": 8,
+    "j_index_le_1": 13,
+    "j_index_le_2": 8,
+    "j_index_le_3": 8,
+    "j_mid_le_1": 13,
+    "j_mid_le_2": 8,
+    "j_mid_le_3": 8,
+    "j_ring_le_1": 13,
+    "j_ring_le_2": 8,
+    "j_ring_le_3": 8,
+    "j_pinky_le_1": 13,
+    "j_pinky_le_2": 8,
+    "j_pinky_le_3": 8,
+    "j_head": 207,
+    "j_knee_le": 69
+  },
+  "stock_geometry_and_weights_unchanged": true,
+  "donor_signatures": {
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_0": "c6a94ff1e003a6376ea72b454500c2822f600916405f3d78d595bc6710165bfe",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_1": "a494165334a51fd801659b3125a92a014eb9608e7a9b4ceb565d4688f7289f84",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_2": "f0d426b764f84a576ccbc5182ae852053d027946f15d6b8aab544b6072cb3ab1",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_3": "74eb60ea14bef252acd7c651a1655ba9605d451ccd2086b5d916c306139560f0",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_4": "7c4ee2e0fabc3e6b07c678f64e8946c7f62b2587cd60a8ec11074c74ba9824bd",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_5": "a0f3b2103000699e354eac8f698c2fe9c006f60e6ba5bd08472315bf5a6213d9",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_6": "4f009df7ba8ab962c348ddac165e90a18ae9401f9aca6937a63ad109586378b4",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_7": "e1287e66c19c3668f03c4da46a32904a9f1dea9615643d04edf78b8321edb082",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_8": "e6d85a32bc8fe7a11f2d4f12d33fd2eeb08f7efaeb984e10cfff15b8e785e57c",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_9": "18bcfb21e182c88332fc3e167c9372a26ae1f21564b19dfcb77282885367a8ca",
+    "c_t8_zmb_mob_zombie_body3 | WraithMesh_10": "5b09962d0f08e7396c2584d5f50fb96dc4e866c90578cf981bdb7821ce758b48",
+    "c_zom_der_zombie_head2 | zombie_head_2_LOD0Shape1": "20699210ca6ceab7f9bc5148c4d46401a536acb5cc3f4fedb5fffc9d0222e7e7"
+  },
+  "pose_checks": [
+    {
+      "pose": "head_turn",
+      "maximum_attachment_error": 1.0490417645831421e-05
+    },
+    {
+      "pose": "left_arm",
+      "maximum_attachment_error": 1.561414177897734e-05
+    },
+    {
+      "pose": "right_arm",
+      "maximum_attachment_error": 7.688768146799611e-06
+    },
+    {
+      "pose": "knees",
+      "maximum_attachment_error": 7.688768146799611e-06
+    }
+  ],
+  "master_sha256": "7f1f187a52b5fdf9f213e55c002d29dff20c0385912ec4cd0e667584d7100b51",
+  "magenta_emission_strength": 2.5999999046325684,
+  "native_exported": true,
+  "native_playtested": false,
+  "limitations": [
+    "Equipment reconstructed from reference images and adapted to original donor proportions.",
+    "Pose checks verify attachment motion, not full animation collision clearance."
+  ],
+  "equipment_lod_triangles": [
+    45961,
+    30573,
+    15831,
+    8414,
+    4844,
+    3242,
+    1926
+  ],
+  "game_integration": {
+    "ff_bytes": 149687168,
+    "ff_local_time": "2026-09-16T14:20:51.530766",
+    "snapshot_inputs": 431,
+    "differences": [],
+    "deployed_inputs_newer_than_ff": [],
+    "missing_assets": [],
+    "native_visual_verified": false,
+    "game_launched": false
+  }
+}

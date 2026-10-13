@@ -1,0 +1,6 @@
+{
+  "scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc": "896c8920df90d31fde647c39564dece845ccf9641b7ae8793590b8a8bef4be12",
+  "scripts/zm/zm_tod2_cybercity.csc": "9e3a4861dbee26555c04c2f7a26c16ce8edb58f8d1f93e88cf14129b551a5da8",
+  "tools/gen_tod_twins.js": "0db035851fa74203c1f1a8a3dc6186259e48df2123972a65e1791de7c7c471fe",
+  "zone_source/zm_tod2_cybercity.zone": "059ce603965f6cbce9cda3b6fd8587586f003e57068451eb3785e1af1b4934df"
+}

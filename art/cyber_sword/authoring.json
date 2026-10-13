@@ -1,0 +1,57 @@
+{
+  "parts": 165,
+  "removed_ornaments": [
+    "Chinese blade \u2022 01 \u65ac",
+    "Chinese blade \u2022 01 \u65ac \u2022 reverse",
+    "Chinese blade \u2022 02 \u5996",
+    "Chinese blade \u2022 02 \u5996 \u2022 reverse",
+    "Chinese blade \u2022 03 \u9664",
+    "Chinese blade \u2022 03 \u9664 \u2022 reverse",
+    "Chinese blade \u2022 04 \u9b54",
+    "Chinese blade \u2022 04 \u9b54 \u2022 reverse",
+    "Chinese blade \u2022 05 \u795e",
+    "Chinese blade \u2022 05 \u795e \u2022 reverse",
+    "Chinese blade \u2022 06 \u5a01",
+    "Chinese blade \u2022 06 \u5a01 \u2022 reverse",
+    "Chinese blade \u2022 07 \u7121",
+    "Chinese blade \u2022 07 \u7121 \u2022 reverse",
+    "Chinese blade \u2022 08 \u96d9",
+    "Chinese blade \u2022 08 \u96d9 \u2022 reverse",
+    "Blade crown simple diamond",
+    "Blade crown simple diamond \u2022 reverse",
+    "Blade crown simple left chevron",
+    "Blade crown simple left chevron \u2022 reverse",
+    "Blade crown simple right chevron",
+    "Blade crown simple right chevron \u2022 reverse"
+  ],
+  "added_parts": 92,
+  "guide_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      8.742277657347586e-08,
+      0.0
+    ],
+    [
+      0.0,
+      -8.742277657347586e-08,
+      -1.0,
+      0.9340000152587891
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "native_grip_lift_inches": 1.1,
+  "original_source_unchanged": true,
+  "native_playtested": false
+}

@@ -1,0 +1,12 @@
+{
+  "art_source_ready": true,
+  "blender_mcp_port": 9886,
+  "blender_open": "cyber_sword.blend",
+  "source_checks": "PASS",
+  "shared_integration_applied": false,
+  "build_clearance_received": false,
+  "native_playtested": false,
+  "review": "review.html",
+  "video": "charge_transition.mp4",
+  "recorded": "2026-09-26T17:23:12.866223"
+}

@@ -1,0 +1,113 @@
+{
+  "preview_limit": "Exported maps and gloss range; approximate fullspec GGX preview, not BO3 parity",
+  "scene_sha256": "803811e46ff0dea55acc298fb623ae004fc5153fb4486b839affc6874cdf56aa",
+  "map": "map_source/zm/zm_tod2_cybercity.map",
+  "views": [
+    {
+      "view": "arrival",
+      "eye": [
+        -8110,
+        -8110,
+        300
+      ],
+      "target": [
+        -8640,
+        -8520,
+        40
+      ],
+      "what": "where the party lands: the dais, a spoke down to the ring, the pit below"
+    },
+    {
+      "view": "pit",
+      "eye": [
+        -7670,
+        -8470,
+        60
+      ],
+      "target": [
+        -8120,
+        -7850,
+        260
+      ],
+      "what": "in the pit: the dais on its pillars, the spokes overhead, the ring all round"
+    },
+    {
+      "view": "ring",
+      "eye": [
+        -8736,
+        -7264,
+        180
+      ],
+      "target": [
+        -7600,
+        -8400,
+        120
+      ],
+      "what": "the ring's NW corner: the running track, a pinwheel stair, the gates below"
+    },
+    {
+      "view": "undercroft",
+      "eye": [
+        -8040,
+        -8300,
+        60
+      ],
+      "target": [
+        -7940,
+        -7740,
+        70
+      ],
+      "what": "under the dais: close quarters, the pillars, the spokes' piers"
+    },
+    {
+      "view": "overview",
+      "eye": [
+        -8700,
+        -8690,
+        520
+      ],
+      "target": [
+        -7850,
+        -7840,
+        40
+      ],
+      "what": "from the ceiling corner: the whole crucible"
+    },
+    {
+      "view": "plan",
+      "cut_z": 330,
+      "markers": {
+        "gate": [
+          1,
+          0.12,
+          0.1
+        ],
+        "pit": [
+          1,
+          0.55,
+          0.1
+        ],
+        "undercroft": [
+          0.7,
+          0.2,
+          1
+        ],
+        "ring": [
+          0.1,
+          0.85,
+          1
+        ],
+        "landing": [
+          1,
+          0.9,
+          0.15
+        ]
+      },
+      "arrival": [
+        0.15,
+        1,
+        0.35
+      ]
+    }
+  ]
+}

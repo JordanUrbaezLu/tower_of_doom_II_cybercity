@@ -1,0 +1,131 @@
+{
+  "lod_files": 9,
+  "corners": 49140,
+  "changed_uv_corners": 49140,
+  "geometry_identical": true,
+  "native_material_roles_preserved": true,
+  "lens_gloss_spec_shader_enabled": false,
+  "maps": [
+    {
+      "image": "i_tod_abtn_cast_c.png",
+      "size": 1024,
+      "sha256": "6ba19b31f38ec3841fa953d68a3f5e91dd8a21c915b07999ec4864559ad32990"
+    },
+    {
+      "image": "i_tod_abtn_cast_g.png",
+      "size": 1024,
+      "sha256": "a061a2905435f9ce35d337a2802685d0f94ac7194cb29e0fde214ee6d03fbc61"
+    },
+    {
+      "image": "i_tod_abtn_cast_s.png",
+      "size": 1024,
+      "sha256": "33dee02f2477eccff0107e983af5c21baa693b80e14b24fc5175cba47a75c2d8"
+    },
+    {
+      "image": "i_tod_abtn_cast_n.png",
+      "size": 1024,
+      "sha256": "eaede4b912e63a743d75381507170b640a19534eb56a87282d816d51e40b2f05"
+    },
+    {
+      "image": "i_tod_abtn_steel_c.png",
+      "size": 1024,
+      "sha256": "e9ad59485f92b077fa5fa2189df97f860b86d8b2bace8ae62d8835ad3196ca36"
+    },
+    {
+      "image": "i_tod_abtn_steel_g.png",
+      "size": 1024,
+      "sha256": "c5188ebd52783f7f86bc73206a92f5d61ae30d8a7d0270faa5f1f840dfcb35ef"
+    },
+    {
+      "image": "i_tod_abtn_steel_s.png",
+      "size": 1024,
+      "sha256": "8a329e461f7f4fd196a23c601968b0815cd9381291b3ceaf438916124f433563"
+    },
+    {
+      "image": "i_tod_abtn_steel_n.png",
+      "size": 1024,
+      "sha256": "25a2302826190f793eced1318e90912d3e069d819bc610d6ce1f6347ba719b8d"
+    },
+    {
+      "image": "i_tod_abtn_rubber_c.png",
+      "size": 1024,
+      "sha256": "8fc4c4829c5b3a9e5cd216e947c9d6951f030800672a622bcdab42851db1f58a"
+    },
+    {
+      "image": "i_tod_abtn_rubber_g.png",
+      "size": 1024,
+      "sha256": "b1c5f77cfc47562bb566d465e77b1ba653b57bd443d8607da79b6d1072edc767"
+    },
+    {
+      "image": "i_tod_abtn_rubber_s.png",
+      "size": 1024,
+      "sha256": "f75c3b3176a69c741280401fc1ffeb9095f607650bf555c50e037051ab309604"
+    },
+    {
+      "image": "i_tod_abtn_rubber_n.png",
+      "size": 1024,
+      "sha256": "1d79cf03ee86a666f14ca8a8740ade65433287c2fcf2b87e618dd015f94d2407"
+    },
+    {
+      "image": "i_tod_abtn_hazard_c.png",
+      "size": 1024,
+      "sha256": "f8b5d37b0f094bc33cd8a8354fa220533cff290ebc3ab27908c05dbc472f6849"
+    },
+    {
+      "image": "i_tod_abtn_hazard_g.png",
+      "size": 1024,
+      "sha256": "ab2268dd7f3357c00abe318c1a66a632faba1b0629e9c240c3ef4ca4fd774bf9"
+    },
+    {
+      "image": "i_tod_abtn_hazard_s.png",
+      "size": 1024,
+      "sha256": "81474c8d0749323add6e1394693db01cdc86b353ebb2cc290444c4ef5b61a2f3"
+    },
+    {
+      "image": "i_tod_abtn_hazard_n.png",
+      "size": 1024,
+      "sha256": "7c1645bdd6f543b30f7d88ea14aac029e144b6df377ba7d4a7344da145cb64ad"
+    },
+    {
+      "image": "i_tod_abtn_red_off_c.png",
+      "size": 1024,
+      "sha256": "0e74eb9a70a0ab2f0f9ee63ed91760ad55e43ec93118ed22850bf172084e4ddd"
+    },
+    {
+      "image": "i_tod_abtn_red_off_g.png",
+      "size": 1024,
+      "sha256": "c43341b621c4d499d3166b9462dca6cffe6a8bc6b86a0695191c65ebea3411ad"
+    },
+    {
+      "image": "i_tod_abtn_red_off_s.png",
+      "size": 1024,
+      "sha256": "bdfd0ed123dfcbc5eccd8f6c04e3a79d2b462e4cb118dd44ae505a4fbf061468"
+    },
+    {
+      "image": "i_tod_abtn_red_off_n.png",
+      "size": 1024,
+      "sha256": "f567f3dc0954eb328adcad4c08835d8809b6449c56bb1b9b723e811ddcaf6702"
+    },
+    {
+      "image": "i_tod_abtn_red_on_c.png",
+      "size": 1024,
+      "sha256": "ef2b91f781869e3f026cbfd8839324f76c1307f915ea65f5d8c1e105b613e9c6"
+    },
+    {
+      "image": "i_tod_abtn_red_on_g.png",
+      "size": 1024,
+      "sha256": "c43341b621c4d499d3166b9462dca6cffe6a8bc6b86a0695191c65ebea3411ad"
+    },
+    {
+      "image": "i_tod_abtn_red_on_s.png",
+      "size": 1024,
+      "sha256": "bdfd0ed123dfcbc5eccd8f6c04e3a79d2b462e4cb118dd44ae505a4fbf061468"
+    },
+    {
+      "image": "i_tod_abtn_red_on_n.png",
+      "size": 1024,
+      "sha256": "f567f3dc0954eb328adcad4c08835d8809b6449c56bb1b9b723e811ddcaf6702"
+    }
+  ],
+  "native_visual_verified": false
+}

@@ -1,0 +1,15 @@
+--- before/tools/gen_tower_map.js
++++ tools/gen_tower_map.js
+@@ -6648,6 +6648,12 @@
+ decalSouthWall('power decal hall arrow 2', DECAL_EAST,  -540, 792);
+ decalSouthWall('power decal hall arrow 3', DECAL_EAST,  -540, 1152);
+ decalSouthWall('power decal hall POWER',   DECAL_POWER, -540, 1480);   // the switch is at 1613
++
++// BEGIN DEALER PRESENCE: three small fixed panels on existing opaque walls.
++// No collision, lights, entity spawns or runtime animation. Shared native
++// geometry and matched Blender reviews: tools/dealer_presence/layout.js.
++require('./dealer_presence/layout').emit({worldBrushes,guid,CM,TOP2,CORE,LAP_RISE,FLIGHT_RISE});
++// END DEALER PRESENCE
+ 
+ // ---------------------------------------------------------------------------
+ // Single bottom-floor crown return: a railed open apron, no room or buy door.

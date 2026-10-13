@@ -1,0 +1,32 @@
+{
+  "materials": {
+    "mtl_tod_teleporter": {
+      "_name": "mtl_tod_teleporter",
+      "materialType": "lit_emissive_advanced_fullspec",
+      "waterRoughness": 0.1,
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 8.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "colorMap00": "i_tod_teleporter_ready_e",
+      "scaleRGB": 6.0
+    },
+    "mtl_tod_tp_off": {
+      "_name": "mtl_tod_tp_off",
+      "materialType": "lit_emissive_advanced_fullspec",
+      "waterRoughness": 0.1,
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 8.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "colorMap00": "i_tod_teleporter_e",
+      "scaleRGB": 0.0
+    }
+  },
+  "ff_time": "2026-09-26T15:46:14.024369",
+  "ff_bytes": 189911808,
+  "native_visual_verified": false,
+  "game_launched": false
+}

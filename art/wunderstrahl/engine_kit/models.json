@@ -1,0 +1,1760 @@
+{
+  "models": {
+    "tod2_ws_view": [
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_view_LOD0.XMODEL_BIN",
+        "sha256": "23307755d83181ad7d6f724b0f40c27e3a1b3f9d09c7d38924ff70cd9913666b",
+        "bones": [
+          "tag_weapon",
+          "tag_bolt_animate",
+          "tag_brass",
+          "tag_bulb_1",
+          "tag_bulb_2",
+          "tag_bulb_3",
+          "tag_clip",
+          "tag_flash",
+          "tag_fx",
+          "tag_switch_animate",
+          "tag_switch_cover_animate",
+          "tag_bolt_handle_animate"
+        ],
+        "triangles": 42795,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 634,
+          "mtl_tod2_ws_coil": 11706,
+          "mtl_tod2_ws_body": 4550,
+          "mtl_tod2_ws_glass": 20,
+          "mtl_tod2_ws_frame": 8189,
+          "mtl_tod2_ws_glow": 1188,
+          "mtl_tod2_ws_core": 12,
+          "mtl_tod2_ws_bulb": 1098,
+          "mtl_tod2_ws_emitter": 15398
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 406,
+            "faces": 634
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 9876,
+            "faces": 11706
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 3860,
+            "faces": 4550
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 22,
+            "faces": 20
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 7581,
+            "faces": 8189
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 711,
+            "faces": 1188
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 14,
+            "faces": 12
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "ws_emitter_l0",
+            "verts": 8249,
+            "faces": 15398
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_view_LOD0.XMODEL_BIN",
+        "source_sha256": "3d2835a08b0773341e726daf66231a90fe981510e011c4953083eeccd3c50f74",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 634
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 68,
+              "triangles": 11706
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4550
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 20
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 8189
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1188
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 12
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 0
+        }
+      }
+    ],
+    "tod2_ws_world": [
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD0.XMODEL_BIN",
+        "sha256": "4c525b8c2e696d00b8470be3b1cfdfcdf4bd2b037b0ed1762d048eadf49572ec",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 36887,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 634,
+          "mtl_tod2_ws_coil": 11706,
+          "mtl_tod2_ws_body": 4550,
+          "mtl_tod2_ws_glass": 20,
+          "mtl_tod2_ws_frame": 7805,
+          "mtl_tod2_ws_glow": 1188,
+          "mtl_tod2_ws_core": 12,
+          "mtl_tod2_ws_bulb": 1098,
+          "mtl_tod2_ws_emitter": 9874
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 406,
+            "faces": 634
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 9876,
+            "faces": 11706
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 3859,
+            "faces": 4550
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 22,
+            "faces": 20
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 7129,
+            "faces": 7805
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 711,
+            "faces": 1188
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 14,
+            "faces": 12
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 218,
+            "faces": 366
+          },
+          {
+            "name": "ws_emitter_l1",
+            "verts": 5357,
+            "faces": 9874
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD0.XMODEL_BIN",
+        "source_sha256": "da9d2f122f75bca1dc4542fe400191d6348bb2719eadc1e09c0a194fb7cae917",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 634
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 68,
+              "triangles": 11706
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4550
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 20
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 7805
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1188
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 12
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 366
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 1
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD1.XMODEL_BIN",
+        "sha256": "4ff7db5d56694ac43fa6cba22a42445db27e9664ebf63104ab954ad70cebf893",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 15462,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 328,
+          "mtl_tod2_ws_coil": 5155,
+          "mtl_tod2_ws_body": 2502,
+          "mtl_tod2_ws_glass": 20,
+          "mtl_tod2_ws_frame": 4023,
+          "mtl_tod2_ws_glow": 160,
+          "mtl_tod2_ws_core": 12,
+          "mtl_tod2_ws_bulb": 522,
+          "mtl_tod2_ws_emitter": 2740
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 234,
+            "faces": 328
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 5249,
+            "faces": 5155
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 2256,
+            "faces": 2502
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 22,
+            "faces": 20
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 4475,
+            "faces": 4023
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 116,
+            "faces": 160
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 14,
+            "faces": 12
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 117,
+            "faces": 174
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 117,
+            "faces": 174
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 117,
+            "faces": 174
+          },
+          {
+            "name": "ws_emitter_l3",
+            "verts": 1530,
+            "faces": 2740
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD1.XMODEL_BIN",
+        "source_sha256": "93c78df32f0e9ba933ef83aa1cf727e3ad86669e6a7126f329af409f73a2bd6d",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 328
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 24,
+              "triangles": 5155
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 2502
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 20
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4023
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 160
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 12
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 174
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 174
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 174
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 3
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD2.XMODEL_BIN",
+        "sha256": "2b74f1494e335dba0a86870ec0a14594a9e8a8b72ac548f9e3765f0292c77901",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 9514,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 220,
+          "mtl_tod2_ws_coil": 2919,
+          "mtl_tod2_ws_body": 1430,
+          "mtl_tod2_ws_glass": 17,
+          "mtl_tod2_ws_frame": 3303,
+          "mtl_tod2_ws_glow": 51,
+          "mtl_tod2_ws_core": 12,
+          "mtl_tod2_ws_bulb": 158,
+          "mtl_tod2_ws_emitter": 1404
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 176,
+            "faces": 220
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 3539,
+            "faces": 2919
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 1699,
+            "faces": 1430
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 19,
+            "faces": 17
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 3889,
+            "faces": 3303
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 51,
+            "faces": 51
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 14,
+            "faces": 12
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 51,
+            "faces": 53
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 51,
+            "faces": 51
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 52,
+            "faces": 54
+          },
+          {
+            "name": "ws_emitter_l4",
+            "verts": 820,
+            "faces": 1404
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD2.XMODEL_BIN",
+        "source_sha256": "233f2757c23b6b84728f799defa970d30e7458bca2989519136ffdfd6568eb89",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 220
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 16,
+              "triangles": 2919
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1430
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 17
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 3303
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 51
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 12
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 53
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 51
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 54
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 4
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD3.XMODEL_BIN",
+        "sha256": "aa24e534558eb05f40e5b9ff8c9f392e5ac7f94592a40a0cd68860309d302ee4",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 5151,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 114,
+          "mtl_tod2_ws_coil": 1559,
+          "mtl_tod2_ws_body": 731,
+          "mtl_tod2_ws_glass": 14,
+          "mtl_tod2_ws_frame": 1929,
+          "mtl_tod2_ws_glow": 27,
+          "mtl_tod2_ws_core": 8,
+          "mtl_tod2_ws_bulb": 69,
+          "mtl_tod2_ws_emitter": 700
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 115,
+            "faces": 114
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 1490,
+            "faces": 1079
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 1026,
+            "faces": 731
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 16,
+            "faces": 14
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 2493,
+            "faces": 1929
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 34,
+            "faces": 27
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 10,
+            "faces": 8
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 34,
+            "faces": 25
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 26,
+            "faces": 21
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 30,
+            "faces": 23
+          },
+          {
+            "name": "ws_emitter_l5",
+            "verts": 438,
+            "faces": 700
+          },
+          {
+            "name": "ws_far_claws_l5",
+            "verts": 260,
+            "faces": 480
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD3.XMODEL_BIN",
+        "source_sha256": "e1b3d62c67ddbb71dfb2a8fc99e6e1d6428bb53db3e1363c4abfa28249e06220",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 114
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 92,
+              "triangles": 1079
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 1,
+              "removed": 0,
+              "triangles": 731
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 14
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1929
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 27
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 8
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 25
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 21
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 23
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 5,
+          "far_claws": {
+            "triangles": 480,
+            "dropped": 0,
+            "copper_uv": [
+              0.13615,
+              0.16817
+            ]
+          }
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD4.XMODEL_BIN",
+        "sha256": "7b8558f17b7023e37bfd93b1b5f9ff64d8324642067f8a57733d4df445e9624a",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 2860,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_glow",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 63,
+          "mtl_tod2_ws_coil": 647,
+          "mtl_tod2_ws_body": 416,
+          "mtl_tod2_ws_glass": 9,
+          "mtl_tod2_ws_frame": 1156,
+          "mtl_tod2_ws_glow": 13,
+          "mtl_tod2_ws_core": 6,
+          "mtl_tod2_ws_bulb": 42,
+          "mtl_tod2_ws_emitter": 508
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 80,
+            "faces": 63
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 658,
+            "faces": 407
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 628,
+            "faces": 416
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 11,
+            "faces": 9
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 1581,
+            "faces": 1156
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 18,
+            "faces": 13
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 10,
+            "faces": 6
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 22,
+            "faces": 14
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 21,
+            "faces": 14
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 19,
+            "faces": 14
+          },
+          {
+            "name": "ws_emitter_l6",
+            "verts": 330,
+            "faces": 508
+          },
+          {
+            "name": "ws_far_claws_l6",
+            "verts": 135,
+            "faces": 240
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD4.XMODEL_BIN",
+        "source_sha256": "6182ea32528fa973114360448eafa08a3035db7ea2cbaa638a62481a90f2cf61",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 63
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 54,
+              "triangles": 407
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 1,
+              "removed": 0,
+              "triangles": 416
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 9
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1156
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 13
+            },
+            "WraithMesh_6 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 6
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 14
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 14
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 14
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 6,
+          "far_claws": {
+            "triangles": 240,
+            "dropped": 0,
+            "copper_uv": [
+              0.13615,
+              0.16817
+            ]
+          }
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD5.XMODEL_BIN",
+        "sha256": "33ba349eec426fd85f03b3a64a87680c1cb7cd897565a8d05ff149055b179f34",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 1830,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_bulb",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 32,
+          "mtl_tod2_ws_coil": 376,
+          "mtl_tod2_ws_body": 229,
+          "mtl_tod2_ws_glass": 6,
+          "mtl_tod2_ws_frame": 665,
+          "mtl_tod2_ws_core": 2,
+          "mtl_tod2_ws_bulb": 12,
+          "mtl_tod2_ws_emitter": 508
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 47,
+            "faces": 32
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 290,
+            "faces": 136
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 365,
+            "faces": 229
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 10,
+            "faces": 6
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 953,
+            "faces": 665
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 4,
+            "faces": 2
+          },
+          {
+            "name": "WraithMesh_6",
+            "verts": 10,
+            "faces": 4
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 10,
+            "faces": 4
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 10,
+            "faces": 4
+          },
+          {
+            "name": "ws_emitter_l6",
+            "verts": 330,
+            "faces": 508
+          },
+          {
+            "name": "ws_far_claws_l6",
+            "verts": 135,
+            "faces": 240
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD5.XMODEL_BIN",
+        "source_sha256": "ae35dff7d590b379899b86d2dad1d793effe718d3344f047287ceed313bc89a4",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 32
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 136
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 229
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 6
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 665
+            },
+            "WraithMesh_5 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 2
+            },
+            "WraithMesh_6 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4
+            },
+            "WraithMesh_7 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4
+            },
+            "WraithMesh_8 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 4
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 6,
+          "far_claws": {
+            "triangles": 240,
+            "dropped": 0,
+            "copper_uv": [
+              0.13615,
+              0.16817
+            ]
+          }
+        }
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_world_LOD6.XMODEL_BIN",
+        "sha256": "27639afb5e11f862ce9c6a8695f3ec9c852385ae51520d0884ad03a7c6c06a8d",
+        "bones": [
+          "tag_weapon",
+          "tag_brass",
+          "tag_flash",
+          "tag_fx"
+        ],
+        "triangles": 857,
+        "materials": [
+          "mtl_tod2_ws_stock",
+          "mtl_tod2_ws_coil",
+          "mtl_tod2_ws_body",
+          "mtl_tod2_ws_glass",
+          "mtl_tod2_ws_frame",
+          "mtl_tod2_ws_core",
+          "mtl_tod2_ws_emitter"
+        ],
+        "triangles_per_material": {
+          "mtl_tod2_ws_stock": 20,
+          "mtl_tod2_ws_coil": 24,
+          "mtl_tod2_ws_body": 138,
+          "mtl_tod2_ws_glass": 2,
+          "mtl_tod2_ws_frame": 355,
+          "mtl_tod2_ws_core": 2,
+          "mtl_tod2_ws_emitter": 316
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 30,
+            "faces": 20
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 58,
+            "faces": 24
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 234,
+            "faces": 138
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 4,
+            "faces": 2
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 626,
+            "faces": 355
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 4,
+            "faces": 2
+          },
+          {
+            "name": "ws_emitter_l7",
+            "verts": 210,
+            "faces": 316
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD6.XMODEL_BIN",
+        "source_sha256": "a950213dfe6b06108b412d7237d4e99b5685407fab044ba9b16cbcafe43e1e17",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 20
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 24
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 138
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 2
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 355
+            },
+            "WraithMesh_5 power": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 2
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 7
+        }
+      }
+    ],
+    "tod2_ws_pickup": [
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD0.XMODEL_BIN",
+        "sha256": "00cb84786e882cdc61e04c9b8c23721bc38dc6f5ecf526d2b430d80fd0efa419",
+        "bones": [
+          "tag_origin"
+        ],
+        "triangles": 13938,
+        "materials": [
+          "mtl_x2icon_gold"
+        ],
+        "triangles_per_material": {
+          "mtl_x2icon_gold": 13938
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 176,
+            "faces": 220
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 3539,
+            "faces": 2919
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 1699,
+            "faces": 1430
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 19,
+            "faces": 17
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 3889,
+            "faces": 3303
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 51,
+            "faces": 51
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 51,
+            "faces": 53
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 51,
+            "faces": 51
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 52,
+            "faces": 54
+          },
+          {
+            "name": "ws_emitter_l2",
+            "verts": 3220,
+            "faces": 5840
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD2.XMODEL_BIN",
+        "source_sha256": "233f2757c23b6b84728f799defa970d30e7458bca2989519136ffdfd6568eb89",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 220
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 16,
+              "triangles": 2919
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1430
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 17
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 3303
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 51
+            },
+            "WraithMesh_6 (core, hidden inside the gold tube)": {
+              "skipped": 12
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 53
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 51
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 54
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 2
+        },
+        "centre_source": [
+          14.761009216308594,
+          0.7063508033752441,
+          -0.59079909324646
+        ],
+        "scale": 0.8
+      },
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_pickup_LOD1.XMODEL_BIN",
+        "sha256": "bc1f387760ca92127367e4fd5f7b79c9a730a73181a9b8105ae8eefdb4d35b1a",
+        "bones": [
+          "tag_origin"
+        ],
+        "triangles": 4711,
+        "materials": [
+          "mtl_x2icon_gold"
+        ],
+        "triangles_per_material": {
+          "mtl_x2icon_gold": 4711
+        },
+        "meshes": [
+          {
+            "name": "WraithMesh_0",
+            "verts": 115,
+            "faces": 114
+          },
+          {
+            "name": "WraithMesh_1",
+            "verts": 1490,
+            "faces": 1079
+          },
+          {
+            "name": "WraithMesh_2",
+            "verts": 1026,
+            "faces": 731
+          },
+          {
+            "name": "WraithMesh_3",
+            "verts": 16,
+            "faces": 14
+          },
+          {
+            "name": "WraithMesh_4",
+            "verts": 2493,
+            "faces": 1929
+          },
+          {
+            "name": "WraithMesh_5",
+            "verts": 34,
+            "faces": 27
+          },
+          {
+            "name": "WraithMesh_7",
+            "verts": 34,
+            "faces": 25
+          },
+          {
+            "name": "WraithMesh_8",
+            "verts": 26,
+            "faces": 21
+          },
+          {
+            "name": "WraithMesh_9",
+            "verts": 30,
+            "faces": 23
+          },
+          {
+            "name": "ws_emitter_l6",
+            "verts": 330,
+            "faces": 508
+          },
+          {
+            "name": "ws_far_claws_l6",
+            "verts": 135,
+            "faces": 240
+          }
+        ],
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_world/wpn_t7_zmb_dg2_world_LOD3.XMODEL_BIN",
+        "source_sha256": "e1b3d62c67ddbb71dfb2a8fc99e6e1d6428bb53db3e1363c4abfa28249e06220",
+        "stats": {
+          "source": {
+            "WraithMesh_0 wood": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 114
+            },
+            "WraithMesh_1 pipe": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 92,
+              "triangles": 1079
+            },
+            "WraithMesh_2 body": {
+              "degenerate": 0,
+              "needle": 1,
+              "removed": 0,
+              "triangles": 731
+            },
+            "WraithMesh_3 glass": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 14
+            },
+            "WraithMesh_4 metal": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 1929
+            },
+            "WraithMesh_5 glow": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 27
+            },
+            "WraithMesh_6 (core, hidden inside the gold tube)": {
+              "skipped": 8
+            },
+            "WraithMesh_7 bulb1": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 25
+            },
+            "WraithMesh_8 bulb2": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 21
+            },
+            "WraithMesh_9 bulb3": {
+              "degenerate": 0,
+              "needle": 0,
+              "removed": 0,
+              "triangles": 23
+            }
+          },
+          "emitter_dropped": 0,
+          "emitter_level": 6,
+          "far_claws": {
+            "triangles": 240,
+            "dropped": 0,
+            "copper_uv": [
+              0.13615,
+              0.16817
+            ]
+          }
+        },
+        "centre_source": [
+          14.761009216308594,
+          0.7063508033752441,
+          -0.59079909324646
+        ],
+        "scale": 0.8
+      }
+    ],
+    "tod2_ws_skeleton": [
+      {
+        "file": "model_export/tod_wunderstrahl/tod2_ws_skeleton.XMODEL_BIN",
+        "sha256": "037ca938a99503786401e300fff2175203add35973d44f51f1df13cbc00241d4",
+        "source": "tmp/wunderstrahl/src/T7 Assets V2.8/model_export/_midgetblaster/weapons/t7/wpn_t7_zmb_dg2_view/wpn_t7_zmb_dg2_skeleton.XMODEL_BIN",
+        "source_sha256": "037ca938a99503786401e300fff2175203add35973d44f51f1df13cbc00241d4",
+        "byte_identical": true
+      }
+    ]
+  },
+  "clips": [
+    {
+      "name": "tod2_ws_vm_ads_base_down",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_ads_base_down.xanim_bin",
+      "sha256": "786958532d1619b37490ed706e74a4a78b44657c76b6946ebcaf45263044f8af",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_down.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_ads_base_up",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_ads_base_up.xanim_bin",
+      "sha256": "077a9962eb31be7986665f7143cadfc101e0d5dfbfdfe2bb2ebc5fd9a5f20e2d",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_ads_base_up.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_b",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_b.xanim_bin",
+      "sha256": "e0ae7dcba44b6a7b67ea9104d1e05cb6b5fda363356f0255905164d55f9728db",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_b.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_f",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_f.xanim_bin",
+      "sha256": "5525cc9c909b95afaec38d27040549d119e4105f4ca2432a204dd56e2510dace",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_f.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_in",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_in.xanim_bin",
+      "sha256": "f480082ba6979c7a058b7b497c563ebe4cbe134ac8a5dcd2c37ca70bbc7ef6c6",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_in.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_l",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_l.xanim_bin",
+      "sha256": "899b016c3d59dce410a65ed43fbe7120f5b20a5c100a842002150dd853d29ae8",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_l.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_out",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_out.xanim_bin",
+      "sha256": "f2dc4358268631f8f91f2eaf768444a67dce125b73232647e7f805d4fff1a42e",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_out.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_crawl_r",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_crawl_r.xanim_bin",
+      "sha256": "f6448512cd6f0ece02d4f893aa79bb50a6ebf06b7963e311f064d249a1c17c9a",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_crawl_r.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_fall",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_fall.xanim_bin",
+      "sha256": "cf899f8a05f82a6189879051d841cdfe16ac72e2d204f7d6a562753d7146617a",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fall.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_fire",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_fire.xanim_bin",
+      "sha256": "0466727e90093a9a0208f98528ce28ec74e8e649f8a49735ca3d2d940ec92eb6",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_fire_ads",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_fire_ads.xanim_bin",
+      "sha256": "2fae6526ab5217a6f4a2e57ba88fca37afd4dc76936ca83e90cff059ac72d48f",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_fire_ads.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_first_raise",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_first_raise.xanim_bin",
+      "sha256": "8cdf2acc077a8a6ad89f87849405d72d525d3477a8f864dbb07034432b785253",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_first_raise.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_idle",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_idle.xanim_bin",
+      "sha256": "8d6586c79e3733f82c814882eb5a69492aa078d0501a4ac72282393a8e4fd2b2",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_idle.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_jump",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_jump.xanim_bin",
+      "sha256": "7a45065b33bdd7c8083ff08a31faf3fd72fd736db0eeafe6a470132845516c6e",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_jump_land",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_jump_land.xanim_bin",
+      "sha256": "590e3ec42363382c2f532478da7c193dca9a62ec0848cd50a07783361fb4aacc",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_jump_land.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_pullout",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_pullout.xanim_bin",
+      "sha256": "33438fc2f4e89da4b48488904d02d77b44dd88f68fc90d655e185b99909c2385",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_pullout_quick",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_pullout_quick.xanim_bin",
+      "sha256": "5856b173f0787ce8a6496f75bc31691f25bf3ecfada849e4c97e26ef6aa613ca",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_pullout_quick.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_putaway",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_putaway.xanim_bin",
+      "sha256": "4650edc3af38367d408ef91a1a9fc2f850b27c473f7dd844cb87ae58459f3d5b",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_putaway_quick",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_putaway_quick.xanim_bin",
+      "sha256": "f468b347cc056cea44c2d2e03671d478783f3949538fa9a55008c38eaaeba179",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_putaway_quick.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_reload_empty",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_reload_empty.xanim_bin",
+      "sha256": "3ecfddddca944acafa539f39b4088acfd97e528b576189439eab1d7151ba60cd",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_reload_empty.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_slide_air_in",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_air_in.xanim_bin",
+      "sha256": "8e2e47ec379986bc9edbdaf9f8caba822e4d5d94a0c7062c0eed8e8a891fb4b0",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_air_in.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_slide_in",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_in.xanim_bin",
+      "sha256": "13006540959f6b5b72e1f3c9f635d7df93bea5deda45fe2bcd5b622f19f90aa5",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_in.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_slide_loop",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_loop.xanim_bin",
+      "sha256": "0e543ab35f822761e9cb6c2260ad81e427b93e28994a99914072d0ce854ac53b",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_loop.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_slide_out",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_slide_out.xanim_bin",
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_slide_out.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_sprint_in",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_in.xanim_bin",
+      "sha256": "4428019852b2a1a7c5c991fcb285f3a2cddb39f1a059e45c70586ba7eeb31fdd",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_in.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_sprint_loop",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_loop.xanim_bin",
+      "sha256": "c997bc4beb8f1741361e7301b51b7f524bf168d1a442b497c8be98e622f95883",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_loop.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_sprint_out",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_sprint_out.xanim_bin",
+      "sha256": "e8ec29f4b6cf3353f612cef24754a21437c7147f3cbe46f0f0aa4c2d53ebac5e",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_sprint_out.xanim_bin"
+    },
+    {
+      "name": "tod2_ws_vm_walk_f",
+      "file": "xanim_export/tod_wunderstrahl/tod2_ws_vm_walk_f.xanim_bin",
+      "sha256": "70c6e2eb7cdadbef6d943e3888d875d51917f65af07d854c4631f6831b05db00",
+      "source": "tmp/wunderstrahl/src/T7 Assets V2.8/xanim_export/_midgetblaster/black_ops_3/vm_dg2_walk_f.xanim_bin"
+    }
+  ],
+  "world_emitter_levels": {
+    "0": 1,
+    "1": 3,
+    "2": 4,
+    "3": 5,
+    "4": 6,
+    "5": 6,
+    "6": 7
+  },
+  "pickup": {
+    "lods": [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "scale": 0.8,
+    "centre": [
+      14.761009216308594,
+      0.7063508033752441,
+      -0.59079909324646
+    ],
+    "material": "mtl_x2icon_gold"
+  },
+  "atlas_sha256": "d779b027c350f86bb283c9a4dc5be8c58c869bf9f5b1a37f6c7ab9a1703563c1",
+  "needle_rule": {
+    "min_edge": 0.001,
+    "min_altitude": 0.0005
+  },
+  "native_playtested": false
+}

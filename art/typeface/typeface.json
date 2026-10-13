@@ -1,0 +1,11 @@
+{
+  "revision": "legibility 2026-09-29 (docs/172, top note)",
+  "masters": {
+    "i_tod_hud_letters.png": "62372e62b0128583484ff7b91e18d523457daab692c2374147561155f8d235a9",
+    "i_tod_hud_digits.png": "63866bfa900d28b43889bb8c9e2b34d33b0f1e426de3c1f0f6b54a1a7ef84eb6"
+  },
+  "ttf": "102dd4910f4c8f39ee23bb4a467bf7cb47f344aead588fecb6dc95b2de939e39",
+  "specimen": "10ccf1eef96d0c78ebc8e5c5f0e13e45b26c5932c91c54b74de30e59d5b10e12",
+  "metrics": "1334ac3627ca1432f0f970a4063cbae42be8f3bc6045658f6dbafc959b5cb5fe",
+  "retired": "archive/typeface_retired"
+}

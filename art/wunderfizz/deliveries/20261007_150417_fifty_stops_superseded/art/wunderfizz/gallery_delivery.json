@@ -1,0 +1,10 @@
+{
+  "local_gallery": "tmp/art_gallery/site/index.html",
+  "total_images": 471,
+  "bo6_wunderfizz_images": 20,
+  "local_gallery_built": true,
+  "remote_artifact_published": false,
+  "remote_publish_status": "Artifact publishing tool is unavailable in this Codex session; local gallery and publish_files.json are ready.",
+  "native_build_ff_sha256": "1f4f36b8028fdc1ced11f8d81e9e8fb0d502b3536f7257a00578942aad267ad4",
+  "game_launched": false
+}

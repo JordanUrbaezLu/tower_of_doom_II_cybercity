@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "source": "art/dealer_presence/dealer_surveillance_1024.png",
+  "source_sha256": "3cbc109d4503332f8543f46f5974c350d61393ad572df06bc5db2f8c77ea943b",
+  "installed_image": "model_export/tod_dealer_presence/_images/i_tod_dealer_surveillance.png",
+  "installed_image_sha256": "3cbc109d4503332f8543f46f5974c350d61393ad572df06bc5db2f8c77ea943b",
+  "gdt": "source_data/tod_dealer_presence.gdt",
+  "gdt_sha256": "6167823d6770322b5182af4c4db0895be65969befa736ec2db34e4476daae17a",
+  "portrait_receipt_sha256": "4d1b3bf063f445ea2ffe22517d8e2b1b721b8c013618faece013e78fc7456ad3",
+  "description": "Canonical native Dealer rendered at 1024; shared worn city metal border; fixed static emission .65; no added lights or runtime behavior.",
+  "native_appearance": "Unplayed; Blender review approximates native shader and lighting."
+}

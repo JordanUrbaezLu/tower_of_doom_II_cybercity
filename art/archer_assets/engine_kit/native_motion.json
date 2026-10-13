@@ -1,0 +1,108 @@
+{
+  "hands_source": "source_library\\archer_equipment\\bo2_motd\\20260925_050624_055906_dump\\dump\\so_zclassic_zm_prison",
+  "hand_triangles": 7240,
+  "view_triangles": 2501,
+  "textures": [
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/~-gviewarm_zom_arlington_coat_c.dds",
+      "source_sha256": "7331f8931d00d274fc8fed9f68d14b46f34ffa6a2eba5125083e2f7d57df04a2",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_0_col.png",
+      "size": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/viewarm_zom_arlington_coat_n.dds",
+      "source_sha256": "cbf349bb064cbfb899588dde32e28f5191f84a667aee827db2811f72e75da42f",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_0_nml.png",
+      "size": [
+        2048,
+        1024
+      ]
+    },
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/~~-gviewarm_zom_arlington_coa~d2a5fc72.dds",
+      "source_sha256": "16af2df362afc6b98f5931f1593396710306da29417eba94f103ab15daa29c6d",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_0_spc.png",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/~-gviewarm_zom_strands_alpha_c.dds",
+      "source_sha256": "69ad4182e79597513190e30ca42c30d5a5d2ece07710613d93a8df6a71eafb06",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_1_col.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/char_base_fabric_nocloth.dds",
+      "source_sha256": "4800173d67d7af113f7eab09ebaa5b0b9d424bdb080db0b6188c3f9474554311",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_1_nml.png",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "source": "source_library/archer_equipment/bo2_motd/20260925_050624_055906_dump/dump/so_zclassic_zm_prison/images/~~-gviewarm_zom_strands_alpha~b94bebe4.dds",
+      "source_sha256": "d402c59340371259c3ed52207b51cf3bb4b8082904e131bf1710ca6886157cb7",
+      "file": "model_export/tod_archer/_images/i_tod_archer_hands_1_spc.png",
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "asset": "tod_archer_hold",
+      "source": "source_library/archer_equipment/retriever/xanim/viewmodel_hatchet_idle",
+      "source_sha256": "b0d2e5ccc51fedc5244cb4344cc2d5e690282dbff2db6a7e7741c62f772de5a7",
+      "frames": 6,
+      "fps": 30,
+      "bones": 69,
+      "attachment": "tag_knife_attach",
+      "file": "xanim_export/tod_archer/tod_archer_hold.xanim_bin",
+      "sha256": "ad5bdf30135e6a407b00b6d90861e28669a201eefec51f22ddb690b16292d734"
+    },
+    {
+      "asset": "tod_archer_throw",
+      "source": "source_library/archer_equipment/retriever/xanim/viewmodel_hatchet_throw",
+      "source_sha256": "4e81b9335cce08f424d6cde2d6d1cb9dbaf35c3bda92d4802f4ed22da7f6c7b1",
+      "frames": 21,
+      "fps": 30,
+      "bones": 69,
+      "attachment": "tag_knife_attach",
+      "file": "xanim_export/tod_archer/tod_archer_throw.xanim_bin",
+      "sha256": "a13d39c482e73c6b200f5483b23919f5393c2bc9abbcc79a8ba33e0c14890a48"
+    },
+    {
+      "asset": "tod_archer_flourish",
+      "source": "source_library/archer_equipment/retriever/xanim/viewmodel_zomb_tomahawk_first_raise",
+      "source_sha256": "a25ca529a59a256c889d2ae177f9ed3bd1d61754c66948cf2529a816372a42a2",
+      "frames": 48,
+      "fps": 30,
+      "bones": 69,
+      "attachment": "tag_weapon",
+      "file": "xanim_export/tod_archer/tod_archer_flourish.xanim_bin",
+      "sha256": "0965ef6da4fe2e0964d14b06debcfcd619be75243256fb7df0283a432d67d853",
+      "sound_note": "native GDT 2D Sound at original frame 0"
+    },
+    {
+      "asset": "tod_archer_flourish_idle",
+      "source": "source_library/archer_equipment/retriever/xanim/viewmodel_zomb_tomahawk_idle",
+      "source_sha256": "e21f9683505a852dff117bb89cd9bedabcd4b38d29b20fc9ba4f416695a9ad02",
+      "frames": 11,
+      "fps": 30,
+      "bones": 69,
+      "attachment": "tag_weapon",
+      "file": "xanim_export/tod_archer/tod_archer_flourish_idle.xanim_bin",
+      "sha256": "49ab3da5db2d4ec6c7c3eebb184008069164a2d6f796185d88871198991617f1"
+    }
+  ]
+}

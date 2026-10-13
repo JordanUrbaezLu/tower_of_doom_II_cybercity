@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "version": "red-sweep-2",
+    "intensity": 1800,
+    "radius": 900,
+    "fov_degrees": 78,
+    "lamp_emission": 36,
+    "spawn_range": 2400,
+    "bounds": 940,
+    "interval_ms": 1000,
+    "turn_seconds": 1.5,
+    "local_spots": 13,
+    "color": [
+      1,
+      0,
+      0
+    ]
+  },
+  "status": "RANDOM_PHASES_SOURCE_READY_UNBUILT",
+  "starting_angles": {
+    "preview_seed": 260926,
+    "runtime": "Server RandomFloat(360), once per fixture per match",
+    "fixtures": [
+      {
+        "id": 0,
+        "kind": "pillar",
+        "phase_degrees": 23.80872475677617
+      },
+      {
+        "id": 1,
+        "kind": "pillar",
+        "phase_degrees": 151.96551182617284
+      },
+      {
+        "id": 2,
+        "kind": "pillar",
+        "phase_degrees": 119.16192805697018
+      },
+      {
+        "id": 3,
+        "kind": "pillar",
+        "phase_degrees": 163.51397378423528
+      },
+      {
+        "id": 4,
+        "kind": "pillar",
+        "phase_degrees": 307.29469647011575
+      },
+      {
+        "id": 5,
+        "kind": "pillar",
+        "phase_degrees": 267.4115049449453
+      },
+      {
+        "id": 6,
+        "kind": "pillar",
+        "phase_degrees": 156.01889337608563
+      },
+      {
+        "id": 7,
+        "kind": "pillar",
+        "phase_degrees": 181.6361141031901
+      },
+      {
+        "id": 8,
+        "kind": "pillar",
+        "phase_degrees": 156.42270626233542
+      },
+      {
+        "id": 9,
+        "kind": "pillar",
+        "phase_degrees": 210.5706938493105
+      },
+      {
+        "id": 10,
+        "kind": "pillar",
+        "phase_degrees": 274.7368393881945
+      },
+      {
+        "id": 11,
+        "kind": "pillar",
+        "phase_degrees": 279.3361917380052
+      },
+      {
+        "id": 12,
+        "kind": "pendant",
+        "phase_degrees": 293.8413710166728
+      },
+      {
+        "id": 13,
+        "kind": "point",
+        "phase_degrees": 337.1458137329732
+      },
+      {
+        "id": 14,
+        "kind": "point",
+        "phase_degrees": 164.71378651959222
+      },
+      {
+        "id": 15,
+        "kind": "point",
+        "phase_degrees": 244.33730266070432
+      },
+      {
+        "id": 16,
+        "kind": "point",
+        "phase_degrees": 335.8849942820032
+      },
+      {
+        "id": 17,
+        "kind": "point",
+        "phase_degrees": 8.0865978916048
+      },
+      {
+        "id": 18,
+        "kind": "point",
+        "phase_degrees": 33.51926042438638
+      },
+      {
+        "id": 19,
+        "kind": "point",
+        "phase_degrees": 45.72490360201364
+      },
+      {
+        "id": 20,
+        "kind": "point",
+        "phase_degrees": 68.92196465444847
+      },
+      {
+        "id": 21,
+        "kind": "point",
+        "phase_degrees": 180.56098035352002
+      },
+      {
+        "id": 22,
+        "kind": "point",
+        "phase_degrees": 349.3117605544898
+      },
+      {
+        "id": 23,
+        "kind": "point",
+        "phase_degrees": 268.6795045744708
+      },
+      {
+        "id": 24,
+        "kind": "point",
+        "phase_degrees": 246.36852030880036
+      },
+      {
+        "id": 25,
+        "kind": "point",
+        "phase_degrees": 338.6668268024902
+      },
+      {
+        "id": 26,
+        "kind": "point",
+        "phase_degrees": 181.69522482858073
+      },
+      {
+        "id": 27,
+        "kind": "point",
+        "phase_degrees": 211.26922765619068
+      },
+      {
+        "id": 28,
+        "kind": "point",
+        "phase_degrees": 111.6185873521084
+      },
+      {
+        "id": 29,
+        "kind": "apex",
+        "phase_degrees": 321.73085118524136
+      }
+    ]
+  },
+  "archived_playtest": "tmp/elite_tracking/runs/20260926_153852_841_a5eddc36/console_mp.log",
+  "old_log": "ON fixtures=30 local_spots=13 turn_seconds=1.5 reason=alarm_trigger",
+  "checks": [
+    "source mesh/image bindings",
+    "shipping initialization and alarm state transitions",
+    "one server random draw per fixture; fixed housing and pendant pitch",
+    "floor/cone geometry and culling bounds",
+    "109-script arity",
+    "7816 native-API sites"
+  ],
+  "review_limit": "Blender relative light/motion study, not native BO3 calibration.",
+  "outputs": {
+    "art/crown_alarm/crown_alarm.blend": "7dc519e2073d7f34c21a64bf8d282bebb53cdbd071febf47801c379b1a77825e",
+    "art/crown_alarm/intensity_review/before.blend": "27a242007c8cc4de8b5d01d1a923a70342ffe145cd62e720795d35c628296569",
+    "art/crown_alarm/intensity_review/stronger.blend": "e13efb0bd82aef173215346e9f07e5bf8bd34eb0716a1494558eaade3f3e8f95",
+    "art/crown_alarm/intensity_review/before.png": "1f7faee33aca0dd987c46eeef046395f4548f9d40477b3319b3f40e7861d8838",
+    "art/crown_alarm/intensity_review/stronger.png": "ffc7c2aa42abc94b80c999538b435265f3f63c90c56840aae50fa1e641f7a7a3",
+    "art/crown_alarm/intensity_review/sweep.mp4": "72d339270dd20605ca0bdf7aaa47ca02044eca9f8b618164294d573497ca03cc"
+  },
+  "brightness_evidence": "brightness_build8.json",
+  "built": false,
+  "game_launched": false,
+  "native_visual_verified": false
+}

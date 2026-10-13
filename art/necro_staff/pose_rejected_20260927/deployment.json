@@ -1,0 +1,3116 @@
+{
+  "ff_bytes": 233004544,
+  "ff_sha256": "403f51fea966147a7902b463fedd2b76f3f62cd561a06ca4dd55c9094be1c49e",
+  "ff_time": "2026-09-27T19:12:00.770593",
+  "build_log": "tmp/necro_staff_build/full_build.log",
+  "build_log_sha256": "6b6de284370b1624032004eeb8291c32a03cb5fea2c161a8da8550ec99bb70de",
+  "inputs_matched": 449,
+  "inputs": [
+    {
+      "file": "scripts/zm/archetype_zod_companion.csc",
+      "sha256": "863857dea965703cac97ab5564714668f2e8d7b7a2f75b52fe036e12cc84ecfe"
+    },
+    {
+      "file": "scripts/zm/archetype_zod_companion.gsc",
+      "sha256": "aee9ad8176d49984037b0cf914c81b72d0d392f011c0ed2a1fdf5d626932ea2d"
+    },
+    {
+      "file": "scripts/zm/archetype_zod_companion_interface.gsc",
+      "sha256": "24244ff5b7b4818901dc3edca66fdb59d2df394299230d4aaee92f558f3984bb"
+    },
+    {
+      "file": "scripts/zm/mechz_spiki.csc",
+      "sha256": "a7165d49d53a4e0f0c413a1e47f2cdb248f248c6efa71aef2c9852e000d8b77b"
+    },
+    {
+      "file": "scripts/zm/mechz_spiki.gsc",
+      "sha256": "9750050ed14132365e403f84e41ec99053abcf4e0d2e6eae4448e73fa10a3b0c"
+    },
+    {
+      "file": "scripts/zm/zm_cwpap.csc",
+      "sha256": "7c87c1753ebf1517e8512a243575e234f509088be67fdfeeba27c3d8413e4850"
+    },
+    {
+      "file": "scripts/zm/zm_cwpap.gsc",
+      "sha256": "1152366a00ec8a7937a054b7f4c1f4d71f730233713c497f07f9394efb61498d"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.csc",
+      "sha256": "58924718d6ccee387c838d663ea754e34f98d613da074db17286af0405ed17ae"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.gsc",
+      "sha256": "cffe2c1ab179272f07bbb427b18113a27c74e4cb28312008157523857b3df85c"
+    },
+    {
+      "file": "scripts/zm/zm_genesis_apothicon_fury.gsh",
+      "sha256": "b1a75059e7cbc5cb219a74806c6b457a2aa52250ab680f60508f87a7dd13752a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity.csc",
+      "sha256": "911774dad46ccc0057af3b7eaa026bbcc24cd4eac9f82cb4f62a14a9d1ebaa65"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity.gsc",
+      "sha256": "d2e3404b7350bda71619a35464b601fc8c83aa07569208a291eb1932080a75f9"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.csc",
+      "sha256": "5d6a5b3d928b4685a750f15cb6f85b31339abc2cc80039210188010dfe0c65cc"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.gsc",
+      "sha256": "1d8008128efa79eec5d77554633a00f8724134b93142e725d40bfd18c97915e9"
+    },
+    {
+      "file": "scripts/zm/zm_weap_xmas_gun.gsh",
+      "sha256": "4928f35cce7de3b6becb2eb4c816787cf1edaf0a5f107208d3220a43194dd8c9"
+    },
+    {
+      "file": "scripts/zm/zm_zod_robot.csc",
+      "sha256": "d71fabf5bc72abce6033ad91ffed27670995a5b9fcb322b190117d946133bc78"
+    },
+    {
+      "file": "scripts/zm/zm_zod_robot.gsc",
+      "sha256": "a270d5811879d7bbced2bf79c01fc34cbc1df2f994e22f4d51f63efb55979ce9"
+    },
+    {
+      "file": "scripts/zm/_zm_aetherium_hud.csc",
+      "sha256": "75fc2a5e78dc4f66577d1c39364bccbf7a85df8da0e15bfb9e5c9f88881df918"
+    },
+    {
+      "file": "scripts/zm/_zm_aetherium_hud.gsc",
+      "sha256": "41aa6ff1c0cf5f7656ced980f0b62974827cdce5ffd5c3dc8e7a1cdea825bf95"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.csc",
+      "sha256": "32a7e1189be76ed5f1708aaa9fe4d1bffa9d095ca3be6bb022aa4ac9ef0452b3"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.gsc",
+      "sha256": "593b19d8077333c49699a0c654d131b211f237b8b7cbb4f1732d3237a2b56b00"
+    },
+    {
+      "file": "scripts/zm/_zm_perk_wisp_tea.gsh",
+      "sha256": "15e6bfb865726577b07463d41fd45aeed5e4a55984f3810dedfa33a71b54cea1"
+    },
+    {
+      "file": "scripts/zm/cheese_man/zombie_slow_util.gsc",
+      "sha256": "b3736c319a2f0b3d71d6575470fe208830240a6eb1f97ce2896788a2bb93308c"
+    },
+    {
+      "file": "scripts/zm/craftables/_hb21_zm_craft_fuse.csc",
+      "sha256": "2111f50d3092035a6d5f7d7792ea072c6b4286c69c6c4f0b91751356d7cf83cd"
+    },
+    {
+      "file": "scripts/zm/craftables/_hb21_zm_craft_fuse.gsc",
+      "sha256": "434514d6c43a78a75d85df5da820ccc53c6bb064503df92f7abd6892bbe70898"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_ammo_crate.gsc",
+      "sha256": "407fd4d07943cc7bdc255be63171082eb11166164b74c3ba0438a4f238166e11"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer.csc",
+      "sha256": "b9c9e3cb1efb53c3285b3d873f05c2b7d4234a61f8c685f0b69b1e9c0ce98115"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer.gsc",
+      "sha256": "f5a45dc59980f92a56e7aec35f4754c31d38dca42e49f528c20636735aa82f5c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer_bow.gsc",
+      "sha256": "f9495cf26eb866010a854e45e5e96c3ad58100dac5f967e8f70b41434f163153"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_archer_rune.gsc",
+      "sha256": "00d8a4c0af55fdef68841bc26e9d382193179e63925d631bd517a7ed474f0ae5"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_arena.gsc",
+      "sha256": "4828efbb61169de7f2fe8627c33bebf05502f938a9b01504b43d1cd21897584e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_arena_data.gsc",
+      "sha256": "fa3266bdb19b5cc9d479228182f62c0eb2f3a7a579e3e4a97b3ba963aa663bcc"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_athlete.gsc",
+      "sha256": "c1b24129adf1c5e08bef86fb23cecb8ec6559991fe33bfeccc42871b49eec0f3"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_atmosphere.gsc",
+      "sha256": "251e2ef6b374e3a43329a629360c5836bd9f895243145e49abbe23ce9e622529"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio.gsc",
+      "sha256": "befd8854a43970aee2c3e9f8320ef4162893bfa9c6d22f296de68496fdb99a79"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio_events.gsh",
+      "sha256": "7ea13cbcdbb915daa0f5a085f33e7056de358cb83f4350042d2d75642ce94543"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc",
+      "sha256": "33cd4260e68a4e8910b125642a52523cbad51f84cc343433e5cb605fd8d9a47a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.csc",
+      "sha256": "5467a22fae9e8afa9d2e9ef6f1a5aa8d83411fea076e153acac0162cafb539f9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.gsc",
+      "sha256": "4c8bab5aa3202955055489052bc078226cc47ab8c3677332e647117e5e3e678d"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_breather_data.gsc",
+      "sha256": "bd502e85d242fa569c3bae0c16fcddb12e29e490766a099ef48b6828652effe7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_classes.gsc",
+      "sha256": "6fbafbd5f651bf217fbf25d4716cbb06c5642f00e3bbffcc3cd9ff402cd63fed"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_class_cards.gsc",
+      "sha256": "60516201c3d742c2927e0f1f5638a7db6012b9f1d895d4b2b52e4b74062ac456"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc",
+      "sha256": "ab012cc3364d68e1e003df1741cfb71c04acca0bd784946ef0ee48e386554c68"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_class_select.gsc",
+      "sha256": "ad2a61981b34dbb8df93ab29c12d640756d0d3463a9fb6a89b0d285e96b90682"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_conduit_data.gsc",
+      "sha256": "86c3605a3fbf098995945671c48903bbc94b31e87d906316b4c10bb975b064f7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_corpse_cleanup.gsc",
+      "sha256": "e932b8eb57bd8a93223e08ef5e75474e2b731cb6207f99ecca25aa63dc5833c2"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_crown_alarm.gsc",
+      "sha256": "94526a9e675a966608f3551c5544976b611e564b948a06758413e37e628e319e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_crown_data.gsc",
+      "sha256": "a1f713c65317faad998d18a477dce428c1828a8c8b2652155d14910478682687"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_elites.gsc",
+      "sha256": "655a1c727b31db7fa052a7f194b6893e2bfef53ed6420d0e1e088ac2b9c23a8d"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.csc",
+      "sha256": "92e2fdeec3a6663ebe8354f20a7955522db4eadc6be145e9e7c20a596d6b6cff"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.gsc",
+      "sha256": "a17a44b83bc21988379733cf71420bef3f1b799c540c586213601d579e879adf"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_cyber_zombies.gsc",
+      "sha256": "da99aca53105372036e956de838de7ebd6ca1b414fb16ccceec62b32ffd4cdf4"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_deadshot.csc",
+      "sha256": "0a3bfeeaa171a3a72bb8dbf939eb331ad921435bb51977304f34ee53f5f98984"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_deadshot.gsc",
+      "sha256": "d7159fe22c6ab64ab53b95f8afac6610481a56cc7372b7a4348016f7a23834b8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_distraction.gsc",
+      "sha256": "d723a6048a537ee978a8de01ea4bb1f81aaec0c1a0bd2ca37a74b3e535488fb7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doors.gsc",
+      "sha256": "a3af0a5aef3e9bee99d635d54912051b4d668ef333ee3c44e26b8ad4f5133343"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_door_data.gsc",
+      "sha256": "9f34db832d2d52a6416fec8322b901d9e5c3955b46126399375f8a39a860282e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doppelghast.gsc",
+      "sha256": "21dd8e653ee846ea3068e4adba5da3a6dae2af01c3eb3fe3a69540ee17804281"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_doppelghast_motion.gsh",
+      "sha256": "404965a24f73ec89266bd2be47e8bca21c79cfb7066932d3afc3605b4206e1cc"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_elite_hp.gsc",
+      "sha256": "9858472e89454418651df8b4dca9fa54b6f324df378093b3c51a09f6c77ff50f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_endless_rounds.gsc",
+      "sha256": "5c95341d3de33f07863ae2ccf57a6e26e4815ed3bb3d265a3e4bcaf4bc2f583a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_fall.gsc",
+      "sha256": "bd11ef8fa176f9dfc379304d1d17fba8ab88c5bcf62285336147e64adb3f0145"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_finale.gsc",
+      "sha256": "7cf1a6cd7994b6016e8b2157d56aabb4ea83a76456d0380b9956726c5d152e41"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_gameover.gsc",
+      "sha256": "ef2e586f5c7e2286a965c0b24fc62de7025948c021f57d98421b1bc5221f215e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_gauge.gsc",
+      "sha256": "5f455c6a29f0f2b8f4b0ea2d462dda4ba71ba010a74b0579fa606a3735304053"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_hellhounds.gsc",
+      "sha256": "0bdc306098d3754ffdb4c3f51cc73b02dc4639d249212a4b198fab1661eda2f0"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_hoop.csc",
+      "sha256": "b2cc27eef2420022b93c09b4fc5177e9a4aa7fc4853a4995dfc594023162ee4c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_jumppad.gsc",
+      "sha256": "0a933f10a2fd6fd32c80033923f890649c153aeaab0031a09fef306e45eda714"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_killconfirm.gsc",
+      "sha256": "58d21176096c60d538effd4ce9ec7004b6fec199914b2a84688a94fe904c5655"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_luck.gsc",
+      "sha256": "39a99d63c75dc738b2ae4275a1be784eea8b0c8332010f87cd946da7895b828c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_lunge.gsc",
+      "sha256": "428a70cb4c68720a2ba7cf5a4d652c31254c31c9112c1ff1c3dc70525c73e692"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage.gsh",
+      "sha256": "9631a398c46909627136e489a0eae4d20f1da8c2ac50695dadb30225fbc6790c"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.csc",
+      "sha256": "274403e19aa30e3b778858854ab4d95c78d524e10ce4028e9fbebb66a468d3f9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.gsc",
+      "sha256": "c0ef8c7157e0f07f60c701ee0119870ca03547763ebf4aa6cf6146dd4313b8a6"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_main.gsc",
+      "sha256": "ee9c782f7c79149636a918ff539ebf74209fe6dff9916f70f5189810aea71487"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_mangler.gsc",
+      "sha256": "a4660b7bf6db904587be2a2915737d45560dcba3b1260429dfc400786deb0bbe"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_necro_skull.csc",
+      "sha256": "c727a176126324db3d3e8dbb3711adf84893ff979198534c56d4aa9caba7e2f7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_necro_skull.gsc",
+      "sha256": "c1f9a0b0f2e4ecabf8f03d417267e8e4dd5800bdfec6cb95497a1c38aba4c946"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_necro_summon.gsc",
+      "sha256": "2113bb83799074a31fed7158ef4dc26dd0e209b9b5e46041feb55786981559a7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_partners.gsc",
+      "sha256": "5c154e93ab04c543ce949a4abbfd339c6bd4effad4c8c80c69a395d5704c1f2e"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_anims.gsc",
+      "sha256": "5b40885963cdd0940de558d30124e2ce94111a555a76c2d971cf374e71ffbce3"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_drink.gsc",
+      "sha256": "afcc858398d8b3568450133704c1619520eeef9491125fc0c4320c0ebc199d56"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.csc",
+      "sha256": "9b2ccbef5ca8fd9f3ec7ec3c0bdac8551dd0f66fbdb9abf064a1fc1e00a5d364"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.gsc",
+      "sha256": "cd6df59b2a4f7d76e32811e3bd2be4ff8a02ea3a4498fe7f2b51b15da893dc41"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.csc",
+      "sha256": "e5e36536fa65c3013737e59eff6a45ae060a2df60ba3cc5c460bbc9cf69d8af3"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.gsc",
+      "sha256": "51288a81981c97270cc02786a5fdc7bfafaec450a7110017e63fbdda95ee89f8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_phd.gsc",
+      "sha256": "8c27ebcaeeb9cf6353aab7593bec6a9c93f7f040e810af4744609dfd2836af52"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_scatter.gsc",
+      "sha256": "e76f080396cda97ba67a9be4d1a7d2b827c3f15a9b3382c6c4ee9f9d1eba57ec"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_perk_widows.gsc",
+      "sha256": "4ec3ab41a36f18161d13707380f8a0d0ee44831632842aa9bface5dafdfdd3af"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_powerups.csc",
+      "sha256": "ca2615390f55580bbd64d3e83bc6d8db1d7a441bb49f9d844ab7b76c2708e3a6"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_powerups.gsc",
+      "sha256": "d7abfbf26ab8fb579c9d2356b9cb9464062e3324d2248ff336042c015bc9f405"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_power_conduits.gsc",
+      "sha256": "f8088c278f19e74be65ee2e1630cf1359bb08fbdbec35fc9a3142cfabbbfb9f8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_power_scale.gsc",
+      "sha256": "0ab396fe863ee10e3655f6d86ffd7ac17de1d37278fb7da442840e6301e777b5"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_rampage.gsc",
+      "sha256": "190ffad9f6d146a17b8786d0507c9c9cb66a8b34737c1a9b0f05cf0b9454ab07"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_reaver.gsc",
+      "sha256": "5bd00ce05bb5ce13c0742468923c48e988ba25983065cf82b7cf136a7061246a"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_retriever.gsc",
+      "sha256": "41ba586cd838e7e4797ad0071a46b8f60ea8a15228674a5f818453b68eae8c95"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_riotshield.gsc",
+      "sha256": "a15b29bb0428f004fbf494368dfe555850bc82b9ff3b9b380325cfd84212270f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_runandgun.gsc",
+      "sha256": "ea4c1a8e9f5e111dc37c921eb9b28249e10443fc00e37ae24056594edfd35a12"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_secret.gsc",
+      "sha256": "3749430294c8181490e53e1edef1990600049d65b5873f8168b887c03350fe49"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop.csc",
+      "sha256": "d170634ec3f343e8c0a2abdbe46b536e4cd6c748c4013783257781ebeabc54a9"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop.gsc",
+      "sha256": "ec5e452dc536089f106f219df4449009f77127bc274ad489a23490395b66a4e8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_shop_timing.csc",
+      "sha256": "e1c47bfc3519b24f0f1e77a5891f57e7e7583d7539d5ede62773c627bdf27ea1"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_spire.gsc",
+      "sha256": "50d324183cd57cbec7bfef429fa6ab6ee46b198ee27e5986db1af00f1db22c27"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_spire_data.gsc",
+      "sha256": "f69438ae8a44e22005ea601cdc53ca5c8f93d9ad633829fc25691393c62ea71f"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_sprinter.gsc",
+      "sha256": "c1faaa3be0dbc7417b8d897ba6e36df51537f2388f8a724a6bcf937241f78652"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_stray.gsc",
+      "sha256": "81892a8546c1a10ad0cd78834b57638bc8d1563f319868c029de8cc5777effb8"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_teleport.gsc",
+      "sha256": "4c2cb217e45221d5208b591244c39ad0d92d16b52038e9ca02612b73cef36a15"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_uniques.gsc",
+      "sha256": "621b9a0b86ad5f896348c2bbddb79c2b5c857d154f6127613f139f80131c01ac"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrades.gsc",
+      "sha256": "9d2aabfc1be829858d4c5d034f7741fdbe664cbfd43ebb00fbca8971e6fa20e7"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.csc",
+      "sha256": "c180cb26858edfbbc4fd0a9a624bc56c685b32c7937b5a571dd2205c1dfd9274"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.gsc",
+      "sha256": "8ca14905528907075c607f84a7f996a826a2b9ca675b0df052f559d02fe5f57b"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_warrior_melee.gsc",
+      "sha256": "1aecb561ad368d5e0a42d216f9b220824ffb7b1d91d789c62e1193269a8a4605"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_zombie_speed.gsc",
+      "sha256": "75bfb1915d51dca2d7d26f6287e5c8e403ef0e1ccd37c6595b594c543ea62644"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.csc",
+      "sha256": "59fee80f2cbe80b0041a8040d66955333b9e5c68b1d351ba0dc8be7a5efaf743"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsc",
+      "sha256": "ac0bfd056e4cc5d20763c629c7f626c35e95904957f36892c2aece4933c6facf"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsh",
+      "sha256": "de760428ff42a3bcf7fbc6e214e49b5c34c63d911658de63b72573ce9ae8716e"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.csc",
+      "sha256": "45b34a21ea66b756ca2a96975ad82f2788c4474dfdc8c276adf51d73a385cacc"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsc",
+      "sha256": "04966ad49da095123b2977047aea2c586bd39fa51328e86e522d277204fc0556"
+    },
+    {
+      "file": "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsh",
+      "sha256": "4ac2e3a97ee88948a90ed45f8abe4ebdedc447440aacab3931c309d5540bd8fb"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.csc",
+      "sha256": "c2e3c588aade1c23df1553ce6fa17bd00d15120359c6ccac84c150cc07decee7"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.gsc",
+      "sha256": "323265037d69b5c4bbdfcd660ca390d1078f4cdb1995ebfa28ab8cf55054189c"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury.gsh",
+      "sha256": "523eff16963da3299f1755ee90b7822ff3b347010704bf9a025b1275d9cf17ea"
+    },
+    {
+      "file": "scripts/shared/ai/archetype_apothicon_fury_interface.gsc",
+      "sha256": "da25577fbe026f2f9d36e2f6a09cc0112617162c8545da49e2bf52c0c8bf9359"
+    },
+    {
+      "file": "scripts/shared/ai/systems/animation_state_machine_utility.gsc",
+      "sha256": "8a8a93c0976357bc6ad950c2f32b1aa44d70a0cef6579ad9c6bde2a118ce4823"
+    },
+    {
+      "file": "ui/uieditor/widgets/StartMenu/AetheriumMenuButton.lua",
+      "sha256": "1f04aea6a96bcfd2f79b3912a9a569050bb686273a4ee7332bf574de8e2a1820"
+    },
+    {
+      "file": "ui/uieditor/widgets/StartMenu/AetheriumSmallButton.lua",
+      "sha256": "ee204886607f2727e0c27b5a05f1df17431265de00af5ba7e4e6d93e074a1695"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumCompass.lua",
+      "sha256": "fd9a15b4b48fcf51753e05f4b78e30638d1abdaf6dc1e186158bbdd8284d475a"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumGobbleGum.lua",
+      "sha256": "08d43b6c25265f28f04b343bb0f27425b0a457c251f3856286deee666a80ed58"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeed.lua",
+      "sha256": "a7e51e896212e60470b716d327cfc810d70c13df78f58f22270075efb093861b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeedText.lua",
+      "sha256": "288d437bfa9ce3480051a8145a45c185bd0f312231b4cd0485c5d325cf269781"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumLoadout.lua",
+      "sha256": "e30a987bb3a06d0be93206603b66176fb7d4966eba6889122ed865e7b9d0a822"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPartyPlayers.lua",
+      "sha256": "6a63f14e5e9f32fbeeb9bbd68ed025c140c6c52efe682a97e49d65335edfdcd1"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerkItem.lua",
+      "sha256": "6ef66c518d4369ce42482f9b81aaa351369571afb8345bbd66f15ac0ddd946f7"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerksContainer.lua",
+      "sha256": "ded9adee3f4e3911672e1e4d347c68fe57fcfe0054604423c51af6716b40b44f"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlayerInfo.lua",
+      "sha256": "a078ce35f3d8833521142267bc54059ace9c199be200292170c19c9d5ceddafe"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPoints.lua",
+      "sha256": "f13a2e61292a52b25e43f1fffbb935bca60bd21019c08d0c6790ef8f44946f48"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPointsContainer.lua",
+      "sha256": "4339bb27e68395e991f36bb52df7eed814789fcc0528f378a313eecfa1d87c16"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPointsDelta.lua",
+      "sha256": "dbdd8a0f564ad3b60bba3ce6c5cce245c1a084744ecfd71cae8ba70c71e07522"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupItem.lua",
+      "sha256": "7cf790ce1fd305a66294c4506f6bd298724615c9f448ac6a7a3745cfb5a318c5"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupNotification.lua",
+      "sha256": "34c69b32f9eedb5da56d6e6fdf26f3fb87b2bec8d62b729f9316930db52f0cc6"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupsContainer.lua",
+      "sha256": "0a32dac9005946eb7f0a1953ea6d1bd790fdfbc7f58d879b3757d7202d045865"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumRoundCounter.lua",
+      "sha256": "8de35b06fc13d67fa6a241da80cf5ab7ed20acc7269c64dc47c2728779fcf61f"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumScoreboard.lua",
+      "sha256": "b130d8f62d8840d9c6042eddc99d37fa8bb682f90cb49cad77f900867f9ecbcc"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumSpecialWeapon.lua",
+      "sha256": "fc2c40133215ef16a87bdb0a8ea2d61b04248c3e544fa5abee8dfc1ee4c31b7c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumThirdPersonCrosshair.lua",
+      "sha256": "65d52dcab4d3b48e69a40ff9d5d6559b9c792490f0cd66c916ca5d25d25c58c1"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodAbilityFeedback.lua",
+      "sha256": "a1e5cd22da06533eab87dbbdd0c21fbd73b15e6d9c1c058cac542396616e6a17"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphMetrics.lua",
+      "sha256": "1334ac3627ca1432f0f970a4063cbae42be8f3bc6045658f6dbafc959b5cb5fe"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphRow.lua",
+      "sha256": "f7638691567bac0411f0fc5139656ddebdca9d217f3636ad6226c88745e337ea"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphText.lua",
+      "sha256": "7c158c895af45baad0746fe0cb58ff6ae3ed3d6aab069b88ae045ae6c67018bc"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodHealthTint.lua",
+      "sha256": "399089d33e66ce59391d7f3c14c672fae1ee35660f756e8dd6c3226a6661c53b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodKeycap.lua",
+      "sha256": "7558b703e57345c138cc0d34202ca1934733b98d4ea91aa60056a2caaf268d7b"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/TodUIOwnership.lua",
+      "sha256": "de861c8b6e51c8d34db7c026a31f6f26ee973c8d82c5775bdfc051377ae9551e"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumAAT.lua",
+      "sha256": "a9f64e012b62333c1303bc97e3142783276b3c727706bc5488c1ba4366cfe2bc"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumBBG.lua",
+      "sha256": "b98d00db490c914a1f0364b1d37aaf3e9ea7dba1d3060356d049b1a1610be1de"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumCharacters.lua",
+      "sha256": "42d99f655cb84098bc448e28b2b6f8ad8260ce076299c740593fcdc50856faba"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumPerks.lua",
+      "sha256": "f7c6e0aff89f9dde97e873bbe41ce15210215c389c08192d9ccddd0378d280ee"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/Mappings/AetheriumWeapons.lua",
+      "sha256": "e57c14e3f020e3aae6d2a5091ff04de468633ff56aeddc5179ab735a1f383afe"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/ZMCursorHintNew.lua",
+      "sha256": "622e55b58f7a0975526c11c0c4453bcd0068d7b8926f7fd03e5a97bb6aae5598"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptBBG.lua",
+      "sha256": "54aa337181ce3e4dacdc1f78bb8c733e4cacdf4f1094ce511a8b3abfafeb4a57"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDefault.lua",
+      "sha256": "d0d7035890d4cabd27d812c1a376270c73b807c97e8b07ade6fc6b03dd11d367"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDoors.lua",
+      "sha256": "5a2c0207e438149340b4caf10279106f84d9ffa498930a18254e020e4e6cb640"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptMysteryBox.lua",
+      "sha256": "7d8b2269ab218f417ecafb00a1796c9e45537d77e3e7ff055bcbd68360f2d918"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPAP.lua",
+      "sha256": "a31e2013eb789053e39165017a9be8ad9225c2e00810250bb1910a89a7cf229e"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPerks.lua",
+      "sha256": "15a4d84852374829a185f4429fb6d692126890beec77703ee638874f6791b364"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerRequired.lua",
+      "sha256": "6bc235fe7adae443f1b47c315261d5ba72e564c3251539dbad24545db6fd4160"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerSwitch.lua",
+      "sha256": "f9f181ce735f9155169e01a9337597dfce8303fe6a198747124f576d123a03df"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptTemplate.lua",
+      "sha256": "8856b86d47f1d4458b28ce2dd8f5df8429173313fb7c3fb51f0c62c83e334cb7"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptWallBuy.lua",
+      "sha256": "534540f9a2df9f34eb5416445e4ceda1d0ebeba2a26d300738716da4d3e6102c"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodPromptCard.lua",
+      "sha256": "60dbaec46e77574e910254a65d2a3f3b8d9f4c39b5dd56f29ffdba4471984a45"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodTeleportFeedback.lua",
+      "sha256": "649dcbacef807deab9735634ea94629f52da4f306e6c96e7df6d6c8af100db9f"
+    },
+    {
+      "file": "ui/uieditor/widgets/HUD/AetheriumWidgets/Scoreboard/AetheriumQuestsCustom.lua",
+      "sha256": "2c8132c130db59bc405cd58392b2ce2f6c25474223545e1cb21f729af6703452"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/AetheriumHud.lua",
+      "sha256": "c7321391827b1dd37e31879dec5a126d5ff83b234eb99607afa6a289b1d1b6b5"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/tod_class_select.lua",
+      "sha256": "bed4bfa9711baec21ac20567064810335ee520b4c3faaeb11f35cf73c15ed56e"
+    },
+    {
+      "file": "ui/uieditor/menus/hud/tod_upgrade.lua",
+      "sha256": "e0562cb99f6247c42fa41bbab094feda16bfa264df86e7ccd06be8d6882f671f"
+    },
+    {
+      "file": "ui/uieditor/menus/StartMenu/AetheriumStartMenu.lua",
+      "sha256": "50b8a6d2f0f724969f4d3eecc6ec7ee1ce8f0a01e733e90a094dbe16af060c4d"
+    },
+    {
+      "file": "zone_source/aetherium_hud.zpkg",
+      "sha256": "99cfc3d46066e949de195aef5aac166f50469d0b7f1d6632b761d3e87adb2aff"
+    },
+    {
+      "file": "zone_source/logical_powerups.zpkg",
+      "sha256": "41c36af6eb84de87240d7aa01ba8953cf4c1c6edb02f4f05bff055461f596e0a"
+    },
+    {
+      "file": "zone_source/tod_crown_alarm.zpkg",
+      "sha256": "a42bf5de58b9b0925005daed2095010d4b69e0792db6387136edecd9dfb19f3f"
+    },
+    {
+      "file": "zone_source/tod_cyber_sword.zpkg",
+      "sha256": "ae836b10acf322ee737b9c0bdc9e93e4a9cf0617b876fd7ecaad1ca5a9bd3c64"
+    },
+    {
+      "file": "zone_source/tod_necro_staff.zpkg",
+      "sha256": "e4e9333f3df79b4af99b54178a7afcbbb60d33805f7c4ede415fbd65e1fe21a4"
+    },
+    {
+      "file": "zone_source/tod_partners.zpkg",
+      "sha256": "ca27a70e853dd738e32cc886d347cc5b1d0ac59600272ee3fcea7e966ac3ea7f"
+    },
+    {
+      "file": "zone_source/tod_power_conduits.zpkg",
+      "sha256": "8a9e1a4a967f936e377e97b3ff5ba0fed9590ce1853436278b87158eefa7e238"
+    },
+    {
+      "file": "zone_source/tod_shop.zpkg",
+      "sha256": "2f4b71b47a9a2a16abfde883b76e5dca953f8e05ac8799d55cfaa7d0a1c91b9c"
+    },
+    {
+      "file": "zone_source/tod_teleporter_states.zpkg",
+      "sha256": "4848b8020c2d240bdabe790e6284d4e322b6e8b1c03f7e54b2e08134d4419865"
+    },
+    {
+      "file": "zone_source/tod_twins.zpkg",
+      "sha256": "ebbe3522355fba2d70784a2a8034424aad463572d6cf83da7fa4be4c69590962"
+    },
+    {
+      "file": "zone_source/xmas_gun.zpkg",
+      "sha256": "340541ac065d623d4deb82410a2dc57780b98488c23bb8270d09903fb16f8439"
+    },
+    {
+      "file": "zone_source/zm_tod2_cybercity.zone",
+      "sha256": "517d8b496e0c3b52d1a3bc3358f276025adaef43b74c7a834117644c74ece8e3"
+    },
+    {
+      "file": "sound/aliases/hb_bo6_ghoul.csv",
+      "sha256": "43da0a4a2d8039aa258702ae8a79da18f533317302e3d3908f88506d25ec1c35"
+    },
+    {
+      "file": "sound/aliases/hb_bo6_mangler.csv",
+      "sha256": "8c4dd0bbe6f1995ee11dce3e20432ce1f67d911ad7a06465e6367fc4b0d59d02"
+    },
+    {
+      "file": "sound/aliases/hb_mangler.csv",
+      "sha256": "95b730527b2239f3bbe316001fca8922c311b96bee369d91694cb10818bc82b0"
+    },
+    {
+      "file": "sound/aliases/hb_thermite.csv",
+      "sha256": "c5f0f515f96d10e4aa65c19e691799f9bc5f1cc1c0d1a6db7143398875967a55"
+    },
+    {
+      "file": "sound/aliases/logical_powerups.csv",
+      "sha256": "960b58a5fecb92aea9a3b996115b2f8794a702f4c972611f031a422f82611187"
+    },
+    {
+      "file": "sound/aliases/tod_archer.csv",
+      "sha256": "b631b8555c793f4dfa25dd8ea02b20c4eedc3ad8fb0adf3376fd0efe000cad85"
+    },
+    {
+      "file": "sound/aliases/tod_baseball_bat.csv",
+      "sha256": "359d49c1243af6b1a8c72eade241a4263e3606f003724309be22f9994c0f9ba0"
+    },
+    {
+      "file": "sound/aliases/tod_bosses.csv",
+      "sha256": "87daab93363f88288a11091d3d8e7ee39c6f950ebfcd8c1367cd4b8da8bb117d"
+    },
+    {
+      "file": "sound/aliases/tod_combat_knife.csv",
+      "sha256": "6460f3bdc333b3f4da9b9fdf8971ded7f53d8feebf6ae502adc151dd3e8f7503"
+    },
+    {
+      "file": "sound/aliases/tod_expected_roster.csv",
+      "sha256": "1de3e58d3ed612904ef754d077e302a13a0ad5ee0dcf67f353a4e8d12b33dc45"
+    },
+    {
+      "file": "sound/aliases/tod_fuse_cluster.csv",
+      "sha256": "b1b276fe846b2c529574e1296f01d01d0feca1ba62af321964ee85789791f133"
+    },
+    {
+      "file": "sound/aliases/tod_necromancer.csv",
+      "sha256": "8b386275b9ecf4d0be32f08e643fcae20d30d5003f158c38e92ed573652af302"
+    },
+    {
+      "file": "sound/aliases/tod_perk_cans.csv",
+      "sha256": "bd34633815c789dfb902a2a11149fe10355f4c057b27351a55b91ef2003d068c"
+    },
+    {
+      "file": "sound/aliases/tod_ports.csv",
+      "sha256": "8e76c4f664ad3a2188ce8ba31840bcd3c3d16e58345277cb64fdd220378de0f5"
+    },
+    {
+      "file": "sound/aliases/tod_shop.csv",
+      "sha256": "b025d7749e5bdab935987774ccf0f89fc2a98e198a5384da98b0fe9aa514cafa"
+    },
+    {
+      "file": "sound/aliases/tod_ui.csv",
+      "sha256": "9283fd9e0086f994cec6030362319cb5417608b24bb562d822a3dfe856bbe68a"
+    },
+    {
+      "file": "sound/aliases/tod_warrior.csv",
+      "sha256": "5b67fab343b3e9c1b20c7efee8bbe72b159b926fc6688b5d2313825a1d0568e8"
+    },
+    {
+      "file": "sound/aliases/tod_weapons.csv",
+      "sha256": "82b42c05a26b13948997afbd75e8a3d2b4d2c5e8417b5b77bb57d72c0ea4ede8"
+    },
+    {
+      "file": "sound/aliases/tod_wisp_tea.csv",
+      "sha256": "f4e89de625519ecff3265813f6f2bc595655f6e2faebb775a8da5be8d0a5289a"
+    },
+    {
+      "file": "sound/aliases/xmas_gun.csv",
+      "sha256": "172a0ea6835e4d5a243cf3ada1a9b64b8499ca7532c997edc15458b500a41857"
+    },
+    {
+      "file": "sound/aliases/zm_ai_zod_companion.csv",
+      "sha256": "bfc6cb3b9af2c67db7fa7349501d510022a1ac089d2f8ca87e698b77b6f3ae7a"
+    },
+    {
+      "file": "sound/zoneconfig/zm_tod2_cybercity.szc",
+      "sha256": "5e43e41f603bb860bb5ef2a8fac4a6ecf1f29a6de345525341c3cc792ed20cd2"
+    },
+    {
+      "file": "animtables/hb_doppelghast_dev.ai_am",
+      "sha256": "97eca954199f7ea130781fc1964328bdc23ce04b55006fe37fd2e1bda5dfc24f"
+    },
+    {
+      "file": "animtables/hb_doppelghast_dev.ai_ast",
+      "sha256": "a3ef7a0b6ebaef1b3f8dc24b6f6450af4cc0ec79209784b8f3afc8a0d6557dfe"
+    },
+    {
+      "file": "animtables/hb_mangler.ai_am",
+      "sha256": "04b358ea10b9411e2f2f7b2ae97f3ed8bb2a3a6eded3bed5a968b72624c5e176"
+    },
+    {
+      "file": "animtables/hb_mangler.ai_ast",
+      "sha256": "bc3db24fde3bd587e855227f758c65541d356a7444532f67b49a9895ed0b5d70"
+    },
+    {
+      "file": "gamedata/weapons/zm/xmas_gun_weapon.csv",
+      "sha256": "89b6250822e76ec9bdb0b745db57df0a0ef15c171c8084c484043f9e4e0eb9c2"
+    },
+    {
+      "file": "gamedata/weapons/zm/xmas_gun_weapon_no_box.csv",
+      "sha256": "d75d6bfb953b5561642abf55a7584464e06123bc3d565dc6967f99daf060ad62"
+    },
+    {
+      "file": "gamedata/weapons/zm/zm_levelcommon_weapons.csv",
+      "sha256": "88ab73ffa7f31d6cde45449a7337d91b49cc5c664970bf88e6f4a001d4c73ffb"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod0.xmodel_bin",
+      "sha256": "2663d42d357de318f0c9e63b4fcc94b2fe9954623a2fb18bbf998a1d90c57df1"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod1.xmodel_bin",
+      "sha256": "f9e05f20a953262213e47a0f4b835de0edbc2a781146808d73b5715bc101be90"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod2.xmodel_bin",
+      "sha256": "2ab02cdb92527888b9f15d15d7eebb9f68ec9ed8d741def63f3a2d25cd0350a0"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin",
+      "sha256": "c0b4376cf5d109f6540909aa47e8683654f212f0876b2b9b57ff449ba40174cf"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin",
+      "sha256": "64990aed9b4f24378e4ae4ca8437cbc1bdf583a75e51591af76bade1fb8299b2"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin",
+      "sha256": "34d993701418cf966a4b620958e79980e059afe16cd851594ee158078e7565d1"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod0.xmodel_bin",
+      "sha256": "213c12e106094a07da37ef045ecc024efdf43f2a23fa3ee86313070fae386882"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod1.xmodel_bin",
+      "sha256": "fda453d492fa654674fce72b3484928ae72fe739d2d9769c44c6006d81aa0ea2"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod2.xmodel_bin",
+      "sha256": "da09dc7efa8e253a63456d71efcbc03964da0be23fd110613af8e368f75c5816"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod0.xmodel_bin",
+      "sha256": "641feb6e1f80b180db7ab8d89c19c723320df6375b0ad7c0281893da653dc2e3"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod1.xmodel_bin",
+      "sha256": "61f6fec261ccb86ca03662eb46b2b1f4ad380c89a7e30509c3f49b33174cb907"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_off_lod2.xmodel_bin",
+      "sha256": "87288681d5af50a88b17377ddcd23d8e040c128724bf8026e26e8e265d3252eb"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod0.xmodel_bin",
+      "sha256": "af261509d896d3468b8939b79cef4c5b8d8e26e94cba0cf4f47c078f53157434"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod1.xmodel_bin",
+      "sha256": "e8308971a4675d364002ec57ce95620e36f571ed2e39b893379ad9e20230a8f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/tod_crown_alarm_rotor_on_lod2.xmodel_bin",
+      "sha256": "de4513eec289e72ff4cae5ad6351425ddc46a29e5903fbb744beb6f74657e1d1"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_c.png",
+      "sha256": "315e44cdc67c8e5bbd58a140bd7dd7f5ebb62f9e4ad91bc7fafa691535e529a1"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_g.png",
+      "sha256": "8edad65f2e9157423c2eaadeee43196e602c766b149143d3ec9fefe481f9e5cd"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_s.png",
+      "sha256": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_c.png",
+      "sha256": "77c09242819a1c5c57eb91af6418a933213387c0b9c7daa444d3707a116ac4e5"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_g.png",
+      "sha256": "90b046266c2a9b8644710a7a231487206d1fd78e06ccdfe4cca082bad87b1853"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_c.png",
+      "sha256": "860ffb96b6e7bbdb5da3079a778e83030a9920c0e31c8c7fc46368f241b38669"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_g.png",
+      "sha256": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
+      "sha256": "fd0fd962f94d9ef7420ed8a027c7d8639246252f5e2841310268dd068f146502"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_g.png",
+      "sha256": "324f95df1afb4c878849cd0e3a86264f775977f231efb7fb7206ee395762bd75"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_c.png",
+      "sha256": "0277a0929260078d41ec5cb5b73f6b353af8e4fb95b4a3155c18626148ef23ba"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_g.png",
+      "sha256": "ad61926d95ee3773df0c2319dc9ff44cfeb9b0738b2a9ebaf110256ee3b36970"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_s.png",
+      "sha256": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_c.png",
+      "sha256": "4787fb52584ed6cb82aba66fb82e219172d9d3215cb069cf3328dad1d73aeacd"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_g.png",
+      "sha256": "a7e9d34d5098459bbd6bed491c1069ee0129a1eea8a0b695cd64ef5c73145b4e"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_s.png",
+      "sha256": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_c.png",
+      "sha256": "5d56b881e06a89e133be2b51e9b0a9da05965344a6850d43618798f823afb029"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_g.png",
+      "sha256": "ba99df2b89a910c1750c1e14afed45d20c00ccdcd08cbdba5e52e3ca7f1a876b"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_n.png",
+      "sha256": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_s.png",
+      "sha256": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_body.XMODEL_BIN",
+      "sha256": "059f19de51ed5c6440e86fcbb44fccacf007950ba26c03549ec644bbf39a357e"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_behead.XMODEL_BIN",
+      "sha256": "942122075b2c3162af8cdf89604fd352ca15a5278d48a4a49caf614c9769c756"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_blegsoff.XMODEL_BIN",
+      "sha256": "76287d3fd4455b9a3cb6e3d6236fc6e014e1e45f738464072b0adcffadb66a74"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_larmoff.XMODEL_BIN",
+      "sha256": "f0961467a8f6b0a23e240ac95de42aa9c8537607d8fcec83e766ec9517818360"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_llegoff.XMODEL_BIN",
+      "sha256": "5c3d1750fb9edf17c57303311330e818378aad60dd7ddf6b5cddef30091212d2"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_lowclean.XMODEL_BIN",
+      "sha256": "d6c08fb34ff7b6f4b50d357bced43def0ac9f04bf79bbdb0cc90e42147643e70"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rarmoff.XMODEL_BIN",
+      "sha256": "8ffef085318c0759ffc1affe1bef2d5a58cebf51dfc8c81948cdb0edad160c99"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_rlegoff.XMODEL_BIN",
+      "sha256": "9ed6c0dc4a7527433c10c06f04035843b7cad2a0a15fa9c046cdfc63bc92c7dc"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_g_upclean.XMODEL_BIN",
+      "sha256": "5752bff146f0726e67efc6d9b389a216d808c6e50f92ebad985fb721dbb673be"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_larmspawn.XMODEL_BIN",
+      "sha256": "2cf461a4df1eb56f8e5b4d5d8113349bc1b40d809978a1b042c4e788ed4e4098"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_llegspawn.XMODEL_BIN",
+      "sha256": "a6602ce682a8f839ff14fda2a33196bee314b43e9b530e407a9abfe248fe0e53"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rarmspawn.XMODEL_BIN",
+      "sha256": "1b7fa5eba5bfa75768566fba2aa3ff16630866fd7de030d1c7d0cf3711cb7279"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc3_zombie_sentinel_s_rlegspawn.XMODEL_BIN",
+      "sha256": "a28d2e7e98b211303c5be1b453b96d1b23c64b78fd7c649d0fc88915f822a985"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_charcoal_c_zom_dlc4_zombie_charred_head.XMODEL_BIN",
+      "sha256": "a6093aea72d7119c5e6d246b6cf4db805c3a897bbb01f3a13739512dc31077b0"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/tod_doppelgast_black_robot.XMODEL_BIN",
+      "sha256": "adeaa6c0069fec7fd42787eecb5604e4dd23c9eff7ec26e6e49c09a964f01e68"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_char_rus_zombie_eyes.png",
+      "sha256": "adc67546ecda5e0e7beb6a098d159ef3286ceb48f929e974e05e4161416ea6ef"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_arms.png",
+      "sha256": "3ecad5f6201719be1a28aeb2a2b99c2fbbebc137e8313a13ad7c5894e8b909e3"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_body.png",
+      "sha256": "d2738fbec6feb31c91fa939129ea60bbd2cf86fbe19495328df2763e6dd11ebc"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_charcoal_mtl_c_zom_dlc3_rus_sentinel_zombie_legs.png",
+      "sha256": "2c99993391b103e9d44f5bab03fbb7a36d05ab9fdde1e5ff63a14f74750c8b4b"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_0.png",
+      "sha256": "821b87d790360a2f6fd03efc8fe614ab15972a9c5be8f7b8412a13e1d0b1ad46"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_1.png",
+      "sha256": "309d88dc9252ffd1efc66a0549fe6779132e2cd0984622f5b2b3d6b1581fe039"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_doppelgast_black_2.png",
+      "sha256": "2e8198544307115ed61c2ed1c898009827d44dab28ab8ba0458d2aaa9ab45a42"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_piston_c.png",
+      "sha256": "7b6be0565328f09f34958d85bd791a73de309fc807896cbe4a3ae5de49a897ca"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_piston_g.png",
+      "sha256": "40ef8288d66dcc4ef34bd059942e7c27afa992982868ded65d0866037e6fb504"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_piston_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_piston_s.png",
+      "sha256": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_c.png",
+      "sha256": "83c77af33bef5d39905daa7d9054e1e929c916e80a0aaeee8762d5ce86f93770"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_g.png",
+      "sha256": "8314620923c2c615e37cccf9bb73941e0c26c281b935792e85619468f0d67210"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_rubber_s.png",
+      "sha256": "b3f5b41b02ded139d6951ad991c152233b0781fd9062ab9768c19cfc3d8d5ee3"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_shell_c.png",
+      "sha256": "791b7c4a49d2b4393029332bf66d8128220108f1ee23a74445daaf7e9bb8704b"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_shell_g.png",
+      "sha256": "e7076417c2ce24e49056ddfa1cd4784c9ef873aed427175726562d000f98d39e"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_shell_n.png",
+      "sha256": "d596f50be53b7d822261927738cc46f9576a9477712d49478ad7e528c65d9fb8"
+    },
+    {
+      "file": "model_export/tod_cyber_elites/images/i_tod_robot_shell_s.png",
+      "sha256": "90f91b1542c7f06915bee5cc4ca39b5f123b3afb5e0fafc6be0779462fda34d3"
+    },
+    {
+      "file": "share/raw/fx/tod/crown_alarm/fx_tod_alarm_high.efx",
+      "sha256": "1863be72ce9572756530ff1507ead72d634c6535d676c12973322512cb14cc4b"
+    },
+    {
+      "file": "share/raw/fx/tod/crown_alarm/fx_tod_alarm_sweep.efx",
+      "sha256": "857ffbd9fac164f87b43e6ec7f46aca690c62df2b41a4aaf04801dd82c33bce5"
+    },
+    {
+      "file": "model_export/tod_necro/i_tod_necro_eyes_white.png",
+      "sha256": "245a82e115217ea58a29329710f13d48617347f30d71db98f8c7657ad7b696d5"
+    },
+    {
+      "file": "model_export/tod_necro/i_tod_necro_pulse.png",
+      "sha256": "5146c4cb8b0d578db904f002384d3f8c5a14696aeb1189e744ef4544f28d6eb5"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_charcoal_arms.png",
+      "sha256": "931997a730466c0ac768fc22587bda86ae5cd397129665c1bdfec3ba93c28da0"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_charcoal_body.png",
+      "sha256": "eadccb4dd48f154a503b62b78582a35761bb189d7ca9f3af4ae4f5a11560e636"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_charcoal_legs.png",
+      "sha256": "b71b10ec93d426f9422d672904fb378b32629fef0c0b3cb09186162b7b2310c7"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_body.png",
+      "sha256": "9486cd3da67bdaed97724dea90cab77ca9ab463a564951a16e010136dce77d7a"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_fur_bloody.png",
+      "sha256": "97db83730f0e02b9e8e2b91790b10c09089c7caf893de87057291780cb1d6580"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_fur_body.png",
+      "sha256": "11f7ca385df8a390f10805b3a27320fb704adbb5deb63ea0094373c7ff4883af"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_fur_leg.png",
+      "sha256": "1b155204293f2ca722906af1344f6bedfda078cadfd73956b50d26f8d236cb6e"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_fur_tail.png",
+      "sha256": "427b761b1111d9e1bb84f4baffd0194ec3b33f4d8bc2729a6b70ef7f4ea815f7"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_head.png",
+      "sha256": "6a0de4c8eaaabac14f09d821965542f67cf3da0fe43a3c4c2416e7d8101fc447"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_hound_teeth.png",
+      "sha256": "bd87c5569e9f8bc682e180f2d797b71be94862d0b4032336fe7205b1f69c2861"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_1ff89f3de9582270.png",
+      "sha256": "a24b025d16f364267249369522eeeb0cb6480d6d34c889e88a4829e479259118"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_22c3f289c026aa5a.png",
+      "sha256": "a86d63cb56d3623e820797ff21c12cad50e9b6141ae9079d1f4972aa8c2d1dad"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_22c3f389c026ac0d.png",
+      "sha256": "2ec6682c1dd5f6780200e481ea1f4086fbb49483e25defc482a11dff7734a72c"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_242ae040306a6fbb.png",
+      "sha256": "e607a377c2b25fc6e55ab4193868f4b3fc6fbcd478ce87cbbb06840a668ad86b"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_407bc047c19822a5.png",
+      "sha256": "010178af32da1c5ef26beffeb5577f0a5ef780f9cca1af14af1a97353a64c8ab"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_44205245fb58620.png",
+      "sha256": "b16ae129dfc292e1c5e64375adddd7a7d41e8d0fe6de22ab3f9e2d396e41435b"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_5e59a8339d298a4e.png",
+      "sha256": "6e8cdb0de4c70d17886da781b6cacee09ce656236cbb25d4abcd070206a05aff"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_72d123676ff9da3.png",
+      "sha256": "35e7f16e03ba743dbae37c6fd6ebc21358d893bdafe74e15ecc87d907ab3b8ab"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_7b8bd6301c002224.png",
+      "sha256": "dd80c4b0d0f8d2a96ec5f580f4e0267b6651165379d1831c1d6f1d3dd507fdd6"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_7b8bd9301c00273d.png",
+      "sha256": "01f466b06e561b688612bf25163e1397f3d364ae9f2d390e833bde570b744c58"
+    },
+    {
+      "file": "model_export/tod_necro/blk/i_tod_necro_blk_mangler_e763d0928c1de71.png",
+      "sha256": "a37cbd2b65807b2e8ce2011c257debcaaa6360dd97c8eb448c30a41e56659dcd"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_hound_aura.efx",
+      "sha256": "39accc0e1a4fe1528be0a2c280fd34d4c21a87da2b8de4653e4168e31aa3b6fe"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_mangler_aura.efx",
+      "sha256": "91395d7c42be548b58d6571c469ec5bf3d45a4198d2062a2223bb2865ac9403b"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_mangler_aura_c0.efx",
+      "sha256": "5d1a1ca703145092d013354fc0d985a07f367535bed1e565c15c977ac8f1ff77"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_mgl_blast.efx",
+      "sha256": "6e4fa8090a9ddb0c5e43322bbd82e2d66a67d863e6b64c817cefb9ff4a377e81"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_mgl_shot.efx",
+      "sha256": "a801c7863bcea31b1ef4cc282aa9bd6cb0f81472beb8b7afd09c1aa0955611ed"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_loop.efx",
+      "sha256": "3bf0908625c380db2194bdca92080dc5be89d109ab925a25c695f5671aaff8e2"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_loop_3p.efx",
+      "sha256": "687b45831ee1d91ebb8e63157f0d99a363a5b02f566a6d218e0b4f68e97e6c62"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_side_loop.efx",
+      "sha256": "5c76833e281e69656189d0cd5086ce8d9b533f151b46ffd6b98f938954f20ba0"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_side_start.efx",
+      "sha256": "4a311974d87a837ef5cf724f62670f16edb7e214d6e1a7a55d26ac8ee7975b1f"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_start.efx",
+      "sha256": "c8d65a03094d66cdd1cb6a94d319c60912b0545c42742f1c63bdb0622e53a247"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pap_beam_start_3p.efx",
+      "sha256": "4e158e405a4893d26a0ab2adb6d479f97c312a7be5f67638791ee7ba91a3aa59"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pulse_ring0.efx",
+      "sha256": "78b1a809b4cf5ab38a857b49521f7b9cbcf82444de9727daed8a00428b024469"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pulse_ring1.efx",
+      "sha256": "9e6226c69131571ee752526b9bd99ff5cf4b6b67f6d066ab31ddc7dc2add1909"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pulse_ring2.efx",
+      "sha256": "641cdfab0a14ed2ddc4119ad446e9f92469699d0398a7ea592ac32d1acfc5db5"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_pulse_ring3.efx",
+      "sha256": "af63499c6afac1d53558841cf1165e78c14b51d310d167421f8d5b1217a6e53d"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_soul_bomb.efx",
+      "sha256": "78b1a809b4cf5ab38a857b49521f7b9cbcf82444de9727daed8a00428b024469"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_soul_rip.efx",
+      "sha256": "d1896cca2b0b7854c9d9094e3f325553ca636df423a80d13bd00f04aa6f17ee0"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_soul_wisp.efx",
+      "sha256": "77dd1bbaa83cab91a7ea9d1171a3b862806e6d93d2aaac35f72ed9881de97050"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_summon.efx",
+      "sha256": "fb780d8ecefed83edb3c3c3a9da696db745f6177357b5c9d7a68fcf7179eb03c"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_thrall_aura.efx",
+      "sha256": "de1bff33d9e3c70b7800123670372713ded70cddef7a06db2fb63ddd2bf597b2"
+    },
+    {
+      "file": "share/raw/fx/tod/necro/fx_necro_thrall_aura_c0.efx",
+      "sha256": "ee8fd11c2e8ac600767b4a6f5dc2fc47610fd47bdc9c1d8184baea85fc697c98"
+    },
+    {
+      "file": "model_export/tod_fire_bow/i_tod_fire_bow_lava.png",
+      "sha256": "647c7f282a9031dbcc89d8580d647b73adb6169b2c56022f8ffba6a8b093b162"
+    },
+    {
+      "file": "model_export/tod_warrior/gauntlet_hook_skeleton.XMODEL_BIN",
+      "sha256": "04ba2e6010306cd53bbd76b52d73a9332ab2b50a2ffb38fd9e0778af655036ea"
+    },
+    {
+      "file": "model_export/tod_warrior/wpn_t7_loot_boxing_glove_skeleton.XMODEL_BIN",
+      "sha256": "c72e25c6ab1b4c1c31d8b2c5f61a0717103899dbd777cde9040ba9c139d01b77"
+    },
+    {
+      "file": "model_export/tod_warrior/wpn_t7_none_view_LOD0.XMODEL_BIN",
+      "sha256": "0fa2a8117c400668d98e6b538e1bff0f8821e2b4a920edb5175a5f0f53aae890"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod0.xmodel_bin",
+      "sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod1.xmodel_bin",
+      "sha256": "7c8b5855e1a662831a5dc1dce5fbba6e3626c387e8d4b65fd98043e1a86679e6"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod2.xmodel_bin",
+      "sha256": "0d2e8b05e235b2ee7c033152105441fa5231399226849db117ff6ff7d51b27ca"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod3.xmodel_bin",
+      "sha256": "066f6e12fe87b9e5d7e815e9a9d06a04212b76d1045fd2ca8af83126a0560a53"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod4.xmodel_bin",
+      "sha256": "97a5368f52da7981704c77bd80d4a3c95a651d387b4406e272a1146a79727d83"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod5.xmodel_bin",
+      "sha256": "eb5a94074219359f23bf4b6ea26b65f5e08c026e1c0b10d451014a86fae50435"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/tod_cyber_sword_lod6.xmodel_bin",
+      "sha256": "5ec68d0f715488050a303a38a754af9fef83abe9dcb69d3f76ba187066269310"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/_images/i_tod_cyber_sword_c.png",
+      "sha256": "eed3541a9f524d51ab4358419de39ebaf3796d43f72726c3a08fa14ce0639fe3"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/_images/i_tod_cyber_sword_e.png",
+      "sha256": "6a047e8ce14c4897d7dd4a1172bcaef40b8876feb14de27387383cdff682d55c"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/_images/i_tod_cyber_sword_g.png",
+      "sha256": "565ae63a125f55a3089a2a641b509fe90e33645847403ea41227979fe82ec09e"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/_images/i_tod_cyber_sword_n.png",
+      "sha256": "624461cc4b4aca2844bbd0941dc30e42d5acf791944d0af9ba7c1fb0b09a84a6"
+    },
+    {
+      "file": "model_export/tod_warrior/cyber_sword/_images/i_tod_cyber_sword_s.png",
+      "sha256": "becd3cbb26152aab6a3285c51d0a990d18196faa6e517c4aae893b588145a39c"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_idle.XANIM_BIN",
+      "sha256": "c6a0619badc44b79042a6dff1e645c314f6b0f0fd20083ec3c714ab90ae3bc62"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_pullout.XANIM_BIN",
+      "sha256": "db387895c681e9cf8ad792f02e5fbb2918a75260d3d8e23e2a8bb07de7d65178"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_putaway.XANIM_BIN",
+      "sha256": "db387895c681e9cf8ad792f02e5fbb2918a75260d3d8e23e2a8bb07de7d65178"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_sprint_in.XANIM_BIN",
+      "sha256": "46cf63318d03493ed28d3a8acf3ae78c2d0a168eef88c55c01adb42da3e49eca"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_sprint_loop.XANIM_BIN",
+      "sha256": "6c9a885070c0eaf7afcc5cf54545fcf161b4d75dd99128b413f70002925970aa"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_bare_hands_sprint_out.XANIM_BIN",
+      "sha256": "6d80b514da42fcc3d52d922ccbf2a1ca522d9c20b74414ec84892e8ad43ff2ed"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_boxing_gloves_melee_swipe_l.XANIM_BIN",
+      "sha256": "611743a7d60ccfb1b741b2089f36569caad09cbfae699860fd09a0fd580af3c1"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_tod_gauntlet_left_hook.XANIM_BIN",
+      "sha256": "b633037c2b5f5120acae09c7fac381c52e25e540615a84f7b6ef57c76c9134cc"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_ads_down.XANIM_BIN",
+      "sha256": "2bb4de14ed383463ccd85972c0e5c31eada441936fdd284994233e4497e3ee47"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_ads_up.XANIM_BIN",
+      "sha256": "78f6d55ac041b6e74d936376f36ca49b69ef28928f95dcefa17983953eae5f29"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_charge.XANIM_BIN",
+      "sha256": "4b936a76f43fa83b6a5ad6979eb26ba701e2a56413084fc31030917010fd239b"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_charge_upgraded.XANIM_BIN",
+      "sha256": "48b06fb29836527f3d67b6c30e504ee708a74f05fd39ae47c75cf4415d6a5aa3"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_first_raise.XANIM_BIN",
+      "sha256": "4d176b2bdaffdd2947db07cb4e1aac1c0c3813b38d359ac7cc2ce45fcfeb89a6"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_idle.XANIM_BIN",
+      "sha256": "1ceafb86a17eb144a0912a75847cce005030efc22865ac328899aab0771cfbd7"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_melee.XANIM_BIN",
+      "sha256": "79ce10141396961eb05489c4911b21c05c2876504edb50eb038d6d0bf2451468"
+    },
+    {
+      "file": "xanim_export/tod_warrior/vm_zom_1inchpunch_melee_upgraded.XANIM_BIN",
+      "sha256": "6742978be4251bac42303852204307a1aa18c087cdcb764046b66a36e93ad240"
+    },
+    {
+      "file": "model_export/tod_necro_staff/cast_skeleton.XMODEL_BIN",
+      "sha256": "f960f17b5a9ba6f94837605a41585f769ed487c6711f8df885f36d5284be3e2f"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_bone_c.png",
+      "sha256": "1590ff1c63e071e390536d4b37a8b44e142871b1dc2b91b3b1aca7ca679b8a1b"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_bone_g.png",
+      "sha256": "82acf045b6a71eb7881f55270be44616d3431f157d1d874562c4cbdbfcd536c9"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_bone_n.png",
+      "sha256": "3775c1a86d665e86f7cfcdfedb783590bb15f289d70495fcd95bf14c679655c7"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_bone_s.png",
+      "sha256": "53435e3996c02dda1f923ce3ca84db7dc08746e9066f308e161868d32afc189a"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_forge_c.png",
+      "sha256": "c5d763516ae41f0187e391a1b8d1f73a547b495a3397a94373af173c46b00495"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_forge_g.png",
+      "sha256": "73676ccfd345a0a93b3653ab973de59e8f4956cdbdd6d03960a7c05b99556cc0"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_forge_n.png",
+      "sha256": "d7ae3c52f7168617e133216c362628a5798203e13c2d82c6d77db6e3675342f0"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_forge_s.png",
+      "sha256": "64e3d97a416693a0a8e5ed105dbffc6a189c93036704e3b3f565e757aa39b769"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_iron_c.png",
+      "sha256": "c8c0361eecdc3f677fd12e4cd64de26a4e30a188b57f4d0a8c3cd27440741074"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_iron_g.png",
+      "sha256": "c6aaa78f96e77e576a5b4467fa74dc90a8882d9fb6030bddbbb596b9b234dd1c"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_iron_n.png",
+      "sha256": "2109959cfd09fb181a69c3ab7c0d4fb3d2e27f41029b932ccb15f5c2b0459b5d"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_iron_s.png",
+      "sha256": "383c134c791d1961bafd5c33097d41a1e8d0e306b2ef593e5eed0ef266482943"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_leather_c.png",
+      "sha256": "13563c358e7b31e5edc7ab4c3ce32f088532a9c509159007a051f7adeff3b16e"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_leather_g.png",
+      "sha256": "d9b7a7ba2d6d21d7c4c09e7437163567e3f522a14416b22961b30380e505dca6"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_leather_n.png",
+      "sha256": "4bf0ea137607f55436b89b49b83fb5f1f8bb7ae13b5b971017f38aaec7556031"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_leather_s.png",
+      "sha256": "798e977a483dedaf69c56e5db4dcec1e69c743b043dbf3cc8c57149504ba0ed4"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_staff_soul_c.png",
+      "sha256": "d9ab47fb1dbad3667ea40bb8a3689fbfbc0c3bfd6b395574753066ba564e81f9"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_staff_soul_g.png",
+      "sha256": "f19571bdf9e51572c7dc38b3d853c7b9acac718cbedc5983016f87db5be86504"
+    },
+    {
+      "file": "model_export/tod_necro_staff/i_tod_necro_staff_soul_n.png",
+      "sha256": "954b8f4a3c286ced51cc2f7e3151acfbc0e6422b63bbbb796d903a333fc1d8e8"
+    },
+    {
+      "file": "model_export/tod_necro_staff/materials.gdtpart",
+      "sha256": "aa820ec67f2da7de7adda6a7e36ab96166e34e8a431387f973adaf855921961e"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod0.XMODEL_BIN",
+      "sha256": "e4f43759a2fc51891b47f29a440c3bb7dbdb49cff20670b48c63f3ebcaa4e1ae"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod1.XMODEL_BIN",
+      "sha256": "25ef64c90bc212f8ccbea5191d542860c47310aee0b231373a79d9fda8803355"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_view_lod2.XMODEL_BIN",
+      "sha256": "6feacf4222aa87a1f3c002da174cc0586da2671dee38ad531d3826eff8da5230"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod0.XMODEL_BIN",
+      "sha256": "aeb14d72c2f836c81a3e7ae871e8916acebc5edf6f4a724da94636a3dd9372a8"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod1.XMODEL_BIN",
+      "sha256": "45662d9ff34d3c241bc109198a1b3feff6eac0f3620961baac086676be2feb92"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff2_world_lod2.XMODEL_BIN",
+      "sha256": "ca8928da24a8178c2e23d3cb09b8e1497e01bfb8f704d8eb16beecc93cf28d22"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod0.XMODEL_BIN",
+      "sha256": "a5ee237ebac363daf53cefdecef1cbe80c651985941fd1542b0214c3b966de47"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod1.XMODEL_BIN",
+      "sha256": "c32d11d23008ecc86bf226e31e5f1fdaa115a3fdfb844ab8b4222548906b6cce"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_view_lod2.XMODEL_BIN",
+      "sha256": "8677ffc08d6553e1ee4d14ab28eb0a4510fcc6992f4e9cd2a6c9eede3c7303fa"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod0.XMODEL_BIN",
+      "sha256": "6b44e7cde30138f26c00be0a067a0c6e6bae4f126badac388b49fe888a67694d"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod1.XMODEL_BIN",
+      "sha256": "041a0eb53ed819dd527ec51e05169461bd6de91bfef2a0270dac8390ef5de898"
+    },
+    {
+      "file": "model_export/tod_necro_staff/tod_necro_staff3_world_lod2.XMODEL_BIN",
+      "sha256": "8a82fc4612dbd4dfda9ced9565865a95ef762227065db7392b8480663b817c62"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_in.XANIM_BIN",
+      "sha256": "7d7c02f0bb0af486dd4a1ed1f07c1fd1083db4cb7696aab0c5279141780eb361"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_loop.XANIM_BIN",
+      "sha256": "923ab48517f800f46c39f827eb0373262e60d5fcbe05933697892b6dc921b565"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_channel_out.XANIM_BIN",
+      "sha256": "3f7f08b41816644ad8a16001bdabf5f5c8a3d8791bfd7fb94f69e8ba8e9834bf"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_b.XANIM_BIN",
+      "sha256": "b52c614f362012f30e622b1425bfd5c99be8a26ac267aa3bdf1906df2fe0f887"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_f.XANIM_BIN",
+      "sha256": "04c92bdf1b0d02d1d4084766ab74ec205e9817999031c75858e092061087d24d"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_in.XANIM_BIN",
+      "sha256": "7497631030cd5507a7851d22104f7ed3c242084af748358fe6a8c72879b31ac2"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_l.XANIM_BIN",
+      "sha256": "04603b7bdccc7237dddb064e98fcccc91024be82056ad199095356db5f5b392c"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_out.XANIM_BIN",
+      "sha256": "d8efeaa61f1f0a20b98a4c68b9344b4311142c26117f26fec7980361dd23d29f"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_crawl_r.XANIM_BIN",
+      "sha256": "2968baaaa1735e78728fc0c36013ec42e5472b8499b58313e5a5bcf83302db35"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_idle.XANIM_BIN",
+      "sha256": "547e49b146d4e719718dc5e6a1292389c5ba5dc415b14cd687e0fa822620dc33"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_air_in.XANIM_BIN",
+      "sha256": "3829ff5d74e621d0687438d5245d31806866b0783342ee23938983617af7a2b5"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_in.XANIM_BIN",
+      "sha256": "95f0721dd311ce616362a8c04b48edc8719fd4d5528ca2523fe940f7fcb919a0"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_loop.XANIM_BIN",
+      "sha256": "5997ceed9bfb3fd4264ba89c7844e69298f920186b8ce96e2a426c138bf18f9e"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_slide_out.XANIM_BIN",
+      "sha256": "d24675e63db192a58e69d03f618074621ae99e02936dd210655f025ad82eb231"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_ads_fire.XANIM_BIN",
+      "sha256": "b705f9c25deb820b1037739ab4c34291b946f0980066cc415d90fbf2cc28d387"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_fire.XANIM_BIN",
+      "sha256": "cab8b1f6fea432e28bc1c31f8c24378d348f2b85f6df04bb1297b41312809ce1"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_hold_fire.XANIM_BIN",
+      "sha256": "83a71cae5cdf8deb150868deec8768c58eba0e63ca9792e11ccac2b5023e6304"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_melee_slash.XANIM_BIN",
+      "sha256": "ab473a4d689ed585ccd758ae89ab0515cbab1535469fcb4aaf7e9d5a997be654"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_pullout.XANIM_BIN",
+      "sha256": "d9553e3d1d05aa83a38eb6173e04b8b62c787f55c8dc2e52e3efe5fc2861579b"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_pullout_quick.XANIM_BIN",
+      "sha256": "5490ec428468bfd3177e6bd11c2f1334b3a826145959641b3373dfad052fa409"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_putaway.XANIM_BIN",
+      "sha256": "c2a8e9a52c0adcc8be80736e9a2aab0efed4c09906d3e6e3cb71e92fefbce212"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_putaway_quick.XANIM_BIN",
+      "sha256": "37c392f2490651a5fb9f5bc84774045be8df8e37f2ffba7cd657a94e845aca88"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_reload_ice.XANIM_BIN",
+      "sha256": "2f526626d928d534ad20c1be84007f5f0d55d1941ed7222707c714c05d6b5acb"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_in.XANIM_BIN",
+      "sha256": "1eb772390b42b633e2a5d628a42c7fba0bff28408bf8cd5207307cc5ce24b58b"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_loop.XANIM_BIN",
+      "sha256": "44afd7a6c8993d3b14de1a6e29f8cac68ef8671159a3e3a38ff326f796f4386c"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_sprint_out.XANIM_BIN",
+      "sha256": "11fcce3fc390e66739d6093a063f2eaf887d022f48cc2aeeb87e6a2ea488ebe5"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_fit_t7_water_first_raise.XANIM_BIN",
+      "sha256": "63de54fd6edf1cb93d3778cfe6c224079ea5d46d84ad82f84e15f054fe7fb74c"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_pulse.XANIM_BIN",
+      "sha256": "29901e50d19674f4c9d04ba03bae1d6054d60a4e6011b527e93be97d321af117"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_ads_down.XANIM_BIN",
+      "sha256": "c3fadd8a9b522dba5fada5db98e3e36db72bf50a40c6dec1bc74dfbd0f95d36b"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_ads_up.XANIM_BIN",
+      "sha256": "118cae11d78c48df268a2960799145830af3fb0aa9056078af0a8702cf1eef4e"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_fall.XANIM_BIN",
+      "sha256": "bb577c3a9d78e2725d8e42c9b9e6e24edc19665dc7317a4358ac2f7da75d9687"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_jump.XANIM_BIN",
+      "sha256": "087d299635c52964fbc5315659c128e5a0fd7e921eeff8b653eb4d9c630b04b7"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_jump_land.XANIM_BIN",
+      "sha256": "d1e2bd19d4b6cd1783f311944ebf664936f9bc9be629ab7772c9d20e201587ee"
+    },
+    {
+      "file": "xanim_export/tod_necro_staff/tod_vm_necro_staff_t7_walk_f.XANIM_BIN",
+      "sha256": "a443eae87222d0e2d5b13518b855bd0601f7ec98628a7a8f03e2bb22ba8def89"
+    },
+    {
+      "file": "source_data/tod_necro_staff_art.gdt",
+      "sha256": "4b9282bbf658f1e60ec78d44a63a811591ceb7d437a2b92cf1b5a39caa1a6629"
+    },
+    {
+      "file": "source_data/tod_necro_staff_anims.gdt",
+      "sha256": "9c26cd3343a5c95681619d7a070507c3198bd18e6d7b1b368a034334dd303f9a"
+    },
+    {
+      "file": "source_data/tod_necro_staff.gdt",
+      "sha256": "b965fc5c40dd223eab4763bd2797bd3db0db8dcb41e05145710923ebb2f78d33"
+    },
+    {
+      "file": "source_data/tod_crown_alarm.gdt",
+      "sha256": "650c163ecfec0ea3aad69f3a97cfbcf01dab9b4f06d5bb89d6852c8ac9ae5e87"
+    },
+    {
+      "file": "source_data/tod_cyber_elites.gdt",
+      "sha256": "dbe857cdf40eb88c601258a07c5ead5789e0ecfea87d628cd4f363aaa9cd0410"
+    },
+    {
+      "file": "source_data/tod_necro_pulse.gdt",
+      "sha256": "0250a34a0231d078ea68f604a5486759709341957cd4147a3491eda736e592a2"
+    },
+    {
+      "file": "source_data/tod_fire_bow.gdt",
+      "sha256": "6285f772a41e7c30ea2bf62221463943e4215e9f923ba33689015c51cf9c059f"
+    },
+    {
+      "file": "source_data/tod_weapon_twins.gdt",
+      "sha256": "ebf284a867867606eb678b5040161218ff9d29cdb5273d9fcee1a5bfe4ca0e7b"
+    },
+    {
+      "file": "source_data/tod_warrior_hook.gdt",
+      "sha256": "34a7a1b80484609acd62bd0190f03872f82064eb88a4169df93088c922aac8f4"
+    },
+    {
+      "file": "source_data/tod_warrior_punch.gdt",
+      "sha256": "fa78a205f4f414cd0fd86385ddb4dd1665af7b76138cd39a1e7ddf0f5bd97078"
+    },
+    {
+      "file": "map_source/zm/zm_tod2_cybercity.map",
+      "sha256": "b551c06301dbca4df9ae33781e0931355c542fa493223b95de98c1f9786ec77b"
+    }
+  ],
+  "compiled_assets": [
+    {
+      "index": "602",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_lod24f8cf9ff",
+      "resident": "576",
+      "streamed": "48480",
+      "parentStack": "|tod_crown_alarm_housing|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "603",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_off_lod2e223aa8",
+      "resident": "576",
+      "streamed": "22752",
+      "parentStack": "|tod_crown_alarm_rotor_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "604",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_on_lod2216401f9",
+      "resident": "576",
+      "streamed": "22784",
+      "parentStack": "|tod_crown_alarm_rotor_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "605",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_high_off_lod21280519f",
+      "resident": "576",
+      "streamed": "22784",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "606",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_high_lod2b998a81b",
+      "resident": "576",
+      "streamed": "111600",
+      "parentStack": "|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2786",
+      "type": "image",
+      "name": "i_tod_robot_shell_c",
+      "resident": "276",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_shell|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2787",
+      "type": "image",
+      "name": "i_tod_robot_shell_n",
+      "resident": "276",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_shell|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2788",
+      "type": "image",
+      "name": "i_tod_robot_shell_g",
+      "resident": "268",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_shell|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2789",
+      "type": "image",
+      "name": "i_tod_robot_shell_s",
+      "resident": "284",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_shell|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2790",
+      "type": "material",
+      "name": "mc/mtl_tod_doppelgast_robot_shell",
+      "resident": "912",
+      "streamed": "0",
+      "parentStack": "|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2791",
+      "type": "image",
+      "name": "i_tod_robot_piston_c",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_piston|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2792",
+      "type": "image",
+      "name": "i_tod_robot_piston_n",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_piston|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2793",
+      "type": "image",
+      "name": "i_tod_robot_piston_g",
+      "resident": "269",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_piston|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2794",
+      "type": "image",
+      "name": "i_tod_robot_piston_s",
+      "resident": "285",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_piston|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2795",
+      "type": "material",
+      "name": "mc/mtl_tod_doppelgast_robot_piston",
+      "resident": "908",
+      "streamed": "0",
+      "parentStack": "|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2796",
+      "type": "image",
+      "name": "i_tod_robot_rubber_c",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_rubber|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2797",
+      "type": "image",
+      "name": "i_tod_robot_rubber_n",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_rubber|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2798",
+      "type": "image",
+      "name": "i_tod_robot_rubber_g",
+      "resident": "269",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_rubber|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2799",
+      "type": "image",
+      "name": "i_tod_robot_rubber_s",
+      "resident": "285",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_doppelgast_robot_rubber|material|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2800",
+      "type": "material",
+      "name": "mc/mtl_tod_doppelgast_robot_rubber",
+      "resident": "908",
+      "streamed": "0",
+      "parentStack": "|tod_doppelgast_black_robot|xmodel|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2869",
+      "type": "xanim",
+      "name": "hb_mangler_cannon",
+      "resident": "17688",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2870",
+      "type": "animmappingtable",
+      "name": "hb_mangler.ai_am",
+      "resident": "216",
+      "streamed": "0",
+      "parentStack": "|spawner_hb_mangler|aitype|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "2875",
+      "type": "fx",
+      "name": "hb/mangler/fx_hb_mangler_cannon_idle",
+      "resident": "2344",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8608",
+      "type": "scriptparsetree",
+      "name": "scripts/zm/zm_tod2_cybercity/_tod_crown_alarm.gsc",
+      "resident": "4411",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8609",
+      "type": "image",
+      "name": "i_tod_alarm_cast_c",
+      "resident": "179",
+      "streamed": "410432",
+      "parentStack": "|mc/mtl_tod_alarm_cast|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8610",
+      "type": "image",
+      "name": "i_tod_alarm_cast_n",
+      "resident": "275",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_cast|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8611",
+      "type": "image",
+      "name": "i_tod_alarm_cast_g",
+      "resident": "267",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_cast|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8612",
+      "type": "image",
+      "name": "i_tod_alarm_cast_s",
+      "resident": "283",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_cast|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8613",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_cast",
+      "resident": "899",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8614",
+      "type": "image",
+      "name": "i_tod_alarm_rubber_c",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_rubber|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8615",
+      "type": "image",
+      "name": "i_tod_alarm_rubber_n",
+      "resident": "277",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_rubber|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8616",
+      "type": "image",
+      "name": "i_tod_alarm_rubber_g",
+      "resident": "269",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_rubber|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8617",
+      "type": "image",
+      "name": "i_tod_alarm_rubber_s",
+      "resident": "285",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_rubber|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8618",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_rubber",
+      "resident": "892",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8619",
+      "type": "image",
+      "name": "i_tod_alarm_steel_c",
+      "resident": "276",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_steel|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8620",
+      "type": "image",
+      "name": "i_tod_alarm_steel_n",
+      "resident": "276",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_steel|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8621",
+      "type": "image",
+      "name": "i_tod_alarm_steel_g",
+      "resident": "268",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_steel|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8622",
+      "type": "image",
+      "name": "i_tod_alarm_steel_s",
+      "resident": "284",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_steel|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8623",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_steel",
+      "resident": "896",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8624",
+      "type": "image",
+      "name": "i_tod_alarm_lens_c",
+      "resident": "67",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_lens|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8625",
+      "type": "image",
+      "name": "i_tod_alarm_lens_n",
+      "resident": "275",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_lens|material|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8626",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_lens",
+      "resident": "1434",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8627",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_lod1c4cdf3a0",
+      "resident": "576",
+      "streamed": "90144",
+      "parentStack": "|tod_crown_alarm_housing|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8628",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_lod0a783c39d",
+      "resident": "576",
+      "streamed": "323328",
+      "parentStack": "|tod_crown_alarm_housing|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8629",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_housing",
+      "resident": "324",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8630",
+      "type": "image",
+      "name": "i_tod_alarm_reflector_c",
+      "resident": "280",
+      "streamed": "372960",
+      "parentStack": "|mc/mtl_tod_alarm_reflector|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8631",
+      "type": "image",
+      "name": "i_tod_alarm_reflector_n",
+      "resident": "280",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_reflector|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8632",
+      "type": "image",
+      "name": "i_tod_alarm_reflector_g",
+      "resident": "272",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_reflector|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8633",
+      "type": "image",
+      "name": "i_tod_alarm_reflector_s",
+      "resident": "288",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_reflector|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8634",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_reflector",
+      "resident": "892",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8635",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_off_c",
+      "resident": "279",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_off|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8636",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_off_n",
+      "resident": "279",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_off|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8637",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_off_g",
+      "resident": "271",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_off|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8638",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_off_s",
+      "resident": "287",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_off|material|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8639",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_lamp_off",
+      "resident": "900",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8640",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_off_lod1a8e3721d",
+      "resident": "576",
+      "streamed": "42464",
+      "parentStack": "|tod_crown_alarm_rotor_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8641",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_off_lod053bf2c97",
+      "resident": "568",
+      "streamed": "85712",
+      "parentStack": "|tod_crown_alarm_rotor_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8642",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_rotor_off",
+      "resident": "332",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8643",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_on_c",
+      "resident": "54",
+      "streamed": "396112",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_high_on|material|tod_crown_alarm_rotor_high_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8644",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_on_n",
+      "resident": "278",
+      "streamed": "393216",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_high_on|material|tod_crown_alarm_rotor_high_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8645",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_on_g",
+      "resident": "270",
+      "streamed": "218440",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_high_on|material|tod_crown_alarm_rotor_high_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8646",
+      "type": "image",
+      "name": "i_tod_alarm_lamp_on_s",
+      "resident": "286",
+      "streamed": "371384",
+      "parentStack": "|mc/mtl_tod_alarm_lamp_high_on|material|tod_crown_alarm_rotor_high_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8647",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_lamp_on",
+      "resident": "1364",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8648",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_on_lod1d53a630d",
+      "resident": "576",
+      "streamed": "42464",
+      "parentStack": "|tod_crown_alarm_rotor_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8649",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_on_lod078e4deb4",
+      "resident": "568",
+      "streamed": "85712",
+      "parentStack": "|tod_crown_alarm_rotor_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8650",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_rotor_on",
+      "resident": "288",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8651",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_lamp_high_on",
+      "resident": "1384",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm_rotor_high_on|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8652",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_high_off_lod111c1b19f",
+      "resident": "576",
+      "streamed": "42544",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8653",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_rotor_high_off_lod0b2912e2a",
+      "resident": "584",
+      "streamed": "85712",
+      "parentStack": "|tod_crown_alarm_rotor_high_off|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8654",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_rotor_high_on",
+      "resident": "332",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8655",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_high_lod1d54cb696",
+      "resident": "572",
+      "streamed": "245312",
+      "parentStack": "|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8656",
+      "type": "xmodelmesh",
+      "name": "tod_crown_alarm_housing_high_lod0d247c2a5",
+      "resident": "584",
+      "streamed": "708272",
+      "parentStack": "|tod_crown_alarm_housing_high|xmodel|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8657",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_housing_high",
+      "resident": "332",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8658",
+      "type": "xmodel",
+      "name": "tod_crown_alarm_rotor_high_off",
+      "resident": "284",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8660",
+      "type": "fx",
+      "name": "tod/crown_alarm/fx_tod_alarm_sweep",
+      "resident": "810",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8662",
+      "type": "fx",
+      "name": "tod/crown_alarm/fx_tod_alarm_high",
+      "resident": "803",
+      "streamed": "0",
+      "parentStack": "|tod_crown_alarm.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    }
+  ],
+  "fixture_count": 30,
+  "light_profile": {
+    "version": "red-sweep-2",
+    "intensity": 1800,
+    "radius": 900,
+    "fov_degrees": 78,
+    "lamp_emission": 36,
+    "high_lamp_multiplier": 16,
+    "high_fixture_scale": 2,
+    "high_rotor_height": 48,
+    "high_intensity": 14400,
+    "high_radius": 2400,
+    "high_spawn_range": 20000,
+    "high_bounds": 2600,
+    "spawn_range": 2400,
+    "bounds": 940,
+    "interval_ms": 1000,
+    "turn_seconds": 1.5,
+    "local_spots": 13,
+    "color": [
+      1,
+      0,
+      0
+    ]
+  },
+  "game_launched": false,
+  "native_visual_verified": false,
+  "staff_assets": [
+    {
+      "index": "565",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_view_lod2744e50be",
+      "resident": "800",
+      "streamed": "285776",
+      "parentStack": "|tod_necro_staff2_view|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "566",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_world_lod2a3bc4fcb",
+      "resident": "800",
+      "streamed": "286096",
+      "parentStack": "|tod_necro_staff2_world|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "567",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_view_lod251e41273",
+      "resident": "800",
+      "streamed": "691232",
+      "parentStack": "|tod_necro_staff3_view|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "568",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_world_lod2e1cf9cab",
+      "resident": "800",
+      "streamed": "691344",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4737",
+      "type": "image",
+      "name": "i_tod_necro_leather_c",
+      "resident": "5592470",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_leather|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4738",
+      "type": "image",
+      "name": "i_tod_necro_leather_n",
+      "resident": "5592598",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_leather|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4739",
+      "type": "image",
+      "name": "i_tod_necro_leather_g",
+      "resident": "2796382",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_leather|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4740",
+      "type": "image",
+      "name": "i_tod_necro_leather_s",
+      "resident": "2796310",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_leather|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4741",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_leather",
+      "resident": "1292",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4742",
+      "type": "image",
+      "name": "i_tod_necro_forge_c",
+      "resident": "5592524",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_forge|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4743",
+      "type": "image",
+      "name": "i_tod_necro_forge_n",
+      "resident": "5592596",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_forge|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4744",
+      "type": "image",
+      "name": "i_tod_necro_forge_g",
+      "resident": "2796380",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_forge|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4745",
+      "type": "image",
+      "name": "i_tod_necro_forge_s",
+      "resident": "2796308",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_forge|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4746",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_forge",
+      "resident": "896",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4747",
+      "type": "image",
+      "name": "i_tod_necro_bone_c",
+      "resident": "5592467",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_bone|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4748",
+      "type": "image",
+      "name": "i_tod_necro_bone_n",
+      "resident": "5592595",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_bone|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4749",
+      "type": "image",
+      "name": "i_tod_necro_bone_g",
+      "resident": "43867",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_bone|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4750",
+      "type": "image",
+      "name": "i_tod_necro_bone_s",
+      "resident": "43795",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_soul|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4751",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_crevice",
+      "resident": "1468",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4752",
+      "type": "image",
+      "name": "i_tod_necro_iron_c",
+      "resident": "5592523",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_iron|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4753",
+      "type": "image",
+      "name": "i_tod_necro_iron_n",
+      "resident": "5592595",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_iron|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4754",
+      "type": "image",
+      "name": "i_tod_necro_iron_g",
+      "resident": "2796379",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_iron|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4755",
+      "type": "image",
+      "name": "i_tod_necro_iron_s",
+      "resident": "2796307",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_iron|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4756",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_iron",
+      "resident": "900",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4757",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_bone",
+      "resident": "896",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4758",
+      "type": "image",
+      "name": "i_tod_necro_staff_soul_c",
+      "resident": "5529",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_soul|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4759",
+      "type": "image",
+      "name": "i_tod_necro_staff_soul_n",
+      "resident": "5657",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_soul|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4760",
+      "type": "image",
+      "name": "i_tod_necro_staff_soul_g",
+      "resident": "2913",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_tod_necro_staff_soul|material|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4761",
+      "type": "material",
+      "name": "mc/mtl_tod_necro_staff_soul",
+      "resident": "1213",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4762",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_view_lod11b070795",
+      "resident": "800",
+      "streamed": "585312",
+      "parentStack": "|tod_necro_staff2_view|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4763",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_view_lod0794fbdb0",
+      "resident": "792",
+      "streamed": "1036560",
+      "parentStack": "|tod_necro_staff2_view|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4764",
+      "type": "xmodel",
+      "name": "tod_necro_staff2_view",
+      "resident": "788",
+      "streamed": "0",
+      "parentStack": "|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4765",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_world_lod1f3dfd559",
+      "resident": "788",
+      "streamed": "584816",
+      "parentStack": "|tod_necro_staff2_world|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4766",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff2_world_lod0bfd3b9d0",
+      "resident": "800",
+      "streamed": "1036688",
+      "parentStack": "|tod_necro_staff2_world|xmodel|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4767",
+      "type": "xmodel",
+      "name": "tod_necro_staff2_world",
+      "resident": "764",
+      "streamed": "0",
+      "parentStack": "|tod_necro_pulse2|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4768",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_idle",
+      "resident": "5887",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4769",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_channel_in",
+      "resident": "3672",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4770",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_channel_out",
+      "resident": "2853",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4771",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_channel_loop",
+      "resident": "3826",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4772",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_melee_slash",
+      "resident": "9982",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4773",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_reload_ice",
+      "resident": "20603",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4774",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_pullout",
+      "resident": "9079",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4775",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_water_first_raise",
+      "resident": "21868",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4776",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_putaway",
+      "resident": "9992",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4777",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_pullout_quick",
+      "resident": "8557",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4778",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_putaway_quick",
+      "resident": "7386",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4779",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_sprint_in",
+      "resident": "5970",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4780",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_sprint_loop",
+      "resident": "8216",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4781",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_sprint_out",
+      "resident": "5187",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4782",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_in",
+      "resident": "5711",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4783",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_f",
+      "resident": "8361",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4784",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_b",
+      "resident": "7567",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4785",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_r",
+      "resident": "7942",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4786",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_l",
+      "resident": "7836",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4787",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_crawl_out",
+      "resident": "5626",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4788",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_slide_in",
+      "resident": "8397",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4789",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_slide_air_in",
+      "resident": "7961",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4790",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_slide_loop",
+      "resident": "9483",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4791",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_slide_out",
+      "resident": "6228",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4792",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_ads_up",
+      "resident": "136",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4793",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_ads_down",
+      "resident": "142",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4794",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_jump",
+      "resident": "44",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4795",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_jump_land",
+      "resident": "48",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4796",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_fall",
+      "resident": "44",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4797",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_t7_walk_f",
+      "resident": "48",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4798",
+      "type": "weapon",
+      "name": "tod_necro_staff2_b",
+      "resident": "7681",
+      "streamed": "0",
+      "parentStack": "|tod_twins.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4799",
+      "type": "weapon",
+      "name": "tod_necro_staff2_up_b",
+      "resident": "6105",
+      "streamed": "0",
+      "parentStack": "|tod_twins.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4800",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_view_lod1b4dff3a6",
+      "resident": "798",
+      "streamed": "1242512",
+      "parentStack": "|tod_necro_staff3_view|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4801",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_view_lod0afe11bf",
+      "resident": "800",
+      "streamed": "1939248",
+      "parentStack": "|tod_necro_staff3_view|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4802",
+      "type": "xmodel",
+      "name": "tod_necro_staff3_view",
+      "resident": "700",
+      "streamed": "0",
+      "parentStack": "|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4803",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_world_lod19191c1ce",
+      "resident": "788",
+      "streamed": "1242192",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4804",
+      "type": "xmodelmesh",
+      "name": "tod_necro_staff3_world_lod08386d777",
+      "resident": "800",
+      "streamed": "1939312",
+      "parentStack": "|tod_necro_staff3_world|xmodel|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4805",
+      "type": "xmodel",
+      "name": "tod_necro_staff3_world",
+      "resident": "700",
+      "streamed": "0",
+      "parentStack": "|tod_necro_pulse3|weapon|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4806",
+      "type": "weapon",
+      "name": "tod_necro_staff3_b",
+      "resident": "6105",
+      "streamed": "0",
+      "parentStack": "|tod_twins.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "4807",
+      "type": "weapon",
+      "name": "tod_necro_staff3_up_b",
+      "resident": "6118",
+      "streamed": "0",
+      "parentStack": "|tod_twins.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8997",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_pulse",
+      "resident": "3043",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8998",
+      "type": "weapon",
+      "name": "tod_necro_pulse2",
+      "resident": "7661",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "8999",
+      "type": "weapon",
+      "name": "tod_necro_pulse3",
+      "resident": "6072",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "9000",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_ads_fire",
+      "resident": "3823",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "9001",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_fire",
+      "resident": "7511",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "9002",
+      "type": "xanim",
+      "name": "tod_vm_necro_staff_fit_t7_hold_fire",
+      "resident": "3630",
+      "streamed": "0",
+      "parentStack": "|tod_necro_staff.zpkg|csv|zone_source/zm_tod2_cybercity.zone|csv"
+    }
+  ],
+  "staff_asset_count": 81,
+  "native_bake": {
+    "d3dbsp": {
+      "bytes": 19848952,
+      "sha256": "b7d7feac36cf955aa87708a55e527c689941e3d62d0bc4d0e239534ae5b95c75",
+      "time": "2026-09-27T19:04:26.771802"
+    },
+    "led": {
+      "bytes": 166777028,
+      "sha256": "6f5a83dfa37ea1beddb999a5bdf6f0ef61971168bbb0c676a5e3ddd6d76bf7ff",
+      "time": "2026-09-27T19:11:01.423507"
+    }
+  },
+  "sound_banks": {
+    "sound/zone/CachedBanks/all/zm_tod2_cybercity.all.sabs": {
+      "bytes": 209338496,
+      "sha256": "d638548a793d517272c271965dcf98cfd60efcc9532cefa06ac2766602a936a9"
+    },
+    "zone/snd/all/zm_tod2_cybercity.all.sabs": {
+      "bytes": 209338496,
+      "sha256": "d638548a793d517272c271965dcf98cfd60efcc9532cefa06ac2766602a936a9"
+    }
+  }
+}

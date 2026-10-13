@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teleporter surface correction</title>
+<style>body{max-width:1300px;margin:40px auto;padding:0 24px;background:#0b1020;color:#edf0fa;font:17px/1.55 system-ui}p{max-width:1050px;color:#c0c8db}a{color:#8bcfff}img{display:block;width:100%;height:auto;border-radius:10px}.status{padding:16px;border-left:3px solid #da8fff;background:#1b1c31}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:0}figcaption{padding:14px 0;color:#c0c8db}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style>
+<h1>Teleporter surface repair — historical review</h1>
+<p><strong>September 26, 22:40:</strong> The user accepts the metal finish and requests green ready lights, yellow animated pending lights and no glow without power. <a href="../states_review.html">Current color review</a>. The pink strips in the earlier images below are superseded.</p>
+<p class="status">Included in Archer's build 10. The deployment audit passed: explicit zero glow-depth offset, lower gloss, matching textures and all model LODs. Your in-game visual retest remains.</p>
+<p>The native material inherited a glow-depth offset absent from the Blender model. The repair explicitly uses zero offset, with lower gloss for a softer metal finish. These historical previews predate the green-ready correction.</p>
+<div class="grid"><figure><a href="user_native_issue.png"><img src="user_native_issue.png" alt="User screenshot with pink breakup across the teleporter plates"></a><figcaption>Your native screenshot: unwanted pink lines spread over the metal.</figcaption></figure>
+<figure><a href="binary_after.png"><img src="binary_after.png" alt="Exported teleporter mesh rendered with pink confined to narrow recessed strips"></a><figcaption>Intended placement on the exported game mesh. Blender preview, not a repaired in-game screenshot.</figcaption></figure></div>
+<h2>Matched finish comparison</h2>
+<p>Same exported binary, camera and lights. These Blender renders illustrate the gloss adjustment only; the old native depth distortion is not simulated.</p>
+<div class="grid"><figure><img src="binary_before.png" alt="Previous gloss range on the exported mesh"><figcaption>Previous finish.</figcaption></figure><figure><img src="binary_after.png" alt="Softer finish on the same exported mesh"><figcaption>Reduced gloss, retained texture detail.</figcaption></figure></div>
+<p><a href="README.md">Diagnosis, checks and build status</a> · <a href="../states_review.html">Power and recharge states</a> · <a href="../../../docs/crown_alarm/review.html">Crown alarm improvements</a></p></html>

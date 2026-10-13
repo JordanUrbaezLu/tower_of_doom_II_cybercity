@@ -1,0 +1,249 @@
+{
+  "master": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\crown_alarm\\crown_alarm.blend",
+  "image_count": 30,
+  "packed_count": 29,
+  "durable_external_count": 0,
+  "unsafe": [],
+  "images": [
+    {
+      "name": "Render Result.001",
+      "source": "VIEWER",
+      "path": "",
+      "packed": false,
+      "packed_bytes": 0,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_steel_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_steel_s.png",
+      "packed": true,
+      "packed_bytes": 167696,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_steel_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_steel_n.png",
+      "packed": true,
+      "packed_bytes": 565961,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_steel_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_steel_g.png",
+      "packed": true,
+      "packed_bytes": 479750,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_steel_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_steel_c.png",
+      "packed": true,
+      "packed_bytes": 625473,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_rubber_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_rubber_s.png",
+      "packed": true,
+      "packed_bytes": 20909,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_rubber_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_rubber_n.png",
+      "packed": true,
+      "packed_bytes": 891634,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_rubber_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_rubber_g.png",
+      "packed": true,
+      "packed_bytes": 769009,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_rubber_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_rubber_c.png",
+      "packed": true,
+      "packed_bytes": 200360,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_reflector_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_reflector_s.png",
+      "packed": true,
+      "packed_bytes": 60581,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_reflector_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_reflector_n.png",
+      "packed": true,
+      "packed_bytes": 344297,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_reflector_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_reflector_g.png",
+      "packed": true,
+      "packed_bytes": 254635,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_reflector_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_reflector_c.png",
+      "packed": true,
+      "packed_bytes": 366174,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lens_s.png.001",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lens_s.png",
+      "packed": true,
+      "packed_bytes": 20909,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lens_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lens_n.png",
+      "packed": true,
+      "packed_bytes": 489056,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lens_g.png.001",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lens_g.png",
+      "packed": true,
+      "packed_bytes": 331401,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lens_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lens_c.png",
+      "packed": true,
+      "packed_bytes": 327953,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_on_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_on_s.png",
+      "packed": true,
+      "packed_bytes": 5799,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_on_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_on_n.png",
+      "packed": true,
+      "packed_bytes": 194649,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_on_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_on_g.png",
+      "packed": true,
+      "packed_bytes": 160552,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_on_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_on_c.png",
+      "packed": true,
+      "packed_bytes": 190133,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_off_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_off_s.png",
+      "packed": true,
+      "packed_bytes": 5799,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_off_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_off_n.png",
+      "packed": true,
+      "packed_bytes": 194649,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_off_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_off_g.png",
+      "packed": true,
+      "packed_bytes": 160577,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_lamp_off_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_lamp_off_c.png",
+      "packed": true,
+      "packed_bytes": 136521,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_cast_s.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_cast_s.png",
+      "packed": true,
+      "packed_bytes": 209107,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_cast_n.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_cast_n.png",
+      "packed": true,
+      "packed_bytes": 1073014,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_cast_g.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_cast_g.png",
+      "packed": true,
+      "packed_bytes": 864758,
+      "durable_external": false
+    },
+    {
+      "name": "i_tod_alarm_cast_c.png.002",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\model_export\\tod_crown_alarm\\_images\\i_tod_alarm_cast_c.png",
+      "packed": true,
+      "packed_bytes": 529197,
+      "durable_external": false
+    },
+    {
+      "name": "after.png.001",
+      "source": "FILE",
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_realism\\staged\\art\\crown_alarm\\realism_review\\after.png",
+      "packed": true,
+      "packed_bytes": 989800,
+      "durable_external": false
+    }
+  ]
+}

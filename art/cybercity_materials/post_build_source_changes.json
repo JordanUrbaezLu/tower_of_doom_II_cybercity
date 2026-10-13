@@ -1,0 +1,16 @@
+{
+  "observed": "2026-09-25T11:24:13.978674",
+  "crown_inputs_unchanged": true,
+  "changes": [
+    {
+      "path": "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr",
+      "snapshot_sha256": "81791e06ee2948516debe9d9d8ae40d8edb70648927b310ccbcb895aacc359c4",
+      "current_sha256": "06cf89a3d24a21e30335189c7fa06ec352481c2015fe4382c345c7b931729946",
+      "modified": "2026-09-25T11:21:56.523290"
+    }
+  ],
+  "separate_build_log": "tmp/sky3d_build/full_build_v6_112313.log",
+  "separate_build_status": "running; its verdict pending",
+  "prior_crown_build": "passed",
+  "game_launched": false
+}

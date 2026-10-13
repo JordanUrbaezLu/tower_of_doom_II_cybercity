@@ -1,0 +1,253 @@
+{
+  "ff_bytes": 193176704,
+  "ff_sha256": "19a0f5885da89926a35cd9ab2fae008dfb968d3bb4bace9d4c209253f5c0a73e",
+  "ff_time": "2026-09-27T12:01:18.309508",
+  "inputs_matched": 654,
+  "world_materials_packed": 18,
+  "surface_images_packed": 25,
+  "native_profiles": {
+    "mtl_tod_teleporter": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "waterRoughness": 0.0
+    },
+    "mtl_tod_tp_off": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2,
+      "waterRoughness": 0.0
+    },
+    "mtl_tod_altar": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 5.0,
+      "specAmount": 0.2,
+      "specColorTint": ".25 .25 .25 1",
+      "reflectionProbeAmount": 0.15
+    },
+    "tod_cc_tower_blue_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.16 0.28 0.5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_dark_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.11 0.15 0.24 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_cyan_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.08 0.45 0.5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_green_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.1 0.36 0.2 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_green_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.1 0.36 0.2 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_orange_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.47 0.21 0.08 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_red_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.39 0.09 0.135 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_pink_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.42 0.14 0.31 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_pink_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.42 0.14 0.31 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_purple_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.34 0.16 0.48 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_tower_gold_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.48 0.37 0.115 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_floor": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_ceiling": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_trim": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": ".5 .5 .5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_gold": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 9.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.768 0.592 0.184 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_gold_panel": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 9.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.672 0.432 0.12 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_brass": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 8.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.592 0.272 0.096 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_bronze_wall": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 8.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.56 0.288 0.144 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_velvet": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 5.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.088 0.0396 0.1496 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_oxblood": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.154 0.033 0.0528 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_ceramic": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.1232 0.1628 0.2068 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_graphite": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 6.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.0308 0.044 0.066 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_gold_deck": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.43 0.335 0.13 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_gold_line": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.5 0.385 0.08 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_cyan": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.08 0.45 0.5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_sapphire": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.075 0.22 0.5 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_ruby": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.46 0.05 0.115 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_emerald": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.06 0.41 0.195 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_exfil": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.11 0.425 0.25 1",
+      "reflectionProbeAmount": 0.2
+    },
+    "tod_cc_door": {
+      "glossRangeMin": 0.0,
+      "glossRangeMax": 7.0,
+      "specAmount": 0.45,
+      "specColorTint": "0.135 0.375 0.22 1",
+      "reflectionProbeAmount": 0.2
+    }
+  },
+  "source_and_deployment_match": true,
+  "game_launched": false,
+  "native_visual_approved": false
+}

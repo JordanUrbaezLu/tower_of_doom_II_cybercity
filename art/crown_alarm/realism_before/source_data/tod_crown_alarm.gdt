@@ -1,0 +1,577 @@
+{
+	"i_tod_alarm_cast_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_cast_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_cast_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_cast_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_cast_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_cast" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_cast_c"
+		"normalMap" "i_tod_alarm_cast_n"
+		"cosinePowerMap" "i_tod_alarm_cast_g"
+		"specColorMap" "i_tod_alarm_cast_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_cast_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_alarm_steel_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_steel_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_steel_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_steel_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_steel_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_steel" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_steel_c"
+		"normalMap" "i_tod_alarm_steel_n"
+		"cosinePowerMap" "i_tod_alarm_steel_g"
+		"specColorMap" "i_tod_alarm_steel_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_steel_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_alarm_rubber_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_rubber_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_rubber_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_rubber_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_rubber_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_rubber" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_rubber_c"
+		"normalMap" "i_tod_alarm_rubber_n"
+		"cosinePowerMap" "i_tod_alarm_rubber_g"
+		"specColorMap" "i_tod_alarm_rubber_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_rubber_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_alarm_reflector_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_reflector_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_reflector_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_reflector_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_reflector_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_reflector" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_reflector_c"
+		"normalMap" "i_tod_alarm_reflector_n"
+		"cosinePowerMap" "i_tod_alarm_reflector_g"
+		"specColorMap" "i_tod_alarm_reflector_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_reflector_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_alarm_lens_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lens_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_lens_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lens_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_lens" ( "material.gdf" )
+	{
+		"surfaceType" "glass"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_transparent"
+		"colorMap" "i_tod_alarm_lens_c"
+		"normalMap" "i_tod_alarm_lens_n"
+		"cosinePowerMap" "i_tod_alarm_lens_g"
+		"specColorMap" "i_tod_alarm_lens_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_lens_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+		"noCastShadow" "1"
+		"noReceiveDynamicShadow" "1"
+	}
+	"i_tod_alarm_lamp_off_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lamp_off_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_lamp_off_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lamp_off_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_off_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_lamp_off" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_lamp_off_c"
+		"normalMap" "i_tod_alarm_lamp_off_n"
+		"cosinePowerMap" "i_tod_alarm_lamp_off_g"
+		"specColorMap" "i_tod_alarm_lamp_off_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_lamp_off_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "0"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"i_tod_alarm_lamp_on_c" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_c.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "diffuseMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lamp_on_g" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_g.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "glossMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"i_tod_alarm_lamp_on_s" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_s.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "specularMap"
+		"streamable" "1"
+		"compressionMethod" "compressed high color"
+		"coreSemantic" "sRGB3chAlpha"
+	}
+	"i_tod_alarm_lamp_on_n" ( "image.gdf" )
+	{
+		"baseImage" "model_export/tod_crown_alarm/_images/i_tod_alarm_lamp_on_n.png"
+		"imageType" "Texture"
+		"type" "image"
+		"semantic" "normalMap"
+		"streamable" "1"
+		"compressionMethod" "compressed"
+	}
+	"mtl_tod_alarm_lamp_on" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_lamp_on_c"
+		"normalMap" "i_tod_alarm_lamp_on_n"
+		"cosinePowerMap" "i_tod_alarm_lamp_on_g"
+		"specColorMap" "i_tod_alarm_lamp_on_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_lamp_on_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "36"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"tod_crown_alarm_housing" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"tod_crown_alarm_rotor_off" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_rotor_off_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_rotor_off_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_rotor_off_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"tod_crown_alarm_rotor_on" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_rotor_on_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_rotor_on_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_rotor_on_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"tod_crown_alarm_housing_high" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_housing_high_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_housing_high_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_housing_high_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"tod_crown_alarm_rotor_high_off" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+	}
+	"mtl_tod_alarm_lamp_high_on" ( "material.gdf" )
+	{
+		"surfaceType" "metal"
+		"template" "material.template"
+		"materialCategory" "Geometry Advanced"
+		"materialType" "lit_emissive_advanced_fullspec"
+		"colorMap" "i_tod_alarm_lamp_on_c"
+		"normalMap" "i_tod_alarm_lamp_on_n"
+		"cosinePowerMap" "i_tod_alarm_lamp_on_g"
+		"specColorMap" "i_tod_alarm_lamp_on_s"
+		"specMapEnable" "1"
+		"specColorTint" "1 1 1 1"
+		"colorMap00" "i_tod_alarm_lamp_on_c"
+		"colorTint" "1 1 1 1"
+		"colorTint1" "1 1 1 1"
+		"scaleRGB" "576"
+		"emissiveIncompetence" "1"
+		"emissiveFalloff" "0"
+		"normalHeightScale" "1"
+		"glossRangeMin" "0"
+		"glossRangeMax" "8"
+		"specAmount" "0.5"
+		"reflectionProbeAmount" "0.3"
+		"textureAtlasRowCount" "1"
+		"textureAtlasColumnCount" "1"
+		"usage" "<not in editor>"
+	}
+	"tod_crown_alarm_rotor_high_on" ( "xmodel.gdf" )
+	{
+		"filename" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod0.xmodel_bin"
+		"mediumLod" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod1.xmodel_bin"
+		"lowLod" "tod_crown_alarm/tod_crown_alarm_rotor_high_off_lod2.xmodel_bin"
+		"mediumLodDist" "400"
+		"lowLodDist" "1100"
+		"type" "rigid"
+		"scale" "1"
+		"CollisionMap" ""
+		"BulletCollisionLOD" "None"
+		"physicsPreset" ""
+		"cullOutDiameter" "0"
+		"materials" ""
+		"skinOverride" "mtl_tod_alarm_lamp_off mtl_tod_alarm_lamp_high_on"
+	}
+}

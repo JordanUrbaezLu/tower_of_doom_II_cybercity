@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "direction": "realistic manufactured dark cybercity",
+  "tile_units": 128,
+  "tile_texels": 1024,
+  "materials": [
+    "CC | graphite coated steel",
+    "CC | satin gunmetal",
+    "CC | worked deck steel",
+    "CC | gasket and recess",
+    "CC | aged copper contacts",
+    "CC | oxblood panel marking",
+    "CC | recessed red guide",
+    "CC | service warning paint"
+  ],
+  "tiles": [
+    "floor",
+    "wall",
+    "ceiling",
+    "trim"
+  ],
+  "source": "Blender MCP authored geometry, no painted substitute",
+  "native_visual_approved": false
+}

@@ -1,0 +1,175 @@
+{
+  "installed_at_utc": "2026-10-01T16:39:14.866991+00:00",
+  "installed": [
+    {
+      "file": "art/crown_alarm/crown_alarm.blend",
+      "sha256": "7e26778227f79b2b0a6b4984517b8de9f605359ef44b0c4c4b8367f8d4d5d49b"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/after_off.png",
+      "sha256": "030d090de0f625dfef316f89b33b56f4cce84d6a678a5c6609832aca1c0d166d"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/after_on.png",
+      "sha256": "8211163a5afcb8a05d197fe69fa567e4ee2cac527328b2c28c43835f6bb63ceb"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/authoring.json",
+      "sha256": "3fdb6162ced8e8959d75481cfd72a51569597ff2135e9f2c925050514ea6c6c7"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/before_off.png",
+      "sha256": "fa298e05da0456d8509cbbf2f8105eb108d1f8571ac0b75c91bf4b8a2a575f40"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/before_on.png",
+      "sha256": "6d73b5c92f37bd174e468f8d924e595272d66c081839180a172aea3ae12839f1"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/distance_off.png",
+      "sha256": "8cd4b8e42790ec39ca2aa854056e9d0c24cf91e54d2c571faef518aa06b853d4"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/distance_on.png",
+      "sha256": "ff7e95db5df56f2e7fd810aacba18175f9efc8cc5ac69e4515743b48405b59fc"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_2OXPYUPV755GVK4JXSQAEISEW3.txt",
+      "sha256": "eea123935e0238cf869392bdfcdb2ceeaa6a499367b3ca0de10ecaa62974f0f4"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_7YO6RPY3QAS2ADAPBRMGBOCAWN.txt",
+      "sha256": "57144d56d1eb4fbfa54fcfa295cebef92aef14e146f8786ea745b03f739bcd6d"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_AC74QJ3S3I2NCY7AIR2ZQVXHXE.txt",
+      "sha256": "1dcea1c04794c13d2a641b137d79ecd3f795484b58ba75a04808c55bcf0f389d"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP.txt",
+      "sha256": "884b797914d15785cf41efe18300b4c36cd21bc5eb18df6d7e25424cc708119e"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_OFHIYLIIPALFS5FW474J6QCEC4.txt",
+      "sha256": "884b797914d15785cf41efe18300b4c36cd21bc5eb18df6d7e25424cc708119e"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/lit_emissive_transparent.hlsl_ps_main_OP7ABLQCYC2IR2TSZ6JOJVRB5G.txt",
+      "sha256": "a93b6212fa12d6ccc27b00ba53df22ed5d63c9ff8bbc765a1fe13ae724775cd7"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/native_preview.blend",
+      "sha256": "54d31ff83726c5b8820ad3fadb18b42a71256294e7ba2c0500aba5b353c9df6d"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/native_shader_audit.json",
+      "sha256": "2e2ac9900bcfe5a7b12cb0e51a1a8249b64a736e09b31fbc9246f272136402d4"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/preview.json",
+      "sha256": "24a1b0b4bc75b19fd6870da37402f514d3f115ba7a2645b724c472b3d16d1a86"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/review.html",
+      "sha256": "fd094fee9970492742a3e4bca179db698d304f4a50a0036a400a4d1d46d2a15b"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/rotation_on_bloom.png",
+      "sha256": "c6e7461ba477c46e3bb7a2df98c02c8a17dc15e2ca2fe1c26ff2a225f9209175"
+    },
+    {
+      "file": "art/crown_alarm/lens_review/source_candidate.json",
+      "sha256": "b1cae24fd26dd6c24ee3b1d8d67cb27e6d224a60bd8122223098175739e860eb"
+    },
+    {
+      "file": "art/crown_alarm/visibility_review/high_fixture.blend",
+      "sha256": "4441d71edc39395d1d0e2147fb612bcce120692b1fc65d61c0f847769de4349b"
+    },
+    {
+      "file": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
+      "sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73"
+    },
+    {
+      "file": "source_data/tod_crown_alarm.gdt",
+      "sha256": "4fd69edebf16f2e94fb093165679f73baf20c73a28a3788ce5d604d6a863911b"
+    },
+    {
+      "file": "zone_source/tod_crown_alarm.zpkg",
+      "sha256": "302e3871ea2b6f6b29a598c5a77123747130c64cdaec66a474732e94c08de3d9"
+    },
+    {
+      "file": "art/crown_alarm/manifest.json",
+      "sha256": "da4633ec6b26a718477a087c7fb86b1a50d4f31a3c6daed10bd4cdf14117f8a0"
+    }
+  ],
+  "count": 25,
+  "validation": {
+    "checked_at_utc": "2026-10-01T16:39:01.292289+00:00",
+    "scope": "crown alarm transparent lens alpha and bounded dielectric specular tint",
+    "target": "staged",
+    "native_geometry_uv_lights_and_states_unchanged": true,
+    "lens_specular_tint_only_native_material_change": ".220916 .220916 .220916 1",
+    "explicit_model_lens_material_included": true,
+    "rgb_identical": true,
+    "lod_files_unchanged": 15,
+    "unchanged_texture_maps": 27,
+    "used_lens_texels": 145196,
+    "housing_lod_coverage": [
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod0.xmodel_bin",
+        "lens_triangles": 3392,
+        "sampled_texels": 144455
+      },
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod1.xmodel_bin",
+        "lens_triangles": 430,
+        "sampled_texels": 129681
+      },
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_lod2.xmodel_bin",
+        "lens_triangles": 196,
+        "sampled_texels": 124714
+      },
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod0.xmodel_bin",
+        "lens_triangles": 3392,
+        "sampled_texels": 144455
+      },
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod1.xmodel_bin",
+        "lens_triangles": 430,
+        "sampled_texels": 129681
+      },
+      {
+        "file": "model_export/tod_crown_alarm/tod_crown_alarm_housing_high_lod2.xmodel_bin",
+        "lens_triangles": 196,
+        "sampled_texels": 124714
+      }
+    ],
+    "alpha_byte_range_before": [
+      82,
+      82
+    ],
+    "alpha_byte_range_after": [
+      13,
+      26
+    ],
+    "alpha_mean_before": 0.3215686274509804,
+    "alpha_mean_after": 0.09752059285379762,
+    "lowered_fraction": 1.0,
+    "changed_captured_files": [
+      "art/crown_alarm/crown_alarm.blend",
+      "art/crown_alarm/manifest.json",
+      "art/crown_alarm/visibility_review/high_fixture.blend",
+      "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_c.png",
+      "source_data/tod_crown_alarm.gdt",
+      "zone_source/tod_crown_alarm.zpkg"
+    ],
+    "lens_sha256": "48c03d5b22e5f0c2d48387278fa749a8cf6b5679f1f0d0ce7ab465de2511aa73",
+    "manifest_sha256": "da4633ec6b26a718477a087c7fb86b1a50d4f31a3c6daed10bd4cdf14117f8a0",
+    "native_playtested": false,
+    "guarded_full_build_required": true
+  },
+  "native_playtested": false,
+  "guarded_full_build_required": true
+}

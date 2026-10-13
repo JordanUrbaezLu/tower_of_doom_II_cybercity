@@ -1,0 +1,5 @@
+	// THE HAVENS (docs/202): never raise a zombie INSIDE a safe-zone field — the
+	// horde has to walk in through it (and its slow). Guarded pointer: the haven
+	// module owns the field and is never imported here.
+	if ( isdefined( level.tod_haven_inside_fn ) && [[ level.tod_haven_inside_fn ]]( org ) )
+		return false;

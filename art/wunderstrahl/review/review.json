@@ -1,0 +1,126 @@
+{
+  "images": {
+    "before_after_first_person.png": {
+      "sha256": "63e6465fb0b02714de302501a4b5e81590ea3a5bc9e2caf150c078f2aaedca77",
+      "bytes": 1015705
+    },
+    "before_after_lens_close.png": {
+      "sha256": "358b2ab2677fcdfc344cc2caf7fb8f8428b923e5a1621dfcd1e6ea158e2b16d0",
+      "bytes": 1938961
+    },
+    "before_after_lens_front.png": {
+      "sha256": "012f97eb442343dcf8a07c8e8e5a6d983f39baa5aa9f3a752347415e82ad5f6c",
+      "bytes": 1529880
+    },
+    "before_after_profile_left.png": {
+      "sha256": "d444f76046e0aea5cc0cea2bfe4293c57cbd7a8f7e645a2bac46d1f32b34dd19",
+      "bytes": 841780
+    },
+    "before_after_quarter_left.png": {
+      "sha256": "2893105a746561b8cd538420e7e3267af7878181c0d29490d76c558b9b44cc63",
+      "bytes": 1025997
+    },
+    "before_after_quarter_right.png": {
+      "sha256": "df5f3037bf49600eaf82877caa915f93d0ad34d35234798ba1435ebbbe51297d",
+      "bytes": 975341
+    },
+    "before_after_top.png": {
+      "sha256": "da5eed661a82844851133618cf6dc9614cdce8c2c66d85986542ae1c3860113c",
+      "bytes": 699380
+    },
+    "before_first_person.png": {
+      "sha256": "6c972d3583e52fec3eb4bf3b5f536fa90a4bc8b2e75c2c71932a7c3f0d2890b4",
+      "bytes": 1241620
+    },
+    "before_lens_close.png": {
+      "sha256": "ade225206d1a3b0e0e580424bc7ce2a242230c905b1a4a6c90587e19cec07ea2",
+      "bytes": 1821230
+    },
+    "before_lens_front.png": {
+      "sha256": "1195790c4efc50c4a9e3f1d09bff6c68648e5286584bfe4f90b7df3060d7191b",
+      "bytes": 1479819
+    },
+    "before_profile_left.png": {
+      "sha256": "6d7bef80822cbd0fcbe9569d98ae98d43ea9b652fa607aa675cb78912b67d202",
+      "bytes": 1349156
+    },
+    "before_quarter_left.png": {
+      "sha256": "6338a62b6227fd7673b7a824235951f7f3d1dc56fad55010487857d4c1747225",
+      "bytes": 1295534
+    },
+    "before_quarter_right.png": {
+      "sha256": "797975e701826466d3d3f1e35ae39ba175544866e488510851722afb338437fb",
+      "bytes": 1261256
+    },
+    "before_top.png": {
+      "sha256": "0abb2bc5560f314af07f7341679eaf650d91d6fa52d31df43dac949e7a6701ba",
+      "bytes": 1228257
+    },
+    "contact_sheet.png": {
+      "sha256": "68d9d08b15deb33a66139b1a2ce512bd2cf6863027c68820b224d87980e5fb2e",
+      "bytes": 3219590
+    },
+    "wunderstrahl_ads.png": {
+      "sha256": "b5fc424a69881ced100a34506f4d041e7c92a9e66b4885d46178ba2b37a35196",
+      "bytes": 1091899
+    },
+    "wunderstrahl_first_person.png": {
+      "sha256": "5e6c1b1207ed39f0f324d696372fb3e0525e823b03a9f93cacce236815e9726b",
+      "bytes": 1224942
+    },
+    "wunderstrahl_first_person_nobloom.png": {
+      "sha256": "1cfe98df9e50bc517e4dc7cf82435861b798300c1daa1fe5bbf70b93108646dc",
+      "bytes": 1224737
+    },
+    "wunderstrahl_lens_close.png": {
+      "sha256": "3a290707237f97244a3217c34250231e2264cc5d98ccdcca23e64b2d2b9b4057",
+      "bytes": 2045613
+    },
+    "wunderstrahl_lens_close_nobloom.png": {
+      "sha256": "520bd9a2926ec9182703f4d231fd555b4a298741a2885b57788c16a9c8b1e286",
+      "bytes": 2042591
+    },
+    "wunderstrahl_lens_front.png": {
+      "sha256": "8450ffbb61bb422168dc5a80d9a4f50546bdf20ea77f760f957b497f43907704",
+      "bytes": 1596312
+    },
+    "wunderstrahl_pickup.png": {
+      "sha256": "5cb0474ab4d493326f38b27761eedd0c7be08078f477aac766071db72b0770ec",
+      "bytes": 1263740
+    },
+    "wunderstrahl_pickup_lineup.png": {
+      "sha256": "bd69756279bca57cf12b035b972f3fab799e50e0de2098460dc8d7c391b411c3",
+      "bytes": 1207437
+    },
+    "wunderstrahl_profile_left.png": {
+      "sha256": "ed1260628bd17a48a002d931f491381a0eddef5d5e8178e0e339f2c4d9be26ee",
+      "bytes": 1335416
+    },
+    "wunderstrahl_quarter_left.png": {
+      "sha256": "2fdb5ccce8cba0500f054159e8bd7e62af38241bbdbc8a86b2fd141307acb942",
+      "bytes": 1298913
+    },
+    "wunderstrahl_quarter_left_nobloom.png": {
+      "sha256": "ff2174e9bbf2e59016320c8f7b98a32367212657a38e04ce25401deb01ddc806",
+      "bytes": 1296923
+    },
+    "wunderstrahl_quarter_right.png": {
+      "sha256": "8d379bacf280737c87ff241e9deed762b26f19588712cc521b57ebcaba9ee28c",
+      "bytes": 1272427
+    },
+    "wunderstrahl_top.png": {
+      "sha256": "999c0df7fc41a61cee592487e08e0fe01f11832ddd594da2318b28961d570438",
+      "bytes": 1213841
+    },
+    "wunderstrahl_world.png": {
+      "sha256": "f045895eae732b4d5788c73847ab951943bb5d6ee4af8738c1aecb5d6bf86959",
+      "bytes": 1136730
+    },
+    "wunderstrahl_world_lods.png": {
+      "sha256": "3f1fbb28601ea8955b1dc34f79eeccb8145b35554dae7de356fd8940c6064fe2",
+      "bytes": 1846551
+    }
+  },
+  "note": "Approximate Blender previews (diffuse + Fresnel GGX, Khronos PBR Neutral view transform). Not BO3 lighting, probes, tone mapping, exposure or bloom. Gun-alone views are posed by idle frame 0 with tag_weapon held and leave out the parked reload bracket.",
+  "native_playtested": false
+}

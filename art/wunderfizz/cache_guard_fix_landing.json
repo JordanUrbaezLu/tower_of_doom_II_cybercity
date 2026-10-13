@@ -1,0 +1,12 @@
+{
+  "landed_at": "2026-10-07T14:48:32.008498-04:00",
+  "kind": "cache_guard_fix",
+  "files": {
+    "tools/build_map.ps1": {
+      "before_sha256": "714380b03a066600072f4e58899fd7f126a61a3ab33b9c352a585698f1fd47c6",
+      "sha256": "4ae52b53e054beb03f72a82d1926d9c32129c25fec614ecece69c19ba358ccfb",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\cache_guard_fix\\staged_sources\\tools\\build_map.ps1"
+    }
+  },
+  "game_launched": false
+}

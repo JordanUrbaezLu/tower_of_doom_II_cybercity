@@ -1,0 +1,7 @@
+{
+  "status": "NOT ACCEPTED: build script reported OK; post-delivery audit caught missing charge FX",
+  "fastfile_bytes": 220605440,
+  "fastfile_sha256": "192466ec3a0bcf93d35b06260debb769fea7719e7ee7cd7a29793346874982f7",
+  "reason": "Native lightIntensityGraph repeated times 0,0,1,1 rejected coil charge; four of five effects linked.",
+  "repair": "Explicit 0,.08,.92,1 curve, source regression checks and mandatory compiled-effect gate added; fresh FULL required."
+}

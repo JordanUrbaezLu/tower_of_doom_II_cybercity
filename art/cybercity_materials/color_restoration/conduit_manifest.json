@@ -1,0 +1,145 @@
+{
+  "models": [
+    {
+      "asset": "tod_power_conduit_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_power_conduit_off_lod0.xmodel_bin",
+      "sha256": "a1736304ced5ce483bc99bf78501a6b573f445eeffd485cc98cae0fa04e932ed",
+      "triangles": 3272,
+      "bounds": [
+        [
+          -48.0,
+          -9.0,
+          0.0
+        ],
+        [
+          48.0,
+          9.0,
+          2.5350000858306885
+        ]
+      ]
+    },
+    {
+      "asset": "tod_power_conduit_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_power_conduit_off_lod1.xmodel_bin",
+      "sha256": "6c9f617961defc14e3adc8b469131773cbe13209b981faa6c07a6a78c35409bf",
+      "triangles": 610,
+      "bounds": [
+        [
+          -48.0,
+          -9.0,
+          0.025969624519348145
+        ],
+        [
+          48.0,
+          9.0,
+          2.3499999046325684
+        ]
+      ]
+    },
+    {
+      "asset": "tod_power_conduit_off",
+      "lod": 2,
+      "file": "model_export/tod_surface/tod_power_conduit_off_lod2.xmodel_bin",
+      "sha256": "0a1598f784a575a292347173ff1ac8d841bd6e77303443dd1844d62a2efe33a0",
+      "triangles": 346,
+      "bounds": [
+        [
+          -47.95730209350586,
+          -8.974031448364258,
+          0.025969624519348145
+        ],
+        [
+          47.97403335571289,
+          8.95729923248291,
+          2.3499999046325684
+        ]
+      ]
+    },
+    {
+      "asset": "tod_power_conduit_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_power_conduit_on_lod0.xmodel_bin",
+      "sha256": "5268f8483f0d43fac99d612c946b71f10ac9dba497e21ae63eeea66ef25e0fbd",
+      "triangles": 3272,
+      "bounds": [
+        [
+          -48.0,
+          -9.0,
+          0.0
+        ],
+        [
+          48.0,
+          9.0,
+          2.5350000858306885
+        ]
+      ]
+    },
+    {
+      "asset": "tod_power_conduit_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_power_conduit_on_lod1.xmodel_bin",
+      "sha256": "1805a39e5965aa3704ebd555f5b3e8137e09fbc88f0686224a2e44a13451081f",
+      "triangles": 610,
+      "bounds": [
+        [
+          -48.0,
+          -9.0,
+          0.025969624519348145
+        ],
+        [
+          48.0,
+          9.0,
+          2.3499999046325684
+        ]
+      ]
+    },
+    {
+      "asset": "tod_power_conduit_on",
+      "lod": 2,
+      "file": "model_export/tod_surface/tod_power_conduit_on_lod2.xmodel_bin",
+      "sha256": "024a05113de501e33b79e4f06ba3d625f48e24ca63b4ba6126fc6c6c83edba7a",
+      "triangles": 346,
+      "bounds": [
+        [
+          -47.95730209350586,
+          -8.974031448364258,
+          0.025969624519348145
+        ],
+        [
+          47.97403335571289,
+          8.95729923248291,
+          2.3499999046325684
+        ]
+      ]
+    }
+  ],
+  "textures": {
+    "i_tod_conduit_shell_c.png": "ee89a743e7907ff6cf4bd69fc26f89b700348dec78a4b9f3737bdac8fa84b464",
+    "i_tod_conduit_shell_g.png": "e3961987f03298da78e563c668090393d78a06c947925cb8d04b3d62d023a659",
+    "i_tod_conduit_shell_s.png": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+    "i_tod_conduit_shell_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_conduit_steel_c.png": "f766cfc503680ad365b5d067cf21c4bd60cd7b514415549036708084658a74d9",
+    "i_tod_conduit_steel_g.png": "8d7b2d8134eea6470ce0d27b748b7703f2d1936568a7183e1d269ff5db3b8fb2",
+    "i_tod_conduit_steel_s.png": "bed2ece951ede3ea6cc9fb52cd7d0438042564e7bb4af856730b8810830de55d",
+    "i_tod_conduit_steel_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_conduit_rubber_c.png": "706c5e3fe7e757df63bf93390ee3dd602011c631f00b526a8bdaa2a4769bd3b8",
+    "i_tod_conduit_rubber_g.png": "a7e9d34d5098459bbd6bed491c1069ee0129a1eea8a0b695cd64ef5c73145b4e",
+    "i_tod_conduit_rubber_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_conduit_rubber_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_conduit_wire_off_c.png": "54ecfbab718c5b3bc8c84e0bbf9804b503928208255c3a6366ecb584165e3bc4",
+    "i_tod_conduit_wire_off_g.png": "bf84c175a4ed021554a9eb21b126477bb958b01ffe1d170be6866a5c60289939",
+    "i_tod_conduit_wire_off_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_conduit_wire_off_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8",
+    "i_tod_conduit_wire_on_c.png": "1b5c44d448137533a8b695e517ef12783e384886d574db176994b28768c1bad5",
+    "i_tod_conduit_wire_on_g.png": "bf84c175a4ed021554a9eb21b126477bb958b01ffe1d170be6866a5c60289939",
+    "i_tod_conduit_wire_on_s.png": "4402d9c5420289f565cc03c2d3e25335bede7bce559d9404f85cb97e9bfd3968",
+    "i_tod_conduit_wire_on_n.png": "c63063a0985cd54d488302d4195659b96a0d7bc3ee6e13f47c5abf42d17896f8"
+  },
+  "parts": 22,
+  "bounds": "96 x 18 x 2.6 native units",
+  "off_emission": 0,
+  "on_emission": 8,
+  "native_visual_approved": false
+}

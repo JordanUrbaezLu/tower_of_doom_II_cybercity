@@ -1,0 +1,110 @@
+{
+ "schema": 1,
+ "reviewer": "root agent",
+ "reviewed_ns": 1790786463360277300,
+ "scope": "Canonical identity, all three unobstructed placements and readable native-material frame",
+ "images": {
+  "crown_junction_before.png": "43af5b3301c4d1934c66a8bfeed13c2539666bfcc909aaae2466391e66c3f3fd",
+  "crown_junction_after.png": "b6a42ff0e0e3545abc473acc6ffcf755ff2dcfc7bd357f1ea62b9e4c5b11b447",
+  "floor20_service_before.png": "67d6197074f466ea789b4fc84cb581f95ab497b7f21d7d7174a4077c6a6f791a",
+  "floor20_service_after.png": "dbfa04195a068b8c612b76f7726832eac6e90f025f0dc654ec984a31482af096",
+  "lower_power_corridor_before.png": "eaae41909924913e73ce61247d2cc5987b6ec631b78a8a848127b6d2e687800f",
+  "lower_power_corridor_after.png": "1c9f0f9628b2d432ee36e32871f54a9683a234f70c0b1f5468a2a484d58b0e44",
+  "native_material_detail.png": "d1ca9fea5847eb843b1749c7d8b7b3479702f271ccda6bf8fb8f6d8de4b88948"
+ },
+ "result": "accepted for source integration",
+ "native_playtested": false,
+ "rereviews": [
+  {
+   "reviewer": "session tower-of-doom-ii-cybercity-a4 (the havens, docs/202)",
+   "reviewed_ns": 1790979991649979100,
+   "reason": "The safe-zone redesign rebuilt the floor-20 rest stop beside the floor20_service panel, so the panel context (art/dealer_presence/context.json) changed and every matched review was re-rendered. Panel geometry, art, GDT and supports are unchanged.",
+   "checked": "floor20_service_after.png: the panel still reads unobstructed on core band lap20 SW; crown_junction and lower_power_corridor contexts are byte-identical to the accepted review.",
+   "context_sha256": "b73fdbfbf5b214ff444bbbfd8f4003fd2a5f1b0b584c0ec94936835629e8b539",
+   "images": {
+    "crown_junction_before.png": "2a9394f3ee2334eb05ca8215872b5be6eccb98aa81eba0e4393f7564628d913c",
+    "crown_junction_after.png": "717421935f5abc751bd01d427555551d94a131663622224e5f78d3100aa82193",
+    "floor20_service_before.png": "3926044dd4effd13c60a7bbb1f14f655219390ff8b662b81fa7be130793a049c",
+    "floor20_service_after.png": "2db47a69600651ccb787e7acafbbc78769414c91042bf2560d9dfb6a041c2d58",
+    "lower_power_corridor_before.png": "12ef1b11a5c7c82559b2a635195a67592a427f56add4b51929fdd946d755ecd8",
+    "lower_power_corridor_after.png": "61ce48afcefa496828ac60efcf9374a097833ef8db25c5f9716c9d5f6de9fabd",
+    "native_material_detail.png": "3841a5297508967ea8359d44f7e81691408ce6ab6ced453370a2bf8d57da70c6"
+   },
+   "result": "accepted for source integration",
+   "native_playtested": false
+  },
+  {
+   "reviewer": "session tower-of-doom-ii-cybercity-a4 (the havens v2, THE HEART, docs/202)",
+   "reviewed_ns": 1790989702954456700,
+   "reason": "The haven redesign v2 opened the tower's core at floor 20 into the haven hall, so the floor20_service panel's surroundings (art/dealer_presence/context.json) changed and every matched review was re-rendered. Panel geometry, art, GDT and placement are unchanged; its wall is now the hall's S wall, cut from the same core band pieces in the same plane.",
+   "checked": "floor20_service_after.png: the panel still reads unobstructed on core band lap20 SW haven S wall (its real support); the archway into the hall shows at the left edge of the view. crown_junction and lower_power_corridor contexts are byte-identical to the accepted review.",
+   "context_sha256": "3a91fca038541f9f6f29b3cf4c236523011a5191ed0a738e73214b1608cdd7fa",
+   "images": {
+    "crown_junction_before.png": "3b0779bbc45458c532e44f92c33809aa931bee0107e886845b16231e96bad93a",
+    "crown_junction_after.png": "429084eb05b812daf90f398e5f4b3ce11ed3aae7b3b3d71d9069baea83cccd7c",
+    "floor20_service_before.png": "f981ef85752639bf4e7f51687ff9da37cd5002aee691cd62bcfee76df88c26b8",
+    "floor20_service_after.png": "546a7a102a7260654cb60b4a4a94e2dd44ccc0ed1e43f61d34df3dcef5b0a5b4",
+    "lower_power_corridor_before.png": "832ebfec92e66451941503fe6543cbe9a788b411dcf0929554358914e684fa87",
+    "lower_power_corridor_after.png": "092ea9211b30c96b7dd4c8dc388449fea7ea33567c772cfa84c28cb0ffdec259",
+    "native_material_detail.png": "41b6e8b186cf357ae9c00918d2d83b60c871f9cd9c491bce71cc8202ad1b0ded"
+   },
+   "result": "accepted for source integration",
+   "native_playtested": false
+  },
+  {
+   "reviewer": "session tower-of-doom-ii-cybercity-a0 (the war damage pass phase 2, build B, docs/205 s7b)",
+   "reviewed_ns": 1791051020022253500,
+   "reason": "Build B of the war damage pass added ten '<role>_scorched' material twins to the kit's material GDT (source_data/tod_surface.gdt) for the 24 broken floors' crater faces, so the reviewed native material source changed and every matched review was re-rendered through the Dealer studio. Panel geometry, art, portrait GDT, placement and context are unchanged: layout.js / inventory.js regenerated geometry.json and context.json byte-identical to the accepted ones (floor 20 is not a broken floor; the nearest scorched faces are lap 19's crater, outside the panel's context), and the seventeen kit images the preview reads are unchanged - only the GDT gained blocks the panel does not use.",
+   "checked": "floor20_service_after.png: the panel still reads unobstructed on core band lap20 SW haven S wall, its frame, bezels, fasteners and the portrait unchanged against the previous accepted render; crown_junction and lower_power_corridor re-rendered from the same unchanged contexts. The scorched twins are additions to the GDT only and no scorched material appears in any of the three views.",
+   "context_sha256": "3a91fca038541f9f6f29b3cf4c236523011a5191ed0a738e73214b1608cdd7fa",
+   "material_source_sha256": {
+    "source_data/tod_surface.gdt": "318c23385749c8fe210786bb999e855ff8292d87423e255277fb15dd464b4a8b"
+   },
+   "images": {
+    "crown_junction_before.png": "f903c74155483702accc4eb4f341fafbb0b95b9a68b36f73a3e74cc23b1ab6bb",
+    "crown_junction_after.png": "5d8a59730a1b9832b8f070142d00a2e45770391b07078f7410842b14c7d73b57",
+    "floor20_service_before.png": "82176d1d75746b48c0297e7e2e198b0ef6870361ec84e5f499be69ae1257667f",
+    "floor20_service_after.png": "8c69d3a15be156723ad37bc655fca55aa9c68e7034c05deff26b59504c36cf66",
+    "lower_power_corridor_before.png": "7ca998595fd9d09756868fc24d5241539b8e212fd7af331c2c37c49b608caa74",
+    "lower_power_corridor_after.png": "bf2f9269253e5fad18e918f7600c54caa43b7ba4a69550618f06ddb9ca8b4cd0",
+    "native_material_detail.png": "4be3c769bd51657c2fd999218cd34399d6849abf98ffa916252371c25b324b19"
+   }
+  },
+  {
+   "reviewer": "session tower-of-doom-ii-cybercity-a4 (the havens v4, THE WHOLE HALL, docs/202)",
+   "reviewed_ns": 1791061824628666100,
+   "reason": "Haven v4 made the field as wide as the floor-20 hall (its base ring, the pad ring and the projector ring moved to the new centre (92, 92); the three emitter pylons became short posts in the hall's corners), so the floor20_service panel's surroundings (art/dealer_presence/context.json: every kit solid within 430 units) changed and every matched review was re-rendered through the Dealer studio (port 9897, mcp_call.py preview.py). Panel geometry, art, GDT and placement are unchanged (layout.js regenerates geometry.json byte-identical); its support is still core band lap20 SW haven S wall. The changed solids are all on the hall side of that wall.",
+   "checked": "floor20_service_after.png: the panel reads unobstructed on core band lap20 SW haven S wall, frame, portrait and bezels as in the previous accepted render, the S flight beside it and the porch archway at the left edge; nothing of the hall shows through the wall. crown_junction and lower_power_corridor re-rendered from their unchanged contexts.",
+   "context_sha256": "91d2238f7eef6ec205461449bf4a371a279dd77b178e801d20cf16a6019a4701",
+   "images": {
+    "crown_junction_before.png": "13c2ec8d23cba1ba6e500ca735f760c4b56b4ae026769b1a76f21c896961dde1",
+    "crown_junction_after.png": "1d46e69a7c1e661592480870776fd12c2421400774cc310a8ec615a6d793ced7",
+    "floor20_service_before.png": "0171ffeded4a392ac348f8e137a0b17c118d81b1c7599e0eb02f1099776a177c",
+    "floor20_service_after.png": "9ba8ab1ee4906a1c1a599ee81cc8ec4c5660cebec21ca7efa4a9d4a8b7b1607a",
+    "lower_power_corridor_before.png": "69ed88ffe42d383273d8161d409089886f9b81eb5cbcb900392af7831be8c3b5",
+    "lower_power_corridor_after.png": "2665b73c8bd738b1735e430a7e7d2073300e2c756368669797dd420b225a165d",
+    "native_material_detail.png": "13773cddf38aac7c02105054e5ec7fd208531ae5dd83bc8cedbaee81b136677f"
+   },
+   "result": "accepted for source integration",
+   "native_playtested": false
+  },
+  {
+   "reviewer": "session tower-of-doom-ii-cybercity playtest fixes (the havens v6, THE WAY THROUGH, docs/202)",
+   "reviewed_ns": 1791175868516227300,
+   "reason": "Haven v6 enclosed the floor-20 hall and moved its way down (user 2026-10-04: nothing of the haven may be seen until you are on its floor; the way down must leave across the field): the galleries' sloped handrails became walls up to the void's ceiling with a cyan trim line, a sunken stair cut into the core under the hall's north strip (its side walls, its tunnel under the W wall) and collapse debris on the W flight's tread 11, so the floor20_service panel's surroundings (art/dealer_presence/context.json: every kit solid within 430 units; 106 -> 112 solids) changed and every matched review was re-rendered through the Dealer studio (port 9897, mcp_call.py with the full path of preview.py). Panel geometry, art, GDT and placement are unchanged (layout.js regenerates geometry.json byte-identical); its support is still core band lap20 SW haven S wall. crown_junction and lower_power_corridor contexts are byte-identical; their renders were re-made by the same run.",
+   "checked": "floor20_service_after.png: the panel reads unobstructed on core band lap20 SW haven S wall, frame, portrait and bezels as in the previous accepted render, the S flight on the right and the porch archway with its cyan lintel on the left; nothing of the hall shows through the wall and none of the new solids crosses the view.",
+   "context_sha256": "622078d654f4176974b664e036e93812c95761dcc86b0cdeaea183a7be54c437",
+   "images": {
+    "crown_junction_before.png": "b656b8bafd0aaea18a697798853a9664650022ec17e0e7b20efcedf61cdb7940",
+    "crown_junction_after.png": "4245f82aa6ea88aaeb54a3b801be892ff8e4d04b621e3ce8b116283f743910d4",
+    "floor20_service_before.png": "351671d7612d2fee378d18fdbcf8e0d9af49dc6831df2acc26cc266a41afcdc4",
+    "floor20_service_after.png": "4b5a18655c500bd9fafb3e60fa38f7472ca0b36dd958035bfd85fee9455aea73",
+    "lower_power_corridor_before.png": "1f5057a0be56245d831b9fe41a2df48d7a3ba5af376c117c9eea746c67d83ff8",
+    "lower_power_corridor_after.png": "a2d9b4e3782bb07ae74891adaa042b2dcdc64bc77f160ba082f19e42734c4964",
+    "native_material_detail.png": "241be3753730d66e1fd13fbad0d188ddaebc9d72dfd673e8bfb979dbc013e5e4"
+   },
+   "result": "accepted for source integration",
+   "native_playtested": false
+  }
+ ]
+}

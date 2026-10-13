@@ -1,0 +1,522 @@
+{
+  "created_utc": "2026-10-01T17:07:02.101678+00:00",
+  "mode": "read-only analysis of root-owned private diagnostic; no native processes",
+  "diagnostic_zone": "tod_alarm_lens_packaging_probe",
+  "native_game_launched": false,
+  "native_visual_verified": false,
+  "variant_inputs": {
+    "shipping_gdt_sha256": "4fd69edebf16f2e94fb093165679f73baf20c73a28a3788ce5d604d6a863911b",
+    "probe_gdt_sha256": "eb645620007b04899c67ec1a93444852d3ec5c3e6827772a59deaa979f1541b2",
+    "probe_zone_sha256": "10c5a463c07627ba440e2f2fcebcd8e4b13e7e3daa6051c7fb1624f4d8cb6444",
+    "zone": "tod_alarm_lens_packaging_probe",
+    "materials": [
+      "mc/mtl_tod_alarm_lens",
+      "mc/mtl_tod_alarm_cast",
+      "mc/mtl_tod_alarm_probe_same",
+      "mc/mtl_tod_alarm_probe_zero_black",
+      "mc/mtl_tod_alarm_probe_one_white",
+      "mc/mtl_tod_alarm_probe_zero_no_shadows",
+      "mc/mtl_tod_alarm_probe_nonemissive",
+      "mc/mtl_tod_alarm_probe_correct_black",
+      "mc/mtl_tod_alarm_probe_correct_white",
+      "mc/mtl_tod_alarm_probe_correct_black_hdr1"
+    ],
+    "variants": {
+      "same": {},
+      "zero_black": {
+        "scaleRGB": "1",
+        "colorTint1": "0 0 0 1"
+      },
+      "one_white": {
+        "scaleRGB": "1"
+      },
+      "zero_no_shadows": {
+        "noCastShadow": "0",
+        "noReceiveDynamicShadow": "0"
+      },
+      "nonemissive": {
+        "materialType": "lit_transparent_advanced"
+      },
+      "correct_black": {
+        "specColorMap": "$black_specular"
+      },
+      "correct_white": {
+        "specColorMap": "$white_specular"
+      },
+      "correct_black_hdr1": {
+        "specColorMap": "$black_specular",
+        "scaleRGB": "1",
+        "colorTint1": "0 0 0 1"
+      }
+    },
+    "shipping_sources_unchanged": true,
+    "native_visual_verified": false
+  },
+  "material_records": [
+    {
+      "name": "mc/mtl_tod_alarm_cast",
+      "name_decompressed_offset": 2240292,
+      "header_decompressed_offset": 2239620,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 10,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000000019",
+      "header_sha256": "63ac490f42955d79c776c0a382542662da1f064df4200fc4dc40a5523a431e85",
+      "header_hex": "ffffffffffffffff400000000000010100000000000000000000000000000000000000000000d00001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0a080004000000001900000000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 2241363,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 2,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 6,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000000222f69",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 8,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 9,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 0
+        }
+      ],
+      "classification": "complete material definition"
+    },
+    {
+      "name": "mc/mtl_tod_alarm_probe_correct_black",
+      "name_decompressed_offset": 3085227,
+      "header_decompressed_offset": 3084555,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 11,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000000009",
+      "header_sha256": "d8be1643d481cb2bf6fa54dded8156a0fd06a2f5658b9248f8bcfaa85d2a5aae",
+      "header_hex": "ffffffffffffffff000000000000010100000000000000000000000000000000000000000008940010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0b080005000000000900000000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 3086080,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x5000000000222f29",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x5000000000222f49",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 3,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0x5000000000222f89",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 5,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 6,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000000222fe9",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000002f04c9",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 9,
+          "image_pointer": "0x5000000000223029",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 10,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 4
+        }
+      ],
+      "classification": "complete material definition"
+    },
+    {
+      "name": "mc/mtl_tod_alarm_probe_correct_white",
+      "name_decompressed_offset": 3088727,
+      "header_decompressed_offset": 3088055,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 11,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000000009",
+      "header_sha256": "d8be1643d481cb2bf6fa54dded8156a0fd06a2f5658b9248f8bcfaa85d2a5aae",
+      "header_hex": "ffffffffffffffff000000000000010100000000000000000000000000000000000000000008940010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0b080005000000000900000000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 3089340,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x5000000000222f29",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x50000000002f0489",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x5000000000222f49",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x50000000002f04c9",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0x5000000000222f89",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 5,
+          "image_pointer": "0x50000000002f0509",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x50000000002f0529",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000000222fe9",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000002f04c9",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 9,
+          "image_pointer": "0x5000000000223029",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 10,
+          "image_pointer": "0xffffffffffffffff",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 4
+        }
+      ],
+      "classification": "complete material definition"
+    },
+    {
+      "name": "mc/mtl_tod_alarm_probe_correct_black_hdr1",
+      "name_decompressed_offset": 3090764,
+      "header_decompressed_offset": 3090092,
+      "comma_prefixed": false,
+      "inline_name_pointer": true,
+      "image_count": 11,
+      "image_table_pointer": "0xffffffffffffffff",
+      "techset_pointer": "0x5000000000000009",
+      "header_sha256": "d8be1643d481cb2bf6fa54dded8156a0fd06a2f5658b9248f8bcfaa85d2a5aae",
+      "header_hex": "ffffffffffffffff000000000000010100000000000000000000000000000000000000000008940010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffffff0b080005000000000900000000000050ffffffffffffffffffffffffffffffff00000000000000000000000000000000",
+      "image_table_decompressed_offset": 3091622,
+      "image_table_entries": [
+        {
+          "index": 0,
+          "image_pointer": "0x5000000000222f29",
+          "semantic_hash": "0x7176bf2",
+          "semantic": "other native material image",
+          "native_flags": 16
+        },
+        {
+          "index": 1,
+          "image_pointer": "0x50000000002f0489",
+          "semantic_hash": "0x199a03d3",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 2,
+          "image_pointer": "0x5000000000222f49",
+          "semantic_hash": "0x1b768248",
+          "semantic": "other native material image",
+          "native_flags": 16640
+        },
+        {
+          "index": 3,
+          "image_pointer": "0x50000000002f04c9",
+          "semantic_hash": "0x34614347",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 4,
+          "image_pointer": "0x5000000000222f89",
+          "semantic_hash": "0x389dd40f",
+          "semantic": "other native material image",
+          "native_flags": 0
+        },
+        {
+          "index": 5,
+          "image_pointer": "0x50000000002f0509",
+          "semantic_hash": "0x59d30d0f",
+          "semantic": "normalMap",
+          "native_flags": 2
+        },
+        {
+          "index": 6,
+          "image_pointer": "0x50000000002f0529",
+          "semantic_hash": "0x6d0a6c98",
+          "semantic": "glossMap",
+          "native_flags": 8
+        },
+        {
+          "index": 7,
+          "image_pointer": "0x5000000000222fe9",
+          "semantic_hash": "0x77151208",
+          "semantic": "other native material image",
+          "native_flags": 320
+        },
+        {
+          "index": 8,
+          "image_pointer": "0x50000000002f04c9",
+          "semantic_hash": "0xa0ab1041",
+          "semantic": "colorMap",
+          "native_flags": 1
+        },
+        {
+          "index": 9,
+          "image_pointer": "0x5000000000223029",
+          "semantic_hash": "0xc0f0bf5f",
+          "semantic": "other native material image",
+          "native_flags": 4352
+        },
+        {
+          "index": 10,
+          "image_pointer": "0x50000000002f05a9",
+          "semantic_hash": "0xec443804",
+          "semantic": "specColorMap",
+          "native_flags": 4
+        }
+      ],
+      "classification": "complete material definition"
+    }
+  ],
+  "decompressed_bytes": 3092038,
+  "native_material_ledger": [
+    {
+      "index": "13",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_cast",
+      "resident": "1615",
+      "streamed": "0",
+      "parentStack": "|zone_source/tod_alarm_lens_packaging_probe.zone|csv"
+    },
+    {
+      "index": "20",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_probe_correct_black",
+      "resident": "1580",
+      "streamed": "0",
+      "parentStack": "|zone_source/tod_alarm_lens_packaging_probe.zone|csv"
+    },
+    {
+      "index": "22",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_probe_correct_white",
+      "resident": "1104",
+      "streamed": "0",
+      "parentStack": "|zone_source/tod_alarm_lens_packaging_probe.zone|csv"
+    },
+    {
+      "index": "23",
+      "type": "material",
+      "name": "mc/mtl_tod_alarm_probe_correct_black_hdr1",
+      "resident": "1544",
+      "streamed": "0",
+      "parentStack": "|zone_source/tod_alarm_lens_packaging_probe.zone|csv"
+    }
+  ],
+  "absent_variants": [
+    "mc/mtl_tod_alarm_lens",
+    "mc/mtl_tod_alarm_probe_same",
+    "mc/mtl_tod_alarm_probe_zero_black",
+    "mc/mtl_tod_alarm_probe_one_white",
+    "mc/mtl_tod_alarm_probe_zero_no_shadows",
+    "mc/mtl_tod_alarm_probe_nonemissive"
+  ],
+  "conclusions": [
+    "Wrong specColorMap image usage prevents native material definition; specular_base requires specularMask/Linear1ch, whereas custom lens_s declares specularMap/sRGB3chAlpha.",
+    "Changing only specColorMap to $black_specular produces a complete 11-image native material while keeping zero scaleRGB and both shadow-disable flags.",
+    "Zero-HDR or disabled-shadow pruning is disproved by the correct-black control.",
+    "Wrong variants are absent from the private probe fastfile despite native process status being reported as successful; reference-only shipping fallback is not a complete material.",
+    "The shipping map still requires a fresh guarded link and its own material definition receipt."
+  ],
+  "bounded_shipping_fix": {
+    "material": "mtl_tod_alarm_lens",
+    "specColorMap": "$black_specular",
+    "specColorTint": ".220916 .220916 .220916 1",
+    "scaleRGB": "0",
+    "colorTint1": "1 1 1 1",
+    "noCastShadow": "1",
+    "noReceiveDynamicShadow": "1",
+    "color_rgb_normal_gloss_geometry_fx_lights": "unchanged"
+  },
+  "limits": {
+    "compiled_constants_decoded": false,
+    "image_pointer_targets_decoded": false,
+    "source_name_and_dependency_selection_proven": true,
+    "full_native_material_payload_and_spec_binding_proven": true
+  },
+  "evidence": [
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\packaging_probe\\inputs.json",
+      "sha256": "df1522fa97c817441f2bcd08fca8932828fbf685e74e26874a43785ead3dd6f6"
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\packaging_probe\\probe.gdt",
+      "sha256": "eb645620007b04899c67ec1a93444852d3ec5c3e6827772a59deaa979f1541b2"
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\packaging_probe\\tod_alarm_lens_packaging_probe.zone",
+      "sha256": "10c5a463c07627ba440e2f2fcebcd8e4b13e7e3daa6051c7fb1624f4d8cb6444"
+    },
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\zone\\tod_alarm_lens_packaging_probe.ff",
+      "sha256": "b47a1ff2383e1a68dc58e094b7093a716d5d297e88d875d9786fe2568fee54cc"
+    },
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\zone_source\\all\\assetinfo\\tod_alarm_lens_packaging_probe.deps",
+      "sha256": "350f7998ce2c138e899fb2abb1c0270eaea9ca8d1c50e07f9eb7c7f286635351"
+    },
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\zone_source\\all\\assetinfo\\tod_alarm_lens_packaging_probe.csv",
+      "sha256": "56458a5dbedad6f10f1018a5ae2128b0e516a968430ec8d99a2112839319b91b"
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\packaging_probe\\linker.out.log",
+      "sha256": "ddc0f1f3b9340c6ed56fb1e318ac6eb5e51bac8a6637fb3837a36d895f7b9324"
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\crown_alarm\\verify_lens_material.py",
+      "sha256": "d5ae601bf122b0e809f1d3bae53ade0efe0709fd7f6dcc719cd7e6b3d1b143e5"
+    }
+  ]
+}

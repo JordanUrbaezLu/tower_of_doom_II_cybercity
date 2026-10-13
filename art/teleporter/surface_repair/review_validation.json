@@ -1,0 +1,14 @@
+{
+  "native_built": false,
+  "native_visual_verified": false,
+  "source_checks_passed": true,
+  "state_machine_checks_passed": true,
+  "emission_pixels_checked": 4194304,
+  "old_build_rejection_passed": true,
+  "renders": {
+    "binary_before.png": "d6dc69c32e323ea4aa3da39c3228dba7b7181968fcb4f7fabe17b7ae0324b4c8",
+    "binary_after.png": "849f0bd5c52076fb5166b340bd91e194907ff78276c2d3857debf65a267d3e8c"
+  },
+  "review": "art/teleporter/surface_repair/review.html",
+  "pending": "Archer cleared combined FULL build and user playtest"
+}

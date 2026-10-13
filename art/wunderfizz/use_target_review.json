@@ -1,0 +1,231 @@
+{
+  "kind": "read-only native use-target review",
+  "native_tag_hint_local": [
+    50.19290542602539,
+    0,
+    53.87769317626953
+  ],
+  "stock_source": "C:/BO3Tools/TOD2Cybercity/share/raw/scripts/zm/_zm_unitrigger.gsc",
+  "stock_sha256": "add3416c5f8563ce92d0d4839ddf47a360f44fa2b23c69b48a1a931747c3d4de",
+  "native_rules": {
+    "playerRadius": 15,
+    "standMaxZ": 70,
+    "strictHorizontalRadius": "r+15 =47",
+    "verticalMidpointTolerance": 42,
+    "selectionLookAtDot": 0.9
+  },
+  "native_standing_points_checked": 4,
+  "lateral_probes_checked": 12,
+  "min_horizontal_distance": 33.04713388199501,
+  "max_horizontal_distance": 36.71669854954972,
+  "minimum_horizontal_margin": 10.283301450450281,
+  "max_vertical_midpoint_distance": 16.87769317626953,
+  "all_native_candidate_rules_pass": true,
+  "all_existing_session_range_checks_pass": true,
+  "runtime_only_recommendation": "m.stub.origin = m.host GetTagOrigin(\"tag_hint\"); leave m.trig, generated geometry/data, radius and native nav references unchanged.",
+  "native_use_engine_body_touch_look_requirement": "GSC source math passes; actual native use interaction remains user-playtest proof.",
+  "rows": [
+    {
+      "floor": 10,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        3701.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        3701.8776931762695
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            3650
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            3650
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            3650
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 20,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        7541.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        7541.8776931762695
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            7490
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            7490
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            7490
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 30,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        11381.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        11381.87769317627
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            11330
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            11330
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            11330
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    },
+    {
+      "floor": 40,
+      "yaw": 60,
+      "originalStandingReference": [
+        3.62,
+        -61.079,
+        15221.878
+      ],
+      "physicalTagHint": [
+        -12.903547286987298,
+        -89.69866881131222,
+        15221.87769317627
+      ],
+      "pointSeparation": 33.047133883419356,
+      "tests": [
+        {
+          "feet": [
+            17.476,
+            -69.07900000000001,
+            15170
+          ],
+          "distance2D": 36.71631293104604,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            3.62,
+            -61.079,
+            15170
+          ],
+          "distance2D": 33.04713388199501,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        },
+        {
+          "feet": [
+            -10.236,
+            -53.079,
+            15170
+          ],
+          "distance2D": 36.71669854954972,
+          "zFromPlayerMid": 16.87769317626953,
+          "eligible": true,
+          "sessionInRange": true
+        }
+      ]
+    }
+  ],
+  "placement_scope": "One BO6 Wunderfizz inside each existing haven dome on floors 10, 20, 30 and 40; four machines and 12 standing probes.",
+  "review_scope": "Stock GSC source math and unchanged original tag/standing coordinates only. Actual native use interaction remains user-playtest proof."
+}

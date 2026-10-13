@@ -1,0 +1,20 @@
+{
+  "master": "art/cybercity_materials/crown_surface_library.blend",
+  "master_sha256": "11da17692d754f47073a9841d21700e233c87b50022aa3243d49c37f2a2a0555",
+  "tile_units": 128,
+  "tile_texels": 1024,
+  "normal_green": "DirectX negative Y",
+  "textures": {
+    "i_tod_cc_armor_n.png": "9a1aedf761358c6a91673779e3b5ce16acc91536d841c02e5f3294589d9ab85b",
+    "i_tod_cc_armor_c.png": "5d8551b0c8fb462f30a31e5715729961cef562ccabecdf95d5f4ce022a341b28",
+    "i_tod_cc_armor_s.png": "7ac49bb8ffdf4ea43fac2cd1194b357a0e6f1b28a52f144d49ddab6f51d6816e",
+    "i_tod_cc_armor_g.png": "371d30af6b630a129ec1385158e00904106058b304244ee299c67e1e20524525",
+    "i_tod_cc_armor_e.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+    "i_tod_cc_crystal_n.png": "7f09dcbe6d756096428274c45185c279bc9bbd3c8d24fd92ad415b8266d18ffb",
+    "i_tod_cc_crystal_c.png": "42c206b4d7cb0046f792772bc410fe1fdda653ad791b961764973f2f768e870b",
+    "i_tod_cc_crystal_s.png": "496dce0279ca22215119e4b83b2a74c1664faf5621565889fb5e6246b1d0bdd0",
+    "i_tod_cc_crystal_g.png": "c9a64da6723b5e92ed50569c3267cf3c4b6659e0e35fd159f0f1d72b6cba581a",
+    "i_tod_cc_crystal_e.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2"
+  },
+  "native_visual_approved": false
+}

@@ -1,0 +1,30 @@
+{
+  "master": "art/cybercity_materials/cybercity_material_library.blend",
+  "master_sha256": "1dc4a6ff346222a859e6fdf1d1642a65faa4c71e58e13f894aef133e5e2dbca8",
+  "tile_units": 128,
+  "tile_texels": 1024,
+  "normal_green": "DirectX negative Y",
+  "textures": {
+    "i_tod_cc_floor_n.png": "67e8e774704604703cf4e6622aa4ccee00d116045a24f64402c858716bcd7cd3",
+    "i_tod_cc_floor_c.png": "98ef9eb033d88df843ada7fbb45bb855b7c3633797a05201068fe9dbb1457f36",
+    "i_tod_cc_floor_s.png": "6f4f51ccc1ca6fcc33826807d5631c2ac4a6f7e1a5d327df4dff0dfe4e47dce9",
+    "i_tod_cc_floor_g.png": "0c9b897be66fd5fdba3df4e12dec3bd7ef822c2ba52b51d3c6898ec0c1f2384d",
+    "i_tod_cc_floor_e.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+    "i_tod_cc_wall_n.png": "69c728c1f2e286a48572d703088945bd2380ef9c07c525bc0dedb7755025c367",
+    "i_tod_cc_wall_c.png": "ece98068806f83952f8f9b170b5adf48e4994b4186b3e3b664cfdafea30677f3",
+    "i_tod_cc_wall_s.png": "553d81660d0a4db41493144baa3c8b3ccea827a72edb7d66bc150b647bc8e387",
+    "i_tod_cc_wall_g.png": "b8fcb6382213df961fb58481575b6ead7fde14af32490c7d3dfccc64882e6975",
+    "i_tod_cc_wall_e.png": "b7a184ed6fda959825d859b0eaf4a7beea92ff6e39ffa3317eda0f6e3c855482",
+    "i_tod_cc_ceiling_n.png": "28e478fdd0fc77caae8df3cb0c5203c79cd194bae033c4e38505593130d69031",
+    "i_tod_cc_ceiling_c.png": "22c700c4527168c6b888af528d2193b87e4de7aa2775c4ffe0c114592607c8ce",
+    "i_tod_cc_ceiling_s.png": "6dd585827d7f9abad936da2b756c649d38b6bae6e7629d66ce9abc7a30103174",
+    "i_tod_cc_ceiling_g.png": "9e3508c185e96ebb3adc964c974b3f2db938615bd15240fda89430c7368711d3",
+    "i_tod_cc_ceiling_e.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2",
+    "i_tod_cc_trim_n.png": "5e8649ef5f634a38b48dd855e7325869ad1fe9eaade22bfefdf02c8ab0c98ed4",
+    "i_tod_cc_trim_c.png": "717b9b6b47ebf9b365ccc77f12a1317c996badd7b2837b54b7f6596eaf221473",
+    "i_tod_cc_trim_s.png": "5d30188c7bd91f7ad7aa390e33e27f848cabce6a0e8288e8f38e3de8c1dd9b41",
+    "i_tod_cc_trim_g.png": "79703e2998944857109d5346641feda511fead29869b916a51965aa39adcab09",
+    "i_tod_cc_trim_e.png": "1a5e57350822bcd0cdb03f4dc88a26b4a281ba170756106cf0e2df2b298a2cd2"
+  },
+  "native_visual_approved": false
+}

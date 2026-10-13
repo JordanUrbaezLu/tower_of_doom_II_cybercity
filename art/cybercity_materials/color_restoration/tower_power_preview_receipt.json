@@ -1,0 +1,14 @@
+{
+  "method": "Blender MCP, local port 9883",
+  "native_visual_verified": false,
+  "description": "Native source meshes placed on actual lower-tower solids; matched lighting; no BO3 exposure/bake simulation",
+  "artifacts": {
+    "tower_power_review.blend": "0b9584975201b76489d26597b56f4af711dfb405b70347c3a569798ca554f38a",
+    "power_conduits.blend": "e36023d68d1aecdb14b11e6fb8f2acf83fbff31f24927ed2c722043047cfba02",
+    "tower_power_tower_off.png": "14db5b30b248d676959306a08ae51e537b307524139942dd1b531db9ec2a2fc1",
+    "tower_power_tower_on.png": "b0cd731b8b02080fba2740fd09262a0be7aa31b73e9874c0e358621c76f1a9fa",
+    "tower_power_landing_off.png": "207488495ed7766f82a2e93f96f2cd70048d18c9643f2fd7b59c6071baad23b8",
+    "tower_power_landing_on.png": "bd1a84850647e62fd7621bf7d82a12516936ed92125361949d15622fc79c0a4a",
+    "conduits_off_on.png": "e0d98e6568106596ecb66c7571d7322239932f03f1abcf7e730d5f4ce38b541b"
+  }
+}

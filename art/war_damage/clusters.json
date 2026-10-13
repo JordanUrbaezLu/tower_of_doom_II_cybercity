@@ -1,0 +1,3755 @@
+{
+ "layout_sha256": "3438a44462692ff67d9a4ab77cd16fab218609ea00b93e61bff152b97a4e7bac",
+ "kit_sha256": "6640dcb8d2acb6e00091a385b111bd1e2b2611e959404eb5e3f31b630372c9d7",
+ "kit_war_sha256": "e7dfc74a6c21ae684ffa25ccf8fd30d18eb39dda9e6a711b9869b80ab5558785",
+ "gdt_sha256": "6ce1ddaef7cb47769775732908c43a2b8384465d94f43b77f4f999133c191d12",
+ "models": [
+  {
+   "asset": "tod_war_break_48",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_48_lod0.xmodel_bin",
+   "sha256": "316b8650970f6c70bb9a6d4a679ea23f0d7f99ebb9a4174dcf80768bb1ddce9c",
+   "triangles": 37208,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 42,
+   "bounds": [
+    [
+     -244.1,
+     -345.9,
+     -0.5
+    ],
+    [
+     79.7,
+     217.3,
+     372.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_48",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_48_lod1.xmodel_bin",
+   "sha256": "4b43e393497262561d9be0ef0ac8595ddc25aa05631a1612bf30cce8705a4125",
+   "triangles": 18160,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 34,
+   "bounds": [
+    [
+     -244.1,
+     -345.9,
+     -0.5
+    ],
+    [
+     79.7,
+     217.3,
+     372.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_48",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_48_lod2.xmodel_bin",
+   "sha256": "41366a8da1765b9eb62a1a1d45850889c2c24a95615869fa93a89ef3b7fec291",
+   "triangles": 9897,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 25,
+   "bounds": [
+    [
+     -244.1,
+     -345.9,
+     -0.4
+    ],
+    [
+     79.7,
+     203.8,
+     372.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_47",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_47_lod0.xmodel_bin",
+   "sha256": "9345467abc10d244bef62a6f78909502b5717374eef575cc0c95d2f32beb65d1",
+   "triangles": 38572,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -216.1,
+     -0.5
+    ],
+    [
+     200.9,
+     344.7,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_47",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_47_lod1.xmodel_bin",
+   "sha256": "ba7c6180a78e7b35577845bafd8c35ff81b4373644d74eba0a3e9b67bdb22a55",
+   "triangles": 18172,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -216.1,
+     -0.5
+    ],
+    [
+     200.9,
+     344.7,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_47",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_47_lod2.xmodel_bin",
+   "sha256": "af8ecb2f8895b37c77c1ad175bcba8aa178d5939ef4dda71dfdd683e7f988744",
+   "triangles": 10021,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -216.1,
+     -0.4
+    ],
+    [
+     200.9,
+     344.7,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_45",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_45_lod0.xmodel_bin",
+   "sha256": "a8f7f5426c7cd222040958ff6e0e59829c3e8b723cfed2ba68deb0dd4135986e",
+   "triangles": 34372,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 44,
+   "bounds": [
+    [
+     -79.7,
+     -166.4,
+     -0.5
+    ],
+    [
+     255.7,
+     344.3,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_45",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_45_lod1.xmodel_bin",
+   "sha256": "d766660c4b3d3232f50a6fa6b9f3bdc095dd13fa76370ab3b4463b1fee32bac6",
+   "triangles": 16944,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -166.4,
+     -0.5
+    ],
+    [
+     255.7,
+     344.3,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_45",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_45_lod2.xmodel_bin",
+   "sha256": "f22f719d371bbdb814be0525fde760ac7384ccba4f4ea6cc8145981f8037927a",
+   "triangles": 8699,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -166.4,
+     -0.4
+    ],
+    [
+     255.7,
+     344.3,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_43",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_43_lod0.xmodel_bin",
+   "sha256": "6e7b2dda275d66924018c621abae503a8ba94d9ff270e66cbe4a3328520b7da6",
+   "triangles": 32706,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 42,
+   "bounds": [
+    [
+     -80.7,
+     -229.2,
+     -0.5
+    ],
+    [
+     239.2,
+     345.5,
+     365.1
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_43",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_43_lod1.xmodel_bin",
+   "sha256": "4cbfef67425f958d6b6262d8283108b5b8a91b4f02615660adbe45c8c937355d",
+   "triangles": 17698,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 34,
+   "bounds": [
+    [
+     -80.7,
+     -229.2,
+     -0.5
+    ],
+    [
+     239.2,
+     345.5,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_43",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_43_lod2.xmodel_bin",
+   "sha256": "6620f28bf314b4f16a2a0a937b49a2951e0b8d3c5730e79da532396b6a5db25b",
+   "triangles": 9919,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -80.7,
+     -183.4,
+     -0.4
+    ],
+    [
+     239.2,
+     345.5,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_42",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_42_lod0.xmodel_bin",
+   "sha256": "c6591bb9d1b90bdedd100aa420be7023117d91bc0654a48491640b27ae76f5ca",
+   "triangles": 35508,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 44,
+   "bounds": [
+    [
+     -244.8,
+     -344.2,
+     -0.5
+    ],
+    [
+     79.7,
+     156.6,
+     365.1
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_42",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_42_lod1.xmodel_bin",
+   "sha256": "62485561987d664304a4879d59a9308f86e219fbfae7729d60f377a281d3ef97",
+   "triangles": 17026,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -244.8,
+     -344.2,
+     -0.5
+    ],
+    [
+     79.7,
+     156.6,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_42",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_42_lod2.xmodel_bin",
+   "sha256": "bd175f3b262cb6b4dfff3c07ba60d1c1bb2d1f224ebd8c35fe194d48f2495a5d",
+   "triangles": 8841,
+   "degenerate_dropped": 8,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 28,
+   "bounds": [
+    [
+     -244.8,
+     -344.2,
+     -0.4
+    ],
+    [
+     79.7,
+     112.6,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_39",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_39_lod0.xmodel_bin",
+   "sha256": "5048cff4868b4981f160ca7030ca735cf2adae2c85c4944dfbefa945879f7563",
+   "triangles": 35604,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 41,
+   "bounds": [
+    [
+     -81.7,
+     -209.4,
+     -0.5
+    ],
+    [
+     243.9,
+     345.7,
+     365.2
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_39",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_39_lod1.xmodel_bin",
+   "sha256": "63bf1e3486511bac307fdd9a41c8a38702fba4430450bcdbf2fc34038cd3c31f",
+   "triangles": 18428,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 34,
+   "bounds": [
+    [
+     -81.7,
+     -209.4,
+     -0.5
+    ],
+    [
+     243.9,
+     345.7,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_39",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_39_lod2.xmodel_bin",
+   "sha256": "83cd8a35bb43504217faebdc959fd1daf960650071f9e54e6360ecc0cfec6629",
+   "triangles": 10035,
+   "degenerate_dropped": 12,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -81.7,
+     -209.4,
+     -0.4
+    ],
+    [
+     243.9,
+     345.7,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_37",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_37_lod0.xmodel_bin",
+   "sha256": "f9b4e4ecb81c173392c4383cc153bf617bd637b048026eea0fed6da0d513e1a8",
+   "triangles": 34096,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -192.2,
+     -0.5
+    ],
+    [
+     230.9,
+     344.0,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_37",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_37_lod1.xmodel_bin",
+   "sha256": "a55428b06a2f417c4ff516a40817203de284fef8ed45f8ecec4f69799974308c",
+   "triangles": 17710,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -79.7,
+     -192.2,
+     -0.5
+    ],
+    [
+     230.9,
+     344.0,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_37",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_37_lod2.xmodel_bin",
+   "sha256": "0e4d18a8df164b8ed435c743fbd1c64ce4aef6e6b00e0f88b4f5b8b34f5971dd",
+   "triangles": 9757,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -173.8,
+     -0.4
+    ],
+    [
+     230.9,
+     344.0,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_36",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_36_lod0.xmodel_bin",
+   "sha256": "f1856a591747f038081415c83d98e30c009fed8ca32ed4686ee0cf3affc2e1aa",
+   "triangles": 33838,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -234.9,
+     -344.3,
+     -0.5
+    ],
+    [
+     79.7,
+     209.6,
+     365.1
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_36",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_36_lod1.xmodel_bin",
+   "sha256": "39dcbace6420303364c63d682b8185a511832968cf4d1d4058e2ef7403a84e89",
+   "triangles": 16694,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -234.9,
+     -344.3,
+     -0.5
+    ],
+    [
+     79.7,
+     209.6,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_36",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_36_lod2.xmodel_bin",
+   "sha256": "4f236ef2f6f6d4bb7df58861d6893c1d1f71e361d65299130d2e01d769ce2051",
+   "triangles": 8437,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -234.9,
+     -344.3,
+     -0.4
+    ],
+    [
+     79.7,
+     209.6,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_34",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_34_lod0.xmodel_bin",
+   "sha256": "ceab67d4c11b8e1b8eb932102ad4ecccb6dee44c3ff8a69f05e34c7e345f9bca",
+   "triangles": 31532,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -200.6,
+     -344.8,
+     -0.5
+    ],
+    [
+     79.7,
+     233.1,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_34",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_34_lod1.xmodel_bin",
+   "sha256": "bd15eadbb4b2c1ab61ba603cac7964b07e5e6617e2995bb79ff5e29513065358",
+   "triangles": 16430,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -200.6,
+     -344.8,
+     -0.5
+    ],
+    [
+     79.7,
+     233.1,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_34",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_34_lod2.xmodel_bin",
+   "sha256": "346dfac9ad8312172695e30227136aa49776e7c3db52aa555cdadd520137c339",
+   "triangles": 8603,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -200.6,
+     -344.8,
+     -0.4
+    ],
+    [
+     79.7,
+     233.1,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_32",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_32_lod0.xmodel_bin",
+   "sha256": "50b513eeee4e992300c293b19b179510331b64e8b2a23966ec519a7324306141",
+   "triangles": 34754,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 39,
+   "bounds": [
+    [
+     -212.0,
+     -347.4,
+     -0.5
+    ],
+    [
+     79.7,
+     199.0,
+     365.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_32",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_32_lod1.xmodel_bin",
+   "sha256": "084e0f41e72b66ec99c7c8760ad08f2abe7c937859eadf93e881fbd128364298",
+   "triangles": 18882,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 32,
+   "bounds": [
+    [
+     -212.0,
+     -347.4,
+     -0.5
+    ],
+    [
+     79.7,
+     199.0,
+     364.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_32",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_32_lod2.xmodel_bin",
+   "sha256": "6c0b6a407b5171edcb0cca1a53faf832c869430b1ff784d4461ad4e4ec689093",
+   "triangles": 11091,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 23,
+   "bounds": [
+    [
+     -212.0,
+     -347.4,
+     -0.4
+    ],
+    [
+     79.7,
+     199.0,
+     364.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_29",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_29_lod0.xmodel_bin",
+   "sha256": "e9a0287fe8d220d61eec9a4c1afbc852db12ffe41920258113f397ecc1d84091",
+   "triangles": 34944,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -174.7,
+     -0.5
+    ],
+    [
+     231.9,
+     347.9,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_29",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_29_lod1.xmodel_bin",
+   "sha256": "ac684a3d3455d2e002ae53ce82f7ea1263894d6e1ec00eb8c52e8f43193f6392",
+   "triangles": 17470,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -79.7,
+     -174.7,
+     -0.5
+    ],
+    [
+     231.9,
+     347.9,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_29",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_29_lod2.xmodel_bin",
+   "sha256": "c6c1e04c5bb2bacad996f9bc0cf466f182680507e4e4222acd4ac20508a9f62b",
+   "triangles": 8837,
+   "degenerate_dropped": 8,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -79.7,
+     -174.7,
+     -0.4
+    ],
+    [
+     231.9,
+     347.9,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_28",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_28_lod0.xmodel_bin",
+   "sha256": "e839e84b66da17d2441eae740f9049ee288cc79b08caf01efc10c3597a9569c7",
+   "triangles": 34948,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 42,
+   "bounds": [
+    [
+     -245.9,
+     -344.4,
+     -0.5
+    ],
+    [
+     79.7,
+     183.4,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_28",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_28_lod1.xmodel_bin",
+   "sha256": "b23687e43bff7f9a7205a5b2a0cd575aa4cd449a1e6dbeff48689033450aba12",
+   "triangles": 18794,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 34,
+   "bounds": [
+    [
+     -245.9,
+     -344.4,
+     -0.5
+    ],
+    [
+     79.7,
+     183.4,
+     364.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_28",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_28_lod2.xmodel_bin",
+   "sha256": "dd0cbfc0537546e9aa5408df27ca9c2b8b34d2b6464b405739b0d4f8c5163aa7",
+   "triangles": 10955,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 25,
+   "bounds": [
+    [
+     -245.9,
+     -344.4,
+     -0.4
+    ],
+    [
+     79.7,
+     179.7,
+     364.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_26",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_26_lod0.xmodel_bin",
+   "sha256": "de54861e858e3ae51afdb6b4f75c31e19d71f4c5800c4cdc8e5f157f3692e2ee",
+   "triangles": 37468,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 42,
+   "bounds": [
+    [
+     -241.3,
+     -346.0,
+     -0.5
+    ],
+    [
+     79.7,
+     214.9,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_26",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_26_lod1.xmodel_bin",
+   "sha256": "9954832c4ba08958047c78a366bd741859a3f61c5720a860d3b6a163a2948b89",
+   "triangles": 18060,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -241.3,
+     -346.0,
+     -0.5
+    ],
+    [
+     79.7,
+     214.9,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_26",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_26_lod2.xmodel_bin",
+   "sha256": "5fead09c34984e74ac64a888c4635511714711b580cd223f280fbe70779a7825",
+   "triangles": 9755,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -241.3,
+     -346.0,
+     -0.4
+    ],
+    [
+     79.7,
+     195.5,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_24",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_24_lod0.xmodel_bin",
+   "sha256": "0b54c39b9589da7d0df60a12aea32ffa3bdba5e9fffdc11d1a9743a3c295dd16",
+   "triangles": 36374,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -236.9,
+     -346.2,
+     -0.5
+    ],
+    [
+     79.7,
+     219.9,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_24",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_24_lod1.xmodel_bin",
+   "sha256": "71d577bfd328e55344ec7bc46d35ad0bf438140c89494ffc56d70a8ba2a5ae60",
+   "triangles": 19066,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -236.9,
+     -346.2,
+     -0.5
+    ],
+    [
+     79.7,
+     219.9,
+     364.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_24",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_24_lod2.xmodel_bin",
+   "sha256": "a4b243efce93f9d9871fa400d3b74d1f34556adfc38dd0f089a49463174eab37",
+   "triangles": 11239,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -236.9,
+     -346.2,
+     -0.4
+    ],
+    [
+     79.7,
+     200.8,
+     364.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_23",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_23_lod0.xmodel_bin",
+   "sha256": "906ecbe5401cb65caadbd1dcea10e94f8a4c1d06780687c099b7abaaf8237d28",
+   "triangles": 36154,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 44,
+   "bounds": [
+    [
+     -79.7,
+     -198.7,
+     -0.5
+    ],
+    [
+     225.0,
+     348.6,
+     365.2
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_23",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_23_lod1.xmodel_bin",
+   "sha256": "cdbfebb0518028aa87804b2180db24a39124b88e261751300f9c8f2d8a88add0",
+   "triangles": 19958,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -198.7,
+     -0.5
+    ],
+    [
+     225.0,
+     348.6,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_23",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_23_lod2.xmodel_bin",
+   "sha256": "418abcae6e3fb1f2d795a91253ea7b5e151649cb303a2592e2d261b60d61d7dc",
+   "triangles": 11499,
+   "degenerate_dropped": 8,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -198.7,
+     -0.4
+    ],
+    [
+     225.0,
+     348.6,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_19",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_19_lod0.xmodel_bin",
+   "sha256": "33934a1438e381bf359b9a64b147d189555fbfaa1b275c4c98aa70a4b262dc91",
+   "triangles": 35970,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -225.8,
+     -0.5
+    ],
+    [
+     199.4,
+     348.1,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_19",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_19_lod1.xmodel_bin",
+   "sha256": "f1e1985e7ff6682306662de6b1b737cbc74340d0f9f80100827d770e744d6775",
+   "triangles": 17902,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -225.8,
+     -0.5
+    ],
+    [
+     199.4,
+     348.1,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_19",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_19_lod2.xmodel_bin",
+   "sha256": "22e10e37df92a97bdbfcb979e8de4e0cf4c3353838ab87927dcfce1ae188718b",
+   "triangles": 9777,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -208.0,
+     -0.4
+    ],
+    [
+     199.4,
+     348.1,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_18",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_18_lod0.xmodel_bin",
+   "sha256": "36513d7c980022c0d5656d1ff5f83330deeb306f6c794410d9012694d93120d2",
+   "triangles": 35364,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 44,
+   "bounds": [
+    [
+     -229.6,
+     -344.9,
+     -0.5
+    ],
+    [
+     79.7,
+     175.3,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_18",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_18_lod1.xmodel_bin",
+   "sha256": "8f2ba646470f5c068108996106ecd4ec23c8525b9d9dcf42168354dd2c0859eb",
+   "triangles": 19180,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -229.6,
+     -344.9,
+     -0.5
+    ],
+    [
+     79.7,
+     175.3,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_18",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_18_lod2.xmodel_bin",
+   "sha256": "f10d83558af446c6bed2692aed5788ac2fc52be92ea3d59dc53923e341b10612",
+   "triangles": 11221,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 28,
+   "bounds": [
+    [
+     -229.6,
+     -344.9,
+     -0.4
+    ],
+    [
+     79.7,
+     175.3,
+     364.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_16",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_16_lod0.xmodel_bin",
+   "sha256": "3c7f416ec1e9f49950c19198baa7d543364be9a2ad0c54186ec5169772aa582f",
+   "triangles": 37036,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -209.1,
+     -345.2,
+     -0.5
+    ],
+    [
+     79.7,
+     170.2,
+     365.2
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_16",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_16_lod1.xmodel_bin",
+   "sha256": "79af7cc27182d0c5d738a9a9c34e336b584f59c58fa0be824d17ff653e310b95",
+   "triangles": 17870,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 35,
+   "bounds": [
+    [
+     -209.1,
+     -345.2,
+     -0.5
+    ],
+    [
+     79.7,
+     170.2,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_16",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_16_lod2.xmodel_bin",
+   "sha256": "80d8d3fbd956edeaff99ced2aee65d457471d350493a2702759f00cb127316b6",
+   "triangles": 9899,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01"
+   ],
+   "props": 26,
+   "bounds": [
+    [
+     -209.1,
+     -345.2,
+     -0.4
+    ],
+    [
+     79.7,
+     136.2,
+     364.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_14",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_14_lod0.xmodel_bin",
+   "sha256": "712652b0ca42f237b32e87699189eae7db8b5bbfe6727a7c8c6f1bbb01173035",
+   "triangles": 39184,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 45,
+   "bounds": [
+    [
+     -270.6,
+     -344.3,
+     -0.5
+    ],
+    [
+     79.7,
+     230.5,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_14",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_14_lod1.xmodel_bin",
+   "sha256": "148328adafa1b8106168d08d9e189e5e2c901e9709e30f58df8f7ff8aa39beaf",
+   "triangles": 20164,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 37,
+   "bounds": [
+    [
+     -270.6,
+     -344.3,
+     -0.5
+    ],
+    [
+     79.7,
+     230.5,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_14",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_14_lod2.xmodel_bin",
+   "sha256": "121bc9cc0e6d54cb10bf3c0f36718321d1c0afae1a164113c7370de87159ead9",
+   "triangles": 11621,
+   "degenerate_dropped": 8,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 28,
+   "bounds": [
+    [
+     -270.6,
+     -344.3,
+     -0.4
+    ],
+    [
+     79.7,
+     230.5,
+     372.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_13",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_13_lod0.xmodel_bin",
+   "sha256": "b0f67340871bf461372c8870f2aa798c76e40ddaf1703f87297a3bc6fa4d33c1",
+   "triangles": 35174,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -212.5,
+     -0.5
+    ],
+    [
+     233.5,
+     348.4,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_13",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_13_lod1.xmodel_bin",
+   "sha256": "931bf2789ec70f11ed22dc42a8ea62ee3dea16dc6f02666d1f27bd84c656ffff",
+   "triangles": 18982,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -212.5,
+     -0.5
+    ],
+    [
+     233.5,
+     348.4,
+     364.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_13",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_13_lod2.xmodel_bin",
+   "sha256": "7d0098df5ff7179b2d5352b6677afc41254e45ae823030b78e86d83d475aef73",
+   "triangles": 11077,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 28,
+   "bounds": [
+    [
+     -79.7,
+     -212.5,
+     -0.4
+    ],
+    [
+     233.5,
+     348.4,
+     364.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_09",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_09_lod0.xmodel_bin",
+   "sha256": "e01535548d123d9506dc65f837b7ddb8fd52a8fe5953b13a7fccebf64d64a2c4",
+   "triangles": 38080,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -223.3,
+     -0.5
+    ],
+    [
+     221.1,
+     348.3,
+     365.1
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_09",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_09_lod1.xmodel_bin",
+   "sha256": "22ad2dc4f6929dbcc3625ba11a055f94705decc8eff9913353f313ca4e17259c",
+   "triangles": 19376,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -223.3,
+     -0.5
+    ],
+    [
+     221.1,
+     348.3,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_09",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_09_lod2.xmodel_bin",
+   "sha256": "5f4924b81e3837c2003e40c04833e11b2c9c7be1de59eeeeeac3516542c1fc7b",
+   "triangles": 11215,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -212.2,
+     -0.4
+    ],
+    [
+     221.1,
+     348.3,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_07",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_07_lod0.xmodel_bin",
+   "sha256": "a8aed89050da2cb1f6a7753226045e65e70d46e719f28e5889a5adfd945de882",
+   "triangles": 34764,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 43,
+   "bounds": [
+    [
+     -79.7,
+     -171.3,
+     -0.5
+    ],
+    [
+     240.5,
+     344.6,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_07",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_07_lod1.xmodel_bin",
+   "sha256": "c7216d39d0d0a204e86b6cbdbd2ace74d2057d19f148c12910575eaf7978c2db",
+   "triangles": 18116,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 36,
+   "bounds": [
+    [
+     -79.7,
+     -171.3,
+     -0.5
+    ],
+    [
+     240.5,
+     344.6,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_07",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_07_lod2.xmodel_bin",
+   "sha256": "7d21795936f02f3717f55e9ad956a48de3c5a91f1a6ad5689fe0dd57c7dae5d6",
+   "triangles": 9901,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 27,
+   "bounds": [
+    [
+     -79.7,
+     -166.1,
+     -0.4
+    ],
+    [
+     240.5,
+     344.6,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_06",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_06_lod0.xmodel_bin",
+   "sha256": "ed517440d8ee30bee18222e933948e8d1af33843de1de0e39f0c430fdb902a46",
+   "triangles": 34598,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 41,
+   "bounds": [
+    [
+     -220.6,
+     -347.3,
+     -0.5
+    ],
+    [
+     79.7,
+     156.3,
+     365.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_06",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_06_lod1.xmodel_bin",
+   "sha256": "690ba2c89caf5f5cd5576f0bb94c8863508bdfb64363d644471496278ad3a8a4",
+   "triangles": 16156,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 33,
+   "bounds": [
+    [
+     -220.6,
+     -347.3,
+     -0.5
+    ],
+    [
+     79.7,
+     156.3,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_06",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_06_lod2.xmodel_bin",
+   "sha256": "7bd7f03ae1210a4b88b30fd00e1648542521e6a97ac5f47d2157c4a0f348fa31",
+   "triangles": 8317,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03",
+    "t7_decal_bullet_metal_exit_02"
+   ],
+   "props": 24,
+   "bounds": [
+    [
+     -220.6,
+     -347.3,
+     -0.4
+    ],
+    [
+     79.7,
+     156.3,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_03",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_break_03_lod0.xmodel_bin",
+   "sha256": "aebfecf2ca6b6a2e09fb54fc4424379e8cd1892392bc79dd467bd641c9ee6dff",
+   "triangles": 38476,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_glass_shards",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 44,
+   "bounds": [
+    [
+     -79.7,
+     -178.3,
+     -0.5
+    ],
+    [
+     221.8,
+     347.5,
+     364.9
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_03",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_break_03_lod1.xmodel_bin",
+   "sha256": "64c2556bded1677c8dffb37302373dec12f6bede0d6a8cf6ec2be47328a73b9c",
+   "triangles": 18558,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_light_fixture_led_ceiling_01_dmg",
+    "mtl_p7_light_fixture_led_ceiling_01_bulbs",
+    "t7_plastic_panel_cables",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 37,
+   "bounds": [
+    [
+     -79.7,
+     -178.3,
+     -0.5
+    ],
+    [
+     221.8,
+     347.5,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_break_03",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_break_03_lod2.xmodel_bin",
+   "sha256": "a44781967c1c17cc32464248f66e2c28be1c56614733b5da9533fcac21fc814a",
+   "triangles": 10163,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_lg_02",
+    "mtl_p7_debris_concrete_rubble_med_01",
+    "mtl_p7_rebar_01_rusty",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "mtl_p7_debris_concrete_rubble_pile_03",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01",
+    "t7_decal_bullet_metal_exit_02",
+    "t7_decal_bullet_metal_impact_01",
+    "t7_decal_bullet_metal_exit_03"
+   ],
+   "props": 28,
+   "bounds": [
+    [
+     -79.7,
+     -177.4,
+     -0.4
+    ],
+    [
+     221.8,
+     347.5,
+     364.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_01",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_01_lod0.xmodel_bin",
+   "sha256": "1475d46a7ccf279c375026ef72480527a35504eff3e4e08b56368cf28674d514",
+   "triangles": 5578,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -603.2,
+     -369.2,
+     297.9
+    ],
+    [
+     590.5,
+     99.5,
+     683.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_01",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_01_lod1.xmodel_bin",
+   "sha256": "3747b7c829992f5c0d79ea6bf749fac0b7eafbb409633be049e31087f029d797",
+   "triangles": 4590,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -603.2,
+     -369.1,
+     297.9
+    ],
+    [
+     590.5,
+     99.5,
+     683.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_01",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_01_lod2.xmodel_bin",
+   "sha256": "bfd5f6b237abce7efd5d633a035b4b67ddff28900ed8a6e921af3e6893bc46a5",
+   "triangles": 4458,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -603.2,
+     -369.1,
+     297.9
+    ],
+    [
+     590.5,
+     99.5,
+     683.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_06",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_06_lod0.xmodel_bin",
+   "sha256": "34d31112864dd5852bb6ee0870c095ff154496ee11cbca2e3246eb56d40e10f7",
+   "triangles": 2950,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 6,
+   "bounds": [
+    [
+     -597.6,
+     -410.1,
+     -152.3
+    ],
+    [
+     -303.9,
+     81.1,
+     12.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_06",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_06_lod1.xmodel_bin",
+   "sha256": "e05c2bbcfeffe4dac3ec34eb1b65ad22f63c61b45507d9e44ff6733d99ef071c",
+   "triangles": 2170,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 2,
+   "bounds": [
+    [
+     -597.6,
+     -410.1,
+     -152.3
+    ],
+    [
+     -303.9,
+     81.1,
+     0.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_06",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_06_lod2.xmodel_bin",
+   "sha256": "e05c2bbcfeffe4dac3ec34eb1b65ad22f63c61b45507d9e44ff6733d99ef071c",
+   "triangles": 2170,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 2,
+   "bounds": [
+    [
+     -597.6,
+     -410.1,
+     -152.3
+    ],
+    [
+     -303.9,
+     81.1,
+     0.4
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_11",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_11_lod0.xmodel_bin",
+   "sha256": "fb06741294013510ae58d5830fdced5d93f0de85032e86c7476f5da20129a627",
+   "triangles": 7934,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_blast_01"
+   ],
+   "props": 6,
+   "bounds": [
+    [
+     -614.1,
+     -53.4,
+     -511.8
+    ],
+    [
+     313.2,
+     193.8,
+     1213.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_11",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_11_lod1.xmodel_bin",
+   "sha256": "de9cd5600d25059d4b8c456a1c45717377556039a34251c7a586f18f8da1058d",
+   "triangles": 4472,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_blast_01"
+   ],
+   "props": 6,
+   "bounds": [
+    [
+     -614.1,
+     -53.4,
+     -511.8
+    ],
+    [
+     313.0,
+     193.8,
+     1213.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_11",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_11_lod2.xmodel_bin",
+   "sha256": "5c028165d737527a2b4e6009b35633a4d68beb89b6cbcbbe284d49de44177966",
+   "triangles": 3720,
+   "degenerate_dropped": 8,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_blast_01"
+   ],
+   "props": 6,
+   "bounds": [
+    [
+     -614.1,
+     -53.4,
+     -511.8
+    ],
+    [
+     313.0,
+     193.8,
+     1213.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_16",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_16_lod0.xmodel_bin",
+   "sha256": "86fb6e20e337b466bfa47259e26207c357748ece69a32c075bb0e45349afe1ce",
+   "triangles": 782,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 5,
+   "bounds": [
+    [
+     306.7,
+     306.7,
+     -384.6
+    ],
+    [
+     407.4,
+     407.3,
+     -372.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_16",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_16_lod1.xmodel_bin",
+   "sha256": "8de557ddac8734bef7be9a4cf5471547a9e03d098e1ba37552673a43fca87dbf",
+   "triangles": 2,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 1,
+   "bounds": [
+    [
+     306.7,
+     306.7,
+     -383.6
+    ],
+    [
+     407.3,
+     407.3,
+     -383.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_16",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_16_lod2.xmodel_bin",
+   "sha256": "8de557ddac8734bef7be9a4cf5471547a9e03d098e1ba37552673a43fca87dbf",
+   "triangles": 2,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 1,
+   "bounds": [
+    [
+     306.7,
+     306.7,
+     -383.6
+    ],
+    [
+     407.3,
+     407.3,
+     -383.6
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_21",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_21_lod0.xmodel_bin",
+   "sha256": "f8df4643fc08469e54769aab061a90e07fd6a8a68c0194bd5e3c7d4c5d773b7e",
+   "triangles": 6172,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     -593.9,
+     -410.0,
+     -495.4
+    ],
+    [
+     586.8,
+     371.2,
+     803.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_21",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_21_lod1.xmodel_bin",
+   "sha256": "c74f9d2ebcca5c43d18b3df101e85e65ac6dc1ea1662319d5126269a00c93b7f",
+   "triangles": 4592,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 4,
+   "bounds": [
+    [
+     -593.9,
+     -410.0,
+     -495.4
+    ],
+    [
+     586.8,
+     371.2,
+     803.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_21",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_21_lod2.xmodel_bin",
+   "sha256": "2a104db52b8f9099db5eba9f5547119bc3f6e74f7fe2532c58a501500ee254bc",
+   "triangles": 4460,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01"
+   ],
+   "props": 4,
+   "bounds": [
+    [
+     -593.9,
+     -410.0,
+     -495.4
+    ],
+    [
+     586.8,
+     371.2,
+     803.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_26",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_26_lod0.xmodel_bin",
+   "sha256": "92d07dfe1345af99347be8b1c207c3f8c0cf1ef0b5c38fb4bfe7c87fdbada57f",
+   "triangles": 3230,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_wires_electrical_rubber",
+    "t7_metal_worn_iron_dark"
+   ],
+   "props": 2,
+   "bounds": [
+    [
+     446.1,
+     78.6,
+     -469.6
+    ],
+    [
+     621.2,
+     357.9,
+     -355.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_26",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_26_lod1.xmodel_bin",
+   "sha256": "cbcb2e3d79346f349dc5574e1cf7ba75a9ec66f4f7c2ccd7872e4393bae36260",
+   "triangles": 2806,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_wires_electrical_rubber",
+    "t7_metal_worn_iron_dark"
+   ],
+   "props": 2,
+   "bounds": [
+    [
+     446.1,
+     78.6,
+     -469.6
+    ],
+    [
+     621.2,
+     357.9,
+     -355.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_26",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_26_lod2.xmodel_bin",
+   "sha256": "66a77b3ce5d545a0bf80554098c1845cf09007e33ef06df787ca77a67ec34062",
+   "triangles": 2430,
+   "degenerate_dropped": 4,
+   "materials": [
+    "mtl_p7_wires_electrical_rubber",
+    "t7_metal_worn_iron_dark"
+   ],
+   "props": 2,
+   "bounds": [
+    [
+     446.2,
+     78.6,
+     -469.6
+    ],
+    [
+     621.2,
+     357.8,
+     -355.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_31",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_31_lod0.xmodel_bin",
+   "sha256": "6261783176f3ae3b8de4513ed294d7812db9b4a2c072641fbaa2ff6901d769b1",
+   "triangles": 8932,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 11,
+   "bounds": [
+    [
+     256.3,
+     -108.8,
+     -0.6
+    ],
+    [
+     586.0,
+     409.4,
+     1254.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_31",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_31_lod1.xmodel_bin",
+   "sha256": "95e22c9a4bfc9f9384496da83cc92159c05920bc161c2cc83e6d5bbbc5f52ba9",
+   "triangles": 3950,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     256.3,
+     -108.8,
+     0.4
+    ],
+    [
+     586.0,
+     409.4,
+     1254.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_31",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_31_lod2.xmodel_bin",
+   "sha256": "773b6c1a8c5c62965dcb8c2dc04a9ab6c734cbad94b6102fbee053904e6c056b",
+   "triangles": 3442,
+   "degenerate_dropped": 4,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     256.3,
+     -108.8,
+     0.4
+    ],
+    [
+     586.0,
+     409.4,
+     1254.0
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_36",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_36_lod0.xmodel_bin",
+   "sha256": "9e94b443f972a3f946cb42c610d493606d434e1c863be63b151ba0468e247f97",
+   "triangles": 3050,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_blast_01"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -615.1,
+     -200.3,
+     -120.2
+    ],
+    [
+     -256.4,
+     120.3,
+     345.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_36",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_36_lod1.xmodel_bin",
+   "sha256": "6b2a0a61dae014d6cca0b97afa27c8fdd8bce81a582e123c3d1e826ce548fc03",
+   "triangles": 2578,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_blast_01"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -615.1,
+     -200.3,
+     -120.2
+    ],
+    [
+     -256.4,
+     120.3,
+     345.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_36",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_36_lod2.xmodel_bin",
+   "sha256": "6b2a0a61dae014d6cca0b97afa27c8fdd8bce81a582e123c3d1e826ce548fc03",
+   "triangles": 2578,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_blast_01"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -615.1,
+     -200.3,
+     -120.2
+    ],
+    [
+     -256.4,
+     120.3,
+     345.5
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_41",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_41_lod0.xmodel_bin",
+   "sha256": "8ccce73a743fabc99741f836cc667690f879c5f4a1e6a139e57bb98878dacd92",
+   "triangles": 1758,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_02",
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     -408.3,
+     -409.6,
+     383.4
+    ],
+    [
+     -256.4,
+     157.4,
+     792.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_41",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_41_lod1.xmodel_bin",
+   "sha256": "193c6ecf1fb34c9c4235bec1dadd3809648d8878685d314e721b2013d0175236",
+   "triangles": 412,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -408.3,
+     -408.3,
+     384.4
+    ],
+    [
+     -256.4,
+     157.4,
+     792.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_41",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_41_lod2.xmodel_bin",
+   "sha256": "193c6ecf1fb34c9c4235bec1dadd3809648d8878685d314e721b2013d0175236",
+   "triangles": 412,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_rebar_cap_01_rusty",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 3,
+   "bounds": [
+    [
+     -408.3,
+     -408.3,
+     384.4
+    ],
+    [
+     -256.4,
+     157.4,
+     792.8
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_46",
+   "lod": 0,
+   "file": "model_export/tod_war_damage/tod_war_floors_46_lod0.xmodel_bin",
+   "sha256": "67b60c4fdd6a992985f387e36ed384ded7af9a8a29aad391f8c8147033367655",
+   "triangles": 8790,
+   "degenerate_dropped": 0,
+   "materials": [
+    "mtl_p7_debris_concrete_rubble_sm",
+    "mtl_p7_debris_metal_scrap_01",
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 10,
+   "bounds": [
+    [
+     -609.3,
+     -410.2,
+     -901.9
+    ],
+    [
+     322.6,
+     99.9,
+     870.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_46",
+   "lod": 1,
+   "file": "model_export/tod_war_damage/tod_war_floors_46_lod1.xmodel_bin",
+   "sha256": "0be435428f05e277d8ff972d2e05cd69f397594ba2d14e1f1d746b918a3baf7a",
+   "triangles": 4090,
+   "degenerate_dropped": 0,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     -609.3,
+     -410.2,
+     -901.9
+    ],
+    [
+     322.5,
+     99.9,
+     870.7
+    ]
+   ]
+  },
+  {
+   "asset": "tod_war_floors_46",
+   "lod": 2,
+   "file": "model_export/tod_war_damage/tod_war_floors_46_lod2.xmodel_bin",
+   "sha256": "4da98190c7c80623eac7bc0b39acf1ee1d711c348abb80c3a111a23c9314fd6b",
+   "triangles": 3582,
+   "degenerate_dropped": 4,
+   "materials": [
+    "t7_metal_worn_iron_dark",
+    "mtl_p7_rebar_01_rusty",
+    "mtl_tod_conduit_rubber",
+    "mtl_tod_conduit_shell",
+    "mtl_tod_conduit_steel",
+    "mtl_p7_wires_electrical_rubber",
+    "t7_decal_grunge_charred_stain_01",
+    "t7_decal_blast_01"
+   ],
+   "props": 7,
+   "bounds": [
+    [
+     -609.3,
+     -410.2,
+     -901.9
+    ],
+    [
+     322.5,
+     99.9,
+     870.7
+    ]
+   ]
+  }
+ ]
+}

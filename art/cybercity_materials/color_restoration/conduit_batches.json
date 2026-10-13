@@ -1,0 +1,2063 @@
+{
+  "layout_sha256": "82623196d998212372ffe4a39d8c3b33133694a77f5fbe78954ea20c0c60064f",
+  "sources": {
+    "1": "6c9f617961defc14e3adc8b469131773cbe13209b981faa6c07a6a78c35409bf"
+  },
+  "channels": 489,
+  "hosts": 27,
+  "models": [
+    {
+      "asset": "tod_conduit_tower_01_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_01_off_lod0.xmodel_bin",
+      "sha256": "26d847cdb03a1ce66279cc931317cba1b374ca36c75a512d396731f3f1b513ea",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754806
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_01_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_01_on_lod0.xmodel_bin",
+      "sha256": "8bd1f9118607488f11a594586bda5e815e7da9faf9de4391cd91e1c02fbe44c1",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754806
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_01_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_01_off_lod1.xmodel_bin",
+      "sha256": "4c4460463bbe3a564c2ef314cafdca5659e0cb3586ee81799e4eb2ebdff4ce90",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754806
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_01_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_01_on_lod1.xmodel_bin",
+      "sha256": "7c2ce717a97168fedc4b7f275f8e8c6edb85ca0a2f28cd531f9f1381453202ca",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754806
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_02_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_02_off_lod0.xmodel_bin",
+      "sha256": "e6f8a3d23bddfdfcdce340199452155db12363b46431311672dc35908fe3d2a4",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_02_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_02_on_lod0.xmodel_bin",
+      "sha256": "901ba0420379324b83aaf3fb236a6071992ffe2075dbbb4db706777680d0713b",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_02_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_02_off_lod1.xmodel_bin",
+      "sha256": "5e1bb82cc04e6b5c6aec4ffa1c8ca82c9206df5b18ffa46d5f5a039cb95d02cf",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_02_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_02_on_lod1.xmodel_bin",
+      "sha256": "cdf54f2c11ce2e790df601317c5e24a7c721b0ac4585a8d5d7deaa534a521785",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_03_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_03_off_lod0.xmodel_bin",
+      "sha256": "b6abed59edd262f42e26dc9ae0b5b0795f37968bc1694e89d6b436227737e8a3",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_03_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_03_on_lod0.xmodel_bin",
+      "sha256": "901fab416f28fde973dc0df5f449d33b8fe20ff8843b355b7e05bf4e71f17344",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_03_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_03_off_lod1.xmodel_bin",
+      "sha256": "cc0f875fbf8b6a451b51396b2e8bdd5ea00fb41a783f8313ec2d56fe389a6365",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_03_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_03_on_lod1.xmodel_bin",
+      "sha256": "3f834388c409298ea15c37085b3d7e8f56e8bf45967ebf0cfd3eb9ede3aa52ec",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_04_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_04_off_lod0.xmodel_bin",
+      "sha256": "72c42f9f84e5df3cbaea67c44f8c85cc3d9f9ee7c6150c43fc14ca140914d43c",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_04_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_04_on_lod0.xmodel_bin",
+      "sha256": "92a4f883ac0e946e55d71b337ba9ee8f0ef5e5aa4e37d6f6f3111dc1294c4f37",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_04_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_04_off_lod1.xmodel_bin",
+      "sha256": "7fece79bcc1ec989eaad2a893936b385a17ba9ffd891d674dba34ae7b18b7d47",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_04_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_04_on_lod1.xmodel_bin",
+      "sha256": "25996cfa3cd77a2776d15a8210ab3315c35cec4e42e6fdcfc4ffd05a5fa5e8da",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_05_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_05_off_lod0.xmodel_bin",
+      "sha256": "b6abed59edd262f42e26dc9ae0b5b0795f37968bc1694e89d6b436227737e8a3",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_05_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_05_on_lod0.xmodel_bin",
+      "sha256": "901fab416f28fde973dc0df5f449d33b8fe20ff8843b355b7e05bf4e71f17344",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.4699999046326,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_05_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_05_off_lod1.xmodel_bin",
+      "sha256": "cc0f875fbf8b6a451b51396b2e8bdd5ea00fb41a783f8313ec2d56fe389a6365",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_05_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_05_on_lod1.xmodel_bin",
+      "sha256": "3f834388c409298ea15c37085b3d7e8f56e8bf45967ebf0cfd3eb9ede3aa52ec",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754808
+        ],
+        [
+          438.291434879303,
+          350.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_06_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_06_off_lod0.xmodel_bin",
+      "sha256": "72c42f9f84e5df3cbaea67c44f8c85cc3d9f9ee7c6150c43fc14ca140914d43c",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_06_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_06_on_lod0.xmodel_bin",
+      "sha256": "92a4f883ac0e946e55d71b337ba9ee8f0ef5e5aa4e37d6f6f3111dc1294c4f37",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_06_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_06_off_lod1.xmodel_bin",
+      "sha256": "7fece79bcc1ec989eaad2a893936b385a17ba9ffd891d674dba34ae7b18b7d47",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_06_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_06_on_lod1.xmodel_bin",
+      "sha256": "25996cfa3cd77a2776d15a8210ab3315c35cec4e42e6fdcfc4ffd05a5fa5e8da",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_07_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_07_off_lod0.xmodel_bin",
+      "sha256": "6505bd69729c50aec387a1c77675cc8f6b1df72e4adf2bc8bfe78e7224adf5e9",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          345.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_07_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_07_on_lod0.xmodel_bin",
+      "sha256": "22934e4a2b831db325e9585c588d0d7f67ffb205bb288a09dcb69fae179d64e3",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -486.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          345.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_07_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_07_off_lod1.xmodel_bin",
+      "sha256": "e6e203f88d887f3135b30918dbf504bacd839f03ae789fea6bb4e698d7263b08",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          345.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_07_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_07_on_lod1.xmodel_bin",
+      "sha256": "100fa3a4793d84ea937cb7b1934025f59eb5a57896c3930950fedcd3916a2464",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -486.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          345.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_08_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_08_off_lod0.xmodel_bin",
+      "sha256": "e6f8a3d23bddfdfcdce340199452155db12363b46431311672dc35908fe3d2a4",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_08_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_08_on_lod0.xmodel_bin",
+      "sha256": "901ba0420379324b83aaf3fb236a6071992ffe2075dbbb4db706777680d0713b",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_08_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_08_off_lod1.xmodel_bin",
+      "sha256": "5e1bb82cc04e6b5c6aec4ffa1c8ca82c9206df5b18ffa46d5f5a039cb95d02cf",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_08_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_08_on_lod1.xmodel_bin",
+      "sha256": "cdf54f2c11ce2e790df601317c5e24a7c721b0ac4585a8d5d7deaa534a521785",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_09_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_09_off_lod0.xmodel_bin",
+      "sha256": "5a30f4d8e23d26a3fc60dc71dcd1619838d71b2a56f1db3b8c014f991e7b3429",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -482.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          349.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_09_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_09_on_lod0.xmodel_bin",
+      "sha256": "b3331a7a4b7186ba9cb6aae127db5fd4e0051fed9d36084aab5ae04c79c85da2",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -482.2,
+          -873.8540303754799
+        ],
+        [
+          438.4699999046326,
+          349.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_09_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_09_off_lod1.xmodel_bin",
+      "sha256": "1b38c1311518fac9c4f01e5959d138b7d65c94def1f848686b780bdc2d48cc73",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -482.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          349.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_09_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_09_on_lod1.xmodel_bin",
+      "sha256": "ceb303d96cd4d188b1a560d3f78c3fe119b4609dac920f965d5e1ec47dadbfb0",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -482.2,
+          -873.8540303754799
+        ],
+        [
+          438.291434879303,
+          349.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_10_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_10_off_lod0.xmodel_bin",
+      "sha256": "ed7c96bf4a737f1a37f39daf0eccfb271a0b1ecdd7daeada79ec506149fba307",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754817
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_10_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_tower_10_on_lod0.xmodel_bin",
+      "sha256": "7fe43db2df1b34b22770f2e4ea0380de854b5b505c57e585d68bb99690d68079",
+      "triangles": 24400,
+      "bounds": [
+        [
+          -438.4699999046326,
+          -350.2,
+          -873.8540303754817
+        ],
+        [
+          438.4699999046326,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_10_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_10_off_lod1.xmodel_bin",
+      "sha256": "885b79c90945ce4675be56c9594dec1694dd3de721321eca778410cbd699e6a2",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754817
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_tower_10_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_tower_10_on_lod1.xmodel_bin",
+      "sha256": "657be0782040f99e977c303ce6d92b7b947668329421c0cc2fe7da14d9d6a747",
+      "triangles": 17440,
+      "bounds": [
+        [
+          -438.291434879303,
+          -350.2,
+          -873.8540303754817
+        ],
+        [
+          438.291434879303,
+          486.2,
+          882.5
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_ground_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_ground_off_lod0.xmodel_bin",
+      "sha256": "454c5fcf1e17990bcf743ed25e25981a1b589f56e0c64f7af5db66f8db3de2df",
+      "triangles": 3660,
+      "bounds": [
+        [
+          -323.2,
+          -521.0,
+          0.14596962451934814
+        ],
+        [
+          323.2,
+          521.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_ground_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_ground_on_lod0.xmodel_bin",
+      "sha256": "46648023719fe0388748a3d0ebe3a1a9f4a7e311accea9c5d13f02779725c6eb",
+      "triangles": 3660,
+      "bounds": [
+        [
+          -323.2,
+          -521.0,
+          0.14596962451934814
+        ],
+        [
+          323.2,
+          521.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_ground_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_ground_off_lod1.xmodel_bin",
+      "sha256": "71aa19736ef3ff45068810f80046b92e584f48333937690ba5b01db919c5cb4f",
+      "triangles": 2616,
+      "bounds": [
+        [
+          -323.2,
+          -521.0,
+          0.14596962451934814
+        ],
+        [
+          323.2,
+          521.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_ground_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_ground_on_lod1.xmodel_bin",
+      "sha256": "296960116f9cae4e108d30def89d79270de5ba629e1b230a017b4ad1765b36c8",
+      "triangles": 2616,
+      "bounds": [
+        [
+          -323.2,
+          -521.0,
+          0.14596962451934814
+        ],
+        [
+          323.2,
+          521.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_vault_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_vault_off_lod0.xmodel_bin",
+      "sha256": "1149360a9002db7c44753b2ff1e81db2c35328c7cab174deabb41c78049520f5",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -195.19999999999982,
+          -137.0,
+          0.1459696245193527
+        ],
+        [
+          195.20000000000005,
+          137.0,
+          2.469999904632573
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_vault_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_vault_on_lod0.xmodel_bin",
+      "sha256": "753fa2bc1943a9e49021f81d1fa6a64a0a5748ca49d5e1789c97f166cfc802c7",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -195.19999999999982,
+          -137.0,
+          0.1459696245193527
+        ],
+        [
+          195.20000000000005,
+          137.0,
+          2.469999904632573
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_vault_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_vault_off_lod1.xmodel_bin",
+      "sha256": "1f99806eda6ad45805829ee439329564cfe19bcc7382137d68923668bfd02769",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -195.19999999999982,
+          -137.0,
+          0.1459696245193527
+        ],
+        [
+          195.20000000000005,
+          137.0,
+          2.291434879302983
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_vault_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_vault_on_lod1.xmodel_bin",
+      "sha256": "baae1c20bc5f6f7ea8ee576f50374bb4ed067e48e24b94596d68a8e546cc18c4",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -195.19999999999982,
+          -137.0,
+          0.1459696245193527
+        ],
+        [
+          195.20000000000005,
+          137.0,
+          2.291434879302983
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_conduit_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_conduit_off_lod0.xmodel_bin",
+      "sha256": "5e13db749cada1789b1f1d8818c8b27e2b98baa55fdccff6e72714b2c9c81a41",
+      "triangles": 1830,
+      "bounds": [
+        [
+          -67.19999999999982,
+          -265.0,
+          0.1459696245193527
+        ],
+        [
+          67.19999999999982,
+          265.0,
+          2.469999904632573
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_conduit_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_conduit_on_lod0.xmodel_bin",
+      "sha256": "470cee3d37f8d6e3a5f763a9c8ad220cb4233de26cc7ec6cfb64921fc68c08a5",
+      "triangles": 1830,
+      "bounds": [
+        [
+          -67.19999999999982,
+          -265.0,
+          0.1459696245193527
+        ],
+        [
+          67.19999999999982,
+          265.0,
+          2.469999904632573
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_conduit_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_conduit_off_lod1.xmodel_bin",
+      "sha256": "40dec19d029031ecf6512b9b2ea8f8d8b7e4323a42184f42b34b00bb21120e2a",
+      "triangles": 1308,
+      "bounds": [
+        [
+          -67.19999999999982,
+          -265.0,
+          0.1459696245193527
+        ],
+        [
+          67.19999999999982,
+          265.0,
+          2.291434879302983
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_conduit_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_conduit_on_lod1.xmodel_bin",
+      "sha256": "af447c92a6fdb50cb538a9dd7d7b6659a29f1e459d18fc6c85134418613182df",
+      "triangles": 1308,
+      "bounds": [
+        [
+          -67.19999999999982,
+          -265.0,
+          0.1459696245193527
+        ],
+        [
+          67.19999999999982,
+          265.0,
+          2.291434879302983
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_n_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_n_off_lod0.xmodel_bin",
+      "sha256": "5fe43eb8bca863a15cad1fc405349e1180f55c3998a6226e2c36fdeaf1a0e2bb",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_n_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_n_on_lod0.xmodel_bin",
+      "sha256": "1376d187c48dd0d4c490526f02e6ed7ac93dc8b55da6417bb3c395f94a132c1f",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_n_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_n_off_lod1.xmodel_bin",
+      "sha256": "c30a510cafb57f3edc6d1ba86e550229feb0b07e8f8497e86e7211633aea415a",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_n_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_n_on_lod1.xmodel_bin",
+      "sha256": "4a7b9382ac0e94da61c0e2491f2e708419e1fd5d369d06ad08f6478cc02877eb",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_e_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_e_off_lod0.xmodel_bin",
+      "sha256": "0bac072b51685ee47acaefb6f8b1d752e5811ee02c180531e7e69cf55acca444",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -468.20000000000005,
+          -181.0,
+          0.14596962451934814
+        ],
+        [
+          286.20000000000005,
+          93.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_e_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_e_on_lod0.xmodel_bin",
+      "sha256": "ef889936b8700ca2aa69659c6f194a354a0c2454b78fe99ae6a1328affe40a83",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -468.20000000000005,
+          -181.0,
+          0.14596962451934814
+        ],
+        [
+          286.20000000000005,
+          93.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_e_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_e_off_lod1.xmodel_bin",
+      "sha256": "c555e17e6dfb8842de699d5208583cb124a0ef87e963c2d96c00f448f2e7df95",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -468.20000000000005,
+          -181.0,
+          0.14596962451934814
+        ],
+        [
+          286.20000000000005,
+          93.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_e_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_e_on_lod1.xmodel_bin",
+      "sha256": "7e36833c399f4b09d98b96e97191dea2a044f52720e3ff12f11f204d8a6b9043",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -468.20000000000005,
+          -181.0,
+          0.14596962451934814
+        ],
+        [
+          286.20000000000005,
+          93.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_s_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_s_off_lod0.xmodel_bin",
+      "sha256": "5fe43eb8bca863a15cad1fc405349e1180f55c3998a6226e2c36fdeaf1a0e2bb",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.20000000000005,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_s_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_s_on_lod0.xmodel_bin",
+      "sha256": "1376d187c48dd0d4c490526f02e6ed7ac93dc8b55da6417bb3c395f94a132c1f",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.20000000000005,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_s_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_s_off_lod1.xmodel_bin",
+      "sha256": "c30a510cafb57f3edc6d1ba86e550229feb0b07e8f8497e86e7211633aea415a",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.20000000000005,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_s_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_s_on_lod1.xmodel_bin",
+      "sha256": "4a7b9382ac0e94da61c0e2491f2e708419e1fd5d369d06ad08f6478cc02877eb",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.20000000000005,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_w_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_w_off_lod0.xmodel_bin",
+      "sha256": "c2ac58a26d8b9e56777a678764ef8340f2e7251a3323c04d94d3e261dca5a8c1",
+      "triangles": 1830,
+      "bounds": [
+        [
+          -166.20000000000005,
+          -126.0,
+          0.14596962451934814
+        ],
+        [
+          264.20000000000005,
+          148.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_w_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_w_on_lod0.xmodel_bin",
+      "sha256": "ee4ba42cc591879b6b95dcd5462f06c5851b9b7f5f85e146a861775ce14bc039",
+      "triangles": 1830,
+      "bounds": [
+        [
+          -166.20000000000005,
+          -126.0,
+          0.14596962451934814
+        ],
+        [
+          264.20000000000005,
+          148.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_w_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_w_off_lod1.xmodel_bin",
+      "sha256": "2276e925a6a1565c6899ea28d5898cae6475986a876ba8610207e53a78a98f99",
+      "triangles": 1308,
+      "bounds": [
+        [
+          -166.20000000000005,
+          -126.0,
+          0.14596962451934814
+        ],
+        [
+          264.20000000000005,
+          148.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_w_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_w_on_lod1.xmodel_bin",
+      "sha256": "184becd83c7bf3b03f165069bf5567c0b3f9e5d1474fef7eb058bf8bc42a5589",
+      "triangles": 1308,
+      "bounds": [
+        [
+          -166.20000000000005,
+          -126.0,
+          0.14596962451934814
+        ],
+        [
+          264.20000000000005,
+          148.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_10_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_10_off_lod0.xmodel_bin",
+      "sha256": "0cb72805c17afbd09569f821804445d3a6d50485a7f0d9fab8650fcb610a185f",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.469999904632459
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_10_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_10_on_lod0.xmodel_bin",
+      "sha256": "0e37c8e5effb92d9ec07dcd6b9b0fbd23e07826e7fdc0ccdd3c56ad72c4c89b4",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.469999904632459
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_10_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_10_off_lod1.xmodel_bin",
+      "sha256": "58c19495862a66fd935e1ea5519065e9b87a5f376364151474d75643ad094e7a",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.2914348793028694
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_10_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_10_on_lod1.xmodel_bin",
+      "sha256": "aec48d0926aeecc050d14809dd7b8f8476b5283652e12167dbd94207f1376bc4",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.2914348793028694
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_20_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_20_off_lod0.xmodel_bin",
+      "sha256": "0cb72805c17afbd09569f821804445d3a6d50485a7f0d9fab8650fcb610a185f",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.469999904632459
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_20_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_20_on_lod0.xmodel_bin",
+      "sha256": "0e37c8e5effb92d9ec07dcd6b9b0fbd23e07826e7fdc0ccdd3c56ad72c4c89b4",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.469999904632459
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_20_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_20_off_lod1.xmodel_bin",
+      "sha256": "58c19495862a66fd935e1ea5519065e9b87a5f376364151474d75643ad094e7a",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.2914348793028694
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_20_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_20_on_lod1.xmodel_bin",
+      "sha256": "aec48d0926aeecc050d14809dd7b8f8476b5283652e12167dbd94207f1376bc4",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.145969624519239
+        ],
+        [
+          213.2,
+          171.0,
+          2.2914348793028694
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_30_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_30_off_lod0.xmodel_bin",
+      "sha256": "0cb72805c17afbd09569f821804445d3a6d50485a7f0d9fab8650fcb610a185f",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.4699999046333687
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_30_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_30_on_lod0.xmodel_bin",
+      "sha256": "0e37c8e5effb92d9ec07dcd6b9b0fbd23e07826e7fdc0ccdd3c56ad72c4c89b4",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.4699999046333687
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_30_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_30_off_lod1.xmodel_bin",
+      "sha256": "58c19495862a66fd935e1ea5519065e9b87a5f376364151474d75643ad094e7a",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.291434879303779
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_30_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_30_on_lod1.xmodel_bin",
+      "sha256": "aec48d0926aeecc050d14809dd7b8f8476b5283652e12167dbd94207f1376bc4",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.291434879303779
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_40_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_40_off_lod0.xmodel_bin",
+      "sha256": "0cb72805c17afbd09569f821804445d3a6d50485a7f0d9fab8650fcb610a185f",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.4699999046333687
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_40_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_breather_40_on_lod0.xmodel_bin",
+      "sha256": "0e37c8e5effb92d9ec07dcd6b9b0fbd23e07826e7fdc0ccdd3c56ad72c4c89b4",
+      "triangles": 3050,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.4699999046333687
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_40_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_40_off_lod1.xmodel_bin",
+      "sha256": "58c19495862a66fd935e1ea5519065e9b87a5f376364151474d75643ad094e7a",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.291434879303779
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_breather_40_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_breather_40_on_lod1.xmodel_bin",
+      "sha256": "aec48d0926aeecc050d14809dd7b8f8476b5283652e12167dbd94207f1376bc4",
+      "triangles": 2180,
+      "bounds": [
+        [
+          -413.2,
+          -359.0,
+          0.1459696245201485
+        ],
+        [
+          213.2,
+          171.0,
+          2.291434879303779
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_top_transit_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_top_transit_off_lod0.xmodel_bin",
+      "sha256": "1c9a78f2a6cb530dde4a0782e4e05a24d04e95585665296a49e69e7bf209fddd",
+      "triangles": 4270,
+      "bounds": [
+        [
+          -784.2,
+          -123.0,
+          0.1459696245183295
+        ],
+        [
+          898.2,
+          151.0,
+          2.4699999046315497
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_top_transit_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_top_transit_on_lod0.xmodel_bin",
+      "sha256": "45d6f382efd1b0f391f874f7f4d3929c91ef3a8c3466bf16627afdb74374f1e2",
+      "triangles": 4270,
+      "bounds": [
+        [
+          -784.2,
+          -123.0,
+          0.1459696245183295
+        ],
+        [
+          898.2,
+          151.0,
+          2.4699999046315497
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_top_transit_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_top_transit_off_lod1.xmodel_bin",
+      "sha256": "6a9ba253c41c5bb08b02c422ab8cb8a52b2a0005631429d17e8e8f1a11abfd53",
+      "triangles": 3052,
+      "bounds": [
+        [
+          -784.2,
+          -123.0,
+          0.1459696245183295
+        ],
+        [
+          898.2,
+          151.0,
+          2.29143487930196
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_top_transit_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_top_transit_on_lod1.xmodel_bin",
+      "sha256": "7603c984d4d0f0e421dde7361a5ccd32d536c53e7db9827d21dae3d7da6ab011",
+      "triangles": 3052,
+      "bounds": [
+        [
+          -784.2,
+          -123.0,
+          0.1459696245183295
+        ],
+        [
+          898.2,
+          151.0,
+          2.29143487930196
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_side_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_crown_side_off_lod0.xmodel_bin",
+      "sha256": "a3892c0ea07995c03513add1d3710f8021b30f1c181ec416561a3596b2eb2509",
+      "triangles": 4880,
+      "bounds": [
+        [
+          -1235.2,
+          -137.0,
+          0.1459696245183295
+        ],
+        [
+          1235.2,
+          137.0,
+          2.4699999046315497
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_side_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_crown_side_on_lod0.xmodel_bin",
+      "sha256": "df50cc00ccdee3d62bd6abeab9bc12958b63c76309ef24eba78a52e5a60268e3",
+      "triangles": 4880,
+      "bounds": [
+        [
+          -1235.2,
+          -137.0,
+          0.1459696245183295
+        ],
+        [
+          1235.2,
+          137.0,
+          2.4699999046315497
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_side_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_crown_side_off_lod1.xmodel_bin",
+      "sha256": "a224accfdf2f89f7a21b2378c94a9c5762a8772a944b044e1cb8b790e60730ec",
+      "triangles": 3488,
+      "bounds": [
+        [
+          -1235.2,
+          -137.0,
+          0.1459696245183295
+        ],
+        [
+          1235.2,
+          137.0,
+          2.29143487930196
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_side_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_crown_side_on_lod1.xmodel_bin",
+      "sha256": "a4d0dfc6e3cd192cfd1879171c600d809b53c0edbdee3bc9389d3da0ccd2a86a",
+      "triangles": 3488,
+      "bounds": [
+        [
+          -1235.2,
+          -137.0,
+          0.1459696245183295
+        ],
+        [
+          1235.2,
+          137.0,
+          2.29143487930196
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_hall_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_crown_hall_off_lod0.xmodel_bin",
+      "sha256": "acd73a1eea9bb9855ec2351e8b519cf18030f8c1ac91a510fc09d50e638ebec3",
+      "triangles": 9760,
+      "bounds": [
+        [
+          -783.8540303754806,
+          -413.1999999999998,
+          -79.85403037548167
+        ],
+        [
+          671.8540303754806,
+          657.2000000000007,
+          89.0
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_hall_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_crown_hall_on_lod0.xmodel_bin",
+      "sha256": "265cbc4ad9db8b244231b0c23952a06213cbd06c76cd90e3bfd54723b62df6ad",
+      "triangles": 9760,
+      "bounds": [
+        [
+          -783.8540303754806,
+          -413.1999999999998,
+          -79.85403037548167
+        ],
+        [
+          671.8540303754806,
+          657.2000000000007,
+          89.0
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_hall_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_crown_hall_off_lod1.xmodel_bin",
+      "sha256": "9621ccaa195d1b66c3389f2eb8f8e20373e1b9a35586aca7f4b4723eb49c9dd6",
+      "triangles": 6976,
+      "bounds": [
+        [
+          -783.8540303754806,
+          -413.1999999999998,
+          -79.85403037548167
+        ],
+        [
+          671.8540303754806,
+          657.2000000000007,
+          89.0
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_crown_hall_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_crown_hall_on_lod1.xmodel_bin",
+      "sha256": "c337c6e57e70ec6e48ada1947f02f82f4a1e5e2fc9c63eb1ace485b36a40772f",
+      "triangles": 6976,
+      "bounds": [
+        [
+          -783.8540303754806,
+          -413.1999999999998,
+          -79.85403037548167
+        ],
+        [
+          671.8540303754806,
+          657.2000000000007,
+          89.0
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_power_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_power_off_lod0.xmodel_bin",
+      "sha256": "3688d8e178b312c0f2826c0d3b7a9ede92b49d7ce2306a1ea62c43aad03e99a3",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -451.20000000000005,
+          -9.0,
+          0.14596962451934814
+        ],
+        [
+          451.20000000000005,
+          9.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_power_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_power_on_lod0.xmodel_bin",
+      "sha256": "d61810ea48d9386f7d5924eaad28674978b9d241d4a829573fab4b41fc05025c",
+      "triangles": 2440,
+      "bounds": [
+        [
+          -451.20000000000005,
+          -9.0,
+          0.14596962451934814
+        ],
+        [
+          451.20000000000005,
+          9.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_power_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_power_off_lod1.xmodel_bin",
+      "sha256": "6f4d08bf7663531dd7897412f6899cd3730771b1521aac5d2278bbd91f542618",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -451.20000000000005,
+          -9.0,
+          0.14596962451934814
+        ],
+        [
+          451.20000000000005,
+          9.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_power_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_power_on_lod1.xmodel_bin",
+      "sha256": "6f0ce75f04798f8e9c6119e1918241910ede3af99c51e8e025b69d2a4fafd480",
+      "triangles": 1744,
+      "bounds": [
+        [
+          -451.20000000000005,
+          -9.0,
+          0.14596962451934814
+        ],
+        [
+          451.20000000000005,
+          9.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_transit_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_transit_off_lod0.xmodel_bin",
+      "sha256": "5fe43eb8bca863a15cad1fc405349e1180f55c3998a6226e2c36fdeaf1a0e2bb",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_transit_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_base_transit_on_lod0.xmodel_bin",
+      "sha256": "1376d187c48dd0d4c490526f02e6ed7ac93dc8b55da6417bb3c395f94a132c1f",
+      "triangles": 1220,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_transit_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_transit_off_lod1.xmodel_bin",
+      "sha256": "c30a510cafb57f3edc6d1ba86e550229feb0b07e8f8497e86e7211633aea415a",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_base_transit_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_base_transit_on_lod1.xmodel_bin",
+      "sha256": "4a7b9382ac0e94da61c0e2491f2e708419e1fd5d369d06ad08f6478cc02877eb",
+      "triangles": 872,
+      "bounds": [
+        [
+          -67.19999999999999,
+          -137.0,
+          0.14596962451934814
+        ],
+        [
+          67.19999999999999,
+          137.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_arena_off",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_arena_off_lod0.xmodel_bin",
+      "sha256": "6394217a96c124f66b07873c9079397244798c6ae531c4033952ed0aa2dbc97c",
+      "triangles": 4880,
+      "bounds": [
+        [
+          -291.2000000000007,
+          -233.0,
+          0.14596962451934814
+        ],
+        [
+          355.1999999999998,
+          297.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_arena_on",
+      "lod": 0,
+      "file": "model_export/tod_surface/tod_conduit_arena_on_lod0.xmodel_bin",
+      "sha256": "569427d1ee19a8cb8f17f9d6f166be84d30937b875ef4be802b5db0f9fa61d47",
+      "triangles": 4880,
+      "bounds": [
+        [
+          -291.2000000000007,
+          -233.0,
+          0.14596962451934814
+        ],
+        [
+          355.1999999999998,
+          297.0,
+          2.4699999046325685
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_arena_off",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_arena_off_lod1.xmodel_bin",
+      "sha256": "b1e3fc9c6df7fe0906c5177d2e47021c2c523144dda972dd4748de31b9671e80",
+      "triangles": 3488,
+      "bounds": [
+        [
+          -291.2000000000007,
+          -233.0,
+          0.14596962451934814
+        ],
+        [
+          355.1999999999998,
+          297.0,
+          2.2914348793029786
+        ]
+      ]
+    },
+    {
+      "asset": "tod_conduit_arena_on",
+      "lod": 1,
+      "file": "model_export/tod_surface/tod_conduit_arena_on_lod1.xmodel_bin",
+      "sha256": "8b27eb0d6618dbac523a2cd3df2ecebc0c7f7064a2fbd98e95cea15ee193f8e0",
+      "triangles": 3488,
+      "bounds": [
+        [
+          -291.2000000000007,
+          -233.0,
+          0.14596962451934814
+        ],
+        [
+          355.1999999999998,
+          297.0,
+          2.2914348793029786
+        ]
+      ]
+    }
+  ],
+  "native_visual_verified": false
+}

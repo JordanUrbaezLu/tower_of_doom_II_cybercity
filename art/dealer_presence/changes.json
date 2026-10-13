@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "before": {
+    "tools/gen_tower_map.js": "4bc79ed3d9f428bf76b75434606af1a61161ed2f64ddfbbdb35e369bcdcb79fe",
+    "zone_source/zm_tod2_cybercity.zone": "f28c21c11e85ffc8a03096dc911252e3c4cc87ba401f61012b7a34264333caf2",
+    "map_source/zm/zm_tod2_cybercity.map": "76f2a8b8888a746cfe0aa3354d8751d2a1934e7e1821d21856dded229e3c2c2b"
+  },
+  "after": {
+    "tools/gen_tower_map.js": "76c4218da0460b74c1ca0f91ec7198709e1631149364ac8d02c03c217f68308c",
+    "zone_source/zm_tod2_cybercity.zone": "94556c04c7d41a2652ea7591d336e4dad91b81ec533f2460b29032afbe69afc5",
+    "map_source/zm/zm_tod2_cybercity.map": "1680ccf026f32e89ae16f05e7874050a92f82dec99cbbea7775e70d7fa610e43"
+  },
+  "map_delta": {
+    "added_noncolliding_quads": 42,
+    "added_triangles": 84,
+    "added_entities": 0,
+    "non_dealer_map_unchanged_ignoring_guids_and_numbering": true
+  },
+  "new_gdt_before": "absent; created by this pass"
+}

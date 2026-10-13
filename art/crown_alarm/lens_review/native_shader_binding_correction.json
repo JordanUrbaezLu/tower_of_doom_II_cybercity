@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-10-01T17:04:42.020365+00:00",
+  "mode": "read-only evidence; no native processes or shipping mutations",
+  "supersedes": [
+    "native_shader_audit.json inferred specular mask binding and F0-before claims",
+    "surface_realism.LENS_SPECULAR_MASK=5714/65535"
+  ],
+  "proven_contract": {
+    "techset": "mc/lit_emissive_transparent_advanced#e6142445",
+    "texture_field": "specColorMap",
+    "required_semantic": "specularMask",
+    "required_core_semantic": "Linear1ch",
+    "fallback_image": "$white_specular",
+    "tint_transfer": "srgb_to_linear(<specColorTint>)",
+    "F0_formula": "0.04 + linear_scalar_spec_mask * (linear_specColorTint - 0.04)",
+    "diffuse_factor": "1 - linear_scalar_spec_mask"
+  },
+  "incorrect_binding": {
+    "image": "$gray_32_one_channel",
+    "actual_semantic": "thermalHeatmap",
+    "is_specular_mask": false,
+    "reason": "Exact native material warning lists thermalHeatmap gray32 and no specColorMap entry; deps do not prove runtime texture-slot correspondence."
+  },
+  "images": [
+    {
+      "_name": "$white_specular",
+      "semantic": "specularMask",
+      "coreSemantic": "Linear1ch",
+      "baseImage": "texture_assets\\\\t7_default\\\\default_white_255.tif",
+      "compressionMethod": "compressed",
+      "_precalc_md5": "06-0C-14-CC-47-F7-A2-B9-72-1C-1D-60-CE-25-0C-B1"
+    },
+    {
+      "_name": "$black_specular",
+      "semantic": "specularMask",
+      "coreSemantic": "Linear1ch",
+      "baseImage": "texture_assets\\\\t7_default\\\\default_black_0.tif",
+      "compressionMethod": "compressed",
+      "_precalc_md5": "B3-06-CA-1A-DD-C0-E2-9B-8D-A9-5C-9E-34-84-70-79"
+    },
+    {
+      "_name": "$gray_32_one_channel",
+      "semantic": "One Channel",
+      "coreSemantic": "Linear1ch",
+      "baseImage": "texture_assets\\\\t7_default\\\\default_gray_32.tif",
+      "compressionMethod": "uncompressed",
+      "_precalc_md5": "A5-03-97-FA-0A-B5-AD-95-E9-7B-CC-97-DE-23-8A-B9"
+    },
+    {
+      "_name": "i_tod_alarm_lens_s",
+      "semantic": "specularMap",
+      "coreSemantic": "sRGB3chAlpha",
+      "baseImage": "model_export/tod_crown_alarm/_images/i_tod_alarm_lens_s.png",
+      "compressionMethod": "compressed high color",
+      "_precalc_md5": "F8-9A-D4-2B-4F-A4-F8-36-FC-C8-B3-C3-2F-9F-BF-03"
+    }
+  ],
+  "native_diagnostic_warnings": [
+    "^1Material 'mc/mtl_tod_alarm_lens' (mc/lit_emissive_transparent_advanced): Image 'i_tod_alarm_lens_s' (specColorMap) has a mismatched usage ( 'specularMap' expected: [specularMask] )",
+    "^1material 'mc/mtl_tod_alarm_lens' using technique 'mc/lit_emissive_transparent_advanced#e6142445.lit' from techniqueSet 'mc/lit_emissive_transparent_advanced#e6142445' doesn't expose a 'specColorMap' texture. Material textures:"
+  ],
+  "recommended_diagnostic": {
+    "specColorMap": "$white_specular",
+    "specColorTint": ".220916 .220916 .220916 1",
+    "linear_mask": 1.0,
+    "linear_tint": 0.03999987385806588,
+    "F0": 0.03999987385806588,
+    "diffuse_factor": 0.0,
+    "native_link_proven": false,
+    "native_visual_verified": false
+  },
+  "before_F0": null,
+  "before_F0_reason": "Original lens was reference-only with all-zero material payload; no valid native F0-before or image binding can be assigned.",
+  "evidence": [
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\specular_base.techsetdef",
+      "sha256": "fd64cede3f15c2575053bd14be44fa5d47b2976cc8a4746f4b893a64d4ff6534"
+    },
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\thermal_base.techsetdef",
+      "sha256": "4f961b5382f989f901ce9b6d1ae98f7acf875d9b21dc6b7317a56733d999553f"
+    },
+    {
+      "path": "C:\\BO3Tools\\TOD2Cybercity\\deffiles\\image.awi",
+      "sha256": "251be139c238d4d9aa60d1e36b80d21679f078dfc06727266d109d21cdab3c1e"
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\alarm_lens_repair\\packaging_probe\\linker.out.log",
+      "sha256": "d8eb33b0351ecb6ab9759a1d9406da2c3b4534ec07839edc8f59167929ec6ade"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "materials": {
+    "body": {
+      "size": [
+        2048,
+        2048
+      ],
+      "parts": 212,
+      "coverage": 0.8389837741851807,
+      "roles": {
+        "gunmetal": 0.6074215769767761,
+        "brassedge": 0.15577401220798492,
+        "brass": 0.04497305303812027,
+        "copper": 0.07017336040735245,
+        "heatsink": 0.07917921245098114,
+        "braid": 0.020772522315382957,
+        "rubber": 0.02170504629611969,
+        "hazard": 0.0
+      },
+      "curvature_pct": [
+        0.0519053623080254,
+        0.15337290751934118
+      ],
+      "files": {
+        "c": "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_c.png",
+        "s": "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_s.png",
+        "g": "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_g.png",
+        "n": "model_export/tod_wunderstrahl/_images/i_tod2_ws_body_n.png"
+      }
+    },
+    "frame": {
+      "size": [
+        2048,
+        2048
+      ],
+      "parts": 384,
+      "coverage": 0.8053724765777588,
+      "roles": {
+        "gunmetal": 0.07472790777683258,
+        "brassedge": 0.2573159635066986,
+        "brass": 0.08873570710420609,
+        "copper": 0.013981979340314865,
+        "copper_aged": 0.09375819563865662,
+        "heatsink": 0.0,
+        "braid": 0.0,
+        "rubber": 2.916119592555333e-05,
+        "hazard": 0.0,
+        "enamel": 0.4714503288269043
+      },
+      "curvature_pct": [
+        0.04412396773695944,
+        0.19038449752330808
+      ],
+      "files": {
+        "c": "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_c.png",
+        "s": "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_s.png",
+        "g": "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_g.png",
+        "n": "model_export/tod_wunderstrahl/_images/i_tod2_ws_frame_n.png"
+      }
+    },
+    "coil": {
+      "size": [
+        2048,
+        2048
+      ],
+      "parts": 390,
+      "coverage": 0.7749791145324707,
+      "roles": {
+        "copper": 0.26433759927749634,
+        "brassedge": 0.24713243544101715,
+        "brass": 0.1734718233346939,
+        "gunmetal": 0.10202006995677948,
+        "yellow_enamel": 0.029732568189501762,
+        "ceramic": 0.012048263102769852,
+        "composite_dark": 0.1712561547756195
+      },
+      "curvature_pct": [
+        0.0360605500638485,
+        0.1347672519981865
+      ],
+      "files": {
+        "c": "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_c.png",
+        "s": "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_s.png",
+        "g": "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_g.png",
+        "n": "model_export/tod_wunderstrahl/_images/i_tod2_ws_coil_n.png"
+      }
+    },
+    "stock": {
+      "size": [
+        2048,
+        1024
+      ],
+      "parts": 7,
+      "coverage": 0.7491903305053711,
+      "roles": {
+        "composite": 0.875803530216217,
+        "rubber": 0.12419535219669342
+      },
+      "curvature_pct": [
+        0.013201378751546144,
+        0.06550585992634399
+      ],
+      "files": {
+        "c": "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_c.png",
+        "s": "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_s.png",
+        "g": "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_g.png",
+        "n": "model_export/tod_wunderstrahl/_images/i_tod2_ws_stock_n.png"
+      }
+    }
+  },
+  "textures": {
+    "i_tod2_ws_body_c.png": "276c2bde6e26d2c8f10c86435064a768f527b4a8334335f5e6b6943260bbff9a",
+    "i_tod2_ws_body_g.png": "c140b4936ca05011d137d0dbcec40d57d4a6086281e1b524a0960798916811e3",
+    "i_tod2_ws_body_n.png": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+    "i_tod2_ws_body_s.png": "0b263adaae9c5cefe68603646d8fa53eb6c8fb0bfe6b6f2f0e80d5b3f90bdcb7",
+    "i_tod2_ws_coil_c.png": "be6d8e5ad98e34adebfbd4b8cea46eef9674d4bc5d5e3171781376fc850207f8",
+    "i_tod2_ws_coil_g.png": "c6945cf95b9816bbb215cbbb22e3f6e54e32d15a0a34e8559ab142393951b5e5",
+    "i_tod2_ws_coil_n.png": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+    "i_tod2_ws_coil_s.png": "3f3f0e7f969dc18ff6001b04b3809fca85658bf004ebb7d541437562a00abfb3",
+    "i_tod2_ws_core_c.png": "df7f44917f6188080882754c0b986374b5523bce596b39fed948c4f789d12846",
+    "i_tod2_ws_core_e.png": "0b169c3b57e21a216ff044904777443674908f3a32d18fca26637da41d0aacdc",
+    "i_tod2_ws_core_g.png": "d37f94a4c47f185c6ced7e9f7442642e1560a809789b780bec4898d81813d2c1",
+    "i_tod2_ws_core_n.png": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+    "i_tod2_ws_core_s.png": "3ecf36933fd6699b786629c029996b3bd1bf2cb1ff468bdda9648fd386766d00",
+    "i_tod2_ws_frame_c.png": "93ac19b74a137705ddcb808d84d00f75e15241eeaf35f8b507dde5bcc236f368",
+    "i_tod2_ws_frame_g.png": "9c35869de4616c5764801fefa95bb4f785eed14ad44947559081cf38ca3460f7",
+    "i_tod2_ws_frame_n.png": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+    "i_tod2_ws_frame_s.png": "e6b72e3f6c63c5990427a7b6fe8ce85c6e0631f4e11603945fc874731a2aa1dc",
+    "i_tod2_ws_glass_c.png": "d8503052f2aac53201290212829bfc7a54637d3b0d2c6cfaf0addc4abbc076ee",
+    "i_tod2_ws_glass_g.png": "7cadcd1d5cecf407913dc80a96e98db85599333df6f694e4fb6812f8011bc906",
+    "i_tod2_ws_lamp_c.png": "5f7ac038c390967511d585788ce4a24fd6338db0af3a99b774544ac35cd38dd7",
+    "i_tod2_ws_lamp_e.png": "0728d0e30e6215ac648cfe088ffb9969b9cbe69144416559999a5fa9aeffc921",
+    "i_tod2_ws_lamp_g.png": "69fead58f3deb8e82ab57cef3208afb0f09edeab8be25c007e8f3bd2e564e140",
+    "i_tod2_ws_lamp_n.png": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+    "i_tod2_ws_lamp_s.png": "38edfa52d5bfc8cf2bd1b6ece2b13c72d1b3e4820be48523e8e27f2e1a7b9490",
+    "i_tod2_ws_stock_c.png": "cb004590487190b479bfcb476164f3fdf23c2cb799bdfc5dea31c81aae3a093f",
+    "i_tod2_ws_stock_g.png": "90ed7c2afa25b8ef515701359430b413a4ab08b7104ed52babb460bfa323b737",
+    "i_tod2_ws_stock_n.png": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+    "i_tod2_ws_stock_s.png": "d7055af64458ef6e767071c05ad2f1186f88c143881b16f8af1c6a713015da72"
+  },
+  "sources": {
+    "i_wpn_t7_zmb_dg2_body_c.png": "2f67eb1a59461f8d68d6cca40707ddcd5efdbd67f2ad27cbe77ad814a2f87e20",
+    "i_wpn_t7_zmb_dg2_body_g.png": "4c7c4795379fb995dd5d2e090a9b84a679b85e05c6243aa43e5f50ca2eb5117b",
+    "i_wpn_t7_zmb_dg2_body_n.png": "cf5a760907bad6d4f7c9be9d248cc4aeeffb4c07e0c7ce01cc9d770b7f107ae6",
+    "i_wpn_t7_zmb_dg2_body_o.png": "44b7043edd7a4ef72d5c6534455864c9b75406e87c3fcb1321a669bbf817883d",
+    "i_wpn_t7_zmb_dg2_body_r.png": "c4ed22740482d08c2cb1c21c3d8377ede44a433a7d59f22102f338ccf40c6560",
+    "i_wpn_t7_zmb_dg2_body_s.png": "5acafa320b5f12b7facdc2361dd3e9cb5574ce404a0d8c0f6b08a190d7615ef6",
+    "i_wpn_t7_zmb_dg2_glass_c.png": "97f8167bd14c7a5ed11f218675f0a852b36266f6ca7ca83fb03f729ef7869f33",
+    "i_wpn_t7_zmb_dg2_glass_e.png": "2ccb26c9a3e6ef4c32e4e3bdf52ad37c4dcaa032f6d9ce0b46f002e143e1961a",
+    "i_wpn_t7_zmb_dg2_glass_n.png": "dfa2b6878d2c74503dd9ec94e2f25153475bed67226ef5e3eedc9eb85a6c27fa",
+    "i_wpn_t7_zmb_dg2_metal_c.png": "721f736b17f9573d6eda766b97f745958580b55adc4a38aa144ad8a28c752483",
+    "i_wpn_t7_zmb_dg2_metal_g.png": "1d423a0d470e38e93837f62e4ea28f47c3695139bf030b770ac6c13b1fd283b0",
+    "i_wpn_t7_zmb_dg2_metal_n.png": "504891816a5f61a5bc392e3294bb38cd17df4a8d76117faa5ca5fd94058d8e8c",
+    "i_wpn_t7_zmb_dg2_metal_o.png": "8a451286e1e46ca02e0115f30beed4de37d726e1cc8c1a860d3bd0eb3769edfb",
+    "i_wpn_t7_zmb_dg2_metal_r.png": "7f1e150c8b0bf7efba7ed119afb89a30d02c7cdf921f66d68a352b04e7caf782",
+    "i_wpn_t7_zmb_dg2_metal_s.png": "c99798fa4269b41c9a18a1eef8feb818fe1dd0d353642947d4c054a860299a24",
+    "i_wpn_t7_zmb_dg2_pipe_c.png": "3d83547fde31d5845b4ebece4369ff536b503b6d82efb493f1fcc77e5f0fe887",
+    "i_wpn_t7_zmb_dg2_pipe_g.png": "cb0684a4e1038dbb2a45639f99039e43dedf483ea1ed91a0beb9668d7d505806",
+    "i_wpn_t7_zmb_dg2_pipe_n.png": "5f7f23547609336a72e8bb2308bdd0e720fc72d8f04af5313c87058d71c265c7",
+    "i_wpn_t7_zmb_dg2_pipe_o.png": "d6e3fe94f90de7c2b6f9a8315dc6749864598087c9a55b88b9f8f9149333786a",
+    "i_wpn_t7_zmb_dg2_pipe_r.png": "c395802ef873a5703959093c4255bcdf49e3dfbc8448668f7f53e1ef52f5802c",
+    "i_wpn_t7_zmb_dg2_pipe_s.png": "bcf222a95b9f2e26dab80afcfe69b549fbd9697774e46e5c1763b7ee6e312968",
+    "i_wpn_t7_zmb_dg2_power.png": "146510df4fb58a621288a89f5eda0cf8ccfd9e9e56cbb0710cc372d66afc1b29",
+    "i_wpn_t7_zmb_dg2_power_c.png": "b4785dc1f0d9cc827798bab5e22524cbe2ddaf7769346fc963c6363ee9685c10",
+    "i_wpn_t7_zmb_dg2_power_n.png": "4cb9ec23ce773007428310f843a442f011df9616a37461d0dc424f7eaec6b866",
+    "i_wpn_t7_zmb_dg2_wood_c.png": "290d88ee238dceeafe590fbade11ef4a72b1a82eaf8be8869946950ac75bed71",
+    "i_wpn_t7_zmb_dg2_wood_g.png": "4981aa05490f6b80ff5bef51770229071fbf5e3f97c807b01da4842a9644ea7c",
+    "i_wpn_t7_zmb_dg2_wood_n.png": "3f6463dcc070057532d90798962052bbafdc44e7aa42d6574e180490f0470638",
+    "i_wpn_t7_zmb_dg2_wood_o.png": "ce95f040343b31aa78dcbc0e55b29e7cb208627aa7be3208fab3ec6a2ca09cb4",
+    "i_wpn_t7_zmb_dg2_wood_r.png": "affba8b0ed8a5654d103b7f8110911ff63a7eaba87fff7a4646f256952ef0560",
+    "i_wpn_t7_zmb_dg2_wood_s.png": "ef4353154f7c9cf09737546868d21ec8bc388ec494727becf13bbacd8d13a8d1"
+  },
+  "palette": {
+    "core": [
+      255,
+      214,
+      64
+    ],
+    "core_hot": [
+      255,
+      246,
+      196
+    ],
+    "amber": [
+      255,
+      156,
+      24
+    ],
+    "gold": [
+      214,
+      168,
+      74
+    ]
+  },
+  "notes": "Normal maps are the DG-2 originals copied byte-for-byte under Wunderstrahl names; every other map is authored here. Gloss maps are relative to glossRange 0..12 (opaque) / 0..8 (glass)."
+}

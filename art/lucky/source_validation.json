@@ -1,0 +1,18 @@
+{
+  "models": 2,
+  "triangles": {
+    "tod_luck_clover": [
+      7940,
+      3978,
+      1804
+    ],
+    "tod_luck_meteor": [
+      6028
+    ]
+  },
+  "textures": 10,
+  "meteor_hit_r": 195.0,
+  "drop_material": "mtl_x2icon_gold",
+  "native_compiled_checked": false,
+  "native_playtested": false
+}

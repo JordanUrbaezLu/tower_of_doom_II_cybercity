@@ -1,0 +1,155 @@
+{
+  "source_gdt": "source_library\\fire_bow\\original\\hb21_elemental_bows_v1.0.0\\source_data\\wpn_t7_zmb_bow.gdt",
+  "source_sha256": "0184d2eb2078f7ae0fbc21316eae84f158e49df8fe0ef5752b2180c67eec21ae",
+  "output_sha256": "6285f772a41e7c30ea2bf62221463943e4215e9f923ba33689015c51cf9c059f",
+  "images": {
+    "i_wpn_t7_zmb_bow_rune_c": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_c.png",
+      "sha256": "e8a61cc004876fdfde31a0be618168e1699af995c345a88787e221c747081144"
+    },
+    "i_tod_fire_bow_lava": {
+      "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_fire_bow\\i_tod_fire_bow_lava.png",
+      "sha256": "647c7f282a9031dbcc89d8580d647b73adb6169b2c56022f8ffba6a8b093b162"
+    },
+    "i_wpn_t7_zmb_bow_rune_e": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_e.png",
+      "sha256": "2e3b0dc7829da2b919902301f188c9c2c277dc06eb1d83488c7fcf93fae70709"
+    },
+    "i_wpn_t7_zmb_bow_rune_n": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_n.png",
+      "sha256": "327193a9bd954e54cad284466cff2b1f5316ccabcb148db6cdfaae42ef81833f"
+    },
+    "i_wpn_t7_zmb_bow_rune_g": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_g.png",
+      "sha256": "195f9bc37edc89dd51d45cc5c48a75b0d74f2c7d6545285a6c85ea1fe4397ae9"
+    },
+    "i_wpn_t7_zmb_bow_rune_o": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_o.png",
+      "sha256": "ed926a400bfbfc4cfeb5b562f0ee2f9caa868ca61fb1105eb464b4a986f6c0f9"
+    },
+    "i_wpn_t7_zmb_bow_rune_handle_c": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_c.png",
+      "sha256": "86691ed3075767b3a0989a694bb3bd4015096d13b713067c45970a755600d0e2"
+    },
+    "i_wpn_t7_zmb_bow_rune_handle_e": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_e.png",
+      "sha256": "b89a35510d364846ae75e631b5b713108f5b27532d708193aae6131fc78eaaa9"
+    },
+    "i_wpn_t7_zmb_bow_rune_handle_n": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_n.png",
+      "sha256": "acf90046d75168a5c25d1306b8efb5592b4e22b5211d213684f12a5f157ea994"
+    },
+    "i_wpn_t7_zmb_bow_rune_handle_g": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_g.png",
+      "sha256": "4eb4dc2edf180bb669e8f0981cb38956427d70699fcec149a6c07b470357436d"
+    },
+    "i_wpn_t7_zmb_bow_rune_handle_o": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_o.png",
+      "sha256": "599d01cfc1e4730acfd3707b1f860c0439f705d9b10d1b5239b87c40651bd6f0"
+    },
+    "i_wpn_t7_zmb_bow_rune_rocks_c": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_c.png",
+      "sha256": "7dbd7e945396b2970866be859b078c728e1da260ca933d2cd27a2b7af1b572c0"
+    },
+    "i_wpn_t7_zmb_bow_rune_rocks_e": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_e.png",
+      "sha256": "efe160f7f8d5fb44becfb6a7ec1eaa03f715b17cb814965b3bbb8b30aa7d5180"
+    },
+    "i_wpn_t7_zmb_bow_rune_rocks_n": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_n.png",
+      "sha256": "ff22bddac496ae096cb79a20849a487accb8cd2aab374832d2ae514e19a2ad44"
+    },
+    "i_wpn_t7_zmb_bow_rune_rocks_g": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_g.png",
+      "sha256": "1abe0e87b3ee13a0cd5ebee748370a6d4a694a9a4376d9246a7641bc1c1577d8"
+    },
+    "i_wpn_t7_zmb_bow_rune_rocks_o": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_o.png",
+      "sha256": "8cbc64e6b2f6fbf9b8083fac489d743e2ba2aabb9e5548afd6ea1058b3ee363b"
+    },
+    "i_wpn_t7_zmb_bow_rune_missile_c": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_c.png",
+      "sha256": "05d1e5dc467af0152d933e88413807726ec76e81a7e3af2bda7f495a86debb04"
+    },
+    "i_wpn_t7_zmb_bow_rune_missile_e": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_e.png",
+      "sha256": "333139b6949637de42d87dc4e1086fc60b65d1f87e9b02cb1762d722b93d8e49"
+    },
+    "i_wpn_t7_zmb_bow_rune_missile_n": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_n.png",
+      "sha256": "4602d769a056e4a7f85e96872a7d90b17788cad5165ae0649214670a3df63850"
+    },
+    "i_wpn_t7_zmb_bow_rune_missile_g": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_g.png",
+      "sha256": "ac93bd5f7ad68f9e5eb53e8b0fa559daf3cdaaa8ca91fcdea967e0f78f871805"
+    },
+    "i_wpn_t7_zmb_bow_rune_missile_o": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_o.png",
+      "sha256": "2fae10c56efc6e01e83f3880da8f519d2ff5bdd8532a5167aaca10415aab9c25"
+    }
+  },
+  "models": {
+    "view": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\wpn_t7_zmb_bow_rune_view.xmodel_bin",
+      "sha256": "6020bcae106e1f082bf17d59c962fd428260fa7082c9e10df31a422cfa25113d",
+      "triangles": 39722,
+      "bones": 53
+    },
+    "world": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\wpn_t7_zmb_bow_rune_world.xmodel_bin",
+      "sha256": "66ed83a5472f5c9ea2f1cf4e6b3c40bddeee7cd99d0f2d5493a26127ab1a3123",
+      "triangles": 32889,
+      "bones": 15
+    },
+    "projectile": {
+      "file": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\wpn_t7_zmb_bow_rune_projectile.xmodel_bin",
+      "sha256": "6126ca170b064a458dbc593d844cb49ad8be834bbd3b64c0e269cb3d4a0187af",
+      "triangles": 1190,
+      "bones": 1
+    }
+  },
+  "weapons": [
+    "cc_fire_bow_d0s0_zm",
+    "cc_fire_bow_d0s1_zm",
+    "cc_fire_bow_d0s2_zm",
+    "cc_fire_bow_d0s3_zm",
+    "cc_fire_bow_d0s4_zm",
+    "cc_fire_bow_d1s0_zm",
+    "cc_fire_bow_d1s1_zm",
+    "cc_fire_bow_d1s2_zm",
+    "cc_fire_bow_d1s3_zm",
+    "cc_fire_bow_d1s4_zm",
+    "cc_fire_bow_d2s0_zm",
+    "cc_fire_bow_d2s1_zm",
+    "cc_fire_bow_d2s2_zm",
+    "cc_fire_bow_d2s3_zm",
+    "cc_fire_bow_d2s4_zm",
+    "cc_fire_bow_d3s0_zm",
+    "cc_fire_bow_d3s1_zm",
+    "cc_fire_bow_d3s2_zm",
+    "cc_fire_bow_d3s3_zm",
+    "cc_fire_bow_d3s4_zm",
+    "cc_fire_bow_up_d0s0_zm",
+    "cc_fire_bow_up_d0s1_zm",
+    "cc_fire_bow_up_d0s2_zm",
+    "cc_fire_bow_up_d0s3_zm",
+    "cc_fire_bow_up_d0s4_zm",
+    "cc_fire_bow_up_d1s0_zm",
+    "cc_fire_bow_up_d1s1_zm",
+    "cc_fire_bow_up_d1s2_zm",
+    "cc_fire_bow_up_d1s3_zm",
+    "cc_fire_bow_up_d1s4_zm",
+    "cc_fire_bow_up_d2s0_zm",
+    "cc_fire_bow_up_d2s1_zm",
+    "cc_fire_bow_up_d2s2_zm",
+    "cc_fire_bow_up_d2s3_zm",
+    "cc_fire_bow_up_d2s4_zm",
+    "cc_fire_bow_up_d3s0_zm",
+    "cc_fire_bow_up_d3s1_zm",
+    "cc_fire_bow_up_d3s2_zm",
+    "cc_fire_bow_up_d3s3_zm",
+    "cc_fire_bow_up_d3s4_zm"
+  ],
+  "native_compiled": false,
+  "native_visual_verified": false
+}

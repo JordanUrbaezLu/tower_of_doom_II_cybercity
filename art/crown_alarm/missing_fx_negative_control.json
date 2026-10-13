@@ -1,0 +1,6 @@
+{
+  "test": "omit root FX but keep compiled models and light child",
+  "passed": true,
+  "exit_code": 1,
+  "diagnostic": "AssertionError: Crown alarm spotlight missing from compiled assets"
+}

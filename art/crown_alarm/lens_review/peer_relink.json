@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-01T13:44:18.408853-04:00",
+  "peer_build_log": "tmp/black_market_vo/gsc19.log",
+  "guarded_build_ok": true,
+  "fastfile_sha256": "33cfbc45696a14eb919a53e740d8aa7d3053f96db6d7317d733e64e49a2dc912",
+  "fastfile_bytes": 228267904,
+  "fastfile_modified_at": "2026-10-01T13:41:29.594407-04:00",
+  "compiled_material_receipt_sha256": "d1eb29dd3df4764aceff617cc3c083f62917169ff7cbda52912525a2e5e636f3",
+  "compiled_image_receipt_sha256": "6fc89c7cd4071a8721776b3b109b1f14ccdcc6b1bc117188630806ad7dd08814",
+  "native_glass_gates_passed": true,
+  "native_playtested": false
+}

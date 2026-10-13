@@ -1,0 +1,44 @@
+{
+  "verified_at": "2026-10-08T15:23:14.481182-04:00",
+  "ff_bytes": 220396416,
+  "ff_sha256": "6adf2e8fdc9d0a86493f2a0ea8c9e822b568f3f0e8232c1e251c450af52cf554",
+  "ff_time": "2026-10-08T15:20:49.643704-04:00",
+  "source_inputs": 291,
+  "floor_count": 4,
+  "machine_count": 4,
+  "floors": [
+    10,
+    20,
+    30,
+    40
+  ],
+  "placement": {
+    "machine_count": 4,
+    "floor_count": 4,
+    "floors": [
+      10,
+      20,
+      30,
+      40
+    ],
+    "inside_existing_haven_domes": true,
+    "generated_gsc_matches_layout": true,
+    "purchaser_nav_probes_required": 12,
+    "haven_route_connections_required": 4,
+    "layout_source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\wunderfizz_layout.js",
+    "layout_source_sha256": "614336dfd9db569e7b2c4fae221381b91f1c44652fb514a3bbb5138a15adc70b",
+    "generated_data": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_data.gsc",
+    "generated_data_sha256": "f953b4222392627dd1d4368acdc895235c050b5f71ecb7d768ddd5174ceea460"
+  },
+  "retired_individual_machine_structs": 9,
+  "all_fourteen_native_lods_verified": true,
+  "complete_material_tables_verified": true,
+  "original_glass_alpha_mips_verified": 13,
+  "original_machine_pcm_files": 7,
+  "failures": [],
+  "postbuild_peer_source_changes": [],
+  "shipping_snapshot_and_private_deployment_match": true,
+  "wunderfizz_source_still_matches_deployment": true,
+  "game_launched": false,
+  "native_playtest": "Pending; the user tests appearance, audio, controls, drink flow and diagnostic output."
+}

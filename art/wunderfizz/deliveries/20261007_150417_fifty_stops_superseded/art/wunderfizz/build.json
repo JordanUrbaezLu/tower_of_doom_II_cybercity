@@ -1,0 +1,62 @@
+{
+  "verified_at": "2026-10-07T15:12:31.223966-04:00",
+  "ff_bytes": 220532160,
+  "ff_sha256": "1f4f36b8028fdc1ced11f8d81e9e8fb0d502b3536f7257a00578942aad267ad4",
+  "ff_time": "2026-10-07T15:04:17.437771-04:00",
+  "source_inputs": 290,
+  "floor_count": 50,
+  "retired_individual_machine_structs": 9,
+  "all_fourteen_native_lods_verified": true,
+  "complete_material_tables_verified": true,
+  "original_glass_alpha_mips_verified": 13,
+  "original_machine_pcm_files": 7,
+  "failures": [],
+  "postbuild_peer_source_changes": [
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc",
+      "compiled_snapshot_sha256": "ffc5deaeb8af5aabcb8cf6de86ffd329c1d9994180eaea251d62511cfb3c81ca",
+      "pending_source_sha256": "c03c9317e8c8423fc9df1191933c98c97809c71846c3c4589236bbca3cfe7cbf",
+      "pending_source_time": "2026-10-07T15:07:38.684366-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_dealer_finale.gsc",
+      "compiled_snapshot_sha256": "0096ecce1a4ed2f5c4596b7df8b0901b26e307c1ad70c184c83aff60688e264e",
+      "pending_source_sha256": "9fa9641e79e3131454e090eb5fb2decdc162e3b6af0c633e0141fc236aae8817",
+      "pending_source_time": "2026-10-07T15:07:38.685365-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    },
+    {
+      "file": "scripts/zm/zm_tod2_cybercity/_tod_house.gsc",
+      "compiled_snapshot_sha256": "fbdfe9aee7808e3a14f3aa813c3e937bcacfd2d899e7bc5aab30d80143047fb4",
+      "pending_source_sha256": "d4bf9ce574dc9e722a72fdb6944bf501f9dfc99a1ba564a868efa5ffb0f57c95",
+      "pending_source_time": "2026-10-07T15:07:38.686367-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    },
+    {
+      "file": "sound/aliases/tod_dealer_combat.csv",
+      "compiled_snapshot_sha256": null,
+      "pending_source_sha256": "597201489dda7dd8728b0c6e1bda87435266225a2c6234a9d4e32bd072919cce",
+      "pending_source_time": "2026-10-07T15:07:38.689366-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    },
+    {
+      "file": "sound/zoneconfig/zm_tod2_cybercity.szc",
+      "compiled_snapshot_sha256": "52ae84df4d47604da27e5d31b0cae7ce7479731c46af26987d72f70ef5509951",
+      "pending_source_sha256": "32c0cde4649d4c408e2526e36c25494a212a862541fd9a5691509ecbee3065bb",
+      "pending_source_time": "2026-10-07T15:07:38.691654-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    },
+    {
+      "file": "zone_source/zm_tod2_cybercity.zone",
+      "compiled_snapshot_sha256": "df828e73ef3deb36631c33a6290b9887aee3c380ec868ff6e939e8b68ef6a1d1",
+      "pending_source_sha256": "36bdd020ec6533813b2fad4b46a7cd059e7fd9a1a6889b00ff11046dbd5187c6",
+      "pending_source_time": "2026-10-07T15:07:38.701262-04:00",
+      "status": "Post-build Dealer work; not in this FF"
+    }
+  ],
+  "shipping_snapshot_and_private_deployment_match": true,
+  "wunderfizz_source_still_matches_deployment": true,
+  "game_launched": false,
+  "native_playtest": "Pending; the user tests appearance, audio, controls, drink flow and diagnostic output."
+}

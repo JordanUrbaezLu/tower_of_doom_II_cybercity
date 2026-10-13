@@ -1,0 +1,32 @@
+{
+  "landed_at": "2026-10-07T14:46:27.136711-04:00",
+  "kind": "lossless_fix",
+  "files": {
+    "source_data/tod2_bo6_wunderfizz.gdt": {
+      "before_sha256": "80d6aee0a39ba947b7f01a62db7631665e554bf0e0b31a6bcf9fc90ff61f5e5d",
+      "sha256": "f7a7aec747865c9d2047bca8a494f2c1526e982b226700d613ba549f89f8778a",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_fix\\staged_sources\\source_data\\tod2_bo6_wunderfizz.gdt"
+    },
+    "art/wunderfizz/asset_manifest.json": {
+      "before_sha256": "f8b4dd7f2b674314b00880e6a139b093ee93f06cec367a14d84e080c31151ea2",
+      "sha256": "994390e2f4f76763e0a17a38d7739b574460c2262d688208d97dcee5e5ebff5c",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_fix\\staged_sources\\art\\wunderfizz\\asset_manifest.json"
+    },
+    "tools/wunderfizz_layout.js": {
+      "before_sha256": "91b356a202a4292e59d3866bf7627f9c0c0e5807aca60c0e3b7bb6f071bcf468",
+      "sha256": "2894966bff474cbd1f13234428c0b5f9b6f4b4a7376d044a781c7d2c8b126627",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_fix\\staged_sources\\tools\\wunderfizz_layout.js"
+    },
+    "tools/wunderfizz/staged/stage_bo6_machine.py": {
+      "before_sha256": "144906f5bffbae5d41758d40540a34a1aea860f51731feef8adc368f57538563",
+      "sha256": "92c92fda713a6737e12a686015f5464030db5766bdfada9967dee1da01d5f4ee",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_fix\\staged_sources\\tools\\wunderfizz\\staged\\stage_bo6_machine.py"
+    },
+    "tools/wunderfizz/verify_compiled_assets.py": {
+      "before_sha256": "19ebc15d95535d315f45646c3a7c69a8ca3d2c36f19442093fabb896c685e347",
+      "sha256": "74997918bbf91a8d577508a3bf1aa73522dd4c8bfab2ce4f0e983aa656cdbedf",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\lossless_fix\\staged_sources\\tools\\wunderfizz\\verify_compiled_assets.py"
+    }
+  },
+  "game_launched": false
+}

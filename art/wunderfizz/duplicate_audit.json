@@ -1,0 +1,55 @@
+{
+  "requested_exact_names": [
+    "i_t10_zm_machine_wunderfizz_glass_c",
+    "i_t10_zm_machine_wunderfizz_glass_e",
+    "i_t10_zm_machine_wunderfizz_glass_g",
+    "i_t10_zm_machine_wunderfizz_glass_n",
+    "i_t10_zm_machine_wunderfizz_glass_o",
+    "i_t10_zm_machine_wunderfizz_part_c",
+    "i_t10_zm_machine_wunderfizz_part_g",
+    "i_t10_zm_machine_wunderfizz_part_n",
+    "i_t10_zm_machine_wunderfizz_part_o",
+    "i_t10_zm_machine_wunderfizz_part_s",
+    "i_t10_zm_machine_wunderfizz_subject_c",
+    "i_t10_zm_machine_wunderfizz_subject_g",
+    "i_t10_zm_machine_wunderfizz_subject_n",
+    "i_t10_zm_machine_wunderfizz_subject_o",
+    "i_t10_zm_machine_wunderfizz_subject_s",
+    "i_xmaterial_f5de48284288d22_c",
+    "i_xmaterial_f5de48284288d22_g",
+    "i_xmaterial_f5de48284288d22_n",
+    "i_xmaterial_f5de48284288d22_o",
+    "i_xmaterial_f5de48284288d22_s",
+    "t10_zm_machine_wunderfizz_fxanim",
+    "t10_zm_machine_wunderfizz_fxanim_activate",
+    "t10_zm_machine_wunderfizz_fxanim_on",
+    "t10_zm_machine_wunderfizz_glass",
+    "t10_zm_machine_wunderfizz_part",
+    "t10_zm_machine_wunderfizz_subject",
+    "xmaterial_28bd1759c33c0fd",
+    "xmaterial_788f7fadfacf66",
+    "xmaterial_f5de48284288d22"
+  ],
+  "searches": [
+    {
+      "scope": "private",
+      "root": "C:\\BO3Tools\\TOD2Cybercity\\source_data",
+      "duplicates": [],
+      "count": 0
+    },
+    {
+      "scope": "shared_read_only",
+      "root": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops III 455130\\source_data",
+      "duplicates": [],
+      "count": 0
+    },
+    {
+      "scope": "repository",
+      "root": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data",
+      "duplicates": [],
+      "count": 0
+    }
+  ],
+  "all_unambiguous": true,
+  "writes": "This receipt only; all source/database/cache roots read-only."
+}

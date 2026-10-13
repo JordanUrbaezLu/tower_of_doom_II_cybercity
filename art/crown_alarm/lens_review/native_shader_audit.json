@@ -1,0 +1,276 @@
+{
+  "created_utc": "2026-10-01T17:07:02.103181+00:00",
+  "mode": "read-only native shader and bounded private material packaging audit; final shipping link and user playtest pending",
+  "material": "mtl_tod_alarm_lens",
+  "native_techset": "mc/lit_emissive_transparent_advanced#e6142445",
+  "asset_dependencies": {
+    "scope": "isolated packaging proof, not shipping delivery",
+    "path": "C:\\BO3Tools\\TOD2Cybercity\\zone_source\\all\\assetinfo\\tod_alarm_lens_packaging_probe.deps",
+    "sha256": "350f7998ce2c138e899fb2abb1c0270eaea9ca8d1c50e07f9eb7c7f286635351",
+    "techset_header_line": 2,
+    "material_header_line": 510,
+    "material_name": "mc/mtl_tod_alarm_probe_correct_black",
+    "techset_block": "\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_H7BRNA45WWIWWTFBQ7HNJHEI47,1782952109,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_main_AOWOP7C3TTLVZ3BJ67PRKIS5W2,1782951724,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_2VN2A6H62U3C3F4SDFBJZPGEWH,1782952096,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_main_AOWOP7C3TTLVZ3BJ67PRKIS5W2,1782952069,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_UUQQQ5MH2PY7PFCIC4Z25I5T5E,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_3C6COLI4K47QXKUJXGFFEQ6F65,1782952108,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_CL3U7BQDTGOZOQASPRUWLFMG45,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_6C5MD2J2QDVE4YGKOBVVIF373N,1782952097,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_V2HLDKHLUEJ4I7XHCQXOS7CPK7,1782954104,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_main_6XTXEK6A5FEL6NDUUSSHLWTYXG,1782951726,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_RD4COVIWCX6T5YPGVEU4WG6G6L,1782954103,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_main_6XTXEK6A5FEL6NDUUSSHLWTYXG,1782952079,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_vs_7SWTZPNH2VW725PXBABPZ23L7G,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\techsetdef_unlit_simple.hlsl_ps_7COQ3T5KXXU5YXSB57N4AK3732,1782952109,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_7RCZAKT3ZVWJCO3D247PWKHBHK,1782952091,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_NZVZZO3AZZD2OEHESO5FEVAXEF,1782951847,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_D6XLSRM7CCSJGMPUGOHOBGB6ZW,1782952061,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP,1782952079,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_I4URWMCQDIODOMMBUMWFXBP67A,1782951708,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_JKXJQRZZXL3MS7PEHYW2YU2L6S,1782951850,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_TWSWQ2GPSXDUSZQYSRFLURCM6E,1782954148,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_AC74QJ3S3I2NCY7AIR2ZQVXHXE,1782952075,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_SOMRPSWGKFIQEMVKPU3ZDLZRZN,1782952091,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_DEU6GXKZU66DZT7Q2ABQUMYYYT,1782952059,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_TM4JUYI52IQFAS2XFFJQWJQZ4H,1782952157,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_G4EPCZ6OGDU3KV46CDQVT3WC6V,1782951847,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_NBLXCINNSWH3LXSY3V2QS2SE6E,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_OFHIYLIIPALFS5FW474J6QCEC4,1782952070,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_DAYNB4U4AJCXI24JDKTWUHSJ2M,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_WQHFR27WN37KIKNMPY23LVNPNF,1782952062,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_XWBJFDTD66AH6TW3N6LSFCVP52,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_A3SCPZAH7F62OD2GDE36XGALEH,1782951850,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_RQLGMMZEXEYGZMNZKIAL577V7N,1782951982,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_7YO6RPY3QAS2ADAPBRMGBOCAWN,1782951856,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_6ZO2KZXOQ3LEROTO6DJ25Q5J53,1782951711,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_VT5MB5DZSGV7BQAHLVJWIT3Z32,1782951851,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_AHPBL75L66FQYYLVZNPYOLLY73,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_2OXPYUPV755GVK4JXSQAEISEW3,1782952111,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_T7CFHQZVZNS7NRTTZZJETR3X3E,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_H62ID7KN6CJ2XCDWFTQ7RFQIUX,1782951982,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_HMIVJFKJ7ANCYSCBB5MHUIOAOR,1782951981,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_vs_main_VSEWQK5HZYPWKKDJNKERJUDEPL,1782951847,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_DI7KQVQUAZUOOZ2FMHH6KRXWX7,1782951844,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_OP7ABLQCYC2IR2TSZ6JOJVRB5G,1782952070,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_vs_EZEZCYNWVSEG7M52Q7QI4OV3VQ,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\lit_emissive_transparent.hlsl_ps_C5I66ASPDMLB45372RYVF6TL3R,1782951982,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_vs_FZK57FWT3PCGH5TLOUL6RWEBUV,1782952101,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\wireframe.hlsl_vs_main_EORMHYV2755FIY3RRLTNPMGQWN,1782952068,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_ps_D4YXLCVO2C4ROBC57AU5DQJ4N4,1782952096,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\wireframe.hlsl_ps_main_EORMHYV2755FIY3RRLTNPMGQWN,1782954111,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_vs_ZHA3JHR3GLIU7Z5KNJJZHMSN6O,1782952109,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_ps_5J74EPMMXL6URZG4YUEJ5FZD5R,1782952096,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_vs_4S6QTALB6FHGVZRJ4ARP54QH4C,1782952096,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_ps_JLRWOFRS45CEVFEV7NRT5AMDMH,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_vs_G3344R3PUEDCTNMCTDE4DBKQKU,1782954187,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\wireframe.hlsl_vs_main_CDE7AOHOA4AUEO4NZUHQLX6Z6S,1782952083,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_ps_JVZUXJKKRBPPCRAUS5GL3DJ255,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\wireframe.hlsl_ps_main_CDE7AOHOA4AUEO4NZUHQLX6Z6S,1782954107,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_vs_WP6SSHQEUPUAZLME6I2F55AP4H,1782952095,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\wireframe.hlsl_ps_E6S4UJMK6AZVIPOOL774IDMI4Q,1782952104,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_vs_YKYO64LETTYPQZOFX44RMFDTDU,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\overdraw.hlsl_vs_main_MN7OS53JSKGQMZVMCPSQT2RJZF,1782952079,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_ps_B5LJCFPRF36DRPBB7Z6L62UNUW,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\overdraw.hlsl_ps_main_MN7OS53JSKGQMZVMCPSQT2RJZF,1782952076,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_vs_B2EKKM7BGN2NEGWDWUHLN6P47W,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_ps_FBLDGLEMO5TB47R6QDKEWLYL4D,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_vs_FDVYGTDNP6HINRRFYNOESC3I7D,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_ps_6I6757ZSRUY2CIXBUKH2MSLD7C,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_vs_7H6OM3B3KINRRCJDASAANRON6B,1782951983,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\overdraw.hlsl_vs_main_KWVDZADIQIATJBISNCCZ5FO3OG,1782952079,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_ps_FTQAAQEQQHVYKEJ2J6QEQ7KE2H,1782951983,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\overdraw.hlsl_ps_main_KWVDZADIQIATJBISNCCZ5FO3OG,1782952075,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_vs_G3DTULXRUERB3BYG2HFLRHUR4B,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\overdraw.hlsl_ps_HBYFV4ZGCYCTEUM6MZLHWNFHFI,1782951713,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_vs_LISEXL3XMFWAI5MKMS63ELFWNL,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_vs_main_E2OBPNZVDVOINGEAUAVMMJABMT,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_ps_UXKMPGGT63QPUDCRQKRMQMVO5C,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_ps_main_E2OBPNZVDVOINGEAUAVMMJABMT,1782951860,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_gs_HBC2VCYU6CHBKB5HSNBKUNHRPH,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_gs_main_E2OBPNZVDVOINGEAUAVMMJABMT,1782954105,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_vs_MHMG2SACL74KMZVSB5UC54QLQI,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_ps_NZHVG6MPTXULBWSV4HGOAZOJ6B,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_gs_UZCIU257LJ7AJISAI67PLZX472,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_vs_HMGDWLZ6XUNCUY4QFPPRR7BJZK,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_ps_JJFPCB3WHIO3EYW4OUCZJZADEU,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_gs_IA7KEDVA7DSZNRNIYGESAHD67P,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_vs_DYAIN5GCYCCI3Y33ARDTF7LALJ,1782954088,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_vs_main_6E2TPPGRWT6RD6CCIWSDJ6YMYU,1782954177,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_ps_2CI7MY6D4KZDBVR4IM5UY4ZTZD,1782954088,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_ps_main_6E2TPPGRWT6RD6CCIWSDJ6YMYU,1782951854,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_gs_WBBVP5TAOHFPHJTGVYQQV52O2Y,1782954088,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\matrix_mode.hlsl_gs_main_6E2TPPGRWT6RD6CCIWSDJ6YMYU,1782954111,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_vs_VSBALDCOMT6FPZJ3NGEIQXXF7R,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_ps_IDECMH52NQLGB64SLLH2YLXZ7P,1782952424,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\matrix_mode.hlsl_gs_M3OH5MHW4C7ILUG5EEQ77BQ2YB,1782952423,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_vs_WPREACTTBOJWJEOHQETXM5XU7B,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_vs_main_37FFASJFFOFJECZJHCV6C6OWOT,1782951853,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_ps_V3YSB5KKNSTTKPSQHMBWZRFJF4,1782954090,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_ps_main_HFHAPMAXC6E67MV5ZSZTA36L64,1782951847,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_vs_YGPBN4WCK3ATPULP3OZVOG2R6I,1782951716,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_vs_main_2Q7UFNTDYTB6ZZTMJVZFJN4R4N,1782951847,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_ps_HU47VPDTGCWEC4CTZ4EJNV4J4U,1782954103,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_ps_main_CK7CD4EWR2OPHBUD53DGO3C4GQ,1782952009,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_vs_VCBZKJYKSGR2TJOJ5CY46CXQXB,1782954173,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_ps_5A7MFFQEY7HIF2ZF76WZLFX5XE,1782954091,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_vs_ESWCKSHHJNS5X7W2TXYQ2RIVIB,1782954103,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_vs_main_P5VCBIJJKTUHUJZX56HVPJ2X6K,1782951848,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_ps_NRBWIXQE7IAVHPS5ZGQ5MVLJPI,1782951952,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\specialty_thermal_solid.hlsl_ps_main_2USKUS37ZVYTVQORAUUSPTHSXJ,1782951850,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_vs_OQWBQMXNRSDG53S6W3XOH2VNVN,1782954172,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\preshader\\pc\\v7\\specialty_thermal_solid.hlsl_ps_ICMHIA5GDM66IXKCBXKS4VXLXW,1782954090,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\geometry_advanced\\lit_emissive_transparent_advanced.techsetdef,1782952188,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\lit_base.techsetdef,1782952057,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\lit_base_mid.techsetdef,1782951758,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\lit_base_basic.techsetdef,1782954107,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\lit_base_stub.techsetdef,1782954148,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\lit_base_shaders.techsetdef,1782952059,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\state.techsetdef,1782952008,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\renderFlags.techsetdef,1782952059,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\usage.techsetdef,1782954126,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\debug_shared.inc.techsetdef,1782952238,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\color_base.techsetdef,1782952056,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\normal_base.techsetdef,1782951758,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\shadowmap_technique_base.techsetdef,1782951993,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\thermal_base.techsetdef,1782952238,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\ao_base.techsetdef,1782952238,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\gloss_base.techsetdef,1782952238,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\specular_base.techsetdef,1782952079,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\transparent_shadow_base.techsetdef,1782952165,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\emissive_base.techsetdef,1782951901,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\transparent_base.techsetdef,1782954198,\n\tfile,C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\camo_base.techsetdef,1782954205,",
+    "lens_material_block": "\tasset,techset,mc/lit_emissive_transparent_advanced#e6142445\n\tasset,image,i_tod_alarm_lens_c\n\tasset,image,i_tod_alarm_lens_n\n\tasset,image,$gray_32_one_channel\n\tasset,image,$white_ao\n\tasset,image,i_tod_alarm_lens_g\n\tasset,image,$black_specular\n\tasset,image,$camo_base_mask\n\tasset,image,$camo_base_normal\n\tasset,image,$camo_base_gloss\n\tasset,image,$white_reveal\n\tgdt,material,mtl_tod_alarm_probe_correct_black,9C-52-90-0D-C8-B8-D3-74-E6-DE-2C-77-08-B2-A8-5B\n\tgdt,image,i_tod_alarm_lens_c,96-B5-D6-70-26-51-42-4F-9D-A4-5F-63-05-5A-52-5F\n\tgdt,image,i_tod_alarm_lens_n,8C-01-E2-70-65-70-28-70-6C-2A-44-18-53-93-4F-8E\n\tgdt,image,$gray_32_one_channel,A5-03-97-FA-0A-B5-AD-95-E9-7B-CC-97-DE-23-8A-B9\n\tgdt,image,$white_ao,20-95-78-30-1F-76-9A-96-43-F3-CB-9B-51-B8-68-95\n\tgdt,image,i_tod_alarm_lens_g,4E-2B-61-F0-3F-73-85-CF-80-AB-4D-67-64-3D-19-B3\n\tgdt,image,$black_specular,B3-06-CA-1A-DD-C0-E2-9B-8D-A9-5C-9E-34-84-70-79\n\tgdt,image,$camo_base_mask,0F-9F-FC-1E-49-BB-18-3C-29-BF-5A-A9-05-C3-03-C3\n\tgdt,image,$camo_base_normal,AA-4D-AC-6D-0C-4C-8E-11-E5-47-E6-AF-A9-FA-91-BA\n\tgdt,image,$camo_base_gloss,13-B1-81-3D-8C-6F-C0-BB-7D-73-28-1A-96-82-80-69\n\tgdt,image,$white_reveal,9E-76-98-1C-0E-A3-11-C4-CC-C3-C5-CE-A5-64-94-91"
+  },
+  "primary_packed_shader": "lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP",
+  "packed_pixel_shaders": [
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP",
+      "bytecode_sha256": "d6610ed802358a339dba354acf8d6892dd667813582297e682d540cb4bf03ed2",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_E3CY6M56JV2K3H2I5AMCRHUMUP.txt",
+      "disassembly_sha256": "884b797914d15785cf41efe18300b4c36cd21bc5eb18df6d7e25424cc708119e",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3034,
+          "instruction": "add o0.w, r0.w, r1.x"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    },
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_AC74QJ3S3I2NCY7AIR2ZQVXHXE",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_AC74QJ3S3I2NCY7AIR2ZQVXHXE",
+      "bytecode_sha256": "603437be80560d34397b620e1236141d70fa73c6a4b604f6204b1456ba5b7021",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_AC74QJ3S3I2NCY7AIR2ZQVXHXE.txt",
+      "disassembly_sha256": "1dcea1c04794c13d2a641b137d79ecd3f795484b58ba75a04808c55bcf0f389d",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3369,
+          "instruction": "add o0.w, r0.w, r1.x"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    },
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_OFHIYLIIPALFS5FW474J6QCEC4",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_OFHIYLIIPALFS5FW474J6QCEC4",
+      "bytecode_sha256": "d6610ed802358a339dba354acf8d6892dd667813582297e682d540cb4bf03ed2",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_OFHIYLIIPALFS5FW474J6QCEC4.txt",
+      "disassembly_sha256": "884b797914d15785cf41efe18300b4c36cd21bc5eb18df6d7e25424cc708119e",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3034,
+          "instruction": "add o0.w, r0.w, r1.x"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    },
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_7YO6RPY3QAS2ADAPBRMGBOCAWN",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_7YO6RPY3QAS2ADAPBRMGBOCAWN",
+      "bytecode_sha256": "e11338cf70f3d7061f63f71ead66e1dc7866f73709a8c9c28d06b544adbfd655",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_7YO6RPY3QAS2ADAPBRMGBOCAWN.txt",
+      "disassembly_sha256": "57144d56d1eb4fbfa54fcfa295cebef92aef14e146f8786ea745b03f739bcd6d",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3180,
+          "instruction": "movc o0.xyzw, r0.wwww, l(0,0,0,0), r1.xyzw"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    },
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_2OXPYUPV755GVK4JXSQAEISEW3",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_2OXPYUPV755GVK4JXSQAEISEW3",
+      "bytecode_sha256": "07e1a8566acfe3adef286dac180f809dbe90f0a671e855afd6a017ac3cde1bf6",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_2OXPYUPV755GVK4JXSQAEISEW3.txt",
+      "disassembly_sha256": "eea123935e0238cf869392bdfcdb2ceeaa6a499367b3ca0de10ecaa62974f0f4",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3515,
+          "instruction": "movc o0.xyzw, r0.wwww, l(0,0,0,0), r1.xyzw"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    },
+    {
+      "name": "lit_emissive_transparent.hlsl_ps_main_OP7ABLQCYC2IR2TSZ6JOJVRB5G",
+      "bytecode_path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\shaders\\pc\\v7\\lit_emissive_transparent.hlsl_ps_main_OP7ABLQCYC2IR2TSZ6JOJVRB5G",
+      "bytecode_sha256": "7321667eaed5ee291b14439c5986a3ce1690a234371d870ad638819dc9c63d66",
+      "disassembly_path": "tmp\\alarm_lens_repair\\lit_emissive_transparent.hlsl_ps_main_OP7ABLQCYC2IR2TSZ6JOJVRB5G.txt",
+      "disassembly_sha256": "a93b6212fa12d6ccc27b00ba53df22ed5d63c9ff8bbc765a1fe13ae724775cd7",
+      "discard_instructions": 0,
+      "output_alpha_instructions": [
+        {
+          "line": 3183,
+          "instruction": "movc o0.xyzw, r0.wwww, l(0,0,0,0), r1.xyzw"
+        }
+      ],
+      "resources": [
+        "// colorMap                          texture  float4          2d             t0      1 ",
+        "// specColorMap                      texture  float4          2d            t22      1 ",
+        "// normalMap                         texture  float4          2d            t24      1 ",
+        "// glossMap                          texture  float4          2d            t25      1 ",
+        "// emissiveMap                       texture  float4          2d            t29      1 "
+      ]
+    }
+  ],
+  "obsolete_prior_sample": {
+    "name": "lit_emissive_transparent.hlsl_ps_main_24YIDZERH2VTYMYCAJL3EBXP75",
+    "is_dependency_of_native_lens_techset": false,
+    "reason": "Preserved sample has alpha test and is absent from actual lens techset dependency block; cannot establish runtime transparency or specular response."
+  },
+  "native_blend": {
+    "techset_source": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\geometry_advanced\\lit_emissive_transparent_advanced.techsetdef",
+    "state_source": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\state.techsetdef",
+    "state": "blend + depth",
+    "color_equation": "src.rgb * src.a + dst.rgb * (1 - src.a)",
+    "depth_test": "lessEqual",
+    "depth_write": false,
+    "discard_in_packed_pixel_shaders": false
+  },
+  "native_alpha": {
+    "color_source": "colorMap.a * vertex_alpha",
+    "primary_start_instructions": [
+      "sample_indexable(texture2d)(float,float,float,float) r0.xyzw, v1.yzyy, t0.xyzw, s1",
+      "mul r0.w, r0.w, v1.x"
+    ],
+    "output": "opacity = colorMap.a * vertex_alpha + saturate(luminance(exposure-adjusted emissive contribution))",
+    "emissive_zero": "Lens scaleRGB=0; no lens self-emission, so additional emissive opacity is zero. This does not alter independent rotor emission or FX lighting.",
+    "scaleRGB": 0.0,
+    "primary_output_line": 3034
+  },
+  "native_specular": {
+    "shader_slot": "t22",
+    "shader_sampler": "s3",
+    "slot_semantic": "specularMask",
+    "bound_image": "$black_specular",
+    "declared_lens_s_is_packed_dependency": false,
+    "declared_lens_s_is_metadata_dependency": false,
+    "bound_source": "C:\\BO3Tools\\TOD2Cybercity\\texture_assets\\t7_default\\default_black_0.tif",
+    "bound_source_sha256": "b3269a5cfe7c5deda1f5070de3c328e00bbc735c5e460e5c13d8638d4009714c",
+    "pixel_bits": 16,
+    "pixel_value": 0,
+    "mask_linear": 0.0,
+    "bound_image_semantic": "specularMask",
+    "bound_image_coreSemantic": "Linear1ch",
+    "formula": "F0 = 0.04 + mask_linear * (linear(specColorTint.rgb) - 0.04)",
+    "shader_instructions": [
+      "sample_indexable(texture2d)(float,float,float,float) r1.x, v1.yzyy, t22.xyzw, s3",
+      "add r1.yzw, cb0[11].xxyz, l(0.000000, -0.040000, -0.040000, -0.040000)",
+      "mad r1.yzw, r1.xxxx, r1.yyzw, l(0.000000, 0.040000, 0.040000, 0.040000)"
+    ],
+    "current_specColorTint": ".220916 .220916 .220916 1",
+    "before_effective_F0": null,
+    "proposed_specColorTint": ".220916 .220916 .220916 1",
+    "proposed_linear_tint": 0.03999987385806588,
+    "after_effective_F0_standard_srgb": 0.04,
+    "after_effective_F0_if_legacy_gamma22": 0.04,
+    "original_binding_invalid": true,
+    "diffuse_factor": 1.0,
+    "before_effective_F0_reason": "Original lens compiled only a reference shell; runtime reflection cannot be inferred.",
+    "binding_proof": "Source field exact-only variant, dependency-selected $black_specular and complete 11-entry image table including specColorMap; image pointer targets are not decoded.",
+    "compiled_constants_decoded": false
+  },
+  "tint_transfer": {
+    "proven_declaration": "value = \"srgb_to_linear( <specColorTint> )\"",
+    "source": "C:\\BO3Tools\\TOD2Cybercity\\share\\raw\\techsetdefs_stable\\include\\specular_base.techsetdef",
+    "source_sha256": "fd64cede3f15c2575053bd14be44fa5d47b2976cc8a4746f4b893a64d4ff6534",
+    "standard_srgb_to_linear": "c/12.92 for c <= 0.04045; ((c + 0.055)/1.055)^2.4 otherwise",
+    "inverse_standard_srgb_at_linear_0_04": 0.22091636254849623,
+    "pow2_2_inverse_at_0_04": 0.23151158235413094,
+    "native_definition_declares_gamma22": false,
+    "builtin_math_implementation_available": false,
+    "evidence_limit": "Techset explicitly names sRGB conversion; builtin implementation is unavailable. Numerical inverse uses standard IEC sRGB. With the proven black mask, F0 is exactly the shader dielectric baseline .04 and does not depend on tint transfer.",
+    "official_APE_palettes": {
+      "Everything": "0.219604492 0.219604492 0.219604492",
+      "Glass": "0.235290527 0.239196777 0.239196777"
+    },
+    "APE_path": "C:\\BO3Tools\\TOD2Cybercity\\deffiles\\material.awi"
+  },
+  "bounded_fix_recommendation": {
+    "material_only_field": "mtl_tod_alarm_lens.specColorTint and specColorMap",
+    "texture_only_channel": "i_tod_alarm_lens_c.png alpha",
+    "opaque_surfaces": "unchanged",
+    "geometry_uv_lod_pivot": "unchanged",
+    "emission_and_lights": "unchanged",
+    "color_rgb": "unchanged",
+    "normal_and_gloss": "unchanged",
+    "alpha_plan": "Dome around0.10, optical ribs around0.05, alpha<=0.10 throughout gutters/unused area so generated mipmaps never recover opacity1.0.",
+    "specColorMap": "$black_specular"
+  },
+  "native_visual_verified": false,
+  "game_launched": false,
+  "historical_incorrect_inference": {
+    "sha256": "2e2ac9900bcfe5a7b12cb0e51a1a8249b64a736e09b31fbc9246f272136402d4",
+    "path": "tmp\\alarm_lens_repair\\historical\\native_shader_audit_gray_inference_wrong.json",
+    "invalid_claims": [
+      "gray32 bound to specColorMap",
+      "F0-before = .123702449",
+      "full-color lens_s simply ignored as unused metadata"
+    ],
+    "correction": "The gray32 dependency is thermalHeatmap. Custom lens_s has incompatible usage and prevents material definition. Original shipping lens has no valid material constants/F0; inferred before value is invalid.",
+    "prior_native_specular": {
+      "shader_slot": "t22",
+      "shader_sampler": "s3",
+      "slot_semantic": "specularMask",
+      "bound_image": "$gray_32_one_channel",
+      "declared_lens_s_is_packed_dependency": false,
+      "declared_lens_s_is_metadata_dependency": true,
+      "bound_source": "C:\\BO3Tools\\TOD2Cybercity\\texture_assets\\t7_default\\default_gray_32.tif",
+      "bound_source_sha256": "4f7ace49083bb6648fe156ac880f8645bee5a0c064a27baa3e7b5b6219631aa3",
+      "pixel_bits": 16,
+      "pixel_value": 5714,
+      "mask_linear": 0.08719005111772335,
+      "bound_image_semantic": "One Channel",
+      "bound_image_coreSemantic": "Linear1ch",
+      "formula": "F0 = 0.04 + mask_linear * (linear(specColorTint.rgb) - 0.04)",
+      "shader_instructions": [
+        "sample_indexable(texture2d)(float,float,float,float) r1.x, v1.yzyy, t22.xyzw, s3",
+        "add r1.yzw, cb0[11].xxyz, l(0.000000, -0.040000, -0.040000, -0.040000)",
+        "mad r1.yzw, r1.xxxx, r1.yyzw, l(0.000000, 0.040000, 0.040000, 0.040000)"
+      ],
+      "current_specColorTint": "1 1 1 1",
+      "before_effective_F0": 0.12370244907301442,
+      "proposed_specColorTint": "0.220916363 0.220916363 0.220916363 1",
+      "proposed_linear_tint": 0.04,
+      "after_effective_F0_standard_srgb": 0.04,
+      "after_effective_F0_if_legacy_gamma22": 0.039658467196555476
+    }
+  },
+  "packaging_diagnostic": {
+    "proof_path": "art/crown_alarm/lens_review/binding_proof.json",
+    "proof_sha256": "ffff90320ff0fe287cdc747873c63889c22f82cae708f8da0d6371a5dc33d9f6",
+    "complete_black_control": true,
+    "bad_original_and_aliases_absent": true,
+    "shipping_delivery_verified": false,
+    "requires_fresh_final_ff_definition": true
+  }
+}

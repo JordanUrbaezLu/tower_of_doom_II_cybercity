@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "wired": true,
+  "state": "reviewed_ready_for_guarded_full_build",
+  "reason": "Final portrait, source provenance and matched reviews passed; actual map regenerated.",
+  "staging": "tmp/dealer_presence/staging",
+  "next": "Root guarded FULL build, then verify_native.py with combined build snapshot and full log; user native playtest.",
+  "historical_active_geometry_audit": "art/dealer_presence/changes.json",
+  "native_built": false,
+  "native_playtested": false,
+  "wired_ns": 1790786427213136800
+}

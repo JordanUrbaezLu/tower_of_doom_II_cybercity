@@ -1,0 +1,255 @@
+{
+  "verified_at": "2026-10-07T15:08:25.851653-04:00",
+  "input_pins": {
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod2_bo6_wunderfizz\\_images\\t10_zm_machine_wunderfizz_glass\\t10_zm_machine_wunderfizz_glass_c.png": "dfac47c99e4b061385c87cb8da8f28d667b4f4bf14e086c36ee1eda395ba502c",
+    "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone_source\\all\\assetinfo\\zm_tod2_cybercity.deps": "d033cab7a35edb8c9a14a5f097a82efc182727b07e4ad75baa7f54d85043e9f8",
+    "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_t10_zm_machine_wunderfizz_glass_c_OZSTHAPCUZZLGWIBP7INP6AUU4.iwi": "2d6c5d23680d64254000377bd3d555c3d9dd25869fa59e63b3f6e1e7fbd387ab",
+    "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone\\zm_tod2_cybercity.ff": "1f4f36b8028fdc1ced11f8d81e9e8fb0d502b3536f7257a00578942aad267ad4"
+  },
+  "current_owned_ff": "C:\\BO3Tools\\TOD2Cybercity\\usermaps\\zm_tod2_cybercity\\zone\\zm_tod2_cybercity.ff",
+  "current_owned_ff_bytes": 220532160,
+  "current_owned_ff_modified_at": "2026-10-07T15:04:17.437771-04:00",
+  "selected_native_iwi_format": 14,
+  "channel_order": "RGBA",
+  "decoded_bytes": 89478580,
+  "mips": [
+    {
+      "level": 0,
+      "size": [
+        4096,
+        4096
+      ],
+      "payload_start": 22369716,
+      "payload_end": 89478580,
+      "payload_bytes": 67108864,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.0,
+      "p99_alpha_error": 0.0,
+      "maximum_alpha_error": 0,
+      "sequential_box_mean_alpha_error": 0.0,
+      "sequential_box_maximum_alpha_error": 0
+    },
+    {
+      "level": 1,
+      "size": [
+        2048,
+        2048
+      ],
+      "payload_start": 5592500,
+      "payload_end": 22369716,
+      "payload_bytes": 16777216,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.022021055221557617,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.022021055221557617,
+      "sequential_box_maximum_alpha_error": 1
+    },
+    {
+      "level": 2,
+      "size": [
+        1024,
+        1024
+      ],
+      "payload_start": 1398196,
+      "payload_end": 5592500,
+      "payload_bytes": 4194304,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.02440166473388672,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.10256099700927734,
+      "sequential_box_maximum_alpha_error": 2
+    },
+    {
+      "level": 3,
+      "size": [
+        512,
+        512
+      ],
+      "payload_start": 349620,
+      "payload_end": 1398196,
+      "payload_bytes": 1048576,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.06111907958984375,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.21017837524414062,
+      "sequential_box_maximum_alpha_error": 2
+    },
+    {
+      "level": 4,
+      "size": [
+        256,
+        256
+      ],
+      "payload_start": 87476,
+      "payload_end": 349620,
+      "payload_bytes": 262144,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.0386505126953125,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.30633544921875,
+      "sequential_box_maximum_alpha_error": 3
+    },
+    {
+      "level": 5,
+      "size": [
+        128,
+        128
+      ],
+      "payload_start": 21940,
+      "payload_end": 87476,
+      "payload_bytes": 65536,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.033935546875,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.4029541015625,
+      "sequential_box_maximum_alpha_error": 3
+    },
+    {
+      "level": 6,
+      "size": [
+        64,
+        64
+      ],
+      "payload_start": 5556,
+      "payload_end": 21940,
+      "payload_bytes": 16384,
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.03466796875,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.524169921875,
+      "sequential_box_maximum_alpha_error": 3
+    },
+    {
+      "level": 7,
+      "size": [
+        32,
+        32
+      ],
+      "payload_start": 1460,
+      "payload_end": 5556,
+      "payload_bytes": 4096,
+      "alpha_min": 4,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.0439453125,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.6748046875,
+      "sequential_box_maximum_alpha_error": 4
+    },
+    {
+      "level": 8,
+      "size": [
+        16,
+        16
+      ],
+      "payload_start": 436,
+      "payload_end": 1460,
+      "payload_bytes": 1024,
+      "alpha_min": 27,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.04296875,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 0.90234375,
+      "sequential_box_maximum_alpha_error": 4
+    },
+    {
+      "level": 9,
+      "size": [
+        8,
+        8
+      ],
+      "payload_start": 180,
+      "payload_end": 436,
+      "payload_bytes": 256,
+      "alpha_min": 75,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.015625,
+      "p99_alpha_error": 0.36999999999999744,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 1.1875,
+      "sequential_box_maximum_alpha_error": 4
+    },
+    {
+      "level": 10,
+      "size": [
+        4,
+        4
+      ],
+      "payload_start": 116,
+      "payload_end": 180,
+      "payload_bytes": 64,
+      "alpha_min": 148,
+      "alpha_max": 255,
+      "mean_alpha_error": 0.125,
+      "p99_alpha_error": 1.0,
+      "maximum_alpha_error": 1,
+      "sequential_box_mean_alpha_error": 1.625,
+      "sequential_box_maximum_alpha_error": 3
+    },
+    {
+      "level": 11,
+      "size": [
+        2,
+        2
+      ],
+      "payload_start": 100,
+      "payload_end": 116,
+      "payload_bytes": 16,
+      "alpha_min": 178,
+      "alpha_max": 245,
+      "mean_alpha_error": 0.0,
+      "p99_alpha_error": 0.0,
+      "maximum_alpha_error": 0,
+      "sequential_box_mean_alpha_error": 2.25,
+      "sequential_box_maximum_alpha_error": 3
+    },
+    {
+      "level": 12,
+      "size": [
+        1,
+        1
+      ],
+      "payload_start": 96,
+      "payload_end": 100,
+      "payload_bytes": 4,
+      "alpha_min": 210,
+      "alpha_max": 210,
+      "mean_alpha_error": 0.0,
+      "p99_alpha_error": 0.0,
+      "maximum_alpha_error": 0,
+      "sequential_box_mean_alpha_error": 3.0,
+      "sequential_box_maximum_alpha_error": 3
+    }
+  ],
+  "original_source_dimensions": [
+    4096,
+    4096
+  ],
+  "base_rgba_byte_exact": true,
+  "base_channel_maximum_error": {
+    "R": 0,
+    "G": 0,
+    "B": 0,
+    "A": 0
+  },
+  "strict_staged_glass_gate_passed": true,
+  "strict_gate_failure": null,
+  "source_or_native_cache_mutated": false,
+  "native_tool_run": false,
+  "native_visual_verified": false,
+  "game_launched": false
+}

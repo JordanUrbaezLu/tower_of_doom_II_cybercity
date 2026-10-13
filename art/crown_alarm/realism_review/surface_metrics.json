@@ -1,0 +1,498 @@
+{
+  "dark motor-driven reflector back": {
+    "coverage": 0.623016357421875,
+    "chip_fraction": 0.004530982120989469,
+    "gloss_range": [
+      0.378120094537735,
+      0.5821900963783264
+    ]
+  },
+  "cast foot - mounting flange": {
+    "coverage": 0.4173126220703125,
+    "chip_fraction": 0.006545029068704523,
+    "gloss_range": [
+      0.3391816318035126,
+      0.5833196043968201
+    ]
+  },
+  "motor housing": {
+    "coverage": 0.46819305419921875,
+    "chip_fraction": 0.00690925090032102,
+    "gloss_range": [
+      0.3318142294883728,
+      0.5766806602478027
+    ]
+  },
+  "top metal cap": {
+    "coverage": 0.4519195556640625,
+    "chip_fraction": 0.021710504102373636,
+    "gloss_range": [
+      0.3566878139972687,
+      0.5898618102073669
+    ]
+  },
+  "protective vertical strut 0": {
+    "coverage": 0.28131103515625,
+    "chip_fraction": 0.0477326968973747,
+    "gloss_range": [
+      0.3496304750442505,
+      0.5899205207824707
+    ]
+  },
+  "protective shoulder 0": {
+    "coverage": 0.4259033203125,
+    "chip_fraction": 0.03468042419031241,
+    "gloss_range": [
+      0.37732696533203125,
+      0.5735514163970947
+    ]
+  },
+  "protective vertical strut 1": {
+    "coverage": 0.28131103515625,
+    "chip_fraction": 0.04295942720763723,
+    "gloss_range": [
+      0.35638874769210815,
+      0.5722655653953552
+    ]
+  },
+  "protective shoulder 1": {
+    "coverage": 0.4259033203125,
+    "chip_fraction": 0.04729148753224419,
+    "gloss_range": [
+      0.36400389671325684,
+      0.5880692005157471
+    ]
+  },
+  "protective vertical strut 2": {
+    "coverage": 0.28131103515625,
+    "chip_fraction": 0.03471468865263615,
+    "gloss_range": [
+      0.3466004729270935,
+      0.5834033489227295
+    ]
+  },
+  "protective shoulder 2": {
+    "coverage": 0.4259033203125,
+    "chip_fraction": 0.0352536543422184,
+    "gloss_range": [
+      0.37297946214675903,
+      0.5755465030670166
+    ]
+  },
+  "protective vertical strut 3": {
+    "coverage": 0.28131103515625,
+    "chip_fraction": 0.0405727923627685,
+    "gloss_range": [
+      0.360458105802536,
+      0.5751583576202393
+    ]
+  },
+  "protective shoulder 3": {
+    "coverage": 0.4259033203125,
+    "chip_fraction": 0.03181427343078246,
+    "gloss_range": [
+      0.3556630313396454,
+      0.5736566781997681
+    ]
+  },
+  "rotor bearing": {
+    "coverage": 0.5089263916015625,
+    "chip_fraction": 0.027793601774952777,
+    "gloss_range": [
+      0.3856968283653259,
+      0.590953528881073
+    ]
+  },
+  "single ruby polycarbonate dome": {
+    "coverage": 0.5010147094726562,
+    "chip_fraction": 0.0,
+    "gloss_range": [
+      0.6623445153236389,
+      0.7967132925987244
+    ]
+  },
+  "lens optical rib 14": {
+    "coverage": 0.01318359375,
+    "chip_fraction": 0.12962962962962962,
+    "gloss_range": [
+      0.6644783616065979,
+      0.7908715009689331
+    ]
+  },
+  "lens optical rib 16": {
+    "coverage": 0.01318359375,
+    "chip_fraction": 0.14814814814814814,
+    "gloss_range": [
+      0.6536750197410583,
+      0.7846759557723999
+    ]
+  },
+  "lens optical rib 18": {
+    "coverage": 0.01336669921875,
+    "chip_fraction": 0.1050228310502283,
+    "gloss_range": [
+      0.6591408252716064,
+      0.7876752614974976
+    ]
+  },
+  "lens optical rib 20": {
+    "coverage": 0.01300048828125,
+    "chip_fraction": 0.107981220657277,
+    "gloss_range": [
+      0.6669372916221619,
+      0.7877830266952515
+    ]
+  },
+  "lens optical rib 22": {
+    "coverage": 0.01300048828125,
+    "chip_fraction": 0.15492957746478872,
+    "gloss_range": [
+      0.6559863090515137,
+      0.789418637752533
+    ]
+  },
+  "lens optical rib 24": {
+    "coverage": 0.01318359375,
+    "chip_fraction": 0.1527777777777778,
+    "gloss_range": [
+      0.6579405069351196,
+      0.7932994961738586
+    ]
+  },
+  "lens optical rib 26": {
+    "coverage": 0.01318359375,
+    "chip_fraction": 0.1388888888888889,
+    "gloss_range": [
+      0.6616177558898926,
+      0.7850437164306641
+    ]
+  },
+  "lens optical rib 28": {
+    "coverage": 0.01336669921875,
+    "chip_fraction": 0.1735159817351598,
+    "gloss_range": [
+      0.6610749959945679,
+      0.7846989631652832
+    ]
+  },
+  "lens optical rib 30": {
+    "coverage": 0.01300048828125,
+    "chip_fraction": 0.14084507042253522,
+    "gloss_range": [
+      0.6622105240821838,
+      0.7897173762321472
+    ]
+  },
+  "lens optical rib 32": {
+    "coverage": 0.01239013671875,
+    "chip_fraction": 0.14285714285714285,
+    "gloss_range": [
+      0.6574336886405945,
+      0.7847700119018555
+    ]
+  },
+  "lens optical rib 34": {
+    "coverage": 0.01239013671875,
+    "chip_fraction": 0.1921182266009852,
+    "gloss_range": [
+      0.657038152217865,
+      0.7885922193527222
+    ]
+  },
+  "lens optical rib 36": {
+    "coverage": 0.0133056640625,
+    "chip_fraction": 0.1743119266055046,
+    "gloss_range": [
+      0.6621097922325134,
+      0.7852473855018616
+    ]
+  },
+  "lens optical rib 38": {
+    "coverage": 0.01324462890625,
+    "chip_fraction": 0.1935483870967742,
+    "gloss_range": [
+      0.6560264825820923,
+      0.7872723340988159
+    ]
+  },
+  "spun parabolic reflector": {
+    "coverage": 0.3605384826660156,
+    "chip_fraction": 0.0,
+    "gloss_range": [
+      0.6895409822463989,
+      0.8799996972084045
+    ]
+  },
+  "isolator gasket": {
+    "coverage": 0.39858245849609375,
+    "chip_fraction": 0.005474417625327795,
+    "gloss_range": [
+      0.10804140567779541,
+      0.24372246861457825
+    ]
+  },
+  "lens seat seal": {
+    "coverage": 0.39328765869140625,
+    "chip_fraction": 0.006003996197792392,
+    "gloss_range": [
+      0.11305255442857742,
+      0.22943243384361267
+    ]
+  },
+  "black bolt socket 0": {
+    "coverage": 0.42327880859375,
+    "chip_fraction": 0.049026676279740444,
+    "gloss_range": [
+      0.127386212348938,
+      0.20998594164848328
+    ]
+  },
+  "black bolt socket 1": {
+    "coverage": 0.42327880859375,
+    "chip_fraction": 0.038788752703677,
+    "gloss_range": [
+      0.12449246644973755,
+      0.21591797471046448
+    ]
+  },
+  "black bolt socket 2": {
+    "coverage": 0.42327880859375,
+    "chip_fraction": 0.08464311463590483,
+    "gloss_range": [
+      0.13697543740272522,
+      0.21564270555973053
+    ]
+  },
+  "black bolt socket 3": {
+    "coverage": 0.42327880859375,
+    "chip_fraction": 0.03561643835616438,
+    "gloss_range": [
+      0.12673312425613403,
+      0.2085108458995819
+    ]
+  },
+  "motor heat sink flute 0": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.028506456590595305,
+    "gloss_range": [
+      0.11839818954467773,
+      0.23505128920078278
+    ]
+  },
+  "motor heat sink flute 1": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.035084869649963456,
+    "gloss_range": [
+      0.12159305810928345,
+      0.23545657098293304
+    ]
+  },
+  "motor heat sink flute 2": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.039145618452042556,
+    "gloss_range": [
+      0.13514529168605804,
+      0.2286188155412674
+    ]
+  },
+  "motor heat sink flute 3": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.020303744010395516,
+    "gloss_range": [
+      0.12306133657693863,
+      0.23400065302848816
+    ]
+  },
+  "motor heat sink flute 4": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.03207991553642492,
+    "gloss_range": [
+      0.13772167265415192,
+      0.236452117562294
+    ]
+  },
+  "motor heat sink flute 5": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.021359538698936083,
+    "gloss_range": [
+      0.13107530772686005,
+      0.22742702066898346
+    ]
+  },
+  "motor heat sink flute 6": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.04686104117599285,
+    "gloss_range": [
+      0.1367194503545761,
+      0.22578150033950806
+    ]
+  },
+  "motor heat sink flute 7": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.028181596686428976,
+    "gloss_range": [
+      0.13271017372608185,
+      0.23479118943214417
+    ]
+  },
+  "motor heat sink flute 8": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.030861690895801187,
+    "gloss_range": [
+      0.13698238134384155,
+      0.2359224557876587
+    ]
+  },
+  "motor heat sink flute 9": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.025826362381223097,
+    "gloss_range": [
+      0.12879107892513275,
+      0.24536477029323578
+    ]
+  },
+  "motor heat sink flute 10": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.021034678794769755,
+    "gloss_range": [
+      0.12416554242372513,
+      0.22322174906730652
+    ]
+  },
+  "motor heat sink flute 11": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.03362300008121498,
+    "gloss_range": [
+      0.12980787456035614,
+      0.22644713521003723
+    ]
+  },
+  "motor heat sink flute 12": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.014862340615609518,
+    "gloss_range": [
+      0.1252068728208542,
+      0.22715000808238983
+    ]
+  },
+  "motor heat sink flute 13": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.042556647445789006,
+    "gloss_range": [
+      0.13795705139636993,
+      0.2351415604352951
+    ]
+  },
+  "motor heat sink flute 14": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.01924794932185495,
+    "gloss_range": [
+      0.12463679164648056,
+      0.22132062911987305
+    ]
+  },
+  "motor heat sink flute 15": {
+    "coverage": 0.75152587890625,
+    "chip_fraction": 0.02233411841143507,
+    "gloss_range": [
+      0.12415193766355515,
+      0.23372288048267365
+    ]
+  },
+  "rear cable plug": {
+    "coverage": 0.69140625,
+    "chip_fraction": 0.04184322033898305,
+    "gloss_range": [
+      0.11963712424039841,
+      0.24329015612602234
+    ]
+  },
+  "lower machined retaining ring": {
+    "coverage": 0.40013885498046875,
+    "chip_fraction": 0.0078364825442828,
+    "gloss_range": [
+      0.4065997004508972,
+      0.7438791394233704
+    ]
+  },
+  "cap crown - machined highlight": {
+    "coverage": 0.423553466796875,
+    "chip_fraction": 0.023056416168311836,
+    "gloss_range": [
+      0.48321059346199036,
+      0.7478392124176025
+    ]
+  },
+  "flange socket bolt 0": {
+    "coverage": 0.50885009765625,
+    "chip_fraction": 0.04749910039582584,
+    "gloss_range": [
+      0.42243337631225586,
+      0.7157557606697083
+    ]
+  },
+  "flange socket bolt 1": {
+    "coverage": 0.50885009765625,
+    "chip_fraction": 0.02734796689456639,
+    "gloss_range": [
+      0.47146207094192505,
+      0.7154393792152405
+    ]
+  },
+  "flange socket bolt 2": {
+    "coverage": 0.50885009765625,
+    "chip_fraction": 0.07676622286194075,
+    "gloss_range": [
+      0.3835020065307617,
+      0.7157868146896362
+    ]
+  },
+  "flange socket bolt 3": {
+    "coverage": 0.50885009765625,
+    "chip_fraction": 0.041021950341849585,
+    "gloss_range": [
+      0.4105176329612732,
+      0.713361382484436
+    ]
+  },
+  "rear cable gland": {
+    "coverage": 0.7159423828125,
+    "chip_fraction": 0.021312872975277068,
+    "gloss_range": [
+      0.4025987982749939,
+      0.7441525459289551
+    ]
+  },
+  "motor spindle": {
+    "coverage": 0.720733642578125,
+    "chip_fraction": 0.017275691239361478,
+    "gloss_range": [
+      0.3927459418773651,
+      0.747818648815155
+    ]
+  },
+  "rotor bracket": {
+    "coverage": 0.7908935546875,
+    "chip_fraction": 0.004475999382620775,
+    "gloss_range": [
+      0.5145642757415771,
+      0.749122679233551
+    ]
+  },
+  "lamp lower socket": {
+    "coverage": 0.552734375,
+    "chip_fraction": 0.04196113074204947,
+    "gloss_range": [
+      0.5237347483634949,
+      0.7476226687431335
+    ]
+  },
+  "lamp upper contact": {
+    "coverage": 0.48614501953125,
+    "chip_fraction": 0.04896421845574388,
+    "gloss_range": [
+      0.4742978811264038,
+      0.7446731925010681
+    ]
+  }
+}

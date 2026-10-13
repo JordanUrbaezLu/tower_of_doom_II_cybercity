@@ -1,0 +1,9 @@
+--- before/zone_source/zm_tod2_cybercity.zone
++++ zone_source/zm_tod2_cybercity.zone
+@@ -2229,3 +2229,6 @@
+ image,i_tod_pull_shard
+ image,i_tod_pull_sweep
+ // END card_pull art
++
++// Dealer presence: three static existing-wall panels, canonical native portrait.
++image,i_tod_dealer_surveillance

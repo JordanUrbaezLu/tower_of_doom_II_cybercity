@@ -1,0 +1,218 @@
+{
+  "verified_at": "2026-10-07T14:46:13.241257-04:00",
+  "manifest_sha256": "994390e2f4f76763e0a17a38d7739b574460c2262d688208d97dcee5e5ebff5c",
+  "files": {
+    "source_data/tod2_bo6_wunderfizz.gdt": "f7a7aec747865c9d2047bca8a494f2c1526e982b226700d613ba549f89f8778a",
+    "art/wunderfizz/asset_manifest.json": "994390e2f4f76763e0a17a38d7739b574460c2262d688208d97dcee5e5ebff5c",
+    "tools/wunderfizz_layout.js": "2894966bff474cbd1f13234428c0b5f9b6f4b4a7376d044a781c7d2c8b126627",
+    "tools/wunderfizz/staged/stage_bo6_machine.py": "92c92fda713a6737e12a686015f5464030db5766bdfada9967dee1da01d5f4ee",
+    "tools/wunderfizz/verify_compiled_assets.py": "74997918bbf91a8d577508a3bf1aa73522dd4c8bfab2ce4f0e983aa656cdbedf"
+  },
+  "payloads": [
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD0.XMODEL_BIN",
+      "sha256": "951380fdcb3ae0ab1883f47f77f103eb884cee0469b57fe644448fa9f37077f3",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD1.XMODEL_BIN",
+      "sha256": "3e4599c7897a68f2552304f2c8ada1efbb74297acf2f1d02963bf2af114093ee",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD2.XMODEL_BIN",
+      "sha256": "cee155640c124b40dd9405bc3f61325b3759c66ff9d0892390f4ec54379fecac",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD3.XMODEL_BIN",
+      "sha256": "790480929f8428aff8d855e50823377a64be93f076687cfff1340a1841048590",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD4.XMODEL_BIN",
+      "sha256": "21854e8cb49ea3c5f77a49cfebf87e54e6f1fecbf33470aa3bbc27bef8413058",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD5.XMODEL_BIN",
+      "sha256": "930bcb8f1acd4c99dd8cf7c64651dfbb391a63ea639c9990256810991c848b98",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_LOD6.XMODEL_BIN",
+      "sha256": "60d8cbd9a7d5a20c1e1041dc028dfa0912b7bf62036c6487f914e3357c469542",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD0.XMODEL_BIN",
+      "sha256": "b90bc19a3d8fbd3c227024172b30e9c182d9af0c41337dd3913ce916edf900e9",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD1.XMODEL_BIN",
+      "sha256": "31f652000c0b40a41763506c8cb181524fa824c848e191209ef76474f8ff8b06",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD2.XMODEL_BIN",
+      "sha256": "ab86c9c8c3ad65e7215f583380b9de38960d445c308de355f077119681989d3c",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD3.XMODEL_BIN",
+      "sha256": "0dd9040a893a4f3f67b6b2b627a6f864a30867d88588dccfbcac98bdfce5683f",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD4.XMODEL_BIN",
+      "sha256": "6822277ed927fd256f35b3a950530b2d17455c92cbe1a2560e2b79ca1d7bd2b1",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD5.XMODEL_BIN",
+      "sha256": "b7ef3287e1ed57d23570c9b58eaa667d7dc9fa4e0343fefde637158c3d361efc",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/xmodels/t10_zm_machine_wunderfizz_fxanim_on_LOD6.XMODEL_BIN",
+      "sha256": "ce210ac220d53d06466fdc2113ae33e2511971ccbc4b2318dde6fe595a8a2772",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "xanim_export/tod2_bo6_wunderfizz/t10_zm_machine_wunderfizz_fxanim_activate.xanim_bin",
+      "sha256": "b64520ca2997b1a68d33977a4ca63bc6ae2ac31d5f773413908bf004751d8819",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_glass/t10_zm_machine_wunderfizz_glass_c.png",
+      "sha256": "dfac47c99e4b061385c87cb8da8f28d667b4f4bf14e086c36ee1eda395ba502c",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_glass/t10_zm_machine_wunderfizz_glass_e.png",
+      "sha256": "07d83b28aecbf1259e77947cd4d077f98992766e2bf85493efd3db72fa256d9e",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_glass/t10_zm_machine_wunderfizz_glass_g.png",
+      "sha256": "75641cf38e3666224d13e9a42b1fbde9546dcd3261ac74ca4f2f669afef1be9b",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_glass/t10_zm_machine_wunderfizz_glass_n.png",
+      "sha256": "d42deae39fb1aebb1b71ac8e36302149a498f86359d567cbd8ee3515cbfc482d",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_glass/t10_zm_machine_wunderfizz_glass_o.png",
+      "sha256": "1914c10729f3a03bb2fcc6e0ff2cc3fa625869aec9b9c74cccc97b2179d4548c",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_part/t10_zm_machine_wunderfizz_part_c.png",
+      "sha256": "b75979481a2d6f6d196307cc308a7d6457f7242e96d95ebcaf804608d189d6f5",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_part/t10_zm_machine_wunderfizz_part_g.png",
+      "sha256": "fb16e99c5c9a3c743b03a7f474a9926676a1259d7956bcdacc7d8f538158950b",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_part/t10_zm_machine_wunderfizz_part_n.png",
+      "sha256": "9fda5fb96e0e9969ae3c59bf105bdccda68ddcfce3f271141633eb7db534d2af",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_part/t10_zm_machine_wunderfizz_part_o.png",
+      "sha256": "fd388fdbd57337c888a763df8785771e8c9cc59f30b7d664109161e23ead6f54",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_part/t10_zm_machine_wunderfizz_part_s.png",
+      "sha256": "11814c2f1b338513b1781d306d967c5647f9a10e86dc0ee4ed2c66d59f002edc",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_subject/t10_zm_machine_wunderfizz_subject_c.png",
+      "sha256": "652bf76ab3a40c0ce444b5df682b6c497cf32410d239f317b51948f0c7d23dca",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_subject/t10_zm_machine_wunderfizz_subject_g.png",
+      "sha256": "b9cad30a263f5857fb12b10bc48382c38475ab278ba9701c0d12ed9f1fa95cf3",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_subject/t10_zm_machine_wunderfizz_subject_n.png",
+      "sha256": "fe26616880dc7fef22c2ae7771a180dbb47390216ce723a15dd171d19999db09",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_subject/t10_zm_machine_wunderfizz_subject_o.png",
+      "sha256": "9d2c80119d35d250e625d5a69284c210c7f0687219649f03b31aaeecbc90acbb",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/t10_zm_machine_wunderfizz_subject/t10_zm_machine_wunderfizz_subject_s.png",
+      "sha256": "18c79094a61c6884a7dfcbe1976c3b1aca1c7a72858310479451f2b6a3f2a684",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/xmaterial_f5de48284288d22/xmaterial_f5de48284288d22_c.png",
+      "sha256": "a285b6e7572af00805b0d25d513bdd7f7f48df0252d92c4eb15b4f99fd1898c0",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/xmaterial_f5de48284288d22/xmaterial_f5de48284288d22_g.png",
+      "sha256": "a9e30fa82b98431052e8bfd0bc6e7b3741f4d47e455d6508ffbcf33e4d8cecf3",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/xmaterial_f5de48284288d22/xmaterial_f5de48284288d22_n.png",
+      "sha256": "75215b8a65c95b29dbd8baf2160036597722a6821827e00ae227adddcda803a5",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/xmaterial_f5de48284288d22/xmaterial_f5de48284288d22_o.png",
+      "sha256": "03518e262e69f5be17db7d6aed771c26e6ec02dc0c277b0cc1124ba14f4bfd80",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "model_export/tod2_bo6_wunderfizz/_images/xmaterial_f5de48284288d22/xmaterial_f5de48284288d22_s.png",
+      "sha256": "8370b5d29c0a823c7f8fe4f467b85e99c50760d93aea91f75d7e7b301a9a55d1",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "share/raw/collmaps/t10_zm_machine_wunderfizz_fxanim.map",
+      "sha256": "7138e3ac80a47017b2fa9f81bed2ac77c4523880107fe982b15feccad377ba15",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "share/raw/fx/_t10/vending/fizz_activated.efx",
+      "sha256": "8ad4c28e4f45ffbe44633d339de3f44627a7c14f8e83280aa2bcddfcb1df9aab",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "share/raw/fx/_t10/vending/fizz_idle.efx",
+      "sha256": "3f9c30d699b9e8716225f68037900f85cc695a62187d2dd0cd8d12870c5f049c",
+      "original_payload_preserved": true
+    },
+    {
+      "file": "source_data/tod2_bo6_wunderfizz.gdt",
+      "sha256": "f7a7aec747865c9d2047bca8a494f2c1526e982b226700d613ba549f89f8778a",
+      "original_payload_preserved": false
+    },
+    {
+      "file": "zone_source/tod2_bo6_wunderfizz.zpkg",
+      "sha256": "907c88f66b1d7f2fa74356036268ca379072df079ddbb27e81f72d8e7544ee53",
+      "original_payload_preserved": false
+    }
+  ],
+  "typed_definitions": 30,
+  "original_pixels_geometry_shaders_sound_unchanged": true,
+  "compression_only": "uncompressed RGBA8 glass",
+  "native_conversion_verified": false,
+  "game_launched": false
+}

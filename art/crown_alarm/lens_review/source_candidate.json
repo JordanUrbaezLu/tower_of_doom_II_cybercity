@@ -1,0 +1,26 @@
+{
+  "scope": "lens-only reproducible helper repair; live files unchanged",
+  "inputs": [
+    {
+      "relative_path": "tools/crown_alarm/surface_realism.py",
+      "source_sha256": "fddc186a5f3f58331d510c9d9e64856555578740bf1dfa6732b6ccc3a4d06131",
+      "candidate_sha256": "ff31cc321012e78c6b6d86d8c2fe027aa7bf779131211286253af73ebb3b5fbf",
+      "candidate_path": "tmp\\alarm_lens_repair\\staged\\tools\\crown_alarm\\surface_realism.py",
+      "syntax_parse_passed": true
+    },
+    {
+      "relative_path": "tools/crown_alarm/01_author.py",
+      "source_sha256": "2e826dbf67eb288485e687957fb19cce43dbd6d5e1fdc41e97b05d69bd137bb3",
+      "candidate_sha256": "f66684c7a0def2f28c4f65951efcfd39fc9f2873c65a5e256748e6d513a0b0f6",
+      "candidate_path": "tmp\\alarm_lens_repair\\staged\\tools\\crown_alarm\\01_author.py",
+      "syntax_parse_passed": true
+    },
+    {
+      "relative_path": "tools/crown_alarm/16_native_lens_preview.py",
+      "source_sha256": "bbae780938ab615486fff9369f4a11f9807c924f4c7713a634fe59e0de42e09c",
+      "candidate_sha256": "03101c6ed0785192e07b688491eab6b6508d67ce9748c4f6979b9f5e18e05c3a",
+      "candidate_path": "tmp\\alarm_lens_repair\\staged\\tools\\crown_alarm\\16_native_lens_preview.py",
+      "syntax_parse_passed": true
+    }
+  ]
+}

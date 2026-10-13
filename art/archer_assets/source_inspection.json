@@ -1,0 +1,268 @@
+{
+  "checked_at": "2026-09-24T23:54:19.477761-04:00",
+  "evidence_scope": "Cast data only; no Blender import or BO3 runtime test",
+  "cast_reader": "C:\\Users\\jorda\\AppData\\Roaming\\Blender Foundation\\Blender\\4.2\\scripts\\addons\\io_scene_cast\\cast.py",
+  "cast_reader_sha256": "d1ff7fcb2a184f208b21be34485d1863834ae33811078a28a2ccf6ff61f2c577",
+  "files": [
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\archer_equipment\\apex_grapple\\assets\\mdl\\pathfinder_grapplehook\\pathfinder_grapplehook_LOD0.cast",
+      "sha256": "411c63ebb9d0a9ac65301c320de7fb9a667641ce263aa90e05bac87c3cbc6b38",
+      "models": [
+        {
+          "name": "pathfinder_grapplehook_LOD0",
+          "meshes": [
+            {
+              "name": "body_0_pathfinder_prop_grapplehook",
+              "vertices": 1534,
+              "raw_triangles": 2012,
+              "unique_index_triangles": 2012,
+              "duplicate_index_triangles": 0,
+              "uv_layers": 1,
+              "color_layers": 0,
+              "max_weight_influence": 5,
+              "material": "pathfinder_prop_grapplehook",
+              "bounds": [
+                [
+                  -0.46484375,
+                  -0.640625,
+                  0.0
+                ],
+                [
+                  0.4638671875,
+                  0.6396484375,
+                  4.984375
+                ]
+              ]
+            }
+          ],
+          "vertices": 1534,
+          "raw_triangles": 2012,
+          "unique_index_triangles": 2012,
+          "bones": [
+            {
+              "name": "jx_c_origin",
+              "parent": -1
+            },
+            {
+              "name": "def_c_base",
+              "parent": 0
+            },
+            {
+              "name": "def_c_obj_01",
+              "parent": 1
+            },
+            {
+              "name": "def_c_rope_01",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_02",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_03",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_04",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_05",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_06",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_07",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_08",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_09",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_010",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_011",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_012",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_013",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_014",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_015",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_016",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_017",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_018",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_019",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_020",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_021",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_022",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_023",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_024",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_025",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_026",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_027",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_028",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_029",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_030",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_031",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_032",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_033",
+              "parent": 0
+            },
+            {
+              "name": "def_c_rope_end",
+              "parent": 0
+            },
+            {
+              "name": "def_c_ring",
+              "parent": 36
+            },
+            {
+              "name": "def_c_hook_base",
+              "parent": 37
+            },
+            {
+              "name": "def_c_hook_bot",
+              "parent": 38
+            },
+            {
+              "name": "def_c_hook_top",
+              "parent": 38
+            }
+          ],
+          "materials": [
+            {
+              "name": "pathfinder_prop_grapplehook",
+              "slots": {}
+            }
+          ]
+        }
+      ],
+      "animations": []
+    },
+    {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_library\\archer_equipment\\apex_grapple\\assets\\mdl\\projectile_grapple_hook_anchor_bolt\\projectile_grapple_hook_anchor_bolt_LOD0.cast",
+      "sha256": "edd93137269d1afdc9d76427176d39a57e55dfc2a8e79eeb80c3cfc58b7bcf21",
+      "models": [
+        {
+          "name": "projectile_grapple_hook_anchor_bolt_LOD0",
+          "meshes": [
+            {
+              "name": "body_0_grapple_gun",
+              "vertices": 714,
+              "raw_triangles": 662,
+              "unique_index_triangles": 662,
+              "duplicate_index_triangles": 0,
+              "uv_layers": 1,
+              "color_layers": 0,
+              "max_weight_influence": 1,
+              "material": "grapple_gun",
+              "bounds": [
+                [
+                  -2.7001953125,
+                  -6.46875,
+                  -6.486328125
+                ],
+                [
+                  15.4765625,
+                  5.287109375,
+                  4.443359375
+                ]
+              ]
+            }
+          ],
+          "vertices": 714,
+          "raw_triangles": 662,
+          "unique_index_triangles": 662,
+          "bones": [
+            {
+              "name": "static_prop",
+              "parent": -1
+            }
+          ],
+          "materials": [
+            {
+              "name": "grapple_gun",
+              "slots": {}
+            }
+          ]
+        }
+      ],
+      "animations": []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+ "tool": "tools/wunderstrahl/sound/make_sounds.py stt",
+ "model": "scribe_v1",
+ "files": {
+  "tod_ws_fire_start_plr.wav": {
+   "sha256": "945eb90580147ef5e55ff4315be2e88abe9a600d8094e5738131e70ff00b2cae",
+   "text": "[static]",
+   "words": [],
+   "events": [
+    "[static]"
+   ]
+  },
+  "tod_ws_fire_start_npc.wav": {
+   "sha256": "9311a5b74786bbfdffea5d6f6c0fcdd2066053e8abc04c741b9431422435c1b6",
+   "text": "[static]",
+   "words": [],
+   "events": [
+    "[static]"
+   ]
+  },
+  "tod_ws_fire_loop_plr.wav": {
+   "sha256": "6ba6f9d40045dbc865a9994aa4dccfe32e3b35b63357e03af7466415755d2c5a",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_fire_loop_npc.wav": {
+   "sha256": "470107ab7ff6f05d0cb95e074bc5df0b9af8b1e7fe32e40f6ac21f81f7fa9366",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_fire_stop_plr.wav": {
+   "sha256": "4f34587a17f1f814f5a4b5bb214431fe8b6934a99810ec752c1e8d2a5f13826b",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_fire_stop_npc.wav": {
+   "sha256": "166fd06c32b11560c2ee994a3abc80b0481fa240a5d62539f97a9b66091fcc07",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_impact_loop.wav": {
+   "sha256": "e50290165326ac11696ea68abfa2b5162423fb91c584618d2aa4c47d50209f8e",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_hit_1.wav": {
+   "sha256": "89a2c315c8233197cee88f915f5430efa46ccee33f189a21f094f7c18b253562",
+   "text": "",
+   "words": [],
+   "events": []
+  },
+  "tod_ws_hit_2.wav": {
+   "sha256": "ab4e90e6bde546746ca74f7094821aac4a6313fea399919e177b752b778491ef",
+   "text": "",
+   "words": [],
+   "events": []
+  },
+  "tod_ws_hit_3.wav": {
+   "sha256": "d23906085d345620b614c9959d3e6615e957982760282a4ea878f346433c9b27",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_kill_1.wav": {
+   "sha256": "bc9558111573133a569d24cd961aea1d471712c34820e2dacca8664af0e6de11",
+   "text": "[upbeat music]",
+   "words": [],
+   "events": [
+    "[upbeat music]"
+   ]
+  },
+  "tod_ws_kill_2.wav": {
+   "sha256": "d8e7672d2193ea6eba2359abf47197f92f70376d0249206b36c0b50d5e46f337",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_kill_3.wav": {
+   "sha256": "50d0841ad8d1052597a2e387c35544ac6a1306c9792ab77d99620f2db71e019f",
+   "text": "[upbeat music]",
+   "words": [],
+   "events": [
+    "[upbeat music]"
+   ]
+  },
+  "tod_ws_raise.wav": {
+   "sha256": "9aa4ebce7dc4ea97766d91bbcfd2b47d6ca5d8181f4fb97728322e4de25f6391",
+   "text": "[upbeat music]",
+   "words": [],
+   "events": [
+    "[upbeat music]"
+   ]
+  },
+  "tod_ws_putaway.wav": {
+   "sha256": "d2cff67818fd3b9dc172d618534c432462c0f282fca9c9d14fd4d237dd3d0414",
+   "text": "[outro sound]",
+   "words": [],
+   "events": [
+    "[outro sound]"
+   ]
+  },
+  "tod_ws_grab.wav": {
+   "sha256": "8cd09270e32c4bb66bed30d241d1cf2538b2c2a916fd02154b4728885e25f8ac",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_expire.wav": {
+   "sha256": "11256568a347e2cc07927c39be7212cb13354591754c21a3dfc1ca788aa0c527",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  },
+  "tod_ws_idle_loop.wav": {
+   "sha256": "bf656b9d2465087ec369898f6a687c3e829d0fe6f9785866d606993ce5deee86",
+   "text": "[outro jingle]",
+   "words": [],
+   "events": [
+    "[outro jingle]"
+   ]
+  }
+ }
+}

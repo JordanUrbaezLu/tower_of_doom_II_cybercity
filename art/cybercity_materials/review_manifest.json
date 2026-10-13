@@ -1,0 +1,27 @@
+{
+  "preview_limit": "Exported maps and gloss range; approximate fullspec GGX preview, not BO3 parity",
+  "native_mesh_hashes": {
+    "model_export/tod_shop/tod_shop_solid_lod0.xmodel_bin": "77db884b3354fc6d0092a9d8948a0ab2c3a1206e125baf54759168d8841bbba9",
+    "model_export/tod_shop/tod_shop_valve_lod0.xmodel_bin": "1a70ca661828e10812c795ed596340ba1b09589fef26d38f64fad42a44b94189",
+    "model_export/tod_shop/tod_shop_needle_lod0.xmodel_bin": "5b38d1c46327dc3024269026b324bed23a73ca742a0e3ac65b6d9c2521d6d8d6",
+    "model_export/tod_shop/tod_shop_vendor_lod0.xmodel_bin": "b1dfe063319b83135981aae61a1ba0279c89635ed4079598a19d6859acfcb937",
+    "model_export/tod_shop/tod_shop_steady_lod0.xmodel_bin": "1ddda3f6d4a3a85fc111df376eec16173d35ff10c0dcb2d0827c02912b819df1",
+    "model_export/tod_shop/tod_shop_mask_lod0.xmodel_bin": "f10b90f7ae0c10dbac89b289b3f2b1bdb308005e1a486b6c3382d1020e50a7d2",
+    "model_export/tod_shop/tod_shop_letter_t_lod0.xmodel_bin": "379299c50ecfa8e6eaa8ec5877dd6edb6403a369c7fcae16bbf8295ed0681c8f",
+    "model_export/tod_shop/tod_shop_letter_e_lod0.xmodel_bin": "0be4116c3314bee460044d0933e748c871cfab4ec4684277faf910778305a5e8",
+    "model_export/tod_shop/tod_shop_letter_h_lod0.xmodel_bin": "8c1e386dc49a3d232b1d0b6eba1435b4ec760cc81c311b7159934532149303b9",
+    "model_export/tod_shop/tod_shop_core_left_lod0.xmodel_bin": "d00b379f48f7e004ec321c1fcd11bab42dee4283feb48502e0f3a1eb9c1b0ce5",
+    "model_export/tod_shop/tod_shop_core_counter_lod0.xmodel_bin": "4d13e4732ed6b14759904dc0c6ffe2b75cf600ac50e291625e19a98b067ac318",
+    "model_export/tod_shop/tod_shop_core_right_lod0.xmodel_bin": "91bdf581c74ff293b7c2601884f120b99b2eb35b64be2259cecea5b4777be58c",
+    "model_export/tod_shop/tod_shop_scan_0_lod0.xmodel_bin": "63ef3eaf8b6766aff2387d7174062bc920bdbfa831c8afc98a0ad79ee46230f6",
+    "model_export/tod_shop/tod_shop_scan_1_lod0.xmodel_bin": "49453d14f310839104cf59574ca459a0c7db070096b919e4792275eb1201008e",
+    "model_export/tod_shop/tod_shop_scan_2_lod0.xmodel_bin": "ca93b4844b0487ff03bab6b2928522398fbbe31afb3a1736bb7824383bb855f0",
+    "model_export/tod_shop/tod_shop_scan_3_lod0.xmodel_bin": "68e4315793f0630cb686124107947e40b67870f5d83cdcf357c3333532b99403",
+    "model_export/tod_shop/tod_shop_off_lod0.xmodel_bin": "18e778da4d22bd152d08e8b215490048b53116f192f565aad99e01cbb283c4d8",
+    "model_export/tod_teleporter/tod_teleporter_lod0.xmodel_bin": "7aebcdbf9ed780ae98a5f0162a1c68846b5deb62530d4c59dd81fa0fa903425a",
+    "model_export/tod_teleporter/tod_tp_recharge_lod0.xmodel_bin": "702f18474e2795816f2ce329f1adb77c1437d422fdddbb850e05712ccc4496de",
+    "model_export/tod_heavenly_altar/tod_heavenly_altar_lod0.xmodel_bin": "30f01d2ca84e678baae618494da5c9a4acefd733bbc2bc5ba2a90f4ee191e95d"
+  },
+  "original_portal": "static first layer only",
+  "game_launched": false
+}

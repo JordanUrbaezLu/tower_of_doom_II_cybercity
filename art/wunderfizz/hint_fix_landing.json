@@ -1,0 +1,17 @@
+{
+  "landed_at": "2026-10-07T14:27:27.171442-04:00",
+  "kind": "hint_fix",
+  "files": {
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_machine.gsc": {
+      "before_sha256": "60675c4c63bcdc12c847ff268586aec6a9aed5505ca0d34e2ae572a98105d6ca",
+      "sha256": "110c42342f9ccef03465b7c661539af2c6d75459e5fdb117c176f5cffb41f2cb",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\hint_fix\\staged_sources\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_machine.gsc"
+    },
+    "tools/wunderfizz/test_machine.js": {
+      "before_sha256": "4da84de72d8624d2320bcc3ee2695b043b1ee3a283488dae25ef6c1a74579978",
+      "sha256": "231a94764218d046e208a2ca437f6ffefc2ad3f0f67908e6f80360d3eb5e8128",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\hint_fix\\staged_sources\\tools\\wunderfizz\\test_machine.js"
+    }
+  },
+  "game_launched": false
+}

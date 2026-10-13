@@ -1,0 +1,924 @@
+[
+  {
+    "blend": "art/sky_ships/sky_fleet.blend",
+    "images": [
+      {
+        "name": "SKY backdrop",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+        "repo_path": "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result.001",
+        "raw_path": "",
+        "resolved": null,
+        "repo_path": null,
+        "packed": false,
+        "temporary": false,
+        "durable": false,
+        "source": "VIEWER"
+      },
+      {
+        "name": "i_tod_sky_win2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_win2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_win2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_win2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_magenta_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_magenta_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_magenta_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_magenta_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_cyan_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_cyan_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_cyan_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_cyan_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_amber_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_amber_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_amber_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_amber_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_white",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_white.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_white.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_white.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_teal",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_teal.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_teal.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_teal.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_orange",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_orange.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_orange.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_orange.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_nav_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_nav_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_nav_green",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_green.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_green.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_nav_green.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_magenta",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_magenta.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_magenta.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_magenta.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_hot_cyan",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_cyan.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_cyan.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_hot_cyan.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_hot_amber",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_amber.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_amber.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_hot_amber.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_green",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_green.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_green.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_green.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_gold",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_gold.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_gold.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_gold.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_cyan",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_cyan.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_cyan.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_cyan.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_amber",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_amber.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_amber.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_amber.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_deco_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_deco_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_deco_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_deco_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_yellow",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_yellow.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_yellow.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_yellow.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_white",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_white.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_white.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_white.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_teal",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_teal.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_teal.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_teal.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_orange",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_orange.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_orange.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_orange.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_ads_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_ads_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_ads2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_ads2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      }
+    ],
+    "bad": []
+  },
+  {
+    "blend": "art/sky_ships/sky_fleet_realism_preview.blend",
+    "images": [
+      {
+        "name": "SKY backdrop",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+        "repo_path": "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result.001",
+        "raw_path": "",
+        "resolved": null,
+        "repo_path": null,
+        "packed": false,
+        "temporary": false,
+        "durable": false,
+        "source": "VIEWER"
+      },
+      {
+        "name": "i_tod_sky_win2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_win2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_win2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_win2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_rock2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_rock2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_rock2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_plate2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_plate2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_plate2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_magenta_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_magenta_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_magenta_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_magenta_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_cyan_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_cyan_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_cyan_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_cyan_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_mineral_amber_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_amber_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_mineral_amber_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_mineral_amber_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_white",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_white.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_white.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_white.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_teal",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_teal.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_teal.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_teal.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_orange",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_orange.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_orange.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_orange.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_nav_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_nav_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_nav_green",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_green.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_nav_green.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_nav_green.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_magenta",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_magenta.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_magenta.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_magenta.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_hot_cyan",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_cyan.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_cyan.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_hot_cyan.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_hot_amber",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_amber.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_hot_amber.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_hot_amber.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_green",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_green.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_green.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_green.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_gold",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_gold.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_gold.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_gold.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_cyan",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_cyan.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_cyan.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_cyan.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_glow_amber",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_amber.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_glow_amber.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_glow_amber.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_flat_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_flat_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_flat_n.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_flat_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_flat_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_flat_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_flat_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_drive_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_drive_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_drive_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_deco_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_deco_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_deco_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_deco_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_yellow",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_yellow.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_yellow.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_yellow.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_white",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_white.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_white.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_white.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_teal",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_teal.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_teal.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_teal.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_s.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_s.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_s.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_s.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_red",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_red.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_red.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_red.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_orange",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_orange.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_orange.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_orange.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_n",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_n.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_n.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_n.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_cargo_g.png",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_g.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_cargo_g.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_cargo_g.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_ads_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_ads_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      },
+      {
+        "name": "i_tod_sky_ads2_c",
+        "raw_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads2_c.png",
+        "resolved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_sky_ships\\_images\\i_tod_sky_ads2_c.png",
+        "repo_path": "model_export/tod_sky_ships/_images/i_tod_sky_ads2_c.png",
+        "packed": false,
+        "temporary": false,
+        "durable": true,
+        "source": "FILE"
+      }
+    ],
+    "bad": []
+  }
+]

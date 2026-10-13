@@ -1,0 +1,122 @@
+{
+  "landed_at": "2026-10-08T14:55:54.837193-04:00",
+  "kind": "milestones",
+  "files": {
+    "tools/wunderfizz_layout.js": {
+      "before_sha256": "2894966bff474cbd1f13234428c0b5f9b6f4b4a7376d044a781c7d2c8b126627",
+      "sha256": "614336dfd9db569e7b2c4fae221381b91f1c44652fb514a3bbb5138a15adc70b",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\wunderfizz_layout.js"
+    },
+    "tools/gen_tower_map.js": {
+      "before_sha256": "3048be9a5fabb23fd2432f6c77f2fd33602b0be3bbcd0ae22c81baae08ab7bc6",
+      "sha256": "212835b088bdc8bcb042d13077906ac3c896be29bb916a5423a22fad297c29b5",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\gen_tower_map.js"
+    },
+    "scripts/zm/zm_tod2_cybercity.gsc": {
+      "before_sha256": "1329885b3f93b58b247d53a76c28cea4adc569beb506df8c01cb0b73f9fb174f",
+      "sha256": "873b6232c2656ba92d909ec2f22f4ab4bf31d8b2d8355f09a4d444257437f0a6",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\scripts\\zm\\zm_tod2_cybercity.gsc"
+    },
+    "zone_source/zm_tod2_cybercity.zone": {
+      "before_sha256": "36bdd020ec6533813b2fad4b46a7cd059e7fd9a1a6889b00ff11046dbd5187c6",
+      "sha256": "870b44ef5eb215b9cb96a960d70c285d9fa0f3df095ed9b6073f2bac808aa482",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\zone_source\\zm_tod2_cybercity.zone"
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/ZMCursorHintNew.lua": {
+      "before_sha256": "a6ccd74fb1304c3cfeff68eb25f891a33cdf9469ae88b3166b4e1d4da35ada01",
+      "sha256": "c84fc311b09d9ba8b987e23f367f3b32d0d08f45c368c86a98b2a0c666c18a42",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\ui\\uieditor\\widgets\\HUD\\ZM_CursorHint\\ZMCursorHintNew.lua"
+    },
+    "tools/build_map.ps1": {
+      "before_sha256": "414c5f90380463b30ee36d372c9cd63c15e8d0b3b0b3da2578aad75dedb41720",
+      "sha256": "08ebc6afd911764c4368b3b0192286e1ea41c577f538829235234b0fe5c8de92",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\build_map.ps1"
+    },
+    "tools/lint_tod_navmesh.js": {
+      "before_sha256": "78f9c5ca59b99aef2a026535ea3fbfc7110ac7553f2a4dec7c3d07c973d1ba38",
+      "sha256": "6f84e2356f8ba2f42651eab4803a139150ade82b6083856f917e3da26b77bab0",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\lint_tod_navmesh.js"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_machine.gsc": {
+      "before_sha256": "110c42342f9ccef03465b7c661539af2c6d75459e5fdb117c176f5cffb41f2cb",
+      "sha256": "63ea891f6bf180a36949fc9b49440c429495d361ecbf5d09ff540c7e94ff1f1b",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_machine.gsc"
+    },
+    "tools/wunderfizz/test_machine.js": {
+      "before_sha256": "231a94764218d046e208a2ca437f6ffefc2ad3f0f67908e6f80360d3eb5e8128",
+      "sha256": "6654e645273594398d653e9eb6677499e9d9d95b28fe613d2535eaac7c0dd532",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\wunderfizz\\test_machine.js"
+    },
+    "tools/wunderfizz/test_layout.js": {
+      "before_sha256": "88f0729a03d6791b260575e9aa09ff16aa593c8166010ab003d287ab0d9a08ee",
+      "sha256": "1828d47e518a4a43d0a27b7aa0d7c54b4d14c7a7661b19208442a7f72a8f348d",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\wunderfizz\\test_layout.js"
+    },
+    "tools/wunderfizz/native_navcheck.js": {
+      "before_sha256": "636309074fc69c28ed1326a468bb31ebdda586156e7489e4e276222e0e76537c",
+      "sha256": "32fdfff484773b305c6c5946fade25b7b62de453e7abeaafa657c96a86ad45bd",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\wunderfizz\\native_navcheck.js"
+    },
+    "docs/wunderfizz/IMPLEMENTATION.md": {
+      "before_sha256": "2d170f476f99616b544422642bec02bf445c7c8b5500f009851dc7be665df127",
+      "sha256": "9c4f954c379035a593ecda46add9607469572249c1d89fb06c43bd9e90865a4b",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\docs\\wunderfizz\\IMPLEMENTATION.md"
+    },
+    "docs/wunderfizz/ASSET_IMPORT.md": {
+      "before_sha256": "a166b300eb5927fc8b585221197ddc64fdc5ecebb9b7f91670d77f74e358ef1f",
+      "sha256": "d22a851f19e9d0a788958f6affe406f817fef29180eeb845a5f262233ac1ecee",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\docs\\wunderfizz\\ASSET_IMPORT.md"
+    },
+    "docs/wunderfizz/PLAYTEST.md": {
+      "before_sha256": "0ccee175a8d05dc739bba1701961a245465be91d4df4f99857d6caf4c96ddc6e",
+      "sha256": "8825c9790b817e7d696197438b13d21a5bb23edab8dac0c8f8d917569f75a59f",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\docs\\wunderfizz\\PLAYTEST.md"
+    },
+    "docs/wunderfizz/asset_inventory.json": {
+      "before_sha256": "8756f6ecbb6c7c5e46f7fe85bfaaf7663882ca8c0d2fcf5c717467f9615bdecc",
+      "sha256": "600af621c2e84afee603ad7af7e75d67f08132a370544d9f5cd4c517f542d6a1",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\docs\\wunderfizz\\asset_inventory.json"
+    },
+    "tools/wunderfizz/record_delivery.py": {
+      "before_sha256": "249b80739982413ae51f5f4617a7fab380620a1d0ff7b0ff6bd4aea2deb2be93",
+      "sha256": "696cfa4bcd855f455bb9d1664e12fb698515c8b26a05b42b33461ea67499d56f",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tools\\wunderfizz\\record_delivery.py"
+    },
+    "art/wunderfizz/use_target_review.json": {
+      "before_sha256": "20dff52d734c43415a7ac8d3878dd2dd39232ba8bcfe6f23bf13720e959fac76",
+      "sha256": "c616e2261d786cae713d3147233678cbba615bc1b312455a084766670a35f0cd",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\art\\wunderfizz\\use_target_review.json"
+    },
+    "art/wunderfizz/wunderfizz_use_target_review.json": {
+      "before_sha256": "20dff52d734c43415a7ac8d3878dd2dd39232ba8bcfe6f23bf13720e959fac76",
+      "sha256": "c616e2261d786cae713d3147233678cbba615bc1b312455a084766670a35f0cd",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\art\\wunderfizz\\wunderfizz_use_target_review.json"
+    },
+    "tmp/sky_ships/obstacles.json": {
+      "before_sha256": "cce4c02ba4d4ecd010a55a675b5408e10f7ec16d8530194c01ffe7554c5868a1",
+      "sha256": "c4452dfc99b6c712296f0736ea8db848e6c722b57f8c2823e88dcc8de742efa3",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\tmp\\sky_ships\\obstacles.json"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_sky_lanes.csc": {
+      "before_sha256": "71a829a810b023a4562bb19cc6de7bfda589a9a1808cc64a47302254eb17d82a",
+      "sha256": "e09a90fb5bf208c8744b986620d9464af287724128b67419bf4ed9307a6016e9",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\scripts\\zm\\zm_tod2_cybercity\\_tod_sky_lanes.csc"
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_wunderfizz_data.gsc": {
+      "before_sha256": "38426e5ee23fbb4a57619bf42ca1cbd9cf0ced38c4eb33af88e464ba8413139d",
+      "sha256": "f953b4222392627dd1d4368acdc895235c050b5f71ecb7d768ddd5174ceea460",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\scripts\\zm\\zm_tod2_cybercity\\_tod_wunderfizz_data.gsc"
+    },
+    "map_source/zm/zm_tod2_cybercity.map": {
+      "before_sha256": "554b7926cc3f2f0500d4fbf414878dded3636311a81be12bac19079d9c239815",
+      "sha256": "20dd13b359ae0fa45f3545405a518a3c26421e88a8797283a3ce514f848b220c",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\map_source\\zm\\zm_tod2_cybercity.map"
+    },
+    "art/sky_ships/lanes.json": {
+      "before_sha256": "8ce37fb3739f898ded7b286271b71101684b7852114bf5ec34a8e6db52a0c19e",
+      "sha256": "7622611134cda58b83a3e7f8e191f82fd439629e78e2109b9156a82679aeec94",
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\wunderfizz\\milestones\\staged_sources\\art\\sky_ships\\lanes.json"
+    }
+  },
+  "game_launched": false
+}
