@@ -12,8 +12,9 @@
 #   tod2_root\        the PRIVATE Mod Tools root C:\BO3Tools\TOD2Cybercity (~34 GB): every physical file,
 #                     its 123 junctions as (path, target), every folder; minus the converter cache
 #   repo_extras\      every file in this repo git does not track (tmp\, source_library\, *.blend1 ...)
-#   downloads\        Tower II's raw sources in Downloads that Map One's bundle did not carry (TOD2_*), and
-#                     T7 Assets V2.8.rar (58 GB) - two build gates re-extract from it on every build
+#   downloads\        Tower II's raw sources in Downloads that Map One's bundle did not carry (TOD2_*)
+#   t7_parts\         Downloads\T7 Assets V2.8.rar (58 GB) as sha1-checked pieces - two build gates re-extract
+#                     from it on every build; the import joins it back into Downloads
 #   claude\           this project's Claude memory (+ transcripts with -IncludeAgentHistory)
 #   migrate_scripts\  this folder, so the new laptop can run import_bundle.ps1 before anything is cloned
 #
@@ -142,24 +143,26 @@ foreach ($d in @(Get-ChildItem -LiteralPath $DL -Directory -Filter 'TOD2_*' -Err
 }
 # T7 Assets V2.8.rar IS A BUILD INPUT (2026-10-12 audit): keeper/install_keeper.py --check and
 # dealer_boss/install.py --check re-extract their members from it with 7-Zip on EVERY build, -GscOnly
-# included, and build_map.ps1 dies without it. 58 GB, one file, copied with /J (unbuffered I/O, made for
-# large files). NOT /Z: restartable mode ran at ~1.3 MB/s over Wi-Fi SMB where normal mode ran ~6 MB/s
-# (2026-10-13); a drop restarts this one file, and a re-run of the export redoes only it. Its SHA1 rides
-# along so the import can prove the copy. -SkipT7Pack only when the new laptop already holds a
-# byte-identical copy (compare the SHA1 below).
+# included, and build_map.ps1 dies without it. 58 GB, ONE file - sent as 256 MiB sha1-checked pieces into
+# t7_parts\ (bundle_tool split-file; 2026-10-13): over weak Wi-Fi a one-file copy restarts from zero on
+# any drop, and robocopy /Z restartable mode crawled at ~1.3 MB/s. A re-run sends only missing pieces; the
+# import's join-file checks every piece and the whole file, then the .sha1 check runs as before. The
+# pieces stay OUTSIDE downloads\ so the import's Downloads copy never duplicates them.
+# -SkipT7Pack only when the new laptop already holds a byte-identical copy (compare the SHA1).
 $T7 = Join-Path $DL 'T7 Assets V2.8.rar'
-if (-not $SkipT7Pack) {
-    Robo 'downloads\T7 Assets V2.8.rar (build input)' $DL (PJ $Dest 'downloads') @('T7 Assets V2.8.rar', '/J') -Required
-    if (-not $DryRun -and (Test-Path -LiteralPath $T7)) {
-        $shaFile = PJ $Dest 'downloads\T7 Assets V2.8.rar.sha1'
-        $len = (Get-Item -LiteralPath $T7).Length
-        $have = if (Test-Path -LiteralPath $shaFile) { (Get-Content -LiteralPath $shaFile -Raw).Trim() } else { '' }
-        if ($have -notmatch "^[0-9A-F]{40} $len$") {
-            Info 'hashing T7 Assets V2.8.rar (SHA1, ~3 min) ...'
-            "$((Get-FileHash -LiteralPath $T7 -Algorithm SHA1).Hash) $len" | Set-Content -Encoding ascii -LiteralPath $shaFile
-        }
-    }
-} else { Warn 'T7 Assets V2.8.rar skipped (-SkipT7Pack): the new laptop must already hold a byte-identical copy in Downloads, or the keeper / dealer gates fail every build' }
+if ($SkipT7Pack) {
+    Warn 'T7 Assets V2.8.rar skipped (-SkipT7Pack): the new laptop must already hold a byte-identical copy in Downloads, or the keeper / dealer gates fail every build'
+} elseif (-not (Test-Path -LiteralPath $T7)) {
+    [void]$script:MissingRequired.Add("T7 Assets V2.8.rar ($T7)"); Warn "T7 Assets V2.8.rar missing: $T7"
+} else {
+    $sa = @($Py, 'split-file', '--src', $T7, '--dest', (PJ $Dest 't7_parts'), '--sha1-file', (PJ $Dest 'downloads\T7 Assets V2.8.rar.sha1'))
+    if ($DryRun) { $sa += '--dry-run' }
+    $so = & python @sa
+    $soCode = $LASTEXITCODE
+    $so | Where-Object { "$_" -notmatch '^BYTES=' } | ForEach-Object { Write-Host "    $_" }
+    if ($soCode -ne 0) { Die 'T7 pack pieces failed (see above) - re-run; pieces already sent are kept' }
+    $r = Parse-Bytes $so; Add-Item 't7_parts (T7 Assets V2.8.rar in 256 MiB pieces)' $r[0] $r[1] 't7_parts'
+}
 
 # ---------------------------------------------------------------- 4. Claude memory (+ history)
 Robo 'claude\memory (this project)' (Join-Path $ClaudeProj 'memory') (PJ $Dest 'claude\memory') @('/E') -Required

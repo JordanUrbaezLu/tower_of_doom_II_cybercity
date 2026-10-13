@@ -155,12 +155,18 @@ if (-not (Test-Path -LiteralPath $gu)) {
 }
 
 # ---------------------------------------------------------------- 4. Downloads (literal paths: tools name them)
+$t7 = Join-Path $H 'Downloads\T7 Assets V2.8.rar'
+$t7parts = Join-Path $Source 't7_parts'
+if (Test-Path (Join-Path $t7parts 'parts.json')) {
+    # the 58 GB T7 pack travels as sha1-checked pieces: rebuild it straight into Downloads
+    & python $Py join-file --parts $t7parts --dest $t7
+    if ($LASTEXITCODE -ne 0) { Die 'T7 pack join failed (see above). A bad piece is set aside as .bad: the old laptop re-runs its export to re-send it, then re-run this import.' }
+}
 if (Test-Path (Join-Path $Source 'downloads')) {
-    Robo 'Downloads (Tower II raw sources + T7 pack)' (Join-Path $Source 'downloads') (Join-Path $H 'Downloads') -NoOverwrite
+    Robo 'Downloads (Tower II raw sources)' (Join-Path $Source 'downloads') (Join-Path $H 'Downloads') -NoOverwrite
 }
 # T7 Assets V2.8.rar is a BUILD input (keeper / dealer gates re-extract from it every build): prove the copy
 $t7sha = Join-Path $Source 'downloads\T7 Assets V2.8.rar.sha1'
-$t7 = Join-Path $H 'Downloads\T7 Assets V2.8.rar'
 if (Test-Path -LiteralPath $t7sha) {
     $wantSha, $wantLen = (Get-Content -LiteralPath $t7sha -Raw).Trim() -split ' '
     if (-not (Test-Path -LiteralPath $t7)) { Die "Downloads\T7 Assets V2.8.rar missing after the copy - re-run the import" }

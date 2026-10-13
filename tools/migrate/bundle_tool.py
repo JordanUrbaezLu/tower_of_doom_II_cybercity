@@ -30,6 +30,10 @@ root itself:
                every file against it.
   extras-verify --manifest <repo_extras_manifest.json> --root <repo>
                re-check the untracked repo files against the export manifest (sizes).
+  split-file   --src <file> --dest <dir> [--piece-mb 256] [--sha1-file f]
+               send one big file as sha1-checked pieces + parts.json (resumable per piece).
+  join-file    --parts <dir> --dest <file>
+               rebuild it: every piece's sha1, the whole file's, then rename into place.
   du <path>... sizes, for dry runs.
 
 Left out on purpose (they regenerate on the first build): share/assetconvert EXCEPT its shaders,
@@ -776,6 +780,137 @@ def extras_verify(a):
     return 0
 
 
+def piece_name(name, i):
+    return '%s.part%04d' % (name, i)
+
+
+def split_file(a):
+    """Send ONE big file as fixed-size pieces (2026-10-13: the 58 GB T7 pack over weak Wi-Fi; a one-file
+    copy restarts from zero on any drop, a /Z restartable copy ran at ~1.3 MB/s). parts.json holds every
+    piece's sha1 and the whole file's; a re-run skips pieces already at full size; each piece is written
+    under .tmp and renamed, so a piece at its real name is always whole."""
+    src = a.src
+    st = os.stat(lp(src))
+    name = os.path.basename(src)
+    piece = int(a.piece_mb * 2**20)
+    count = (st.st_size + piece - 1) // piece
+    if a.dry_run:
+        print('split (dry run): %s, %s in %d pieces of %d MiB' % (name, gb(st.st_size), count, piece >> 20))
+        print('BYTES=%d FILES=%d' % (st.st_size, count))
+        return 0
+    os.makedirs(lp(a.dest), exist_ok=True)
+    man_path = os.path.join(a.dest, 'parts.json')
+    man = read_json(man_path)
+    if not (man and man.get('name') == name and man.get('size') == st.st_size and
+            abs(man.get('mtime', 0) - st.st_mtime) < 2 and man.get('piece_size') == piece):
+        print('hashing %s (%s, one local read) ...' % (name, gb(st.st_size)), flush=True)
+        whole, pieces = hashlib.sha1(), []
+        with open(lp(src), 'rb') as f:
+            for i in range(count):
+                n = min(piece, st.st_size - i * piece)
+                h, left = hashlib.sha1(), n
+                while left:
+                    chunk = f.read(min(8 * CHUNK, left))
+                    if not chunk:
+                        raise OSError('short read: %s' % src)
+                    h.update(chunk)
+                    whole.update(chunk)
+                    left -= len(chunk)
+                pieces.append({'i': i, 'offset': i * piece, 'size': n, 'sha1': h.hexdigest()})
+        man = {'name': name, 'size': st.st_size, 'mtime': st.st_mtime, 'piece_size': piece,
+               'sha1': whole.hexdigest(), 'pieces': pieces}
+        write_json(man_path, man)
+    have = tree_sizes(a.dest)
+    todo = [p for p in man['pieces'] if (have.get(fold(piece_name(name, p['i']))) or (None,))[0] != p['size']]
+    print('split: %d pieces of %d MiB, %d already sent, %d to send (%s)'
+          % (count, piece >> 20, count - len(todo), len(todo), gb(sum(p['size'] for p in todo))), flush=True)
+
+    def work(p):
+        dst = os.path.join(a.dest, piece_name(name, p['i']))
+        h, left = hashlib.sha1(), p['size']
+        with open(lp(src), 'rb') as fi, open(lp(dst + '.tmp'), 'wb') as fo:
+            fi.seek(p['offset'])
+            while left:
+                chunk = fi.read(min(CHUNK, left))
+                h.update(chunk)
+                fo.write(chunk)
+                left -= len(chunk)
+        if h.hexdigest() != p['sha1']:
+            os.remove(lp(dst + '.tmp'))
+            raise RuntimeError('%s changed while it was being sent (piece %d) - re-run' % (src, p['i']))
+        os.replace(lp(dst + '.tmp'), lp(dst))
+        return p['size']
+    pr = Progress(len(todo), sum(p['size'] for p in todo), 'pieces')
+    with ThreadPoolExecutor(max_workers=max(1, a.workers)) as ex:
+        for size in ex.map(work, todo):
+            pr.step(size)
+    have = tree_sizes(a.dest)
+    short = [p['i'] for p in man['pieces'] if (have.get(fold(piece_name(name, p['i']))) or (None,))[0] != p['size']]
+    if short:
+        print('SPLIT FAIL: pieces missing or short after sending: %s - re-run' % short[:20])
+        return 1
+    if a.sha1_file:
+        os.makedirs(lp(os.path.dirname(os.path.abspath(a.sha1_file))), exist_ok=True)
+        with open(lp(a.sha1_file), 'w', encoding='ascii') as f:
+            f.write('%s %d\n' % (man['sha1'].upper(), man['size']))
+    print('BYTES=%d FILES=%d' % (sum(p['size'] for p in man['pieces']), count))
+    print('SPLIT OK: %s = %d pieces, sha1 %s -> %s' % (name, count, man['sha1'], a.dest))
+    return 0
+
+
+def join_file(a):
+    """Rebuild a file sent by split-file: every piece's sha1, then the whole file's, then rename into
+    place with the source's date. A bad piece is renamed .bad so a re-run of the export re-sends it."""
+    man = read_json(os.path.join(a.parts, 'parts.json'))
+    if man is None:
+        print('JOIN FAIL: no readable parts.json in %s' % a.parts)
+        return 1
+    dest = a.dest
+    if os.path.isfile(lp(dest)) and os.path.getsize(lp(dest)) == man['size']:
+        print('join: %s already here at its size - checking its sha1 ...' % dest, flush=True)
+        if sha1_file(dest) == man['sha1']:
+            print('JOIN OK: %s already present and sha1-identical' % dest)
+            return 0
+        print('join: the existing copy differs - rebuilding it from the pieces')
+    have = tree_sizes(a.parts)
+    absent = [piece_name(man['name'], p['i']) for p in man['pieces']
+              if (have.get(fold(piece_name(man['name'], p['i']))) or (None,))[0] != p['size']]
+    if absent:
+        print('JOIN FAIL: %d piece(s) missing or short (the export has not finished?): %s' % (len(absent), ', '.join(absent[:10])))
+        return 1
+    os.makedirs(lp(os.path.dirname(os.path.abspath(dest))), exist_ok=True)
+    tmp = dest + '.part'
+    whole, bad = hashlib.sha1(), []
+    pr = Progress(len(man['pieces']), man['size'], 'join')
+    with open(lp(tmp), 'wb') as fo:
+        for p in man['pieces']:
+            path = os.path.join(a.parts, piece_name(man['name'], p['i']))
+            h = hashlib.sha1()
+            with open(lp(path), 'rb') as fi:
+                for chunk in iter(lambda: fi.read(8 * CHUNK), b''):
+                    h.update(chunk)
+                    whole.update(chunk)
+                    fo.write(chunk)
+            if h.hexdigest() != p['sha1']:
+                bad.append(path)
+            pr.step(p['size'])
+    if bad or whole.hexdigest() != man['sha1']:
+        os.remove(lp(tmp))
+        for path in bad:
+            try:
+                os.replace(lp(path), lp(path + '.bad'))
+            except OSError:
+                pass
+        print('JOIN FAIL: %d piece(s) failed their sha1 and were set aside as .bad (re-run the export on the old'
+              ' laptop to re-send them): %s%s' % (len(bad), ', '.join(os.path.basename(b) for b in bad[:10]),
+                                                  '' if bad else ' - whole-file sha1 differs'))
+        return 1
+    os.replace(lp(tmp), lp(dest))
+    os.utime(lp(dest), (man['mtime'], man['mtime']))
+    print('JOIN OK: %s (%s, sha1 %s)' % (dest, gb(man['size']), man['sha1']))
+    return 0
+
+
 def du(a):
     out = []
     for p in a.paths:
@@ -835,12 +970,23 @@ def main():
     x = sub.add_parser('extras-verify')
     x.add_argument('--manifest', required=True)
     x.add_argument('--root', required=True)
+    s = sub.add_parser('split-file')
+    s.add_argument('--src', required=True)
+    s.add_argument('--dest', required=True, help='folder for parts.json + <name>.partNNNN')
+    s.add_argument('--piece-mb', type=float, default=256)
+    s.add_argument('--sha1-file', help='also write "<SHA1> <bytes>" here')
+    s.add_argument('--workers', type=int, default=4)
+    s.add_argument('--dry-run', action='store_true')
+    j = sub.add_parser('join-file')
+    j.add_argument('--parts', required=True, help='the split-file folder (parts.json + pieces)')
+    j.add_argument('--dest', required=True)
     d = sub.add_parser('du')
     d.add_argument('paths', nargs='+')
     d.add_argument('--json', action='store_true')
     a = ap.parse_args()
     fn = {'root-export': root_export, 'root-import': root_import, 'root-verify': root_verify,
-          'copylist': copylist, 'extras-verify': extras_verify, 'du': du}[a.cmd]
+          'copylist': copylist, 'extras-verify': extras_verify, 'split-file': split_file,
+          'join-file': join_file, 'du': du}[a.cmd]
     return fn(a)
 
 
