@@ -1,0 +1,7 @@
+﻿{
+    "source":  "tools/sky3d/cyber_architecture.py",
+    "baseline":  "art/sky3d/depth_review/baseline_sources/cyber_architecture.py",
+    "sha256":  "fef254fe47bf3df77d16f8ce3e0784379ffdc426d50b8d0cec1e8180d4f3cffd",
+    "captured_utc":  "2026-10-01T03:08:56.8475889Z",
+    "purpose":  "Exact accepted v12 source before depth-only architectural detail pass"
+}

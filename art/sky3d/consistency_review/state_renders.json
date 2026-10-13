@@ -1,0 +1,15 @@
+{
+  "blend_sha256": "af5433d826153595bc50183f373f4766be9bdcba9044535a763184c041397a50",
+  "images": {
+    "before_jump": {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\blender_before_jump.png",
+      "sha256": "8afaa316726cb311ba9b26c356ba66aa57194c8ee824d6087b571e3d6b3a2ccc"
+    },
+    "after_reveal": {
+      "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\blender_after_reveal.png",
+      "sha256": "f46bce6665ee872f25fde91e88e1d4f501207a981b58802d8783d4e743b5bc9a"
+    }
+  },
+  "native_visual_verified": false,
+  "note": "Blender render using actual native card inputs and an approximate display conversion; no native bloom."
+}

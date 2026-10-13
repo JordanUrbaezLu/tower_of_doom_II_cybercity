@@ -1,0 +1,34 @@
+{
+  "recorded": "2026-10-01T01:24:43.556462-04:00",
+  "reason": "Unrendered depth source changed a shipping sign-card hash pin and blocked unrelated builds.",
+  "preserved_candidate": "tools/sky_depth/staged_sources/cyber_architecture.py",
+  "candidate_sha256": "562224e619c73450734ca34f8708fc6039ca990cb6071655dc81c833b5758439",
+  "restored_source": "tools/sky3d/cyber_architecture.py",
+  "restored_sha256": "fef254fe47bf3df77d16f8ce3e0784379ffdc426d50b8d0cec1e8180d4f3cffd",
+  "baseline": "art/sky3d/depth_review/baseline_sources/cyber_architecture.py",
+  "shipping_card_receipt": "art/sky3d/dealer_review/native_card_art.json",
+  "shipping_card_receipt_sha256": "511aa5e13f71a12667eef47b1fcc4c7f345ad9531d28f21af76d164687a380bc",
+  "gate_modified": false,
+  "runtime_art_modified": false,
+  "verification": {
+    "recorded": "2026-10-01T01:25:44.653913-04:00",
+    "commands": [
+      {
+        "command": "python -B tools/jump_title/make_sign_card.py --check",
+        "exit_code": 0,
+        "result": "SIGN CARD OK"
+      },
+      {
+        "command": "python -B tools/jump_title/gen_fx.py --check",
+        "exit_code": 0,
+        "result": "JUMP TITLE FX OK 6"
+      },
+      {
+        "command": "node tools/jump_title/test_jump_title.js",
+        "exit_code": 0,
+        "result": "test_jump_title OK"
+      }
+    ],
+    "native_build_run": false
+  }
+}

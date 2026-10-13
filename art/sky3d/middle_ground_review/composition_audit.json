@@ -1,0 +1,129 @@
+{
+  "status": "pass",
+  "errors": [],
+  "changed_original_lots": [],
+  "ordinary_candidates": 1792,
+  "ordinary_retained": 1189,
+  "modern_ordinary": 624,
+  "preserved_spires": 565,
+  "expanded_smaller_spires": 357,
+  "modern_archetypes": {
+    "cantilever_relay": 159,
+    "offset_slot": 139,
+    "split_crown": 164,
+    "tapered_keel": 162
+  },
+  "modern_by_band": {
+    "core": 124,
+    "far": 63,
+    "middle": 329,
+    "near": 92,
+    "outer": 16
+  },
+  "expanded_by_band": {
+    "core": 59,
+    "middle": 229,
+    "near": 69
+  },
+  "retained_by_band": {
+    "core": 136,
+    "far": 336,
+    "middle": 464,
+    "near": 123,
+    "outer": 130
+  },
+  "retained_megatowers": 32,
+  "retained_hero_megatowers": 8,
+  "visible_buildings": 1222,
+  "secondary": {
+    "floating_sigils": {
+      "before_v10": 26,
+      "after_v10": 19,
+      "retired_kept_ids": [
+        5,
+        6,
+        10,
+        12,
+        18,
+        22,
+        26,
+        33
+      ],
+      "newly_selected_ids": [
+        25
+      ],
+      "hidden_host_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        18,
+        22,
+        26,
+        27,
+        28,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38
+      ],
+      "historically_visible_now_host_hidden": [
+        5,
+        6,
+        10,
+        12,
+        18,
+        22,
+        26,
+        33
+      ]
+    },
+    "air_lanes": {
+      "before_v10": 6,
+      "after_v10": 6,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [],
+      "historically_visible_now_host_hidden": []
+    },
+    "searchlight_beams": {
+      "before_v10": 4,
+      "after_v10": 4,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [
+        5
+      ],
+      "historically_visible_now_host_hidden": []
+    },
+    "crown_lasers": {
+      "before_v10": 2,
+      "after_v10": 2,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [
+        0,
+        1
+      ],
+      "historically_visible_now_host_hidden": []
+    }
+  },
+  "native_visual_verified": false,
+  "checked_at": "2026-09-30T09:12:37.555544-04:00",
+  "before": {
+    "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\raw_4096.composition.json",
+    "sha256": "76be7539478b71315630eaff3aa2ccf8663e36ccd417d5c1454a0dcf2dd6e15b"
+  },
+  "after": {
+    "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\raw_4096.composition.json",
+    "sha256": "ff60379e8795cd4e56389b1719f6baa12251cc3c57c4fc029c5769fbbcd50a61"
+  }
+}

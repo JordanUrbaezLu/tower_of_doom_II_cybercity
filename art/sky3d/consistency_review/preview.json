@@ -1,0 +1,52 @@
+{
+  "engine": "BLENDER_EEVEE_NEXT",
+  "viewport": "RENDERED",
+  "scene_world": true,
+  "scene_lights": true,
+  "pitch_deg": 13,
+  "hfov_deg": 80.69094643937103,
+  "view_transform": "Raw",
+  "shader_gamma": 0.45454545454545453,
+  "display_scale": 568.1818181818181,
+  "exr_sha256": "8bdcb2c893ae2acb5671c6886cc79ad41371beaf057476e79048c088dbfebd39",
+  "master": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_preview.blend",
+  "native_card_preview": {
+    "default_scene": "02 After reveal - native sign card",
+    "states": {
+      "before_jump": "01 Before jump - dull sky",
+      "after_reveal": "02 After reveal - native sign card"
+    },
+    "native_card_objects": [
+      "Native card | sign_card"
+    ],
+    "native_card_triangles": 2,
+    "native_scale_rgb": 16.0,
+    "native_model_scale": 1.0,
+    "native_inputs": {
+      "model_export/tod_jump_title/tod_jt_sign_lit.xmodel_bin": "66a3df78cd542e5a9aebe5b00c843c7b5a075c294dd2af440db0cd9852063f17",
+      "model_export/tod_jump_title/_images/i_tod_jt_sign_lit.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "source_data/tod_jump_title.gdt": "2519cd9a9ab27b2f4f2e3aa1ece96ebb08aab20ee8f5b9470de315ac3e512dd7",
+      "art/jump_title/sign_card.json": "736e48bdd3a137c835da429324120b524ce833e2b1b75f510f49bdefb23ce19f",
+      "tools/jump_title/make_sign_card.py": "4c1c20a955304c2ed07e4a8676c13c41670bbdba69dbb3edaf46089cfe44c31d"
+    },
+    "sky_gdt_sha256": "3957bab5b07e7f2ba538b0d44d16deca3343d491c9d0553e93c6bac025865d6e",
+    "derived_art_inputs": {
+      "art/sky3d/consistency_review/native_card_art.json": "bb3d9189db3a7dd89ad4fe53de57dd4b0d86736d300a74f79c81f78305ed2702",
+      "tmp/sky_consistency/native_card_finished.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "art/sky3d/sign/v11_native_lit.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "tmp/sky_consistency/native_card_bake.blend": "2027ecc3fb0c9138b9c8aff359cc77f9f935699ec03ea34ceb0300ef40199e37",
+      "art/sky3d/sign/v10_cyber_hero.png": "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+      "tools/sky_consistency/bake_native_card.py": "204a293f561b084eef246ec49ec665fd9a1121cfc67d7517449130970fd714d1",
+      "tools/sky_consistency/render_native_card.py": "47dbe9f970b8d42715b57cefc90f6c1741cadd49f04d9cf2c4a6354b2ec93bd8"
+    },
+    "sky_stops": 4.35,
+    "preview_gain": 0.0176,
+    "display_mult_sky_only": 10.0,
+    "approximate_native_hdr_to_display_linear": 2.7861651203719844,
+    "mapping_assumption": "Native emissive HDR uses 1/(preview_gain*2^skyStops); sky display_mult remains sky-only. Gamma 1/2.2 matches existing PNG bracket. Native bloom, alpha blending and tone mapping are not verified.",
+    "transient_jump_fx_included": false,
+    "native_visual_verified": false
+  },
+  "preview_state": "after_reveal",
+  "native_visual_verified": false
+}

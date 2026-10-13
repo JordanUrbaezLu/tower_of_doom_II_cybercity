@@ -1,0 +1,2010 @@
+{
+  "schema": 1,
+  "map": "zm_tod2_cybercity",
+  "private_root": "C:\\BO3Tools\\TOD2Cybercity",
+  "started_ns": 1790781219891403100,
+  "captured_ns": 1790781222418017500,
+  "captured_local": "2026-09-30T11:13:42.418020",
+  "inputs": {
+    "map_source/zm/zm_tod2_cybercity.map": {
+      "sha256": "76f2a8b8888a746cfe0aa3354d8751d2a1934e7e1821d21856dded229e3c2c2b",
+      "bytes": 6013960,
+      "mtime_ns": 1790703538378094900
+    },
+    "model_export/tod_jump_title/_images/i_tod_jt_sign_lit.png": {
+      "sha256": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "bytes": 1950714,
+      "mtime_ns": 1790781130988018500
+    },
+    "model_export/tod_jump_title/tod_jt_sign_lit.xmodel_bin": {
+      "sha256": "66a3df78cd542e5a9aebe5b00c843c7b5a075c294dd2af440db0cd9852063f17",
+      "bytes": 375,
+      "mtime_ns": 1790781130989212000
+    },
+    "scripts/shared/ai/archetype_apothicon_fury.csc": {
+      "sha256": "c2e3c588aade1c23df1553ce6fa17bd00d15120359c6ccac84c150cc07decee7",
+      "bytes": 8911,
+      "mtime_ns": 1787455467162494400
+    },
+    "scripts/shared/ai/archetype_apothicon_fury.gsc": {
+      "sha256": "323265037d69b5c4bbdfcd660ca390d1078f4cdb1995ebfa28ab8cf55054189c",
+      "bytes": 49318,
+      "mtime_ns": 1787455467089791500
+    },
+    "scripts/shared/ai/archetype_apothicon_fury.gsh": {
+      "sha256": "523eff16963da3299f1755ee90b7822ff3b347010704bf9a025b1275d9cf17ea",
+      "bytes": 3449,
+      "mtime_ns": 1787455467217669700
+    },
+    "scripts/shared/ai/archetype_apothicon_fury_interface.gsc": {
+      "sha256": "da25577fbe026f2f9d36e2f6a09cc0112617162c8545da49e2bf52c0c8bf9359",
+      "bytes": 2340,
+      "mtime_ns": 1787455467259965600
+    },
+    "scripts/shared/ai/systems/animation_state_machine_utility.gsc": {
+      "sha256": "8a8a93c0976357bc6ad950c2f32b1aa44d70a0cef6579ad9c6bde2a118ce4823",
+      "bytes": 590,
+      "mtime_ns": 1789094549866724700
+    },
+    "scripts/zm/_zm_aetherium_hud.csc": {
+      "sha256": "75fc2a5e78dc4f66577d1c39364bccbf7a85df8da0e15bfb9e5c9f88881df918",
+      "bytes": 2690,
+      "mtime_ns": 1787116427478623100
+    },
+    "scripts/zm/_zm_aetherium_hud.gsc": {
+      "sha256": "41aa6ff1c0cf5f7656ced980f0b62974827cdce5ffd5c3dc8e7a1cdea825bf95",
+      "bytes": 19915,
+      "mtime_ns": 1790320901089863300
+    },
+    "scripts/zm/_zm_perk_wisp_tea.csc": {
+      "sha256": "32a7e1189be76ed5f1708aaa9fe4d1bffa9d095ca3be6bb022aa4ac9ef0452b3",
+      "bytes": 2060,
+      "mtime_ns": 1788108983986216100
+    },
+    "scripts/zm/_zm_perk_wisp_tea.gsc": {
+      "sha256": "84d11937393159bb1f7925ed69d0f09c21fb7b7d2948a2ef019df72ec687d305",
+      "bytes": 26575,
+      "mtime_ns": 1790703718424719600
+    },
+    "scripts/zm/_zm_perk_wisp_tea.gsh": {
+      "sha256": "e7773834424a9f2b50eb8f4714b26e68b9740ec24febb5a167ce976fc6073c84",
+      "bytes": 6640,
+      "mtime_ns": 1790703718422550600
+    },
+    "scripts/zm/archetype_zod_companion.csc": {
+      "sha256": "863857dea965703cac97ab5564714668f2e8d7b7a2f75b52fe036e12cc84ecfe",
+      "bytes": 3371,
+      "mtime_ns": 1787122633764094600
+    },
+    "scripts/zm/archetype_zod_companion.gsc": {
+      "sha256": "0dda2c9e729724fd2cafbd0d83235d9c645a9ad9facee9ebef315ee11dd9a9d4",
+      "bytes": 33197,
+      "mtime_ns": 1790645299602222100
+    },
+    "scripts/zm/archetype_zod_companion_interface.gsc": {
+      "sha256": "24244ff5b7b4818901dc3edca66fdb59d2df394299230d4aaee92f558f3984bb",
+      "bytes": 260,
+      "mtime_ns": 1787122633788650500
+    },
+    "scripts/zm/cheese_man/zombie_slow_util.gsc": {
+      "sha256": "b3736c319a2f0b3d71d6575470fe208830240a6eb1f97ce2896788a2bb93308c",
+      "bytes": 2193,
+      "mtime_ns": 1787241892241623600
+    },
+    "scripts/zm/craftables/_hb21_zm_craft_fuse.csc": {
+      "sha256": "2111f50d3092035a6d5f7d7792ea072c6b4286c69c6c4f0b91751356d7cf83cd",
+      "bytes": 1763,
+      "mtime_ns": 1787122633846219700
+    },
+    "scripts/zm/craftables/_hb21_zm_craft_fuse.gsc": {
+      "sha256": "434514d6c43a78a75d85df5da820ccc53c6bb064503df92f7abd6892bbe70898",
+      "bytes": 5799,
+      "mtime_ns": 1787122633818184600
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.csc": {
+      "sha256": "59fee80f2cbe80b0041a8040d66955333b9e5c68b1d351ba0dc8be7a5efaf743",
+      "bytes": 743,
+      "mtime_ns": 1787237893489939100
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsc": {
+      "sha256": "ac0bfd056e4cc5d20763c629c7f626c35e95904957f36892c2aece4933c6facf",
+      "bytes": 5685,
+      "mtime_ns": 1788564259507405300
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_infiniteammo.gsh": {
+      "sha256": "de760428ff42a3bcf7fbc6e214e49b5c34c63d911658de63b72573ce9ae8716e",
+      "bytes": 534,
+      "mtime_ns": 1787237906782132700
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_timewarp.csc": {
+      "sha256": "45b34a21ea66b756ca2a96975ad82f2788c4474dfdc8c276adf51d73a385cacc",
+      "bytes": 719,
+      "mtime_ns": 1787237893605329700
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsc": {
+      "sha256": "04966ad49da095123b2977047aea2c586bd39fa51328e86e522d277204fc0556",
+      "bytes": 7901,
+      "mtime_ns": 1788564259467490400
+    },
+    "scripts/zm/logical/powerups/_zm_powerup_timewarp.gsh": {
+      "sha256": "4ac2e3a97ee88948a90ed45f8abe4ebdedc447440aacab3931c309d5540bd8fb",
+      "bytes": 610,
+      "mtime_ns": 1787237904735285700
+    },
+    "scripts/zm/mechz_spiki.csc": {
+      "sha256": "a7165d49d53a4e0f0c413a1e47f2cdb248f248c6efa71aef2c9852e000d8b77b",
+      "bytes": 15530,
+      "mtime_ns": 1789522129034940800
+    },
+    "scripts/zm/mechz_spiki.gsc": {
+      "sha256": "9750050ed14132365e403f84e41ec99053abcf4e0d2e6eae4448e73fa10a3b0c",
+      "bytes": 98907,
+      "mtime_ns": 1790383844761278900
+    },
+    "scripts/zm/zm_cwpap.csc": {
+      "sha256": "7c87c1753ebf1517e8512a243575e234f509088be67fdfeeba27c3d8413e4850",
+      "bytes": 8213,
+      "mtime_ns": 1789398126244871100
+    },
+    "scripts/zm/zm_cwpap.gsc": {
+      "sha256": "13f3a9984829c0b0a342498cf71c994d562917e5e34e9126cecac17b01d9e4e3",
+      "bytes": 34681,
+      "mtime_ns": 1790703650347002600
+    },
+    "scripts/zm/zm_genesis_apothicon_fury.csc": {
+      "sha256": "58924718d6ccee387c838d663ea754e34f98d613da074db17286af0405ed17ae",
+      "bytes": 3070,
+      "mtime_ns": 1787455467412075100
+    },
+    "scripts/zm/zm_genesis_apothicon_fury.gsc": {
+      "sha256": "cffe2c1ab179272f07bbb427b18113a27c74e4cb28312008157523857b3df85c",
+      "bytes": 13845,
+      "mtime_ns": 1787455467322010900
+    },
+    "scripts/zm/zm_genesis_apothicon_fury.gsh": {
+      "sha256": "b1a75059e7cbc5cb219a74806c6b457a2aa52250ab680f60508f87a7dd13752a",
+      "bytes": 1480,
+      "mtime_ns": 1787455467447896200
+    },
+    "scripts/zm/zm_tod2_cybercity.csc": {
+      "sha256": "dceeb561e86d95a0fb336b88c7613df93475b4a8df3091e4e9927a320d1786f4",
+      "bytes": 8336,
+      "mtime_ns": 1790728677115754900
+    },
+    "scripts/zm/zm_tod2_cybercity.gsc": {
+      "sha256": "915cf25dc39ef79456111c38ed3e24ba19639b4ac5b7fde06bf3c6a67cf9c5fe",
+      "bytes": 66475,
+      "mtime_ns": 1790728677115754900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_ammo_crate.gsc": {
+      "sha256": "740b8db949ae6cccab7c8a682806bf05b8b2d92a9a30bc8e3f94d68661f4adcb",
+      "bytes": 20042,
+      "mtime_ns": 1790703857900160500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_archer.csc": {
+      "sha256": "b9c9e3cb1efb53c3285b3d873f05c2b7d4234a61f8c685f0b69b1e9c0ce98115",
+      "bytes": 2442,
+      "mtime_ns": 1790309422054102400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_archer.gsc": {
+      "sha256": "f5a45dc59980f92a56e7aec35f4754c31d38dca42e49f528c20636735aa82f5c",
+      "bytes": 44347,
+      "mtime_ns": 1790532206053014700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_archer_bow.gsc": {
+      "sha256": "2a8a228c31a7ea7f5d52f386bd5462df2b6d91b9801173379fae73c95ee5e4a2",
+      "bytes": 10585,
+      "mtime_ns": 1790573723005952900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_archer_rune.gsc": {
+      "sha256": "00d8a4c0af55fdef68841bc26e9d382193179e63925d631bd517a7ed474f0ae5",
+      "bytes": 16660,
+      "mtime_ns": 1790466623582542700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_arena.gsc": {
+      "sha256": "f9d9aa72007cecf7e8e77a512feb86dd3592d0807aa4ba185773699ca9c4e8ee",
+      "bytes": 27685,
+      "mtime_ns": 1790703728988392900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_arena_data.gsc": {
+      "sha256": "221f35bc6c8243445ea31615b57ff94981a1805197322f390d3c25c4fee35073",
+      "bytes": 1916,
+      "mtime_ns": 1790703538060590300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_athlete.gsc": {
+      "sha256": "136a3154ddb4f0ded2d9d3cceb3e575eedb1006a413f20ef2215fb27be549b03",
+      "bytes": 54964,
+      "mtime_ns": 1790704067470140600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_atmosphere.gsc": {
+      "sha256": "c9625deee55a9953b3b94b27c1f44a16815cd86a26a93583d01f12c9d08ee9d1",
+      "bytes": 51750,
+      "mtime_ns": 1790703457739122400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio.gsc": {
+      "sha256": "befd8854a43970aee2c3e9f8320ef4162893bfa9c6d22f296de68496fdb99a79",
+      "bytes": 6109,
+      "mtime_ns": 1790223266657286700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_bo6_audio_events.gsh": {
+      "sha256": "7ea13cbcdbb915daa0f5a085f33e7056de358cb83f4350042d2d75642ce94543",
+      "bytes": 4604,
+      "mtime_ns": 1790223214159393200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.csc": {
+      "sha256": "81c7247585cc05b55edf8222c0112d80d37dfbb9c03fcfb3c45a855172ea65df",
+      "bytes": 4138,
+      "mtime_ns": 1790610481881643600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_boss_fx.gsc": {
+      "sha256": "4c8bab5aa3202955055489052bc078226cc47ab8c3677332e647117e5e3e678d",
+      "bytes": 2843,
+      "mtime_ns": 1790383543966939800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_bosses.gsc": {
+      "sha256": "8d78bc23ef398a35229b3f300405530bbc3f5104b88693876211b44ac01f80f2",
+      "bytes": 175004,
+      "mtime_ns": 1790704137724992200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_breather_data.gsc": {
+      "sha256": "af76cb7f899eb9db51be9359e70a5adb3c01871f0f0c2a2802b3d93440b83152",
+      "bytes": 5939,
+      "mtime_ns": 1790703538383599900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_class_cards.csc": {
+      "sha256": "a4ed6e8100d56ae11a8071df5abb60f35178783bf918cba1a9068592e86eecc6",
+      "bytes": 3176,
+      "mtime_ns": 1790569307490549900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_class_cards.gsc": {
+      "sha256": "0a405004468b199aa82833c7087208d0c111258bb3d9d5845b37c04f316fe3c8",
+      "bytes": 37466,
+      "mtime_ns": 1790702724228819200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_class_kit.gsc": {
+      "sha256": "3dfe3281c7e3fbb2d49a3fff28097b7649dba361dcf218218527d6bbbb3f4295",
+      "bytes": 112090,
+      "mtime_ns": 1790704271325249400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_class_select.gsc": {
+      "sha256": "d74b60615db5cac9b98f2a3d05bab9c8997922cabd7a733f27f7641d86c6e965",
+      "bytes": 20819,
+      "mtime_ns": 1790646163318269300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_classes.gsc": {
+      "sha256": "ab3a9eb91d3569f2eee02fd6ebfb3272da0002afc15be2a8771c084b1b0a0be7",
+      "bytes": 92644,
+      "mtime_ns": 1790703792840680700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_conduit_data.gsc": {
+      "sha256": "2fef5007c7992a14ad067fe879abb496a26558efc2ed56652f231298a978a0d3",
+      "bytes": 6119,
+      "mtime_ns": 1790703566526735900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_corpse_cleanup.gsc": {
+      "sha256": "a85c1fc17dee2b91b3cc50e21d2bc03af510f6da20dbec35196b3f447060ed5b",
+      "bytes": 37312,
+      "mtime_ns": 1790574794901230600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_crown_alarm.gsc": {
+      "sha256": "94526a9e675a966608f3551c5544976b611e564b948a06758413e37e628e319e",
+      "bytes": 5544,
+      "mtime_ns": 1790532107399812400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_crown_data.gsc": {
+      "sha256": "35434cf811da6c599c33e85507b81627fff46b4764ac5ef5f8fc07ae55d33247",
+      "bytes": 17390,
+      "mtime_ns": 1790703538383599900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_cyber_elites.gsc": {
+      "sha256": "1a240cb3dd17aec31416dccf29afe5cd75d98ba070a98ef74436699dd5efcb0b",
+      "bytes": 4166,
+      "mtime_ns": 1790703204324099000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.csc": {
+      "sha256": "92e2fdeec3a6663ebe8354f20a7955522db4eadc6be145e9e7c20a596d6b6cff",
+      "bytes": 2478,
+      "mtime_ns": 1790467241349460200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_cyber_sword.gsc": {
+      "sha256": "a17a44b83bc21988379733cf71420bef3f1b799c540c586213601d579e879adf",
+      "bytes": 1079,
+      "mtime_ns": 1790456510550181100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_cyber_zombies.gsc": {
+      "sha256": "da99aca53105372036e956de838de7ebd6ca1b414fb16ccceec62b32ffd4cdf4",
+      "bytes": 5157,
+      "mtime_ns": 1790352536933972900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_deadshot.csc": {
+      "sha256": "0a3bfeeaa171a3a72bb8dbf939eb331ad921435bb51977304f34ee53f5f98984",
+      "bytes": 3154,
+      "mtime_ns": 1788407216912453800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_deadshot.gsc": {
+      "sha256": "5d07ece134f201c6b12e05bdb1e6826a85f2c46ea35f5d427026e1ddb04fe32b",
+      "bytes": 7212,
+      "mtime_ns": 1790703997065423200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_distraction.gsc": {
+      "sha256": "7c4295d2f5654a9e86e5d7569978312aafc97f8891ca587b3c1e0483b3a96aa2",
+      "bytes": 17968,
+      "mtime_ns": 1790703978068862700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_door_data.gsc": {
+      "sha256": "9f34db832d2d52a6416fec8322b901d9e5c3955b46126399375f8a39a860282e",
+      "bytes": 12816,
+      "mtime_ns": 1790703538380095100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_doors.gsc": {
+      "sha256": "a3af0a5aef3e9bee99d635d54912051b4d668ef333ee3c44e26b8ad4f5133343",
+      "bytes": 30908,
+      "mtime_ns": 1790484821656416900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_doppelghast.gsc": {
+      "sha256": "2822b0664f9878c204d470dfd4839c47bcda73b1cd425dd3a6848b18f114d23c",
+      "bytes": 28101,
+      "mtime_ns": 1790613816520299200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_doppelghast_motion.gsh": {
+      "sha256": "404965a24f73ec89266bd2be47e8bca21c79cfb7066932d3afc3605b4206e1cc",
+      "bytes": 3380,
+      "mtime_ns": 1790223214182405100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_elite_hp.gsc": {
+      "sha256": "42a55994df45040151a93210966a7145bc494c71d935667c0c6ba7349c80364c",
+      "bytes": 24393,
+      "mtime_ns": 1790703900893556300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_endless_rounds.gsc": {
+      "sha256": "118edef6b6771449366f40fdf727eaf674a271805912f108c75d09f76fe9b5b1",
+      "bytes": 33899,
+      "mtime_ns": 1790703313743904600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_fall.gsc": {
+      "sha256": "f509a949f607d939ac7484a9db6f076d74c71d10be41dfd3e7380bcd2c21b9b5",
+      "bytes": 59976,
+      "mtime_ns": 1790704070507275700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_finale.gsc": {
+      "sha256": "60ecf922000fed9c4835f3f9f547f0739c11deda658776da7164471396ac562e",
+      "bytes": 90376,
+      "mtime_ns": 1790703352562732800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_gameover.gsc": {
+      "sha256": "3509c58db207ec3368ab05b9e1d8f05d2035a2876fa4f50f4e27a6b604278242",
+      "bytes": 7044,
+      "mtime_ns": 1790703942287132300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_gauge.gsc": {
+      "sha256": "4c470cd9b16ec512dee6ae270fc1b8527469a036c72e0eb66e2cad1afebf6d89",
+      "bytes": 25606,
+      "mtime_ns": 1790703450617926100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_golden_zombie.gsc": {
+      "sha256": "75ba2ab5c48b79ef25a8d9eedb2e39e33b1f9eb08b85f9912914618052fd17c8",
+      "bytes": 14854,
+      "mtime_ns": 1790733145884767000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_hellhounds.gsc": {
+      "sha256": "2bb9d70976f1ff2e98dd0d3c824cb86d775807834ec027dd65dc35746555d741",
+      "bytes": 34552,
+      "mtime_ns": 1790703253255969700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_hoop.csc": {
+      "sha256": "b2cc27eef2420022b93c09b4fc5177e9a4aa7fc4853a4995dfc594023162ee4c",
+      "bytes": 4264,
+      "mtime_ns": 1789611987719447000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_jump_title.csc": {
+      "sha256": "717943186a13109078f6f3c0bca973cc78e22c7b4e94e2f3fbda498dbf6eb4d3",
+      "bytes": 32135,
+      "mtime_ns": 1790778622371769900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_jumppad.gsc": {
+      "sha256": "78f12b90b2e8acc271d3c466d8cf0c73a2fba90e0869d5ef4ff3712ef0b29a12",
+      "bytes": 42101,
+      "mtime_ns": 1790778927451082300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_keeper.csc": {
+      "sha256": "9809257ad04afa376230f0e3531e97d1374c5e242672a589cf0a4c17605dd01f",
+      "bytes": 7579,
+      "mtime_ns": 1790613782135927400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_keeper.gsc": {
+      "sha256": "2b144140340c44660c9d3013e2be38659a602d1ba44b33b79953f7aee35818a3",
+      "bytes": 18310,
+      "mtime_ns": 1790613782136927300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_killconfirm.gsc": {
+      "sha256": "625f99ea69c7fee22cc08429b199d44c54005cb54eeb23b646fd358cc17441cf",
+      "bytes": 10325,
+      "mtime_ns": 1790613816565835800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_luck.gsc": {
+      "sha256": "6586fa67c1c8fd1b23e002ed70045fdca8934eb74470618cdc01f732e2cef28d",
+      "bytes": 29902,
+      "mtime_ns": 1790721673929539300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_lucky.csc": {
+      "sha256": "abb6f8dad63617e500ed5d92faec4c514df7e7fd6135016ea004885c83b5490c",
+      "bytes": 1067,
+      "mtime_ns": 1790721958996433300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_lucky.gsc": {
+      "sha256": "277469582c7da4cbc3978fa75f5d1c436399072f567c0a60d076cd98a2dcc9ed",
+      "bytes": 26097,
+      "mtime_ns": 1790724391651121700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_lunge.gsc": {
+      "sha256": "428a70cb4c68720a2ba7cf5a4d652c31254c31c9112c1ff1c3dc70525c73e692",
+      "bytes": 13788,
+      "mtime_ns": 1790268255252221400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_mage.gsh": {
+      "sha256": "9631a398c46909627136e489a0eae4d20f1da8c2ac50695dadb30225fbc6790c",
+      "bytes": 4498,
+      "mtime_ns": 1790359049758847500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.csc": {
+      "sha256": "274403e19aa30e3b778858854ab4d95c78d524e10ce4028e9fbebb66a468d3f9",
+      "bytes": 5340,
+      "mtime_ns": 1789289453365194500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_mage_elements.gsc": {
+      "sha256": "3622cedd773525062227d66ca4f5cf38489f6b285597196c21f6a58f155028e6",
+      "bytes": 126300,
+      "mtime_ns": 1790704045590296100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_main.gsc": {
+      "sha256": "f39f2322ffdb33f3b3af929a70e5f4f8b9201511b5f88a573cb5d636004bc77a",
+      "bytes": 26028,
+      "mtime_ns": 1790703319858367400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_mangler.gsc": {
+      "sha256": "16d45e8936e9b6d1dac47cf7c66b33616cad5f6dafc5068d4bf9442fd302f3da",
+      "bytes": 26113,
+      "mtime_ns": 1790613816519291700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_necro_skull.csc": {
+      "sha256": "3d3ca2acacb90c9d2bfb5ec61fce5a89a93bc4d627bdfa4f2cc22e62fd40328d",
+      "bytes": 21774,
+      "mtime_ns": 1790562730924295800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_necro_skull.gsc": {
+      "sha256": "c1f9a0b0f2e4ecabf8f03d417267e8e4dd5800bdfec6cb95497a1c38aba4c946",
+      "bytes": 30363,
+      "mtime_ns": 1790537650078019700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_necro_summon.gsc": {
+      "sha256": "a9ec7037f16dc8c4d78afdcb6a6da33c95bfc9f556a3b263625613c47e704f39",
+      "bytes": 70752,
+      "mtime_ns": 1790723784740195000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_partners.gsc": {
+      "sha256": "18385cb038536e1d40b5c55fa5fcf2a218eeaa6c26216b03c4add51ab34fd3dc",
+      "bytes": 61929,
+      "mtime_ns": 1790711788995351600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_anims.gsc": {
+      "sha256": "1d848246d82a1bfe5a237215223272c785e0c1652a1fe6c0e10ba5266d8c2445",
+      "bytes": 6410,
+      "mtime_ns": 1790703661022448000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_drink.gsc": {
+      "sha256": "afcc858398d8b3568450133704c1619520eeef9491125fc0c4320c0ebc199d56",
+      "bytes": 7116,
+      "mtime_ns": 1788124277114710500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.csc": {
+      "sha256": "9b2ccbef5ca8fd9f3ec7ec3c0bdac8551dd0f66fbdb9abf064a1fc1e00a5d364",
+      "bytes": 3778,
+      "mtime_ns": 1788063109178886600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_electric_cherry.gsc": {
+      "sha256": "cd6df59b2a4f7d76e32811e3bd2be4ff8a02ea3a4498fe7f2b51b15da893dc41",
+      "bytes": 17796,
+      "mtime_ns": 1790109094113007500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.csc": {
+      "sha256": "e5e36536fa65c3013737e59eff6a45ae060a2df60ba3cc5c460bbc9cf69d8af3",
+      "bytes": 4295,
+      "mtime_ns": 1790532107401323300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_lights.gsc": {
+      "sha256": "51288a81981c97270cc02786a5fdc7bfafaec450a7110017e63fbdda95ee89f8",
+      "bytes": 25317,
+      "mtime_ns": 1789519020629967800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_phd.gsc": {
+      "sha256": "8c27ebcaeeb9cf6353aab7593bec6a9c93f7f040e810af4744609dfd2836af52",
+      "bytes": 35716,
+      "mtime_ns": 1790383844764792100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_scatter.gsc": {
+      "sha256": "149052d93b77538982265a18dc7beb2b85da5cfe69f83925db86ba043bd3ea9c",
+      "bytes": 39578,
+      "mtime_ns": 1790703594522249600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_perk_widows.gsc": {
+      "sha256": "4ec3ab41a36f18161d13707380f8a0d0ee44831632842aa9bface5dafdfdd3af",
+      "bytes": 11589,
+      "mtime_ns": 1790109094116008000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_power_conduits.gsc": {
+      "sha256": "1c52132020d1e857ac0f83bff0a4e5bc0b61b9165b845884c1d1a9d40beeb339",
+      "bytes": 2415,
+      "mtime_ns": 1790703922070304400
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_power_scale.gsc": {
+      "sha256": "dff29662996918ee40e80b6520125beb8c586683639d8611b17ff99bb65d4777",
+      "bytes": 10955,
+      "mtime_ns": 1790703940717413500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_powerups.csc": {
+      "sha256": "ca2615390f55580bbd64d3e83bc6d8db1d7a441bb49f9d844ab7b76c2708e3a6",
+      "bytes": 2561,
+      "mtime_ns": 1787765910662207500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_powerups.gsc": {
+      "sha256": "e2c0712f4ecfc7b63818dfea9c311c6a14a53ac3c1629c7407b9ba37fc437803",
+      "bytes": 65738,
+      "mtime_ns": 1790703665258743300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_rampage.gsc": {
+      "sha256": "bae8c0cfbc2ab75c80b49539d7089337731c06fa59aef355b008f818ca04192c",
+      "bytes": 24917,
+      "mtime_ns": 1790703496923897100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_reaver.gsc": {
+      "sha256": "5bd00ce05bb5ce13c0742468923c48e988ba25983065cf82b7cf136a7061246a",
+      "bytes": 15199,
+      "mtime_ns": 1790383844759286200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_retriever.gsc": {
+      "sha256": "41ba586cd838e7e4797ad0071a46b8f60ea8a15228674a5f818453b68eae8c95",
+      "bytes": 22737,
+      "mtime_ns": 1790571012361132500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_riotshield.gsc": {
+      "sha256": "edffca507d4954a66250b41a29acfa53754fa2d503c82c4e2582cdec4711cc48",
+      "bytes": 36407,
+      "mtime_ns": 1790703986803736500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_runandgun.gsc": {
+      "sha256": "ea4c1a8e9f5e111dc37c921eb9b28249e10443fc00e37ae24056594edfd35a12",
+      "bytes": 5726,
+      "mtime_ns": 1790109094119527300
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_secret.gsc": {
+      "sha256": "e394a443b40129b7e061e307747d5bd9b5cc7a776e512dc475c065a17ae1d4b9",
+      "bytes": 13844,
+      "mtime_ns": 1790703229926164200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_shop.csc": {
+      "sha256": "d170634ec3f343e8c0a2abdbe46b536e4cd6c748c4013783257781ebeabc54a9",
+      "bytes": 5432,
+      "mtime_ns": 1790274502078536900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_shop.gsc": {
+      "sha256": "9c33f7d59100ca6d4e75e36fb6e1bd4e339bde451e820c813222df8457df72ba",
+      "bytes": 50820,
+      "mtime_ns": 1790776072454421800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_shop_timing.csc": {
+      "sha256": "6e8e630a1d58e62e13c79f3452ed3ef86892d7b1b61179c5b2b60be2c06da0cb",
+      "bytes": 2235,
+      "mtime_ns": 1790703686534846100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_shop_vo.gsc": {
+      "sha256": "94247c554a2ec8b742302dfca5d00533caa86f2856fd978024806005a34dd9b6",
+      "bytes": 2905,
+      "mtime_ns": 1790776040072736500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_sky_lanes.csc": {
+      "sha256": "f17149d5356f4403c15674b50faab73929f9135e8a9de2bbcd14e59972c66206",
+      "bytes": 124968,
+      "mtime_ns": 1790717693230795700
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_sky_ships.csc": {
+      "sha256": "96cd6bf0361b9d5f52e4b0cd0a7d8218224680541f605f1ab0fc6cbcf9c10abc",
+      "bytes": 63398,
+      "mtime_ns": 1790739550450187500
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_sprinter.gsc": {
+      "sha256": "2aa3b7adad643756f39229023904d6a3c002a781bb822d2f34d477c45f77fd49",
+      "bytes": 24772,
+      "mtime_ns": 1790723784740195000
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_stray.gsc": {
+      "sha256": "dc66419f51f1d9409ea6446127dcdccb1c6b93f6d7ee8acd2a957297d21c1dcc",
+      "bytes": 44695,
+      "mtime_ns": 1790703305167358600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_teleport.gsc": {
+      "sha256": "5cdddbcae54970648beb1da594e84044ec86c0be3fccebf584d095f58a2fb8ee",
+      "bytes": 31691,
+      "mtime_ns": 1790704064381626100
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_uniques.gsc": {
+      "sha256": "621b9a0b86ad5f896348c2bbddb79c2b5c857d154f6127613f139f80131c01ac",
+      "bytes": 10090,
+      "mtime_ns": 1790109094124047600
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.csc": {
+      "sha256": "8384902a7345fa7e617764b7423a16fecb5c23222e2e57ba027cfdc82c9e3fe4",
+      "bytes": 5846,
+      "mtime_ns": 1790649504497397800
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_upgrade_ui.gsc": {
+      "sha256": "e6b582fcd14d97fa35f95625cb82f6639bb5bc93436d26ca8ada682c54625545",
+      "bytes": 77545,
+      "mtime_ns": 1790703465200429200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_upgrades.gsc": {
+      "sha256": "e48563ccac59a77c277bb2457a51cde2bf4ec8db980640ba8ceaae5ed88edf2b",
+      "bytes": 524517,
+      "mtime_ns": 1790703477090310200
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_warrior_melee.gsc": {
+      "sha256": "f7bf33502c89dbca5b7065ea7bb25284886ed068870d6f03f6b724c54d59e0d9",
+      "bytes": 38167,
+      "mtime_ns": 1790573723005952900
+    },
+    "scripts/zm/zm_tod2_cybercity/_tod_zombie_speed.gsc": {
+      "sha256": "75bfb1915d51dca2d7d26f6287e5c8e403ef0e1ccd37c6595b594c543ea62644",
+      "bytes": 28485,
+      "mtime_ns": 1790383844763786500
+    },
+    "scripts/zm/zm_weap_xmas_gun.csc": {
+      "sha256": "5d6a5b3d928b4685a750f15cb6f85b31339abc2cc80039210188010dfe0c65cc",
+      "bytes": 8329,
+      "mtime_ns": 1787713957359862100
+    },
+    "scripts/zm/zm_weap_xmas_gun.gsc": {
+      "sha256": "1d8008128efa79eec5d77554633a00f8724134b93142e725d40bfd18c97915e9",
+      "bytes": 10716,
+      "mtime_ns": 1787713829487179300
+    },
+    "scripts/zm/zm_weap_xmas_gun.gsh": {
+      "sha256": "4928f35cce7de3b6becb2eb4c816787cf1edaf0a5f107208d3220a43194dd8c9",
+      "bytes": 538,
+      "mtime_ns": 1787241953811367200
+    },
+    "scripts/zm/zm_zod_robot.csc": {
+      "sha256": "d71fabf5bc72abce6033ad91ffed27670995a5b9fcb322b190117d946133bc78",
+      "bytes": 3042,
+      "mtime_ns": 1787122760064521800
+    },
+    "scripts/zm/zm_zod_robot.gsc": {
+      "sha256": "a270d5811879d7bbced2bf79c01fc34cbc1df2f994e22f4d51f63efb55979ce9",
+      "bytes": 17335,
+      "mtime_ns": 1790216593222682900
+    },
+    "share/raw/fx/tod/jump/fx_jt_blast.efx": {
+      "sha256": "1b89b34e7d300460a3b9a87d4104d9f8e47d8a8d7a166c23363ee272cda2d1c2",
+      "bytes": 17347,
+      "mtime_ns": 1790778693383471200
+    },
+    "share/raw/fx/tod/jump/fx_jt_blaze.efx": {
+      "sha256": "efe731b68168bdb8692a059dbdb762932c6c023b2136b146ce413cf6802ae1b1",
+      "bytes": 24927,
+      "mtime_ns": 1790778693385471700
+    },
+    "share/raw/fx/tod/jump/fx_jt_boom.efx": {
+      "sha256": "2e91d21a19e1cf28695c9e240e5d83177a75a622b99a23304ae8b2b5c3e4d8f1",
+      "bytes": 155823,
+      "mtime_ns": 1790778693383471200
+    },
+    "share/raw/fx/tod/jump/fx_jt_burn.efx": {
+      "sha256": "47043635c49d63c37a644b09a33b25f8a64f8c02e351ec5ed53a09c1d64d128a",
+      "bytes": 18433,
+      "mtime_ns": 1790778693384470800
+    },
+    "share/raw/fx/tod/jump/fx_jt_warp.efx": {
+      "sha256": "324e5c8e34d498dc0134106d80d386f7a8a31a5f80fd7b4408d9607e138bf4dd",
+      "bytes": 144526,
+      "mtime_ns": 1790778693384470800
+    },
+    "share/raw/fx/tod/jump/fx_jt_wreck.efx": {
+      "sha256": "d6fc871735c79b06afba935133dce4464d349e61867053fa76c9b3cb7ca61c00",
+      "bytes": 55743,
+      "mtime_ns": 1790778693384470800
+    },
+    "source_data/tod_jump_title.gdt": {
+      "sha256": "2519cd9a9ab27b2f4f2e3aa1ece96ebb08aab20ee8f5b9470de315ac3e512dd7",
+      "bytes": 1169,
+      "mtime_ns": 1790781130991226200
+    },
+    "source_data/tod_skybox.gdt": {
+      "sha256": "3957bab5b07e7f2ba538b0d44d16deca3343d491c9d0553e93c6bac025865d6e",
+      "bytes": 32205,
+      "mtime_ns": 1790713543490872300
+    },
+    "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr": {
+      "sha256": "8bdcb2c893ae2acb5671c6886cc79ad41371beaf057476e79048c088dbfebd39",
+      "bytes": 89016185,
+      "mtime_ns": 1790779904506746600
+    },
+    "ui/uieditor/menus/StartMenu/AetheriumStartMenu.lua": {
+      "sha256": "5dadd4cad255eae68afc453165f5c18ad68b7e6c3c20acb4f5e82c217ed0bea0",
+      "bytes": 106309,
+      "mtime_ns": 1790704633414298000
+    },
+    "ui/uieditor/menus/hud/AetheriumHud.lua": {
+      "sha256": "891b996db8034c1ded87618cfdece1ad7006f85658b7d7cb4b670f56c283157e",
+      "bytes": 32810,
+      "mtime_ns": 1790695386800343200
+    },
+    "ui/uieditor/menus/hud/tod_class_select.lua": {
+      "sha256": "bed4bfa9711baec21ac20567064810335ee520b4c3faaeb11f35cf73c15ed56e",
+      "bytes": 57297,
+      "mtime_ns": 1790465553481317500
+    },
+    "ui/uieditor/menus/hud/tod_upgrade.lua": {
+      "sha256": "f90c38ebe8fdd9be36dafdb48b42da9477a8060655aa0fc4421566d5cc173c31",
+      "bytes": 282107,
+      "mtime_ns": 1790711961780460100
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumCompass.lua": {
+      "sha256": "fd9a15b4b48fcf51753e05f4b78e30638d1abdaf6dc1e186158bbdd8284d475a",
+      "bytes": 1764,
+      "mtime_ns": 1789521728296700500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumGobbleGum.lua": {
+      "sha256": "08d43b6c25265f28f04b343bb0f27425b0a457c251f3856286deee666a80ed58",
+      "bytes": 5737,
+      "mtime_ns": 1789521728296700500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeed.lua": {
+      "sha256": "ef54ccfde803413735d163be78909313646ec5f3187ab0ddf7e9aa768e512ca3",
+      "bytes": 8323,
+      "mtime_ns": 1790703790588654200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumKillFeedText.lua": {
+      "sha256": "288d437bfa9ce3480051a8145a45c185bd0f312231b4cd0485c5d325cf269781",
+      "bytes": 2399,
+      "mtime_ns": 1788547453064012200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumLoadout.lua": {
+      "sha256": "36bea6ba9e222ba6e77120cdbbab20b9a572ac4d071c78eee34d7f1fe548697c",
+      "bytes": 108274,
+      "mtime_ns": 1790554794663901500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPartyPlayers.lua": {
+      "sha256": "6a63f14e5e9f32fbeeb9bbd68ed025c140c6c52efe682a97e49d65335edfdcd1",
+      "bytes": 17902,
+      "mtime_ns": 1790467734467405200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerkItem.lua": {
+      "sha256": "6ef66c518d4369ce42482f9b81aaa351369571afb8345bbd66f15ac0ddd946f7",
+      "bytes": 1971,
+      "mtime_ns": 1790467734468410300
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPerksContainer.lua": {
+      "sha256": "ded9adee3f4e3911672e1e4d347c68fe57fcfe0054604423c51af6716b40b44f",
+      "bytes": 4996,
+      "mtime_ns": 1789520517450400200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlayerInfo.lua": {
+      "sha256": "a078ce35f3d8833521142267bc54059ace9c199be200292170c19c9d5ceddafe",
+      "bytes": 39863,
+      "mtime_ns": 1790467734467405200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPoints.lua": {
+      "sha256": "f13a2e61292a52b25e43f1fffbb935bca60bd21019c08d0c6790ef8f44946f48",
+      "bytes": 2441,
+      "mtime_ns": 1788547431786949400
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPlusPointsContainer.lua": {
+      "sha256": "4339bb27e68395e991f36bb52df7eed814789fcc0528f378a313eecfa1d87c16",
+      "bytes": 3506,
+      "mtime_ns": 1789098201013614200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPointsDelta.lua": {
+      "sha256": "dbdd8a0f564ad3b60bba3ce6c5cce245c1a084744ecfd71cae8ba70c71e07522",
+      "bytes": 2628,
+      "mtime_ns": 1787116427710101500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupItem.lua": {
+      "sha256": "7cf790ce1fd305a66294c4506f6bd298724615c9f448ac6a7a3745cfb5a318c5",
+      "bytes": 2719,
+      "mtime_ns": 1787116427718616100
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupNotification.lua": {
+      "sha256": "34c69b32f9eedb5da56d6e6fdf26f3fb87b2bec8d62b729f9316930db52f0cc6",
+      "bytes": 9946,
+      "mtime_ns": 1790467734469410100
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumPowerupsContainer.lua": {
+      "sha256": "0a32dac9005946eb7f0a1953ea6d1bd790fdfbc7f58d879b3757d7202d045865",
+      "bytes": 6054,
+      "mtime_ns": 1789521728297703400
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumRoundCounter.lua": {
+      "sha256": "8de35b06fc13d67fa6a241da80cf5ab7ed20acc7269c64dc47c2728779fcf61f",
+      "bytes": 8515,
+      "mtime_ns": 1790467734469410100
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumScoreboard.lua": {
+      "sha256": "385beb54856722e8ae757e7e9391fcfc742d837a5fbf75268b1fc8b52ea81b3f",
+      "bytes": 71795,
+      "mtime_ns": 1790704731035105700
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumSpecialWeapon.lua": {
+      "sha256": "fc2c40133215ef16a87bdb0a8ea2d61b04248c3e544fa5abee8dfc1ee4c31b7c",
+      "bytes": 7834,
+      "mtime_ns": 1787118125641572200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/AetheriumThirdPersonCrosshair.lua": {
+      "sha256": "65d52dcab4d3b48e69a40ff9d5d6559b9c792490f0cd66c916ca5d25d25c58c1",
+      "bytes": 1322,
+      "mtime_ns": 1787116427763923600
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/Scoreboard/AetheriumQuestsCustom.lua": {
+      "sha256": "2c8132c130db59bc405cd58392b2ce2f6c25474223545e1cb21f729af6703452",
+      "bytes": 7401,
+      "mtime_ns": 1789521728296700500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodAbilityFeedback.lua": {
+      "sha256": "a1e5cd22da06533eab87dbbdd0c21fbd73b15e6d9c1c058cac542396616e6a17",
+      "bytes": 3211,
+      "mtime_ns": 1789062957427625400
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodCardArt.lua": {
+      "sha256": "bafb06e309858ba12d95e0279721af37f1ec24debe9dd51fcbe918bbc87c0b70",
+      "bytes": 2745,
+      "mtime_ns": 1790698561495569400
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphMetrics.lua": {
+      "sha256": "1334ac3627ca1432f0f970a4063cbae42be8f3bc6045658f6dbafc959b5cb5fe",
+      "bytes": 2801,
+      "mtime_ns": 1790713753471814200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphRow.lua": {
+      "sha256": "f7638691567bac0411f0fc5139656ddebdca9d217f3636ad6226c88745e337ea",
+      "bytes": 8842,
+      "mtime_ns": 1789362430504163300
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodGlyphText.lua": {
+      "sha256": "7c158c895af45baad0746fe0cb58ff6ae3ed3d6aab069b88ae045ae6c67018bc",
+      "bytes": 10421,
+      "mtime_ns": 1789402635122278500
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodHealthTint.lua": {
+      "sha256": "399089d33e66ce59391d7f3c14c672fae1ee35660f756e8dd6c3226a6661c53b",
+      "bytes": 4486,
+      "mtime_ns": 1789520597209707200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodHudVeil.lua": {
+      "sha256": "4b773ebf61ddd7cb35b77e5f5feba1561ffc8d6e69559d5b9bdcf47eb20155a2",
+      "bytes": 2154,
+      "mtime_ns": 1790703791854654900
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodJumpCine.lua": {
+      "sha256": "44156ed074462f7d213f68985fb1c9248d63319362507ad8a61fe07548370975",
+      "bytes": 7767,
+      "mtime_ns": 1790713687052750100
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodKeycap.lua": {
+      "sha256": "7558b703e57345c138cc0d34202ca1934733b98d4ea91aa60056a2caaf268d7b",
+      "bytes": 17484,
+      "mtime_ns": 1788884979806000200
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodPull.lua": {
+      "sha256": "60a7a52abfd204fafd6f51d2971baebc0e2e01dec77679400998e86c122553bf",
+      "bytes": 51576,
+      "mtime_ns": 1790711961758409800
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodSpinReel.lua": {
+      "sha256": "630cfb7b87cd5c283fe9b84868a9dec61443d5ece11968fa75d3fe3aaa99d514",
+      "bytes": 72963,
+      "mtime_ns": 1790704806129260900
+    },
+    "ui/uieditor/widgets/HUD/AetheriumWidgets/TodUIOwnership.lua": {
+      "sha256": "de861c8b6e51c8d34db7c026a31f6f26ee973c8d82c5775bdfc051377ae9551e",
+      "bytes": 1120,
+      "mtime_ns": 1789520766512426100
+    },
+    "ui/uieditor/widgets/HUD/Mappings/AetheriumAAT.lua": {
+      "sha256": "a9f64e012b62333c1303bc97e3142783276b3c727706bc5488c1ba4366cfe2bc",
+      "bytes": 933,
+      "mtime_ns": 1787116427779954900
+    },
+    "ui/uieditor/widgets/HUD/Mappings/AetheriumBBG.lua": {
+      "sha256": "b98d00db490c914a1f0364b1d37aaf3e9ea7dba1d3060356d049b1a1610be1de",
+      "bytes": 12328,
+      "mtime_ns": 1787116427789465900
+    },
+    "ui/uieditor/widgets/HUD/Mappings/AetheriumCharacters.lua": {
+      "sha256": "42d99f655cb84098bc448e28b2b6f8ad8260ce076299c740593fcdc50856faba",
+      "bytes": 10557,
+      "mtime_ns": 1790441758733155800
+    },
+    "ui/uieditor/widgets/HUD/Mappings/AetheriumPerks.lua": {
+      "sha256": "f7c6e0aff89f9dde97e873bbe41ce15210215c389c08192d9ccddd0378d280ee",
+      "bytes": 9103,
+      "mtime_ns": 1790109094159766800
+    },
+    "ui/uieditor/widgets/HUD/Mappings/AetheriumWeapons.lua": {
+      "sha256": "e57c14e3f020e3aae6d2a5091ff04de468633ff56aeddc5179ab735a1f383afe",
+      "bytes": 3143,
+      "mtime_ns": 1788487865493441100
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptBBG.lua": {
+      "sha256": "54aa337181ce3e4dacdc1f78bb8c733e4cacdf4f1094ce511a8b3abfafeb4a57",
+      "bytes": 8044,
+      "mtime_ns": 1789521728297703400
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDefault.lua": {
+      "sha256": "c3f80e1caa50582cf779fa3dd348725c52520cb01d5e3301f6bd97960370d7eb",
+      "bytes": 6120,
+      "mtime_ns": 1790703790587650600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptDoors.lua": {
+      "sha256": "96000962914d2f99d62b6301c8fbd82d6a768f8ba379f2d4e704f8ce5a3c45c7",
+      "bytes": 5161,
+      "mtime_ns": 1790703790585766700
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptMysteryBox.lua": {
+      "sha256": "7d8b2269ab218f417ecafb00a1796c9e45537d77e3e7ff055bcbd68360f2d918",
+      "bytes": 8166,
+      "mtime_ns": 1789521728299206600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPAP.lua": {
+      "sha256": "13f04183219e696ff4907369e6e91093a43d7937ef3d1c48bdd2840bdaba0ab6",
+      "bytes": 4519,
+      "mtime_ns": 1790703790587650600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPerks.lua": {
+      "sha256": "15a4d84852374829a185f4429fb6d692126890beec77703ee638874f6791b364",
+      "bytes": 9165,
+      "mtime_ns": 1789532271770248900
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerRequired.lua": {
+      "sha256": "6bc235fe7adae443f1b47c315261d5ba72e564c3251539dbad24545db6fd4160",
+      "bytes": 1969,
+      "mtime_ns": 1790475187938363600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptPowerSwitch.lua": {
+      "sha256": "f9f181ce735f9155169e01a9337597dfce8303fe6a198747124f576d123a03df",
+      "bytes": 3211,
+      "mtime_ns": 1789364690845742500
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptTemplate.lua": {
+      "sha256": "8856b86d47f1d4458b28ce2dd8f5df8429173313fb7c3fb51f0c62c83e334cb7",
+      "bytes": 698,
+      "mtime_ns": 1787116427870475600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/PromptWallBuy.lua": {
+      "sha256": "534540f9a2df9f34eb5416445e4ceda1d0ebeba2a26d300738716da4d3e6102c",
+      "bytes": 7368,
+      "mtime_ns": 1789521728299206600
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodPromptCard.lua": {
+      "sha256": "3087e6cc07ab9ce333b4e99b18cfe7b7988ca71ac3a563658a114833504ff4f3",
+      "bytes": 37203,
+      "mtime_ns": 1790703790586766700
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/Prompts/TodTeleportFeedback.lua": {
+      "sha256": "649dcbacef807deab9735634ea94629f52da4f306e6c96e7df6d6c8af100db9f",
+      "bytes": 2847,
+      "mtime_ns": 1789364877219539100
+    },
+    "ui/uieditor/widgets/HUD/ZM_CursorHint/ZMCursorHintNew.lua": {
+      "sha256": "5525c8a3b86c759560454a64685044803a9a01ce8ae08fe7f71917094697937b",
+      "bytes": 22481,
+      "mtime_ns": 1790703234746009200
+    },
+    "ui/uieditor/widgets/StartMenu/AetheriumMenuButton.lua": {
+      "sha256": "1f04aea6a96bcfd2f79b3912a9a569050bb686273a4ee7332bf574de8e2a1820",
+      "bytes": 2493,
+      "mtime_ns": 1790357059044061400
+    },
+    "ui/uieditor/widgets/StartMenu/AetheriumSmallButton.lua": {
+      "sha256": "ee204886607f2727e0c27b5a05f1df17431265de00af5ba7e4e6d93e074a1695",
+      "bytes": 2443,
+      "mtime_ns": 1787116427934964700
+    },
+    "zone_source/aetherium_hud.zpkg": {
+      "sha256": "99cfc3d46066e949de195aef5aac166f50469d0b7f1d6632b761d3e87adb2aff",
+      "bytes": 9593,
+      "mtime_ns": 1788928139664814500
+    },
+    "zone_source/logical_powerups.zpkg": {
+      "sha256": "41c36af6eb84de87240d7aa01ba8953cf4c1c6edb02f4f05bff055461f596e0a",
+      "bytes": 626,
+      "mtime_ns": 1787238738265153800
+    },
+    "zone_source/tod_crown_alarm.zpkg": {
+      "sha256": "a42bf5de58b9b0925005daed2095010d4b69e0792db6387136edecd9dfb19f3f",
+      "bytes": 699,
+      "mtime_ns": 1790532107402827400
+    },
+    "zone_source/tod_cyber_sword.zpkg": {
+      "sha256": "ae836b10acf322ee737b9c0bdc9e93e4a9cf0617b876fd7ecaad1ca5a9bd3c64",
+      "bytes": 397,
+      "mtime_ns": 1790456579873506500
+    },
+    "zone_source/tod_necro_staff.zpkg": {
+      "sha256": "e4e9333f3df79b4af99b54178a7afcbbb60d33805f7c4ede415fbd65e1fe21a4",
+      "bytes": 1470,
+      "mtime_ns": 1790562731013886000
+    },
+    "zone_source/tod_partners.zpkg": {
+      "sha256": "ca27a70e853dd738e32cc886d347cc5b1d0ac59600272ee3fcea7e966ac3ea7f",
+      "bytes": 630,
+      "mtime_ns": 1790217235623050900
+    },
+    "zone_source/tod_power_conduits.zpkg": {
+      "sha256": "1662e2a06c74e0ae02b32bb4a1527771970fac104cf2113110572df9d708c795",
+      "bytes": 1819,
+      "mtime_ns": 1790703566535831700
+    },
+    "zone_source/tod_shop.zpkg": {
+      "sha256": "ba19f9d1f51b2640745540b576023296a942f2a4dc3368b73a06743ff62678eb",
+      "bytes": 905,
+      "mtime_ns": 1790775957755748800
+    },
+    "zone_source/tod_teleporter_states.zpkg": {
+      "sha256": "4848b8020c2d240bdabe790e6284d4e322b6e8b1c03f7e54b2e08134d4419865",
+      "bytes": 113,
+      "mtime_ns": 1790477290504815700
+    },
+    "zone_source/tod_twins.zpkg": {
+      "sha256": "b098105a536baddacad67745a7389fbfd31c4df3466f85d29a3440bcd2e3cab8",
+      "bytes": 4842,
+      "mtime_ns": 1790575237242881600
+    },
+    "zone_source/xmas_gun.zpkg": {
+      "sha256": "340541ac065d623d4deb82410a2dc57780b98488c23bb8270d09903fb16f8439",
+      "bytes": 413,
+      "mtime_ns": 1787241892381040700
+    },
+    "zone_source/zm_tod2_cybercity.zone": {
+      "sha256": "f28c21c11e85ffc8a03096dc911252e3c4cc87ba401f61012b7a34264333caf2",
+      "bytes": 115458,
+      "mtime_ns": 1790778784711615800
+    }
+  },
+  "authoring": {
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\jump_title\\sign_card.json": {
+      "sha256": "736e48bdd3a137c835da429324120b524ce833e2b1b75f510f49bdefb23ce19f",
+      "bytes": 1979,
+      "mtime_ns": 1790781131019237200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_01.png": {
+      "sha256": "80474254dad40efc698c55aa18203db09b93bf3b3ae2624ad16a1d39869730ba",
+      "bytes": 451099,
+      "mtime_ns": 1790346985060627100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_02.png": {
+      "sha256": "77ab77463be3fa32d01ba941fe68da615f4294851f12f46c144bd6fcf9b0744a",
+      "bytes": 426798,
+      "mtime_ns": 1790346985148140900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_03.png": {
+      "sha256": "cd138dedba54c3222310811fd431f5a810a1ee30dfaeccdcf89a38ab128c1385",
+      "bytes": 444996,
+      "mtime_ns": 1790346985266810700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_04.png": {
+      "sha256": "a657de8a9637547bf8a6f9b3ee12fa7930b6e83651a986566015b963b255f0d7",
+      "bytes": 434466,
+      "mtime_ns": 1790346985420734200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_05.png": {
+      "sha256": "747e46fcca4a995670d6fad4ac597309db1f95491bd968df490b1d73bc50d665",
+      "bytes": 435019,
+      "mtime_ns": 1790346985506289300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_06.png": {
+      "sha256": "cc063b6080cec6c4385298ce90bceb6d1b5d13f327569460ece4114fbad47ad9",
+      "bytes": 428512,
+      "mtime_ns": 1790346985599832600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_07.png": {
+      "sha256": "3b45488d872a1439eaa059198b2233694e27d68dd7401f34e13c624f4f5c3a86",
+      "bytes": 268203,
+      "mtime_ns": 1790346985705958100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_08.png": {
+      "sha256": "9baf746ab5c6784b374d3e686603c9624cdfd5bbef2fedaeca904b7fe115dbe1",
+      "bytes": 255007,
+      "mtime_ns": 1790346985820690800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_09.png": {
+      "sha256": "e2bf55a9e71a3383368ea686012a5534e3c0bacffc3ec323293f304d5ab59caa",
+      "bytes": 260577,
+      "mtime_ns": 1790346985940817800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_10.png": {
+      "sha256": "9d02cfad61214f1913b26dd2d6463e9497efc7672d24b057703e72f1b388973a",
+      "bytes": 263462,
+      "mtime_ns": 1790346986038372100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_11.png": {
+      "sha256": "0d950122c4e700398d9c4862f08ec52e1a45dd4510ba31f332c052a8c48aa002",
+      "bytes": 265561,
+      "mtime_ns": 1790346986135693400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_12.png": {
+      "sha256": "c957b15aa414829639948d185021f396e5134ce1274ea6e7ea6d5142a08a4e39",
+      "bytes": 251347,
+      "mtime_ns": 1790346986226718800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_preview.blend": {
+      "sha256": "af5433d826153595bc50183f373f4766be9bdcba9044535a763184c041397a50",
+      "bytes": 1115016,
+      "mtime_ns": 1790781192456077500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\architecture_check.json": {
+      "sha256": "8137f3742a2b079aaa2451258981e2a69a9630371bbe3c9bd8adc9493582e010",
+      "bytes": 927,
+      "mtime_ns": 1790779759276246000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\baseline.json": {
+      "sha256": "43753e87586b41149a290fa2c723430393f13da537c127f4acddc9035b0f6993",
+      "bytes": 11028,
+      "mtime_ns": 1790778113581879200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\middle_ground_stats.json": {
+      "sha256": "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+      "bytes": 1266,
+      "mtime_ns": 1790774705584051300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\blender_after_reveal.png": {
+      "sha256": "f46bce6665ee872f25fde91e88e1d4f501207a981b58802d8783d4e743b5bc9a",
+      "bytes": 3196244,
+      "mtime_ns": 1790781195295480300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\blender_before_jump.png": {
+      "sha256": "8afaa316726cb311ba9b26c356ba66aa57194c8ee824d6087b571e3d6b3a2ccc",
+      "bytes": 2699779,
+      "mtime_ns": 1790781194900014900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\blender_preview.png": {
+      "sha256": "e71507311f3c5629f6605ddd52452165953238c471e6c990594cb5ef4b864699",
+      "bytes": 2805738,
+      "mtime_ns": 1790781197494388800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\cache_refresh.json": {
+      "sha256": "b8818db3f46ec689b90789693f5c4fd9759198f45c97eec58f3ca37324bdddb7",
+      "bytes": 502,
+      "mtime_ns": 1790781219636955600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\composition_audit.json": {
+      "sha256": "665a8c21e376c7c71a5fa1da2a7da3914f7c6486172d9cfae5452d48478b3e66",
+      "bytes": 3237,
+      "mtime_ns": 1790779491660653700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_behind.png": {
+      "sha256": "372c3e413ea20fdbf4697efc812ad44bf79db8816bb2150af93c7a82fa98860a",
+      "bytes": 2488004,
+      "mtime_ns": 1790779860366477100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_brown.png": {
+      "sha256": "2b457c793051c60f1e1bae1be5303325f844bbe79664b422bdbafaee60afbb59",
+      "bytes": 2432017,
+      "mtime_ns": 1790779867277684500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_celestial_east.png": {
+      "sha256": "c023dc31e51b788260ad9ff4cf0b65c22e352c3322c872901371b83d945672c9",
+      "bytes": 2268529,
+      "mtime_ns": 1790779867966321600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_city.png": {
+      "sha256": "a7d9c7ec9e02ae31bdf7e175f1f3f65d33b2ed90d094aab159ec2f9dbbce427b",
+      "bytes": 2532891,
+      "mtime_ns": 1790779858422974000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_core.png": {
+      "sha256": "42b624834b6b3ff874a773f238938d4bb55632f624a188fa0e44f05c0c7665c6",
+      "bytes": 2788859,
+      "mtime_ns": 1790779870009619700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_down_l.png": {
+      "sha256": "a042cffba07b79a8b043668bda32d06cac58eec398071515ae0ddb6c31817807",
+      "bytes": 2724702,
+      "mtime_ns": 1790779861765946000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_down_r.png": {
+      "sha256": "b3731cb3c1c4d029035dc126882b19715543e48c5d2225a793c1c0e23872ab84",
+      "bytes": 2468322,
+      "mtime_ns": 1790779861063694400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_galaxy.png": {
+      "sha256": "b60852576158974fcb7181d6645e91d0de1459d287677a957a19237b59ebda08",
+      "bytes": 2375392,
+      "mtime_ns": 1790779865254906400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_gargantua.png": {
+      "sha256": "b421eaa62d07bbb6099e9c3e91a4e2a81c0dbad7fdb1d471a41f44261c2ff90c",
+      "bytes": 2269864,
+      "mtime_ns": 1790779864541969700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_giant.png": {
+      "sha256": "c0b5ce22b5743a652f270e7f9f5f4b369d11755916670b12e2f57ba2dfe144a2",
+      "bytes": 2189545,
+      "mtime_ns": 1790779866599994100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_harbour.png": {
+      "sha256": "7b56cbbc680f0deeca7afc0c6ad686ec1803eb162299a0c9b39b38f9d994a6d9",
+      "bytes": 2431141,
+      "mtime_ns": 1790779859708936700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_maelstrom.png": {
+      "sha256": "7497c8f7ef6f24cf53732014a2990ebe6d6c9b06f6932aea42bc9e2f612ba0e8",
+      "bytes": 2292639,
+      "mtime_ns": 1790779869324036600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_moon.png": {
+      "sha256": "99899993bb8b90fd6370b814f9dd5b36f51d51153cab3c33c869fa954b3ef811",
+      "bytes": 2607341,
+      "mtime_ns": 1790779857761951500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_nadir.png": {
+      "sha256": "065e5d5d622eec8f8f26087eea2c082fd4ce0ffdfca831a685f12cccec323827",
+      "bytes": 1988940,
+      "mtime_ns": 1790779862498528400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_origin.png": {
+      "sha256": "aed1e489e9a34538c2bae2a00c5a398cdbf53f698609124efaa45d4ac904c2cb",
+      "bytes": 2249958,
+      "mtime_ns": 1790779863838901700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_reveal.png": {
+      "sha256": "732dc427d1ee8daf71219572e289d7c9739ac650e99531a0c5fdb6165c994f8d",
+      "bytes": 2540464,
+      "mtime_ns": 1790779871332660600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_reveal_cinematic.png": {
+      "sha256": "12ef18a168673d0858fda37976a1ca46185d286a4ab13de9e860c6dfdb92c5f4",
+      "bytes": 2516430,
+      "mtime_ns": 1790779871994528900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_ruby.png": {
+      "sha256": "34f41109a47dc918b9d339c83be5bbb02d56756078c1d55061080f87a3faca06",
+      "bytes": 2187761,
+      "mtime_ns": 1790779870681660800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_skyline_r.png": {
+      "sha256": "0ca3c30f97cdbeae9d2dadb232c6a79bbb74ebd9c08750e1f10573521da33d7c",
+      "bytes": 2562073,
+      "mtime_ns": 1790779859066336300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_station.png": {
+      "sha256": "a09dfebda39f3e8226d3e055440392854ca1d62d975bca693ab7293005e072bc",
+      "bytes": 2333264,
+      "mtime_ns": 1790779868611117500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_tether.png": {
+      "sha256": "1045cba68c90c1eab809ba3a777a1f253753864aac77e9a30a22a3797d1e9b23",
+      "bytes": 2297045,
+      "mtime_ns": 1790779865933206400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_ingame_up.png": {
+      "sha256": "881dfabb18e46349a3d2140239ac12e4b970c543ab691cc8e0f1505beaed4566",
+      "bytes": 2325183,
+      "mtime_ns": 1790779863174585700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_sky_equirect.png": {
+      "sha256": "88557e4c8a7eab84ce5de7aea093474a58698c161f577f197bc736f97d99a88c",
+      "bytes": 2801250,
+      "mtime_ns": 1790779857118512100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\finish.json": {
+      "sha256": "700726d530c7e79fadfcda274e136d3c168f6ae7ac5bf9dc72fe7658c9435c66",
+      "bytes": 1308,
+      "mtime_ns": 1790779872604556700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\install.json": {
+      "sha256": "e353982887a1a022fa0012f5bce46db8e50404fa59bbfa52f210f7251ee8204a",
+      "bytes": 3142,
+      "mtime_ns": 1790779905504958000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\native_card_art.json": {
+      "sha256": "bb3d9189db3a7dd89ad4fe53de57dd4b0d86736d300a74f79c81f78305ed2702",
+      "bytes": 4785,
+      "mtime_ns": 1790780113961073600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\preview.json": {
+      "sha256": "4abb7cca8941a7255a65c5cf00d5abd27d5703541a304611fe02fe42a0d55f86",
+      "bytes": 3002,
+      "mtime_ns": 1790781193023967500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\readability_final.json": {
+      "sha256": "ec403a4499e852f5c61aab54318beeb890394313f0ab3cd04270b3af4fc548ec",
+      "bytes": 26154,
+      "mtime_ns": 1790779884864203100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\scene_materials.json": {
+      "sha256": "e8e03bc311faba06561f936f55d786a2437211837d34878340198036b7e46982",
+      "bytes": 16267,
+      "mtime_ns": 1790779403660058400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\state_renders.json": {
+      "sha256": "07b4c54ff7f37dd6169444467ae70171090e8895865469277462dbf9adddcefc",
+      "bytes": 763,
+      "mtime_ns": 1790781195333684000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\sign\\v10_cyber_hero.png": {
+      "sha256": "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+      "bytes": 2553804,
+      "mtime_ns": 1790741756437161500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\sign\\v11_native_lit.png": {
+      "sha256": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "bytes": 1950714,
+      "mtime_ns": 1790780113933553500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend": {
+      "sha256": "0cd4427f4c747de44d482233a466f7b0cd6d4b44cac55b84353a1115238944e0",
+      "bytes": 124148500,
+      "mtime_ns": 1790779904798907500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\docs\\sky_preview\\sky3d_stats.json": {
+      "sha256": "45da86ba1d1076bd6366753768afbd0ab35d0f89a98cf02596eddf1d47803ace",
+      "bytes": 1682,
+      "mtime_ns": 1790779905503952400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\fonts\\orbitron.ttf": {
+      "sha256": "f42db2dd16e642258e35782916eceb1dcdbea06fb958d77ad71dc5963587e8fd",
+      "bytes": 38576,
+      "mtime_ns": 1787116427328823600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\author.json": {
+      "sha256": "2ca4f57a273b96a0234e64b01d747aa10ad41ac14d02c6eb809ea71475f370c0",
+      "bytes": 4179,
+      "mtime_ns": 1790779222727259100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\clearance.json": {
+      "sha256": "d0a5cbea25dcfc4c2e9a71c87b508acb18694859850fb2216887b76fa29039c5",
+      "bytes": 4451,
+      "mtime_ns": 1790779548162355100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\native_card_bake.blend": {
+      "sha256": "2027ecc3fb0c9138b9c8aff359cc77f9f935699ec03ea34ceb0300ef40199e37",
+      "bytes": 33735542,
+      "mtime_ns": 1790780098639339800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\native_card_finished.png": {
+      "sha256": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+      "bytes": 1950714,
+      "mtime_ns": 1790780113749232600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.exr": {
+      "sha256": "0bf04e8d32d393c871baed085ba8026ab88c79d7cdd2a52f1681ae9f9e670508",
+      "bytes": 360166670,
+      "mtime_ns": 1790779816654041200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.render.json": {
+      "sha256": "1bec2219ef936171b85a8d7085a7e303ffd63373542184e0868f304833af39b4",
+      "bytes": 4404,
+      "mtime_ns": 1790779819994569900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.sign.exr": {
+      "sha256": "6fd19e04e974fe67702640f01ae0ed6c42426d9c984385e60af997429fad58d3",
+      "bytes": 1223259,
+      "mtime_ns": 1790779816230403200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.title.json": {
+      "sha256": "aeb507649df49fb1d71fea35f8609c40c47c83f470cae99371717bf8f27b5835",
+      "bytes": 5039,
+      "mtime_ns": 1790779819977564100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\skyline.json": {
+      "sha256": "8ffc99e46862ff1fb9be06c5999c2c05a3b57bae852e54b6cd0a6fbd5bd08a36",
+      "bytes": 17087,
+      "mtime_ns": 1790779496095741100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\art_cohesion\\verify_tower_design.js": {
+      "sha256": "2c0e0b22bba989ad0687a424207725272a77495c0f81a1394fc230d0bb3b61cf",
+      "bytes": 7060,
+      "mtime_ns": 1790779915807495300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\jump_title\\gen_fx.py": {
+      "sha256": "d041c3f70ef0b95cc2e7b815741c334f8ba0913d96e892a61e07c8a342f21820",
+      "bytes": 31188,
+      "mtime_ns": 1790778693133489600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\jump_title\\make_sign_card.py": {
+      "sha256": "4c1c20a955304c2ed07e4a8676c13c41670bbdba69dbb3edaf46089cfe44c31d",
+      "bytes": 16332,
+      "mtime_ns": 1790781130292487900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\build_city.py": {
+      "sha256": "9d65b266adde6efa4205ba19dd6037a1e4d45a425061e22027944f857682c1b1",
+      "bytes": 283183,
+      "mtime_ns": 1790778439634846200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\city_composition.py": {
+      "sha256": "479f49feee00406371702ca7d0dd2201b8bbbdf09e30e03956db0bedbee172d0",
+      "bytes": 3404,
+      "mtime_ns": 1790732238018969800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\cyber_architecture.py": {
+      "sha256": "fef254fe47bf3df77d16f8ce3e0784379ffdc426d50b8d0cec1e8180d4f3cffd",
+      "bytes": 24846,
+      "mtime_ns": 1790778310344005700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\cyber_coverage.py": {
+      "sha256": "99c95434c4e331f27895a57919a2d3ebff6ef11001a4ae10e22b54227b795229",
+      "bytes": 1041,
+      "mtime_ns": 1790777968845247600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\cyber_hero_title.py": {
+      "sha256": "94071c3fd37093de669143fa33bf8968bc47b888acf0386d3b3e38fc486bfaf5",
+      "bytes": 22953,
+      "mtime_ns": 1790778320065713300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\cyber_station.py": {
+      "sha256": "e9ca0e708b6340b93d5134b2f86418a4fbffecca6b82e3468dc1d46e1fc02f35",
+      "bytes": 17754,
+      "mtime_ns": 1790730974599708800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\cyber_title.py": {
+      "sha256": "1456a2a8a506c7d118bd8ca9bd35d93963d8ea8f45195fa2aaa1cb822c61c02b",
+      "bytes": 23917,
+      "mtime_ns": 1790722890802225300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\finish_sky.py": {
+      "sha256": "86862635961f2fd2f86a18505433ac717e8a3a6f5bacfa98ad9a12fe5c691387",
+      "bytes": 23513,
+      "mtime_ns": 1790778492510638600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\ominous_title.py": {
+      "sha256": "f609a86ed9d5b4f443fe67690a8659ac916c96d69109a7439515b35cbf0b07e0",
+      "bytes": 16261,
+      "mtime_ns": 1790731887759004600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\render_sky3d.ps1": {
+      "sha256": "138b026827c8ad2df8b01ce0c8dd9f603037b085082ddbc0a88c6522239c3cb0",
+      "bytes": 6988,
+      "mtime_ns": 1790713523520716000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky3d\\sky_simplify.py": {
+      "sha256": "6cd3c8777cc8084dea53d9c3cd7a1e27a681390c4dfcd700198f6ef356f8dd06",
+      "bytes": 10470,
+      "mtime_ns": 1790730770647271500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_cohesion\\verify_build.py": {
+      "sha256": "5e7bedaee61910227628c5c4dd9ecd666f159ad8cd9e615f3c2218420bb079a2",
+      "bytes": 25197,
+      "mtime_ns": 1790778784699639500
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\activate_preview.py": {
+      "sha256": "8d8d2438e29baa9f04e46bcdd2ccd11639e890580fe77cb868244516119022ff",
+      "bytes": 2770,
+      "mtime_ns": 1790779370872718900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\after_reveal_preview.py": {
+      "sha256": "42f2cca0fdea914dc39f9ca59d5fc93ac8a793b0cd3fa8848654b1ea6ce8480a",
+      "bytes": 217,
+      "mtime_ns": 1790779173189769300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\audit_composition.py": {
+      "sha256": "23deb3ac60408975a66fca461b3587acf6faa7c5a155285171101df673ca272a",
+      "bytes": 6493,
+      "mtime_ns": 1790777989800835600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\author.py": {
+      "sha256": "4f08e51ac148ee64644b48b2b727810d981e3af9feda2bfc4a513a18ab1bd2fe",
+      "bytes": 3360,
+      "mtime_ns": 1790778343994619100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\bake_native_card.py": {
+      "sha256": "204a293f561b084eef246ec49ec665fd9a1121cfc67d7517449130970fd714d1",
+      "bytes": 8599,
+      "mtime_ns": 1790780088365861800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\before_jump_preview.py": {
+      "sha256": "dc7e69ad1880ff805450f1e5d57cc34c5c94dbcf352c123ee60120c6409a428f",
+      "bytes": 223,
+      "mtime_ns": 1790779173189769300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\card_contract.py": {
+      "sha256": "b0d28f29eb8281fed09cfbed968452d7bcdd0c193780cedce064327cae364e85",
+      "bytes": 8769,
+      "mtime_ns": 1790779709052086400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\check_architecture.py": {
+      "sha256": "6f13da753298385ee67aad63b10f12a18588134d0b04ac3512681c28d37af41f",
+      "bytes": 3521,
+      "mtime_ns": 1790778141370636100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\clearance.py": {
+      "sha256": "198efa6c38229611b5e98e3c2916a343442a0edab9654beb98c967869fa5ef2f",
+      "bytes": 4247,
+      "mtime_ns": 1790778095246978400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\finalize_master.py": {
+      "sha256": "95baf85852a5207ebec66ff69eaf84bbd45b249ed818ff756956822f9f219fd7",
+      "bytes": 1925,
+      "mtime_ns": 1790777989802934700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\finish.ps1": {
+      "sha256": "fd0313892678e0a0f9e3f9ba33e0c5aa73d37dd6c128475f1e22bc26c6df7e90",
+      "bytes": 4492,
+      "mtime_ns": 1790778545412043700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\finish_profile.json": {
+      "sha256": "d94d21a134649c788b9a5a113d08211ccfca024478f72e2adf3c2f41a4f62de0",
+      "bytes": 515,
+      "mtime_ns": 1790778492510638600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\finish_profile.py": {
+      "sha256": "d7ba67672daa7f60312a48ef938d57944eb76536d0e56b0eca296d4d8f458d44",
+      "bytes": 1875,
+      "mtime_ns": 1790778492512277000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\inspect_scene.py": {
+      "sha256": "4bc9d05b4253a5bc300089dff25b88c096a7e111f46798a19fd46385409f5b0d",
+      "bytes": 1448,
+      "mtime_ns": 1790778594169477600
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\install.py": {
+      "sha256": "8e8e3a4ce14981325cbf5ec5a6b6c328c426f4978247eac4a0ffe8a61144ec21",
+      "bytes": 5588,
+      "mtime_ns": 1790779218843001300
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\load_master.py": {
+      "sha256": "2eecfd4e5e3922ce96b8b9d91ff5569aa202a99dcf99972db3332a904a953251",
+      "bytes": 290,
+      "mtime_ns": 1790780088365861800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\make_review.py": {
+      "sha256": "25b7b07e952a059bfc09c4bab511a0cac7d82457a0a8506c18292e40c4314af5",
+      "bytes": 7063,
+      "mtime_ns": 1790779709052086400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\mcp_call.py": {
+      "sha256": "060906ad3c7299a7f428fb9df6a34ff3ee5e346b5042df87b0f7470648f9384c",
+      "bytes": 3150,
+      "mtime_ns": 1790777989802934700
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\measure_readability.py": {
+      "sha256": "6f8e02893021f2d452247b95e262c4405b505ff70473091f4fa995fee88d1844",
+      "bytes": 9073,
+      "mtime_ns": 1790778388949930200
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\native_card_preview.py": {
+      "sha256": "dce5d6a61f0a4c60f20bf7e1d96c7fff5ab24a048b35f1e290f64d1e0cdeae55",
+      "bytes": 7098,
+      "mtime_ns": 1790779370872718900
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\open_preview.ps1": {
+      "sha256": "2800f82a363c6ab480045b0b805795e9421f9425c9cc52efa3d5bcb3a8eb7bfb",
+      "bytes": 410,
+      "mtime_ns": 1790777959385297000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\pass_config.py": {
+      "sha256": "39e5d4dac21e7e23bb83c394028fb4588b2cddef062987641f3d2de9d27f4368",
+      "bytes": 1657,
+      "mtime_ns": 1790777959385297000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\preview.py": {
+      "sha256": "2e5e22381c66cb3678fbc4fc28fad9c30add8e5b668b4ab53a2c25f0d3b972a3",
+      "bytes": 6097,
+      "mtime_ns": 1790780003638178400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\preview_candidate.py": {
+      "sha256": "6aba5d67961c22a9e9a4aee9603c39c73d41a6d1867da25feaa59d41a126cd73",
+      "bytes": 1142,
+      "mtime_ns": 1790777959386296400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\render.ps1": {
+      "sha256": "2d336aac4739595b9b36198428bb0fa48c3abf8961324b0537c94345b3e6052a",
+      "bytes": 1214,
+      "mtime_ns": 1790777959387296100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\render_native_card.py": {
+      "sha256": "47dbe9f970b8d42715b57cefc90f6c1741cadd49f04d9cf2c4a6354b2ec93bd8",
+      "bytes": 1597,
+      "mtime_ns": 1790779353898258000
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\render_preview_states.py": {
+      "sha256": "10d54d3113098071d0b6f87c8569f62649b099ad9bc8743d960622c1fd748b43",
+      "bytes": 1907,
+      "mtime_ns": 1790779670493295400
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\render_saved.py": {
+      "sha256": "98c7b11fd80dd760cc2706cbf174fef00c67f0f96c9a82b0789e667509c14688",
+      "bytes": 2682,
+      "mtime_ns": 1790777959388297800
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\skyline.py": {
+      "sha256": "f83a77dd021ef4e8f09f84b5e2423dc0abde7b30c1736b810bc0d6314cf31ffe",
+      "bytes": 2017,
+      "mtime_ns": 1790777959389297100
+    },
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_consistency\\verify_build.py": {
+      "sha256": "d3360cc08e30911eaa88e08ab36179a8c0bfa87c04b1c64fbc7543193ff47fad",
+      "bytes": 9960,
+      "mtime_ns": 1790779370873719900
+    }
+  },
+  "existing_sky_cache": {
+    "i_skybox_tod_cybercity_56XXDMGQ44UDHW46QRH6DEHQXY.iwi": {
+      "sha256": "f87c0f392b69d8347618e8ee28815aac36c3b5daeef078579e4a4164bd8f9b88",
+      "bytes": 31251297,
+      "mtime_ns": 1790725035375185200
+    },
+    "i_skybox_tod_cybercity_5ZL5ANMTL255TXVGOC4VBTCJKJ.iwi": {
+      "sha256": "ad688bac3af8e0bc86edc09f8efa65ca906170801ffdae4a1edf4fc8a0c52707",
+      "bytes": 29355495,
+      "mtime_ns": 1790350937784280100
+    },
+    "i_skybox_tod_cybercity_7SQVLRM3ZWWD4VZ6TPCUEZ7N7F.iwi": {
+      "sha256": "83fb8a1a87a0b69d0e098f800950de353a914f108958ec4eb960fa0cae13c4b9",
+      "bytes": 21681431,
+      "mtime_ns": 1790190101871132700
+    },
+    "i_skybox_tod_cybercity_CFE55UDPLPVBWJ3P5KDZGV6U6K.iwi": {
+      "sha256": "27fbe1fdd968a677318ab38605ca9216034efa085916293790c887349690085b",
+      "bytes": 31960215,
+      "mtime_ns": 1790308892321169100
+    },
+    "i_skybox_tod_cybercity_EHDAWQ6EGNRBHBMDYRWRZYSP23.iwi": {
+      "sha256": "8ad97a8f26dfd7095bc0cc87fbc2b4a17d6dc41a598bfbf200de162b2f23cff6",
+      "bytes": 28480373,
+      "mtime_ns": 1790319372779605300
+    },
+    "i_skybox_tod_cybercity_HCVKQ32NX5A7IIAGB7VB4AS4WU.iwi": {
+      "sha256": "6b77e071851cc4c4985abaec81283c7b97313222740019ddb906ebe4142aa2e2",
+      "bytes": 31243334,
+      "mtime_ns": 1790712988125635700
+    },
+    "i_skybox_tod_cybercity_K4ZX4GKG44RFVEE3EERNSZ424Y.iwi": {
+      "sha256": "b2ceed8f85a1c1b76e841bd9642ec4f270b3888abd56b982214bf7498c7c8112",
+      "bytes": 31289215,
+      "mtime_ns": 1790696849821246100
+    },
+    "i_skybox_tod_cybercity_MQKNV2FNFY73SVUK76KVNUCAW7.iwi": {
+      "sha256": "a5609eba337d37bf86df55ae4525b643f5d39ffe0f4f3193c6ace680cfec9d3b",
+      "bytes": 20124631,
+      "mtime_ns": 1790276538004259900
+    },
+    "i_skybox_tod_cybercity_NRQSHJDV6LO3ZFEGG3DB5R5L5D.iwi": {
+      "sha256": "976a1d2fa8fdfa2f6ea80d60471ea80968f0b7c5fb0a9f7055d1362057b21f1f",
+      "bytes": 29115223,
+      "mtime_ns": 1790325482829551400
+    },
+    "i_skybox_tod_cybercity_NYHHHP3JKYN35WNOGLSXXB646M.iwi": {
+      "sha256": "42fab7218454fa1ed1bc93ae76957ee62f6220939410d3d4484947fab5e6eb35",
+      "bytes": 31206053,
+      "mtime_ns": 1790734730094543600
+    },
+    "i_skybox_tod_cybercity_QLK5MSBUCZNJBQIARMAHLOTX7B.iwi": {
+      "sha256": "9f4b032263f3ce866eff22a01d17f6584975b23eafed13232c293519832d19dd",
+      "bytes": 30597118,
+      "mtime_ns": 1790477808952001400
+    },
+    "i_skybox_tod_cybercity_RBE6EC4RTNSSX2MSRBYP44GNWV.iwi": {
+      "sha256": "f8564bedd09e83bfc03b47209bdeb70ba04365d687e313472cd688218050bb67",
+      "bytes": 31254014,
+      "mtime_ns": 1790519791685276400
+    },
+    "i_skybox_tod_cybercity_SPX6GZXGJB7OFJUXXLTMIIIF45.iwi": {
+      "sha256": "578768b57a9fdd223c9bea8b644ed99c32b36c6b37917e13b895abc5b55794f5",
+      "bytes": 31246166,
+      "mtime_ns": 1790706018467088100
+    },
+    "i_skybox_tod_cybercity_WXHEDVDOTJLNYAXEVUKI6KL47L.iwi": {
+      "sha256": "b577af0ebdd58f1f850fef653693c76dda0f3bd935dfd036d1294389ff6ade6b",
+      "bytes": 31248465,
+      "mtime_ns": 1790775629892570400
+    }
+  },
+  "stats_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\docs\\sky_preview\\sky3d_stats.json",
+  "master_path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend",
+  "title_report": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.title.json",
+  "title_version": "cyber_hero_title_2",
+  "finish": {
+    "input": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.exr",
+    "size": [
+      8192,
+      4096
+    ],
+    "target_score": 0.64,
+    "score": 0.44508159160614014,
+    "mean": 0.00043464999180287123,
+    "upper_mean": 0.00048624907503835857,
+    "rgb_share": [
+      49.772911071777344,
+      20.65024757385254,
+      29.57683753967285
+    ],
+    "gain": 0.016525428679573573,
+    "gain_mode": "fixed",
+    "fixed_gain": 0.016525428679573573,
+    "knee": [
+      10.0,
+      32.0
+    ],
+    "hot_fraction": 0.0017999013264973958,
+    "percentiles_x_mean": {
+      "50": 0.2740554060876657,
+      "90": 2.3649894271369707,
+      "99": 11.748394411314479,
+      "99.9": 31.436019514600527
+    },
+    "max_x_mean": 37.77936396762923,
+    "seam_ratio": 0.9832252470766706,
+    "roll": 0.0,
+    "mirror": false,
+    "sat": 1.2,
+    "asset": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+    "when": "2026-09-30 10:51:12",
+    "white_raw": 1.0,
+    "white_exr": 0.016525428679573573,
+    "knee_w": [
+      0.7,
+      1.0
+    ],
+    "display_mult": 10.0,
+    "preview_gain": 0.0176,
+    "sign_mask": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.sign.exr",
+    "sign_knee_w": [
+      2.0,
+      4.0
+    ],
+    "sign_peak_w": 0.25128859281539917,
+    "score_city": 0.45513866384450663,
+    "hold_city": true,
+    "staged_asset": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\finished_8192.exr",
+    "install_receipt": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\install.json"
+  },
+  "finish_profile": {
+    "schema": 1,
+    "mode": "fixed_baseline_gain",
+    "fixed_gain": 0.016525428679573573,
+    "nominal_target_score": 0.64,
+    "baseline_stats": "art/sky3d/consistency_review/before/middle_ground_stats.json",
+    "baseline_stats_sha256": "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+    "reason": "Keep the approved close-city radiance scale while deliberately lowering celestial and legacy-building emission. Do not normalize those reductions away. City and whole-sky scores are measured results."
+  },
+  "native_card_inputs": {
+    "model_export/tod_jump_title/tod_jt_sign_lit.xmodel_bin": "66a3df78cd542e5a9aebe5b00c843c7b5a075c294dd2af440db0cd9852063f17",
+    "model_export/tod_jump_title/_images/i_tod_jt_sign_lit.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+    "source_data/tod_jump_title.gdt": "2519cd9a9ab27b2f4f2e3aa1ece96ebb08aab20ee8f5b9470de315ac3e512dd7",
+    "art/jump_title/sign_card.json": "736e48bdd3a137c835da429324120b524ce833e2b1b75f510f49bdefb23ce19f",
+    "tools/jump_title/make_sign_card.py": "4c1c20a955304c2ed07e4a8676c13c41670bbdba69dbb3edaf46089cfe44c31d"
+  },
+  "sign_state": "dull",
+  "native_card_art_inputs": {
+    "art/sky3d/consistency_review/native_card_art.json": "bb3d9189db3a7dd89ad4fe53de57dd4b0d86736d300a74f79c81f78305ed2702",
+    "tmp/sky_consistency/native_card_finished.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+    "art/sky3d/sign/v11_native_lit.png": "d392ea701ae3d510ebeda6aa1a3c2fa86697a0e89c1ee1f0e8e4eb02c76f55ec",
+    "tmp/sky_consistency/native_card_bake.blend": "2027ecc3fb0c9138b9c8aff359cc77f9f935699ec03ea34ceb0300ef40199e37",
+    "art/sky3d/sign/v10_cyber_hero.png": "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+    "tools/sky_consistency/bake_native_card.py": "204a293f561b084eef246ec49ec665fd9a1121cfc67d7517449130970fd714d1",
+    "tools/sky_consistency/render_native_card.py": "47dbe9f970b8d42715b57cefc90f6c1741cadd49f04d9cf2c4a6354b2ec93bd8"
+  },
+  "title": {
+    "version": "cyber_hero_title_2",
+    "collection": "sky3d_cyber_hero_title",
+    "sign_state": "dull",
+    "dull": {
+      "cap_linear": 0.05,
+      "desaturate": 0.55,
+      "body": 0.7
+    },
+    "source_image": "art/sky3d/sign/v10_cyber_hero.png",
+    "source_sha256": "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+    "image_size": [
+      1536,
+      1024
+    ],
+    "image_packed": true,
+    "alpha_mode": "STRAIGHT",
+    "reference_width_px": 1536.0,
+    "reference_width_deg": 65.0,
+    "title_anchor_deg": [
+      0.0,
+      11.0
+    ],
+    "title_center_pixel": [
+      768.0,
+      435.0
+    ],
+    "distance_m": 1000.0,
+    "width_m": 1274.1405216149863,
+    "metres_per_pixel": 0.8295185687597567,
+    "sign_bounds": {
+      "azimuth_deg": [
+        -32.553591167037645,
+        34.050559492018486
+      ],
+      "elevation_deg": [
+        -14.420021486568908,
+        28.279322707745038
+      ]
+    },
+    "skyline_alpha_threshold": 0.25,
+    "skyline_alpha_profile_points": 768,
+    "text_bounds": {
+      "TOWER OF DOOM II": {
+        "azimuth_deg": [
+          -19.863130497764853,
+          19.9069198373098
+        ],
+        "elevation_deg": [
+          6.491450266699525,
+          16.54615102998849
+        ]
+      },
+      "FALLEN CYBERCITY": {
+        "azimuth_deg": [
+          -15.360327383020731,
+          15.182785823638678
+        ],
+        "elevation_deg": [
+          3.9510206382876087,
+          6.31494838019199
+        ]
+      }
+    },
+    "cinematic_features": {
+      "title": {
+        "reference_offset_px": [
+          0.0,
+          0.0
+        ],
+        "source_pixel": [
+          768.0,
+          435.0
+        ],
+        "azimuth_elevation_deg": [
+          0.0,
+          11.000000240724047
+        ],
+        "sign_plane_offset_m": [
+          0.0,
+          -0.0
+        ]
+      },
+      "sub": {
+        "reference_offset_px": [
+          0.0,
+          121.0
+        ],
+        "source_pixel": [
+          768.0,
+          556.0
+        ],
+        "azimuth_elevation_deg": [
+          0.0,
+          5.268319798535976
+        ],
+        "sign_plane_offset_m": [
+          0.0,
+          -100.37174681993056
+        ]
+      },
+      "ring": {
+        "reference_offset_px": [
+          0.0,
+          -281.0
+        ],
+        "source_pixel": [
+          768.0,
+          154.0
+        ],
+        "azimuth_elevation_deg": [
+          0.0,
+          24.121056143240573
+        ],
+        "sign_plane_offset_m": [
+          0.0,
+          233.09471782149163
+        ]
+      },
+      "eye_l": {
+        "reference_offset_px": [
+          -31.0,
+          -239.0
+        ],
+        "source_pixel": [
+          737.0,
+          196.0
+        ],
+        "azimuth_elevation_deg": [
+          -1.5607157365815372,
+          22.206322549092384
+        ],
+        "sign_plane_offset_m": [
+          -25.71507563155246,
+          198.25493793358186
+        ]
+      },
+      "eye_r": {
+        "reference_offset_px": [
+          34.0,
+          -239.0
+        ],
+        "source_pixel": [
+          802.0,
+          196.0
+        ],
+        "azimuth_elevation_deg": [
+          1.7116667476787695,
+          22.20481382059829
+        ],
+        "sign_plane_offset_m": [
+          28.203631337831727,
+          198.25493793358186
+        ]
+      }
+    },
+    "cinematic_colors_linear_rgb": {
+      "title": [
+        1.0,
+        0.025,
+        0.045
+      ],
+      "title_core": [
+        1.0,
+        0.15,
+        0.16
+      ],
+      "sub": [
+        0.55,
+        0.025,
+        1.0
+      ],
+      "ring": [
+        0.42,
+        0.025,
+        1.0
+      ],
+      "eye_l": [
+        1.0,
+        0.015,
+        0.025
+      ],
+      "eye_r": [
+        1.0,
+        0.015,
+        0.025
+      ]
+    },
+    "crest_light_radius_m": 66.36148550078053,
+    "sign_aov": "sign",
+    "sign_aov_value": "unaltered source alpha",
+    "lights_city": false,
+    "camera_glossy_only": true,
+    "display_decode_gamma": 2.2,
+    "inverse_finish_saturation": 1.2,
+    "emission_w": {
+      "configured_white": 1.0,
+      "configured_neon_multiplier": 3.0,
+      "white": 0.11199999999999999,
+      "neon_multiplier": 1.0,
+      "maximum_strength": 0.11199999999999999
+    },
+    "presentation_correction": {
+      "scale": 0.16,
+      "neon_boost_response": 0.2,
+      "reference_bracket": {
+        "gain": 0.014114323569157832,
+        "display_mult": 10.0,
+        "preview_gain": 0.0176
+      },
+      "reference_linear_amplification": 8.019502027930587,
+      "reference_body_linear_multiplier": 0.8981842271282257,
+      "reference_peak_linear_multiplier": 0.8981842271282257,
+      "note": "Reference bracket is the first 4096 preview, not a runtime or subsequent render measurement."
+    },
+    "frame_material_match": {
+      "metal_highlight_compression": 2.0,
+      "protects_lettering": true,
+      "protects_saturated_light_channels": true,
+      "source_pixels_changed": false
+    },
+    "objects": 1,
+    "base_faces": 6992,
+    "notes": "Approved image contains rendered material relief. Coplanar alpha-aware card; packed source; no source-image edits or extra halo layer. Native presentation awaits the user. DULL: baked unlit (the first jump lights it with a client card, docs/196 s6)."
+  },
+  "pass": "sky_consistency_v11"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "before": "art\\sky3d\\dealer_review\\before\\composition.json",
+  "after": "tmp\\sky_dealer\\raw_4096.composition.json",
+  "before_sha256": "7766ea85dd8be2e6ee9b81f75441535fd70d0f0cb1188190136e01365c5b8f7b",
+  "after_sha256": "7766ea85dd8be2e6ee9b81f75441535fd70d0f0cb1188190136e01365c5b8f7b",
+  "all_fields_equal": true,
+  "visible_buildings": 1222,
+  "ordinary_shared_kit": 1189,
+  "note": "Every layout/material-family record equals the approved v11; only title image/crest anchors revised."
+}

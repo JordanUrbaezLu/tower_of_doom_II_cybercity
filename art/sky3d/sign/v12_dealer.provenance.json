@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "intent": "precise-object-edit",
+  "edit_target": "art/sky3d/sign/v10_cyber_hero.png",
+  "identity_reference": "art/partner_shop/merchant.png",
+  "prompt": "art/sky3d/sign/v12_dealer.prompt.txt",
+  "source_sha256": "e22016bec6747396b71b4aa20aff1ff472f696f28704ced746191d277a995a17",
+  "generated_source": "C:\\Users\\jorda\\.codex\\generated_images\\01a0ef27-473a-7983-9e03-5f4e99099f11\\exec-33e330c7-c858-4ad5-9644-9ec978852ec2.png",
+  "copied_without_bitmap_edits": true,
+  "dimensions": [1536, 1024],
+  "preservation": "Imagegen changed surface pixels throughout the image. The original painting is preserved as history; no bit-identical frame claim. Measured text and frame registration/brightness are in art_measurements.json.",
+  "registration_receipt": "art/sky3d/dealer_review/art_measurements.json",
+  "feature_measurement": "Bright-core centroids measured from the original v12 pixels; cyber_hero_title.py pins the new forehead and X-eye coordinates. Native quad dimensions and title/subtitle centers are unchanged.",
+  "native_visual_verified": false
+}

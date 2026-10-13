@@ -1,0 +1,41 @@
+{
+  "installed_at": "2026-09-30T09:25:33.923544-04:00",
+  "files": [
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\finished_8192.exr",
+      "installed": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+      "sha256": "feead2c4a543683c5903b6f98af8ee729621b7f584aa51ef167dcea25ea021fd",
+      "bytes": 92485317
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\middle_ground.blend",
+      "installed": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend",
+      "sha256": "296ab89e4e16e0367b9743cc2d1209b206bab08026a6c2dd5def28f9eb1c1e04",
+      "bytes": 156775549
+    }
+  ],
+  "preserved_previous_sky": [
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\before\\i_skybox_tod_cybercity.exr",
+      "sha256": "0e160e9d1bd09e71e698162cbb7f670f843d26cd4f03099254b49d64033782a8"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\before\\tod2_sky.blend",
+      "sha256": "cd131a7e6d2f595011f2f2516a9589255d0866a869baf0841c98886390464bfd"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\docs\\sky_preview\\sky3d_stats.json",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\before\\sky3d_stats.json",
+      "sha256": "0544830908ecff38fff5ba7475ea773df6c10c85f8f33b25edcc1f3ab4a765c4"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\simplify_preview.blend",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\before\\simplify_preview.blend",
+      "sha256": "8e76a4dd9faf9dedb9d3d305c7c53d8f84597700f04db1e938436651d4005244"
+    }
+  ],
+  "preview_count": 23,
+  "stage_stats": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\final\\middle_ground_stats.json"
+}

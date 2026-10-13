@@ -1,0 +1,12 @@
+{
+    "finished_at":  "2026-09-29T21:51:39.0206767-04:00",
+    "raw":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\raw_8192.exr",
+    "raw_sha256":  "dd9fb6780a2b7d75fe09a493889dcedcdf86800f8c8fb0f671deccb363277e04",
+    "mask":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\raw_8192.sign.exr",
+    "mask_sha256":  "75ad995e089efa9cdc52e2641dfb2c1d2d1aed580900004e5daab00cc89b4a55",
+    "asset":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\finished_8192.exr",
+    "asset_sha256":  "0e160e9d1bd09e71e698162cbb7f670f843d26cd4f03099254b49d64033782a8",
+    "stats":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\simplify_review\\final\\simplify_stats.json",
+    "stats_sha256":  "dc0691ca307adafcf2b85bdcad756c00ebb6556476cabe41c58bbe7a572ad710",
+    "finish_source_sha256":  "39e03384e31fefd624478321e13a880691e2456f65704c83b9b43821d934c523"
+}

@@ -1,0 +1,39 @@
+{
+  "blend": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\simplify.blend",
+  "raw": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\raw_8192.exr",
+  "mask": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\raw_8192.sign.exr",
+  "width": 8192,
+  "samples": 160,
+  "seconds": 572.4405317306519,
+  "blend_sha256": "cd131a7e6d2f595011f2f2516a9589255d0866a869baf0841c98886390464bfd",
+  "raw_sha256": "dd9fb6780a2b7d75fe09a493889dcedcdf86800f8c8fb0f671deccb363277e04",
+  "mask_sha256": "75ad995e089efa9cdc52e2641dfb2c1d2d1aed580900004e5daab00cc89b4a55",
+  "source_hashes": {
+    "tools/sky3d/build_city.py": "95e2a72d0764c8f8367da4153fa4ae94ff6000b68e75f1df3137f2ff2e707f69",
+    "tools/sky3d/city_composition.py": "479f49feee00406371702ca7d0dd2201b8bbbdf09e30e03956db0bedbee172d0",
+    "tools/sky3d/cyber_architecture.py": "24db9ba84e8fd07eb2224a095702495f73b2ad1fe20dfe8190c1cad197b37342",
+    "tools/sky3d/cyber_station.py": "e9ca0e708b6340b93d5134b2f86418a4fbffecca6b82e3468dc1d46e1fc02f35",
+    "tools/sky3d/cyber_title.py": "1456a2a8a506c7d118bd8ca9bd35d93963d8ea8f45195fa2aaa1cb822c61c02b",
+    "tools/sky3d/ominous_title.py": "f609a86ed9d5b4f443fe67690a8659ac916c96d69109a7439515b35cbf0b07e0",
+    "tools/sky3d/sky_simplify.py": "6cd3c8777cc8084dea53d9c3cd7a1e27a681390c4dfcd700198f6ef356f8dd06",
+    "tools/sky_simplify/author.py": "3cf22f5883c7f4c76f96d6a32885c8673ebd8163887416bd8dc091c7770b98b6",
+    "tools/sky_simplify/pass_config.py": "79c4d6ceacb2c1f798f420258ddc2745f8be25f669daedda2924c84bf130ac02"
+  },
+  "renderer_sha256": "4350553e6dc96c50752898795f01d44d122705ae9cb94cb6d9e155bb91935dd2",
+  "art_inputs": {
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\sign\\v9_ominous_gate.png": "c57446ab29a92f3c85b7cbc421ec3d04a8f96aed0b5e01e1b82cb6c31db9b580",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_12.png": "c957b15aa414829639948d185021f396e5134ce1274ea6e7ea6d5142a08a4e39",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_11.png": "0d950122c4e700398d9c4862f08ec52e1a45dd4510ba31f332c052a8c48aa002",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_10.png": "9d02cfad61214f1913b26dd2d6463e9497efc7672d24b057703e72f1b388973a",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_09.png": "e2bf55a9e71a3383368ea686012a5534e3c0bacffc3ec323293f304d5ab59caa",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_08.png": "9baf746ab5c6784b374d3e686603c9624cdfd5bbef2fedaeca904b7fe115dbe1",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_07.png": "3b45488d872a1439eaa059198b2233694e27d68dd7401f34e13c624f4f5c3a86",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_06.png": "cc063b6080cec6c4385298ce90bceb6d1b5d13f327569460ece4114fbad47ad9",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_05.png": "747e46fcca4a995670d6fad4ac597309db1f95491bd968df490b1d73bc50d665",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_04.png": "a657de8a9637547bf8a6f9b3ee12fa7930b6e83651a986566015b963b255f0d7",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_03.png": "cd138dedba54c3222310811fd431f5a810a1ee30dfaeccdcf89a38ab128c1385",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_02.png": "77ab77463be3fa32d01ba941fe68da615f4294851f12f46c144bd6fcf9b0744a",
+    "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_01.png": "80474254dad40efc698c55aa18203db09b93bf3b3ae2624ad16a1d39869730ba"
+  },
+  "title_report_sha256": "89f7778ba31ece8b147e0269e37cff5b44c6801c3febabfbd12210c8e8566c07"
+}

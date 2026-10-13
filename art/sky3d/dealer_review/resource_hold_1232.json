@@ -1,0 +1,28 @@
+﻿{
+    "captured":  "2026-09-30T12:34:44.1412850-04:00",
+    "total_physical_kb":  16370392,
+    "free_physical_kb":  6609568,
+    "processes":  [
+                      {
+                          "pid":  27376,
+                          "parent_pid":  29200,
+                          "name":  "linker_modtools.exe",
+                          "created":  "\/Date(1790786076140)\/",
+                          "command":  "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Call of Duty Black Ops III 455130\\bin\\linker_modtools.exe\" -language english -modsource zm_tower_of_doom ",
+                          "window":  "",
+                          "responding":  true,
+                          "private_bytes":  3144863744,
+                          "working_set_bytes":  844853248
+                      }
+                  ],
+    "conclusion":  "The observed Radiant and its succeeding linker belong to Map One. At capture, that build had advanced to its linker. This pass has no running Blender or native build. Earlier overlap could have increased memory pressure; the reported Radiant issue has no proven root cause.",
+    "prior_radiant_observation":  {
+                                      "pid":  35136,
+                                      "parent_pid":  29200,
+                                      "map":  "zm_tower_of_doom.map",
+                                      "window":  "Light Export",
+                                      "private_bytes":  11666960384,
+                                      "responding":  true,
+                                      "source":  "Read-only process inspection earlier in this turn; not the current process snapshot"
+                                  }
+}

@@ -1,0 +1,824 @@
+{
+  "objects": {
+    "city_crystal": {
+      "equal": true,
+      "before": {
+        "faces": 7150,
+        "corners": 28600,
+        "geometry_sha256": "d75a5bb53bc2267f16ec8d8a4f3a2a48c247e8c1001c1d47977b77b64cb37f0f",
+        "geometry_color_sha256": "ec0813cd4955d6f92c5ef60690382259adfb896363080f1256e74e329b55546e",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 7150,
+        "corners": 28600,
+        "geometry_sha256": "d75a5bb53bc2267f16ec8d8a4f3a2a48c247e8c1001c1d47977b77b64cb37f0f",
+        "geometry_color_sha256": "ec0813cd4955d6f92c5ef60690382259adfb896363080f1256e74e329b55546e",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_facades": {
+      "equal": false,
+      "before": {
+        "faces": 161832,
+        "corners": 647328,
+        "geometry_sha256": "93789c248d24713aed15814482863c3a1072d3d5c7352bde151035d11af90b9a",
+        "geometry_color_sha256": "75c429e4928523fba248aee3d06540193a218323d85eb3bb91cf82467489c9a8",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 155972,
+        "corners": 623888,
+        "geometry_sha256": "a5d02350c655f0777a382a33f605287055d817adf386e52c8a62794183470430",
+        "geometry_color_sha256": "7fbe5e4f2b902549f94e1c6888b013309e33d1228860889c273dd562c735655e",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_facades_spire_faces": {
+      "equal": true,
+      "before": {
+        "faces": 148964,
+        "corners": 595856,
+        "geometry_sha256": "a03357d56dc9e67e680c8502e629d22a8717b158bea103113848123ccf79e396",
+        "geometry_color_sha256": "7332779fc783df9c7b2d8834d0ef32e37cca560c83e2caab5b9944353b0eb4d2",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 148964,
+        "corners": 595856,
+        "geometry_sha256": "a03357d56dc9e67e680c8502e629d22a8717b158bea103113848123ccf79e396",
+        "geometry_color_sha256": "7332779fc783df9c7b2d8834d0ef32e37cca560c83e2caab5b9944353b0eb4d2",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_falls": {
+      "equal": true,
+      "before": {
+        "faces": 316,
+        "corners": 1264,
+        "geometry_sha256": "3aee12f8c7ea1646681cc47b5ab7cad89a2bb43a8688a4b17ea61db5640bef52",
+        "geometry_color_sha256": "98dd6f18934ae0757610226827b22baec4ae2df39b94de6a69d504628ec93705",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 316,
+        "corners": 1264,
+        "geometry_sha256": "3aee12f8c7ea1646681cc47b5ab7cad89a2bb43a8688a4b17ea61db5640bef52",
+        "geometry_color_sha256": "98dd6f18934ae0757610226827b22baec4ae2df39b94de6a69d504628ec93705",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_neon": {
+      "equal": false,
+      "before": {
+        "faces": 561710,
+        "corners": 2247210,
+        "geometry_sha256": "48edf73f9f4660af2fe7b48ffbc0b5a31c740a63f628f26bc99116fbb8d1bd64",
+        "geometry_color_sha256": "97997ebaac6ae12741762234d0a948c865b36e0addd2747c65e4165d4f256a64",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 532203,
+        "corners": 2129182,
+        "geometry_sha256": "0b175bc4e27dca7685c479efcfdec1ac211170ba7d61a58f0085b429af17ddfe",
+        "geometry_color_sha256": "ca8bab5deee757cae1ae099275b31ed7db48e080e544684bee86dae131ab95f6",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_ribbons": {
+      "equal": true,
+      "before": {
+        "faces": 1580,
+        "corners": 6320,
+        "geometry_sha256": "faa11084020c1636503f87df8306e5916fc8aad963985a4fcc6b83cbde23c424",
+        "geometry_color_sha256": "9eec5a0da02be7d916407affc4f45ddfe080105551ec223c615419878ecfd020",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 1580,
+        "corners": 6320,
+        "geometry_sha256": "faa11084020c1636503f87df8306e5916fc8aad963985a4fcc6b83cbde23c424",
+        "geometry_color_sha256": "9eec5a0da02be7d916407affc4f45ddfe080105551ec223c615419878ecfd020",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_roofs": {
+      "equal": false,
+      "before": {
+        "faces": 9923,
+        "corners": 79150,
+        "geometry_sha256": "18a056a44657ec6b3721d1575fa23d1eae8fe8ddfc0c4b82324e53818cfff091",
+        "geometry_color_sha256": "170dd2b844804d899549c9197062c4b5543318dd9716354787d9cbe86a2e19f8",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 9094,
+        "corners": 73290,
+        "geometry_sha256": "c385d6995d35beb9a2b95edb622ed189c496dd7e51dc519da76d85df478a928e",
+        "geometry_color_sha256": "85b8bf646668282c1e62316661421263d911402ee45081ddb7bf20a51e6d3cc5",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_roofs_spire_faces": {
+      "equal": true,
+      "before": {
+        "faces": 8109,
+        "corners": 66218,
+        "geometry_sha256": "61c96e8cc376fab501851bcca338f88e123bc76dd2f3a29e11e3e48cf644f11d",
+        "geometry_color_sha256": "230e90fca3b3745a84af5678451ea60fcc73fab70fed34fb0134dbb8c5509eb7",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 8109,
+        "corners": 66218,
+        "geometry_sha256": "61c96e8cc376fab501851bcca338f88e123bc76dd2f3a29e11e3e48cf644f11d",
+        "geometry_color_sha256": "230e90fca3b3745a84af5678451ea60fcc73fab70fed34fb0134dbb8c5509eb7",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_screens": {
+      "equal": false,
+      "before": {
+        "faces": 275,
+        "corners": 1100,
+        "geometry_sha256": "b84f7d6cf0c36e485f8bb908fffe574f8eaf958818121cddebbb2c431310b1a8",
+        "geometry_color_sha256": "6bfa9f256210644e0b907e04e8f4c1bdf32d2a2d81ed444ec518ab3444ebcc29",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 241,
+        "corners": 964,
+        "geometry_sha256": "f2e223ddd2a0cde7610def7af2d0ce63fa5b33cc936050e6614032e31eb48802",
+        "geometry_color_sha256": "359d0b280b85a23a63a25ee8b01a0afc751e947ce52df530ce0a1e38e5cb3abc",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_sigils": {
+      "equal": false,
+      "before": {
+        "faces": 165,
+        "corners": 660,
+        "geometry_sha256": "fa3c6b89a743d2c74db5d9ba6d2b40d39153bcafe9c38d74310ae421ae3f7d47",
+        "geometry_color_sha256": "9357b2742e82d6221b4ad89e536d593ee39eb05f0640c32d908a2b9044756cda",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 147,
+        "corners": 588,
+        "geometry_sha256": "19b6b70b70b6efb9af0470433c2aea676a22fcf33d4f1d1a0efec77508294357",
+        "geometry_color_sha256": "c7a3ce19900e75bd050ebe518e17966661d574f08707201cf30f392c9b79cb70",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_struct": {
+      "equal": false,
+      "before": {
+        "faces": 127173,
+        "corners": 549632,
+        "geometry_sha256": "e528f0c8118367aa212a589b2709b382c703f5c6bbd7662cbc891665fade4933",
+        "geometry_color_sha256": "e6e94401a13250f08465e1b662e37454589a227eb8a51d03233eaf2ae781d6a5",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 124419,
+        "corners": 538464,
+        "geometry_sha256": "d6abc559b56167efa20ea1e17a6bc9c0fabbb7d3b3dd64b611c6de05640855a9",
+        "geometry_color_sha256": "1fa876f7d508513358a4ad6704f35bb0cd2aa067788772717c69f0285c11db4f",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "city_trails": {
+      "equal": true,
+      "before": {
+        "faces": 19210,
+        "corners": 76840,
+        "geometry_sha256": "605fe0f2f8bd5a552add72be9ec459964ac956b1058e3d305fd9decd453813b4",
+        "geometry_color_sha256": "c9d25cb72570b7635b6768fa398adccd4e950cf435edb75d20cc73328a894ff1",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "after": {
+        "faces": 19210,
+        "corners": 76840,
+        "geometry_sha256": "605fe0f2f8bd5a552add72be9ec459964ac956b1058e3d305fd9decd453813b4",
+        "geometry_color_sha256": "c9d25cb72570b7635b6768fa398adccd4e950cf435edb75d20cc73328a894ff1",
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "unchanged": [
+    "city_crystal",
+    "city_facades_spire_faces",
+    "city_falls",
+    "city_ribbons",
+    "city_roofs_spire_faces",
+    "city_trails"
+  ],
+  "changed": [
+    "city_facades",
+    "city_neon",
+    "city_roofs",
+    "city_screens",
+    "city_sigils",
+    "city_struct"
+  ]
+}

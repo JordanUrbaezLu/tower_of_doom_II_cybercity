@@ -1,0 +1,23 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "reference": "art/sky3d/middle_ground_review/concept.png",
+  "prompt": "art/sky3d/sign/v10_cyber_hero.prompt.txt",
+  "source_sha256": "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+  "generated_source": "C:\\Users\\jorda\\.codex\\generated_images\\01a0f085-5f25-7c10-b65d-210fb89c2a80\\exec-4a3c999c-7e3e-4a50-a95f-aa8eeb41d689.png",
+  "copied_without_bitmap_edits": true,
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "feature_measurement": "Visual landmarks in original pixel coordinates; title optical center, subtitle center, forehead channel and red eye cores. See cyber_hero_title.py literals.",
+  "native_visual_verified": false,
+  "alpha_audit": {
+    "zero_fraction": 0.3974901835123698,
+    "range": [
+      0,
+      254
+    ],
+    "background_samples_zero": true
+  },
+  "generated_copy_hash_verified": true
+}

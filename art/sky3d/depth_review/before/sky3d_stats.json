@@ -1,0 +1,55 @@
+{
+  "input": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_dealer\\raw_8192.exr",
+  "size": [
+    8192,
+    4096
+  ],
+  "target_score": 0.64,
+  "score": 0.4450453221797943,
+  "mean": 0.0004346145724412054,
+  "upper_mean": 0.00048619616427458823,
+  "rgb_share": [
+    49.77286911010742,
+    20.650020599365234,
+    29.577106475830078
+  ],
+  "gain": 0.016525428679573573,
+  "gain_mode": "fixed",
+  "fixed_gain": 0.016525428679573573,
+  "knee": [
+    10.0,
+    32.0
+  ],
+  "hot_fraction": 0.0017997423807779949,
+  "percentiles_x_mean": {
+    "50": 0.274047087427694,
+    "90": 2.3650633690217187,
+    "99": 11.749281894093594,
+    "99.9": 31.439512898839382
+  },
+  "max_x_mean": 37.7834456989684,
+  "seam_ratio": 0.98478600764706,
+  "roll": 0.0,
+  "mirror": false,
+  "sat": 1.2,
+  "asset": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+  "when": "2026-09-30 12:20:54",
+  "white_raw": 1.0,
+  "white_exr": 0.016525428679573573,
+  "knee_w": [
+    0.7,
+    1.0
+  ],
+  "display_mult": 10.0,
+  "preview_gain": 0.0176,
+  "sign_mask": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_dealer\\raw_8192.sign.exr",
+  "sign_knee_w": [
+    2.0,
+    4.0
+  ],
+  "sign_peak_w": 0.2294827699661255,
+  "score_city": 0.45514516666088284,
+  "hold_city": true,
+  "staged_asset": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_dealer\\finished_8192.exr",
+  "install_receipt": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\dealer_review\\install.json"
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "pass_name": "sky_depth_v13",
+  "recorded": "2026-09-30T23:19:39.264624-04:00",
+  "tested_names": [
+    {
+      "refused": true,
+      "name": "Radiant"
+    },
+    {
+      "refused": true,
+      "name": "Radiant_modtools"
+    },
+    {
+      "refused": true,
+      "name": "OtherRadiantEditor"
+    }
+  ],
+  "source_hashes": {
+    "tools/sky_depth/resource_guard.ps1": "995b337b7e2cb0fb3beb33cbf2f0f57bb2ab3f52ef44bf9d177ed9fdb1061d66",
+    "tools/sky_depth/test_resource_guard.ps1": "0ab6b69445edbbe12175b7e5fe04af58534d891403d5573f676a2d697cbba0ac",
+    "tools/sky_depth/watch_studio.ps1": "728d8cc7e78c7e0dc3e3bc42de51162366d1a2f7aba6bddb8ecf79cef0793513",
+    "tools/sky_depth/render.ps1": "52b7b19ab42b056a7322c42b6db0a9f19c0e0cf094ba5b06ef429682f4dc75c3",
+    "tools/sky_depth/start_studio.ps1": "a71c3915dde1341b0339c35d9caaa0c73003704568c2e3d8122f323c7556e1e5",
+    "tools/sky_depth/open_preview.ps1": "f1c7c8365dc67d1712a3351a207bd87eeb3862491a32e2dbd02bed07106defc3",
+    "tools/sky_depth/finish.ps1": "0cf2138773e5f917b3d326853db775614ba3451a518a1dc3eda14f129fbba240",
+    "tools/sky_depth/render_native_card.ps1": "86dcdf2ab9a2207e6582773f509e492f39cd15ca60a5b4fd069a5d414a1b6843",
+    "tools/sky_depth/review_quality.ps1": "672f3b5c8aadbfb6efe0e21e9751e0264c6df45f05938cc5ca44713d146f8138",
+    "tools/sky_depth/mcp_call.py": "f6271932f4c183d2d00e632f9cec0fe4a092e6878d74baddfc2eb5922ed2c88f"
+  },
+  "live_check_only": {
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Sky render refused: game/editor/native build stage running: linker_modtools (PID 39400). No Blender launched; staged \nfiles and logs preserved.\nAt C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tools\\sky_depth\\resource_guard.ps1:17 char:9\n+         throw ('{0} refused: game/editor/native build stage running:  ...\n+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : OperationStopped: (Sky render refu...logs preserved.:String) [], RuntimeException\n    + FullyQualifiedErrorId : Sky render refused: game/editor/native build stage running: linker_modtools (PID 39400). \n    No Blender launched; staged files and logs preserved."
+  },
+  "note": "Current-pass synthetic Radiant classifier coverage. The live CheckOnly result records only the processes actually observed now; it is not represented as a live Radiant refusal."
+}

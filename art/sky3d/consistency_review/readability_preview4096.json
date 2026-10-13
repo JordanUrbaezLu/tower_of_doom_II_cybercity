@@ -1,0 +1,810 @@
+{
+  "schema": 1,
+  "measured_at": "2026-09-30T10:31:00.311618-04:00",
+  "stage": "preview4096",
+  "evidence": "Read-only display PNG analysis; not a native BO3 screenshot or visual approval",
+  "method": "Unweighted pixel fractions inside spherical angular disks at 85% authored radius. Same current source masks applied to both panoramas; body placement is assumed unchanged. Moonlet centers and radii follow make_bodies/body_frame algebra.",
+  "luma": "Rec.709 coefficients on display RGB values 0..255; these are display luma, not linear radiance",
+  "limitations": "2048-wide box-filtered previews; small moonlets have few samples. Ring/foreground overlays inside a disk are included. The primary masks omit atmospheric halos, ring exteriors and stars. Lower clipping indicates more display headroom, not independently verified texture quality.",
+  "ray_convention": "u=(az/(2*pi)+0.5); v=(0.5-el/pi), sampled at pixel centers",
+  "inner_radius_fraction": 0.85,
+  "size": [
+    2048,
+    1024
+  ],
+  "inputs": {
+    "art\\sky3d\\consistency_review\\before\\middle_ground_sky_equirect.png": "6f904e5643dd63622264577fcb6577263b1a9a868682d84d59e78001c23b7c69",
+    "art\\sky3d\\consistency_review\\preview4096\\consistency_sky_equirect.png": "27ea11aeceaa96ea75be12d1ca2aacff75d8463eca22cf4dff690c0f1f2b2112",
+    "art\\sky3d\\consistency_review\\before\\middle_ground_stats.json": "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+    "art\\sky3d\\consistency_review\\preview4096\\consistency_stats.json": "eed8dfe145b679072512c12d4ee6bfad9125a7b728dc6860863cc8dad569aeff",
+    "tools\\sky3d\\build_city.py": "9d65b266adde6efa4205ba19dd6037a1e4d45a425061e22027944f857682c1b1",
+    "tools\\sky3d\\sky_simplify.py": "6cd3c8777cc8084dea53d9c3cd7a1e27a681390c4dfcd700198f6ef356f8dd06",
+    "tools\\sky3d\\finish_sky.py": "86862635961f2fd2f86a18505433ac717e8a3a6f5bacfa98ad9a12fe5c691387",
+    "tools\\sky_consistency\\measure_readability.py": "6f8e02893021f2d452247b95e262c4405b505ff70473091f4fa995fee88d1844"
+  },
+  "body_disks": 14,
+  "satellite_disks": 10,
+  "bodies": [
+    {
+      "name": "giant",
+      "kind": "gas",
+      "az": -98.0,
+      "el": 49.0,
+      "r": 8.0,
+      "sample_radius_deg": 6.8,
+      "before": {
+        "sample_pixels": 7177,
+        "all_channels_ge_250_fraction": 0.4016998745994148,
+        "any_channel_eq_255_fraction": 0.9765918907621569,
+        "luma_display_0_255": {
+          "5": 181.04908,
+          "50": 251.81099999999998,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 7177,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0029260136547303887,
+        "luma_display_0_255": {
+          "5": 68.97332,
+          "50": 130.6146,
+          "95": 202.74315999999996
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.4016998745994148,
+      "delta_any_channel_eq_255_fraction": -0.9736658771074265,
+      "small_sample_warning": false
+    },
+    {
+      "name": "giant_m0",
+      "kind": "satellite_moon",
+      "parent": "giant",
+      "az": -73.92766959096133,
+      "el": 50.8953547781729,
+      "r": 1.0862134833558432,
+      "sample_radius_deg": 0.9232814608524668,
+      "before": {
+        "sample_pixels": 139,
+        "all_channels_ge_250_fraction": 0.8201438848920863,
+        "any_channel_eq_255_fraction": 0.8633093525179856,
+        "luma_display_0_255": {
+          "5": 240.78099999999998,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 139,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 91.83314,
+          "50": 101.64179999999999,
+          "95": 171.62399999999997
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.8201438848920863,
+      "delta_any_channel_eq_255_fraction": -0.8633093525179856,
+      "small_sample_warning": false
+    },
+    {
+      "name": "giant_m1",
+      "kind": "satellite_moon",
+      "parent": "giant",
+      "az": -125.97754510691153,
+      "el": 43.02768859356873,
+      "r": 0.6801781577252305,
+      "sample_radius_deg": 0.5781514340664459,
+      "before": {
+        "sample_pixels": 47,
+        "all_channels_ge_250_fraction": 0.3617021276595745,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 199.55466,
+          "50": 243.55679999999998,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 47,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.2553191489361702,
+        "luma_display_0_255": {
+          "5": 153.10088000000002,
+          "50": 164.5762,
+          "95": 178.35238
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.3617021276595745,
+      "delta_any_channel_eq_255_fraction": -0.7446808510638299,
+      "small_sample_warning": false
+    },
+    {
+      "name": "cool",
+      "kind": "gas",
+      "az": 140.0,
+      "el": 52.0,
+      "r": 6.0,
+      "sample_radius_deg": 5.1,
+      "before": {
+        "sample_pixels": 4300,
+        "all_channels_ge_250_fraction": 0.6146511627906976,
+        "any_channel_eq_255_fraction": 0.9983720930232558,
+        "luma_display_0_255": {
+          "5": 227.78385999999998,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 4300,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.01674418604651163,
+        "luma_display_0_255": {
+          "5": 84.79493,
+          "50": 170.2516,
+          "95": 224.60246999999995
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.6146511627906976,
+      "delta_any_channel_eq_255_fraction": -0.9816279069767442,
+      "small_sample_warning": false
+    },
+    {
+      "name": "cool_m0",
+      "kind": "satellite_moon",
+      "parent": "cool",
+      "az": 123.21961552226186,
+      "el": 55.04612647714573,
+      "r": 0.6515520224491312,
+      "sample_radius_deg": 0.5538192190817616,
+      "before": {
+        "sample_pixels": 54,
+        "all_channels_ge_250_fraction": 0.9074074074074074,
+        "any_channel_eq_255_fraction": 0.9074074074074074,
+        "luma_display_0_255": {
+          "5": 243.00573,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 54,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 91.75471999999999,
+          "50": 146.1392,
+          "95": 198.42399999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.9074074074074074,
+      "delta_any_channel_eq_255_fraction": -0.9074074074074074,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ember",
+      "kind": "cracked",
+      "az": 32.0,
+      "el": 55.0,
+      "r": 2.8,
+      "sample_radius_deg": 2.38,
+      "before": {
+        "sample_pixels": 1003,
+        "all_channels_ge_250_fraction": 0.4965104685942173,
+        "any_channel_eq_255_fraction": 0.938185443668993,
+        "luma_display_0_255": {
+          "5": 181.21627999999998,
+          "50": 254.35019999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 1003,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 68.48348,
+          "50": 108.85300000000001,
+          "95": 174.87416000000002
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.4965104685942173,
+      "delta_any_channel_eq_255_fraction": -0.938185443668993,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ember_m0",
+      "kind": "satellite_moon",
+      "parent": "ember",
+      "az": 40.04642211136972,
+      "el": 56.13905200866468,
+      "r": 0.44686223779749423,
+      "sample_radius_deg": 0.3798329021278701,
+      "before": {
+        "sample_pixels": 26,
+        "all_channels_ge_250_fraction": 0.8461538461538461,
+        "any_channel_eq_255_fraction": 0.8461538461538461,
+        "luma_display_0_255": {
+          "5": 238.79935,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 26,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 94.8196,
+          "50": 101.5696,
+          "95": 139.93255
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.8461538461538461,
+      "delta_any_channel_eq_255_fraction": -0.8461538461538461,
+      "small_sample_warning": false
+    },
+    {
+      "name": "brown",
+      "kind": "cracked",
+      "az": -60.0,
+      "el": 44.0,
+      "r": 6.5,
+      "sample_radius_deg": 5.5249999999999995,
+      "before": {
+        "sample_pixels": 4322,
+        "all_channels_ge_250_fraction": 0.6272559000462749,
+        "any_channel_eq_255_fraction": 0.8759833410458121,
+        "luma_display_0_255": {
+          "5": 216.75811,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 4322,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.011337343822304488,
+        "luma_display_0_255": {
+          "5": 82.18215000000001,
+          "50": 125.5259,
+          "95": 212.31175000000002
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.6272559000462749,
+      "delta_any_channel_eq_255_fraction": -0.8646459972235077,
+      "small_sample_warning": false
+    },
+    {
+      "name": "brown_m0",
+      "kind": "satellite_moon",
+      "parent": "brown",
+      "az": -45.682558880481125,
+      "el": 39.84781708134293,
+      "r": 0.7038986608911699,
+      "sample_radius_deg": 0.5983138617574945,
+      "before": {
+        "sample_pixels": 48,
+        "all_channels_ge_250_fraction": 0.8125,
+        "any_channel_eq_255_fraction": 0.8333333333333334,
+        "luma_display_0_255": {
+          "5": 241.831,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 48,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 92.66928,
+          "50": 99.71199999999999,
+          "95": 129.55132999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.8125,
+      "delta_any_channel_eq_255_fraction": -0.8333333333333334,
+      "small_sample_warning": false
+    },
+    {
+      "name": "brown_m1",
+      "kind": "satellite_moon",
+      "parent": "brown",
+      "az": -77.85947672556603,
+      "el": 46.50019999022182,
+      "r": 0.445628013635744,
+      "sample_radius_deg": 0.3787838115903824,
+      "before": {
+        "sample_pixels": 22,
+        "all_channels_ge_250_fraction": 1.0,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 254.99999999999997,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 22,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 185.02179999999998,
+          "50": 188.947,
+          "95": 193.26723
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -1.0,
+      "delta_any_channel_eq_255_fraction": -1.0,
+      "small_sample_warning": false
+    },
+    {
+      "name": "verdant",
+      "kind": "cracked",
+      "az": -137.0,
+      "el": 52.0,
+      "r": 2.4,
+      "sample_radius_deg": 2.04,
+      "before": {
+        "sample_pixels": 684,
+        "all_channels_ge_250_fraction": 0.3961988304093567,
+        "any_channel_eq_255_fraction": 0.9912280701754386,
+        "luma_display_0_255": {
+          "5": 232.60065999999998,
+          "50": 250.53539999999998,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 684,
+        "all_channels_ge_250_fraction": 0.033625730994152045,
+        "any_channel_eq_255_fraction": 0.10380116959064327,
+        "luma_display_0_255": {
+          "5": 96.19376,
+          "50": 156.70589999999999,
+          "95": 233.28769
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.36257309941520466,
+      "delta_any_channel_eq_255_fraction": -0.8874269005847953,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ringlet",
+      "kind": "moon",
+      "az": -150.0,
+      "el": 40.0,
+      "r": 1.5,
+      "sample_radius_deg": 1.275,
+      "before": {
+        "sample_pixels": 217,
+        "all_channels_ge_250_fraction": 0.7926267281105991,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 217.49648,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 217,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.14285714285714285,
+        "luma_display_0_255": {
+          "5": 157.91868,
+          "50": 177.99360000000001,
+          "95": 196.47583999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.7926267281105991,
+      "delta_any_channel_eq_255_fraction": -0.8571428571428572,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ice",
+      "kind": "gas",
+      "az": 130.0,
+      "el": 64.0,
+      "r": 3.2,
+      "sample_radius_deg": 2.72,
+      "before": {
+        "sample_pixels": 1715,
+        "all_channels_ge_250_fraction": 0.7119533527696793,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 221.08477999999997,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 1715,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0058309037900874635,
+        "luma_display_0_255": {
+          "5": 78.48971999999999,
+          "50": 157.6122,
+          "95": 206.44287999999997
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.7119533527696793,
+      "delta_any_channel_eq_255_fraction": -0.9941690962099126,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ice_m0",
+      "kind": "satellite_moon",
+      "parent": "ice",
+      "az": 140.14819300548444,
+      "el": 61.70326730757689,
+      "r": 0.3190360441592741,
+      "sample_radius_deg": 0.27118063753538296,
+      "before": {
+        "sample_pixels": 15,
+        "all_channels_ge_250_fraction": 0.9333333333333333,
+        "any_channel_eq_255_fraction": 0.9333333333333333,
+        "luma_display_0_255": {
+          "5": 244.18037999999999,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 15,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 94.47138,
+          "50": 155.9988,
+          "95": 192.17517999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.9333333333333333,
+      "delta_any_channel_eq_255_fraction": -0.9333333333333333,
+      "small_sample_warning": true
+    },
+    {
+      "name": "ruby",
+      "kind": "gas",
+      "az": -20.0,
+      "el": 47.0,
+      "r": 9.6,
+      "sample_radius_deg": 8.16,
+      "before": {
+        "sample_pixels": 9967,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.9118089695996789,
+        "luma_display_0_255": {
+          "5": 58.4776,
+          "50": 143.117,
+          "95": 230.26063999999982
+        }
+      },
+      "after": {
+        "sample_pixels": 9967,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 23.061,
+          "50": 59.099599999999995,
+          "95": 98.66615999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": 0.0,
+      "delta_any_channel_eq_255_fraction": -0.9118089695996789,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ruby_m0",
+      "kind": "satellite_moon",
+      "parent": "ruby",
+      "az": -44.445830832352314,
+      "el": 48.21450500274645,
+      "r": 1.1153355808386705,
+      "sample_radius_deg": 0.9480352437128698,
+      "before": {
+        "sample_pixels": 139,
+        "all_channels_ge_250_fraction": 0.7841726618705036,
+        "any_channel_eq_255_fraction": 0.7985611510791367,
+        "luma_display_0_255": {
+          "5": 236.21746,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 139,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 90.53458,
+          "50": 99.6418,
+          "95": 138.01938
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.7841726618705036,
+      "delta_any_channel_eq_255_fraction": -0.7985611510791367,
+      "small_sample_warning": false
+    },
+    {
+      "name": "ruby_m1",
+      "kind": "satellite_moon",
+      "parent": "ruby",
+      "az": -1.8930575723552592,
+      "el": 40.244859286963774,
+      "r": 0.656177383933092,
+      "sample_radius_deg": 0.5577507763431282,
+      "before": {
+        "sample_pixels": 40,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.45,
+        "luma_display_0_255": {
+          "5": 166.59105,
+          "50": 182.3662,
+          "95": 214.02173000000002
+        }
+      },
+      "after": {
+        "sample_pixels": 40,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 68.43679,
+          "50": 74.67179999999999,
+          "95": 80.23741
+        }
+      },
+      "delta_all_channels_ge_250_fraction": 0.0,
+      "delta_any_channel_eq_255_fraction": -0.45,
+      "small_sample_warning": false
+    },
+    {
+      "name": "jade",
+      "kind": "gas",
+      "az": -176.0,
+      "el": 31.0,
+      "r": 1.9,
+      "sample_radius_deg": 1.615,
+      "before": {
+        "sample_pixels": 308,
+        "all_channels_ge_250_fraction": 0.974025974025974,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 254.99999999999997,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 308,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.09090909090909091,
+        "luma_display_0_255": {
+          "5": 137.86758,
+          "50": 208.7663,
+          "95": 245.66579999999996
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.974025974025974,
+      "delta_any_channel_eq_255_fraction": -0.9090909090909091,
+      "small_sample_warning": false
+    },
+    {
+      "name": "obsidian",
+      "kind": "cracked",
+      "az": 151.0,
+      "el": 64.0,
+      "r": 1.7,
+      "sample_radius_deg": 1.4449999999999998,
+      "before": {
+        "sample_pixels": 483,
+        "all_channels_ge_250_fraction": 0.34782608695652173,
+        "any_channel_eq_255_fraction": 0.8674948240165632,
+        "luma_display_0_255": {
+          "5": 172.98248,
+          "50": 233.54399999999998,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 483,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 72.34595999999999,
+          "50": 113.68719999999999,
+          "95": 162.48457999999997
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.34782608695652173,
+      "delta_any_channel_eq_255_fraction": -0.8674948240165632,
+      "small_sample_warning": false
+    },
+    {
+      "name": "sulfur",
+      "kind": "cracked",
+      "az": -82.0,
+      "el": 68.0,
+      "r": 1.4,
+      "sample_radius_deg": 1.19,
+      "before": {
+        "sample_pixels": 388,
+        "all_channels_ge_250_fraction": 0.2912371134020619,
+        "any_channel_eq_255_fraction": 0.9922680412371134,
+        "luma_display_0_255": {
+          "5": 246.86666999999997,
+          "50": 252.00369999999998,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 388,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.028350515463917526,
+        "luma_display_0_255": {
+          "5": 95.48572,
+          "50": 146.96589999999998,
+          "95": 220.02331999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.2912371134020619,
+      "delta_any_channel_eq_255_fraction": -0.9639175257731959,
+      "small_sample_warning": false
+    },
+    {
+      "name": "sulfur_m0",
+      "kind": "satellite_moon",
+      "parent": "sulfur",
+      "az": -76.30817037965315,
+      "el": 68.32304785921474,
+      "r": 0.16791637983953428,
+      "sample_radius_deg": 0.14272892286360414,
+      "before": {
+        "sample_pixels": 4,
+        "all_channels_ge_250_fraction": 0.75,
+        "any_channel_eq_255_fraction": 0.75,
+        "luma_display_0_255": {
+          "5": 249.65248,
+          "50": 254.99999999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 4,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 95.71168,
+          "50": 115.7481,
+          "95": 160.24938999999998
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.75,
+      "delta_any_channel_eq_255_fraction": -0.75,
+      "small_sample_warning": true
+    },
+    {
+      "name": "grey",
+      "kind": "moon",
+      "az": 5.0,
+      "el": 53.0,
+      "r": 2.3,
+      "sample_radius_deg": 1.9549999999999998,
+      "before": {
+        "sample_pixels": 649,
+        "all_channels_ge_250_fraction": 0.18798151001540833,
+        "any_channel_eq_255_fraction": 0.2218798151001541,
+        "luma_display_0_255": {
+          "5": 216.85320000000002,
+          "50": 234.92539999999997,
+          "95": 254.99999999999997
+        }
+      },
+      "after": {
+        "sample_pixels": 649,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 82.71399999999998,
+          "50": 88.9988,
+          "95": 98.1432
+        }
+      },
+      "delta_all_channels_ge_250_fraction": -0.18798151001540833,
+      "delta_any_channel_eq_255_fraction": -0.2218798151001541,
+      "small_sample_warning": false
+    },
+    {
+      "name": "dust",
+      "kind": "moon",
+      "az": -118.0,
+      "el": 25.0,
+      "r": 0.9,
+      "sample_radius_deg": 0.765,
+      "before": {
+        "sample_pixels": 65,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 197.21184,
+          "50": 207.08159999999998,
+          "95": 214.80576
+        }
+      },
+      "after": {
+        "sample_pixels": 65,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 1.0,
+        "luma_display_0_255": {
+          "5": 190.632,
+          "50": 200.64479999999998,
+          "95": 203.36255999999997
+        }
+      },
+      "delta_all_channels_ge_250_fraction": 0.0,
+      "delta_any_channel_eq_255_fraction": 0.0,
+      "small_sample_warning": false
+    },
+    {
+      "name": "primary",
+      "kind": "moon",
+      "az": 8.0,
+      "el": 41.0,
+      "r": 5.1,
+      "sample_radius_deg": 4.335,
+      "before": {
+        "sample_pixels": 2537,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0031533307055577452,
+        "luma_display_0_255": {
+          "5": 119.33919999999999,
+          "50": 132.4142,
+          "95": 146.9196
+        }
+      },
+      "after": {
+        "sample_pixels": 2537,
+        "all_channels_ge_250_fraction": 0.0,
+        "any_channel_eq_255_fraction": 0.0,
+        "luma_display_0_255": {
+          "5": 96.6866,
+          "50": 107.3324,
+          "95": 118.97819999999999
+        }
+      },
+      "delta_all_channels_ge_250_fraction": 0.0,
+      "delta_any_channel_eq_255_fraction": -0.0031533307055577452,
+      "small_sample_warning": false
+    }
+  ],
+  "union_of_disks": {
+    "before": {
+      "sample_pixels": 34349,
+      "all_channels_ge_250_fraction": 0.33453666773414076,
+      "any_channel_eq_255_fraction": 0.8588896328859646,
+      "luma_display_0_255": {
+        "5": 91.01372,
+        "50": 240.09539999999996,
+        "95": 254.99999999999997
+      }
+    },
+    "after": {
+      "sample_pixels": 34349,
+      "all_channels_ge_250_fraction": 0.0006695973681912137,
+      "any_channel_eq_255_fraction": 0.010771783749163003,
+      "luma_display_0_255": {
+        "5": 35.9166,
+        "50": 106.33239999999999,
+        "95": 203.61664
+      }
+    }
+  },
+  "lower_all_channel_clipping_bodies": 20,
+  "higher_all_channel_clipping_bodies": 0,
+  "lower_any_channel_clipping_bodies": 23,
+  "higher_any_channel_clipping_bodies": 0,
+  "native_visual_verified": false
+}

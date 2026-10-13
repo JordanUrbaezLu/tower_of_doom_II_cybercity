@@ -1,0 +1,23 @@
+{
+  "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_preview.blend",
+  "exr_sha256": "8bdcb2c893ae2acb5671c6886cc79ad41371beaf057476e79048c088dbfebd39",
+  "before": [
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID"
+  ],
+  "viewport": "RENDERED",
+  "scene_world": true,
+  "scene_lights": true,
+  "active_scene": "02 After reveal - native sign card",
+  "sign_state": "after_reveal",
+  "preview_file_resaved": false,
+  "native_visual_verified": false
+}

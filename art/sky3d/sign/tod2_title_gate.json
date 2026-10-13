@@ -1,0 +1,18 @@
+{
+ "size": [
+  1544,
+  1214
+ ],
+ "ref_size": [
+  1448,
+  1086
+ ],
+ "pad_top": 128,
+ "pad_x": 48,
+ "box_px": [
+  772.0,
+  523.0
+ ],
+ "ref_width_px": 1448,
+ "note": "docs/166 \u00a79; build_city.py make_title_gate reads this"
+}

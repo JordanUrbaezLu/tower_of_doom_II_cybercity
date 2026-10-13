@@ -1,0 +1,96 @@
+{
+  "checked_at": "2026-09-30T12:43:40.355259-04:00",
+  "status": "pass",
+  "helpers": {
+    "render.ps1": "6e7207bc945be394a98415f7731b6071f34f45a264c3cc9384fd04c48901f69e",
+    "resource_guard.ps1": "64310dcfe2292f8d77499111d9429a3c61e32f7712d3350919f2efdd4098bd73",
+    "test_resource_guard.ps1": "2fdfb42cd12f55c184ba5247ce6aaa81e7da524bd6041d2d7795db78c56dc824",
+    "finish.ps1": "5065a3e7a97c6368fe9f2db3942c00ae9af13a66a184480e74282e6088336927",
+    "render_native_card.ps1": "469a786f505b5613df48172e8c1fc92ff079278ebc8f7f22d33221e74823adbc",
+    "open_preview.ps1": "e2a4c4bf1cbb20e89611dc09b64d3850cf6526226de9593e21a56059cc79b168",
+    "start_studio.ps1": "379cd7c0a0b5779ad45bdbd41701268a23e6b4bcff428dcb30e5e6e8594e3d13",
+    "watch_studio.ps1": "34c96a9557eb0642e22e905695cabfea2ecec7217a852352b79c8143992e8232",
+    "mcp_call.py": "f7fad19d3a07d11bdcfeb50eda221b6870a09a06a2a40692cf7954a775d14c25"
+  },
+  "live_preflight": {
+    "exit_code": 0,
+    "output": "Sky resource preflight passed; CheckOnly never launches Blender.",
+    "error": ""
+  },
+  "classifier_tests": {
+    "status": "pass",
+    "cases": [
+      {
+        "refused": true,
+        "name": "Radiant"
+      },
+      {
+        "refused": true,
+        "name": "Radiant_modtools"
+      },
+      {
+        "refused": true,
+        "name": "OtherRadiantEditor"
+      },
+      {
+        "refused": true,
+        "name": "BlackOps3"
+      },
+      {
+        "refused": true,
+        "name": "cod2map64"
+      },
+      {
+        "refused": true,
+        "name": "linker_modtools"
+      },
+      {
+        "refused": true,
+        "name": "gdtdb"
+      },
+      {
+        "refused": false,
+        "name": "blender"
+      },
+      {
+        "refused": false,
+        "name": "powershell"
+      },
+      {
+        "refused": false,
+        "name": "notepad"
+      }
+    ],
+    "other_blender_refusal": true,
+    "os_processes_created_or_stopped": 0
+  },
+  "render_artifacts_unchanged": true,
+  "preserved_hashes": {
+    "tmp/sky_dealer/raw_8192.exr": "9d48785a50bbb5d8a37038dabdbf5c5341c1317ea4ea85a384edc550baabfc32",
+    "tmp/sky_dealer/raw_8192.sign.exr": "a8c95f0fba14df2c81727f764471bd4eb2ef9d31b11475fc291da7283ff576a1",
+    "tmp/sky_dealer/raw_8192.render.json": "451fb597d0a9fd83381eed72fd798d8260ae6931d3fa45ac2475b85ed0425587",
+    "tmp/sky_dealer/render8192.log": "7dbb5504cee1722a02f56d3ef5109019805f40a786165f9fbdb6d282afdbb71b",
+    "tmp/sky_dealer/render8192.err": "29fa17e931c90fe8d26abdb72118d4eaa531db1a35629adeb4740f61bd264d52",
+    "tmp/sky_dealer/dealer.blend": "b97983ac41be516f94f76372e8b5fd323186eb49d9cafc966d9a0a1add558dfd"
+  },
+  "blender_processes_after": 0,
+  "parse_check": "All dealer PowerShell scripts and Python files parsed cleanly",
+  "renderers_unchanged": true,
+  "causality": "Observed overlap could have increased memory pressure; its role in the reported Radiant issue is unproven.",
+  "check_only_note": "Other Blender refusal is evaluated before the dry preflight can report success.",
+  "final_live_preflight": {
+    "exit_code": 0,
+    "output": "Sky resource preflight passed; CheckOnly never launches Blender.",
+    "blender_launched": false
+  },
+  "mcp_preflight": "Passed before actual master inspection, preview authoring, both-state render and screenshot; PowerShell uses project-standard execution policy.",
+  "observed_owned_watchdog": {
+    "studio_pid": 10412,
+    "watcher_pid": 7668,
+    "blocker_name": "gdtdb",
+    "blocker_pid": 10852,
+    "log": "tmp/sky_dealer/studio_watch.log",
+    "log_sha256": "eeda77b5c74097852d892e7ecf2284726342f941e97e86445de687be579b0bf7",
+    "event": "Saved preview and screenshot completed before owned studio was stopped; no foreign process touched."
+  }
+}

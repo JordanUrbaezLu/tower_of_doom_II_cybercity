@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cybercity — approved middle ground</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#090a10;color:#e9e6f3;font:16px/1.55 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:32px 20px 80px}h1{font-size:clamp(27px,4vw,48px);line-height:1.15;margin:8px 0 14px}h2{margin-top:48px}p{max-width:940px;color:#c6c2d0}a{color:#72deee}img{display:block;width:100%;height:auto}figure{margin:0;background:#11121b;border:1px solid #2e293e;border-radius:8px;overflow:hidden}figcaption{padding:12px 16px;color:#d9d2e5}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}.lead{margin:28px 0}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 12px}button{background:#201a2c;color:#ddd3eb;border:1px solid #514062;border-radius:6px;padding:10px 18px;font:inherit;cursor:pointer}button[aria-pressed=true]{background:#52244b;color:white;border-color:#da60c4}.note{border-left:3px solid #a64ad4;padding:4px 16px}details{margin-top:32px;border-top:1px solid #38303e;padding-top:18px}summary{cursor:pointer;color:#c3abc9}.links{display:flex;gap:20px;flex-wrap:wrap}@media(max-width:800px){.pair{grid-template-columns:1fr}}
+</style><main>
+<p>SKY ART REVIEW · SEPTEMBER 30, 2026</p>
+<h1>Engineered cyber city. An imposing title.</h1>
+<p>The approved middle ground: heavy metal lettering, an angular mechanical crest and worn cyber architecture. More of the ordinary skyline now shares the tall landmarks’ design, with the reduced building count and open sky preserved.</p>
+<p class="note" id="status">Native build complete and verified. Ready for your playtest. These are Blender projections using the game's exported sky and an approximate display bracket; they are not game screenshots.</p>
+<figure class="lead"><a href="final/middle_ground_ingame_reveal_cinematic.png"><img src="final/middle_ground_ingame_reveal_cinematic.png" alt="Final cyber title and skyline at the cinematic reveal camera"></a><figcaption>The final title at the cinematic reveal camera.</figcaption></figure>
+<nav class="links"><a href="../../../tools/sky_middle_ground/open_preview.ps1">Blender preview launcher</a><a href="../middle_ground_preview.blend">Blender file</a><a href="concept.png">Approved concept</a><a href="../../../docs/166_sky3d_rendered_sky.md">Art and build record</a></nav>
+<p>Run the preview launcher in PowerShell to restore Rendered mode after opening. If opening the Blender file directly shows gray, switch the viewport to Rendered and enable Scene World. <a href="blender_reopened.png">View the checked Blender preview.</a></p>
+<h2>Compare the same view</h2>
+<p>The previous gate and the new direction use the same camera and display bracket.</p>
+<div class="tabs" aria-label="Compare view">
+<button data-view="reveal_cinematic" aria-pressed="true">Title</button><button data-view="city" aria-pressed="false">City</button><button data-view="station" aria-pressed="false">Station</button><button data-view="up" aria-pressed="false">Upper sky</button>
+</div><div class="pair">
+<figure><img id="before" src="../simplify_review/final/simplify_ingame_reveal_cinematic.png" alt="Previous sky"><figcaption>Previous version — the direction that felt reverted.</figcaption></figure>
+<figure><img id="after" src="final/middle_ground_ingame_reveal_cinematic.png" alt="Approved middle-ground sky"><figcaption>New middle ground — engineered sign and expanded cyber skyline.</figcaption></figure>
+</div>
+<h2>Space for the landmarks</h2>
+<div class="pair"><figure><img loading="lazy" src="final/middle_ground_ingame_station.png" alt="Skyrail platforms and train"><figcaption>The station, train and reserved sightline remain.</figcaption></figure><figure><img loading="lazy" src="final/middle_ground_ingame_up.png" alt="Planets and space above the skyline"><figcaption>Planet, ring and moon clearance stays above three degrees.</figcaption></figure></div>
+<h2>The complete sky</h2><figure><a href="final/middle_ground_sky_equirect.png"><img loading="lazy" src="final/middle_ground_sky_equirect.png" alt="Complete exported sky panorama"></a><figcaption>Full panorama. Open the Blender preview to look around.</figcaption></figure>
+<details><summary>Artwork, validation and build evidence</summary>
+<p>The sign artwork was generated with the built-in Imagegen tool from the approved concept. Its generated pixels and transparency are preserved without bitmap edits. Blender adds the sky placement and calibrated material response.</p>
+<p class="links"><a href="../sign/v10_cyber_hero.png">Sign artwork</a><a href="../sign/v10_cyber_hero.prompt.txt">Exact image prompt</a><a href="../sign/v10_cyber_hero.provenance.json">Artwork provenance</a><a href="prompt.txt">Concept prompt</a></p>
+<p class="links"><a href="architecture_check.json">Geometry check</a><a href="composition_audit.json">Layout comparison</a><a href="final/middle_ground_stats.json">Final sky measurements</a><a href="preview.json">Blender settings</a><a href="install.json">Installed files</a><a href="build.json">Native build proof</a></p>
+<p>624 modern ordinary buildings; 357 additional smaller spires converted; 1,222 total building groups retained. All eight placed hero towers remain. The recent case-safe asteroid fix is preserved. Runtime appearance is for the user's playtest.</p>
+</details></main><script>
+for(const b of document.querySelectorAll('[data-view]'))b.addEventListener('click',()=>{const v=b.dataset.view;document.querySelector('#before').src='../simplify_review/final/simplify_ingame_'+v+'.png';document.querySelector('#after').src='final/middle_ground_ingame_'+v+'.png';for(const q of document.querySelectorAll('[data-view]'))q.setAttribute('aria-pressed',String(q===b));});
+</script></html>

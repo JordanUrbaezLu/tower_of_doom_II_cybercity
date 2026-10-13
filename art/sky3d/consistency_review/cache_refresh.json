@@ -1,0 +1,7 @@
+{
+    "time":  "2026-09-30T11:13:39.5633280-04:00",
+    "backup":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\failed_mips_sky.iwi",
+    "sha256":  "b476db2ef977541729a3aa0d4834a57f303252424c99006bedd39c2c549cbe52",
+    "source":  "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_skybox_tod_cybercity_7GK7H3JLFEPGLM3OY4JTWDN7NE.iwi",
+    "reason":  "Preserve failed-link sky cache and require fresh conversion in the successful full build"
+}

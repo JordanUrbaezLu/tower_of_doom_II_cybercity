@@ -1,0 +1,158 @@
+{
+  "status": "pass",
+  "errors": [],
+  "changed_original_lots": [],
+  "ordinary_candidates": 1792,
+  "ordinary_retained": 1189,
+  "modern_ordinary": 1189,
+  "preserved_spires": 0,
+  "newly_modernized_spires": 565,
+  "modern_archetypes": {
+    "cantilever_relay": 309,
+    "offset_slot": 264,
+    "split_crown": 309,
+    "tapered_keel": 307
+  },
+  "modern_by_band": {
+    "core": 136,
+    "far": 336,
+    "middle": 464,
+    "near": 123,
+    "outer": 130
+  },
+  "expanded_by_band": {
+    "core": 12,
+    "far": 273,
+    "middle": 135,
+    "near": 31,
+    "outer": 114
+  },
+  "retained_by_band": {
+    "core": 136,
+    "far": 336,
+    "middle": 464,
+    "near": 123,
+    "outer": 130
+  },
+  "retained_megatowers": 32,
+  "retained_hero_megatowers": 8,
+  "visible_buildings": 1222,
+  "secondary": {
+    "floating_sigils": {
+      "before_v10": 19,
+      "after_consistency": 4,
+      "retired_kept_ids": [
+        1,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        24,
+        29,
+        30,
+        31,
+        36,
+        39
+      ],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "historically_visible_now_host_hidden": [
+        1,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        24,
+        29,
+        30,
+        31,
+        36,
+        39
+      ]
+    },
+    "air_lanes": {
+      "before_v10": 6,
+      "after_consistency": 6,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [],
+      "historically_visible_now_host_hidden": []
+    },
+    "searchlight_beams": {
+      "before_v10": 4,
+      "after_consistency": 4,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [
+        5
+      ],
+      "historically_visible_now_host_hidden": []
+    },
+    "crown_lasers": {
+      "before_v10": 2,
+      "after_consistency": 2,
+      "retired_kept_ids": [],
+      "newly_selected_ids": [],
+      "hidden_host_ids": [
+        0,
+        1
+      ],
+      "historically_visible_now_host_hidden": []
+    }
+  },
+  "native_visual_verified": false,
+  "checked_at": "2026-09-30T10:44:51.658873-04:00",
+  "before": {
+    "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\composition.json",
+    "sha256": "ff60379e8795cd4e56389b1719f6baa12251cc3c57c4fc029c5769fbbcd50a61"
+  },
+  "after": {
+    "path": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_4096.composition.json",
+    "sha256": "7766ea85dd8be2e6ee9b81f75441535fd70d0f0cb1188190136e01365c5b8f7b"
+  }
+}

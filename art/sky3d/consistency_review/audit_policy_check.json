@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "kind": "isolated audit policy controls; not an authored scene audit",
+  "positive_fixture": "all retained lots share kit labels; historical fields identical",
+  "negative_controls": [
+    "moved_lot",
+    "incomplete_coverage",
+    "unknown_architecture",
+    "lost_hero",
+    "extra_skyline_group",
+    "new_floating_sigil",
+    "old_partial_coverage"
+  ],
+  "native_visual_verified": false
+}

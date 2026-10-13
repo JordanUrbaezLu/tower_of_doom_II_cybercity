@@ -1,0 +1,171 @@
+{
+    "captured_at":  "2026-09-30T10:21:53.4916456-04:00",
+    "baseline":  "Approved middle-ground sky",
+    "source_review":  "art/sky3d/middle_ground_review/final",
+    "composition_source":  "tmp/sky_middle_ground/raw_4096.composition.json",
+    "files":  [
+                  {
+                      "source":  "tmp/sky_middle_ground/raw_4096.composition.json",
+                      "preserved":  "art/sky3d/consistency_review/before/composition.json",
+                      "sha256":  "ff60379e8795cd4e56389b1719f6baa12251cc3c57c4fc029c5769fbbcd50a61",
+                      "bytes":  680368
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/composition_audit.json",
+                      "preserved":  "art/sky3d/consistency_review/before/composition_audit.json",
+                      "sha256":  "c0a32206ef4be4570f45d19600a7701f15cf2041360990bbd21f5e313b80b590",
+                      "bytes":  2800
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/finish.json",
+                      "preserved":  "art/sky3d/consistency_review/before/finish.json",
+                      "sha256":  "5df23e7ad12c76441a6888c768f092000519cf8962e82b00a7129d25c4c58f0e",
+                      "bytes":  1012
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_behind.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_behind.png",
+                      "sha256":  "3446c0e7f621dd60dec6c9d368833146f34f3c790696179a5009d3dc6bd4591b",
+                      "bytes":  2796251
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_brown.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_brown.png",
+                      "sha256":  "b72adc6a68b1b06deee00068441ff8b7445d04b5ce1928ea0c1a46caa1c3ef23",
+                      "bytes":  2400504
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_celestial_east.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_celestial_east.png",
+                      "sha256":  "b1721dcf82e7e324057fb47c50c6faff6c729f88e4e4d65d6505ae64a7df1b68",
+                      "bytes":  2184682
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_city.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_city.png",
+                      "sha256":  "6584193a5aedb6eb1449a415d0410987d12848f51b90370b32a76ddc1ea17183",
+                      "bytes":  2813860
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_core.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_core.png",
+                      "sha256":  "5f6f850f2abc02c664ab6a80a7d7f0dffc982eeb6f59839d2e69cc64bef21967",
+                      "bytes":  2952227
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_down_l.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_down_l.png",
+                      "sha256":  "875c67ce9d8ef1abbce5670412f8e826de6a4c54f1709a6fb09f0fe53fe68bce",
+                      "bytes":  2794235
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_down_r.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_down_r.png",
+                      "sha256":  "c689953bf8162198e7156037a8d999a0de5c49e6e5b35c14b403f987cd932955",
+                      "bytes":  2530443
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_galaxy.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_galaxy.png",
+                      "sha256":  "21ee06ffc4cf774fac4b24e7b24cb8c14862127cf965987af17c2e2e53c2b88a",
+                      "bytes":  2246144
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_gargantua.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_gargantua.png",
+                      "sha256":  "4ef80fd49671be8156af9ebf71184446d26e07783b0ad0181c0d8331680b1703",
+                      "bytes":  2192463
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_giant.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_giant.png",
+                      "sha256":  "a09288a54007b76e2bfff87bd1ecf341796390dceec4c39fcd5e9c84b8962e28",
+                      "bytes":  2029903
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_harbour.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_harbour.png",
+                      "sha256":  "6637bd6c72b7cb6a56676af6c3f444e48040adab838a3bae977710b24a51079a",
+                      "bytes":  2642716
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_maelstrom.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_maelstrom.png",
+                      "sha256":  "ae37a1ee0157fb6b5ae04905bd90ca26d1d634e23b4d5a09ea0851f951015cba",
+                      "bytes":  2135980
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_moon.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_moon.png",
+                      "sha256":  "4bb4805fc64d596e4de8695fb70bed9643fc77c4f14d18eab7d610e45a0fe63c",
+                      "bytes":  3225138
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_nadir.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_nadir.png",
+                      "sha256":  "e951e7f0b929ce203554a593d4aca6ddfe9100862d3843167902e0ff1c937753",
+                      "bytes":  2042254
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_origin.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_origin.png",
+                      "sha256":  "b708fefaf8ad69a7882fca8bf3a96eff32c0e9e1716b6d4574df443d9bbc9bf4",
+                      "bytes":  2373460
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_reveal.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_reveal.png",
+                      "sha256":  "5a49de7424644638bae77b64780ad9ab01d1d748018e18805fcfad1f9e8e15c2",
+                      "bytes":  3155659
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_reveal_cinematic.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_reveal_cinematic.png",
+                      "sha256":  "bca7d37eb37761eb780a3762c70d6065f5a3be2f75822c129cb1f221b0273476",
+                      "bytes":  3145682
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_ruby.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_ruby.png",
+                      "sha256":  "124410b97309f97d2513f79134ca334c88aed3f307ebbb16246a925ae7b01387",
+                      "bytes":  2203132
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_skyline_r.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_skyline_r.png",
+                      "sha256":  "9c4f5d46dbe5844c628271f3a2a28c8593ef754c1e475c16b1b8f315dcd7bc8d",
+                      "bytes":  3024194
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_station.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_station.png",
+                      "sha256":  "fbd4b572e72c3cef15bc85b4cfed613372d10276be63decc72050c55d5d8be14",
+                      "bytes":  2574647
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_tether.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_tether.png",
+                      "sha256":  "2108c6bfa2ea064ca97d136788b353084be4678c5310a8a98d91f4baf8566571",
+                      "bytes":  2384104
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_ingame_up.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_ingame_up.png",
+                      "sha256":  "078043d5160f35649c4acdfae340faa872e7890fb47d22a211797f2ace279c4d",
+                      "bytes":  2538297
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_sky_equirect.png",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_sky_equirect.png",
+                      "sha256":  "6f904e5643dd63622264577fcb6577263b1a9a868682d84d59e78001c23b7c69",
+                      "bytes":  2893365
+                  },
+                  {
+                      "source":  "art/sky3d/middle_ground_review/final/middle_ground_stats.json",
+                      "preserved":  "art/sky3d/consistency_review/before/middle_ground_stats.json",
+                      "sha256":  "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+                      "bytes":  1266
+                  }
+              ],
+    "native_visual_verified":  false
+}

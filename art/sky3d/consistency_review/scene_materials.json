@@ -1,0 +1,782 @@
+{
+  "objects": [
+    {
+      "object": "origin_island",
+      "faces": 58,
+      "materials": [
+        "sky3d_rock"
+      ]
+    },
+    {
+      "object": "origin_beam",
+      "faces": 44,
+      "materials": [
+        "sky3d_origin_beam"
+      ]
+    },
+    {
+      "object": "origin_storm",
+      "faces": 42,
+      "materials": [
+        "sky3d_storm"
+      ]
+    },
+    {
+      "object": "origin_bolts",
+      "faces": 654,
+      "materials": [
+        "sky3d_bolt"
+      ]
+    },
+    {
+      "object": "tether_cable",
+      "faces": 24,
+      "materials": [
+        "sky3d_neon"
+      ]
+    },
+    {
+      "object": "podium_canal",
+      "faces": 96,
+      "materials": [
+        "sky3d_water"
+      ]
+    },
+    {
+      "object": "beams",
+      "faces": 120,
+      "materials": [
+        "sky3d_beam"
+      ]
+    },
+    {
+      "object": "lasers",
+      "faces": 12,
+      "materials": [
+        "sky3d_laser"
+      ]
+    },
+    {
+      "object": "city_facades",
+      "faces": 2212,
+      "materials": [
+        "sky3d_landmark_armour"
+      ]
+    },
+    {
+      "object": "city_roofs",
+      "faces": 195,
+      "materials": [
+        "sky3d_landmark_decks"
+      ]
+    },
+    {
+      "object": "city_cyber_armour",
+      "faces": 175164,
+      "materials": [
+        "sky3d_cyber_armour"
+      ]
+    },
+    {
+      "object": "city_cyber_decks",
+      "faces": 21111,
+      "materials": [
+        "sky3d_cyber_decks"
+      ]
+    },
+    {
+      "object": "city_struct",
+      "faces": 35259,
+      "materials": [
+        "sky3d_struct_armour"
+      ]
+    },
+    {
+      "object": "city_neon",
+      "faces": 148608,
+      "materials": [
+        "sky3d_neon.001"
+      ]
+    },
+    {
+      "object": "city_screens",
+      "faces": 69,
+      "materials": [
+        "sky3d_screen",
+        "sky3d_screen_ad_01",
+        "sky3d_screen_ad_02",
+        "sky3d_screen_ad_03",
+        "sky3d_screen_ad_04",
+        "sky3d_screen_ad_05",
+        "sky3d_screen_ad_06",
+        "sky3d_screen_ad_07",
+        "sky3d_screen_ad_08",
+        "sky3d_screen_ad_09",
+        "sky3d_screen_ad_10",
+        "sky3d_screen_ad_11",
+        "sky3d_screen_ad_12"
+      ]
+    },
+    {
+      "object": "city_trails",
+      "faces": 16993,
+      "materials": [
+        "sky3d_trail"
+      ]
+    },
+    {
+      "object": "city_sigils",
+      "faces": 26,
+      "materials": [
+        "sky3d_sigil"
+      ]
+    },
+    {
+      "object": "city_falls",
+      "faces": 224,
+      "materials": [
+        "sky3d_lightfall"
+      ]
+    },
+    {
+      "object": "city_ribbons",
+      "faces": 1580,
+      "materials": [
+        "sky3d_ribbon"
+      ]
+    },
+    {
+      "object": "ground",
+      "faces": 1,
+      "materials": [
+        "sky3d_ground"
+      ]
+    },
+    {
+      "object": "water",
+      "faces": 24,
+      "materials": [
+        "sky3d_water.001"
+      ]
+    },
+    {
+      "object": "fog",
+      "faces": 6,
+      "materials": [
+        "sky3d_fog"
+      ]
+    },
+    {
+      "object": "haze",
+      "faces": 6,
+      "materials": [
+        "sky3d_haze"
+      ]
+    },
+    {
+      "object": "ring_giant",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_giant"
+      ]
+    },
+    {
+      "object": "ring_cool",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_cool"
+      ]
+    },
+    {
+      "object": "ring_ringlet",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_ringlet"
+      ]
+    },
+    {
+      "object": "disc_gargantua",
+      "faces": 2400,
+      "materials": [
+        "sky3d_disc_gargantua"
+      ]
+    },
+    {
+      "object": "photon_gargantua",
+      "faces": 96,
+      "materials": [
+        "sky3d_photon_gargantua"
+      ]
+    },
+    {
+      "object": "lens_gargantua",
+      "faces": 1024,
+      "materials": [
+        "sky3d_lensarc_gargantua"
+      ]
+    },
+    {
+      "object": "jets_gargantua",
+      "faces": 144,
+      "materials": [
+        "sky3d_jet_gargantua"
+      ]
+    },
+    {
+      "object": "streams_gargantua",
+      "faces": 1392,
+      "materials": [
+        "sky3d_stream_gargantua"
+      ]
+    },
+    {
+      "object": "galaxy_andromeda",
+      "faces": 1152,
+      "materials": [
+        "sky3d_galaxy_andromeda"
+      ]
+    },
+    {
+      "object": "galaxy_whirl",
+      "faces": 1152,
+      "materials": [
+        "sky3d_galaxy_whirl"
+      ]
+    },
+    {
+      "object": "ring_ice",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_ice"
+      ]
+    },
+    {
+      "object": "ring_ruby",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_ruby"
+      ]
+    },
+    {
+      "object": "ring_jade",
+      "faces": 960,
+      "materials": [
+        "sky3d_ring_jade"
+      ]
+    },
+    {
+      "object": "disc_maelstrom",
+      "faces": 2400,
+      "materials": [
+        "sky3d_disc_maelstrom"
+      ]
+    },
+    {
+      "object": "photon_maelstrom",
+      "faces": 96,
+      "materials": [
+        "sky3d_photon_maelstrom"
+      ]
+    },
+    {
+      "object": "lens_maelstrom",
+      "faces": 1024,
+      "materials": [
+        "sky3d_lensarc_maelstrom"
+      ]
+    },
+    {
+      "object": "jets_maelstrom",
+      "faces": 144,
+      "materials": [
+        "sky3d_jet_maelstrom"
+      ]
+    },
+    {
+      "object": "streams_maelstrom",
+      "faces": 870,
+      "materials": [
+        "sky3d_stream_maelstrom"
+      ]
+    },
+    {
+      "object": "origin_eye",
+      "faces": 512,
+      "materials": [
+        "sky3d_eye"
+      ]
+    },
+    {
+      "object": "tether_station",
+      "faces": 1024,
+      "materials": [
+        "sky3d_struct"
+      ]
+    },
+    {
+      "object": "tether_hub",
+      "faces": 26,
+      "materials": [
+        "sky3d_struct.001"
+      ]
+    },
+    {
+      "object": "tether_rim_+85",
+      "faces": 512,
+      "materials": [
+        "sky3d_rim+85"
+      ]
+    },
+    {
+      "object": "tether_rim_-85",
+      "faces": 512,
+      "materials": [
+        "sky3d_rim-85"
+      ]
+    },
+    {
+      "object": "moon",
+      "faces": 2048,
+      "materials": [
+        "sky3d_moon"
+      ]
+    },
+    {
+      "object": "moon_halo",
+      "faces": 1,
+      "materials": [
+        "sky3d_halo_ref"
+      ]
+    },
+    {
+      "object": "rock_base_0",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "rock_base_1",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "rock_base_2",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "rock_base_3",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "rock_base_4",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "rock_base_5",
+      "faces": 80,
+      "materials": []
+    },
+    {
+      "object": "gas_giant",
+      "faces": 4608,
+      "materials": [
+        "sky3d_gas_giant"
+      ]
+    },
+    {
+      "object": "moon_giant_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_giant_m0"
+      ]
+    },
+    {
+      "object": "moon_giant_m1",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_giant_m1"
+      ]
+    },
+    {
+      "object": "gas_cool",
+      "faces": 4608,
+      "materials": [
+        "sky3d_gas_cool"
+      ]
+    },
+    {
+      "object": "moon_cool_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_cool_m0"
+      ]
+    },
+    {
+      "object": "cracked_ember",
+      "faces": 4608,
+      "materials": [
+        "sky3d_cracked_ember"
+      ]
+    },
+    {
+      "object": "moon_ember_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_ember_m0"
+      ]
+    },
+    {
+      "object": "cracked_brown",
+      "faces": 4608,
+      "materials": [
+        "sky3d_cracked_brown"
+      ]
+    },
+    {
+      "object": "moon_brown_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_brown_m0"
+      ]
+    },
+    {
+      "object": "moon_brown_m1",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_brown_m1"
+      ]
+    },
+    {
+      "object": "cracked_verdant",
+      "faces": 4608,
+      "materials": [
+        "sky3d_cracked_verdant"
+      ]
+    },
+    {
+      "object": "moon_ringlet",
+      "faces": 4608,
+      "materials": [
+        "sky3d_moonrock_ringlet"
+      ]
+    },
+    {
+      "object": "hole_gargantua",
+      "faces": 2048,
+      "materials": [
+        "sky3d_black_gargantua"
+      ]
+    },
+    {
+      "object": "halo_gargantua",
+      "faces": 1,
+      "materials": [
+        "sky3d_gashalo_gargantua"
+      ]
+    },
+    {
+      "object": "gas_ice",
+      "faces": 4608,
+      "materials": [
+        "sky3d_gas_ice"
+      ]
+    },
+    {
+      "object": "moon_ice_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_ice_m0"
+      ]
+    },
+    {
+      "object": "gas_ruby",
+      "faces": 4608,
+      "materials": [
+        "sky3d_gas_ruby"
+      ]
+    },
+    {
+      "object": "moon_ruby_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_ruby_m0"
+      ]
+    },
+    {
+      "object": "moon_ruby_m1",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_ruby_m1"
+      ]
+    },
+    {
+      "object": "gas_jade",
+      "faces": 4608,
+      "materials": [
+        "sky3d_gas_jade"
+      ]
+    },
+    {
+      "object": "cracked_obsidian",
+      "faces": 4608,
+      "materials": [
+        "sky3d_cracked_obsidian"
+      ]
+    },
+    {
+      "object": "cracked_sulfur",
+      "faces": 4608,
+      "materials": [
+        "sky3d_cracked_sulfur"
+      ]
+    },
+    {
+      "object": "moon_sulfur_m0",
+      "faces": 1152,
+      "materials": [
+        "sky3d_moonrock_sulfur_m0"
+      ]
+    },
+    {
+      "object": "moon_grey",
+      "faces": 4608,
+      "materials": [
+        "sky3d_moonrock_grey"
+      ]
+    },
+    {
+      "object": "moon_dust",
+      "faces": 4608,
+      "materials": [
+        "sky3d_moonrock_dust"
+      ]
+    },
+    {
+      "object": "hole_maelstrom",
+      "faces": 2048,
+      "materials": [
+        "sky3d_black_maelstrom"
+      ]
+    },
+    {
+      "object": "halo_maelstrom",
+      "faces": 1,
+      "materials": [
+        "sky3d_gashalo_maelstrom"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_weathered_graphite",
+      "faces": 1120,
+      "materials": [
+        "sky3d_cyber_station_weathered_graphite"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_joint_dirt",
+      "faces": 1310,
+      "materials": [
+        "sky3d_cyber_station_joint_dirt"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_worn_platform_enamel",
+      "faces": 204,
+      "materials": [
+        "sky3d_cyber_station_worn_platform_enamel"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_safety_amber",
+      "faces": 192,
+      "materials": [
+        "sky3d_cyber_station_safety_amber"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_rubbed_edges",
+      "faces": 444,
+      "materials": [
+        "sky3d_cyber_station_rubbed_edges"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_oxidized_roof_metal",
+      "faces": 224,
+      "materials": [
+        "sky3d_cyber_station_oxidized_roof_metal"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_transit_cyan",
+      "faces": 78,
+      "materials": [
+        "sky3d_cyber_station_transit_cyan"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_polished_rail_crowns",
+      "faces": 1440,
+      "materials": [
+        "sky3d_cyber_station_polished_rail_crowns"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_platform_task_lights",
+      "faces": 156,
+      "materials": [
+        "sky3d_cyber_station_platform_task_lights"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_station_lettering",
+      "faces": 15364,
+      "materials": [
+        "sky3d_cyber_station_station_lettering"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_train_lower_livery",
+      "faces": 50,
+      "materials": [
+        "sky3d_cyber_station_train_lower_livery"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_train_ivory_enamel",
+      "faces": 160,
+      "materials": [
+        "sky3d_cyber_station_train_ivory_enamel"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_warm_cabin_light",
+      "faces": 96,
+      "materials": [
+        "sky3d_cyber_station_warm_cabin_light"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_station_cool_window_glass",
+      "faces": 330,
+      "materials": [
+        "sky3d_cyber_station_cool_window_glass"
+      ]
+    },
+    {
+      "object": "sky3d_cyber_hero_title_authored_gate",
+      "faces": 6992,
+      "materials": [
+        "sky3d_cyber_hero_title_authored_relief"
+      ]
+    }
+  ],
+  "visible_materials": [
+    "sky3d_beam",
+    "sky3d_black_gargantua",
+    "sky3d_black_maelstrom",
+    "sky3d_bolt",
+    "sky3d_cracked_brown",
+    "sky3d_cracked_ember",
+    "sky3d_cracked_obsidian",
+    "sky3d_cracked_sulfur",
+    "sky3d_cracked_verdant",
+    "sky3d_cyber_armour",
+    "sky3d_cyber_decks",
+    "sky3d_cyber_hero_title_authored_relief",
+    "sky3d_cyber_station_cool_window_glass",
+    "sky3d_cyber_station_joint_dirt",
+    "sky3d_cyber_station_oxidized_roof_metal",
+    "sky3d_cyber_station_platform_task_lights",
+    "sky3d_cyber_station_polished_rail_crowns",
+    "sky3d_cyber_station_rubbed_edges",
+    "sky3d_cyber_station_safety_amber",
+    "sky3d_cyber_station_station_lettering",
+    "sky3d_cyber_station_train_ivory_enamel",
+    "sky3d_cyber_station_train_lower_livery",
+    "sky3d_cyber_station_transit_cyan",
+    "sky3d_cyber_station_warm_cabin_light",
+    "sky3d_cyber_station_weathered_graphite",
+    "sky3d_cyber_station_worn_platform_enamel",
+    "sky3d_disc_gargantua",
+    "sky3d_disc_maelstrom",
+    "sky3d_eye",
+    "sky3d_fog",
+    "sky3d_galaxy_andromeda",
+    "sky3d_galaxy_whirl",
+    "sky3d_gas_cool",
+    "sky3d_gas_giant",
+    "sky3d_gas_ice",
+    "sky3d_gas_jade",
+    "sky3d_gas_ruby",
+    "sky3d_gashalo_gargantua",
+    "sky3d_gashalo_maelstrom",
+    "sky3d_ground",
+    "sky3d_halo_ref",
+    "sky3d_haze",
+    "sky3d_jet_gargantua",
+    "sky3d_jet_maelstrom",
+    "sky3d_landmark_armour",
+    "sky3d_landmark_decks",
+    "sky3d_laser",
+    "sky3d_lensarc_gargantua",
+    "sky3d_lensarc_maelstrom",
+    "sky3d_lightfall",
+    "sky3d_moon",
+    "sky3d_moonrock_brown_m0",
+    "sky3d_moonrock_brown_m1",
+    "sky3d_moonrock_cool_m0",
+    "sky3d_moonrock_dust",
+    "sky3d_moonrock_ember_m0",
+    "sky3d_moonrock_giant_m0",
+    "sky3d_moonrock_giant_m1",
+    "sky3d_moonrock_grey",
+    "sky3d_moonrock_ice_m0",
+    "sky3d_moonrock_ringlet",
+    "sky3d_moonrock_ruby_m0",
+    "sky3d_moonrock_ruby_m1",
+    "sky3d_moonrock_sulfur_m0",
+    "sky3d_neon",
+    "sky3d_neon.001",
+    "sky3d_origin_beam",
+    "sky3d_photon_gargantua",
+    "sky3d_photon_maelstrom",
+    "sky3d_ribbon",
+    "sky3d_rim+85",
+    "sky3d_rim-85",
+    "sky3d_ring_cool",
+    "sky3d_ring_giant",
+    "sky3d_ring_ice",
+    "sky3d_ring_jade",
+    "sky3d_ring_ringlet",
+    "sky3d_ring_ruby",
+    "sky3d_rock",
+    "sky3d_screen",
+    "sky3d_screen_ad_01",
+    "sky3d_screen_ad_02",
+    "sky3d_screen_ad_03",
+    "sky3d_screen_ad_04",
+    "sky3d_screen_ad_05",
+    "sky3d_screen_ad_06",
+    "sky3d_screen_ad_07",
+    "sky3d_screen_ad_08",
+    "sky3d_screen_ad_09",
+    "sky3d_screen_ad_10",
+    "sky3d_screen_ad_11",
+    "sky3d_screen_ad_12",
+    "sky3d_sigil",
+    "sky3d_storm",
+    "sky3d_stream_gargantua",
+    "sky3d_stream_maelstrom",
+    "sky3d_struct",
+    "sky3d_struct.001",
+    "sky3d_struct_armour",
+    "sky3d_trail",
+    "sky3d_water",
+    "sky3d_water.001"
+  ],
+  "legacy_facade_visible": false,
+  "native_visual_verified": false
+}

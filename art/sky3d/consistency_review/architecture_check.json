@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "ordinary_lots": 1189,
+  "vertices_checked": 725760,
+  "archetypes": [
+    "cantilever_relay",
+    "offset_slot",
+    "split_crown",
+    "tapered_keel"
+  ],
+  "bounds": "original local w/d/h",
+  "elevated_translation_m": 713,
+  "global_rng_unchanged": true,
+  "native_visual_verified": false,
+  "source_hashes": {
+    "tools/sky3d/build_city.py": "9d65b266adde6efa4205ba19dd6037a1e4d45a425061e22027944f857682c1b1",
+    "tools/sky3d/cyber_architecture.py": "fef254fe47bf3df77d16f8ce3e0784379ffdc426d50b8d0cec1e8180d4f3cffd",
+    "tools/sky3d/cyber_coverage.py": "99c95434c4e331f27895a57919a2d3ebff6ef11001a4ae10e22b54227b795229",
+    "tools/sky_consistency/check_architecture.py": "6f13da753298385ee67aad63b10f12a18588134d0b04ac3512681c28d37af41f",
+    "art/sky3d/consistency_review/before/composition.json": "ff60379e8795cd4e56389b1719f6baa12251cc3c57c4fc029c5769fbbcd50a61"
+  }
+}

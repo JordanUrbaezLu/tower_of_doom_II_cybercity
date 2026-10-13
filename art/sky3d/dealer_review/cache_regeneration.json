@@ -1,0 +1,10 @@
+﻿{
+    "captured":  "2026-09-30T12:43:20.9553849-04:00",
+    "private_cache":  "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_skybox_tod_cybercity_D3MYVM7AZTYFT3WYKJYMJNRFRU.iwi",
+    "preserved":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_dealer\\prebuild_cache\\i_skybox_tod_cybercity_D3MYVM7AZTYFT3WYKJYMJNRFRU.iwi",
+    "bytes":  31032682,
+    "previous_mtime":  "2026-09-30T12:36:37.0126483-04:00",
+    "sha256":  "fb5df4de2b8afcc75574ce90272198182b210d926177857d3be88daa4557ed98",
+    "reason":  "A separate earlier linker converted this newly installed sky before the combined snapshot. Preserve and regenerate only this exact map-owned private cache asset for fresh strict build evidence.",
+    "scope":  "One named IWI only; no shared Steam cache or database changes"
+}

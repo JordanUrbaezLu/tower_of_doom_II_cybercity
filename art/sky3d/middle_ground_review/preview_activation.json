@@ -1,0 +1,21 @@
+{
+  "file": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_preview.blend",
+  "exr_sha256": "feead2c4a543683c5903b6f98af8ee729621b7f584aa51ef167dcea25ea021fd",
+  "before": [
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID",
+    "SOLID"
+  ],
+  "viewport": "RENDERED",
+  "scene_world": true,
+  "scene_lights": true,
+  "preview_file_resaved": false,
+  "native_visual_verified": false
+}

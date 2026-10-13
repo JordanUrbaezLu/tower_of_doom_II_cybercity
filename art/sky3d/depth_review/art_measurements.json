@@ -1,0 +1,76 @@
+{
+  "status": "pass",
+  "pass_name": "sky_depth_v13",
+  "source": "art/sky3d/sign/v12_dealer.png",
+  "source_sha256": "e22016bec6747396b71b4aa20aff1ff472f696f28704ced746191d277a995a17",
+  "baseline_receipt": "art/sky3d/dealer_review/art_measurements.json",
+  "baseline_receipt_sha256": "400f89adab9f4fb0738a522c0b3321cc0466e6d664e826468bfff2f6dff37bca",
+  "size": [
+    1536,
+    1024
+  ],
+  "rgba": true,
+  "alpha_zero_pixels": 613428,
+  "exact_source_preservation": true,
+  "features": {
+    "ring": {
+      "rect": [
+        756,
+        113,
+        780,
+        143
+      ],
+      "measured": [
+        771.2871892293714,
+        128.21516478070538
+      ],
+      "contract": [
+        771.3,
+        128.2
+      ],
+      "max_error_px": 0.015164780705390513,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    },
+    "eye_l": {
+      "rect": [
+        718,
+        184,
+        759,
+        220
+      ],
+      "measured": [
+        739.486981677917,
+        203.08891031822566
+      ],
+      "contract": [
+        739.5,
+        203.1
+      ],
+      "max_error_px": 0.013018322082984923,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    },
+    "eye_r": {
+      "rect": [
+        774,
+        184,
+        815,
+        220
+      ],
+      "measured": [
+        791.5726916507585,
+        202.9907565558123
+      ],
+      "contract": [
+        791.6,
+        203.0
+      ],
+      "max_error_px": 0.027308349241479846,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    }
+  },
+  "title_center_px": [
+    768.0,
+    435.0
+  ],
+  "note": "Accepted v12 source bytes and cinematic features retained. The v13 native material/visibility bake is proved separately."
+}

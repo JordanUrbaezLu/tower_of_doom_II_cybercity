@@ -1,0 +1,53 @@
+{
+ "input": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.exr",
+ "size": [
+  8192,
+  4096
+ ],
+ "target_score": 0.64,
+ "score": 0.44508159160614014,
+ "mean": 0.00043464999180287123,
+ "upper_mean": 0.00048624907503835857,
+ "rgb_share": [
+  49.772911071777344,
+  20.65024757385254,
+  29.57683753967285
+ ],
+ "gain": 0.016525428679573573,
+ "gain_mode": "fixed",
+ "fixed_gain": 0.016525428679573573,
+ "knee": [
+  10.0,
+  32.0
+ ],
+ "hot_fraction": 0.0017999013264973958,
+ "percentiles_x_mean": {
+  "50": 0.2740554060876657,
+  "90": 2.3649894271369707,
+  "99": 11.748394411314479,
+  "99.9": 31.436019514600527
+ },
+ "max_x_mean": 37.77936396762923,
+ "seam_ratio": 0.9832252470766706,
+ "roll": 0.0,
+ "mirror": false,
+ "sat": 1.2,
+ "asset": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\finished_8192.exr",
+ "when": "2026-09-30 10:51:12",
+ "white_raw": 1.0,
+ "white_exr": 0.016525428679573573,
+ "knee_w": [
+  0.7,
+  1.0
+ ],
+ "display_mult": 10.0,
+ "preview_gain": 0.0176,
+ "sign_mask": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.sign.exr",
+ "sign_knee_w": [
+  2.0,
+  4.0
+ ],
+ "sign_peak_w": 0.25128859281539917,
+ "score_city": 0.45513866384450663,
+ "hold_city": true
+}

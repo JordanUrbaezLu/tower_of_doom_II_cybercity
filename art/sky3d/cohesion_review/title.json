@@ -1,0 +1,181 @@
+{
+  "version": "cyber_monument_2",
+  "collection": "sky3d_cyber_title",
+  "font": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\fonts\\orbitron.ttf",
+  "width_m": 1274.1405216149863,
+  "reference_width_deg": 65.0,
+  "title_anchor_deg": [
+    0,
+    11.0
+  ],
+  "distance_m": 1000.0,
+  "sign_bounds": {
+    "azimuth_deg": [
+      -34.382529692901805,
+      34.41742468048883
+    ],
+    "elevation_deg": [
+      -10.465224345209627,
+      28.55680842310652
+    ]
+  },
+  "text_bounds": {
+    "TOWER OF": {
+      "azimuth_deg": [
+        -10.51300864330419,
+        10.51300864330419
+      ],
+      "elevation_deg": [
+        14.594992578683561,
+        17.0711108022306
+      ]
+    },
+    "DOOM II": {
+      "azimuth_deg": [
+        -20.488758647017043,
+        20.488758647017043
+      ],
+      "elevation_deg": [
+        7.049733283509117,
+        14.492742747731416
+      ]
+    },
+    "CYBERCITY": {
+      "azimuth_deg": [
+        -8.302384950610064,
+        7.909160411418857
+      ],
+      "elevation_deg": [
+        5.026169955334618,
+        6.771049273662298
+      ]
+    }
+  },
+  "cinematic_features": {
+    "title": {
+      "reference_offset_px": [
+        0.0,
+        0.0
+      ],
+      "azimuth_elevation_deg": [
+        0.0,
+        11.000000240724047
+      ],
+      "sign_plane_offset_m": [
+        0.0,
+        -0.0
+      ]
+    },
+    "sub": {
+      "reference_offset_px": [
+        -4.0,
+        100.0
+      ],
+      "azimuth_elevation_deg": [
+        -0.20198429968991946,
+        5.971281125336122
+      ],
+      "sign_plane_offset_m": [
+        -3.5197251978314537,
+        -87.99312994578635
+      ]
+    },
+    "ring": {
+      "reference_offset_px": [
+        -2.0,
+        -215.0
+      ],
+      "azimuth_elevation_deg": [
+        -0.10664146065905958,
+        21.712868788191905
+      ],
+      "sign_plane_offset_m": [
+        -1.7598625989157268,
+        189.18522938344063
+      ]
+    },
+    "eye_l": {
+      "reference_offset_px": [
+        -42.0,
+        -192.0
+      ],
+      "azimuth_elevation_deg": [
+        -2.229238642841645,
+        20.575109182582604
+      ],
+      "sign_plane_offset_m": [
+        -36.957114577230264,
+        168.94680949590978
+      ]
+    },
+    "eye_r": {
+      "reference_offset_px": [
+        41.0,
+        -192.0
+      ],
+      "azimuth_elevation_deg": [
+        2.1762131206583573,
+        20.575780243544653
+      ],
+      "sign_plane_offset_m": [
+        36.0771832777724,
+        168.94680949590978
+      ]
+    }
+  },
+  "cinematic_colors_linear_rgb": {
+    "title": [
+      0.82,
+      0.85,
+      1.0
+    ],
+    "title_core": [
+      0.82,
+      0.85,
+      1.0
+    ],
+    "sub": [
+      0.11,
+      0.62,
+      0.86
+    ],
+    "ring": [
+      0.3208904109589041,
+      0.4421917808219178,
+      1.0
+    ],
+    "eye_l": [
+      0.62,
+      0.87,
+      1.0
+    ],
+    "eye_r": [
+      0.62,
+      0.87,
+      1.0
+    ]
+  },
+  "crest_light_radius_m": 80.27085286174413,
+  "sensor_port_half_width_m": 10.193124172919891,
+  "sign_aov": "sign",
+  "sign_aov_value": 1.0,
+  "objects": 12,
+  "base_faces": 21988,
+  "emission_w": {
+    "body": 0.025,
+    "panel": 0.018,
+    "metal": 0.035,
+    "joint": 0.012,
+    "patina": 0.015,
+    "wear": 0.035,
+    "cyan": 2.46,
+    "magenta": 1.92,
+    "face": 1.55,
+    "violet": 0.82,
+    "sub": 1.22,
+    "sensor": 2.8499999999999996,
+    "letter_cap": 0.45
+  },
+  "lights_city": false,
+  "notes": "Native Blender typography/geometry; physical edge wear and procedural finish. Caller applies the existing sky finish and sign knee."
+}

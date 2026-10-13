@@ -1,0 +1,182 @@
+[
+  {
+    "name": "giant",
+    "az": -98.0,
+    "old_el": 49.0,
+    "suggested_el": 49.0,
+    "old_min_clearance": 3.26,
+    "new_min_clearance": 3.26,
+    "new_lowest_el": 38.68
+  },
+  {
+    "name": "cool",
+    "az": 140.0,
+    "old_el": 52.0,
+    "suggested_el": 52.0,
+    "old_min_clearance": 3.46,
+    "new_min_clearance": 3.46,
+    "new_lowest_el": 45.97
+  },
+  {
+    "name": "ember",
+    "az": 32.0,
+    "old_el": 55.0,
+    "suggested_el": 55.0,
+    "old_min_clearance": 3.04,
+    "new_min_clearance": 3.04,
+    "new_lowest_el": 52.2
+  },
+  {
+    "name": "brown",
+    "az": -60.0,
+    "old_el": 44.0,
+    "suggested_el": 44.0,
+    "old_min_clearance": 3.16,
+    "new_min_clearance": 3.16,
+    "new_lowest_el": 37.46
+  },
+  {
+    "name": "verdant",
+    "az": -137.0,
+    "old_el": 52.0,
+    "suggested_el": 52.0,
+    "old_min_clearance": 3.26,
+    "new_min_clearance": 3.26,
+    "new_lowest_el": 49.6
+  },
+  {
+    "name": "ringlet",
+    "az": -150.0,
+    "old_el": 40.0,
+    "suggested_el": 40.0,
+    "old_min_clearance": 19.11,
+    "new_min_clearance": 19.11,
+    "new_lowest_el": 38.25
+  },
+  {
+    "name": "ice",
+    "az": 130.0,
+    "old_el": 64.0,
+    "suggested_el": 64.0,
+    "old_min_clearance": 11.43,
+    "new_min_clearance": 11.43,
+    "new_lowest_el": 60.8
+  },
+  {
+    "name": "ruby",
+    "az": -20.0,
+    "old_el": 47.0,
+    "suggested_el": 47.0,
+    "old_min_clearance": 9.83,
+    "new_min_clearance": 9.83,
+    "new_lowest_el": 37.19
+  },
+  {
+    "name": "jade",
+    "az": -176.0,
+    "old_el": 31.0,
+    "suggested_el": 31.0,
+    "old_min_clearance": 3.61,
+    "new_min_clearance": 3.61,
+    "new_lowest_el": 29.1
+  },
+  {
+    "name": "dusk",
+    "az": 18.0,
+    "old_el": 64.0,
+    "suggested_el": 64.0,
+    "old_min_clearance": 44.17,
+    "new_min_clearance": 44.17,
+    "new_lowest_el": 62.9
+  },
+  {
+    "name": "far_giant",
+    "az": -165.0,
+    "old_el": 58.0,
+    "suggested_el": 58.0,
+    "old_min_clearance": 32.46,
+    "new_min_clearance": 32.46,
+    "new_lowest_el": 57.2
+  },
+  {
+    "name": "obsidian",
+    "az": 151.0,
+    "old_el": 64.0,
+    "suggested_el": 64.0,
+    "old_min_clearance": 30.53,
+    "new_min_clearance": 30.53,
+    "new_lowest_el": 62.3
+  },
+  {
+    "name": "sulfur",
+    "az": -82.0,
+    "old_el": 68.0,
+    "suggested_el": 68.0,
+    "old_min_clearance": 31.78,
+    "new_min_clearance": 31.78,
+    "new_lowest_el": 66.6
+  },
+  {
+    "name": "far_ember",
+    "az": 52.0,
+    "old_el": 72.0,
+    "suggested_el": 72.0,
+    "old_min_clearance": 17.96,
+    "new_min_clearance": 17.96,
+    "new_lowest_el": 71.3
+  },
+  {
+    "name": "grey",
+    "az": 5.0,
+    "old_el": 53.0,
+    "suggested_el": 53.0,
+    "old_min_clearance": 24.06,
+    "new_min_clearance": 24.06,
+    "new_lowest_el": 50.7
+  },
+  {
+    "name": "dust",
+    "az": -118.0,
+    "old_el": 25.0,
+    "suggested_el": 25.0,
+    "old_min_clearance": 6.3,
+    "new_min_clearance": 6.3,
+    "new_lowest_el": 24.1
+  },
+  {
+    "name": "far_a",
+    "az": 160.0,
+    "old_el": 48.0,
+    "suggested_el": 48.0,
+    "old_min_clearance": 29.04,
+    "new_min_clearance": 29.04,
+    "new_lowest_el": 47.4
+  },
+  {
+    "name": "far_b",
+    "az": 30.0,
+    "old_el": 80.0,
+    "suggested_el": 80.0,
+    "old_min_clearance": 45.52,
+    "new_min_clearance": 45.52,
+    "new_lowest_el": 79.5
+  },
+  {
+    "name": "far_c",
+    "az": 96.0,
+    "old_el": 38.0,
+    "suggested_el": 38.0,
+    "old_min_clearance": 4.93,
+    "new_min_clearance": 4.93,
+    "new_lowest_el": 37.3
+  },
+  {
+    "name": "primary",
+    "az": 8.0,
+    "old_el": 39.0,
+    "suggested_el": 39.0,
+    "old_min_clearance": 7.42,
+    "new_min_clearance": 7.42,
+    "new_lowest_el": 33.88
+  }
+]

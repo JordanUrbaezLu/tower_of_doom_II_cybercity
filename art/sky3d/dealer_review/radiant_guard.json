@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-30T12:25:32.563961-04:00",
+  "guard": "tools/sky_dealer/render.ps1",
+  "guard_sha256": "a514767d9c181a291bd80f4df8f758a897b8311933fd062719a4f8e942685956",
+  "test": "actual current Radiant_modtools process; refusal before Start-Process",
+  "process": "Radiant_modtools",
+  "pid": 46088,
+  "exit_code": 1,
+  "blender_processes_after": 0,
+  "render_artifacts_unchanged": true,
+  "preserved_hashes": {
+    "tmp/sky_dealer/raw_8192.exr": "9d48785a50bbb5d8a37038dabdbf5c5341c1317ea4ea85a384edc550baabfc32",
+    "tmp/sky_dealer/raw_8192.sign.exr": "a8c95f0fba14df2c81727f764471bd4eb2ef9d31b11475fc291da7283ff576a1",
+    "tmp/sky_dealer/raw_8192.render.json": "451fb597d0a9fd83381eed72fd798d8260ae6931d3fa45ac2475b85ed0425587",
+    "tmp/sky_dealer/render8192.log": "7dbb5504cee1722a02f56d3ef5109019805f40a786165f9fbdb6d282afdbb71b",
+    "tmp/sky_dealer/render8192.err": "29fa17e931c90fe8d26abdb72118d4eaa531db1a35629adeb4740f61bd264d52",
+    "tmp/sky_dealer/dealer.blend": "b97983ac41be516f94f76372e8b5fd323186eb49d9cafc966d9a0a1add558dfd"
+  },
+  "parse_check": "PowerShell Language.Parser: no errors",
+  "inflight_branch": "read-only review; stops only the captured render Process object, never Radiant; no synthetic process launched"
+}

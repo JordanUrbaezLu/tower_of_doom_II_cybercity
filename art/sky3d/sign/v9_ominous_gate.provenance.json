@@ -1,0 +1,64 @@
+{
+  "asset": "art/sky3d/sign/v9_ominous_gate.png",
+  "created_utc": "2026-09-30T01:16:21.785698+00:00",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "precise-object-edit",
+  "cli_or_api_fallback": false,
+  "post_generation_image_edits": false,
+  "generated_source": "C:\\Users\\jorda\\.codex\\generated_images\\01a0ef28-101d-70e0-a90a-187eb68145d9\\exec-74e70b46-403c-4ef4-b404-500519418225.png",
+  "prompt_file": "art/sky3d/sign/v9_ominous_gate.prompt.txt",
+  "references": [
+    {
+      "path": "art/sky3d/sign/tod2_title_gate.png",
+      "role": "edit_target",
+      "sha256": "0cf72ba86721cb5c02cd0eb4c960066cb6298178b6f2bed15fa3d6cae5f55afb"
+    },
+    {
+      "path": "art/sky3d/sign/tod2_title_gate_reference.png",
+      "role": "supporting_original_reference",
+      "sha256": "aa969573cfc9dc6315a8dc92c7b24b75860cfec8fd2a2558f458049b9ba4b119"
+    }
+  ],
+  "sha256": "c57446ab29a92f3c85b7cbc421ec3d04a8f96aed0b5e01e1b82cb6c31db9b580",
+  "bytes": 2147147,
+  "size": [
+    1414,
+    1112
+  ],
+  "mode_png": "RGBA",
+  "alpha": {
+    "extrema": [
+      0,
+      255
+    ],
+    "fully_transparent_fraction": 0.41645912407273616,
+    "near_opaque_fraction": 0.5181687747397555,
+    "nonzero_alpha_percentiles": {
+      "1": 1.0,
+      "10": 247.0,
+      "50": 253.0,
+      "90": 253.0,
+      "99": 253.0
+    },
+    "open_arch_center_alpha": 0,
+    "top_left_alpha": 0,
+    "edge_pixels_alpha_over_10": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 4
+    }
+  },
+  "visual_review": {
+    "main_text": "TOWER OF DOOM II",
+    "secondary_text": "FALLEN CYBERCITY",
+    "text_manually_checked": true,
+    "menacing_skull_and_red_eyes": true,
+    "filled_heavy_extruded_letters": true,
+    "cloth_and_cartoon_logos_removed": true,
+    "worn_layered_metal_visible": true,
+    "open_arch_no_background": true,
+    "notes": "Original broad composition and skull/letter hierarchy retained. Localized red/violet glow. Four faint right-edge glow pixels exceed alpha10; no broad opaque edge/cropped backdrop. Source renderer creates most solid surfaces at alpha252-253. No alpha remapping or image processing applied."
+  },
+  "status": "Authored image candidate; Blender/native integration and final projection review belong to root. No build or native playtest claim."
+}

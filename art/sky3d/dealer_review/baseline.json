@@ -1,0 +1,40 @@
+{
+  "preserved": [
+    {
+      "source": "tmp/sky_consistency/raw_4096.composition.json",
+      "preserved": "art\\sky3d\\dealer_review\\before\\composition.json",
+      "sha256": "7766ea85dd8be2e6ee9b81f75441535fd70d0f0cb1188190136e01365c5b8f7b"
+    },
+    {
+      "source": "tmp/sky_consistency/clearance.json",
+      "preserved": "art\\sky3d\\dealer_review\\before\\clearance.json",
+      "sha256": "d0a5cbea25dcfc4c2e9a71c87b508acb18694859850fb2216887b76fa29039c5"
+    },
+    {
+      "source": "tmp/sky_consistency/skyline.json",
+      "preserved": "art\\sky3d\\dealer_review\\before\\skyline.json",
+      "sha256": "8ffc99e46862ff1fb9be06c5999c2c05a3b57bae852e54b6cd0a6fbd5bd08a36"
+    },
+    {
+      "source": "docs/sky_preview/sky3d_stats.json",
+      "preserved": "art\\sky3d\\dealer_review\\before\\sky3d_stats.json",
+      "sha256": "45da86ba1d1076bd6366753768afbd0ab35d0f89a98cf02596eddf1d47803ace"
+    },
+    {
+      "source": "tools/sky3d/cyber_hero_title.py",
+      "preserved": "art\\sky3d\\dealer_review\\before\\cyber_hero_title.py",
+      "sha256": "94071c3fd37093de669143fa33bf8968bc47b888acf0386d3b3e38fc486bfaf5"
+    },
+    {
+      "source": "tools/jump_title/make_sign_card.py",
+      "preserved": "art\\sky3d\\dealer_review\\before\\make_sign_card.py",
+      "sha256": "4c1c20a955304c2ed07e4a8676c13c41670bbdba69dbb3edaf46089cfe44c31d"
+    },
+    {
+      "source": "tools/jump_title/gen_fx.py",
+      "preserved": "art\\sky3d\\dealer_review\\before\\gen_fx.py",
+      "sha256": "d041c3f70ef0b95cc2e7b815741c334f8ba0913d96e892a61e07c8a342f21820"
+    }
+  ],
+  "approved_build": "art/sky3d/consistency_review/build.json"
+}

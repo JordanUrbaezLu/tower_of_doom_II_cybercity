@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-09-30T09:20:07.094865-04:00",
+  "status": "final_reviewed_native_build_verified_for_user_test",
+  "reviewed_views": [
+    "reveal_cinematic",
+    "city",
+    "station",
+    "Blender finished-HDR candidate viewport",
+    "final_8k_reveal_cinematic",
+    "final_8k_city",
+    "final_8k_upper_sky",
+    "final_8k_station",
+    "final_8k_panorama"
+  ],
+  "observations": [
+    "Engineered mechanical crest and sign typography follow approved concept; complete subtitle visible.",
+    "Second surface candidate makes dark armor plates, inset joints and worn cap contrast visible.",
+    "Station canopy/train/signage remain unobstructed in their review view.",
+    "All original retained lot bounds and eight hero placements match v9.",
+    "No new panorama wrap seam; measured seam ratio below adjacent-column variation."
+  ],
+  "ordinary_modern": 624,
+  "buildings_retained": 1222,
+  "minimum_celestial_clearance_deg": 3.16,
+  "title_version": "cyber_hero_title_1",
+  "authoring_objects": 110,
+  "shipping_sky_dimensions": [
+    8192,
+    4096
+  ],
+  "runtime_building_entities_added": 0,
+  "game_launched": false,
+  "native_visual_verified": false,
+  "final_stats": "final/middle_ground_stats.json",
+  "native_build_receipt": "build.json"
+}

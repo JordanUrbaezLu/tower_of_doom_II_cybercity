@@ -1,0 +1,52 @@
+{
+  "installed_at": "2026-09-30T10:51:45.504823-04:00",
+  "files": [
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\finished_8192.exr",
+      "installed": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+      "sha256": "8bdcb2c893ae2acb5671c6886cc79ad41371beaf057476e79048c088dbfebd39",
+      "bytes": 89016185
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\consistency.blend",
+      "installed": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend",
+      "sha256": "0cd4427f4c747de44d482233a466f7b0cd6d4b44cac55b84353a1115238944e0",
+      "bytes": 124148500
+    }
+  ],
+  "preserved_previous_sky": [
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\i_skybox_tod_cybercity.exr",
+      "sha256": "feead2c4a543683c5903b6f98af8ee729621b7f584aa51ef167dcea25ea021fd"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\tod2_sky.blend",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\tod2_sky.blend",
+      "sha256": "296ab89e4e16e0367b9743cc2d1209b206bab08026a6c2dd5def28f9eb1c1e04"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\docs\\sky_preview\\sky3d_stats.json",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\sky3d_stats.json",
+      "sha256": "fd92f950e879ccd837177c030177b59c1e96944e7e1ece48f247f7cd2ee3ed3e"
+    },
+    {
+      "source": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_preview.blend",
+      "preserved": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\before\\middle_ground_preview.blend",
+      "sha256": "07f5104bfeffc38a44c08d921ce83a1b7df960ce5ef66721daf8bc0cdc97fbb2"
+    }
+  ],
+  "preview_count": 23,
+  "stage_stats": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_stats.json",
+  "finish_profile": {
+    "schema": 1,
+    "mode": "fixed_baseline_gain",
+    "fixed_gain": 0.016525428679573573,
+    "nominal_target_score": 0.64,
+    "baseline_stats": "art/sky3d/consistency_review/before/middle_ground_stats.json",
+    "baseline_stats_sha256": "2e7322da8e37b68a4d4150d5e59c42ca6568b5558ffac428c531ef8df906acef",
+    "reason": "Keep the approved close-city radiance scale while deliberately lowering celestial and legacy-building emission. Do not normalize those reductions away. City and whole-sky scores are measured results."
+  },
+  "measured_city_score": 0.45513866384450663,
+  "measured_whole_score": 0.44508159160614014
+}

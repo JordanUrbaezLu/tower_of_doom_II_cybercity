@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "version": "cyber_architecture_4_depth",
+  "candidate_source": "tools/sky_depth/staged_sources/cyber_architecture.py",
+  "sampled_lots": 1189,
+  "pose_sampling": "real lot positions/dimensions/seeds; deterministic test angles/palettes",
+  "exact_structural_mass_lofts": true,
+  "exact_neon_geometry_uv_colors": true,
+  "exact_roof_geometry": true,
+  "exact_close_lots": 627,
+  "global_rng_unchanged": true,
+  "exact_elevated_translation_m": 713,
+  "archetypes": {
+    "tapered_keel": 284,
+    "offset_slot": 297,
+    "cantilever_relay": 322,
+    "split_crown": 286
+  },
+  "inset_winding_and_opening_probe": "pass: geometric ray reaches inset back without original-wall lid",
+  "in_memory_actual_build_collector": "verified; root author wrapper must capture actual production calls",
+  "lots_with_resolved_service_bays": 354,
+  "resolved_service_bays": 633,
+  "inset_back_pixels_at_8192": {
+    "min_width": 2.7136276089516977,
+    "min_height": 2.1850380031138137,
+    "max_width": 10.021064931997255,
+    "max_height": 47.528773497505426
+  },
+  "faces_before": 164469,
+  "faces_after": 161153,
+  "face_growth_percent": -2.016185420960792,
+  "bounds": "original local w/d/h; no outer bulk moved",
+  "limitations": "Unoccluded angular size only, before lighting/denoise. Render-time scene/layout/clearance and matched visual review still required.",
+  "native_visual_verified": false,
+  "source_hashes": {
+    "art\\sky3d\\depth_review\\baseline_sources\\cyber_architecture.py": "fef254fe47bf3df77d16f8ce3e0784379ffdc426d50b8d0cec1e8180d4f3cffd",
+    "tools\\sky_depth\\staged_sources\\cyber_architecture.py": "562224e619c73450734ca34f8708fc6039ca990cb6071655dc81c833b5758439",
+    "art\\sky3d\\consistency_review\\before\\composition.json": "ff60379e8795cd4e56389b1719f6baa12251cc3c57c4fc029c5769fbbcd50a61",
+    "tools\\sky_depth\\check_depth_architecture.py": "0f54fbaf44fec3a04a5326448d8814c37cd7155a2be29e562db775e41a213830",
+    "tools\\sky3d\\build_city.py": "9d65b266adde6efa4205ba19dd6037a1e4d45a425061e22027944f857682c1b1",
+    "tools\\sky3d\\cyber_coverage.py": "99c95434c4e331f27895a57919a2d3ebff6ef11001a4ae10e22b54227b795229",
+    "tools\\sky_depth\\pass_config.py": "47f19508e41a87144255ba1082ce415b7cbbb526835a73410d8419469de2cc85"
+  }
+}

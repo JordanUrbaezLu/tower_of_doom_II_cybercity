@@ -1,0 +1,210 @@
+{
+  "schema": 1,
+  "basis": "Exact v12 authored previews; native appearance was not user verified.",
+  "views": [
+    [
+      "moon",
+      0,
+      6
+    ],
+    [
+      "city",
+      126,
+      4
+    ],
+    [
+      "skyline_r",
+      55,
+      7
+    ],
+    [
+      "harbour",
+      -125,
+      3
+    ],
+    [
+      "behind",
+      180,
+      5
+    ],
+    [
+      "down_r",
+      60,
+      -48
+    ],
+    [
+      "down_l",
+      -140,
+      -40
+    ],
+    [
+      "nadir",
+      0,
+      -80
+    ],
+    [
+      "up",
+      0,
+      40
+    ],
+    [
+      "origin",
+      -140,
+      24
+    ],
+    [
+      "gargantua",
+      75,
+      50
+    ],
+    [
+      "galaxy",
+      -40,
+      52
+    ],
+    [
+      "tether",
+      100,
+      30
+    ],
+    [
+      "giant",
+      -98,
+      40
+    ],
+    [
+      "brown",
+      -60,
+      35
+    ],
+    [
+      "celestial_east",
+      130,
+      55
+    ],
+    [
+      "station",
+      89,
+      16
+    ],
+    [
+      "maelstrom",
+      -12,
+      66
+    ],
+    [
+      "core",
+      -100,
+      -28
+    ],
+    [
+      "ruby",
+      -20,
+      44
+    ],
+    [
+      "reveal",
+      0,
+      11
+    ],
+    [
+      "reveal_cinematic",
+      0,
+      13
+    ]
+  ],
+  "files": {
+    "art/sky3d/dealer_review/final/dealer_ingame_behind.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_behind.png",
+      "sha256": "2fdd265b783411422a1e9cdebc2fed2350d75424b308450c62ef9bcd92be3e0a"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_brown.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_brown.png",
+      "sha256": "7965b5357cc77c9a6d9a67ae0d1749cb837b4f39d3af5f637da3828efe85da77"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_celestial_east.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_celestial_east.png",
+      "sha256": "a57bf5f2984f2caf5c9bf0c9415c6940c7b5e504bda929d78b29cb8eed1f45d8"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_city.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_city.png",
+      "sha256": "c10e70d6fca8f5df9ceb9e9eea4906215d6b3cedea54740f0435f9c5406165aa"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_core.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_core.png",
+      "sha256": "0589dde4f4b18f5462f5a44133555eae6d0ac4e0bb2846de39b83d4a7eae564c"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_down_l.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_down_l.png",
+      "sha256": "9d902c5697d9570b0ea12320303dbed79e5aee67088043627cf951558afb0bf5"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_down_r.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_down_r.png",
+      "sha256": "b5b069e6d9a227476e7647814b8ac5ac5c51ca1c826b3f2684c68de971c040bb"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_galaxy.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_galaxy.png",
+      "sha256": "e5120b8708d859ccdf681846c0da313e5fb236f35b210200ad14291ad26f75f3"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_gargantua.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_gargantua.png",
+      "sha256": "6a536a8d06ff024c47a0620ab2e4d9abee982c4f7d915570b2901643d76087f3"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_giant.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_giant.png",
+      "sha256": "6ae11e6d73be6353d5ce6c188931e49b1ad4455d4c68faa078b78e5356329b30"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_harbour.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_harbour.png",
+      "sha256": "90d416c978b1ec0d3211634d7cd3ac3c94a2d58b7dbb726ba7a975e52479f957"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_maelstrom.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_maelstrom.png",
+      "sha256": "f442e6cdd81dcabc60d4020ac1f5ab013c5e86617f70dac9a842054601f4c524"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_moon.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_moon.png",
+      "sha256": "d5b04cbb62b00980e57c5b2b48a5453424dcaeef4838102e917ab3e7b14af4d7"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_nadir.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_nadir.png",
+      "sha256": "88148a4b6eb71c9b8561f4e7d5ddfbc030f5d41264a68bc779215f8de67ec365"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_origin.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_origin.png",
+      "sha256": "ef3736cf4052c43dc6b211126f7a720b81c37b7dabf87d95bfadbccbf1511b8e"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_reveal.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_reveal.png",
+      "sha256": "34a1ddb48ef6014d15408b92174f479f935291c82cb30c2f060e0e7d2284112a"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_reveal_cinematic.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_reveal_cinematic.png",
+      "sha256": "a92c19c7e95957efa3bb15cd3d5ec07a4f8079268263adfc756d54cafedee0c4"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_ruby.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_ruby.png",
+      "sha256": "cc8dd2cb4978645b329085a787b4108d16b33452a75c68d007b141a751cd3ffa"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_skyline_r.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_skyline_r.png",
+      "sha256": "ea68b447aae8010f47b58fbc75cbce5f6906eeb99546f682271b57d064868806"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_station.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_station.png",
+      "sha256": "fa9df920e0caae29da5ebfb2c98a3368a486718249ed42bc0ffc160d8f6fdad5"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_tether.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_tether.png",
+      "sha256": "b9baddf5f0aba6ccdb5906ce080f811ac76b1d4f24b7185a402450afb2bfee48"
+    },
+    "art/sky3d/dealer_review/final/dealer_ingame_up.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_ingame_up.png",
+      "sha256": "c032eb7f0ec55c21af1da4998637ba7eee8220a69bff642e87fa28cd1f0898ed"
+    },
+    "art/sky3d/dealer_review/final/dealer_sky_equirect.png": {
+      "preserved": "art/sky3d/depth_review/before/dealer_sky_equirect.png",
+      "sha256": "26211915aa5b3d67e3b080e6dfef4100e0bba78006416e7287034896f84fed05"
+    }
+  }
+}

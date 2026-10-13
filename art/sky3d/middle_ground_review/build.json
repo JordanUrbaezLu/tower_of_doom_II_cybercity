@@ -1,0 +1,188 @@
+{
+  "verified_at": "2026-09-30T09:45:55.643168",
+  "snapshot": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\build_inputs.json",
+  "snapshot_sha256": "85defbae0800bb4ebb74416696dab7d52d0020ab0c928a975e7c667b4ea3d937",
+  "build_log": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\full.log",
+  "build_log_sha256": "c2fea959d677b168381217cf4069581e0334cc5c2c716829fb89260f6ea7d489",
+  "ff": {
+    "sha256": "6116070342496dcaa6f2e6c4a61b117566dcada2bfa3a7be211ba040764047ff",
+    "bytes": 225466880,
+    "mtime_ns": 1790775758418041800
+  },
+  "native_bake": {
+    "d3dbsp": {
+      "sha256": "b96203e4e1ad31a57368c079d62a422698b5b34e490527b3aa5b338cd3e9a095",
+      "bytes": 10458048,
+      "mtime_ns": 1790775265728005000
+    },
+    "led": {
+      "sha256": "09a608e156406e76e6dde6dfd3935e146b3bdf15b884d4d10ef54fa84231942a",
+      "bytes": 119704569,
+      "mtime_ns": 1790775584883671800
+    }
+  },
+  "geometry_record_sha256": "f79b36c72625b3c1603bcb0b5360daba5c5b1b96bec74b8c6163d14bb15fc33b",
+  "geometry_key": "4c2da246fd6c616704bd7bcf5cc28f00f7ec7a1c",
+  "checked_runtime_inputs": 209,
+  "matched_runtime_inputs": 209,
+  "matched_authoring_artifacts": 86,
+  "asset_ledger_sha256": "9f29f8c7193e8a85d64b8b1a4d55be73aca48fd6e998eb1be55bcf86b93a0e3b",
+  "native_assets": [
+    {
+      "index": "3367",
+      "type": "techset",
+      "name": "mc/sky_latlong_hdr#e6142445",
+      "resident": "163976",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_skybox_tod_cybercity|material|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3368",
+      "type": "image",
+      "name": "i_skybox_tod_cybercity#d438aef5",
+      "resident": "32",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_skybox_tod_cybercity|material|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3369",
+      "type": "material",
+      "name": "mc/mtl_skybox_tod_cybercity",
+      "resident": "408",
+      "streamed": "0",
+      "parentStack": "|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3371",
+      "type": "xmodel",
+      "name": "skybox_tod_cybercity",
+      "resident": "152",
+      "streamed": "0",
+      "parentStack": "|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7315",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_veil",
+      "resident": "8277",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7318",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_warp",
+      "resident": "23464",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7319",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_burn",
+      "resident": "4312",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7324",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_boom",
+      "resident": "40264",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7325",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_blast",
+      "resident": "7560",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7326",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_wreck",
+      "resident": "18504",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7327",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_blaze",
+      "resident": "19752",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    }
+  ],
+  "ssi_names_in_fresh_led": [
+    "tod_ssi_cybercity",
+    "tod_ssi_cybercity_dark"
+  ],
+  "native_gdt_bindings": {
+    "i_skybox_tod_cybercity": {
+      "baseImage": "source_data\\\\tod_skybox\\\\_images\\\\i_skybox_tod_cybercity.exr",
+      "semantic": "HDR",
+      "compressionMethod": "compressed",
+      "noMipMaps": 1,
+      "streamable": 1
+    },
+    "mtl_skybox_tod_cybercity": {
+      "materialType": "sky_latlong_hdr",
+      "colorMap": "i_skybox_tod_cybercity",
+      "skyStops": 4.35,
+      "skyRotation": 40.0
+    },
+    "tod_ssi_cybercity": {
+      "pitch": 130.0,
+      "yaw": 140.0,
+      "skyboxmodel": "skybox_tod_cybercity",
+      "stops": -1.88,
+      "evmin": 2.75,
+      "evmax": 3.25,
+      "evcmp": 2.5
+    },
+    "tod_ssi_cybercity_dark": {
+      "pitch": 130.0,
+      "yaw": 140.0,
+      "skyboxmodel": "skybox_tod_cybercity",
+      "stops": -4.8,
+      "evmin": 2.5,
+      "evmax": 3.0,
+      "evcmp": 2.5
+    }
+  },
+  "compiled_sky": {
+    "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_skybox_tod_cybercity_WXHEDVDOTJLNYAXEVUKI6KL47L.iwi",
+    "sha256": "b577af0ebdd58f1f850fef653693c76dda0f3bd935dfd036d1294389ff6ade6b",
+    "bytes": 31248465,
+    "mtime_ns": 1790775629892570400
+  },
+  "converter": {
+    "database": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\datasignature.db",
+    "source": "C:\\BO3Tools\\TOD2Cybercity\\\\source_data\\\\tod_skybox\\\\_images\\\\i_skybox_tod_cybercity.exr",
+    "source_bytes": 92485317,
+    "source_mtime_ns": 1790774732742765000,
+    "opaque_signature_hex": "532f1880ff8f106deb4d4bd95c873115"
+  },
+  "deployed_inputs_match_snapshot": true,
+  "inputs_not_newer_than_ff": true,
+  "owned_sky_inputs_match_current": true,
+  "current_source_parity": false,
+  "linked_source_snapshot_parity": false,
+  "copied_sources_match_current": false,
+  "ignored_unlinked_source_changes": [],
+  "pending_source_changes": [
+    {
+      "path": "scripts/zm/zm_tod2_cybercity/_tod_shop.gsc",
+      "built_sha256": "391f7e5d133b125eb83bdea085cac283082f2fb6734f1b4f0d729985716a6208",
+      "current_sha256": "5d91ab0f1a834f4bd243589d379a2c6db6073ad40174e767e9f999176f8b0663",
+      "changed_ns": 1790775952465457500
+    }
+  ],
+  "status": "built_with_later_source_changes",
+  "game_launched": false,
+  "native_visual_verified": false
+}

@@ -1,0 +1,213 @@
+{
+  "version": "ominous_gate_1",
+  "collection": "sky3d_ominous_title",
+  "source_image": "art/sky3d/sign/v9_ominous_gate.png",
+  "source_sha256": "c57446ab29a92f3c85b7cbc421ec3d04a8f96aed0b5e01e1b82cb6c31db9b580",
+  "image_size": [
+    1414,
+    1112
+  ],
+  "image_packed": true,
+  "alpha_mode": "STRAIGHT",
+  "reference_width_px": 1414.0,
+  "reference_width_deg": 65.0,
+  "title_anchor_deg": [
+    0.0,
+    11.0
+  ],
+  "title_center_pixel": [
+    707.0,
+    481.0
+  ],
+  "distance_m": 1000.0,
+  "width_m": 1274.1405216149863,
+  "metres_per_pixel": 0.9010894778040921,
+  "sign_bounds": {
+    "azimuth_deg": [
+      -35.325262569449876,
+      32.38460836980218
+    ],
+    "elevation_deg": [
+      -18.31896860457992,
+      34.433055225117506
+    ]
+  },
+  "skyline_alpha_threshold": 0.25,
+  "skyline_alpha_profile_points": 706,
+  "text_bounds": {
+    "TOWER OF DOOM II": {
+      "azimuth_deg": [
+        -23.19657059654761,
+        23.19657059654761
+      ],
+      "elevation_deg": [
+        4.23084157564016,
+        15.284935609587325
+      ]
+    },
+    "FALLEN CYBERCITY": {
+      "azimuth_deg": [
+        -14.775419231615237,
+        15.066345799430772
+      ],
+      "elevation_deg": [
+        0.9031850540040034,
+        6.999654465548427
+      ]
+    }
+  },
+  "cinematic_features": {
+    "title": {
+      "reference_offset_px": [
+        0.0,
+        0.0
+      ],
+      "source_pixel": [
+        707.0,
+        481.0
+      ],
+      "azimuth_elevation_deg": [
+        0.0,
+        11.000000240724047
+      ],
+      "sign_plane_offset_m": [
+        0.0,
+        -0.0
+      ]
+    },
+    "sub": {
+      "reference_offset_px": [
+        0.0,
+        134.0
+      ],
+      "source_pixel": [
+        707.0,
+        615.0
+      ],
+      "azimuth_elevation_deg": [
+        0.0,
+        4.1150942258139
+      ],
+      "sign_plane_offset_m": [
+        0.0,
+        -120.74599002574834
+      ]
+    },
+    "ring": {
+      "reference_offset_px": [
+        1.0,
+        -174.0
+      ],
+      "source_pixel": [
+        708.0,
+        307.0
+      ],
+      "azimuth_elevation_deg": [
+        0.054248242475105866,
+        19.910827642960186
+      ],
+      "sign_plane_offset_m": [
+        0.9010894778040921,
+        156.78956913791203
+      ]
+    },
+    "eye_l": {
+      "reference_offset_px": [
+        -37.0,
+        -191.0
+      ],
+      "source_pixel": [
+        670.0,
+        290.0
+      ],
+      "azimuth_elevation_deg": [
+        -2.012540855572103,
+        20.75368184281128
+      ],
+      "sign_plane_offset_m": [
+        -33.34031067875141,
+        172.1080902605816
+      ]
+    },
+    "eye_r": {
+      "reference_offset_px": [
+        41.0,
+        -191.0
+      ],
+      "source_pixel": [
+        748.0,
+        290.0
+      ],
+      "azimuth_elevation_deg": [
+        2.229903956446221,
+        20.751014227463493
+      ],
+      "sign_plane_offset_m": [
+        36.944668589967776,
+        172.1080902605816
+      ]
+    }
+  },
+  "cinematic_colors_linear_rgb": {
+    "title": [
+      1.0,
+      0.025,
+      0.045
+    ],
+    "title_core": [
+      1.0,
+      0.1,
+      0.12
+    ],
+    "sub": [
+      0.46,
+      0.025,
+      1.0
+    ],
+    "ring": [
+      1.0,
+      0.035,
+      0.12
+    ],
+    "eye_l": [
+      1.0,
+      0.015,
+      0.025
+    ],
+    "eye_r": [
+      1.0,
+      0.015,
+      0.025
+    ]
+  },
+  "crest_light_radius_m": 130.65797428159337,
+  "sign_aov": "sign",
+  "sign_aov_value": "unaltered source alpha",
+  "lights_city": false,
+  "camera_glossy_only": true,
+  "display_decode_gamma": 2.2,
+  "inverse_finish_saturation": 1.2,
+  "emission_w": {
+    "configured_white": 1.0,
+    "configured_neon_multiplier": 3.0,
+    "white": 0.16,
+    "neon_multiplier": 1.4,
+    "maximum_strength": 0.22399999999999998
+  },
+  "presentation_correction": {
+    "scale": 0.16,
+    "neon_boost_response": 0.2,
+    "reference_bracket": {
+      "gain": 0.014114323569157832,
+      "display_mult": 10.0,
+      "preview_gain": 0.0176
+    },
+    "reference_linear_amplification": 8.019502027930587,
+    "reference_body_linear_multiplier": 1.283120324468894,
+    "reference_peak_linear_multiplier": 1.7963684542564515,
+    "note": "Reference bracket is the first 4096 preview, not a runtime or subsequent render measurement."
+  },
+  "objects": 1,
+  "base_faces": 7158,
+  "notes": "Approved image contains rendered material relief. Coplanar alpha-aware card; packed source; no source-image edits or extra halo layer. Native presentation awaits the user."
+}

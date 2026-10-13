@@ -1,0 +1,181 @@
+{
+  "verified_at": "2026-09-29T22:22:17.003608",
+  "snapshot": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\simplify_review\\build_inputs.json",
+  "snapshot_sha256": "d62ac736628de5e51d4c19abd95e5a97bf30f99706c0ce925bfd0297d0435646",
+  "build_log": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_simplify\\full.log",
+  "build_log_sha256": "df890e2322b671f361ebd9d85aca6ed317994ca248de80b4fe4b6257d2467566",
+  "ff": {
+    "sha256": "b35213394e56e91e766bc4a1fa2e4ae18982858d43279ea57eeb7e0176caa386",
+    "bytes": 225465792,
+    "mtime_ns": 1790734829891572800
+  },
+  "native_bake": {
+    "d3dbsp": {
+      "sha256": "b96203e4e1ad31a57368c079d62a422698b5b34e490527b3aa5b338cd3e9a095",
+      "bytes": 10458048,
+      "mtime_ns": 1790734586572979300
+    },
+    "led": {
+      "sha256": "48f5c09a4cfe9cd0fb03cdc90a47f677b6f60f23ab5e416c73d2c850d2b26db0",
+      "bytes": 119704569,
+      "mtime_ns": 1790734682212610500
+    }
+  },
+  "geometry_record_sha256": "876044a58dc395617a79128af12a69908ddb0b7be8215a145b51e008682f5927",
+  "geometry_key": "ae7338547fe13ede16900951cb48b866a6939696",
+  "checked_runtime_inputs": 209,
+  "matched_runtime_inputs": 209,
+  "matched_authoring_artifacts": 77,
+  "asset_ledger_sha256": "25b46dd41d687b27953019b4830deabda04dc070ecb3ad997addc650aa003e41",
+  "native_assets": [
+    {
+      "index": "3367",
+      "type": "techset",
+      "name": "mc/sky_latlong_hdr#e6142445",
+      "resident": "163976",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_skybox_tod_cybercity|material|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3368",
+      "type": "image",
+      "name": "i_skybox_tod_cybercity#d438aef5",
+      "resident": "32",
+      "streamed": "0",
+      "parentStack": "|mc/mtl_skybox_tod_cybercity|material|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3369",
+      "type": "material",
+      "name": "mc/mtl_skybox_tod_cybercity",
+      "resident": "408",
+      "streamed": "0",
+      "parentStack": "|skybox_tod_cybercity|xmodel|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "3371",
+      "type": "xmodel",
+      "name": "skybox_tod_cybercity",
+      "resident": "152",
+      "streamed": "0",
+      "parentStack": "|maps/zm/zm_tod2_cybercity.d3dbsp|gfx_map|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7315",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_veil",
+      "resident": "8277",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7318",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_warp",
+      "resident": "23464",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7319",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_burn",
+      "resident": "4312",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7324",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_boom",
+      "resident": "40264",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7325",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_blast",
+      "resident": "7560",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7326",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_wreck",
+      "resident": "18504",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    },
+    {
+      "index": "7327",
+      "type": "fx",
+      "name": "tod/jump/fx_jt_blaze",
+      "resident": "19752",
+      "streamed": "0",
+      "parentStack": "|zone_source/zm_tod2_cybercity.zone|csv"
+    }
+  ],
+  "ssi_names_in_fresh_led": [
+    "tod_ssi_cybercity",
+    "tod_ssi_cybercity_dark"
+  ],
+  "native_gdt_bindings": {
+    "i_skybox_tod_cybercity": {
+      "baseImage": "source_data\\\\tod_skybox\\\\_images\\\\i_skybox_tod_cybercity.exr",
+      "semantic": "HDR",
+      "compressionMethod": "compressed",
+      "noMipMaps": 1,
+      "streamable": 1
+    },
+    "mtl_skybox_tod_cybercity": {
+      "materialType": "sky_latlong_hdr",
+      "colorMap": "i_skybox_tod_cybercity",
+      "skyStops": 4.35,
+      "skyRotation": 40.0
+    },
+    "tod_ssi_cybercity": {
+      "pitch": 130.0,
+      "yaw": 140.0,
+      "skyboxmodel": "skybox_tod_cybercity",
+      "stops": -1.88,
+      "evmin": 2.75,
+      "evmax": 3.25,
+      "evcmp": 2.5
+    },
+    "tod_ssi_cybercity_dark": {
+      "pitch": 130.0,
+      "yaw": 140.0,
+      "skyboxmodel": "skybox_tod_cybercity",
+      "stops": -4.8,
+      "evmin": 2.5,
+      "evmax": 3.0,
+      "evcmp": 2.5
+    }
+  },
+  "compiled_sky": {
+    "path": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\image\\v29\\i_skybox_tod_cybercity_NYHHHP3JKYN35WNOGLSXXB646M.iwi",
+    "sha256": "42fab7218454fa1ed1bc93ae76957ee62f6220939410d3d4484947fab5e6eb35",
+    "bytes": 31206053,
+    "mtime_ns": 1790734730094543600
+  },
+  "converter": {
+    "database": "C:\\BO3Tools\\TOD2Cybercity\\share\\assetconvert\\datasignature.db",
+    "source": "C:\\BO3Tools\\TOD2Cybercity\\\\source_data\\\\tod_skybox\\\\_images\\\\i_skybox_tod_cybercity.exr",
+    "source_bytes": 92552244,
+    "source_mtime_ns": 1790733164132183500,
+    "opaque_signature_hex": "76bc88aafbae2d3ee934574511502a19"
+  },
+  "deployed_inputs_match_snapshot": true,
+  "inputs_not_newer_than_ff": true,
+  "owned_sky_inputs_match_current": true,
+  "current_source_parity": true,
+  "linked_source_snapshot_parity": true,
+  "copied_sources_match_current": true,
+  "ignored_unlinked_source_changes": [],
+  "pending_source_changes": [],
+  "status": "built_for_user_test",
+  "game_launched": false,
+  "native_visual_verified": false
+}

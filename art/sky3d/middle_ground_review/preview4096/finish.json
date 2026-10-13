@@ -1,0 +1,12 @@
+{
+    "finished_at":  "2026-09-30T09:15:04.8820398-04:00",
+    "raw":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\raw_4096.exr",
+    "raw_sha256":  "46b98a1e31d06b5651642621f1f62c53fe2ff50969727c7f43d38006c044c942",
+    "mask":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\raw_4096.sign.exr",
+    "mask_sha256":  "78aa5d4fd0d1ca99144ec15f4b408786579eb9a9d7dbc7b2741ea437d9129770",
+    "asset":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_middle_ground\\finished_4096.exr",
+    "asset_sha256":  "84aa2e717ae1531772bf39587af01165ff53b9b53c96c793893258db9649af21",
+    "stats":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\middle_ground_review\\preview4096\\middle_ground_stats.json",
+    "stats_sha256":  "fde48dc8732c3918cc3eb5c7e0b16b083dd03bb9084a794047c9e1af5d4aae1c",
+    "finish_source_sha256":  "39e03384e31fefd624478321e13a880691e2456f65704c83b9b43821d934c523"
+}

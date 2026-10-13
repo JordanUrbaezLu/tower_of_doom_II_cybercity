@@ -1,0 +1,46 @@
+{
+  "recorded": "2026-09-30T23:10:18.386748",
+  "basis": "Current authored Dealer sky; its combined full native build remains pending. Earlier v11 native lighting is historical.",
+  "files": {
+    "tools/sky3d/build_city.py": {
+      "preserved": "art/sky3d/depth_review/before/build_city.py",
+      "sha256": "9d65b266adde6efa4205ba19dd6037a1e4d45a425061e22027944f857682c1b1",
+      "bytes": 283183
+    },
+    "source_data/tod_skybox/_images/i_skybox_tod_cybercity.exr": {
+      "preserved": "art/sky3d/depth_review/before/i_skybox_tod_cybercity.exr",
+      "sha256": "8817036c7cdbda63b261aa3c343da9a6b4a4f83266af19c6e4d13f284d93ec41",
+      "bytes": 88950509
+    },
+    "art/sky3d/tod2_sky.blend": {
+      "preserved": "art/sky3d/depth_review/before/tod2_sky.blend",
+      "sha256": "b97983ac41be516f94f76372e8b5fd323186eb49d9cafc966d9a0a1add558dfd",
+      "bytes": 124167376
+    },
+    "docs/sky_preview/sky3d_stats.json": {
+      "preserved": "art/sky3d/depth_review/before/sky3d_stats.json",
+      "sha256": "bd23d88b98c7f89ddf127ee51d243800ae7f56b5e073be1f759c90f4c5bddc86",
+      "bytes": 1656
+    },
+    "tmp/sky_dealer/raw_4096.composition.json": {
+      "preserved": "art/sky3d/depth_review/before/composition.json",
+      "sha256": "7766ea85dd8be2e6ee9b81f75441535fd70d0f0cb1188190136e01365c5b8f7b",
+      "bytes": 679002
+    },
+    "art/sky3d/dealer_review/blender_before_jump.png": {
+      "preserved": "art/sky3d/depth_review/before/blender_before_jump.png",
+      "sha256": "f39660b98f87f557b10acf47a3356538715b972e9e154703dea429663425820e",
+      "bytes": 2686463
+    },
+    "art/sky3d/dealer_review/blender_after_reveal.png": {
+      "preserved": "art/sky3d/depth_review/before/blender_after_reveal.png",
+      "sha256": "373902a18e7906c9e70d66674c8e7823eb6fe1916b1625b19996c5ab4a0ffde1",
+      "bytes": 3194719
+    },
+    "art/sky3d/sign/v12_native_lit.png": {
+      "preserved": "art/sky3d/depth_review/before/v12_native_lit.png",
+      "sha256": "b16d6528a271da49dc90bde26d7d7ee1098c277e33fb9357aa73fb2c3651f1c3",
+      "bytes": 1926832
+    }
+  }
+}

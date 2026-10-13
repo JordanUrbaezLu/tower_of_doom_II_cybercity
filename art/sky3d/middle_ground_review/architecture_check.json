@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "ordinary_lots": 624,
+  "vertices_checked": 428808,
+  "archetypes": [
+    "cantilever_relay",
+    "offset_slot",
+    "split_crown",
+    "tapered_keel"
+  ],
+  "bounds": "original local w/d/h",
+  "elevated_translation_m": 713,
+  "global_rng_unchanged": true,
+  "native_visual_verified": false
+}

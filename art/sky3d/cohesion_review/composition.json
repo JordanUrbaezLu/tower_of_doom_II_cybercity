@@ -1,0 +1,171 @@
+{
+  "body_moves": [
+    {
+      "name": "giant",
+      "kind": "gas",
+      "before": [
+        -98.0,
+        14.0
+      ],
+      "after": [
+        -98.0,
+        49.0
+      ],
+      "radius": 8.0
+    },
+    {
+      "name": "cool",
+      "kind": "gas",
+      "before": [
+        140.0,
+        34.0
+      ],
+      "after": [
+        140.0,
+        52.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "name": "ember",
+      "kind": "cracked",
+      "before": [
+        32.0,
+        36.0
+      ],
+      "after": [
+        32.0,
+        55.0
+      ],
+      "radius": 2.8
+    },
+    {
+      "name": "brown",
+      "kind": "cracked",
+      "before": [
+        -60.0,
+        30.0
+      ],
+      "after": [
+        -60.0,
+        44.0
+      ],
+      "radius": 6.5
+    },
+    {
+      "name": "ice",
+      "kind": "gas",
+      "before": [
+        110.0,
+        21.0
+      ],
+      "after": [
+        130.0,
+        64.0
+      ],
+      "radius": 3.2
+    },
+    {
+      "name": "jade",
+      "kind": "gas",
+      "before": [
+        -176.0,
+        27.0
+      ],
+      "after": [
+        -176.0,
+        31.0
+      ],
+      "radius": 1.9
+    },
+    {
+      "name": "obsidian",
+      "kind": "cracked",
+      "before": [
+        128.0,
+        57.0
+      ],
+      "after": [
+        151.0,
+        64.0
+      ],
+      "radius": 1.7
+    },
+    {
+      "name": "far_ember",
+      "kind": "cracked",
+      "before": [
+        60.0,
+        30.0
+      ],
+      "after": [
+        52.0,
+        72.0
+      ],
+      "radius": 0.7
+    },
+    {
+      "name": "grey",
+      "kind": "moon",
+      "before": [
+        52.0,
+        23.0
+      ],
+      "after": [
+        5.0,
+        53.0
+      ],
+      "radius": 2.3
+    },
+    {
+      "name": "sombrero",
+      "kind": "galaxy",
+      "before": [
+        -100.0,
+        46.0
+      ],
+      "after": [
+        -110.0,
+        74.0
+      ],
+      "radius": 1.5
+    }
+  ],
+  "primary_moon": {
+    "before_approx": [
+      -4.35,
+      23.57,
+      6.58
+    ],
+    "after": [
+      8,
+      39,
+      5.1
+    ]
+  },
+  "hero_black_holes_unchanged": true,
+  "static_ships": false,
+  "static_asteroids": false,
+  "ordinary_blocks": 363,
+  "archetypes": {
+    "blade_foundry": 93,
+    "split_vaults": 95,
+    "transit_bastion": 93,
+    "forked_terraces": 82
+  },
+  "stars_fade_elevation_degrees": {
+    "faint": [
+      15,
+      32
+    ],
+    "medium": [
+      35,
+      52
+    ],
+    "large_flares": [
+      55,
+      67
+    ]
+  },
+  "ring_shadow": "World-to-object illumination transform and finite penumbra instead of mixed-space hard cylindrical stripe"
+}

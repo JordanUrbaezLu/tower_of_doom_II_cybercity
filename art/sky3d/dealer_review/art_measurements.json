@@ -1,0 +1,139 @@
+{
+  "status": "pass",
+  "before": "art\\sky3d\\sign\\v10_cyber_hero.png",
+  "after": "art\\sky3d\\sign\\v12_dealer.png",
+  "hashes": [
+    "993b5fdc94577b42f64c5174783e48deade02e0f460e66e3633f2f5eade1c277",
+    "e22016bec6747396b71b4aa20aff1ff472f696f28704ced746191d277a995a17"
+  ],
+  "size": [
+    1536,
+    1024
+  ],
+  "rgba": true,
+  "alpha_zero_pixels": [
+    625198,
+    613428
+  ],
+  "changed_pixels": 1511502,
+  "exact_pixel_preservation": false,
+  "registration": {
+    "title": {
+      "rect": [
+        350,
+        297,
+        1187,
+        522
+      ],
+      "best_shift_px": [
+        0,
+        0
+      ],
+      "edge_correlation": 0.9124560068097494,
+      "mean_source_brightness_ratio": 0.9962615459855984
+    },
+    "subtitle": {
+      "rect": [
+        438,
+        529,
+        1094,
+        581
+      ],
+      "best_shift_px": [
+        0,
+        0
+      ],
+      "edge_correlation": 0.934751133543573,
+      "mean_source_brightness_ratio": 1.012684626769953
+    },
+    "left_frame": {
+      "rect": [
+        50,
+        280,
+        310,
+        770
+      ],
+      "best_shift_px": [
+        0,
+        0
+      ],
+      "edge_correlation": 0.8525292030327025,
+      "mean_source_brightness_ratio": 1.0129214476790898
+    },
+    "right_frame": {
+      "rect": [
+        1220,
+        280,
+        1490,
+        770
+      ],
+      "best_shift_px": [
+        0,
+        0
+      ],
+      "edge_correlation": 0.8674526716890363,
+      "mean_source_brightness_ratio": 1.00767379884794
+    }
+  },
+  "features": {
+    "ring": {
+      "rect": [
+        756,
+        113,
+        780,
+        143
+      ],
+      "measured": [
+        771.2871892293714,
+        128.21516478070538
+      ],
+      "contract": [
+        771.3,
+        128.2
+      ],
+      "max_error_px": 0.015164780705390513,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    },
+    "eye_l": {
+      "rect": [
+        718,
+        184,
+        759,
+        220
+      ],
+      "measured": [
+        739.486981677917,
+        203.08891031822566
+      ],
+      "contract": [
+        739.5,
+        203.1
+      ],
+      "max_error_px": 0.013018322082984923,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    },
+    "eye_r": {
+      "rect": [
+        774,
+        184,
+        815,
+        220
+      ],
+      "measured": [
+        791.5726916507585,
+        202.9907565558123
+      ],
+      "contract": [
+        791.6,
+        203.0
+      ],
+      "max_error_px": 0.027308349241479846,
+      "method": "centroid weighted by max(0,min(R,G,B)-150), bright near-white tube cores"
+    }
+  },
+  "title_center_px": [
+    768.0,
+    435.0
+  ],
+  "note": "Original painting retained as historical source. New Imagegen edit keeps measured placement and brightness; texture pixels differ."
+}

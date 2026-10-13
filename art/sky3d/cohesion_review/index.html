@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cybercity — Sky art review</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090b13;--panel:#121622;--edge:#30364a;--text:#edf0fa;--muted:#aeb7cc;--cyan:#7ee7ff;--pink:#ea92dd}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,sans-serif}
+    header,nav,.notes,footer{max-width:1460px;margin:auto;padding:24px 28px}header{padding-top:40px;padding-bottom:12px}
+    .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan);margin:0 0 10px}
+    h1{font-size:clamp(26px,4vw,44px);line-height:1.1;margin:0 0 14px;font-weight:650}p{margin:0 0 10px}
+    .intro{max-width:850px;color:var(--muted)}.status{display:inline-block;border:1px solid #6a526c;border-radius:6px;padding:7px 11px;color:#efd6ef;font-size:13px;background:#241d2c;margin-top:8px}
+    nav{display:flex;flex-wrap:wrap;gap:9px;padding-top:16px;padding-bottom:14px}
+    button,.link-button{border:1px solid var(--edge);border-radius:7px;background:var(--panel);color:var(--text);padding:10px 15px;font:inherit;font-size:14px;text-decoration:none;cursor:pointer}
+    button:hover,.link-button:hover{border-color:var(--cyan)}button[aria-pressed=true]{background:#203441;border-color:var(--cyan);color:#dcf9ff}
+    :focus-visible{outline:2px solid var(--pink);outline-offset:4px}
+    .toolbar{max-width:1460px;margin:0 auto;padding:0 28px 16px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+    .toolbar label{display:flex;gap:8px;align-items:center}.toolbar a{color:var(--cyan)}input{accent-color:var(--cyan)}
+    .viewer{max-width:1920px;margin:auto;padding:0 16px;display:grid;grid-template-columns:1fr;gap:14px}.viewer.compare{grid-template-columns:1fr 1fr}
+    figure{margin:0;border:1px solid var(--edge);border-radius:8px;overflow:hidden;background:#05070d}figcaption{padding:11px 15px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:10px}
+    figure img{display:block;width:100%;height:auto;object-fit:contain}figure a{display:block;color:var(--cyan)}figure[hidden]{display:none}
+    .pending{display:none;min-height:200px;align-items:center;justify-content:center;color:var(--muted);padding:35px;text-align:center}.missing .pending{display:flex}.missing img{display:none}
+    .notes{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;padding-top:28px}.notes h2{font-size:17px;margin:0 0 10px;color:var(--text)}
+    .notes p,.notes li{color:var(--muted);font-size:14px}.notes ul{padding-left:20px;margin:0}.notes li{margin-bottom:6px}.notes a,footer a{color:var(--cyan)}
+    .forms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:14px 0}.form{padding:10px 13px;border:1px solid var(--edge);border-radius:6px;background:var(--panel);font-size:13px;color:var(--muted)}.form strong{color:var(--text);margin-right:5px}
+    footer{border-top:1px solid var(--edge);font-size:12px;color:var(--muted);padding-top:18px;padding-bottom:32px}
+    @media(max-width:850px){.viewer.compare,.notes{grid-template-columns:1fr}header,nav,.notes,footer{padding-left:18px;padding-right:18px}.toolbar{padding-left:18px;padding-right:18px}.viewer{padding:0 8px}}
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Tower of Doom II / Cybercity</p>
+    <h1>A darker, connected cosmic city</h1>
+    <p class="intro">Review the engineered lower skyline, machined title monument and higher celestial composition. The preferred tall spire geometry is preserved.</p>
+    <p class="status">Blender projection approximation · Native in-game playtest pending</p>
+  </header>
+  <nav aria-label="Review views">
+    <button type="button" data-view="reveal" aria-pressed="true">Title reveal</button>
+    <button type="button" data-view="city" aria-pressed="false">City</button>
+    <button type="button" data-view="down_l" aria-pressed="false">Lower skyline</button>
+    <button type="button" data-view="giant" aria-pressed="false">Giant planet</button>
+    <button type="button" data-view="celestial_east" aria-pressed="false">Eastern bodies</button>
+    <button type="button" data-view="up" aria-pressed="false">Upper sky</button>
+    <button type="button" data-view="reveal_cinematic" aria-pressed="false">Cinematic reveal</button>
+    <button type="button" data-view="panorama" aria-pressed="false">Full panorama</button>
+  </nav>
+  <div class="toolbar">
+    <label><input id="compare" type="checkbox"> Compare matching earlier view</label>
+    <span id="view-note">Title reveal · matching before/after view available.</span>
+    <a id="open-image" href="final/cohesion_ingame_reveal.png" target="_blank" rel="noopener">Open full-size image ↗</a>
+  </div>
+  <main>
+    <div class="viewer" id="viewer">
+      <figure id="before-figure" hidden>
+        <figcaption><span>Earlier sky</span><span>Same camera view</span></figcaption>
+        <a id="before-link" href="before/sky3d_ingame_reveal.png" target="_blank" rel="noopener"><img id="before-image" src="before/sky3d_ingame_reveal.png" alt="Earlier title-reveal sky view"></a>
+        <div class="pending">The earlier comparison image is unavailable.</div>
+      </figure>
+      <figure id="final-figure">
+        <figcaption><span id="final-caption">Current pass · Title reveal</span><span>Blender projection</span></figcaption>
+        <a id="final-link" href="final/cohesion_ingame_reveal.png" target="_blank" rel="noopener"><img id="final-image" src="final/cohesion_ingame_reveal.png" alt="Current Cybercity title-reveal preview"></a>
+        <div class="pending">This saved render could not be loaded. See the review notes for its file path.</div>
+      </figure>
+    </div>
+    <div class="notes">
+      <section aria-labelledby="architecture-title">
+        <h2 id="architecture-title">363 ordinary buildings, four architectural forms</h2>
+        <p>Distinct silhouettes use split masses, offset utility wings and open gaps. Broad armor plates, recessed service channels and restrained cyan/magenta accents replace the old repeated window boxes.</p>
+        <div class="forms">
+          <div class="form"><strong>93</strong> Blade foundries</div>
+          <div class="form"><strong>95</strong> Split vaults</div>
+          <div class="form"><strong>93</strong> Transit bastions</div>
+          <div class="form"><strong>82</strong> Forked terraces</div>
+        </div>
+        <p>The original tall spire geometry and layout remain intact. The replacement blocks retain the existing lot and height limits; the city generator’s random sequence is preserved.</p>
+      </section>
+      <section aria-labelledby="review-title">
+        <h2 id="review-title">What these images establish</h2>
+        <ul>
+          <li>The celestial composition sits higher above the city. The clearance check covers all 20 bodies and includes the neon skyline, with at least 3° separation.</li>
+          <li>Only the title reveal, city and lower-skyline views have matching earlier images. Other views are shown individually.</li>
+          <li>These are projections of the Blender sky render. Native BO3 appearance and the final play experience still need the user’s playtest.</li>
+          <li>The cinematic reveal is a separate presentation view; use the standard views for direct comparisons.</li>
+        </ul>
+        <p style="margin-top:14px"><a href="../tod2_sky.blend">Blender source master</a> · <a href="../sky_preview.blend">Rendered sky preview</a> · <a href="README.md">Review notes</a> · <a href="build.json">Verified build receipt</a></p>
+      </section>
+    </div>
+    <noscript><p class="notes">JavaScript is disabled. Open the <a href="final/cohesion_sky_equirect.png">final panorama</a> or the individual image links in <a href="README.md">the review notes</a>.</p></noscript>
+  </main>
+  <footer>Images are linked directly from the saved review files without extra grading or filters. Full build and fresh lighting bake passed on September 29 at 19:45 Eastern. Native appearance awaits the user's playtest.</footer>
+  <script>
+    const views = {
+      reveal: {title:'Title reveal', before:'reveal'},
+      city: {title:'City', before:'city'},
+      down_l: {title:'Lower skyline', before:'down_l'},
+      giant: {title:'Giant planet'},
+      celestial_east: {title:'Eastern bodies'},
+      up: {title:'Upper sky'},
+      reveal_cinematic: {title:'Cinematic reveal'},
+      panorama: {title:'Full panorama', file:'cohesion_sky_equirect.png'}
+    };
+    let active = 'reveal';
+    const byId = id => document.getElementById(id);
+    for (const prefix of ['before','final']) {
+      byId(prefix+'-image').addEventListener('error',()=>byId(prefix+'-figure').classList.add('missing'));
+      byId(prefix+'-image').addEventListener('load',()=>byId(prefix+'-figure').classList.remove('missing'));
+    }
+    function displayView() {
+      const view = views[active];
+      const path = 'final/'+(view.file || 'cohesion_ingame_'+active+'.png');
+      byId('final-caption').textContent = 'Current pass · '+view.title;
+      byId('final-image').alt = 'Current Cybercity '+view.title.toLowerCase()+' preview';
+      byId('final-image').src = path;
+      byId('final-link').href = path;
+      byId('open-image').href = path;
+      byId('compare').disabled = !view.before;
+      const compare = Boolean(view.before && byId('compare').checked);
+      byId('before-figure').hidden = !compare;
+      byId('viewer').classList.toggle('compare',compare);
+      if (view.before) {
+        const earlier = 'before/sky3d_ingame_'+view.before+'.png';
+        byId('before-image').src = earlier;
+        byId('before-image').alt = 'Earlier Cybercity '+view.title.toLowerCase()+' preview from the same camera';
+        byId('before-link').href = earlier;
+      }
+      byId('view-note').textContent = view.title+(view.before ? ' · matching before/after view available.' : ' · current pass only.');
+      document.querySelectorAll('[data-view]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.view===active)));
+    }
+    document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{active=button.dataset.view;displayView();}));
+    byId('compare').addEventListener('change',displayView);
+    displayView();
+  </script>
+</body>
+</html>

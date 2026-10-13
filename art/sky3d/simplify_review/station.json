@@ -1,0 +1,102 @@
+{
+  "version": "cyber_station_1",
+  "collection": "sky3d_cyber_station",
+  "rail_line": [
+    89.0,
+    5143.0,
+    4500.0,
+    400.0,
+    "gold",
+    3,
+    2
+  ],
+  "center_xyz_m": [
+    642.9020679855596,
+    11.221897339173355,
+    400.0
+  ],
+  "azimuth_elevation_deg": [
+    89.0,
+    15.638941249279709
+  ],
+  "station_bounds_deg": {
+    "azimuth": [
+      68.42781208843321,
+      109.57218791156677
+    ],
+    "elevation": [
+      13.585808390842251,
+      19.78008867969666
+    ]
+  },
+  "keepout": {
+    "center_xy_m": [
+      642.9020679855596,
+      11.221897339173355
+    ],
+    "tangent_xy": [
+      0.0174524064372836,
+      -0.9998476951563913
+    ],
+    "away_xy": [
+      0.9998476951563913,
+      0.0174524064372836
+    ],
+    "capsule_half_length_m": 222.0,
+    "capsule_radius_m": 94.0,
+    "foreground_azimuth_deg": [
+      65.42781208843321,
+      112.57218791156677
+    ],
+    "foreground_elevation_deg": [
+      11.585808390842251,
+      21.78008867969666
+    ],
+    "foreground_max_radius_m": 708.0,
+    "max_foreground_top_elevation_deg": 11.585808390842251,
+    "note": "Reserve physical capsule for buildings; in foreground angular corridor cap building tops below its lower elevation. Do not clear distant city."
+  },
+  "spec": {
+    "platform_length_m": 310.0,
+    "canopy_length_m": 288.0,
+    "platform_centers_m": [
+      -44.0,
+      44.0
+    ],
+    "platform_width_m": 18.0,
+    "track_centers_m": [
+      -29.0,
+      29.0
+    ],
+    "canopy_top_above_deck_m": 34.0,
+    "train_cars": 5,
+    "train_car_length_m": 36.0,
+    "train_car_gap_m": 2.5,
+    "train_width_m": 7.6,
+    "train_height_m": 11.5,
+    "train_center_along_m": 92.0,
+    "train_track_m": -29.0,
+    "approach_half_length_m": 360.0
+  },
+  "sign_text": "SKYRAIL STATION",
+  "geometry_intent": "Two boarding platforms, two visible tracks, one long split canopy, one five-car train; no added towers, holograms, rings or light beams.",
+  "objects": 14,
+  "base_faces": 21168,
+  "materials": {
+    "structure": 0.08,
+    "platform": 0.065,
+    "roof": 0.065,
+    "rail": 0.06,
+    "joint": 0.09,
+    "wear": 0.08,
+    "train": 0.105,
+    "blue": 0.09,
+    "glass": 0.09,
+    "cabin": 0.145,
+    "lamp": 0.28,
+    "cyan": 0.3,
+    "amber": 0.19,
+    "letters": 0.5
+  },
+  "native_visual_verified": false
+}

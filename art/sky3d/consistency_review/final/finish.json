@@ -1,0 +1,18 @@
+{
+    "finished_at":  "2026-09-30T10:51:12.4867693-04:00",
+    "raw":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.exr",
+    "raw_sha256":  "0bf04e8d32d393c871baed085ba8026ab88c79d7cdd2a52f1681ae9f9e670508",
+    "mask":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\raw_8192.sign.exr",
+    "mask_sha256":  "6fd19e04e974fe67702640f01ae0ed6c42426d9c984385e60af997429fad58d3",
+    "asset":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\tmp\\sky_consistency\\finished_8192.exr",
+    "asset_sha256":  "8bdcb2c893ae2acb5671c6886cc79ad41371beaf057476e79048c088dbfebd39",
+    "stats":  "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\consistency_review\\final\\consistency_stats.json",
+    "stats_sha256":  "618445841d1a7c5b0a9bd831f6f65451f65af54c6d12b675a5cff404880670f4",
+    "finish_source_sha256":  "86862635961f2fd2f86a18505433ac717e8a3a6f5bacfa98ad9a12fe5c691387",
+    "finish_profile_sha256":  "d94d21a134649c788b9a5a113d08211ccfca024478f72e2adf3c2f41a4f62de0",
+    "gain_mode":  "fixed",
+    "fixed_gain":  0.016525428679573573,
+    "nominal_target_score":  0.64,
+    "measured_city_score":  0.45513866384450663,
+    "measured_whole_score":  0.44508159160614014
+}

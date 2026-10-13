@@ -1,0 +1,136 @@
+{
+  "master": "tmp\\sky_dealer\\dealer.blend",
+  "sha256": "b97983ac41be516f94f76372e8b5fd323186eb49d9cafc966d9a0a1add558dfd",
+  "scene_name": "02 After reveal - native sign card",
+  "scene_name_note": "Inherited UI label only; authoring reset all objects, world and render nodes.",
+  "camera": "sky_cam",
+  "camera_type": "PANO",
+  "camera_position": [
+    0.0,
+    0.0,
+    220.0
+  ],
+  "world": "sky3d_world",
+  "world_has_image_nodes": false,
+  "native_preview_card_present": false,
+  "objects": 109,
+  "authored_title_state": "dull",
+  "title_source": "art/sky3d/sign/v12_dealer.png",
+  "render": [
+    8192,
+    4096,
+    160
+  ],
+  "all_scenes": [
+    {
+      "name": "01 Before jump - dull sky",
+      "objects": 40,
+      "world": "Finished Cybercity panorama"
+    },
+    {
+      "name": "02 After reveal - native sign card",
+      "objects": 109,
+      "world": "sky3d_world"
+    }
+  ],
+  "image_datablocks": [
+    {
+      "name": "ad_01.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_01.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_02.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_02.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_03.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_03.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_04.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_04.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_05.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_05.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_06.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_06.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_07.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_07.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_08.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_08.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_09.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_09.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_10.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_10.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_11.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_11.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "ad_12.png",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\billboards\\ad_12.png",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "i_skybox_tod_cybercity.exr.002",
+      "filepath": "//..\\..\\source_data\\tod_skybox\\_images\\i_skybox_tod_cybercity.exr",
+      "users": 1,
+      "has_data": false,
+      "packed": false
+    },
+    {
+      "name": "sky3d_cyber_hero_title_packed_art",
+      "filepath": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\sign\\v12_dealer.png",
+      "users": 1,
+      "has_data": false,
+      "packed": true
+    }
+  ]
+}

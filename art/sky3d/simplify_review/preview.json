@@ -1,0 +1,14 @@
+{
+  "engine": "BLENDER_EEVEE_NEXT",
+  "viewport": "RENDERED",
+  "scene_world": true,
+  "scene_lights": true,
+  "pitch_deg": 13,
+  "hfov_deg": 80.69094643937103,
+  "view_transform": "Raw",
+  "shader_gamma": 0.45454545454545453,
+  "display_scale": 568.1818181818181,
+  "exr_sha256": "0e160e9d1bd09e71e698162cbb7f670f843d26cd4f03099254b49d64033782a8",
+  "master": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\art\\sky3d\\simplify_preview.blend",
+  "native_visual_verified": false
+}
