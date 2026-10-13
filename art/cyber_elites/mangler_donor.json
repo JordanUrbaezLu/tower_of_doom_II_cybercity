@@ -1,0 +1,13 @@
+{
+  "why": "The default Mangler binaries must stay byte-identical to the Hellbound donor. Pinned 2026-10-12 for the new-laptop migration (docs/220): nothing of the Hellbound map moves, so tools/cyber_elites/verify_assets.py checks these sha256s instead of reading ../tower_of_doom_II_hellbound (it still compares with that folder when it is present). Recorded from the donor files, each byte-identical to the private root's copy that day.",
+  "donor": "C:/Users/jorda/Repositories/tower_of_doom_II_hellbound",
+  "sha256": {
+    "model_export/hb/mangler/hb_bo6_mangler.XMODEL_BIN": "2dfec712e82477467a8d0ef4ea6e579d0134b6870783ecba4399c82e5d47be63",
+    "xanim_export/hb/mangler/hb_mangler_idle.XANIM_BIN": "36bd2688f15da7f821d4892451208a3a91de47a7a0cb26dcea8c230fd4dc127f",
+    "xanim_export/hb/mangler/hb_mangler_run.XANIM_BIN": "53c8d8ae427ec6f1b43a917d9fddabf4f9778167f530eda2635a9ceeddb4a2e8",
+    "xanim_export/hb/mangler/hb_mangler_pain.XANIM_BIN": "016e12db333ec7b4bfcdbb8db2a9213d028773e58be3a7f3cc733cab47528630",
+    "xanim_export/hb/mangler/hb_mangler_melee.XANIM_BIN": "776bca115e61e7ecfc9adc5234db1c0e6a304fd42c589b184d39121a4242a41f",
+    "xanim_export/hb/mangler/hb_mangler_cannon.XANIM_BIN": "bce010e9cc250819498f1d58dca74b876b2be083fe2e13aa96b9ff1e52d4ad8c",
+    "xanim_export/hb/mangler/hb_mangler_death.XANIM_BIN": "9639cabfc089cef65781678442c8198e84dc8e66c3d0244fedb4428eeae12a00"
+  }
+}

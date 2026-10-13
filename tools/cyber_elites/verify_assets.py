@@ -44,10 +44,16 @@ for record in manifest['models']:
         assert [(len(x.verts),len(x.faces)) for x in m.meshes]==[(len(x.verts),len(x.faces)) for x in donor.meshes]
         assert [[(v.offset,v.weights) for v in mesh.verts] for mesh in m.meshes]==[[(v.offset,v.weights) for v in mesh.verts] for mesh in donor.meshes]
         assert all(x.name.startswith('tod_charcoal_') for x in m.materials)
-# The default Mangler binaries and every referenced texture must be the donor's.
+# The default Mangler binaries and every referenced texture must be the donor's. The donor's sha256s
+# are pinned in art/cyber_elites/mangler_donor.json (2026-10-12, docs/220: the Hellbound repo does not
+# move to the new laptop); the Hellbound folder is still compared byte for byte wherever it exists.
 hb=ROOT.parent/'tower_of_doom_II_hellbound'
-m=asset('xmodel','hb_bo6_mangler');path=native_path('model_export',m['filename']);original=hb/'model_export/hb/mangler/hb_bo6_mangler.XMODEL_BIN'
-assert path.read_bytes()==original.read_bytes()
+pins=json.loads((ROOT/'art/cyber_elites/mangler_donor.json').read_text())['sha256']
+def donor_match(path,rel):
+    data=path.read_bytes();assert hashlib.sha256(data).hexdigest()==pins[rel],rel
+    if (hb/rel).exists():assert data==(hb/rel).read_bytes(),rel
+m=asset('xmodel','hb_bo6_mangler');path=native_path('model_export',m['filename'])
+donor_match(path,'model_export/hb/mangler/hb_bo6_mangler.XMODEL_BIN')
 for mat in load(path).materials:
     fields=asset('material',mat.name)
     for key in ['colorMap','normalMap','cosinePowerMap','occlusionMap']:
@@ -55,7 +61,7 @@ for mat in load(path).materials:
         if image and not image.startswith('$'):assert native_path('',asset('image',image)['baseImage']).exists(),image
 for name in ['idle','run','pain','melee','cannon','death']:
     path=MT/'xanim_export/hb/mangler'/('hb_mangler_'+name+'.XANIM_BIN')
-    assert path.read_bytes()==(hb/'xanim_export/hb/mangler'/path.name).read_bytes()
+    donor_match(path,'xanim_export/hb/mangler/'+path.name)
 print('PASS: 15 exported models; charcoal/gib geometry and weights; Doppelgast skeleton/body/eyes preserved; UV-mapped mechanical legs and 12 real maps; grayscale/red-only color maps; default Mangler dependencies match Hellbound.')
 print('Native constant image names:',[r[0] for r in db.execute('select _name from image where _name in (?,?,?,?)',('$white','$white_color','$identitynormalmap','$identity_normal'))])
 if args.compiled_ledger:

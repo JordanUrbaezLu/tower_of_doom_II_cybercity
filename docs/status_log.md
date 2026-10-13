@@ -1,5 +1,12 @@
 # Status log — dated notes moved out of CLAUDE.md
 
+**2026-10-12 - MIGRATION TO THE NEW LAPTOP (docs/220): REPO ON GITHUB, BUNDLE PENDING.** User: move Tower II to the new laptop by Map One's process (its docs/174); only Cybercity, nothing of Hellbound.
+
+- GITHUB: `main` rebuilt on the initial commit in six size-capped batches (the three never-pushed local commits stay on `backup/local-main-pre-migration`); `.gitattributes` is now `* -text` (byte-for-byte); LFS for `*.blend`, `*.fbx`, `tod_boss_music.wav`; `*.blend1` ignored.
+- TOOLS: `tools/migrate` (Tower II versions): the private root `C:\BO3Tools\TOD2Cybercity` moves whole with its 123 junctions recorded; round-trip test 21/21 PASS; `check_machine.ps1` 0 FAIL on the old laptop. Build gates need `fonttools`/`resvg_py`/`lz4` beyond Map One's list.
+- BUILD INPUTS OUTSIDE THE REPO (audit of every gate line): `Downloads\T7 Assets V2.8.rar` (keeper / dealer gates re-extract from it every build) moves with its SHA1. `cyber_elites/verify_assets.py` no longer reads the Hellbound folder: the 7 Mangler binaries are checked against sha256s pinned in `art/cyber_elites/mangler_donor.json` (passes without the folder, fails on a corrupted pin).
+- NOT DONE YET: export to the new laptop, import there, check, first FULL build, user playtest.
+
 **2026-10-08 15:20 - WUNDERFIZZ PLACEMENT CORRECTED: FOUR EXISTING HAVEN DOMES; BUILT.** User correction: the perk stops are every ten floors, inside the domes. Exactly one original BO6/WetEgg Wunderfizz now stands inside each existing haven dome on floors 10, 20, 30 and 40, facing inward. Removed the mistaken other 46 machines, their side alcoves and alcove zone extensions. Ordinary landing rails are restored to their original geometry, including floor 50. The nine old individual vendors stay retired. Per-player price remains 2,000 + 500 for each currently owned perk. Original models, textures, transparent glass, activation animation/FX and all seven machine WAVs are preserved.
 
 - BUILD: default guarded FULL BUILD OK with fresh BSP, LED and Havok mesh. FF 220,396,416 bytes; 2026-10-08T15:20:49.643704-04:00; SHA256 `6adf2e8fdc9d0a86493f2a0ea8c9e822b568f3f0e8232c1e251c450af52cf554`. Source/deployment parity covers 291 shipping inputs. All 14 native LODs, six complete material/image tables, original activation notes, 13 lossless glass mips and seven original PCM/alias files pass. Only the existing unrelated linker waivers remain.

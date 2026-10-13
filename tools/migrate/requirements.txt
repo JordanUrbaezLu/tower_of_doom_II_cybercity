@@ -1,0 +1,19 @@
+# Global Python 3.14 packages Tower II's tools import (docs/220). Pinned to the old laptop's versions
+# (2026-10-12). Many build gates regenerate PNG / WAV / xmodel_bin output in memory and compare it
+# BYTE FOR BYTE, so keep these exact versions.
+#   lupa      Lua 5.1 UI harnesses (run_lua_harness.py, render_menus.py --check)
+#   numpy, pillow, scipy, soundfile   artgen packs, sound generators, verifiers
+#   fonttools typeface.py --check                                   (not in Map One's list)
+#   resvg_py  the 20 artgen / wording --check gates (SVG raster)     (not in Map One's list)
+#   lz4       PyCoD's xmodel_bin writer: never imported by name; without it PyCoD silently writes
+#             uncompressed blocks and haven/make_dome, jump_title/make_sign_card and
+#             war_damage/build_conduit_torn --check fail as STALE    (not in Map One's list)
+# The full freeze of the old laptop is in the bundle: python\global-freeze.txt.
+lupa==2.8
+numpy==2.5.3
+pillow==12.3.0
+scipy==1.18.1
+soundfile==0.14.0
+fonttools==4.66.0
+resvg_py==0.5.0
+lz4==4.4.5
