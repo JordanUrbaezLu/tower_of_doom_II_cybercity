@@ -1,0 +1,80 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\vm_apex_mozambique.XMODEL_BIN",
+ "sha256": "3b188e787a4cba1716ac6b47accee18d68d5d6f3d6b360073e53752aee9474ef",
+ "triangles": 9108,
+ "materials": {
+  "mtl_apex_mozambique_camo": {
+   "resolved_as": "mtl_tod_bra_moz",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_mozambique_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_apex_mozambique": {
+   "resolved_as": "mtl_tod_bra_moz",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_mozambique_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_apex_mozambique_sight_dot": {
+   "resolved_as": "mtl_apex_mozambique_sight_dot",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_mozambique_sight_dot_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "X",
+   -90
+  ],
+  [
+   "Z",
+   90
+  ],
+  [
+   "Y",
+   180
+  ],
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 14.402440071105957,
+   "res": [
+    1600,
+    764
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 13.263833999633789,
+   "res": [
+    1200,
+    584
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

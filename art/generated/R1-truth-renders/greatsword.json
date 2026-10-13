@@ -1,0 +1,50 @@
+{
+ "binary": "model_export\\tod_warrior\\cyber_sword\\tod_cyber_sword_lod0.xmodel_bin",
+ "sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+ "triangles": 48777,
+ "materials": {
+  "mtl_tod_cyber_sword": {
+   "resolved_as": "mtl_tod_cyber_sword",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_warrior\\cyber_sword\\_images\\i_tod_cyber_sword_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Y",
+   -90
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 57.007083892822266,
+   "res": [
+    1600,
+    336
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 50.12499237060547,
+   "res": [
+    1200,
+    308
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

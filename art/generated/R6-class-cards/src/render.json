@@ -1,0 +1,106 @@
+{
+ "bow": {
+  "anchor": [
+   2.045431,
+   0.703996,
+   -2.342449
+  ],
+  "at": [
+   568,
+   548
+  ],
+  "canvas": [
+   1136,
+   936
+  ],
+  "depth_units": 0.0005344916926954677,
+  "model": "wpn_t7_zmb_bow_base_view.xmodel_bin",
+  "model_sha256": "0e64489bf09be9745860d9b0c9179f3e1963be27a7c873c63cf5b7d5064c7c3e",
+  "scale": 10.79618,
+  "triangles": 32522,
+  "view": [
+   -30,
+   10,
+   36
+  ]
+ },
+ "fist": {
+  "anchor": [
+   1.743744,
+   0.538443,
+   -0.860336
+  ],
+  "anim": "vm_zom_1inchpunch_charge.XANIM_BIN",
+  "anim_sha256": "4b936a76f43fa83b6a5ad6979eb26ba701e2a56413084fc31030917010fd239b",
+  "at": [
+   568,
+   548
+  ],
+  "canvas": [
+   1136,
+   936
+  ],
+  "depth_units": 4.3455708553537955e-05,
+  "frame": 20,
+  "model": "tod_archer_bo2_hands.xmodel_bin",
+  "model_sha256": "6e99f0ec55e9d79de12a06ca1ea2906e45a9250a466e48d2d705bde9743dce3d",
+  "scale": 95.521741,
+  "triangles": 2230,
+  "view": [
+   -20,
+   6,
+   8
+  ],
+  "xrot": 270
+ },
+ "moz": {
+  "anchor": [
+   2.351776,
+   1.157884,
+   3.533973
+  ],
+  "at": [
+   568,
+   548
+  ],
+  "canvas": [
+   1136,
+   936
+  ],
+  "depth_units": 0.00012247316086394026,
+  "model": "vm_apex_mozambique.XMODEL_BIN",
+  "model_sha256": "3b188e787a4cba1716ac6b47accee18d68d5d6f3d6b360073e53752aee9474ef",
+  "scale": 60.348571,
+  "triangles": 9108,
+  "view": [
+   58,
+   6,
+   0
+  ]
+ },
+ "skull": {
+  "anchor": [
+   -0.615385,
+   0.284605,
+   3.178514
+  ],
+  "at": [
+   568,
+   548
+  ],
+  "canvas": [
+   1136,
+   936
+  ],
+  "depth_units": 0.00011479737816069154,
+  "model": "wpn_t7_zmb_dlc2_keeper_head_view.xmodel_bin",
+  "model_sha256": "cd4365627205f54d400b4aad4036a9ee74cbfa74919fdc5f5abc4094275fcd00",
+  "scale": 51.377361,
+  "triangles": 16714,
+  "view": [
+   -70,
+   12,
+   -6
+  ]
+ }
+}

@@ -1,0 +1,1265 @@
+{
+  "master": "art/partner_shop/partner_shop.blend",
+  "master_sha256": "2ac55d550843917339f8ffb86393e28637d15f229227d6f030d7003d59376c18",
+  "groups": {
+    "solid": "mtl_tod_shop_body",
+    "valve": "mtl_tod_shop_body",
+    "needle": "mtl_tod_shop_body",
+    "vendor": "mtl_tod_shop_vendor",
+    "steady": "mtl_tod_shop_glow",
+    "mask": "mtl_tod_shop_glow",
+    "letter_t": "mtl_tod_shop_glow",
+    "letter_e": "mtl_tod_shop_glow",
+    "letter_c": "mtl_tod_shop_glow",
+    "core_left": "mtl_tod_shop_glow",
+    "core_counter": "mtl_tod_shop_glow",
+    "core_right": "mtl_tod_shop_glow",
+    "scan_0": "mtl_tod_shop_glow",
+    "scan_1": "mtl_tod_shop_glow",
+    "scan_2": "mtl_tod_shop_glow",
+    "scan_3": "mtl_tod_shop_glow",
+    "arc": "mtl_tod_shop_glow",
+    "spark": "mtl_tod_shop_glow"
+  },
+  "pivots": {
+    "valve": [
+      90,
+      -32,
+      47
+    ],
+    "needle": [
+      73,
+      -36.55,
+      74
+    ]
+  },
+  "emission_scale": 6,
+  "textures": {
+    "i_tod_shop_body_c.png": "43807a3afe5aaa6495157f938999eafb7ad5c7a81bfd4967d1888a505080a1d1",
+    "i_tod_shop_body_e.png": "cfa2a02075b3ff02ea44d921846e237a53b29db5709b12f55734eed98a6fac64",
+    "i_tod_shop_body_g.png": "cb12edbe11fe5392372b914d87ffe9e0ac6429615a907b55bf80f15d6fec2747",
+    "i_tod_shop_body_n.png": "566886df304f49566b32f88c0a7419078214b96d70aeb4fe2497189b97000788",
+    "i_tod_shop_body_s.png": "cfaad947ef63824bffa3054c3c7568d82442cfa7f3a1b6fb611adb6688ee2643",
+    "i_tod_shop_glow_c.png": "104395fcedbc236a1c503ab1a10dc99010bf30aa06f275abd0899a7950e09552",
+    "i_tod_shop_glow_e.png": "fbd3035bb1c376936705d9809158230da717a1805a2d96e956b264225adeb180",
+    "i_tod_shop_glow_g.png": "f9a5e40364210a54c36fcb24039317f421c991923d81d2f04d0886c4bec29fc1",
+    "i_tod_shop_glow_n.png": "c1719ca80e8362d2902acae4762a6c2e90e44df28b65b8058b3d446c44c9ddbd",
+    "i_tod_shop_glow_s.png": "3d4137b40a4c437a1ce7fba92abc16139b14055b7b5bf2ec6915f165cb4547ad",
+    "i_tod_shop_vendor_c.png": "af5c0362de0c4c6d85a641583faaa40834112162d7ea8076d5752c2400ba190d",
+    "i_tod_shop_vendor_e.png": "5630edf42913f842e57308503a7e0977e721d09027a12c453b8878c22108cd37",
+    "i_tod_shop_vendor_g.png": "cf42ad4751ff6017b1b2adad1ef84bfcaf4bd883cc1ccd1dbad3aabef60be672",
+    "i_tod_shop_vendor_n.png": "77c4f1822a9086a2d836edeab6346a693ead7f83c535d5fcf315394653797361",
+    "i_tod_shop_vendor_s.png": "e9718ba1770744e9d7b3fb10f22d4b3577fb4fe19468dc977f8cc9877d3f545f"
+  },
+  "lod_counts": {
+    "0": {
+      "solid": 89875,
+      "valve": 1020,
+      "needle": 118,
+      "vendor": 25999,
+      "steady": 11765,
+      "mask": 760,
+      "letter_t": 48,
+      "letter_e": 480,
+      "letter_c": 1152,
+      "core_left": 1908,
+      "core_counter": 188,
+      "core_right": 636,
+      "scan_0": 636,
+      "scan_1": 636,
+      "scan_2": 636,
+      "scan_3": 636,
+      "arc": 1200,
+      "spark": 4
+    },
+    "1": {
+      "solid": 52602,
+      "valve": 554,
+      "needle": 63,
+      "vendor": 14362,
+      "steady": 6631,
+      "mask": 446,
+      "letter_t": 48,
+      "letter_e": 274,
+      "letter_c": 632,
+      "core_left": 1044,
+      "core_counter": 102,
+      "core_right": 348,
+      "scan_0": 348,
+      "scan_1": 348,
+      "scan_2": 348,
+      "scan_3": 348,
+      "arc": 660,
+      "spark": 4
+    },
+    "2": {
+      "solid": 34477,
+      "valve": 311,
+      "needle": 33,
+      "vendor": 7415,
+      "steady": 3711,
+      "mask": 403,
+      "letter_t": 48,
+      "letter_e": 150,
+      "letter_c": 321,
+      "core_left": 534,
+      "core_counter": 52,
+      "core_right": 178,
+      "scan_0": 178,
+      "scan_1": 178,
+      "scan_2": 178,
+      "scan_3": 178,
+      "arc": 336,
+      "spark": 4
+    },
+    "3": {
+      "solid": 25387,
+      "valve": 207,
+      "needle": 24,
+      "vendor": 3875,
+      "steady": 2395,
+      "mask": 387,
+      "letter_t": 48,
+      "letter_e": 86,
+      "letter_c": 161,
+      "core_left": 264,
+      "core_counter": 26,
+      "core_right": 88,
+      "scan_0": 88,
+      "scan_1": 88,
+      "scan_2": 88,
+      "scan_3": 88,
+      "arc": 168,
+      "spark": 4
+    },
+    "4": {
+      "solid": 17736,
+      "valve": 165,
+      "needle": 24,
+      "vendor": 2296,
+      "steady": 1949,
+      "mask": 387,
+      "letter_t": 48,
+      "letter_e": 58,
+      "letter_c": 86,
+      "core_left": 138,
+      "core_counter": 24,
+      "core_right": 46,
+      "scan_0": 46,
+      "scan_1": 46,
+      "scan_2": 46,
+      "scan_3": 46,
+      "arc": 90,
+      "spark": 4
+    },
+    "5": {
+      "solid": 15707,
+      "valve": 143,
+      "needle": 24,
+      "vendor": 1475,
+      "steady": 1779,
+      "mask": 387,
+      "letter_t": 48,
+      "letter_e": 48,
+      "letter_c": 46,
+      "core_left": 72,
+      "core_counter": 24,
+      "core_right": 24,
+      "scan_0": 24,
+      "scan_1": 24,
+      "scan_2": 24,
+      "scan_3": 24,
+      "arc": 48,
+      "spark": 4
+    },
+    "6": {
+      "solid": 14021,
+      "valve": 143,
+      "needle": 24,
+      "vendor": 1107,
+      "steady": 1739,
+      "mask": 387,
+      "letter_t": 48,
+      "letter_e": 48,
+      "letter_c": 24,
+      "core_left": 72,
+      "core_counter": 24,
+      "core_right": 24,
+      "scan_0": 24,
+      "scan_1": 24,
+      "scan_2": 24,
+      "scan_3": 24,
+      "arc": 26,
+      "spark": 4
+    }
+  },
+  "off_state": "Combined hut plus physical neon/canister surfaces with emission disabled, no vendor or FX.",
+  "models": [
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 0,
+      "triangles": 89875,
+      "file": "model_export/tod_shop/tod_shop_solid_lod0.xmodel_bin",
+      "sha256": "56567df20c7f94c2756d0d967217f7a5a4d8001baab9f3a5518f3a5d53727464"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 1,
+      "triangles": 52601,
+      "file": "model_export/tod_shop/tod_shop_solid_lod1.xmodel_bin",
+      "sha256": "d89c959e2c0a8a1417598c1693328da382dcb2ce8967142c2d73858e3c651b01"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 2,
+      "triangles": 34459,
+      "file": "model_export/tod_shop/tod_shop_solid_lod2.xmodel_bin",
+      "sha256": "24a4b918d382c7663d33541e7d43b2243c51cc014a253e2d6588986ac2d0e573"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 3,
+      "triangles": 25375,
+      "file": "model_export/tod_shop/tod_shop_solid_lod3.xmodel_bin",
+      "sha256": "6dcca94d858bca94f14a4e3a4a56e6bc805b1169ee33e24f7ba158e886750b9d"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 4,
+      "triangles": 17733,
+      "file": "model_export/tod_shop/tod_shop_solid_lod4.xmodel_bin",
+      "sha256": "46fd77656b119f12f48bb34c6eb172efb2416d3ab6120884f16014f9cebacb46"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 5,
+      "triangles": 15707,
+      "file": "model_export/tod_shop/tod_shop_solid_lod5.xmodel_bin",
+      "sha256": "b73ef90fac65967182002aefba4b45ab552a326f98c160b7aaf6c00f6dd3fd47"
+    },
+    {
+      "asset": "tod_shop_solid",
+      "group": "solid",
+      "lod": 6,
+      "triangles": 14021,
+      "file": "model_export/tod_shop/tod_shop_solid_lod6.xmodel_bin",
+      "sha256": "28e678d2738ce62d95ffb76bd9235c95acd0390543777db8c10482b90e327f22"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 0,
+      "triangles": 1020,
+      "file": "model_export/tod_shop/tod_shop_valve_lod0.xmodel_bin",
+      "sha256": "b41eb74b3223f3e91dd5330ebfdf831d9e7c98948d15b52c18222514b8f27b5e"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 1,
+      "triangles": 554,
+      "file": "model_export/tod_shop/tod_shop_valve_lod1.xmodel_bin",
+      "sha256": "507b989fc8ffc99e5a741b8a9a96a49098aa3b04b33f0bf284c0097522fb980c"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 2,
+      "triangles": 311,
+      "file": "model_export/tod_shop/tod_shop_valve_lod2.xmodel_bin",
+      "sha256": "3867096c88de4a77c5a2339f3533ad27b071fa43f8e2f5b3bb7e3dd973a966ce"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 3,
+      "triangles": 207,
+      "file": "model_export/tod_shop/tod_shop_valve_lod3.xmodel_bin",
+      "sha256": "3a3541149d2bfe04a10dceb418581fd530c06221aab69a888a044e6bfe6c82be"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 4,
+      "triangles": 165,
+      "file": "model_export/tod_shop/tod_shop_valve_lod4.xmodel_bin",
+      "sha256": "05b0ea85a56a4dcee3ba371ec3180d98baf88ffd85bcdcdee0dd2d522bd2c212"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 5,
+      "triangles": 143,
+      "file": "model_export/tod_shop/tod_shop_valve_lod5.xmodel_bin",
+      "sha256": "e00f3eaae42b0e5a5f8eab16c2e773f3bd34c0682dc5e36354552b924769da1d"
+    },
+    {
+      "asset": "tod_shop_valve",
+      "group": "valve",
+      "lod": 6,
+      "triangles": 143,
+      "file": "model_export/tod_shop/tod_shop_valve_lod6.xmodel_bin",
+      "sha256": "e00f3eaae42b0e5a5f8eab16c2e773f3bd34c0682dc5e36354552b924769da1d"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 0,
+      "triangles": 118,
+      "file": "model_export/tod_shop/tod_shop_needle_lod0.xmodel_bin",
+      "sha256": "0cd439aa58f9e7f84881cf545eeb28117cb2dcc5da9df7d1d2f135373a96d66d"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 1,
+      "triangles": 63,
+      "file": "model_export/tod_shop/tod_shop_needle_lod1.xmodel_bin",
+      "sha256": "cd19c8378a7ef27d4fccdfa24241a6f4b6188e5e4bb308ab542a7e92a7cb0754"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 2,
+      "triangles": 33,
+      "file": "model_export/tod_shop/tod_shop_needle_lod2.xmodel_bin",
+      "sha256": "4bbba8d80b22ce4b7e719bd69d4e20f14eb7d09181054d3bd69300094b46b8b2"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 3,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_needle_lod3.xmodel_bin",
+      "sha256": "126f6d99c7bf6b1106f81c4cff9abb30f468f31bb4a40c5d92d0f4308d2c04c1"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 4,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_needle_lod4.xmodel_bin",
+      "sha256": "126f6d99c7bf6b1106f81c4cff9abb30f468f31bb4a40c5d92d0f4308d2c04c1"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_needle_lod5.xmodel_bin",
+      "sha256": "126f6d99c7bf6b1106f81c4cff9abb30f468f31bb4a40c5d92d0f4308d2c04c1"
+    },
+    {
+      "asset": "tod_shop_needle",
+      "group": "needle",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_needle_lod6.xmodel_bin",
+      "sha256": "126f6d99c7bf6b1106f81c4cff9abb30f468f31bb4a40c5d92d0f4308d2c04c1"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 0,
+      "triangles": 25999,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod0.xmodel_bin",
+      "sha256": "b1dfe063319b83135981aae61a1ba0279c89635ed4079598a19d6859acfcb937"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 1,
+      "triangles": 14362,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod1.xmodel_bin",
+      "sha256": "4ee8d70dcd98ff3ae79bac1b333085358a8c730cdb3342c0cc96f9b7f0d87460"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 2,
+      "triangles": 7415,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod2.xmodel_bin",
+      "sha256": "1105d533d71cbdd643643fe10c75c5d782f9e3e5ee1d90f5e77874cab2f46b01"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 3,
+      "triangles": 3875,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod3.xmodel_bin",
+      "sha256": "55cca13f3e44248217d6322f3f9603f92075c9a9bcfcb4e9583aba2b9c21838a"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 4,
+      "triangles": 2296,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod4.xmodel_bin",
+      "sha256": "ad428042356c17ab5dd37105b7178eb63a7028c4eb6af57b53933a946577604b"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 5,
+      "triangles": 1475,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod5.xmodel_bin",
+      "sha256": "7d1243faf4d0e27a2324f5e6ad6a02aadf88337dad08e46e02c345f423ff6bdb"
+    },
+    {
+      "asset": "tod_shop_vendor",
+      "group": "vendor",
+      "lod": 6,
+      "triangles": 1107,
+      "file": "model_export/tod_shop/tod_shop_vendor_lod6.xmodel_bin",
+      "sha256": "a0ab051c88f9510fc3853369c1c900cd32eec5822e8e2a24dd92c74a3093b0ec"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 0,
+      "triangles": 11765,
+      "file": "model_export/tod_shop/tod_shop_steady_lod0.xmodel_bin",
+      "sha256": "07d9078415c807a006e274ae6c51d50be892eb7f4743beab015faee96198c55f"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 1,
+      "triangles": 6629,
+      "file": "model_export/tod_shop/tod_shop_steady_lod1.xmodel_bin",
+      "sha256": "5d02732704a2a20622b92a79a55fe9e53fd1efba321e5ea61ffbdf22dc461c36"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 2,
+      "triangles": 3710,
+      "file": "model_export/tod_shop/tod_shop_steady_lod2.xmodel_bin",
+      "sha256": "cc7005d8f1e07610ff5ccbb5beda48a5e8f08076c5ff5726ac6b8912fefb992b"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 3,
+      "triangles": 2395,
+      "file": "model_export/tod_shop/tod_shop_steady_lod3.xmodel_bin",
+      "sha256": "da22927a2f89c4e217d91f6e81bca08bf5939e5e93855fbf3b9ef90c0dfd894b"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 4,
+      "triangles": 1949,
+      "file": "model_export/tod_shop/tod_shop_steady_lod4.xmodel_bin",
+      "sha256": "03a2ebd92fc7a322ca9eb30bd9d66f4013a6cd96c8fdb2440897fca452319ab8"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 5,
+      "triangles": 1779,
+      "file": "model_export/tod_shop/tod_shop_steady_lod5.xmodel_bin",
+      "sha256": "5dee175b14955f695e5ceeb03f585e55233058651bf7f1de12ad19f9c2a3a0d1"
+    },
+    {
+      "asset": "tod_shop_steady",
+      "group": "steady",
+      "lod": 6,
+      "triangles": 1739,
+      "file": "model_export/tod_shop/tod_shop_steady_lod6.xmodel_bin",
+      "sha256": "6c041d99e82e5b6d90c10df30bc966d1a67a339f3a3bfc6dcdc33f559e3a9de8"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 0,
+      "triangles": 760,
+      "file": "model_export/tod_shop/tod_shop_mask_lod0.xmodel_bin",
+      "sha256": "e5ef0d1d4b61027d8ba63802b7fc41215487ca59879f28e9262ac95a3509d8f1"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 1,
+      "triangles": 446,
+      "file": "model_export/tod_shop/tod_shop_mask_lod1.xmodel_bin",
+      "sha256": "18c28b9c876243fe923fe87ab625827e4c80370d64eef4cf0df4c3b2d40866e4"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 2,
+      "triangles": 403,
+      "file": "model_export/tod_shop/tod_shop_mask_lod2.xmodel_bin",
+      "sha256": "3fa0c835a3de160d97b30131850a1b87d161e65769a6a5ecc5a2da22063be00f"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 3,
+      "triangles": 387,
+      "file": "model_export/tod_shop/tod_shop_mask_lod3.xmodel_bin",
+      "sha256": "928f9331b0ab88e7bb8045f431a40f6ac2e503827d505a16ccff73803c3248d6"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 4,
+      "triangles": 387,
+      "file": "model_export/tod_shop/tod_shop_mask_lod4.xmodel_bin",
+      "sha256": "928f9331b0ab88e7bb8045f431a40f6ac2e503827d505a16ccff73803c3248d6"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 5,
+      "triangles": 387,
+      "file": "model_export/tod_shop/tod_shop_mask_lod5.xmodel_bin",
+      "sha256": "928f9331b0ab88e7bb8045f431a40f6ac2e503827d505a16ccff73803c3248d6"
+    },
+    {
+      "asset": "tod_shop_mask",
+      "group": "mask",
+      "lod": 6,
+      "triangles": 387,
+      "file": "model_export/tod_shop/tod_shop_mask_lod6.xmodel_bin",
+      "sha256": "928f9331b0ab88e7bb8045f431a40f6ac2e503827d505a16ccff73803c3248d6"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 0,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod0.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 1,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod1.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 2,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod2.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 3,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod3.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 4,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod4.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 5,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod5.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_t",
+      "group": "letter_t",
+      "lod": 6,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_t_lod6.xmodel_bin",
+      "sha256": "508a5f0eb47fd5957bfbf2ff557ed4425571f97e4cb7618f015a9c9d1cb09c36"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 0,
+      "triangles": 480,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod0.xmodel_bin",
+      "sha256": "78a6c1e3095e2c24a1517a9afcb39d16834288c39cd8733fd5a0771901fd111b"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 1,
+      "triangles": 274,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod1.xmodel_bin",
+      "sha256": "fc93b0a0f027704818c29116e543b45d8a9ac72c9f1711694373b8953bdbc803"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 2,
+      "triangles": 150,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod2.xmodel_bin",
+      "sha256": "735d57b9479efd511373c5f1c4a98307959e2a8f2534af14ea902b4ebf6ee609"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 3,
+      "triangles": 86,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod3.xmodel_bin",
+      "sha256": "bafe48008fadcfd9785f6933ded4b4ae8f04274bccdcf89284dcff038639dfaf"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 4,
+      "triangles": 58,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod4.xmodel_bin",
+      "sha256": "b902b8fdaa4fec2ba036502f12e53b52fed91a83d7cdb7b8b82d6231d4386a55"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 5,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod5.xmodel_bin",
+      "sha256": "fae6b6a15a1eb7e0e51c11f71713f039629b55236d0a2e8faca93e45167ceebe"
+    },
+    {
+      "asset": "tod_shop_letter_e",
+      "group": "letter_e",
+      "lod": 6,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_letter_e_lod6.xmodel_bin",
+      "sha256": "fae6b6a15a1eb7e0e51c11f71713f039629b55236d0a2e8faca93e45167ceebe"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 0,
+      "triangles": 1152,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod0.xmodel_bin",
+      "sha256": "1033719bccb6ac41c413230e80bbbf142e88f8619825799e833f49753c66ae74"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 1,
+      "triangles": 632,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod1.xmodel_bin",
+      "sha256": "5247a3ca255256daf9aff3cdb2fedbc3f2739573e90c7868cee55e992281d21e"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 2,
+      "triangles": 321,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod2.xmodel_bin",
+      "sha256": "184f7af278ad9e794de4af635ff5dd87886799df493bb8e4cb04275554c2fe2d"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 3,
+      "triangles": 161,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod3.xmodel_bin",
+      "sha256": "94e237cccf437c8700cf86c9f768a75ae22d8bd8bfe8d8b683f7cc754072addb"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 4,
+      "triangles": 86,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod4.xmodel_bin",
+      "sha256": "3bb3059fc120589ccb12d8f9303423905d1dc91c930555c44b79e9fea5a86fb4"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 5,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod5.xmodel_bin",
+      "sha256": "074a7d0e0b433ee074e25f8258695bfc6fcaf92a91fae5aab56abf6d208762cc"
+    },
+    {
+      "asset": "tod_shop_letter_c",
+      "group": "letter_c",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_letter_c_lod6.xmodel_bin",
+      "sha256": "4f08a5d51436cc6aacde2610430429b344e669b07226fd66d3b30d3ad0646818"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 0,
+      "triangles": 1908,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod0.xmodel_bin",
+      "sha256": "93b5212864dcf8c7cf6b617b7509f04652c1c178d8c992921e1da7ed7ce94fa4"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 1,
+      "triangles": 1044,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod1.xmodel_bin",
+      "sha256": "d03a69ed32d7b9a9e057fe9b7a901302262a02f42f5ca858c24c95ed0db6714d"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 2,
+      "triangles": 534,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod2.xmodel_bin",
+      "sha256": "ddd77be060313b38cfa6f9d5d77a24dda2c8e7a49db3672d4ae7681a3e48740a"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 3,
+      "triangles": 264,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod3.xmodel_bin",
+      "sha256": "7017c3586f81df9b6aa6965b9a5138ffe1630f7d4615e66fa832eb5a96ce6b36"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 4,
+      "triangles": 138,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod4.xmodel_bin",
+      "sha256": "0ca68eeb899d61d255c18452836ee1e1fc39dcb5b132bdd6417bc7088f3c9a8f"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 5,
+      "triangles": 72,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod5.xmodel_bin",
+      "sha256": "e4cd5251e1c30f409ad773d7f7ef85e9edc57896dba035c1126ba32635785675"
+    },
+    {
+      "asset": "tod_shop_core_left",
+      "group": "core_left",
+      "lod": 6,
+      "triangles": 72,
+      "file": "model_export/tod_shop/tod_shop_core_left_lod6.xmodel_bin",
+      "sha256": "e4cd5251e1c30f409ad773d7f7ef85e9edc57896dba035c1126ba32635785675"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 0,
+      "triangles": 188,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod0.xmodel_bin",
+      "sha256": "3bc0c82c4627d084e410424f99a1f8ee6a6fe2b11463f5595790d04f3eb36394"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 1,
+      "triangles": 102,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod1.xmodel_bin",
+      "sha256": "9d4d8f678d7fc1ddeb540eb5e7e56eef7c09811a5a99ed64eab5a02fd05c9d8d"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 2,
+      "triangles": 52,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod2.xmodel_bin",
+      "sha256": "b9041e18f90000f2fa209f46156ea2e99106cf136ccdf136011d36e59bf24913"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 3,
+      "triangles": 26,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod3.xmodel_bin",
+      "sha256": "975fb2ebe0615f0d5fd2c5f8a32e950087a05deb0b91587c61b26bba4c085190"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 4,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod4.xmodel_bin",
+      "sha256": "928653f8a940f0412647a78502fa1c6f39af6d5481bcc9fc571bdf378fe25d8f"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod5.xmodel_bin",
+      "sha256": "928653f8a940f0412647a78502fa1c6f39af6d5481bcc9fc571bdf378fe25d8f"
+    },
+    {
+      "asset": "tod_shop_core_counter",
+      "group": "core_counter",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_core_counter_lod6.xmodel_bin",
+      "sha256": "928653f8a940f0412647a78502fa1c6f39af6d5481bcc9fc571bdf378fe25d8f"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 0,
+      "triangles": 636,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod0.xmodel_bin",
+      "sha256": "ed387e895a2ce17ba57805b78fde2971f1551f4570106528292b0e68d8828132"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 1,
+      "triangles": 348,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod1.xmodel_bin",
+      "sha256": "8b6c2926802e5a59131491d8526fc666738205b27271a4a4251a79aef2bb7cf9"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 2,
+      "triangles": 178,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod2.xmodel_bin",
+      "sha256": "b06a2e23503cd0e647d64a14ad4b8fc36ea5c414eaeec6fb270c2009bab0f4d8"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 3,
+      "triangles": 88,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod3.xmodel_bin",
+      "sha256": "706ad0393f2e516090960523c3a10adaa6da2b682968c6e5d1b416dea11544b2"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 4,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod4.xmodel_bin",
+      "sha256": "7d8c2c7c4bb3c053cf970e3bd81cd6cc06507bfb32b284539e3b8a3a331155fd"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod5.xmodel_bin",
+      "sha256": "0aae111108cc0a132fc4437597d7304156be7e7e89900f256c4e6fdc7248fb64"
+    },
+    {
+      "asset": "tod_shop_core_right",
+      "group": "core_right",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_core_right_lod6.xmodel_bin",
+      "sha256": "0aae111108cc0a132fc4437597d7304156be7e7e89900f256c4e6fdc7248fb64"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 0,
+      "triangles": 636,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod0.xmodel_bin",
+      "sha256": "5018203fa6c2458f1d46d0c037f9b8e79f1805759f87babe1bc667ffd70cebe2"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 1,
+      "triangles": 348,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod1.xmodel_bin",
+      "sha256": "05caaa2324dc1dc3729c63d19e4b39f1bba29b08b0e43bd75fbf7a4b5368c18d"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 2,
+      "triangles": 178,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod2.xmodel_bin",
+      "sha256": "733106ee9e3286f1ab6482a4315fab705bacf4e0bad6790c05fb9a23d7dc6afe"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 3,
+      "triangles": 88,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod3.xmodel_bin",
+      "sha256": "6c55d672388b6515331f119c0cda1034be418ab9506c619c16926aa9b12d1d6b"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 4,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod4.xmodel_bin",
+      "sha256": "b43d80e84db9dfb2c85cc6cf2b718bb79193b045464afe4b26dd0eb9cf909a5e"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod5.xmodel_bin",
+      "sha256": "2818280106b0aa38c64520c24fbbcf7bfec652cee1192cac86f7976e831a52ca"
+    },
+    {
+      "asset": "tod_shop_scan_0",
+      "group": "scan_0",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_0_lod6.xmodel_bin",
+      "sha256": "2818280106b0aa38c64520c24fbbcf7bfec652cee1192cac86f7976e831a52ca"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 0,
+      "triangles": 636,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod0.xmodel_bin",
+      "sha256": "83575d1a16c9178a14204ad96f7989e852a77d426f4b51dcbd78377eb7e3feec"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 1,
+      "triangles": 348,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod1.xmodel_bin",
+      "sha256": "dc7c1982ea97b2a22b4ab6315d9fa6bee3bb1ec508da83683600c5158e2ccadc"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 2,
+      "triangles": 178,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod2.xmodel_bin",
+      "sha256": "05e66842d81de725b263d68335bb35212ad81454f07f029ec42be3a5fb169cc6"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 3,
+      "triangles": 88,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod3.xmodel_bin",
+      "sha256": "42a4900249b762f2e277474b1a570bd96f0b5c4dc7b4161c667f8931c2f94eda"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 4,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod4.xmodel_bin",
+      "sha256": "edd1dcfb00a72251b16ba1392a50c3ae65e2378656afca9cc91c39770e8ba75c"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod5.xmodel_bin",
+      "sha256": "6ec52155dc2cb45868e3ca5a23a5656b8fbc30232b867c793665a171890681e9"
+    },
+    {
+      "asset": "tod_shop_scan_1",
+      "group": "scan_1",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_1_lod6.xmodel_bin",
+      "sha256": "6ec52155dc2cb45868e3ca5a23a5656b8fbc30232b867c793665a171890681e9"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 0,
+      "triangles": 636,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod0.xmodel_bin",
+      "sha256": "ec0eb8e75762d41582a371f58ee4132ae007a1fc2710c5b60b9d4242c7f1ddd6"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 1,
+      "triangles": 348,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod1.xmodel_bin",
+      "sha256": "ea94a559932037f8685bbf3e476f0637af53305610cfdc2058008ec38004d74a"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 2,
+      "triangles": 178,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod2.xmodel_bin",
+      "sha256": "37825bce982f0fc2df843835bf4a7e88b3ae7b964e719ebe43b10a80d2043c41"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 3,
+      "triangles": 88,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod3.xmodel_bin",
+      "sha256": "7394c71dc1d89185f29122bb6ac0630ce1391a5637449c66e3418a5bfbc8c745"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 4,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod4.xmodel_bin",
+      "sha256": "7f4eac68097fd37171768e10b141d773fceaf741096d5fc607182bf350c49a9b"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod5.xmodel_bin",
+      "sha256": "c4bd39b59a7bf542e81e6d3bbbb9b8712f6e43b2e425645fd2eca688446306b4"
+    },
+    {
+      "asset": "tod_shop_scan_2",
+      "group": "scan_2",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_2_lod6.xmodel_bin",
+      "sha256": "c4bd39b59a7bf542e81e6d3bbbb9b8712f6e43b2e425645fd2eca688446306b4"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 0,
+      "triangles": 636,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod0.xmodel_bin",
+      "sha256": "fa1e41b8b5500556b02f6ece80550d3d5a9af2e7bf28bd1880852c37fba01274"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 1,
+      "triangles": 348,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod1.xmodel_bin",
+      "sha256": "e9f41c69b12d5c7bf4d7f7f7653995816f8744e6257f5127d92646b18e2f13f9"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 2,
+      "triangles": 178,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod2.xmodel_bin",
+      "sha256": "f93f2653ac7e15a6ad6b046cab7515c7f3b3096a2541e74cd6c724b6d5d3523d"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 3,
+      "triangles": 88,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod3.xmodel_bin",
+      "sha256": "b462294437d5646fae7538dd64854028336e8d29e8b285fd27f4307feb65a260"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 4,
+      "triangles": 46,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod4.xmodel_bin",
+      "sha256": "61ead28a9d4065886d0083eecb79f61a3a7852e299490ca6de00698867eda62c"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 5,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod5.xmodel_bin",
+      "sha256": "f86443aa6f59b8b1df8d00e2e83e62e47e9acc426b7e7bae141c89f25fa8bbb7"
+    },
+    {
+      "asset": "tod_shop_scan_3",
+      "group": "scan_3",
+      "lod": 6,
+      "triangles": 24,
+      "file": "model_export/tod_shop/tod_shop_scan_3_lod6.xmodel_bin",
+      "sha256": "f86443aa6f59b8b1df8d00e2e83e62e47e9acc426b7e7bae141c89f25fa8bbb7"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 0,
+      "triangles": 1200,
+      "file": "model_export/tod_shop/tod_shop_arc_lod0.xmodel_bin",
+      "sha256": "ef60e6ebe85f3e28e0414788ece5148b883d5e588c3ea2095967b8a4cf07061c"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 1,
+      "triangles": 660,
+      "file": "model_export/tod_shop/tod_shop_arc_lod1.xmodel_bin",
+      "sha256": "eb63140e2d3932a32b63110f44c98966c7bdb59328eecf7d6c49132f2c87f091"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 2,
+      "triangles": 336,
+      "file": "model_export/tod_shop/tod_shop_arc_lod2.xmodel_bin",
+      "sha256": "ec0b075762ac481216f645736788bab26e76d654f59373f633f06065a5bcdcad"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 3,
+      "triangles": 168,
+      "file": "model_export/tod_shop/tod_shop_arc_lod3.xmodel_bin",
+      "sha256": "3c431e9020faac49ebe8b4506441b57a43b8db1f3b7fc43228dd0c5ceae09f6e"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 4,
+      "triangles": 90,
+      "file": "model_export/tod_shop/tod_shop_arc_lod4.xmodel_bin",
+      "sha256": "7ca08e5e9746bec2464b332c47408fe7c4309201a37667f8da39a14a4cf69bf7"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 5,
+      "triangles": 48,
+      "file": "model_export/tod_shop/tod_shop_arc_lod5.xmodel_bin",
+      "sha256": "fffac6b333bc986c7ed606ce66a2055b566b910aac607e9b0cf4de04dd421129"
+    },
+    {
+      "asset": "tod_shop_arc",
+      "group": "arc",
+      "lod": 6,
+      "triangles": 26,
+      "file": "model_export/tod_shop/tod_shop_arc_lod6.xmodel_bin",
+      "sha256": "f768b0bb5487f58c79723426c2a9d3148428ac2f062ecf644557b8cbdb4df8cc"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 0,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod0.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 1,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod1.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 2,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod2.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 3,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod3.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 4,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod4.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 5,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod5.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_spark",
+      "group": "spark",
+      "lod": 6,
+      "triangles": 4,
+      "file": "model_export/tod_shop/tod_shop_spark_lod6.xmodel_bin",
+      "sha256": "05d370f0c4368d9e362703a8a45f797008e4f103f4baec1beb5db8722c0102f2"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 0,
+      "triangles": 109734,
+      "file": "model_export/tod_shop/tod_shop_off_lod0.xmodel_bin",
+      "sha256": "a5b75c96ca6275fed6b90dc441aff979f026b24e6d3bd564c109fa593b18933e"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 1,
+      "triangles": 63687,
+      "file": "model_export/tod_shop/tod_shop_off_lod1.xmodel_bin",
+      "sha256": "58be57cd695a777b3c858707276f38e270d21626210b39d40056cf8201e00800"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 2,
+      "triangles": 40508,
+      "file": "model_export/tod_shop/tod_shop_off_lod2.xmodel_bin",
+      "sha256": "83b7d6da80a61255b4f3cf80105809241ddcc2e3c15b9e7845f370c06477958f"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 3,
+      "triangles": 29026,
+      "file": "model_export/tod_shop/tod_shop_off_lod3.xmodel_bin",
+      "sha256": "001a8d39616ab897160b1a859b631344e81cd861d5069e9ca6cf6a56792dae32"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 4,
+      "triangles": 20455,
+      "file": "model_export/tod_shop/tod_shop_off_lod4.xmodel_bin",
+      "sha256": "ee6ef5060303924fe3eb8e546983795ae858aecd319911072fa89972df0b6eaa"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 5,
+      "triangles": 18011,
+      "file": "model_export/tod_shop/tod_shop_off_lod5.xmodel_bin",
+      "sha256": "dab96eabae8fd8509c6a4f5df8e17ffe7bbcae83423295092c22de1da53846e5"
+    },
+    {
+      "asset": "tod_shop_off",
+      "group": "off",
+      "lod": 6,
+      "triangles": 16263,
+      "file": "model_export/tod_shop/tod_shop_off_lod6.xmodel_bin",
+      "sha256": "85bbc2cee117b7528ca4b7ccc07dd2c34adbc904d5f4aa9f0ba65a0bfcd3580f"
+    }
+  ],
+  "gdt_sha256": "6b93deeddd12b80173b1f0a42b208cb885cc42137e4a48df01aba625adbcba23",
+  "native_playtested": false
+}

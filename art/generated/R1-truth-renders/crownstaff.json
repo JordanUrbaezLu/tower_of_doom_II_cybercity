@@ -1,0 +1,95 @@
+{
+ "binary": "model_export\\tod_necro_staff\\tod_necro_staff3_view_lod0.XMODEL_BIN",
+ "sha256": "a5ee237ebac363daf53cefdecef1cbe80c651985941fd1542b0214c3b966de47",
+ "triangles": 69007,
+ "materials": {
+  "mtl_tod_necro_staff_leather": {
+   "resolved_as": "mtl_tod_necro_staff_leather",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_leather_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_forge": {
+   "resolved_as": "mtl_tod_necro_staff_forge",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_forge_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_crevice": {
+   "resolved_as": "mtl_tod_necro_staff_crevice",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_bone_c.png",
+   "tint": [
+    0.24,
+    0.21,
+    0.17
+   ]
+  },
+  "mtl_tod_necro_staff_iron": {
+   "resolved_as": "mtl_tod_necro_staff_iron",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_iron_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_bone": {
+   "resolved_as": "mtl_tod_necro_staff_bone",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_bone_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_soul": {
+   "resolved_as": "mtl_tod_necro_staff_soul",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_staff_soul_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 96.54893493652344,
+   "res": [
+    1600,
+    192
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 85.10362243652344,
+   "res": [
+    1200,
+    264
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

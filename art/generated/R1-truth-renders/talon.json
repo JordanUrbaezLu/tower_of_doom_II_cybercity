@@ -1,0 +1,184 @@
+{
+ "binary": "model_export\\tod_partner\\tod_partner_talon.xmodel_bin",
+ "sha256": "d12fb629f63ad339c2d497f1042840732242bdb7a0d7d1969a47e2e091ffb8f1",
+ "triangles": 10892,
+ "materials": {
+  "mtl_tod_ptn_tal_00": {
+   "resolved_as": "mtl_tod_ptn_tal_00",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_tal_01": {
+   "resolved_as": "mtl_tod_ptn_tal_01",
+   "color_map": null,
+   "tint": [
+    0.515007,
+    0.517647,
+    0.517647
+   ]
+  },
+  "mtl_tod_ptn_tal_02": {
+   "resolved_as": "mtl_tod_ptn_tal_02",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_tal_03": {
+   "resolved_as": "mtl_tod_ptn_tal_03",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_tal_04": {
+   "resolved_as": "mtl_tod_ptn_tal_04",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_05": {
+   "resolved_as": "mtl_tod_ptn_tal_05",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_tal_06": {
+   "resolved_as": "mtl_tod_ptn_tal_06",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_tal_07": {
+   "resolved_as": "mtl_tod_ptn_tal_07",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_08": {
+   "resolved_as": "mtl_tod_ptn_tal_08",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_tal_09": {
+   "resolved_as": "mtl_tod_ptn_tal_09",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_10": {
+   "resolved_as": "mtl_tod_ptn_tal_10",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc_decal_greeble_08_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_tal_11": {
+   "resolved_as": "mtl_tod_ptn_tal_11",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_12": {
+   "resolved_as": "mtl_tod_ptn_tal_12",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_13": {
+   "resolved_as": "mtl_tod_ptn_tal_13",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_tal_14": {
+   "resolved_as": "mtl_tod_ptn_tal_14",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  }
+ },
+ "untextured": [],
+ "dropped_islands": 0,
+ "rot": [],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 24.97525405883789,
+   "res": [
+    1600,
+    1232
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 34.74393844604492,
+   "res": [
+    1200,
+    996
+   ]
+  },
+  "por": {
+   "dir": [
+    -0.5179632306098938,
+    -0.835424542427063,
+    -0.18379339575767517
+   ],
+   "ortho_scale": 36.23489761352539,
+   "res": [
+    1200,
+    744
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

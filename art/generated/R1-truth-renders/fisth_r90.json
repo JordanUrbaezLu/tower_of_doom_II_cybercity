@@ -1,0 +1,47 @@
+{
+ "binary": "model_export\\tod_archer\\tod_archer_bo2_hands.xmodel_bin",
+ "sha256": "6e99f0ec55e9d79de12a06ca1ea2906e45a9250a466e48d2d705bde9743dce3d",
+ "triangles": 7240,
+ "materials": {
+  "mtl_tod_archer_hands_0": {
+   "resolved_as": "mtl_tod_archer_hands_0",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_archer\\_images\\i_tod_archer_hands_0_col.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_archer_hands_1": {
+   "resolved_as": "mtl_tod_archer_hands_1",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_archer\\_images\\i_tod_archer_hands_1_col.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "X",
+   90
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 6.18134069442749,
+   "res": [
+    1600,
+    1232
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

@@ -1,0 +1,202 @@
+{
+ "crossbow": {
+  "anchor": [
+   6.3,
+   0.0,
+   1.7
+  ],
+  "at": [
+   566,
+   456
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.00026514630031169653,
+  "model": "wpn_t9_crossbow_view.XMODEL_BIN",
+  "model_sha256": "c913c67cb3cd939f085294c2bbf7fb694642834f4c9d5a6e5c917d425d952249",
+  "scale": 30.0,
+  "triangles": 44042,
+  "view": [
+   18,
+   44,
+   14
+  ]
+ },
+ "cybersword": {
+  "anchor": [
+   0.0,
+   0.0,
+   17.3
+  ],
+  "at": [
+   580,
+   452
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 1.799168926910872e-05,
+  "model": "tod_cyber_sword_lod0.xmodel_bin",
+  "model_sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+  "scale": 20.5,
+  "triangles": 48777,
+  "view": [
+   0,
+   0,
+   -52
+  ]
+ },
+ "gauntlet": {
+  "anchor": [
+   -6.6,
+   -3.3,
+   5.4
+  ],
+  "at": [
+   566,
+   466
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.0004092945559164408,
+  "model": "wpn_t7_zmb_dlc3_gauntlet_dragon_view.xmodel_bin",
+  "model_sha256": "a081ec2b16bfc92516409bb2be051a8cc7ecdaf39772bc8943f5e182a10c6874",
+  "scale": 31.0,
+  "triangles": 61704,
+  "view": [
+   -28,
+   34,
+   6
+  ]
+ },
+ "rem870": {
+  "anchor": [
+   8.0,
+   0.0,
+   0.4
+  ],
+  "at": [
+   592,
+   446
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.0002107703209157976,
+  "model": "vm_t6_remington870mcs.xmodel_bin",
+  "model_sha256": "3371a524e37f94f7f494f143b06170263d0f0d09ee3dcabffffbc52c7de91fb2",
+  "scale": 32.5,
+  "triangles": 5814,
+  "view": [
+   22,
+   10,
+   13
+  ]
+ },
+ "rem870_buck": {
+  "anchor": [
+   25.6,
+   0.0,
+   3.2
+  ],
+  "at": [
+   712,
+   424
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.00010782832955145387,
+  "model": "vm_t6_remington870mcs.xmodel_bin",
+  "model_sha256": "3371a524e37f94f7f494f143b06170263d0f0d09ee3dcabffffbc52c7de91fb2",
+  "scale": 27.0,
+  "triangles": 5814,
+  "view": [
+   12,
+   8,
+   5
+  ]
+ },
+ "sword_arms": {
+  "anchor": [
+   0.0,
+   0.0,
+   17.3
+  ],
+  "at": [
+   600,
+   452
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 1.8230626610116672e-05,
+  "model": "tod_cyber_sword_lod0.xmodel_bin",
+  "model_sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+  "scale": 16.8,
+  "triangles": 48777,
+  "view": [
+   0,
+   0,
+   -28
+  ]
+ },
+ "sword_bash": {
+  "anchor": [
+   0.0,
+   0.0,
+   17.3
+  ],
+  "at": [
+   700,
+   456
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 1.4942747653355886e-05,
+  "model": "tod_cyber_sword_lod0.xmodel_bin",
+  "model_sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+  "scale": 15.4,
+  "triangles": 48777,
+  "view": [
+   0,
+   0,
+   -84
+  ]
+ },
+ "sword_demon": {
+  "anchor": [
+   0.0,
+   0.0,
+   17.3
+  ],
+  "at": [
+   560,
+   470
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 1.7196396583183037e-05,
+  "model": "tod_cyber_sword_lod0.xmodel_bin",
+  "model_sha256": "2b2c2d4617437a3b0b867a436a8f78affbea30b8e54db14f0709e8aa8bc09fa3",
+  "scale": 18.6,
+  "triangles": 48777,
+  "view": [
+   0,
+   0,
+   -50
+  ]
+ }
+}

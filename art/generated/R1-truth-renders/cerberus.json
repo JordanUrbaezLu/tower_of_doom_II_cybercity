@@ -1,0 +1,528 @@
+{
+ "binary": "model_export\\tod_partner\\tod_partner_cerberus.xmodel_bin",
+ "sha256": "4e84ee2c2bfe560c710a222e921e23653d36ba38af6a2af394454e05cae903f0",
+ "triangles": 39970,
+ "materials": {
+  "mtl_tod_ptn_cer_00": {
+   "resolved_as": "mtl_tod_ptn_cer_00",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_01": {
+   "resolved_as": "mtl_tod_ptn_cer_01",
+   "color_map": null,
+   "tint": [
+    0.06,
+    0.06,
+    0.07
+   ]
+  },
+  "mtl_tod_ptn_cer_02": {
+   "resolved_as": "mtl_tod_ptn_cer_02",
+   "color_map": null,
+   "tint": [
+    0.376471,
+    0.23621,
+    0.275837
+   ]
+  },
+  "mtl_tod_ptn_cer_03": {
+   "resolved_as": "mtl_tod_ptn_cer_03",
+   "color_map": null,
+   "tint": [
+    0.27451,
+    0.27451,
+    0.27451
+   ]
+  },
+  "mtl_tod_ptn_cer_04": {
+   "resolved_as": "mtl_tod_ptn_cer_04",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_05": {
+   "resolved_as": "mtl_tod_ptn_cer_05",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_06": {
+   "resolved_as": "mtl_tod_ptn_cer_06",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_07": {
+   "resolved_as": "mtl_tod_ptn_cer_07",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_08": {
+   "resolved_as": "mtl_tod_ptn_cer_08",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_09": {
+   "resolved_as": "mtl_tod_ptn_cer_09",
+   "color_map": null,
+   "tint": [
+    0.06,
+    0.06,
+    0.07
+   ]
+  },
+  "mtl_tod_ptn_cer_10": {
+   "resolved_as": "mtl_tod_ptn_cer_10",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_11": {
+   "resolved_as": "mtl_tod_ptn_cer_11",
+   "color_map": null,
+   "tint": [
+    0.756817,
+    0.729381,
+    0.694072
+   ]
+  },
+  "mtl_tod_ptn_cer_12": {
+   "resolved_as": "mtl_tod_ptn_cer_12",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_13": {
+   "resolved_as": "mtl_tod_ptn_cer_13",
+   "color_map": null,
+   "tint": [
+    0.188235,
+    0.188235,
+    0.188235
+   ]
+  },
+  "mtl_tod_ptn_cer_14": {
+   "resolved_as": "mtl_tod_ptn_cer_14",
+   "color_map": null,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_15": {
+   "resolved_as": "mtl_tod_ptn_cer_15",
+   "color_map": null,
+   "tint": [
+    0.515007,
+    0.517647,
+    0.517647
+   ]
+  },
+  "mtl_tod_ptn_cer_16": {
+   "resolved_as": "mtl_tod_ptn_cer_16",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_17": {
+   "resolved_as": "mtl_tod_ptn_cer_17",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_18": {
+   "resolved_as": "mtl_tod_ptn_cer_18",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc_decal_greeble_08_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_19": {
+   "resolved_as": "mtl_tod_ptn_cer_19",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_20": {
+   "resolved_as": "mtl_tod_ptn_cer_20",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_21": {
+   "resolved_as": "mtl_tod_ptn_cer_21",
+   "color_map": null,
+   "tint": [
+    0.756817,
+    0.729381,
+    0.694072
+   ]
+  },
+  "mtl_tod_ptn_cer_22": {
+   "resolved_as": "mtl_tod_ptn_cer_22",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_23": {
+   "resolved_as": "mtl_tod_ptn_cer_23",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_24": {
+   "resolved_as": "mtl_tod_ptn_cer_24",
+   "color_map": null,
+   "tint": [
+    0.23917,
+    0.249332,
+    0.282353
+   ]
+  },
+  "mtl_tod_ptn_cer_25": {
+   "resolved_as": "mtl_tod_ptn_cer_25",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_26": {
+   "resolved_as": "mtl_tod_ptn_cer_26",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_27": {
+   "resolved_as": "mtl_tod_ptn_cer_27",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_28": {
+   "resolved_as": "mtl_tod_ptn_cer_28",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_29": {
+   "resolved_as": "mtl_tod_ptn_cer_29",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_30": {
+   "resolved_as": "mtl_tod_ptn_cer_30",
+   "color_map": null,
+   "tint": [
+    0.756817,
+    0.729381,
+    0.694072
+   ]
+  },
+  "mtl_tod_ptn_cer_31": {
+   "resolved_as": "mtl_tod_ptn_cer_31",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_32": {
+   "resolved_as": "mtl_tod_ptn_cer_32",
+   "color_map": null,
+   "tint": [
+    0.756817,
+    0.729381,
+    0.694072
+   ]
+  },
+  "mtl_tod_ptn_cer_33": {
+   "resolved_as": "mtl_tod_ptn_cer_33",
+   "color_map": null,
+   "tint": [
+    0.196078,
+    0.196078,
+    0.196078
+   ]
+  },
+  "mtl_tod_ptn_cer_34": {
+   "resolved_as": "mtl_tod_ptn_cer_34",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_35": {
+   "resolved_as": "mtl_tod_ptn_cer_35",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_36": {
+   "resolved_as": "mtl_tod_ptn_cer_36",
+   "color_map": null,
+   "tint": [
+    0.345098,
+    0.345098,
+    0.345098
+   ]
+  },
+  "mtl_tod_ptn_cer_37": {
+   "resolved_as": "mtl_tod_ptn_cer_37",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_38": {
+   "resolved_as": "mtl_tod_ptn_cer_38",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_39": {
+   "resolved_as": "mtl_tod_ptn_cer_39",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_40": {
+   "resolved_as": "mtl_tod_ptn_cer_40",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_41": {
+   "resolved_as": "mtl_tod_ptn_cer_41",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_42": {
+   "resolved_as": "mtl_tod_ptn_cer_42",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_43": {
+   "resolved_as": "mtl_tod_ptn_cer_43",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.221256,
+    0.19794
+   ]
+  },
+  "mtl_tod_ptn_cer_44": {
+   "resolved_as": "mtl_tod_ptn_cer_44",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_45": {
+   "resolved_as": "mtl_tod_ptn_cer_45",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_46": {
+   "resolved_as": "mtl_tod_ptn_cer_46",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\vehicles_t7\\_veh_detail_materials\\t7_veh_decal_bolt_01_c2.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_ptn_cer_47": {
+   "resolved_as": "mtl_tod_ptn_cer_47",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_48": {
+   "resolved_as": "mtl_tod_ptn_cer_48",
+   "color_map": null,
+   "tint": [
+    0.239216,
+    0.239216,
+    0.239216
+   ]
+  },
+  "mtl_tod_ptn_cer_49": {
+   "resolved_as": "mtl_tod_ptn_cer_49",
+   "color_map": null,
+   "tint": [
+    0.345098,
+    0.345098,
+    0.345098
+   ]
+  },
+  "mtl_tod_ptn_cer_50": {
+   "resolved_as": "mtl_tod_ptn_cer_50",
+   "color_map": null,
+   "tint": [
+    0.348669,
+    0.3626,
+    0.407843
+   ]
+  },
+  "mtl_tod_ptn_cer_51": {
+   "resolved_as": "mtl_tod_ptn_cer_51",
+   "color_map": null,
+   "tint": [
+    0.27451,
+    0.27451,
+    0.27451
+   ]
+  },
+  "mtl_tod_ptn_cer_52": {
+   "resolved_as": "mtl_tod_ptn_cer_52",
+   "color_map": null,
+   "tint": null
+  }
+ },
+ "untextured": [
+  "mtl_tod_ptn_cer_52"
+ ],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 61.30606460571289,
+   "res": [
+    1600,
+    1128
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 68.60356140136719,
+   "res": [
+    1200,
+    876
+   ]
+  },
+  "por": {
+   "dir": [
+    -0.5179632306098938,
+    -0.835424542427063,
+    -0.18379339575767517
+   ],
+   "ortho_scale": 69.2535171508789,
+   "res": [
+    1200,
+    812
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

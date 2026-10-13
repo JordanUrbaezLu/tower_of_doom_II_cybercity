@@ -1,0 +1,60 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\t9_wpn_ports\\_melee\\t9_knife_combat\\wpn_t9_knife_combat_american_view.XMODEL_BIN",
+ "sha256": "26217372327b5eafb92b1db3f71e0832d26cefccd6e5f747cd0a9a02244a9885",
+ "triangles": 2424,
+ "materials": {
+  "mtl_wpn_t9_combat_knife_american": {
+   "resolved_as": "mtl_wpn_t9_combat_knife_american",
+   "color_map": null,
+   "tint": null
+  },
+  "xmaterial_e405fc62475273b": {
+   "resolved_as": "xmaterial_e405fc62475273b",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_wpn_t9_combat_knife_american_alt": {
+   "resolved_as": "mtl_wpn_t9_combat_knife_american_alt",
+   "color_map": null,
+   "tint": null
+  }
+ },
+ "untextured": [
+  "mtl_wpn_t9_combat_knife_american",
+  "xmaterial_e405fc62475273b",
+  "mtl_wpn_t9_combat_knife_american_alt"
+ ],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 18.500932693481445,
+   "res": [
+    1600,
+    296
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 16.395917892456055,
+   "res": [
+    1200,
+    288
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

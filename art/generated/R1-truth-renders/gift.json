@@ -1,0 +1,115 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\xmas_gun\\view_xmas_gun.XMODEL_BIN",
+ "sha256": "ba8cfa5e7ba7ad004b5882bda650ad45b67ed416d54cd94ed20aaf9fd0532aa5",
+ "triangles": 268074,
+ "materials": {
+  "mtl_xmas_gun": {
+   "resolved_as": "mtl_xmas_gun",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\xmas_gun\\textures\\xmas_gun\\xmas_gun_diffuse.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_glass": {
+   "resolved_as": "mtl_glass",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_ribbon": {
+   "resolved_as": "mtl_xmas_gun_ribbon",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_tag": {
+   "resolved_as": "mtl_xmas_gun_tag",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\xmas_gun\\textures\\FromTag.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_xmas_gun_bells": {
+   "resolved_as": "mtl_xmas_gun_bells",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_tinsel_green": {
+   "resolved_as": "mtl_xmas_gun_tinsel_green",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_tinsel_gold": {
+   "resolved_as": "mtl_xmas_gun_tinsel_gold",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_light_string": {
+   "resolved_as": "mtl_xmas_gun_light_string",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_xmas_gun_lights": {
+   "resolved_as": "mtl_xmas_gun_lights",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_xmas_gun_ornaments": {
+   "resolved_as": "mtl_xmas_gun_ornaments",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\xmas_gun\\textures\\ornaments\\xmas_gun_ornament_diffuse.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [
+  "mtl_glass",
+  "mtl_xmas_gun_ribbon",
+  "mtl_xmas_gun_bells",
+  "mtl_xmas_gun_tinsel_green",
+  "mtl_xmas_gun_tinsel_gold",
+  "mtl_xmas_gun_light_string"
+ ],
+ "dropped_islands": 11320,
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 39.28453063964844,
+   "res": [
+    1600,
+    556
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 36.19236373901367,
+   "res": [
+    1200,
+    468
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

@@ -1,0 +1,130 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\c_zom_zod_robot_protector_gold_fb.xmodel_bin",
+ "sha256": "5c1f530a1cbed45332c04ad77b87a55aa48ec4f0a863dae32187ff8d2fe9afbc",
+ "triangles": 47574,
+ "materials": {
+  "mtl_c_t7_zom_zod_robot_arm_gold": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_arm2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\_images\\i_c_t7_zmb_zod_robot_arm_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_leg_2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_leg_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\_images\\i_c_t7_zom_zod_robot_leg_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_leg_gold": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_leg_gold",
+   "color_map": null,
+   "tint": [
+    0.988235,
+    0.778927,
+    0.348791
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_guts": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_guts2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_limbs_gold": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_limbs_gold",
+   "color_map": null,
+   "tint": [
+    0.988235,
+    0.778927,
+    0.348791
+   ]
+  },
+  "mtl_c_t7_nrc_robot_grunt_chassis_pelvis": {
+   "resolved_as": "mtl_c_t7_nrc_robot_grunt_chassis_pelvis2",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_c_t7_zom_zod_robot_upper_gold": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_upper_gold",
+   "color_map": null,
+   "tint": [
+    0.988235,
+    0.778927,
+    0.348791
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_cloth": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_cloth2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_foot_gold": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_foot_gold",
+   "color_map": null,
+   "tint": [
+    0.988235,
+    0.778927,
+    0.348791
+   ]
+  },
+  "mtl_c_t7_nrc_robot_grunt_chassis_torso": {
+   "resolved_as": "mtl_c_t7_nrc_robot_grunt_chassis_torso2",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_c_t7_zom_zod_robot_lights": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_lights2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  }
+ },
+ "untextured": [
+  "mtl_c_t7_nrc_robot_grunt_chassis_pelvis",
+  "mtl_c_t7_nrc_robot_grunt_chassis_torso"
+ ],
+ "rot": [],
+ "views": {
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 76.79607391357422,
+   "res": [
+    412,
+    1200
+   ]
+  },
+  "por": {
+   "dir": [
+    -0.5179632306098938,
+    -0.835424542427063,
+    -0.18379339575767517
+   ],
+   "ortho_scale": 79.68701934814453,
+   "res": [
+    408,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

@@ -1,0 +1,126 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\_logical_models\\logical_models\\crafting_assets\\logical_m_yaw_shield_full.xmodel_bin",
+ "sha256": "8d45f5c5fa1016bacb0063699f296fae8525bfcd217ee4939bac0bc10789bcc0",
+ "triangles": 20360,
+ "materials": {
+  "logical_m_yaw_shield_wire_trim": {
+   "resolved_as": "logical_m_yaw_shield_wire_trim",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_wire_base": {
+   "resolved_as": "logical_m_yaw_shield_wire_base",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_window_trim": {
+   "resolved_as": "logical_m_yaw_shield_window_trim",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_accent": {
+   "resolved_as": "logical_m_yaw_shield_accent",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_base_01": {
+   "resolved_as": "logical_m_yaw_shield_base_01",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_trim_01": {
+   "resolved_as": "logical_m_yaw_shield_trim_01",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_emissive_alt": {
+   "resolved_as": "logical_m_yaw_shield_emissive_alt",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_base_02": {
+   "resolved_as": "logical_m_yaw_shield_base_02",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_trim_02": {
+   "resolved_as": "logical_m_yaw_shield_trim_02",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_emissive_front": {
+   "resolved_as": "logical_m_yaw_shield_emissive_front",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_bottom": {
+   "resolved_as": "logical_m_yaw_shield_bottom",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_glass": {
+   "resolved_as": "logical_m_yaw_shield_glass",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_handle_base": {
+   "resolved_as": "logical_m_yaw_shield_handle_base",
+   "color_map": null,
+   "tint": null
+  },
+  "logical_m_yaw_shield_handle_trim": {
+   "resolved_as": "logical_m_yaw_shield_handle_trim",
+   "color_map": null,
+   "tint": null
+  }
+ },
+ "untextured": [
+  "logical_m_yaw_shield_wire_trim",
+  "logical_m_yaw_shield_wire_base",
+  "logical_m_yaw_shield_window_trim",
+  "logical_m_yaw_shield_accent",
+  "logical_m_yaw_shield_base_01",
+  "logical_m_yaw_shield_trim_01",
+  "logical_m_yaw_shield_emissive_alt",
+  "logical_m_yaw_shield_base_02",
+  "logical_m_yaw_shield_trim_02",
+  "logical_m_yaw_shield_emissive_front",
+  "logical_m_yaw_shield_bottom",
+  "logical_m_yaw_shield_glass",
+  "logical_m_yaw_shield_handle_base",
+  "logical_m_yaw_shield_handle_trim"
+ ],
+ "rot": [
+  [
+   "Z",
+   90
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 59.28617858886719,
+   "res": [
+    964,
+    1600
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 59.155181884765625,
+   "res": [
+    644,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

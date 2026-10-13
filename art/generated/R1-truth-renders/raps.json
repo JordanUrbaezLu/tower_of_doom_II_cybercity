@@ -1,0 +1,250 @@
+{
+ "binary": "model_export\\tod_partner\\tod_partner_raps.xmodel_bin",
+ "sha256": "be3d540242c5a33e090c23a18e87cf1a21d4f2bf8bf2e27613454ea351a6d57c",
+ "triangles": 10208,
+ "materials": {
+  "mtl_tod_ptn_rap_00": {
+   "resolved_as": "mtl_tod_ptn_rap_00",
+   "color_map": null,
+   "tint": [
+    0.664988,
+    0.819608,
+    0.639612
+   ]
+  },
+  "mtl_tod_ptn_rap_01": {
+   "resolved_as": "mtl_tod_ptn_rap_01",
+   "color_map": null,
+   "tint": [
+    0.830854,
+    0.869886,
+    0.933333
+   ]
+  },
+  "mtl_tod_ptn_rap_02": {
+   "resolved_as": "mtl_tod_ptn_rap_02",
+   "color_map": null,
+   "tint": [
+    0.780392,
+    0.780392,
+    0.780392
+   ]
+  },
+  "mtl_tod_ptn_rap_03": {
+   "resolved_as": "mtl_tod_ptn_rap_03",
+   "color_map": null,
+   "tint": [
+    0.664988,
+    0.819608,
+    0.639612
+   ]
+  },
+  "mtl_tod_ptn_rap_04": {
+   "resolved_as": "mtl_tod_ptn_rap_04",
+   "color_map": null,
+   "tint": [
+    1.0,
+    0.658839,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_05": {
+   "resolved_as": "mtl_tod_ptn_rap_05",
+   "color_map": null,
+   "tint": [
+    0.521569,
+    0.521569,
+    0.521569
+   ]
+  },
+  "mtl_tod_ptn_rap_06": {
+   "resolved_as": "mtl_tod_ptn_rap_06",
+   "color_map": null,
+   "tint": [
+    0.830854,
+    0.869886,
+    0.933333
+   ]
+  },
+  "mtl_tod_ptn_rap_07": {
+   "resolved_as": "mtl_tod_ptn_rap_07",
+   "color_map": null,
+   "tint": [
+    1.0,
+    0.658839,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_08": {
+   "resolved_as": "mtl_tod_ptn_rap_08",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_sentinel_drone_pods_glass02_c.png",
+   "tint": [
+    0.709804,
+    0.574243,
+    0.453712
+   ]
+  },
+  "mtl_tod_ptn_rap_09": {
+   "resolved_as": "mtl_tod_ptn_rap_09",
+   "color_map": null,
+   "tint": [
+    0.830854,
+    0.869886,
+    0.933333
+   ]
+  },
+  "mtl_tod_ptn_rap_10": {
+   "resolved_as": "mtl_tod_ptn_rap_10",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c.png",
+   "tint": [
+    1.0,
+    0.517662,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_11": {
+   "resolved_as": "mtl_tod_ptn_rap_11",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_body_emissive_c.png",
+   "tint": [
+    1.0,
+    0.517662,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_12": {
+   "resolved_as": "mtl_tod_ptn_rap_12",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c.png",
+   "tint": [
+    0.576471,
+    0.196826,
+    0.047471
+   ]
+  },
+  "mtl_tod_ptn_rap_13": {
+   "resolved_as": "mtl_tod_ptn_rap_13",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_cap_emissive_c.png",
+   "tint": [
+    0.576471,
+    0.196826,
+    0.047471
+   ]
+  },
+  "mtl_tod_ptn_rap_14": {
+   "resolved_as": "mtl_tod_ptn_rap_14",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_mtl_veh_t7_dlc_base_paint_20_dead_c.png",
+   "tint": [
+    0.882353,
+    0.373709,
+    0.373709
+   ]
+  },
+  "mtl_tod_ptn_rap_15": {
+   "resolved_as": "mtl_tod_ptn_rap_15",
+   "color_map": null,
+   "tint": [
+    0.811765,
+    0.471138,
+    0.471138
+   ]
+  },
+  "mtl_tod_ptn_rap_16": {
+   "resolved_as": "mtl_tod_ptn_rap_16",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_tod_ptn_rap_17": {
+   "resolved_as": "mtl_tod_ptn_rap_17",
+   "color_map": null,
+   "tint": [
+    1.0,
+    0.45098,
+    0.45098
+   ]
+  },
+  "mtl_tod_ptn_rap_18": {
+   "resolved_as": "mtl_tod_ptn_rap_18",
+   "color_map": null,
+   "tint": [
+    0.58265,
+    0.619135,
+    0.678431
+   ]
+  },
+  "mtl_tod_ptn_rap_19": {
+   "resolved_as": "mtl_tod_ptn_rap_19",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c.png",
+   "tint": [
+    1.0,
+    0.517662,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_20": {
+   "resolved_as": "mtl_tod_ptn_rap_20",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c.png",
+   "tint": [
+    1.0,
+    0.517662,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_21": {
+   "resolved_as": "mtl_tod_ptn_rap_21",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\_images\\i_tod_ptn_veh_t7_dlc3_drone_raps_treads_emissive_c.png",
+   "tint": [
+    1.0,
+    0.517662,
+    0.0
+   ]
+  },
+  "mtl_tod_ptn_rap_22": {
+   "resolved_as": "mtl_tod_ptn_rap_22",
+   "color_map": null,
+   "tint": null
+  }
+ },
+ "untextured": [
+  "mtl_tod_ptn_rap_16",
+  "mtl_tod_ptn_rap_22"
+ ],
+ "rot": [],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 38.529083251953125,
+   "res": [
+    1600,
+    1600
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 40.562808990478516,
+   "res": [
+    1200,
+    1196
+   ]
+  },
+  "por": {
+   "dir": [
+    -0.5179632306098938,
+    -0.835424542427063,
+    -0.18379339575767517
+   ],
+   "ortho_scale": 40.2272834777832,
+   "res": [
+    1200,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

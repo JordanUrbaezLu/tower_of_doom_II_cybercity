@@ -1,0 +1,102 @@
+{
+ "moz": {
+  "anchor": [
+   0.0,
+   1.27,
+   4.88
+  ],
+  "at": [
+   568,
+   556
+  ],
+  "canvas": [
+   1136,
+   936
+  ],
+  "depth_units": 0.0001262800482732428,
+  "model": "vm_apex_mozambique.XMODEL_BIN",
+  "model_sha256": "3b188e787a4cba1716ac6b47accee18d68d5d6f3d6b360073e53752aee9474ef",
+  "scale": 52.0,
+  "triangles": 9108,
+  "view": [
+   58,
+   6,
+   0
+  ]
+ },
+ "pk": {
+  "anchor": [
+   0.0,
+   1.24,
+   3.93
+  ],
+  "at": [
+   576,
+   468
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 4.390871691271121e-05,
+  "model": "vm_apex_peacekeeper.XMODEL_BIN",
+  "model_sha256": "9e1ea9946d529e848f807f0ad1666d47c1410e690a41c79c68aabdad0f8e0615",
+  "scale": 26.6,
+  "triangles": 19246,
+  "view": [
+   90,
+   8,
+   14
+  ]
+ },
+ "staff2": {
+  "anchor": [
+   0.0,
+   0.0,
+   32.4
+  ],
+  "at": [
+   690,
+   310
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.00016194495659769997,
+  "model": "tod_necro_staff2_world_lod0.XMODEL_BIN",
+  "model_sha256": "aeb14d72c2f836c81a3e7ae871e8916acebc5edf6f4a724da94636a3dd9372a8",
+  "scale": 36.0,
+  "triangles": 37394,
+  "view": [
+   0,
+   6,
+   -30
+  ]
+ },
+ "staff3": {
+  "anchor": [
+   0.0,
+   0.0,
+   32.4
+  ],
+  "at": [
+   600,
+   540
+  ],
+  "canvas": [
+   1152,
+   896
+  ],
+  "depth_units": 0.00016401453174638854,
+  "model": "tod_necro_staff3_world_lod0.XMODEL_BIN",
+  "model_sha256": "6b44e7cde30138f26c00be0a067a0c6e6bae4f126badac388b49fe888a67694d",
+  "scale": 24.0,
+  "triangles": 69007,
+  "view": [
+   0,
+   3,
+   -20
+  ]
+ }
+}

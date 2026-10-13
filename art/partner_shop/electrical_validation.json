@@ -1,0 +1,48 @@
+{
+  "revision": 3,
+  "fps": 30,
+  "frames": 180,
+  "seconds": 6,
+  "dead_letters": [],
+  "blinking_letters": [
+    "C",
+    "E",
+    "T"
+  ],
+  "steady_letters": [
+    "A",
+    "B",
+    "K",
+    "L",
+    "M",
+    "R"
+  ],
+  "shared_fault_frames": [
+    31,
+    36,
+    91,
+    98,
+    151,
+    157
+  ],
+  "mask_period_seconds": 6,
+  "mask_independent_of_faults": true,
+  "canister_period_seconds": 3,
+  "canister_phase_offsets": [
+    0,
+    0,
+    0
+  ],
+  "spark_events": 10,
+  "simultaneous_events_max": 4,
+  "particles_per_event": 6,
+  "max_live_particles": 24,
+  "native_lifetime_ms_max": 310,
+  "new_flashing_dynamic_lights": 0,
+  "valve_travel_degrees": 100,
+  "gauge_swing_degrees": 24,
+  "fx_objects": 60,
+  "native_integrated": false,
+  "native_playtested": false,
+  "sign_text": "BLACK MARKET"
+}

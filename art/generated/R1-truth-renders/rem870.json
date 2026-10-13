@@ -1,0 +1,113 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\vm_t6_remington870mcs.xmodel_bin",
+ "sha256": "3371a524e37f94f7f494f143b06170263d0f0d09ee3dcabffffbc52c7de91fb2",
+ "triangles": 6190,
+ "materials": {
+  "mtl_t6_attach_trinium_sight_white_add": {
+   "resolved_as": "mtl_t6_attach_trinium_sight_white_add",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_attach_trinium_sight_green.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_attach_trinium_sight_green": {
+   "resolved_as": "mtl_t6_attach_trinium_sight_green",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_attach_trinium_sight_green.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotgun_shells": {
+   "resolved_as": "mtl_t6_wpn_shotgun_shells",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_wepcommon\\shotgun_shells\\green\\~-gshells_green_c.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotgun_shells_red": {
+   "resolved_as": "mtl_t6_wpn_shotgun_shells_red",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_wepcommon\\shotgun_shells\\red\\~-gshells_red_c.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotty_870mcs": {
+   "resolved_as": "mtl_t6_wpn_shotty_870mcs_camo1",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_wpn_shotty_870mcs_col.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotty_870mcs_camo1": {
+   "resolved_as": "mtl_t6_wpn_shotty_870mcs_camo1",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_wpn_shotty_870mcs_col.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotty_870mcs_camo2": {
+   "resolved_as": "mtl_t6_wpn_shotty_870mcs_camo1",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_wpn_shotty_870mcs_col.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_t6_wpn_shotty_870mcs_camo3": {
+   "resolved_as": "mtl_t6_wpn_shotty_870mcs_camo1",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\skye_ports\\t6_remington870mcs\\images\\~-gmtl_t6_wpn_shotty_870mcs_col.tiff",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 37.14305877685547,
+   "res": [
+    1600,
+    380
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 33.09762191772461,
+   "res": [
+    1200,
+    308
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

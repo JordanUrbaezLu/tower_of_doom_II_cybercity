@@ -1,0 +1,147 @@
+{
+  "source": "art\\partner_shop\\references\\electricity-sound-6066.wav",
+  "source_sha256": "dedd9bba8e2cb435cb9f085aade0feccc5f91af8cb037a6d3634c9f58b645618",
+  "samples": [
+    {
+      "file": "sound_assets/tod/shop/spark_1.wav",
+      "source_start": 0.908,
+      "seconds": 0.17,
+      "sha256": "913132995dbe618e9cc6d1852d98b79bfa538a1a1be3abef80f6d25e5249d1b2"
+    },
+    {
+      "file": "sound_assets/tod/shop/spark_2.wav",
+      "source_start": 0.208,
+      "seconds": 0.23,
+      "sha256": "043c257bbbcc33593c3495320c92ddbbc01a78cd72eeef66cc4f9b7012b7baa2"
+    },
+    {
+      "file": "sound_assets/tod/shop/spark_3.wav",
+      "source_start": 1.488,
+      "seconds": 0.31,
+      "sha256": "81592f5d1811479d6eeed6b36f0a87d3ab2cd93ba6deb9a03304c6af0e0644a3"
+    }
+  ],
+  "events": [
+    [
+      "sign T",
+      [
+        42.95,
+        -62.0,
+        110.5
+      ],
+      31
+    ],
+    [
+      "left core",
+      [
+        -89,
+        -23,
+        65
+      ],
+      31
+    ],
+    [
+      "right core",
+      [
+        79,
+        -27,
+        62
+      ],
+      31
+    ],
+    [
+      "sign E",
+      [
+        31.9,
+        -62.0,
+        105.0
+      ],
+      91
+    ],
+    [
+      "left core",
+      [
+        -89,
+        -23,
+        34
+      ],
+      91
+    ],
+    [
+      "right core",
+      [
+        81,
+        -27,
+        36
+      ],
+      91
+    ],
+    [
+      "counter left",
+      [
+        -41,
+        -39,
+        51.5
+      ],
+      91
+    ],
+    [
+      "sign C",
+      [
+        -16.399,
+        -62.0,
+        109.009
+      ],
+      151
+    ],
+    [
+      "left core",
+      [
+        -89,
+        -23,
+        65
+      ],
+      151
+    ],
+    [
+      "right core",
+      [
+        79,
+        -27,
+        62
+      ],
+      151
+    ]
+  ],
+  "audio_events": [
+    {
+      "frame": 31,
+      "sound": "tod_shop_spark_1",
+      "org": [
+        42.95,
+        -62.0,
+        110.5
+      ]
+    },
+    {
+      "frame": 91,
+      "sound": "tod_shop_spark_2",
+      "org": [
+        31.9,
+        -62.0,
+        105.0
+      ]
+    },
+    {
+      "frame": 151,
+      "sound": "tod_shop_spark_3",
+      "org": [
+        -16.399,
+        -62.0,
+        109.009
+      ]
+    }
+  ],
+  "sync": "One sound per simultaneous fault cluster; same client callback and shared 30-fps server-time clock as sign/FX. Zero random pitch/start delay.",
+  "native_playtested": false
+}

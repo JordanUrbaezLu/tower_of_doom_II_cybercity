@@ -1,0 +1,115 @@
+{
+ "binary": "model_export\\tod_partner\\tod_partner_protector.xmodel_bin",
+ "sha256": "6910fbdcf6d5fb94a7a0680b416b22db739aa9b878f8e0bb7d52bef90ea79a33",
+ "triangles": 47574,
+ "materials": {
+  "mtl_c_t7_zom_zod_robot_arm2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_arm2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\_images\\i_c_t7_zmb_zod_robot_arm_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_leg_2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_leg_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_zod_robot_protector\\_images\\i_c_t7_zom_zod_robot_leg_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_partner_enamel": {
+   "resolved_as": "mtl_tod_partner_enamel",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_partner\\i_tod_partner_enamel.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_t7_zom_zod_robot_guts2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_guts2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_c_t7_nrc_robot_grunt_chassis_pelvis2": {
+   "resolved_as": "mtl_c_t7_nrc_robot_grunt_chassis_pelvis2",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_c_t7_zom_zod_robot_cloth2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_cloth2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_c_t7_nrc_robot_grunt_chassis_torso2": {
+   "resolved_as": "mtl_c_t7_nrc_robot_grunt_chassis_torso2",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_c_t7_zom_zod_robot_lights2": {
+   "resolved_as": "mtl_c_t7_zom_zod_robot_lights2",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  }
+ },
+ "untextured": [
+  "mtl_c_t7_nrc_robot_grunt_chassis_pelvis2",
+  "mtl_c_t7_nrc_robot_grunt_chassis_torso2"
+ ],
+ "rot": [],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 78.29039764404297,
+   "res": [
+    388,
+    1600
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 76.79607391357422,
+   "res": [
+    412,
+    1200
+   ]
+  },
+  "por": {
+   "dir": [
+    -0.5179632306098938,
+    -0.835424542427063,
+    -0.18379339575767517
+   ],
+   "ortho_scale": 79.68701934814453,
+   "res": [
+    408,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

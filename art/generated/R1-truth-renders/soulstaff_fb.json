@@ -1,0 +1,87 @@
+{
+ "binary": "model_export\\tod_necro_staff\\tod_necro_staff2_view_lod0.XMODEL_BIN",
+ "sha256": "e4f43759a2fc51891b47f29a440c3bb7dbdb49cff20670b48c63f3ebcaa4e1ae",
+ "triangles": 37394,
+ "materials": {
+  "mtl_tod_necro_staff_leather": {
+   "resolved_as": "mtl_tod_necro_staff_leather",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_leather_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_forge": {
+   "resolved_as": "mtl_tod_necro_staff_forge",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_forge_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_crevice": {
+   "resolved_as": "mtl_tod_necro_staff_crevice",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_bone_c.png",
+   "tint": [
+    0.24,
+    0.21,
+    0.17
+   ]
+  },
+  "mtl_tod_necro_staff_iron": {
+   "resolved_as": "mtl_tod_necro_staff_iron",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_iron_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_bone": {
+   "resolved_as": "mtl_tod_necro_staff_bone",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_bone_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_tod_necro_staff_soul": {
+   "resolved_as": "mtl_tod_necro_staff_soul",
+   "color_map": "C:\\Users\\jorda\\Repositories\\tower_of_doom_II_cybercity\\model_export\\tod_necro_staff\\i_tod_necro_staff_soul_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Z",
+   180
+  ],
+  [
+   "X",
+   -90
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 78.42835998535156,
+   "res": [
+    1600,
+    160
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

@@ -1,0 +1,38 @@
+{
+  "warning": {
+    "file": "tod_dc_warning.wav",
+    "sha256": "5d2c4b30d002a805b4b5d923fffbebd26261f8833a22fdf06ecb1a518b9ad60c",
+    "take": "warning_take2.pcm",
+    "seconds": 1.8,
+    "lufs": -19.999999999999996,
+    "peak_db": -5.945701833395024,
+    "prompt": "A menacing electrical weapon charging: a thin rising capacitor whine with rapid red-hot sparking ticks, crescendo then abrupt stop. Dark science fiction, one continuous build, no initial impact, no voice, no music."
+  },
+  "burst_tell": {
+    "file": "tod_dc_burst_tell.wav",
+    "sha256": "b0b1e52d916927c3f30a6744b7032e0dd16689fbafa3dbeb7bb931d58ab2d168",
+    "take": "burst_tell_take1.pcm",
+    "seconds": 1.3,
+    "lufs": -18.99999999999999,
+    "peak_db": -6.270368929606378,
+    "prompt": "A heavy machine gun bolt racks with a cold sharp metallic clack, followed by an ominous short rising servo whine. One ready-to-fire warning, close and dry, no shots, no music, no voice."
+  },
+  "shock": {
+    "file": "tod_dc_shock.wav",
+    "sha256": "e16e120d5a98ed0a277fc751126ccb442ee24dae02bc7dd93085b6f5dad10442",
+    "take": "shock_take2.pcm",
+    "seconds": 0.65,
+    "lufs": -16.01728410872608,
+    "peak_db": -1.7488017803561222,
+    "prompt": "A violent high-voltage lightning discharge: one sharp electrical crack, thick crackling arc and short bass thud, with a very brief sizzling tail. Close and punchy science fiction weapon, no voice, no music."
+  },
+  "shot": {
+    "file": "tod_dc_shot.wav",
+    "sha256": "f20f0da17ef44e972b92e04cbe504d72a686510d6a123c8317f87e9c5d67819a",
+    "take": "shot_take1.pcm",
+    "seconds": 0.28,
+    "lufs": -18.03236468122073,
+    "peak_db": -1.517492013358146,
+    "prompt": "One single heavy belt-fed machine gun shot, a deep dry concussive report with a short metallic bolt clatter. Absolutely one shot only, no burst, no voice, no music."
+  }
+}

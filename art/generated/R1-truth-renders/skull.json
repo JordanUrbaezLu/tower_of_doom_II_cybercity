@@ -1,0 +1,59 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc2_keeper_head\\wpn_t7_zmb_dlc2_keeper_head_view.xmodel_bin",
+ "sha256": "cd4365627205f54d400b4aad4036a9ee74cbfa74919fdc5f5abc4094275fcd00",
+ "triangles": 16714,
+ "materials": {
+  "mtl_wpn_t7_zmb_dlc2_keeper_mouth": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc2_keeper_mouth",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc2_keeper_head\\_images\\i_wpn_t7_zmb_dlc2_keeper_mouth_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc2_keeper_head": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc2_keeper_head",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc2_keeper_head\\_images\\i_wpn_t7_zmb_dlc2_keeper_head_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 12.761362075805664,
+   "res": [
+    1068,
+    1600
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 13.26406478881836,
+   "res": [
+    776,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

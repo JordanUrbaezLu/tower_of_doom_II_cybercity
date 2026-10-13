@@ -1,0 +1,210 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\wpn_t7_zmb_dlc3_gauntlet_dragon_view.xmodel_bin",
+ "sha256": "a081ec2b16bfc92516409bb2be051a8cc7ecdaf39772bc8943f5e182a10c6874",
+ "triangles": 61704,
+ "materials": {
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_yel": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_yel",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_glo_c.png",
+   "tint": [
+    0.639216,
+    0.444221,
+    0.067689
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_glass": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_glass",
+   "color_map": null,
+   "tint": null
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_01": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_01",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_01_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_02": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_02",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_02_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_03": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_03",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_03_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_wing_3_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_wing_3_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_wings_03_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_head_1_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_head_1_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_head_01_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_head_2_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_head_2_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_head_02_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_neck_1_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_neck_1_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_neck_01_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_neck_2_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_neck_2_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_neck_02_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_back_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_back_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_back_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_chest_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_chest_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_chest_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_legs_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_legs_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_legs_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_tail_1_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_tail_1_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_tail_01_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_tail_2_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_tail_2_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_tail_02_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_wing_1_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_wing_1_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_wings_01_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_c_zom_dlc3_dragon_wing_2_2": {
+   "resolved_as": "mtl_c_zom_dlc3_dragon_wing_2_2",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\c_zom_dlc3_dragon\\_images\\i_c_zom_dlc3_dragon_wings_02_2_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_red": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_red",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_glo_c.png",
+   "tint": [
+    0.333333,
+    0.0,
+    0.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_glo": {
+   "resolved_as": "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_glo",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_dlc3_gauntlet_dragon\\_images\\i_wpn_t7_zmb_dlc3_gauntlet_dragon_glo_c.png",
+   "tint": [
+    0.639216,
+    0.444221,
+    0.067689
+   ]
+  }
+ },
+ "untextured": [
+  "mtl_wpn_t7_zmb_dlc3_gauntlet_dragon_glass"
+ ],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 27.812211990356445,
+   "res": [
+    1600,
+    1076
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 27.66201400756836,
+   "res": [
+    1200,
+    820
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

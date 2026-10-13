@@ -1,0 +1,3441 @@
+[
+  {
+    "frame": 1,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0999999046325684,
+      "mask weak wire breath": 0.4999999403953552,
+      "left red energy core": 3.299999952316284,
+      "counter canister red pulse": 2.5,
+      "existing tall core red pulse": 3.0999999046325684,
+      "left core scan 0": 3.0,
+      "left core scan 1": 2.0153491497039795,
+      "left core scan 2": 0.42215079069137573,
+      "left core scan 3": 0.42215079069137573
+    },
+    "valve_degrees": 0.0
+  },
+  {
+    "frame": 2,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0990800857543945,
+      "mask weak wire breath": 0.4998522698879242,
+      "left red energy core": 3.297259569168091,
+      "counter canister red pulse": 2.4975030422210693,
+      "existing tall core red pulse": 3.0976250171661377,
+      "left core scan 0": 2.9965288639068604,
+      "left core scan 1": 1.9197386503219604,
+      "left core scan 2": 0.36653146147727966,
+      "left core scan 3": 0.48338666558265686
+    },
+    "valve_degrees": 0.12179748074440121
+  },
+  {
+    "frame": 3,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0963218212127686,
+      "mask weak wire breath": 0.4994092881679535,
+      "left red energy core": 3.2890515327453613,
+      "counter canister red pulse": 2.4900248050689697,
+      "existing tall core red pulse": 3.0905113220214844,
+      "left core scan 0": 2.9861319065093994,
+      "left core scan 1": 1.8224486112594604,
+      "left core scan 2": 0.3167996406555176,
+      "left core scan 3": 0.5499407649040222
+    },
+    "valve_degrees": 0.48659655029345994
+  },
+  {
+    "frame": 4,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0917279720306396,
+      "mask weak wire breath": 0.4986715614795685,
+      "left red energy core": 3.275416135787964,
+      "counter canister red pulse": 2.4776012897491455,
+      "existing tall core red pulse": 3.0786938667297363,
+      "left core scan 0": 2.968860387802124,
+      "left core scan 1": 1.7239530086517334,
+      "left core scan 2": 0.2731977105140686,
+      "left core scan 3": 0.6214888691902161
+    },
+    "valve_degrees": 1.092619918719945
+  },
+  {
+    "frame": 5,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0853047370910645,
+      "mask weak wire breath": 0.4976400136947632,
+      "left red energy core": 3.2564194202423096,
+      "counter canister red pulse": 2.4602932929992676,
+      "existing tall core red pulse": 3.062230110168457,
+      "left core scan 0": 2.944797992706299,
+      "left core scan 1": 1.6247317790985107,
+      "left core scan 2": 0.23593801259994507,
+      "left core scan 3": 0.6976824402809143
+    },
+    "valve_degrees": 1.936915290115971
+  },
+  {
+    "frame": 6,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.077059745788574,
+      "mask weak wire breath": 0.4963158667087555,
+      "left red energy core": 3.232154130935669,
+      "counter canister red pulse": 2.438184976577759,
+      "existing tall core red pulse": 3.0412003993988037,
+      "left core scan 0": 2.914062023162842,
+      "left core scan 1": 1.5252681970596313,
+      "left core scan 2": 0.20520207285881042,
+      "left core scan 3": 0.7781501412391663
+    },
+    "valve_degrees": 3.0153688628887805
+  },
+  {
+    "frame": 7,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.067002773284912,
+      "mask weak wire breath": 0.4947007894515991,
+      "left red energy core": 3.2027385234832764,
+      "counter canister red pulse": 2.411384105682373,
+      "existing tall core red pulse": 3.015706777572632,
+      "left core scan 0": 2.8768022060394287,
+      "left core scan 1": 1.4260469675064087,
+      "left core scan 2": 0.18113966286182404,
+      "left core scan 3": 0.862500011920929
+    },
+    "valve_degrees": 4.3227272610712815
+  },
+  {
+    "frame": 8,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0551464557647705,
+      "mask weak wire breath": 0.49279671907424927,
+      "left red energy core": 3.168316125869751,
+      "counter canister red pulse": 2.380021333694458,
+      "existing tall core red pulse": 2.9858739376068115,
+      "left core scan 0": 2.833200216293335,
+      "left core scan 1": 1.3275513648986816,
+      "left core scan 2": 0.1638679951429367,
+      "left core scan 3": 0.9503211379051208
+    },
+    "valve_degrees": 5.852620479488792
+  },
+  {
+    "frame": 9,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0415050983428955,
+      "mask weak wire breath": 0.4906059503555298,
+      "left red energy core": 3.129054069519043,
+      "counter canister red pulse": 2.3442492485046387,
+      "existing tall core red pulse": 2.9518468379974365,
+      "left core scan 0": 2.78346848487854,
+      "left core scan 1": 1.2302613258361816,
+      "left core scan 2": 0.1534712314605713,
+      "left core scan 3": 1.0411856174468994
+    },
+    "valve_degrees": 7.597595074209534
+  },
+  {
+    "frame": 10,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.026095390319824,
+      "mask weak wire breath": 0.48813119530677795,
+      "left red energy core": 3.08514404296875,
+      "counter canister red pulse": 2.3042423725128174,
+      "existing tall core red pulse": 2.9137916564941406,
+      "left core scan 0": 2.727849245071411,
+      "left core scan 1": 1.1346508264541626,
+      "left core scan 2": 0.15000000596046448,
+      "left core scan 3": 1.1346508264541626
+    },
+    "valve_degrees": 9.54915002103778
+  },
+  {
+    "frame": 11,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0089359283447266,
+      "mask weak wire breath": 0.48537546396255493,
+      "left red energy core": 3.036799907684326,
+      "counter canister red pulse": 2.26019549369812,
+      "existing tall core red pulse": 2.8718934059143066,
+      "left core scan 0": 2.6666133403778076,
+      "left core scan 1": 1.0411856174468994,
+      "left core scan 2": 0.1534712314605713,
+      "left core scan 3": 1.2302613258361816
+    },
+    "valve_degrees": 11.697777269762051
+  },
+  {
+    "frame": 12,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.9900476932525635,
+      "mask weak wire breath": 0.48234209418296814,
+      "left red energy core": 2.984257221221924,
+      "counter canister red pulse": 2.2123231887817383,
+      "existing tall core red pulse": 2.8263564109802246,
+      "left core scan 0": 2.6000592708587646,
+      "left core scan 1": 0.9503211379051208,
+      "left core scan 2": 0.1638679951429367,
+      "left core scan 3": 1.3275513648986816
+    },
+    "valve_degrees": 14.033010409252949
+  },
+  {
+    "frame": 13,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.9694535732269287,
+      "mask weak wire breath": 0.47903478145599365,
+      "left red energy core": 2.927772045135498,
+      "counter canister red pulse": 2.1608588695526123,
+      "existing tall core red pulse": 2.777402400970459,
+      "left core scan 0": 2.5285110473632812,
+      "left core scan 1": 0.862500011920929,
+      "left core scan 2": 0.18113966286182404,
+      "left core scan 3": 1.4260469675064087
+    },
+    "valve_degrees": 16.54346778303229
+  },
+  {
+    "frame": 14,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.947179079055786,
+      "mask weak wire breath": 0.4754575490951538,
+      "left red energy core": 2.867619276046753,
+      "counter canister red pulse": 2.106053113937378,
+      "existing tall core red pulse": 2.7252700328826904,
+      "left core scan 0": 2.452317714691162,
+      "left core scan 1": 0.7781501412391663,
+      "left core scan 2": 0.20520207285881042,
+      "left core scan 3": 1.5252681970596313
+    },
+    "valve_degrees": 19.216926767580343
+  },
+  {
+    "frame": 15,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.923250913619995,
+      "mask weak wire breath": 0.4716147780418396,
+      "left red energy core": 2.8040919303894043,
+      "counter canister red pulse": 2.04817271232605,
+      "existing tall core red pulse": 2.670212984085083,
+      "left core scan 0": 2.371849775314331,
+      "left core scan 1": 0.6976824402809143,
+      "left core scan 2": 0.23593801259994507,
+      "left core scan 3": 1.6247317790985107
+    },
+    "valve_degrees": 22.04035450818707
+  },
+  {
+    "frame": 16,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.897698402404785,
+      "mask weak wire breath": 0.4675111472606659,
+      "left red energy core": 2.737499952316284,
+      "counter canister red pulse": 1.9874999523162842,
+      "existing tall core red pulse": 2.612499952316284,
+      "left core scan 0": 2.2874999046325684,
+      "left core scan 1": 0.6214888691902161,
+      "left core scan 2": 0.2731977105140686,
+      "left core scan 3": 1.7239530086517334
+    },
+    "valve_degrees": 25.00000012650595
+  },
+  {
+    "frame": 17,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8705525398254395,
+      "mask weak wire breath": 0.4631516635417938,
+      "left red energy core": 2.6681675910949707,
+      "counter canister red pulse": 1.924330472946167,
+      "existing tall core red pulse": 2.5524117946624756,
+      "left core scan 0": 2.199678897857666,
+      "left core scan 1": 0.5499407649040222,
+      "left core scan 2": 0.3167996406555176,
+      "left core scan 3": 1.8224486112594604
+    },
+    "valve_degrees": 28.081443385651788
+  },
+  {
+    "frame": 18,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8418467044830322,
+      "mask weak wire breath": 0.458541601896286,
+      "left red energy core": 2.5964324474334717,
+      "counter canister red pulse": 1.8589717149734497,
+      "existing tall core red pulse": 2.490241527557373,
+      "left core scan 0": 2.1088144779205322,
+      "left core scan 1": 0.48338666558265686,
+      "left core scan 2": 0.36653146147727966,
+      "left core scan 3": 1.9197386503219604
+    },
+    "valve_degrees": 31.269671529828894
+  },
+  {
+    "frame": 19,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8116157054901123,
+      "mask weak wire breath": 0.4536866247653961,
+      "left red energy core": 2.52264404296875,
+      "counter canister red pulse": 1.7917424440383911,
+      "existing tall core red pulse": 2.4262914657592773,
+      "left core scan 0": 2.0153491497039795,
+      "left core scan 1": 0.42215079069137573,
+      "left core scan 2": 0.42215079069137573,
+      "left core scan 3": 2.0153491497039795
+    },
+    "valve_degrees": 34.549149293770085
+  },
+  {
+    "frame": 20,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.7798962593078613,
+      "mask weak wire breath": 0.4485926032066345,
+      "left red energy core": 2.44716215133667,
+      "counter canister red pulse": 1.722969889640808,
+      "existing tall core red pulse": 2.3608739376068115,
+      "left core scan 0": 1.9197386503219604,
+      "left core scan 1": 0.36653146147727966,
+      "left core scan 2": 0.48338666558265686,
+      "left core scan 3": 2.1088144779205322
+    },
+    "valve_degrees": 37.90390940274315
+  },
+  {
+    "frame": 21,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.746727228164673,
+      "mask weak wire breath": 0.44326576590538025,
+      "left red energy core": 2.370354175567627,
+      "counter canister red pulse": 1.652989387512207,
+      "existing tall core red pulse": 2.294306993484497,
+      "left core scan 0": 1.8224486112594604,
+      "left core scan 1": 0.3167996406555176,
+      "left core scan 2": 0.5499407649040222,
+      "left core scan 3": 2.199678897857666
+    },
+    "valve_degrees": 41.317590138591335
+  },
+  {
+    "frame": 22,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.712148666381836,
+      "mask weak wire breath": 0.4377126097679138,
+      "left red energy core": 2.2925944328308105,
+      "counter canister red pulse": 1.582141637802124,
+      "existing tall core red pulse": 2.2269153594970703,
+      "left core scan 0": 1.7239530086517334,
+      "left core scan 1": 0.2731977105140686,
+      "left core scan 2": 0.6214888691902161,
+      "left core scan 3": 2.2874999046325684
+    },
+    "valve_degrees": 44.77357706615857
+  },
+  {
+    "frame": 23,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.6762030124664307,
+      "mask weak wire breath": 0.43193989992141724,
+      "left red energy core": 2.214262008666992,
+      "counter canister red pulse": 1.5107719898223877,
+      "existing tall core red pulse": 2.159027099609375,
+      "left core scan 0": 1.6247317790985107,
+      "left core scan 1": 0.23593801259994507,
+      "left core scan 2": 0.6976824402809143,
+      "left core scan 3": 2.371849775314331
+    },
+    "valve_degrees": 48.25502352385704
+  },
+  {
+    "frame": 24,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.6389341354370117,
+      "mask weak wire breath": 0.425954669713974,
+      "left red energy core": 2.1357381343841553,
+      "counter canister red pulse": 1.4392280578613281,
+      "existing tall core red pulse": 2.090972900390625,
+      "left core scan 0": 1.5252681970596313,
+      "left core scan 1": 0.20520207285881042,
+      "left core scan 2": 0.7781501412391663,
+      "left core scan 3": 2.452317714691162
+    },
+    "valve_degrees": 51.74497356707217
+  },
+  {
+    "frame": 25,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.6003870964050293,
+      "mask weak wire breath": 0.4197641611099243,
+      "left red energy core": 2.057405471801758,
+      "counter canister red pulse": 1.3678582906723022,
+      "existing tall core red pulse": 2.0230846405029297,
+      "left core scan 0": 1.4260469675064087,
+      "left core scan 1": 0.18113966286182404,
+      "left core scan 2": 0.862500011920929,
+      "left core scan 3": 2.5285110473632812
+    },
+    "valve_degrees": 55.22642343986522
+  },
+  {
+    "frame": 26,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.5606093406677246,
+      "mask weak wire breath": 0.41337600350379944,
+      "left red energy core": 1.979645848274231,
+      "counter canister red pulse": 1.2970106601715088,
+      "existing tall core red pulse": 1.955693006515503,
+      "left core scan 0": 1.3275513648986816,
+      "left core scan 1": 0.1638679951429367,
+      "left core scan 2": 0.9503211379051208,
+      "left core scan 3": 2.6000592708587646
+    },
+    "valve_degrees": 58.68241036743246
+  },
+  {
+    "frame": 27,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.519648790359497,
+      "mask weak wire breath": 0.4067979156970978,
+      "left red energy core": 1.902837872505188,
+      "counter canister red pulse": 1.2270300388336182,
+      "existing tall core red pulse": 1.889126181602478,
+      "left core scan 0": 1.2302613258361816,
+      "left core scan 1": 0.1534712314605713,
+      "left core scan 2": 1.0411856174468994,
+      "left core scan 3": 2.6666133403778076
+    },
+    "valve_degrees": 62.096097933469814
+  },
+  {
+    "frame": 28,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.477555751800537,
+      "mask weak wire breath": 0.4000379145145416,
+      "left red energy core": 1.8273558616638184,
+      "counter canister red pulse": 1.1582576036453247,
+      "existing tall core red pulse": 1.823708415031433,
+      "left core scan 0": 1.1346508264541626,
+      "left core scan 1": 0.15000000596046448,
+      "left core scan 2": 1.1346508264541626,
+      "left core scan 3": 2.727849245071411
+    },
+    "valve_degrees": 65.45084779715913
+  },
+  {
+    "frame": 29,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.4343812465667725,
+      "mask weak wire breath": 0.39310428500175476,
+      "left red energy core": 1.7535675764083862,
+      "counter canister red pulse": 1.0910282135009766,
+      "existing tall core red pulse": 1.7597585916519165,
+      "left core scan 0": 1.0411856174468994,
+      "left core scan 1": 0.1534712314605713,
+      "left core scan 2": 1.2302613258361816,
+      "left core scan 3": 2.78346848487854
+    },
+    "valve_degrees": 68.7303289761949
+  },
+  {
+    "frame": 30,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.3901782035827637,
+      "mask weak wire breath": 0.3860054314136505,
+      "left red energy core": 1.6818324327468872,
+      "counter canister red pulse": 1.0256695747375488,
+      "existing tall core red pulse": 1.6975880861282349,
+      "left core scan 0": 0.9503211379051208,
+      "left core scan 1": 0.1638679951429367,
+      "left core scan 2": 1.3275513648986816,
+      "left core scan 3": 2.833200216293335
+    },
+    "valve_degrees": 71.9185588279193
+  },
+  {
+    "frame": 31,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.3450000286102295,
+      "mask weak wire breath": 0.3787499964237213,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 74.99999867197056
+  },
+  {
+    "frame": 32,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.2989020347595215,
+      "mask weak wire breath": 0.3713468611240387,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 77.95964258274213
+  },
+  {
+    "frame": 33,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.2519404888153076,
+      "mask weak wire breath": 0.36380499601364136,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 80.78307203089616
+  },
+  {
+    "frame": 34,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.204172372817993,
+      "mask weak wire breath": 0.3561336398124695,
+      "left red energy core": 1.4222280979156494,
+      "counter canister red pulse": 0.7891411185264587,
+      "existing tall core red pulse": 1.4725977182388306,
+      "left core scan 0": 0.6214888691902161,
+      "left core scan 1": 0.2731977105140686,
+      "left core scan 2": 1.7239530086517334,
+      "left core scan 3": 2.968860387802124
+    },
+    "valve_degrees": 83.45653101544421
+  },
+  {
+    "frame": 35,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.155655860900879,
+      "mask weak wire breath": 0.34834209084510803,
+      "left red energy core": 1.3657426834106445,
+      "counter canister red pulse": 0.7376766800880432,
+      "existing tall core red pulse": 1.423643708229065,
+      "left core scan 0": 0.5499407649040222,
+      "left core scan 1": 0.3167996406555176,
+      "left core scan 2": 1.8224486112594604,
+      "left core scan 3": 2.9861319065093994
+    },
+    "valve_degrees": 85.9669875354499
+  },
+  {
+    "frame": 36,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.106450319290161,
+      "mask weak wire breath": 0.34043988585472107,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 88.3022223824881
+  },
+  {
+    "frame": 37,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.0566155910491943,
+      "mask weak wire breath": 0.33243662118911743,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 90.45084963121236
+  },
+  {
+    "frame": 38,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.0062124729156494,
+      "mask weak wire breath": 0.3243420422077179,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 92.40240543181426
+  },
+  {
+    "frame": 39,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 1.955302119255066,
+      "mask weak wire breath": 0.3161660432815552,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 94.14738216096912
+  },
+  {
+    "frame": 40,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.9039466381072998,
+      "mask weak wire breath": 0.3079185485839844,
+      "left red energy core": 1.147261381149292,
+      "counter canister red pulse": 0.538615882396698,
+      "existing tall core red pulse": 1.2342932224273682,
+      "left core scan 0": 0.2731977105140686,
+      "left core scan 1": 0.6214888691902161,
+      "left core scan 2": 2.2874999046325684,
+      "left core scan 3": 2.968860387802124
+    },
+    "valve_degrees": 95.67727623316027
+  },
+  {
+    "frame": 41,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.8522087335586548,
+      "mask weak wire breath": 0.2996096611022949,
+      "left red energy core": 1.1178457736968994,
+      "counter canister red pulse": 0.511815071105957,
+      "existing tall core red pulse": 1.2087997198104858,
+      "left core scan 0": 0.23593801259994507,
+      "left core scan 1": 0.6976824402809143,
+      "left core scan 2": 2.371849775314331,
+      "left core scan 3": 2.944797992706299
+    },
+    "valve_degrees": 96.98462908181408
+  },
+  {
+    "frame": 42,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.8001513481140137,
+      "mask weak wire breath": 0.29124945402145386,
+      "left red energy core": 1.0935806035995483,
+      "counter canister red pulse": 0.48970675468444824,
+      "existing tall core red pulse": 1.187769889831543,
+      "left core scan 0": 0.20520207285881042,
+      "left core scan 1": 0.7781501412391663,
+      "left core scan 2": 2.452317714691162,
+      "left core scan 3": 2.914062023162842
+    },
+    "valve_degrees": 98.06308180081324
+  },
+  {
+    "frame": 43,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.747838020324707,
+      "mask weak wire breath": 0.28284814953804016,
+      "left red energy core": 1.0745840072631836,
+      "counter canister red pulse": 0.47239869832992554,
+      "existing tall core red pulse": 1.1713061332702637,
+      "left core scan 0": 0.18113966286182404,
+      "left core scan 1": 0.862500011920929,
+      "left core scan 2": 2.5285110473632812,
+      "left core scan 3": 2.8768022060394287
+    },
+    "valve_degrees": 98.90738197468603
+  },
+  {
+    "frame": 44,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.6953322887420654,
+      "mask weak wire breath": 0.2744159400463104,
+      "left red energy core": 1.060948371887207,
+      "counter canister red pulse": 0.4599752426147461,
+      "existing tall core red pulse": 1.1594886779785156,
+      "left core scan 0": 0.1638679951429367,
+      "left core scan 1": 0.9503211379051208,
+      "left core scan 2": 2.6000592708587646,
+      "left core scan 3": 2.833200216293335
+    },
+    "valve_degrees": 99.51340416917375
+  },
+  {
+    "frame": 45,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.6426982879638672,
+      "mask weak wire breath": 0.2659631371498108,
+      "left red energy core": 1.052740454673767,
+      "counter canister red pulse": 0.45249685645103455,
+      "existing tall core red pulse": 1.1523751020431519,
+      "left core scan 0": 0.1534712314605713,
+      "left core scan 1": 1.0411856174468994,
+      "left core scan 2": 2.6666133403778076,
+      "left core scan 3": 2.78346848487854
+    },
+    "valve_degrees": 99.87820457274412
+  },
+  {
+    "frame": 46,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.590000033378601,
+      "mask weak wire breath": 0.2574999928474426,
+      "left red energy core": 1.0499999523162842,
+      "counter canister red pulse": 0.44999998807907104,
+      "existing tall core red pulse": 1.149999976158142,
+      "left core scan 0": 0.15000000596046448,
+      "left core scan 1": 1.1346508264541626,
+      "left core scan 2": 2.727849245071411,
+      "left core scan 3": 2.727849245071411
+    },
+    "valve_degrees": 100.0000005060238
+  },
+  {
+    "frame": 47,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.537301778793335,
+      "mask weak wire breath": 0.24903687834739685,
+      "left red energy core": 1.052740454673767,
+      "counter canister red pulse": 0.45249685645103455,
+      "existing tall core red pulse": 1.1523751020431519,
+      "left core scan 0": 0.1534712314605713,
+      "left core scan 1": 1.2302613258361816,
+      "left core scan 2": 2.78346848487854,
+      "left core scan 3": 2.6666133403778076
+    },
+    "valve_degrees": 99.87820457274412
+  },
+  {
+    "frame": 48,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.4846677780151367,
+      "mask weak wire breath": 0.24058406054973602,
+      "left red energy core": 1.060948371887207,
+      "counter canister red pulse": 0.4599752426147461,
+      "existing tall core red pulse": 1.1594886779785156,
+      "left core scan 0": 0.1638679951429367,
+      "left core scan 1": 1.3275513648986816,
+      "left core scan 2": 2.833200216293335,
+      "left core scan 3": 2.6000592708587646
+    },
+    "valve_degrees": 99.51340416917375
+  },
+  {
+    "frame": 49,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.4321620464324951,
+      "mask weak wire breath": 0.2321518510580063,
+      "left red energy core": 1.0745840072631836,
+      "counter canister red pulse": 0.47239869832992554,
+      "existing tall core red pulse": 1.1713061332702637,
+      "left core scan 0": 0.18113966286182404,
+      "left core scan 1": 1.4260469675064087,
+      "left core scan 2": 2.8768022060394287,
+      "left core scan 3": 2.5285110473632812
+    },
+    "valve_degrees": 98.90738197468603
+  },
+  {
+    "frame": 50,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.379848599433899,
+      "mask weak wire breath": 0.2237505167722702,
+      "left red energy core": 1.0935806035995483,
+      "counter canister red pulse": 0.48970675468444824,
+      "existing tall core red pulse": 1.187769889831543,
+      "left core scan 0": 0.20520207285881042,
+      "left core scan 1": 1.5252681970596313,
+      "left core scan 2": 2.914062023162842,
+      "left core scan 3": 2.452317714691162
+    },
+    "valve_degrees": 98.06308180081324
+  },
+  {
+    "frame": 51,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.3277912139892578,
+      "mask weak wire breath": 0.21539029479026794,
+      "left red energy core": 1.1178457736968994,
+      "counter canister red pulse": 0.511815071105957,
+      "existing tall core red pulse": 1.2087997198104858,
+      "left core scan 0": 0.23593801259994507,
+      "left core scan 1": 1.6247317790985107,
+      "left core scan 2": 2.944797992706299,
+      "left core scan 3": 2.371849775314331
+    },
+    "valve_degrees": 96.98462908181408
+  },
+  {
+    "frame": 52,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.2760533094406128,
+      "mask weak wire breath": 0.2070814073085785,
+      "left red energy core": 1.147261381149292,
+      "counter canister red pulse": 0.538615882396698,
+      "existing tall core red pulse": 1.2342932224273682,
+      "left core scan 0": 0.2731977105140686,
+      "left core scan 1": 1.7239530086517334,
+      "left core scan 2": 2.968860387802124,
+      "left core scan 3": 2.2874999046325684
+    },
+    "valve_degrees": 95.67727623316027
+  },
+  {
+    "frame": 53,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.2246979475021362,
+      "mask weak wire breath": 0.19883394241333008,
+      "left red energy core": 1.1816840171813965,
+      "counter canister red pulse": 0.5699787139892578,
+      "existing tall core red pulse": 1.2641260623931885,
+      "left core scan 0": 0.3167996406555176,
+      "left core scan 1": 1.8224486112594604,
+      "left core scan 2": 2.9861319065093994,
+      "left core scan 3": 2.199678897857666
+    },
+    "valve_degrees": 94.14738216096912
+  },
+  {
+    "frame": 54,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.1737875938415527,
+      "mask weak wire breath": 0.19065794348716736,
+      "left red energy core": 1.2209458351135254,
+      "counter canister red pulse": 0.6057506799697876,
+      "existing tall core red pulse": 1.2981531620025635,
+      "left core scan 0": 0.36653146147727966,
+      "left core scan 1": 1.9197386503219604,
+      "left core scan 2": 2.9965288639068604,
+      "left core scan 3": 2.1088144779205322
+    },
+    "valve_degrees": 92.40240543181426
+  },
+  {
+    "frame": 55,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.1233843564987183,
+      "mask weak wire breath": 0.18256337940692902,
+      "left red energy core": 1.2648558616638184,
+      "counter canister red pulse": 0.6457576155662537,
+      "existing tall core red pulse": 1.336208462715149,
+      "left core scan 0": 0.42215079069137573,
+      "left core scan 1": 2.0153491497039795,
+      "left core scan 2": 3.0,
+      "left core scan 3": 2.0153491497039795
+    },
+    "valve_degrees": 90.45084963121236
+  },
+  {
+    "frame": 56,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.0735496282577515,
+      "mask weak wire breath": 0.17456011474132538,
+      "left red energy core": 1.3131999969482422,
+      "counter canister red pulse": 0.6898044943809509,
+      "existing tall core red pulse": 1.378106713294983,
+      "left core scan 0": 0.48338666558265686,
+      "left core scan 1": 2.1088144779205322,
+      "left core scan 2": 2.9965288639068604,
+      "left core scan 3": 1.9197386503219604
+    },
+    "valve_degrees": 88.3022223824881
+  },
+  {
+    "frame": 57,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.0243440866470337,
+      "mask weak wire breath": 0.16665789484977722,
+      "left red energy core": 1.3657426834106445,
+      "counter canister red pulse": 0.7376766800880432,
+      "existing tall core red pulse": 1.423643708229065,
+      "left core scan 0": 0.5499407649040222,
+      "left core scan 1": 2.199678897857666,
+      "left core scan 2": 2.9861319065093994,
+      "left core scan 3": 1.8224486112594604
+    },
+    "valve_degrees": 85.9669875354499
+  },
+  {
+    "frame": 58,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.975827693939209,
+      "mask weak wire breath": 0.15886636078357697,
+      "left red energy core": 1.4222280979156494,
+      "counter canister red pulse": 0.7891411185264587,
+      "existing tall core red pulse": 1.4725977182388306,
+      "left core scan 0": 0.6214888691902161,
+      "left core scan 1": 2.2874999046325684,
+      "left core scan 2": 2.968860387802124,
+      "left core scan 3": 1.7239530086517334
+    },
+    "valve_degrees": 83.45653101544421
+  },
+  {
+    "frame": 59,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.9280595779418945,
+      "mask weak wire breath": 0.1511949896812439,
+      "left red energy core": 1.4823808670043945,
+      "counter canister red pulse": 0.8439469933509827,
+      "existing tall core red pulse": 1.5247300863265991,
+      "left core scan 0": 0.6976824402809143,
+      "left core scan 1": 2.371849775314331,
+      "left core scan 2": 2.944797992706299,
+      "left core scan 3": 1.6247317790985107
+    },
+    "valve_degrees": 80.78307203089616
+  },
+  {
+    "frame": 60,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.8810979127883911,
+      "mask weak wire breath": 0.14365313947200775,
+      "left red energy core": 1.545907974243164,
+      "counter canister red pulse": 0.9018272757530212,
+      "existing tall core red pulse": 1.5797868967056274,
+      "left core scan 0": 0.7781501412391663,
+      "left core scan 1": 2.452317714691162,
+      "left core scan 2": 2.914062023162842,
+      "left core scan 3": 1.5252681970596313
+    },
+    "valve_degrees": 77.95964258274213
+  },
+  {
+    "frame": 61,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.8349999785423279,
+      "mask weak wire breath": 0.13625000417232513,
+      "left red energy core": 1.6124999523162842,
+      "counter canister red pulse": 0.9624999761581421,
+      "existing tall core red pulse": 1.6375000476837158,
+      "left core scan 0": 0.862500011920929,
+      "left core scan 1": 2.5285110473632812,
+      "left core scan 2": 2.8768022060394287,
+      "left core scan 3": 1.4260469675064087
+    },
+    "valve_degrees": 74.99999867197056
+  },
+  {
+    "frame": 62,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.7898219227790833,
+      "mask weak wire breath": 0.12899458408355713,
+      "left red energy core": 1.6818324327468872,
+      "counter canister red pulse": 1.0256695747375488,
+      "existing tall core red pulse": 1.6975880861282349,
+      "left core scan 0": 0.9503211379051208,
+      "left core scan 1": 2.6000592708587646,
+      "left core scan 2": 2.833200216293335,
+      "left core scan 3": 1.3275513648986816
+    },
+    "valve_degrees": 71.9185588279193
+  },
+  {
+    "frame": 63,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.7456187009811401,
+      "mask weak wire breath": 0.12189572304487228,
+      "left red energy core": 1.7535675764083862,
+      "counter canister red pulse": 1.0910282135009766,
+      "existing tall core red pulse": 1.7597585916519165,
+      "left core scan 0": 1.0411856174468994,
+      "left core scan 1": 2.6666133403778076,
+      "left core scan 2": 2.78346848487854,
+      "left core scan 3": 1.2302613258361816
+    },
+    "valve_degrees": 68.7303289761949
+  },
+  {
+    "frame": 64,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.702444314956665,
+      "mask weak wire breath": 0.11496207863092422,
+      "left red energy core": 1.8273558616638184,
+      "counter canister red pulse": 1.1582576036453247,
+      "existing tall core red pulse": 1.823708415031433,
+      "left core scan 0": 1.1346508264541626,
+      "left core scan 1": 2.727849245071411,
+      "left core scan 2": 2.727849245071411,
+      "left core scan 3": 1.1346508264541626
+    },
+    "valve_degrees": 65.45084779715913
+  },
+  {
+    "frame": 65,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.6603512167930603,
+      "mask weak wire breath": 0.10820209234952927,
+      "left red energy core": 1.902837872505188,
+      "counter canister red pulse": 1.2270300388336182,
+      "existing tall core red pulse": 1.889126181602478,
+      "left core scan 0": 1.2302613258361816,
+      "left core scan 1": 2.78346848487854,
+      "left core scan 2": 2.6666133403778076,
+      "left core scan 3": 1.0411856174468994
+    },
+    "valve_degrees": 62.096097933469814
+  },
+  {
+    "frame": 66,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.6193907260894775,
+      "mask weak wire breath": 0.1016240045428276,
+      "left red energy core": 1.979645848274231,
+      "counter canister red pulse": 1.2970106601715088,
+      "existing tall core red pulse": 1.955693006515503,
+      "left core scan 0": 1.3275513648986816,
+      "left core scan 1": 2.833200216293335,
+      "left core scan 2": 2.6000592708587646,
+      "left core scan 3": 0.9503211379051208
+    },
+    "valve_degrees": 58.68241036743246
+  },
+  {
+    "frame": 67,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5796127915382385,
+      "mask weak wire breath": 0.09523582458496094,
+      "left red energy core": 2.057405471801758,
+      "counter canister red pulse": 1.3678582906723022,
+      "existing tall core red pulse": 2.0230846405029297,
+      "left core scan 0": 1.4260469675064087,
+      "left core scan 1": 2.8768022060394287,
+      "left core scan 2": 2.5285110473632812,
+      "left core scan 3": 0.862500011920929
+    },
+    "valve_degrees": 55.22642343986522
+  },
+  {
+    "frame": 68,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5410658717155457,
+      "mask weak wire breath": 0.08904534578323364,
+      "left red energy core": 2.1357381343841553,
+      "counter canister red pulse": 1.4392280578613281,
+      "existing tall core red pulse": 2.090972900390625,
+      "left core scan 0": 1.5252681970596313,
+      "left core scan 1": 2.914062023162842,
+      "left core scan 2": 2.452317714691162,
+      "left core scan 3": 0.7781501412391663
+    },
+    "valve_degrees": 51.74497356707217
+  },
+  {
+    "frame": 69,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5037968754768372,
+      "mask weak wire breath": 0.08306010067462921,
+      "left red energy core": 2.214262008666992,
+      "counter canister red pulse": 1.5107719898223877,
+      "existing tall core red pulse": 2.159027099609375,
+      "left core scan 0": 1.6247317790985107,
+      "left core scan 1": 2.944797992706299,
+      "left core scan 2": 2.371849775314331,
+      "left core scan 3": 0.6976824402809143
+    },
+    "valve_degrees": 48.25502352385704
+  },
+  {
+    "frame": 70,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.46785131096839905,
+      "mask weak wire breath": 0.07728738337755203,
+      "left red energy core": 2.2925944328308105,
+      "counter canister red pulse": 1.582141637802124,
+      "existing tall core red pulse": 2.2269153594970703,
+      "left core scan 0": 1.7239530086517334,
+      "left core scan 1": 2.968860387802124,
+      "left core scan 2": 2.2874999046325684,
+      "left core scan 3": 0.6214888691902161
+    },
+    "valve_degrees": 44.77357706615857
+  },
+  {
+    "frame": 71,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.4332728981971741,
+      "mask weak wire breath": 0.071734219789505,
+      "left red energy core": 2.370354175567627,
+      "counter canister red pulse": 1.652989387512207,
+      "existing tall core red pulse": 2.294306993484497,
+      "left core scan 0": 1.8224486112594604,
+      "left core scan 1": 2.9861319065093994,
+      "left core scan 2": 2.199678897857666,
+      "left core scan 3": 0.5499407649040222
+    },
+    "valve_degrees": 41.317590138591335
+  },
+  {
+    "frame": 72,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.40010374784469604,
+      "mask weak wire breath": 0.06640738993883133,
+      "left red energy core": 2.44716215133667,
+      "counter canister red pulse": 1.722969889640808,
+      "existing tall core red pulse": 2.3608739376068115,
+      "left core scan 0": 1.9197386503219604,
+      "left core scan 1": 2.9965288639068604,
+      "left core scan 2": 2.1088144779205322,
+      "left core scan 3": 0.48338666558265686
+    },
+    "valve_degrees": 37.90390940274315
+  },
+  {
+    "frame": 73,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.36838433146476746,
+      "mask weak wire breath": 0.06131337955594063,
+      "left red energy core": 2.52264404296875,
+      "counter canister red pulse": 1.7917424440383911,
+      "existing tall core red pulse": 2.4262914657592773,
+      "left core scan 0": 2.0153491497039795,
+      "left core scan 1": 3.0,
+      "left core scan 2": 2.0153491497039795,
+      "left core scan 3": 0.42215079069137573
+    },
+    "valve_degrees": 34.549149293770085
+  },
+  {
+    "frame": 74,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.33815327286720276,
+      "mask weak wire breath": 0.05645838752388954,
+      "left red energy core": 2.5964324474334717,
+      "counter canister red pulse": 1.8589717149734497,
+      "existing tall core red pulse": 2.490241527557373,
+      "left core scan 0": 2.1088144779205322,
+      "left core scan 1": 2.9965288639068604,
+      "left core scan 2": 1.9197386503219604,
+      "left core scan 3": 0.36653146147727966
+    },
+    "valve_degrees": 31.269671529828894
+  },
+  {
+    "frame": 75,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.30944734811782837,
+      "mask weak wire breath": 0.051848337054252625,
+      "left red energy core": 2.6681675910949707,
+      "counter canister red pulse": 1.924330472946167,
+      "existing tall core red pulse": 2.5524117946624756,
+      "left core scan 0": 2.199678897857666,
+      "left core scan 1": 2.9861319065093994,
+      "left core scan 2": 1.8224486112594604,
+      "left core scan 3": 0.3167996406555176
+    },
+    "valve_degrees": 28.081443385651788
+  },
+  {
+    "frame": 76,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.2823016345500946,
+      "mask weak wire breath": 0.04748883843421936,
+      "left red energy core": 2.737499952316284,
+      "counter canister red pulse": 1.9874999523162842,
+      "existing tall core red pulse": 2.612499952316284,
+      "left core scan 0": 2.2874999046325684,
+      "left core scan 1": 2.968860387802124,
+      "left core scan 2": 1.7239530086517334,
+      "left core scan 3": 0.2731977105140686
+    },
+    "valve_degrees": 25.00000012650595
+  },
+  {
+    "frame": 77,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.25674912333488464,
+      "mask weak wire breath": 0.043385207653045654,
+      "left red energy core": 2.8040919303894043,
+      "counter canister red pulse": 2.04817271232605,
+      "existing tall core red pulse": 2.670212984085083,
+      "left core scan 0": 2.371849775314331,
+      "left core scan 1": 2.944797992706299,
+      "left core scan 2": 1.6247317790985107,
+      "left core scan 3": 0.23593801259994507
+    },
+    "valve_degrees": 22.04035450818707
+  },
+  {
+    "frame": 78,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.23282098770141602,
+      "mask weak wire breath": 0.03954244405031204,
+      "left red energy core": 2.867619276046753,
+      "counter canister red pulse": 2.106053113937378,
+      "existing tall core red pulse": 2.7252700328826904,
+      "left core scan 0": 2.452317714691162,
+      "left core scan 1": 2.914062023162842,
+      "left core scan 2": 1.5252681970596313,
+      "left core scan 3": 0.20520207285881042
+    },
+    "valve_degrees": 19.216926767580343
+  },
+  {
+    "frame": 79,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.2105463445186615,
+      "mask weak wire breath": 0.03596522659063339,
+      "left red energy core": 2.927772045135498,
+      "counter canister red pulse": 2.1608588695526123,
+      "existing tall core red pulse": 2.777402400970459,
+      "left core scan 0": 2.5285110473632812,
+      "left core scan 1": 2.8768022060394287,
+      "left core scan 2": 1.4260469675064087,
+      "left core scan 3": 0.18113966286182404
+    },
+    "valve_degrees": 16.54346778303229
+  },
+  {
+    "frame": 80,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.18995237350463867,
+      "mask weak wire breath": 0.032657913863658905,
+      "left red energy core": 2.984257221221924,
+      "counter canister red pulse": 2.2123231887817383,
+      "existing tall core red pulse": 2.8263564109802246,
+      "left core scan 0": 2.6000592708587646,
+      "left core scan 1": 2.833200216293335,
+      "left core scan 2": 1.3275513648986816,
+      "left core scan 3": 0.1638679951429367
+    },
+    "valve_degrees": 14.033010409252949
+  },
+  {
+    "frame": 81,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.17106413841247559,
+      "mask weak wire breath": 0.029624540358781815,
+      "left red energy core": 3.036799907684326,
+      "counter canister red pulse": 2.26019549369812,
+      "existing tall core red pulse": 2.8718934059143066,
+      "left core scan 0": 2.6666133403778076,
+      "left core scan 1": 2.78346848487854,
+      "left core scan 2": 1.2302613258361816,
+      "left core scan 3": 0.1534712314605713
+    },
+    "valve_degrees": 11.697777269762051
+  },
+  {
+    "frame": 82,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.15390466153621674,
+      "mask weak wire breath": 0.0268687941133976,
+      "left red energy core": 3.08514404296875,
+      "counter canister red pulse": 2.3042423725128174,
+      "existing tall core red pulse": 2.9137916564941406,
+      "left core scan 0": 2.727849245071411,
+      "left core scan 1": 2.727849245071411,
+      "left core scan 2": 1.1346508264541626,
+      "left core scan 3": 0.15000000596046448
+    },
+    "valve_degrees": 9.54915002103778
+  },
+  {
+    "frame": 83,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.1384948343038559,
+      "mask weak wire breath": 0.024394039064645767,
+      "left red energy core": 3.129054069519043,
+      "counter canister red pulse": 2.3442492485046387,
+      "existing tall core red pulse": 2.9518468379974365,
+      "left core scan 0": 2.78346848487854,
+      "left core scan 1": 2.6666133403778076,
+      "left core scan 2": 1.0411856174468994,
+      "left core scan 3": 0.1534712314605713
+    },
+    "valve_degrees": 7.597595074209534
+  },
+  {
+    "frame": 84,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.1248534545302391,
+      "mask weak wire breath": 0.022203287109732628,
+      "left red energy core": 3.168316125869751,
+      "counter canister red pulse": 2.380021333694458,
+      "existing tall core red pulse": 2.9858739376068115,
+      "left core scan 0": 2.833200216293335,
+      "left core scan 1": 2.6000592708587646,
+      "left core scan 2": 0.9503211379051208,
+      "left core scan 3": 0.1638679951429367
+    },
+    "valve_degrees": 5.852620479488792
+  },
+  {
+    "frame": 85,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.11299712210893631,
+      "mask weak wire breath": 0.020299207419157028,
+      "left red energy core": 3.2027385234832764,
+      "counter canister red pulse": 2.411384105682373,
+      "existing tall core red pulse": 3.015706777572632,
+      "left core scan 0": 2.8768022060394287,
+      "left core scan 1": 2.5285110473632812,
+      "left core scan 2": 0.862500011920929,
+      "left core scan 3": 0.18113966286182404
+    },
+    "valve_degrees": 4.3227272610712815
+  },
+  {
+    "frame": 86,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.10294029116630554,
+      "mask weak wire breath": 0.01868411898612976,
+      "left red energy core": 3.232154130935669,
+      "counter canister red pulse": 2.438184976577759,
+      "existing tall core red pulse": 3.0412003993988037,
+      "left core scan 0": 2.914062023162842,
+      "left core scan 1": 2.452317714691162,
+      "left core scan 2": 0.7781501412391663,
+      "left core scan 3": 0.20520207285881042
+    },
+    "valve_degrees": 3.0153688628887805
+  },
+  {
+    "frame": 87,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.09469521790742874,
+      "mask weak wire breath": 0.017359992489218712,
+      "left red energy core": 3.2564194202423096,
+      "counter canister red pulse": 2.4602932929992676,
+      "existing tall core red pulse": 3.062230110168457,
+      "left core scan 0": 2.944797992706299,
+      "left core scan 1": 2.371849775314331,
+      "left core scan 2": 0.6976824402809143,
+      "left core scan 3": 0.23593801259994507
+    },
+    "valve_degrees": 1.936915290115971
+  },
+  {
+    "frame": 88,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.08827193826436996,
+      "mask weak wire breath": 0.016328440979123116,
+      "left red energy core": 3.275416135787964,
+      "counter canister red pulse": 2.4776012897491455,
+      "existing tall core red pulse": 3.0786938667297363,
+      "left core scan 0": 2.968860387802124,
+      "left core scan 1": 2.2874999046325684,
+      "left core scan 2": 0.6214888691902161,
+      "left core scan 3": 0.2731977105140686
+    },
+    "valve_degrees": 1.092619918719945
+  },
+  {
+    "frame": 89,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.08367828279733658,
+      "mask weak wire breath": 0.015590718016028404,
+      "left red energy core": 3.2890515327453613,
+      "counter canister red pulse": 2.4900248050689697,
+      "existing tall core red pulse": 3.0905113220214844,
+      "left core scan 0": 2.9861319065093994,
+      "left core scan 1": 2.199678897857666,
+      "left core scan 2": 0.5499407649040222,
+      "left core scan 3": 0.3167996406555176
+    },
+    "valve_degrees": 0.48659655029345994
+  },
+  {
+    "frame": 90,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.08091985434293747,
+      "mask weak wire breath": 0.015147724188864231,
+      "left red energy core": 3.297259569168091,
+      "counter canister red pulse": 2.4975030422210693,
+      "existing tall core red pulse": 3.0976250171661377,
+      "left core scan 0": 2.9965288639068604,
+      "left core scan 1": 2.1088144779205322,
+      "left core scan 2": 0.48338666558265686,
+      "left core scan 3": 0.36653146147727966
+    },
+    "valve_degrees": 0.12179748074440121
+  },
+  {
+    "frame": 91,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.07999999821186066,
+      "mask weak wire breath": 0.014999999664723873,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 0.0
+  },
+  {
+    "frame": 92,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.08091985434293747,
+      "mask weak wire breath": 0.015147724188864231,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 0.12179748074440121
+  },
+  {
+    "frame": 93,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.08367828279733658,
+      "mask weak wire breath": 0.015590718016028404,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 0.48659655029345994
+  },
+  {
+    "frame": 94,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.08827193826436996,
+      "mask weak wire breath": 0.016328440979123116,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 1.092619918719945
+  },
+  {
+    "frame": 95,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.09469521790742874,
+      "mask weak wire breath": 0.017359992489218712,
+      "left red energy core": 3.2564194202423096,
+      "counter canister red pulse": 2.4602932929992676,
+      "existing tall core red pulse": 3.062230110168457,
+      "left core scan 0": 2.944797992706299,
+      "left core scan 1": 1.6247317790985107,
+      "left core scan 2": 0.23593801259994507,
+      "left core scan 3": 0.6976824402809143
+    },
+    "valve_degrees": 1.936915290115971
+  },
+  {
+    "frame": 96,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.10294029116630554,
+      "mask weak wire breath": 0.01868411898612976,
+      "left red energy core": 3.232154130935669,
+      "counter canister red pulse": 2.438184976577759,
+      "existing tall core red pulse": 3.0412003993988037,
+      "left core scan 0": 2.914062023162842,
+      "left core scan 1": 1.5252681970596313,
+      "left core scan 2": 0.20520207285881042,
+      "left core scan 3": 0.7781501412391663
+    },
+    "valve_degrees": 3.0153688628887805
+  },
+  {
+    "frame": 97,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.11299712210893631,
+      "mask weak wire breath": 0.020299207419157028,
+      "left red energy core": 3.2027385234832764,
+      "counter canister red pulse": 2.411384105682373,
+      "existing tall core red pulse": 3.015706777572632,
+      "left core scan 0": 2.8768022060394287,
+      "left core scan 1": 1.4260469675064087,
+      "left core scan 2": 0.18113966286182404,
+      "left core scan 3": 0.862500011920929
+    },
+    "valve_degrees": 4.3227272610712815
+  },
+  {
+    "frame": 98,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.1248534545302391,
+      "mask weak wire breath": 0.022203287109732628,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 5.852620479488792
+  },
+  {
+    "frame": 99,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.1384948343038559,
+      "mask weak wire breath": 0.024394039064645767,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 7.597595074209534
+  },
+  {
+    "frame": 100,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.15390466153621674,
+      "mask weak wire breath": 0.0268687941133976,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 9.54915002103778
+  },
+  {
+    "frame": 101,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.17106413841247559,
+      "mask weak wire breath": 0.029624540358781815,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 11.697777269762051
+  },
+  {
+    "frame": 102,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 0.18995237350463867,
+      "mask weak wire breath": 0.032657913863658905,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 14.033010409252949
+  },
+  {
+    "frame": 103,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.2105463445186615,
+      "mask weak wire breath": 0.03596522659063339,
+      "left red energy core": 2.927772045135498,
+      "counter canister red pulse": 2.1608588695526123,
+      "existing tall core red pulse": 2.777402400970459,
+      "left core scan 0": 2.5285110473632812,
+      "left core scan 1": 0.862500011920929,
+      "left core scan 2": 0.18113966286182404,
+      "left core scan 3": 1.4260469675064087
+    },
+    "valve_degrees": 16.54346778303229
+  },
+  {
+    "frame": 104,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.23282098770141602,
+      "mask weak wire breath": 0.03954244405031204,
+      "left red energy core": 2.867619276046753,
+      "counter canister red pulse": 2.106053113937378,
+      "existing tall core red pulse": 2.7252700328826904,
+      "left core scan 0": 2.452317714691162,
+      "left core scan 1": 0.7781501412391663,
+      "left core scan 2": 0.20520207285881042,
+      "left core scan 3": 1.5252681970596313
+    },
+    "valve_degrees": 19.216926767580343
+  },
+  {
+    "frame": 105,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.25674912333488464,
+      "mask weak wire breath": 0.043385207653045654,
+      "left red energy core": 2.8040919303894043,
+      "counter canister red pulse": 2.04817271232605,
+      "existing tall core red pulse": 2.670212984085083,
+      "left core scan 0": 2.371849775314331,
+      "left core scan 1": 0.6976824402809143,
+      "left core scan 2": 0.23593801259994507,
+      "left core scan 3": 1.6247317790985107
+    },
+    "valve_degrees": 22.04035450818707
+  },
+  {
+    "frame": 106,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.2823016345500946,
+      "mask weak wire breath": 0.04748883843421936,
+      "left red energy core": 2.737499952316284,
+      "counter canister red pulse": 1.9874999523162842,
+      "existing tall core red pulse": 2.612499952316284,
+      "left core scan 0": 2.2874999046325684,
+      "left core scan 1": 0.6214888691902161,
+      "left core scan 2": 0.2731977105140686,
+      "left core scan 3": 1.7239530086517334
+    },
+    "valve_degrees": 25.00000012650595
+  },
+  {
+    "frame": 107,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.30944734811782837,
+      "mask weak wire breath": 0.051848337054252625,
+      "left red energy core": 2.6681675910949707,
+      "counter canister red pulse": 1.924330472946167,
+      "existing tall core red pulse": 2.5524117946624756,
+      "left core scan 0": 2.199678897857666,
+      "left core scan 1": 0.5499407649040222,
+      "left core scan 2": 0.3167996406555176,
+      "left core scan 3": 1.8224486112594604
+    },
+    "valve_degrees": 28.081443385651788
+  },
+  {
+    "frame": 108,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.33815327286720276,
+      "mask weak wire breath": 0.05645838752388954,
+      "left red energy core": 2.5964324474334717,
+      "counter canister red pulse": 1.8589717149734497,
+      "existing tall core red pulse": 2.490241527557373,
+      "left core scan 0": 2.1088144779205322,
+      "left core scan 1": 0.48338666558265686,
+      "left core scan 2": 0.36653146147727966,
+      "left core scan 3": 1.9197386503219604
+    },
+    "valve_degrees": 31.269671529828894
+  },
+  {
+    "frame": 109,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.36838433146476746,
+      "mask weak wire breath": 0.06131337955594063,
+      "left red energy core": 2.52264404296875,
+      "counter canister red pulse": 1.7917424440383911,
+      "existing tall core red pulse": 2.4262914657592773,
+      "left core scan 0": 2.0153491497039795,
+      "left core scan 1": 0.42215079069137573,
+      "left core scan 2": 0.42215079069137573,
+      "left core scan 3": 2.0153491497039795
+    },
+    "valve_degrees": 34.549149293770085
+  },
+  {
+    "frame": 110,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.40010374784469604,
+      "mask weak wire breath": 0.06640738993883133,
+      "left red energy core": 2.44716215133667,
+      "counter canister red pulse": 1.722969889640808,
+      "existing tall core red pulse": 2.3608739376068115,
+      "left core scan 0": 1.9197386503219604,
+      "left core scan 1": 0.36653146147727966,
+      "left core scan 2": 0.48338666558265686,
+      "left core scan 3": 2.1088144779205322
+    },
+    "valve_degrees": 37.90390940274315
+  },
+  {
+    "frame": 111,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.4332728981971741,
+      "mask weak wire breath": 0.071734219789505,
+      "left red energy core": 2.370354175567627,
+      "counter canister red pulse": 1.652989387512207,
+      "existing tall core red pulse": 2.294306993484497,
+      "left core scan 0": 1.8224486112594604,
+      "left core scan 1": 0.3167996406555176,
+      "left core scan 2": 0.5499407649040222,
+      "left core scan 3": 2.199678897857666
+    },
+    "valve_degrees": 41.317590138591335
+  },
+  {
+    "frame": 112,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.46785131096839905,
+      "mask weak wire breath": 0.07728738337755203,
+      "left red energy core": 2.2925944328308105,
+      "counter canister red pulse": 1.582141637802124,
+      "existing tall core red pulse": 2.2269153594970703,
+      "left core scan 0": 1.7239530086517334,
+      "left core scan 1": 0.2731977105140686,
+      "left core scan 2": 0.6214888691902161,
+      "left core scan 3": 2.2874999046325684
+    },
+    "valve_degrees": 44.77357706615857
+  },
+  {
+    "frame": 113,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5037968754768372,
+      "mask weak wire breath": 0.08306010067462921,
+      "left red energy core": 2.214262008666992,
+      "counter canister red pulse": 1.5107719898223877,
+      "existing tall core red pulse": 2.159027099609375,
+      "left core scan 0": 1.6247317790985107,
+      "left core scan 1": 0.23593801259994507,
+      "left core scan 2": 0.6976824402809143,
+      "left core scan 3": 2.371849775314331
+    },
+    "valve_degrees": 48.25502352385704
+  },
+  {
+    "frame": 114,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5410658717155457,
+      "mask weak wire breath": 0.08904534578323364,
+      "left red energy core": 2.1357381343841553,
+      "counter canister red pulse": 1.4392280578613281,
+      "existing tall core red pulse": 2.090972900390625,
+      "left core scan 0": 1.5252681970596313,
+      "left core scan 1": 0.20520207285881042,
+      "left core scan 2": 0.7781501412391663,
+      "left core scan 3": 2.452317714691162
+    },
+    "valve_degrees": 51.74497356707217
+  },
+  {
+    "frame": 115,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.5796127915382385,
+      "mask weak wire breath": 0.09523582458496094,
+      "left red energy core": 2.057405471801758,
+      "counter canister red pulse": 1.3678582906723022,
+      "existing tall core red pulse": 2.0230846405029297,
+      "left core scan 0": 1.4260469675064087,
+      "left core scan 1": 0.18113966286182404,
+      "left core scan 2": 0.862500011920929,
+      "left core scan 3": 2.5285110473632812
+    },
+    "valve_degrees": 55.22642343986522
+  },
+  {
+    "frame": 116,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.6193907260894775,
+      "mask weak wire breath": 0.1016240045428276,
+      "left red energy core": 1.979645848274231,
+      "counter canister red pulse": 1.2970106601715088,
+      "existing tall core red pulse": 1.955693006515503,
+      "left core scan 0": 1.3275513648986816,
+      "left core scan 1": 0.1638679951429367,
+      "left core scan 2": 0.9503211379051208,
+      "left core scan 3": 2.6000592708587646
+    },
+    "valve_degrees": 58.68241036743246
+  },
+  {
+    "frame": 117,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.6603512167930603,
+      "mask weak wire breath": 0.10820209234952927,
+      "left red energy core": 1.902837872505188,
+      "counter canister red pulse": 1.2270300388336182,
+      "existing tall core red pulse": 1.889126181602478,
+      "left core scan 0": 1.2302613258361816,
+      "left core scan 1": 0.1534712314605713,
+      "left core scan 2": 1.0411856174468994,
+      "left core scan 3": 2.6666133403778076
+    },
+    "valve_degrees": 62.096097933469814
+  },
+  {
+    "frame": 118,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.702444314956665,
+      "mask weak wire breath": 0.11496207863092422,
+      "left red energy core": 1.8273558616638184,
+      "counter canister red pulse": 1.1582576036453247,
+      "existing tall core red pulse": 1.823708415031433,
+      "left core scan 0": 1.1346508264541626,
+      "left core scan 1": 0.15000000596046448,
+      "left core scan 2": 1.1346508264541626,
+      "left core scan 3": 2.727849245071411
+    },
+    "valve_degrees": 65.45084779715913
+  },
+  {
+    "frame": 119,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.7456187009811401,
+      "mask weak wire breath": 0.12189572304487228,
+      "left red energy core": 1.7535675764083862,
+      "counter canister red pulse": 1.0910282135009766,
+      "existing tall core red pulse": 1.7597585916519165,
+      "left core scan 0": 1.0411856174468994,
+      "left core scan 1": 0.1534712314605713,
+      "left core scan 2": 1.2302613258361816,
+      "left core scan 3": 2.78346848487854
+    },
+    "valve_degrees": 68.7303289761949
+  },
+  {
+    "frame": 120,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.7898219227790833,
+      "mask weak wire breath": 0.12899458408355713,
+      "left red energy core": 1.6818324327468872,
+      "counter canister red pulse": 1.0256695747375488,
+      "existing tall core red pulse": 1.6975880861282349,
+      "left core scan 0": 0.9503211379051208,
+      "left core scan 1": 0.1638679951429367,
+      "left core scan 2": 1.3275513648986816,
+      "left core scan 3": 2.833200216293335
+    },
+    "valve_degrees": 71.9185588279193
+  },
+  {
+    "frame": 121,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.8349999785423279,
+      "mask weak wire breath": 0.13625000417232513,
+      "left red energy core": 1.6124999523162842,
+      "counter canister red pulse": 0.9624999761581421,
+      "existing tall core red pulse": 1.6375000476837158,
+      "left core scan 0": 0.862500011920929,
+      "left core scan 1": 0.18113966286182404,
+      "left core scan 2": 1.4260469675064087,
+      "left core scan 3": 2.8768022060394287
+    },
+    "valve_degrees": 74.99999867197056
+  },
+  {
+    "frame": 122,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.8810979127883911,
+      "mask weak wire breath": 0.14365313947200775,
+      "left red energy core": 1.545907974243164,
+      "counter canister red pulse": 0.9018272757530212,
+      "existing tall core red pulse": 1.5797868967056274,
+      "left core scan 0": 0.7781501412391663,
+      "left core scan 1": 0.20520207285881042,
+      "left core scan 2": 1.5252681970596313,
+      "left core scan 3": 2.914062023162842
+    },
+    "valve_degrees": 77.95964258274213
+  },
+  {
+    "frame": 123,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.9280595779418945,
+      "mask weak wire breath": 0.1511949896812439,
+      "left red energy core": 1.4823808670043945,
+      "counter canister red pulse": 0.8439469933509827,
+      "existing tall core red pulse": 1.5247300863265991,
+      "left core scan 0": 0.6976824402809143,
+      "left core scan 1": 0.23593801259994507,
+      "left core scan 2": 1.6247317790985107,
+      "left core scan 3": 2.944797992706299
+    },
+    "valve_degrees": 80.78307203089616
+  },
+  {
+    "frame": 124,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 0.975827693939209,
+      "mask weak wire breath": 0.15886636078357697,
+      "left red energy core": 1.4222280979156494,
+      "counter canister red pulse": 0.7891411185264587,
+      "existing tall core red pulse": 1.4725977182388306,
+      "left core scan 0": 0.6214888691902161,
+      "left core scan 1": 0.2731977105140686,
+      "left core scan 2": 1.7239530086517334,
+      "left core scan 3": 2.968860387802124
+    },
+    "valve_degrees": 83.45653101544421
+  },
+  {
+    "frame": 125,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.0243440866470337,
+      "mask weak wire breath": 0.16665789484977722,
+      "left red energy core": 1.3657426834106445,
+      "counter canister red pulse": 0.7376766800880432,
+      "existing tall core red pulse": 1.423643708229065,
+      "left core scan 0": 0.5499407649040222,
+      "left core scan 1": 0.3167996406555176,
+      "left core scan 2": 1.8224486112594604,
+      "left core scan 3": 2.9861319065093994
+    },
+    "valve_degrees": 85.9669875354499
+  },
+  {
+    "frame": 126,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.0735496282577515,
+      "mask weak wire breath": 0.17456011474132538,
+      "left red energy core": 1.3131999969482422,
+      "counter canister red pulse": 0.6898044943809509,
+      "existing tall core red pulse": 1.378106713294983,
+      "left core scan 0": 0.48338666558265686,
+      "left core scan 1": 0.36653146147727966,
+      "left core scan 2": 1.9197386503219604,
+      "left core scan 3": 2.9965288639068604
+    },
+    "valve_degrees": 88.3022223824881
+  },
+  {
+    "frame": 127,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.1233843564987183,
+      "mask weak wire breath": 0.18256337940692902,
+      "left red energy core": 1.2648558616638184,
+      "counter canister red pulse": 0.6457576155662537,
+      "existing tall core red pulse": 1.336208462715149,
+      "left core scan 0": 0.42215079069137573,
+      "left core scan 1": 0.42215079069137573,
+      "left core scan 2": 2.0153491497039795,
+      "left core scan 3": 3.0
+    },
+    "valve_degrees": 90.45084963121236
+  },
+  {
+    "frame": 128,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.1737875938415527,
+      "mask weak wire breath": 0.19065794348716736,
+      "left red energy core": 1.2209458351135254,
+      "counter canister red pulse": 0.6057506799697876,
+      "existing tall core red pulse": 1.2981531620025635,
+      "left core scan 0": 0.36653146147727966,
+      "left core scan 1": 0.48338666558265686,
+      "left core scan 2": 2.1088144779205322,
+      "left core scan 3": 2.9965288639068604
+    },
+    "valve_degrees": 92.40240543181426
+  },
+  {
+    "frame": 129,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.2246979475021362,
+      "mask weak wire breath": 0.19883394241333008,
+      "left red energy core": 1.1816840171813965,
+      "counter canister red pulse": 0.5699787139892578,
+      "existing tall core red pulse": 1.2641260623931885,
+      "left core scan 0": 0.3167996406555176,
+      "left core scan 1": 0.5499407649040222,
+      "left core scan 2": 2.199678897857666,
+      "left core scan 3": 2.9861319065093994
+    },
+    "valve_degrees": 94.14738216096912
+  },
+  {
+    "frame": 130,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.2760533094406128,
+      "mask weak wire breath": 0.2070814073085785,
+      "left red energy core": 1.147261381149292,
+      "counter canister red pulse": 0.538615882396698,
+      "existing tall core red pulse": 1.2342932224273682,
+      "left core scan 0": 0.2731977105140686,
+      "left core scan 1": 0.6214888691902161,
+      "left core scan 2": 2.2874999046325684,
+      "left core scan 3": 2.968860387802124
+    },
+    "valve_degrees": 95.67727623316027
+  },
+  {
+    "frame": 131,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.3277912139892578,
+      "mask weak wire breath": 0.21539029479026794,
+      "left red energy core": 1.1178457736968994,
+      "counter canister red pulse": 0.511815071105957,
+      "existing tall core red pulse": 1.2087997198104858,
+      "left core scan 0": 0.23593801259994507,
+      "left core scan 1": 0.6976824402809143,
+      "left core scan 2": 2.371849775314331,
+      "left core scan 3": 2.944797992706299
+    },
+    "valve_degrees": 96.98462908181408
+  },
+  {
+    "frame": 132,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.379848599433899,
+      "mask weak wire breath": 0.2237505167722702,
+      "left red energy core": 1.0935806035995483,
+      "counter canister red pulse": 0.48970675468444824,
+      "existing tall core red pulse": 1.187769889831543,
+      "left core scan 0": 0.20520207285881042,
+      "left core scan 1": 0.7781501412391663,
+      "left core scan 2": 2.452317714691162,
+      "left core scan 3": 2.914062023162842
+    },
+    "valve_degrees": 98.06308180081324
+  },
+  {
+    "frame": 133,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.4321620464324951,
+      "mask weak wire breath": 0.2321518510580063,
+      "left red energy core": 1.0745840072631836,
+      "counter canister red pulse": 0.47239869832992554,
+      "existing tall core red pulse": 1.1713061332702637,
+      "left core scan 0": 0.18113966286182404,
+      "left core scan 1": 0.862500011920929,
+      "left core scan 2": 2.5285110473632812,
+      "left core scan 3": 2.8768022060394287
+    },
+    "valve_degrees": 98.90738197468603
+  },
+  {
+    "frame": 134,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.4846677780151367,
+      "mask weak wire breath": 0.24058406054973602,
+      "left red energy core": 1.060948371887207,
+      "counter canister red pulse": 0.4599752426147461,
+      "existing tall core red pulse": 1.1594886779785156,
+      "left core scan 0": 0.1638679951429367,
+      "left core scan 1": 0.9503211379051208,
+      "left core scan 2": 2.6000592708587646,
+      "left core scan 3": 2.833200216293335
+    },
+    "valve_degrees": 99.51340416917375
+  },
+  {
+    "frame": 135,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.537301778793335,
+      "mask weak wire breath": 0.24903687834739685,
+      "left red energy core": 1.052740454673767,
+      "counter canister red pulse": 0.45249685645103455,
+      "existing tall core red pulse": 1.1523751020431519,
+      "left core scan 0": 0.1534712314605713,
+      "left core scan 1": 1.0411856174468994,
+      "left core scan 2": 2.6666133403778076,
+      "left core scan 3": 2.78346848487854
+    },
+    "valve_degrees": 99.87820457274412
+  },
+  {
+    "frame": 136,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.590000033378601,
+      "mask weak wire breath": 0.2574999928474426,
+      "left red energy core": 1.0499999523162842,
+      "counter canister red pulse": 0.44999998807907104,
+      "existing tall core red pulse": 1.149999976158142,
+      "left core scan 0": 0.15000000596046448,
+      "left core scan 1": 1.1346508264541626,
+      "left core scan 2": 2.727849245071411,
+      "left core scan 3": 2.727849245071411
+    },
+    "valve_degrees": 100.0000005060238
+  },
+  {
+    "frame": 137,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.6426982879638672,
+      "mask weak wire breath": 0.2659631371498108,
+      "left red energy core": 1.052740454673767,
+      "counter canister red pulse": 0.45249685645103455,
+      "existing tall core red pulse": 1.1523751020431519,
+      "left core scan 0": 0.1534712314605713,
+      "left core scan 1": 1.2302613258361816,
+      "left core scan 2": 2.78346848487854,
+      "left core scan 3": 2.6666133403778076
+    },
+    "valve_degrees": 99.87820457274412
+  },
+  {
+    "frame": 138,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.6953322887420654,
+      "mask weak wire breath": 0.2744159400463104,
+      "left red energy core": 1.060948371887207,
+      "counter canister red pulse": 0.4599752426147461,
+      "existing tall core red pulse": 1.1594886779785156,
+      "left core scan 0": 0.1638679951429367,
+      "left core scan 1": 1.3275513648986816,
+      "left core scan 2": 2.833200216293335,
+      "left core scan 3": 2.6000592708587646
+    },
+    "valve_degrees": 99.51340416917375
+  },
+  {
+    "frame": 139,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.747838020324707,
+      "mask weak wire breath": 0.28284814953804016,
+      "left red energy core": 1.0745840072631836,
+      "counter canister red pulse": 0.47239869832992554,
+      "existing tall core red pulse": 1.1713061332702637,
+      "left core scan 0": 0.18113966286182404,
+      "left core scan 1": 1.4260469675064087,
+      "left core scan 2": 2.8768022060394287,
+      "left core scan 3": 2.5285110473632812
+    },
+    "valve_degrees": 98.90738197468603
+  },
+  {
+    "frame": 140,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.8001513481140137,
+      "mask weak wire breath": 0.29124945402145386,
+      "left red energy core": 1.0935806035995483,
+      "counter canister red pulse": 0.48970675468444824,
+      "existing tall core red pulse": 1.187769889831543,
+      "left core scan 0": 0.20520207285881042,
+      "left core scan 1": 1.5252681970596313,
+      "left core scan 2": 2.914062023162842,
+      "left core scan 3": 2.452317714691162
+    },
+    "valve_degrees": 98.06308180081324
+  },
+  {
+    "frame": 141,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.8522087335586548,
+      "mask weak wire breath": 0.2996096611022949,
+      "left red energy core": 1.1178457736968994,
+      "counter canister red pulse": 0.511815071105957,
+      "existing tall core red pulse": 1.2087997198104858,
+      "left core scan 0": 0.23593801259994507,
+      "left core scan 1": 1.6247317790985107,
+      "left core scan 2": 2.944797992706299,
+      "left core scan 3": 2.371849775314331
+    },
+    "valve_degrees": 96.98462908181408
+  },
+  {
+    "frame": 142,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.9039466381072998,
+      "mask weak wire breath": 0.3079185485839844,
+      "left red energy core": 1.147261381149292,
+      "counter canister red pulse": 0.538615882396698,
+      "existing tall core red pulse": 1.2342932224273682,
+      "left core scan 0": 0.2731977105140686,
+      "left core scan 1": 1.7239530086517334,
+      "left core scan 2": 2.968860387802124,
+      "left core scan 3": 2.2874999046325684
+    },
+    "valve_degrees": 95.67727623316027
+  },
+  {
+    "frame": 143,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 1.955302119255066,
+      "mask weak wire breath": 0.3161660432815552,
+      "left red energy core": 1.1816840171813965,
+      "counter canister red pulse": 0.5699787139892578,
+      "existing tall core red pulse": 1.2641260623931885,
+      "left core scan 0": 0.3167996406555176,
+      "left core scan 1": 1.8224486112594604,
+      "left core scan 2": 2.9861319065093994,
+      "left core scan 3": 2.199678897857666
+    },
+    "valve_degrees": 94.14738216096912
+  },
+  {
+    "frame": 144,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.0062124729156494,
+      "mask weak wire breath": 0.3243420422077179,
+      "left red energy core": 1.2209458351135254,
+      "counter canister red pulse": 0.6057506799697876,
+      "existing tall core red pulse": 1.2981531620025635,
+      "left core scan 0": 0.36653146147727966,
+      "left core scan 1": 1.9197386503219604,
+      "left core scan 2": 2.9965288639068604,
+      "left core scan 3": 2.1088144779205322
+    },
+    "valve_degrees": 92.40240543181426
+  },
+  {
+    "frame": 145,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.0566155910491943,
+      "mask weak wire breath": 0.33243662118911743,
+      "left red energy core": 1.2648558616638184,
+      "counter canister red pulse": 0.6457576155662537,
+      "existing tall core red pulse": 1.336208462715149,
+      "left core scan 0": 0.42215079069137573,
+      "left core scan 1": 2.0153491497039795,
+      "left core scan 2": 3.0,
+      "left core scan 3": 2.0153491497039795
+    },
+    "valve_degrees": 90.45084963121236
+  },
+  {
+    "frame": 146,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.106450319290161,
+      "mask weak wire breath": 0.34043988585472107,
+      "left red energy core": 1.3131999969482422,
+      "counter canister red pulse": 0.6898044943809509,
+      "existing tall core red pulse": 1.378106713294983,
+      "left core scan 0": 0.48338666558265686,
+      "left core scan 1": 2.1088144779205322,
+      "left core scan 2": 2.9965288639068604,
+      "left core scan 3": 1.9197386503219604
+    },
+    "valve_degrees": 88.3022223824881
+  },
+  {
+    "frame": 147,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.155655860900879,
+      "mask weak wire breath": 0.34834209084510803,
+      "left red energy core": 1.3657426834106445,
+      "counter canister red pulse": 0.7376766800880432,
+      "existing tall core red pulse": 1.423643708229065,
+      "left core scan 0": 0.5499407649040222,
+      "left core scan 1": 2.199678897857666,
+      "left core scan 2": 2.9861319065093994,
+      "left core scan 3": 1.8224486112594604
+    },
+    "valve_degrees": 85.9669875354499
+  },
+  {
+    "frame": 148,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.204172372817993,
+      "mask weak wire breath": 0.3561336398124695,
+      "left red energy core": 1.4222280979156494,
+      "counter canister red pulse": 0.7891411185264587,
+      "existing tall core red pulse": 1.4725977182388306,
+      "left core scan 0": 0.6214888691902161,
+      "left core scan 1": 2.2874999046325684,
+      "left core scan 2": 2.968860387802124,
+      "left core scan 3": 1.7239530086517334
+    },
+    "valve_degrees": 83.45653101544421
+  },
+  {
+    "frame": 149,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.2519404888153076,
+      "mask weak wire breath": 0.36380499601364136,
+      "left red energy core": 1.4823808670043945,
+      "counter canister red pulse": 0.8439469933509827,
+      "existing tall core red pulse": 1.5247300863265991,
+      "left core scan 0": 0.6976824402809143,
+      "left core scan 1": 2.371849775314331,
+      "left core scan 2": 2.944797992706299,
+      "left core scan 3": 1.6247317790985107
+    },
+    "valve_degrees": 80.78307203089616
+  },
+  {
+    "frame": 150,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.2989020347595215,
+      "mask weak wire breath": 0.3713468611240387,
+      "left red energy core": 1.545907974243164,
+      "counter canister red pulse": 0.9018272757530212,
+      "existing tall core red pulse": 1.5797868967056274,
+      "left core scan 0": 0.7781501412391663,
+      "left core scan 1": 2.452317714691162,
+      "left core scan 2": 2.914062023162842,
+      "left core scan 3": 1.5252681970596313
+    },
+    "valve_degrees": 77.95964258274213
+  },
+  {
+    "frame": 151,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.3450000286102295,
+      "mask weak wire breath": 0.3787499964237213,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 74.99999867197056
+  },
+  {
+    "frame": 152,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.3901782035827637,
+      "mask weak wire breath": 0.3860054314136505,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 71.9185588279193
+  },
+  {
+    "frame": 153,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.4343812465667725,
+      "mask weak wire breath": 0.39310428500175476,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 68.7303289761949
+  },
+  {
+    "frame": 154,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.477555751800537,
+      "mask weak wire breath": 0.4000379145145416,
+      "left red energy core": 1.8273558616638184,
+      "counter canister red pulse": 1.1582576036453247,
+      "existing tall core red pulse": 1.823708415031433,
+      "left core scan 0": 1.1346508264541626,
+      "left core scan 1": 2.727849245071411,
+      "left core scan 2": 2.727849245071411,
+      "left core scan 3": 1.1346508264541626
+    },
+    "valve_degrees": 65.45084779715913
+  },
+  {
+    "frame": 155,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.519648790359497,
+      "mask weak wire breath": 0.4067979156970978,
+      "left red energy core": 1.902837872505188,
+      "counter canister red pulse": 1.2270300388336182,
+      "existing tall core red pulse": 1.889126181602478,
+      "left core scan 0": 1.2302613258361816,
+      "left core scan 1": 2.78346848487854,
+      "left core scan 2": 2.6666133403778076,
+      "left core scan 3": 1.0411856174468994
+    },
+    "valve_degrees": 62.096097933469814
+  },
+  {
+    "frame": 156,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.5606093406677246,
+      "mask weak wire breath": 0.41337600350379944,
+      "left red energy core": 1.979645848274231,
+      "counter canister red pulse": 1.2970106601715088,
+      "existing tall core red pulse": 1.955693006515503,
+      "left core scan 0": 1.3275513648986816,
+      "left core scan 1": 2.833200216293335,
+      "left core scan 2": 2.6000592708587646,
+      "left core scan 3": 0.9503211379051208
+    },
+    "valve_degrees": 58.68241036743246
+  },
+  {
+    "frame": 157,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.6003870964050293,
+      "mask weak wire breath": 0.4197641611099243,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 55.22642343986522
+  },
+  {
+    "frame": 158,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.6389341354370117,
+      "mask weak wire breath": 0.425954669713974,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 51.74497356707217
+  },
+  {
+    "frame": 159,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.6762030124664307,
+      "mask weak wire breath": 0.43193989992141724,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 48.25502352385704
+  },
+  {
+    "frame": 160,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.712148666381836,
+      "mask weak wire breath": 0.4377126097679138,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 44.77357706615857
+  },
+  {
+    "frame": 161,
+    "bus": 0,
+    "emission": {
+      "neon letter C": 0.0,
+      "neon letter E": 0.0,
+      "neon letter T": 0.0,
+      "mask slow red breath": 2.746727228164673,
+      "mask weak wire breath": 0.44326576590538025,
+      "left red energy core": 0.0,
+      "counter canister red pulse": 0.0,
+      "existing tall core red pulse": 0.0,
+      "left core scan 0": 0.0,
+      "left core scan 1": 0.0,
+      "left core scan 2": 0.0,
+      "left core scan 3": 0.0
+    },
+    "valve_degrees": 41.317590138591335
+  },
+  {
+    "frame": 162,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.7798962593078613,
+      "mask weak wire breath": 0.4485926032066345,
+      "left red energy core": 2.44716215133667,
+      "counter canister red pulse": 1.722969889640808,
+      "existing tall core red pulse": 2.3608739376068115,
+      "left core scan 0": 1.9197386503219604,
+      "left core scan 1": 2.9965288639068604,
+      "left core scan 2": 2.1088144779205322,
+      "left core scan 3": 0.48338666558265686
+    },
+    "valve_degrees": 37.90390940274315
+  },
+  {
+    "frame": 163,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8116157054901123,
+      "mask weak wire breath": 0.4536866247653961,
+      "left red energy core": 2.52264404296875,
+      "counter canister red pulse": 1.7917424440383911,
+      "existing tall core red pulse": 2.4262914657592773,
+      "left core scan 0": 2.0153491497039795,
+      "left core scan 1": 3.0,
+      "left core scan 2": 2.0153491497039795,
+      "left core scan 3": 0.42215079069137573
+    },
+    "valve_degrees": 34.549149293770085
+  },
+  {
+    "frame": 164,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8418467044830322,
+      "mask weak wire breath": 0.458541601896286,
+      "left red energy core": 2.5964324474334717,
+      "counter canister red pulse": 1.8589717149734497,
+      "existing tall core red pulse": 2.490241527557373,
+      "left core scan 0": 2.1088144779205322,
+      "left core scan 1": 2.9965288639068604,
+      "left core scan 2": 1.9197386503219604,
+      "left core scan 3": 0.36653146147727966
+    },
+    "valve_degrees": 31.269671529828894
+  },
+  {
+    "frame": 165,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.8705525398254395,
+      "mask weak wire breath": 0.4631516635417938,
+      "left red energy core": 2.6681675910949707,
+      "counter canister red pulse": 1.924330472946167,
+      "existing tall core red pulse": 2.5524117946624756,
+      "left core scan 0": 2.199678897857666,
+      "left core scan 1": 2.9861319065093994,
+      "left core scan 2": 1.8224486112594604,
+      "left core scan 3": 0.3167996406555176
+    },
+    "valve_degrees": 28.081443385651788
+  },
+  {
+    "frame": 166,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.897698402404785,
+      "mask weak wire breath": 0.4675111472606659,
+      "left red energy core": 2.737499952316284,
+      "counter canister red pulse": 1.9874999523162842,
+      "existing tall core red pulse": 2.612499952316284,
+      "left core scan 0": 2.2874999046325684,
+      "left core scan 1": 2.968860387802124,
+      "left core scan 2": 1.7239530086517334,
+      "left core scan 3": 0.2731977105140686
+    },
+    "valve_degrees": 25.00000012650595
+  },
+  {
+    "frame": 167,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.923250913619995,
+      "mask weak wire breath": 0.4716147780418396,
+      "left red energy core": 2.8040919303894043,
+      "counter canister red pulse": 2.04817271232605,
+      "existing tall core red pulse": 2.670212984085083,
+      "left core scan 0": 2.371849775314331,
+      "left core scan 1": 2.944797992706299,
+      "left core scan 2": 1.6247317790985107,
+      "left core scan 3": 0.23593801259994507
+    },
+    "valve_degrees": 22.04035450818707
+  },
+  {
+    "frame": 168,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.947179079055786,
+      "mask weak wire breath": 0.4754575490951538,
+      "left red energy core": 2.867619276046753,
+      "counter canister red pulse": 2.106053113937378,
+      "existing tall core red pulse": 2.7252700328826904,
+      "left core scan 0": 2.452317714691162,
+      "left core scan 1": 2.914062023162842,
+      "left core scan 2": 1.5252681970596313,
+      "left core scan 3": 0.20520207285881042
+    },
+    "valve_degrees": 19.216926767580343
+  },
+  {
+    "frame": 169,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.9694535732269287,
+      "mask weak wire breath": 0.47903478145599365,
+      "left red energy core": 2.927772045135498,
+      "counter canister red pulse": 2.1608588695526123,
+      "existing tall core red pulse": 2.777402400970459,
+      "left core scan 0": 2.5285110473632812,
+      "left core scan 1": 2.8768022060394287,
+      "left core scan 2": 1.4260469675064087,
+      "left core scan 3": 0.18113966286182404
+    },
+    "valve_degrees": 16.54346778303229
+  },
+  {
+    "frame": 170,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 2.9900476932525635,
+      "mask weak wire breath": 0.48234209418296814,
+      "left red energy core": 2.984257221221924,
+      "counter canister red pulse": 2.2123231887817383,
+      "existing tall core red pulse": 2.8263564109802246,
+      "left core scan 0": 2.6000592708587646,
+      "left core scan 1": 2.833200216293335,
+      "left core scan 2": 1.3275513648986816,
+      "left core scan 3": 0.1638679951429367
+    },
+    "valve_degrees": 14.033010409252949
+  },
+  {
+    "frame": 171,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0089359283447266,
+      "mask weak wire breath": 0.48537546396255493,
+      "left red energy core": 3.036799907684326,
+      "counter canister red pulse": 2.26019549369812,
+      "existing tall core red pulse": 2.8718934059143066,
+      "left core scan 0": 2.6666133403778076,
+      "left core scan 1": 2.78346848487854,
+      "left core scan 2": 1.2302613258361816,
+      "left core scan 3": 0.1534712314605713
+    },
+    "valve_degrees": 11.697777269762051
+  },
+  {
+    "frame": 172,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.026095390319824,
+      "mask weak wire breath": 0.48813119530677795,
+      "left red energy core": 3.08514404296875,
+      "counter canister red pulse": 2.3042423725128174,
+      "existing tall core red pulse": 2.9137916564941406,
+      "left core scan 0": 2.727849245071411,
+      "left core scan 1": 2.727849245071411,
+      "left core scan 2": 1.1346508264541626,
+      "left core scan 3": 0.15000000596046448
+    },
+    "valve_degrees": 9.54915002103778
+  },
+  {
+    "frame": 173,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0415050983428955,
+      "mask weak wire breath": 0.4906059503555298,
+      "left red energy core": 3.129054069519043,
+      "counter canister red pulse": 2.3442492485046387,
+      "existing tall core red pulse": 2.9518468379974365,
+      "left core scan 0": 2.78346848487854,
+      "left core scan 1": 2.6666133403778076,
+      "left core scan 2": 1.0411856174468994,
+      "left core scan 3": 0.1534712314605713
+    },
+    "valve_degrees": 7.597595074209534
+  },
+  {
+    "frame": 174,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0551464557647705,
+      "mask weak wire breath": 0.49279671907424927,
+      "left red energy core": 3.168316125869751,
+      "counter canister red pulse": 2.380021333694458,
+      "existing tall core red pulse": 2.9858739376068115,
+      "left core scan 0": 2.833200216293335,
+      "left core scan 1": 2.6000592708587646,
+      "left core scan 2": 0.9503211379051208,
+      "left core scan 3": 0.1638679951429367
+    },
+    "valve_degrees": 5.852620479488792
+  },
+  {
+    "frame": 175,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.067002773284912,
+      "mask weak wire breath": 0.4947007894515991,
+      "left red energy core": 3.2027385234832764,
+      "counter canister red pulse": 2.411384105682373,
+      "existing tall core red pulse": 3.015706777572632,
+      "left core scan 0": 2.8768022060394287,
+      "left core scan 1": 2.5285110473632812,
+      "left core scan 2": 0.862500011920929,
+      "left core scan 3": 0.18113966286182404
+    },
+    "valve_degrees": 4.3227272610712815
+  },
+  {
+    "frame": 176,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.077059745788574,
+      "mask weak wire breath": 0.4963158667087555,
+      "left red energy core": 3.232154130935669,
+      "counter canister red pulse": 2.438184976577759,
+      "existing tall core red pulse": 3.0412003993988037,
+      "left core scan 0": 2.914062023162842,
+      "left core scan 1": 2.452317714691162,
+      "left core scan 2": 0.7781501412391663,
+      "left core scan 3": 0.20520207285881042
+    },
+    "valve_degrees": 3.0153688628887805
+  },
+  {
+    "frame": 177,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0853047370910645,
+      "mask weak wire breath": 0.4976400136947632,
+      "left red energy core": 3.2564194202423096,
+      "counter canister red pulse": 2.4602932929992676,
+      "existing tall core red pulse": 3.062230110168457,
+      "left core scan 0": 2.944797992706299,
+      "left core scan 1": 2.371849775314331,
+      "left core scan 2": 0.6976824402809143,
+      "left core scan 3": 0.23593801259994507
+    },
+    "valve_degrees": 1.936915290115971
+  },
+  {
+    "frame": 178,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0917279720306396,
+      "mask weak wire breath": 0.4986715614795685,
+      "left red energy core": 3.275416135787964,
+      "counter canister red pulse": 2.4776012897491455,
+      "existing tall core red pulse": 3.0786938667297363,
+      "left core scan 0": 2.968860387802124,
+      "left core scan 1": 2.2874999046325684,
+      "left core scan 2": 0.6214888691902161,
+      "left core scan 3": 0.2731977105140686
+    },
+    "valve_degrees": 1.092619918719945
+  },
+  {
+    "frame": 179,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0963218212127686,
+      "mask weak wire breath": 0.4994092881679535,
+      "left red energy core": 3.2890515327453613,
+      "counter canister red pulse": 2.4900248050689697,
+      "existing tall core red pulse": 3.0905113220214844,
+      "left core scan 0": 2.9861319065093994,
+      "left core scan 1": 2.199678897857666,
+      "left core scan 2": 0.5499407649040222,
+      "left core scan 3": 0.3167996406555176
+    },
+    "valve_degrees": 0.48659655029345994
+  },
+  {
+    "frame": 180,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0990800857543945,
+      "mask weak wire breath": 0.4998522698879242,
+      "left red energy core": 3.297259569168091,
+      "counter canister red pulse": 2.4975030422210693,
+      "existing tall core red pulse": 3.0976250171661377,
+      "left core scan 0": 2.9965288639068604,
+      "left core scan 1": 2.1088144779205322,
+      "left core scan 2": 0.48338666558265686,
+      "left core scan 3": 0.36653146147727966
+    },
+    "valve_degrees": 0.12179748074440121
+  },
+  {
+    "frame": 181,
+    "bus": 1,
+    "emission": {
+      "neon letter C": 5.5,
+      "neon letter E": 5.5,
+      "neon letter T": 5.5,
+      "mask slow red breath": 3.0999999046325684,
+      "mask weak wire breath": 0.4999999403953552,
+      "left red energy core": 3.299999952316284,
+      "counter canister red pulse": 2.5,
+      "existing tall core red pulse": 3.0999999046325684,
+      "left core scan 0": 3.0,
+      "left core scan 1": 2.0153491497039795,
+      "left core scan 2": 0.42215079069137573,
+      "left core scan 3": 0.42215079069137573
+    },
+    "valve_degrees": 0.0
+  }
+]

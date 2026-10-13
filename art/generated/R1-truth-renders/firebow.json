@@ -1,0 +1,221 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\wpn_t7_zmb_bow_rune_view.xmodel_bin",
+ "sha256": "6020bcae106e1f082bf17d59c962fd428260fa7082c9e10df31a422cfa25113d",
+ "triangles": 39722,
+ "materials": {
+  "mtl_wpn_t7_zmb_bow_base_missile": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_base_missile",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_missile_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune_missile": {
+   "resolved_as": "mtl_tod_fire_bow_rune_missile",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_c.png",
+   "tint": [
+    0.847059,
+    0.286305,
+    0.145098
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_storm_missile": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_storm_missile",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_storm_missile_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune_missile_fletching": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_rune_missile_fletching",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_missile_fletching_c.png",
+   "tint": [
+    0.139513,
+    0.221149,
+    0.635294
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune_handle": {
+   "resolved_as": "mtl_tod_fire_bow_rune_handle",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_handle_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_no_e": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_no_e",
+   "color_map": null,
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_bone": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_bone",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_bone_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune": {
+   "resolved_as": "mtl_tod_fire_bow_rune",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_demon_missile": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_demon_missile",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_demon_missile_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_storm_missile_fletching": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_storm_missile_fletching",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_storm_missile_fletching_c.png",
+   "tint": [
+    0.854902,
+    0.984649,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_base_missile_fletching": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_base_missile_fletching",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_base_missile_fletching_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_storm_crystals": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_storm_crystals",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_storm_crystals_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune_arches": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_rune_arches",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_arches_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_rune_rocks": {
+   "resolved_as": "mtl_tod_fire_bow_rune_rocks",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_rune_rocks_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_demon_missile_emblem": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_demon_missile_emblem",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_demon_missile_emblem_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_storm_missle_orb": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_storm_missle_orb",
+   "color_map": null,
+   "tint": [
+    0.760757,
+    0.764664,
+    0.764664
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_wolf_missile": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_wolf_missile",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_wolf_missile_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_wolf_missile_fletching": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_wolf_missile_fletching",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_wolf_missile_fletching_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_wolf_missile_gem": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_wolf_missile_gem",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_wolf_missile_gem_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t7_zmb_bow_demon_missile_fletching": {
+   "resolved_as": "mtl_wpn_t7_zmb_bow_demon_missile_fletching",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\black_ops_3\\wpn_t7_zmb_bow\\_images\\i_wpn_t7_zmb_bow_demon_missile_fletching_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 80.60417175292969,
+   "res": [
+    1240,
+    1600
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 75.64443969726562,
+   "res": [
+    876,
+    1200
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

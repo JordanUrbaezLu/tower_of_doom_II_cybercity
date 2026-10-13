@@ -1,0 +1,64 @@
+{
+  "revision": 3,
+  "blender": "5.2.1 LTS",
+  "sign_text": "BLACK MARKET",
+  "dead_letters": [],
+  "blinking_letters": [
+    "C",
+    "E",
+    "T"
+  ],
+  "steady_letters": [
+    "A",
+    "B",
+    "K",
+    "L",
+    "M",
+    "R"
+  ],
+  "sign_materials": [
+    "neon letter C",
+    "neon letter E",
+    "neon letter T",
+    "neon word BLACK",
+    "neon word MARKET"
+  ],
+  "mask_range": [
+    0.08,
+    3.1
+  ],
+  "mask_independent_of_faults": true,
+  "shared_power_faults_checked": true,
+  "valve_travel_degrees": 100.0000005060238,
+  "hands_bounds": [
+    [
+      -17.65399742126465,
+      -1.091998815536499,
+      22.46000099182129
+    ],
+    [
+      17.65399932861328,
+      2.9119977951049805,
+      28.79599952697754
+    ]
+  ],
+  "vendor_bounds": [
+    [
+      -20.07187843322754,
+      -11.748560905456543,
+      11.90000057220459
+    ],
+    [
+      20.02012825012207,
+      10.049774169921875,
+      76.12779998779297
+    ]
+  ],
+  "off_emission_zero": true,
+  "off_vendor_absent": true,
+  "off_pressure_at_rest": true,
+  "loop_seams": true,
+  "native_exported": false,
+  "native_playtested": false,
+  "game_launched": false
+}

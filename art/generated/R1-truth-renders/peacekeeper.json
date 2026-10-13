@@ -1,0 +1,80 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\vm_apex_peacekeeper.XMODEL_BIN",
+ "sha256": "9e1ea9946d529e848f807f0ad1666d47c1410e690a41c79c68aabdad0f8e0615",
+ "triangles": 19246,
+ "materials": {
+  "mtl_apex_peacekeeper": {
+   "resolved_as": "mtl_tod_bra_pk",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_peacekeeper_skin32_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_apex_peacekeeper_skin32_camo": {
+   "resolved_as": "mtl_tod_bra_pk",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_peacekeeper_skin32_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_apex_peacekeeper_skin32": {
+   "resolved_as": "mtl_tod_bra_pk",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\apex\\i_apex_peacekeeper_skin32_c.tif",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [],
+ "rot": [
+  [
+   "X",
+   -90
+  ],
+  [
+   "Z",
+   90
+  ],
+  [
+   "Y",
+   180
+  ],
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 41.45964813232422,
+   "res": [
+    1600,
+    384
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 37.36228942871094,
+   "res": [
+    1200,
+    264
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}

@@ -1,0 +1,144 @@
+{
+ "binary": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\wpn_t9_crossbow_view.XMODEL_BIN",
+ "sha256": "c913c67cb3cd939f085294c2bbf7fb694642834f4c9d5a6e5c917d425d952249",
+ "triangles": 44042,
+ "materials": {
+  "mtl_wpn_t9_special_crossbow_front": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_front",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_front_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t9_special_crossbow_middle": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_middle",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_middle_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t9_special_crossbow_bow": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_bow",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_bow_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t9_special_crossbow_stock": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_stock",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_stock_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t9_special_crossbow_chin_pad": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_chin_pad",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_chin_pad_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "mtl_wpn_t9_special_crossbow_top": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_top",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_top_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "xmaterial_40797aef8606b9c": {
+   "resolved_as": "xmaterial_40797aef8606b9c",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\ximage_abfcdb86ce1e463.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "xmaterial_b0ada04d18c5f67": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_stock",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_stock_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "xmaterial_9e7355c83b577da": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_middle",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_middle_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "xmaterial_e405fc62475273b": {
+   "resolved_as": "global_invisible",
+   "color_map": null,
+   "tint": null
+  },
+  "xmaterial_e4060c6247528ee": {
+   "resolved_as": "global_invisible",
+   "color_map": null,
+   "tint": null
+  },
+  "xmaterial_5bdca061a384c6d": {
+   "resolved_as": "mtl_wpn_t9_special_crossbow_bow",
+   "color_map": "C:\\BO3Tools\\TOD2Cybercity\\model_export\\hb\\crossbow\\t9_wpn_ports\\t9_crossbow\\images\\i_wpn_t9_special_crossbow_bow_c.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ },
+ "untextured": [
+  "xmaterial_e405fc62475273b",
+  "xmaterial_e4060c6247528ee"
+ ],
+ "rot": [
+  [
+   "Z",
+   180
+  ]
+ ],
+ "views": {
+  "side": {
+   "dir": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ortho_scale": 37.080474853515625,
+   "res": [
+    1600,
+    352
+   ]
+  },
+  "34": {
+   "dir": [
+    0.45226532220840454,
+    -0.8223005533218384,
+    -0.3453662097454071
+   ],
+   "ortho_scale": 33.593711853027344,
+   "res": [
+    1200,
+    356
+   ]
+  }
+ },
+ "type": "Blender (Cycles, CPU) render of the native source binary and its resolved colour maps; not an in-game screenshot"
+}
